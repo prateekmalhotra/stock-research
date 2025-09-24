@@ -1,0 +1,25 @@
+[project]
+name = "stock-research"
+version = "0.1.0"
+description = "pipeline for good ideas"
+authors = [
+    {name = "Prateek Malhotra",email = "prateekdbst@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "praw (>=7.8.1,<8.0.0)",
+    "rich (>=14.1.0,<15.0.0)",
+    "google-genai (>=1.38.0,<2.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "bs4 (>=0.0.2,<0.0.3)",
+    "gspread (>=6.2.1,<7.0.0)",
+    "google-api-python-client (>=2.183.0,<3.0.0)",
+    "google-auth-httplib2 (>=0.2.0,<0.3.0)",
+    "google-auth-oauthlib (>=1.2.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
