@@ -507,67 +507,65 @@ def authenticate_google_sheets_sa():
         return None
 
 
-def write_to_google_sheet(data_to_write, sheet_name):
+def write_to_google_sheet(data_to_write, sheet_name, worksheet_name="Sheet1"):
     client = None
-    
     if os.getenv("GITHUB_ACTIONS") == "true":
         client = authenticate_google_sheets_sa()
     else:
         creds = authenticate_google_sheets_oauth()
         if creds:
             client = gspread.authorize(creds)
-    
+
     if not client:
         console.log("[bold red]Authentication failed. Cannot get gspread client.[/bold red]")
         return
 
-    console.log(f"Attempting to write to Google Sheet: '{sheet_name}'...")
+    console.log(f"Attempting to write to Google Sheet: '{sheet_name}', Worksheet: '{worksheet_name}'...")
     try:
         try:
             spreadsheet = client.open(sheet_name)
         except gspread.exceptions.SpreadsheetNotFound:
-            console.log(f"Sheet '{sheet_name}' not found. Creating a new one...")
+            console.log(f"Spreadsheet '{sheet_name}' not found. Creating a new one...")
             spreadsheet = client.create(sheet_name)
             try:
-                if os.getenv("GITHUB_ACTIONS") == "true":
-                     console.log("Service Account cannot share. Please check Google Cloud Console for sheet.")
-                else:
+                if not os.getenv("GITHUB_ACTIONS") == "true":
                     pass
             except Exception as e:
-                 console.log(f"[bold yellow]Could not auto-share new sheet:[/bold yellow] {e}")
-            
-        sheet = spreadsheet.sheet1
-        
-        # Get all tickers currently in the sheet (Column 1)
+                console.log(f"[bold yellow]Could not auto-share new sheet:[/bold yellow] {e}")
+
+        try:
+            sheet = spreadsheet.worksheet(worksheet_name)
+            console.log(f"Found existing worksheet '{worksheet_name}'.")
+        except gspread.exceptions.WorksheetNotFound:
+            console.log(f"Worksheet '{worksheet_name}' not found. Creating a new one...")
+            sheet = spreadsheet.add_worksheet(title=worksheet_name, rows="1000", cols="20")
+
         existing_tickers = set(sheet.col_values(1))
-        console.log(f"Found {len(existing_tickers)} existing tickers in '{sheet_name}'.")
+        console.log(f"Found {len(existing_tickers)} existing tickers in '{worksheet_name}'.")
 
         header_row = data_to_write[0]
         data_rows = data_to_write[1:]
-        
         rows_to_append = []
-        
-        if "Ticker" not in existing_tickers:
+
+        if not existing_tickers or "Ticker" not in existing_tickers:
             rows_to_append.append(header_row)
 
         new_tickers_added_count = 0
         for row in data_rows:
             ticker = row[0]
-            # Only append the row if the ticker is not already in the sheet
             if ticker not in existing_tickers:
                 rows_to_append.append(row)
                 new_tickers_added_count += 1
-        
+
         if rows_to_append:
             sheet.append_rows(rows_to_append, value_input_option='USER_ENTERED')
-            
             if new_tickers_added_count > 0:
-                console.log(f"[bold green]Successfully added {new_tickers_added_count} new tickers to '{sheet_name}'.[/bold green]")
+                console.log(f"[bold green]Successfully added {new_tickers_added_count} new tickers to '{worksheet_name}'.[/bold green]")
             else:
-                console.log(f"[bold green]Successfully initialized sheet '{sheet_name}' with header.[/bold green]")
+                console.log(f"[bold green]Successfully initialized worksheet '{worksheet_name}' with header.[/bold green]")
         else:
-            console.log("[bold yellow]No new tickers found. Sheet is already up-to-date.[/bold yellow]")
-        
+            console.log(f"[bold yellow]No new tickers found. Worksheet '{worksheet_name}' is already up-to-date.[/bold yellow]")
+
     except Exception as e:
         console.log(f"[bold red]An unexpected error occurred while writing to the sheet:[/bold red] {e}")
 
@@ -648,65 +646,17 @@ def get_all_13f_holdings(urls):
 
 def get_more_hedge_funds_tickers():
     hedge_funds = [
-        "https://fintel.io/i/180-degree-capital-corp.",
-        "https://fintel.io/i/ancora-advisors-llc",
-        "https://fintel.io/i/ariel-investments-llc",
-        "https://fintel.io/i/ashford-capital-management-inc",
-        "https://fintel.io/i/ativo-capital-management-llc",
-        "https://fintel.io/i/barington-capital-group-l-p-",
-        "https://fintel.io/i/bradley-foster-sargent-inc-ct",
-        "https://fintel.io/i/bulldog-investors-llp",
+        "https://fintel.io/i/wynnefield-capital",
+        "https://fintel.io/i/roumell-asset-management-llc",
+        "https://fintel.io/i/osmium-partners-llc",
+        "https://fintel.io/i/bulldog-investors-llc",
         "https://fintel.io/i/cannell-capital-llc",
-        "https://fintel.io/i/corvex-management-lp",
-        "https://fintel.io/i/cruiser-capital-advisors-llc",
-        "https://fintel.io/i/dalton-investments-llc",
-        "https://fintel.io/i/disciplined-growth-investors-inc-mn",
-        "https://fintel.io/i/elk-creek-partners-llc",
-        "https://fintel.io/i/elliott-investment-management-l-p",
-        "https://fintel.io/i/elliott-investment-management-l-p-",
-        "https://fintel.io/i/engine-no-1-llc",
-        "https://fintel.io/i/geneva-capital-management-llc",
-        "https://fintel.io/i/granahan-investment-management-inc-ma",
-        "https://fintel.io/i/gw-k-investment-management-llc",
-        "https://fintel.io/i/heartland-advisors-inc",
-        "https://fintel.io/i/hennessy-funds-trust-hennessy-small-cap-financial-fund-investor-class",
-        "https://fintel.io/i/hodges-capital-management",
-        "https://fintel.io/i/insight-capital-research-management-inc",
-        "https://fintel.io/i/ironwood-investment-management-llc",
-        "https://fintel.io/i/jana-partners-llc",
-        "https://fintel.io/i/kayne-anderson-rudnick-investment-management-llc",
-        "https://fintel.io/i/kennedy-capital-management-inc-",
-        "https://fintel.io/i/legion-partners-asset-management-llc",
-        "https://fintel.io/i/lord-abbett-co-llc",
-        "https://fintel.io/i/macellum-advisors-gp-llc",
-        "https://fintel.io/i/manatuck-hill-partners-llc",
-        "https://fintel.io/i/mudrick-capital-management-l-p-",
-        "https://fintel.io/i/northern-right-capital-management",
-        "https://fintel.io/i/northern-right-capital-management-l-p-",
-        "https://fintel.io/i/pacific-ridge-capital-partners-llc",
-        "https://fintel.io/i/palisade-capital-management-llc-nj",
-        "https://fintel.io/i/permian-investment-partners-lp",
-        "https://fintel.io/i/perritt-capital-management-inc",
-        "https://fintel.io/i/quarz-capital-management-ltd-",
-        "https://fintel.io/i/ranger-investment-management-l-p-",
-        "https://fintel.io/i/rice-hall-james-associates-llc",
-        "https://fintel.io/i/rmb-capital-management-llc",
-        "https://fintel.io/i/sachem-head-capital-management-lp",
-        "https://fintel.io/i/select-equity-group",
-        "https://fintel.io/i/silvercrest-asset-management-group-llc",
-        "https://fintel.io/i/soroban-capital-partners-lp",
-        "https://fintel.io/i/stadium-capital-management-llc",
-        "https://fintel.io/i/starboard-value-lp",
-        "https://fintel.io/i/stephens-investment-management-group-llc",
-        "https://fintel.io/i/summit-creek-advisors-llc",
-        "https://fintel.io/i/third-point-llc",
-        "https://fintel.io/i/trian-fund-management-l-p-",
-        "https://fintel.io/i/tributary-capital-management-llc",
-        "https://fintel.io/i/valueact-holdings-l-p-",
-        "https://fintel.io/i/verdad-advisers-lp",
-        "https://fintel.io/i/viex-capital-advisors-llc",
-        "https://fintel.io/i/weatherbie-capital-llc",
-        "https://fintel.io/i/wynnefield-capital"
+        "https://fintel.io/i/chou-associates-management",
+        "https://fintel.io/i/greenhaven-associates",
+        "https://fintel.io/i/lafayette-investments",
+        "https://fintel.io/i/kahn-brothers-group-inc-de-",
+        "https://fintel.io/i/gagnon-securities-llc",
+        "https://fintel.io/i/teton-advisors"   
     ]
 
     return get_all_13f_holdings(hedge_funds)

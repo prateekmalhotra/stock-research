@@ -35,5 +35,6 @@ if __name__ == "__main__":
     
     utilities.write_to_google_sheet(
         data_to_write=sheet_data, 
-        sheet_name='step-i'
+        sheet_name='stock-research',
+        worksheet_name='step-i'
     )
