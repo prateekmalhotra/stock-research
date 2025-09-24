@@ -16,7 +16,8 @@ def fetch_all_data():
     all_tickers_lists = (
         utilities.get_reddit_tickers() +
         utilities.get_openinsider_tickers() +
-        utilities.get_dataroma_tickers()
+        utilities.get_dataroma_tickers() +
+        utilities.get_more_hedge_funds_tickers()
     )
     
     console.log(f"Fetched a total of {len(all_tickers_lists)} ticker entries.")

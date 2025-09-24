@@ -12,6 +12,7 @@ from google import genai
 from google.genai import types
 from rich.console import Console
 from rich.progress import Progress
+from rich.panel import Panel
 from dotenv import load_dotenv
 
 import re
@@ -569,3 +570,143 @@ def write_to_google_sheet(data_to_write, sheet_name):
         
     except Exception as e:
         console.log(f"[bold red]An unexpected error occurred while writing to the sheet:[/bold red] {e}")
+
+
+def get_all_13f_holdings(urls):
+    all_holdings = []
+    
+    for url in urls:
+        try:
+            source_name = url.strip('/').split('/')[-1].replace('_portfolio.php', '').replace('_', ' ').title()
+        except Exception:
+            source_name = "unknown"
+
+        console.print(Panel(f"[bold cyan]{source_name}[/bold cyan]", title="Scraping Fund", expand=False, border_style="blue"))
+        console.log(f"Attempting to scrape: {url}")
+
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+
+        current_url_holdings = []
+
+        try:
+            response = requests.get(url, headers=headers)
+            
+            if response.status_code == 200:
+                console.log("[green]Successfully fetched the webpage.[/green]")
+                
+                soup = BeautifulSoup(response.text, 'html.parser')
+                
+                table_body = soup.find('tbody', id='trans13f')
+                
+                if table_body:
+                    console.log("Found the holdings table ('tbody#trans13f').")
+                    
+                    for row in table_body.find_all('tr'):
+                        first_cell = row.find('td')
+                        
+                        if first_cell:
+                            ticker_link = first_cell.find('a')
+                            full_text = None
+                            
+                            if ticker_link:
+                                full_text = ticker_link.get_text(strip=True)
+                            else:
+                                full_text = first_cell.get_text(strip=True)
+                                
+                            if full_text:
+                                ticker = full_text.split()[0]
+                                
+                                holding_data = {
+                                    "ticker": ticker,
+                                    "source": source_name,
+                                    "url": url
+                                }
+                                current_url_holdings.append(holding_data)
+                    
+                    if current_url_holdings:
+                        console.print(f"[bold]Holdings found for this fund:[/bold] [cyan]{len(current_url_holdings)}[/cyan]\n")
+                    else:
+                        console.log("[yellow]Found the table, but could not extract any holdings.[/yellow]")
+                        console.log("[yellow]The page structure might have changed, or the table is empty.[/yellow]\n")
+
+                else:
+                    console.print("Error: Could not find the table body with id 'trans13f'.", style="bold red")
+                    console.print("The website structure may have changed, or the page didn't load correctly.\n", style="red")
+
+            else:
+                console.print(f"Error: Failed to retrieve the webpage. Status code: {response.status_code}\n", style="bold red")
+
+        except requests.exceptions.RequestException as e:
+            console.print(f"[bold red]A request error occurred for {url}:[/bold red] {e}\n")
+        
+        all_holdings.extend(current_url_holdings)
+
+    console.print(Panel(f"[bold]Total holdings found from all sources:[/bold] [green]{len(all_holdings)}[/green]", title="Scraping Complete", expand=False, border_style="green"))
+    return all_holdings
+
+def get_more_hedge_funds_tickers():
+    hedge_funds = [
+        "https://fintel.io/i/180-degree-capital-corp.",
+        "https://fintel.io/i/ancora-advisors-llc",
+        "https://fintel.io/i/ariel-investments-llc",
+        "https://fintel.io/i/ashford-capital-management-inc",
+        "https://fintel.io/i/ativo-capital-management-llc",
+        "https://fintel.io/i/barington-capital-group-l-p-",
+        "https://fintel.io/i/bradley-foster-sargent-inc-ct",
+        "https://fintel.io/i/bulldog-investors-llp",
+        "https://fintel.io/i/cannell-capital-llc",
+        "https://fintel.io/i/corvex-management-lp",
+        "https://fintel.io/i/cruiser-capital-advisors-llc",
+        "https://fintel.io/i/dalton-investments-llc",
+        "https://fintel.io/i/disciplined-growth-investors-inc-mn",
+        "https://fintel.io/i/elk-creek-partners-llc",
+        "https://fintel.io/i/elliott-investment-management-l-p",
+        "https://fintel.io/i/elliott-investment-management-l-p-",
+        "https://fintel.io/i/engine-no-1-llc",
+        "https://fintel.io/i/geneva-capital-management-llc",
+        "https://fintel.io/i/granahan-investment-management-inc-ma",
+        "https://fintel.io/i/gw-k-investment-management-llc",
+        "https://fintel.io/i/heartland-advisors-inc",
+        "https://fintel.io/i/hennessy-funds-trust-hennessy-small-cap-financial-fund-investor-class",
+        "https://fintel.io/i/hodges-capital-management",
+        "https://fintel.io/i/insight-capital-research-management-inc",
+        "https://fintel.io/i/ironwood-investment-management-llc",
+        "https://fintel.io/i/jana-partners-llc",
+        "https://fintel.io/i/kayne-anderson-rudnick-investment-management-llc",
+        "https://fintel.io/i/kennedy-capital-management-inc-",
+        "https://fintel.io/i/legion-partners-asset-management-llc",
+        "https://fintel.io/i/lord-abbett-co-llc",
+        "https://fintel.io/i/macellum-advisors-gp-llc",
+        "https://fintel.io/i/manatuck-hill-partners-llc",
+        "https://fintel.io/i/mudrick-capital-management-l-p-",
+        "https://fintel.io/i/northern-right-capital-management",
+        "https://fintel.io/i/northern-right-capital-management-l-p-",
+        "https://fintel.io/i/pacific-ridge-capital-partners-llc",
+        "https://fintel.io/i/palisade-capital-management-llc-nj",
+        "https://fintel.io/i/permian-investment-partners-lp",
+        "https://fintel.io/i/perritt-capital-management-inc",
+        "https://fintel.io/i/quarz-capital-management-ltd-",
+        "https://fintel.io/i/ranger-investment-management-l-p-",
+        "https://fintel.io/i/rice-hall-james-associates-llc",
+        "https://fintel.io/i/rmb-capital-management-llc",
+        "https://fintel.io/i/sachem-head-capital-management-lp",
+        "https://fintel.io/i/select-equity-group",
+        "https://fintel.io/i/silvercrest-asset-management-group-llc",
+        "https://fintel.io/i/soroban-capital-partners-lp",
+        "https://fintel.io/i/stadium-capital-management-llc",
+        "https://fintel.io/i/starboard-value-lp",
+        "https://fintel.io/i/stephens-investment-management-group-llc",
+        "https://fintel.io/i/summit-creek-advisors-llc",
+        "https://fintel.io/i/third-point-llc",
+        "https://fintel.io/i/trian-fund-management-l-p-",
+        "https://fintel.io/i/tributary-capital-management-llc",
+        "https://fintel.io/i/valueact-holdings-l-p-",
+        "https://fintel.io/i/verdad-advisers-lp",
+        "https://fintel.io/i/viex-capital-advisors-llc",
+        "https://fintel.io/i/weatherbie-capital-llc",
+        "https://fintel.io/i/wynnefield-capital"
+    ]
+
+    return get_all_13f_holdings(hedge_funds)
