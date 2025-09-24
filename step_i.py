@@ -14,8 +14,8 @@ def fetch_all_data():
     console.log("Fetching data from all sources...")
     
     all_tickers_lists = (
-        utilities.get_reddit_tickers()
-        utilities.get_openinsider_tickers()
+        utilities.get_reddit_tickers() +
+        utilities.get_openinsider_tickers() +
         utilities.get_dataroma_tickers()
     )
     
