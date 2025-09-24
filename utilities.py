@@ -486,25 +486,58 @@ def authenticate_google_sheets():
             token.write(creds.to_json())
     return creds
 
+
+def authenticate_google_sheets_sa():
+    """Authenticates using a Service Account from GitHub Secrets."""
+    console.log("Authenticating using Service Account (GitHub Actions)...")
+    try:
+        gcp_sa_key_content = os.getenv("GCP_SA_KEY")
+        if not gcp_sa_key_content:
+            raise ValueError("GCP_SA_KEY secret is not set in GitHub repository.")
+            
+        # The secret is stored as a string, so we must load it as JSON
+        gcp_sa_dict = json.loads(gcp_sa_key_content)
+        
+        # Use gspread's built-in function to authenticate from a dictionary
+        client = gspread.service_account_from_dict(gcp_sa_dict, scopes=SCOPES)
+        return client
+    except Exception as e:
+        console.log(f"[bold red]Service Account authentication failed:[/bold red] {e}")
+        return None
+
+
 def write_to_google_sheet(data_to_write, sheet_name):
-    creds = authenticate_google_sheets()
+    client = None
     
-    if not creds:
-        console.log("[bold red]Authentication failed. Cannot write to sheet.[/bold red]")
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        client = authenticate_google_sheets_sa()
+    else:
+        creds = authenticate_google_sheets_oauth()
+        if creds:
+            client = gspread.authorize(creds)
+    
+    if not client:
+        console.log("[bold red]Authentication failed. Cannot get gspread client.[/bold red]")
         return
 
     console.log(f"Attempting to write to Google Sheet: '{sheet_name}'...")
     try:
-        client = gspread.authorize(creds)
-        
         try:
             spreadsheet = client.open(sheet_name)
         except gspread.exceptions.SpreadsheetNotFound:
             console.log(f"Sheet '{sheet_name}' not found. Creating a new one...")
             spreadsheet = client.create(sheet_name)
-            console.log(f"New sheet '{sheet_name}' created.")
+            try:
+                if os.getenv("GITHUB_ACTIONS") == "true":
+                     console.log("Service Account cannot share. Please check Google Cloud Console for sheet.")
+                else:
+                    pass
+            except Exception as e:
+                 console.log(f"[bold yellow]Could not auto-share new sheet:[/bold yellow] {e}")
             
         sheet = spreadsheet.sheet1
+        
+        # Get all tickers currently in the sheet (Column 1)
         existing_tickers = set(sheet.col_values(1))
         console.log(f"Found {len(existing_tickers)} existing tickers in '{sheet_name}'.")
 
@@ -519,6 +552,7 @@ def write_to_google_sheet(data_to_write, sheet_name):
         new_tickers_added_count = 0
         for row in data_rows:
             ticker = row[0]
+            # Only append the row if the ticker is not already in the sheet
             if ticker not in existing_tickers:
                 rows_to_append.append(row)
                 new_tickers_added_count += 1
