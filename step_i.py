@@ -29,8 +29,6 @@ if __name__ == "__main__":
     merged_data = utilities.merge_ticker_data(raw_data)    
     sheet_data = utilities.prepare_data_for_sheet(merged_data)
     
-    console.rule("Final Data to be Uploaded")
-    rprint(sheet_data)
     console.rule()
     
     utilities.write_to_google_sheet(

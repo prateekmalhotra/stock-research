@@ -7,12 +7,13 @@
 import os
 import json
 import gspread
-from datetime import datetime, timedelta, UTC
+from datetime import datetime, timedelta, UTC, date
 from google import genai
 from google.genai import types
 from rich.console import Console
 from rich.progress import Progress
 from rich.panel import Panel
+from rich.table import Table
 from dotenv import load_dotenv
 
 import re
@@ -20,10 +21,17 @@ import requests
 import praw
 import praw.models
 from bs4 import BeautifulSoup
+from pydantic import BaseModel
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from google_auth_oauthlib.flow import InstalledAppFlow
 from urllib.parse import urljoin, urlparse, parse_qs
+
+import numpy as np
+import yfinance as yf
+from scipy.stats import linregress
+from gspread.utils import column_letter_to_index
+from google.genai.types import Tool, GenerateContentConfig
 
 load_dotenv()
 console = Console()
@@ -42,7 +50,7 @@ def call_llm(prompt, context, response_schema, output_format):
 
     try:
         response = client.models.generate_content(
-            model='gemini-2.5-flash',
+            model='gemini-2.5-flash-lite',
             contents=full_prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
@@ -660,3 +668,547 @@ def get_more_hedge_funds_tickers():
     ]
 
     return get_all_13f_holdings(hedge_funds)
+
+
+def get_step_i_tickers(sheet_name='stock-research', worksheet_name='step-i'):
+    client = None
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        console.log("Authenticating using Service Account (GHA)...")
+        client = authenticate_google_sheets_sa()
+    else:
+        console.log("Authenticating using OAuth (local)...")
+        creds = authenticate_google_sheets_oauth()
+        if creds:
+            client = gspread.authorize(creds)
+
+    if not client:
+        console.log("[bold red]Authentication failed. Cannot get gspread client.[/bold red]")
+        return []
+
+    console.log(f"Attempting to read from Google Sheet: '{sheet_name}', Worksheet: '{worksheet_name}'...")
+    try:
+        spreadsheet = client.open(sheet_name)
+        sheet = spreadsheet.worksheet(worksheet_name)
+        console.log("Successfully opened sheet and worksheet.")
+
+        header = sheet.row_values(1)
+        if not header:
+            console.log(f"[bold red]Worksheet '{worksheet_name}' appears to be empty.[/bold red]")
+            return []
+
+        if 'Ticker' not in header:
+            console.log(f"[bold red]'Ticker' column not found in '{worksheet_name}'.[/bold red]")
+            console.log(f"Found headers: {header}")
+            return []
+
+        ticker_col_index = header.index('Ticker') + 1
+        
+        tickers = sheet.col_values(ticker_col_index)
+        
+        if len(tickers) > 1:
+            ticker_list = tickers[1:]
+            console.log(f"[bold green]Successfully retrieved {len(ticker_list)} tickers.[/bold green]")
+            return ticker_list
+        else:
+            console.log(f"[bold yellow]Found 'Ticker' column, but it contains no data.[/bold yellow]")
+            return []
+
+    except SpreadsheetNotFound:
+        console.log(f"[bold red]Spreadsheet '{sheet_name}' not found.[/bold red]")
+        return []
+    except WorksheetNotFound:
+        console.log(f"[bold red]Worksheet '{worksheet_name}' not found in '{sheet_name}'.[/bold red]")
+        return []
+    except Exception as e:
+        console.log(f"[bold red]An unexpected error occurred while reading the sheet:[/bold red] {e}")
+        return []
+
+def get_step_ii_tickers(sheet_name='stock-research', worksheet_name='step-ii'):
+    client = None
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        console.log("Authenticating using Service Account (GHA)...")
+        client = authenticate_google_sheets_sa()
+    else:
+        console.log("Authenticating using OAuth (local)...")
+        creds = authenticate_google_sheets_oauth()
+        if creds:
+            client = gspread.authorize(creds)
+
+    if not client:
+        console.log("[bold red]Authentication failed. Cannot get gspread client.[/bold red]")
+        return []
+
+    console.log(f"Attempting to read from Google Sheet: '{sheet_name}', Worksheet: '{worksheet_name}'...")
+    try:
+        spreadsheet = client.open(sheet_name)
+        sheet = spreadsheet.worksheet(worksheet_name)
+        console.log("Successfully opened sheet and worksheet.")
+
+        all_data = sheet.get_all_values()
+        if not all_data or len(all_data) < 2:
+            console.log(f"[bold yellow]Worksheet '{worksheet_name}' is empty or has no data rows.[/bold yellow]")
+            return []
+
+        header = all_data[0]
+        if 'Ticker' not in header or 'Last Updated' not in header:
+            console.log(f"[bold red]'Ticker' or 'Last Updated' column not found in '{worksheet_name}'.[/bold red]")
+            return []
+
+        ticker_col_index = header.index('Ticker')
+        last_updated_col_index = header.index('Last Updated')
+        three_months_ago = datetime.now() - timedelta(days=90)
+        
+        recent_tickers = []
+        for row in all_data[1:]:
+            last_updated_str = row[last_updated_col_index]
+            ticker = row[ticker_col_index]
+            if not last_updated_str:
+                continue
+            
+            try:
+                last_updated_date = datetime.strptime(last_updated_str, "%Y-%m-%d")
+                if last_updated_date >= three_months_ago:
+                    recent_tickers.append(ticker)
+            except (ValueError, TypeError):
+                continue
+
+        console.log(f"[bold green]Found {len(recent_tickers)} tickers updated within the last 3 months.[/bold green]")
+        return recent_tickers
+
+    except SpreadsheetNotFound:
+        console.log(f"[bold red]Spreadsheet '{sheet_name}' not found.[/bold red]")
+        return []
+    except WorksheetNotFound:
+        console.log(f"[bold red]Worksheet '{worksheet_name}' not found in '{sheet_name}'.[/bold red]")
+        return []
+    except Exception as e:
+        console.log(f"[bold red]An unexpected error occurred while reading the sheet:[/bold red] {e}")
+        return []
+
+
+def format_large_number(num):
+    """Formats a large number into a human-readable string (e.g., 1.2B, 345.6M)."""
+    if num is None or not isinstance(num, (int, float)):
+        return "N/A"
+    if abs(num) >= 1_000_000_000_000:
+        return f"{num / 1_000_000_000_000:.1f}T"
+    if abs(num) >= 1_000_000_000:
+        return f"{num / 1_000_000_000:.1f}B"
+    elif abs(num) >= 1_000_000:
+        return f"{num / 1_000_000:.1f}M"
+    elif abs(num) >= 1_000:
+        return f"{num / 1_000:.1f}K"
+    else:
+        return str(num)
+
+
+def get_market_stats(ticker):
+    console.log(f"Fetching market stats for [bold cyan]{ticker}[/bold cyan]...")
+    try:
+        stock = yf.Ticker(ticker)
+        info = stock.info
+
+        quote_type = info.get("quoteType")
+        if quote_type == 'ETF':
+            console.log(f"[bold yellow]Skipping ETF:[/bold yellow] Ticker [bold cyan]{ticker}[/bold cyan] is an ETF.")
+            return None
+
+        stats_data = {
+            "market_cap": info.get("marketCap"),
+            "shares_outstanding": info.get("sharesOutstanding"),
+            "float_shares": info.get("floatShares")
+        }
+
+        if stats_data["market_cap"] is None:
+            console.log(f"[bold red]Market data not available for {ticker}[/bold red]")
+            return None
+
+        stats_table = Table(show_header=False, box=None, padding=(0, 1))
+        stats_table.add_column(style="bold magenta", width=20)
+        stats_table.add_column(justify="right")
+
+        # Use the helper function to format the numbers
+        if stats_data["market_cap"]:
+            stats_table.add_row("Market Cap", f"${format_large_number(stats_data['market_cap'])}")
+        if stats_data["shares_outstanding"]:
+            stats_table.add_row("Shares Outstanding", format_large_number(stats_data['shares_outstanding']))
+        if stats_data["float_shares"]:
+            stats_table.add_row("Float Shares", format_large_number(stats_data['float_shares']))
+
+        console.print(
+            Panel.fit(
+                stats_table,
+                title=f"[bold green]Market Stats for {ticker}[/bold green]",
+                border_style="blue"
+            )
+        )
+
+        return stats_data
+
+    except Exception as e:
+        console.log(f"[bold red]Error fetching data for {ticker}: {e}[/bold red]")
+        return None
+
+
+def get_insider_buying(ticker: str):
+    url = f"http://openinsider.com/{ticker.upper()}"
+    console.log(f"Fetching insider data for [bold cyan]{ticker.upper()}[/] from {url}")
+
+    try:
+        # Set a user-agent to mimic a browser
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status() # Will raise an exception for bad status codes (4xx or 5xx)
+
+        soup = BeautifulSoup(response.content, 'html.parser')
+
+        # Find the main data table
+        table = soup.find('table', class_='tinytable')
+        if not table:
+            console.log(f"[yellow]Could not find insider trading table for {ticker}.[/yellow]")
+            return json.dumps({"trend": "no transactions"}, indent=4)
+
+        buy_count = 0
+        sell_count = 0
+
+        # Iterate through table rows, skipping the header
+        for row in table.find_all('tr')[1:]:
+            cols = row.find_all('td')
+            # Ensure the row has enough columns
+            if len(cols) > 6:
+                trade_type = cols[6].text.strip()
+                if trade_type == 'P - Purchase':
+                    buy_count += 1
+                elif trade_type == 'S - Sale':
+                    sell_count += 1
+        
+        net_buys = buy_count - sell_count
+        console.log(f"Transaction summary for [bold cyan]{ticker}[/]: Buys: {buy_count}, Sells: {sell_count}, Net: {net_buys}")
+
+        # Determine the trend based on net buys
+        if net_buys >= 3:
+            trend = "heavy buying"
+        elif 0 < net_buys < 3:
+            trend = "buying"
+        else: # This covers net_buys <= 0
+            trend = "selling"
+        
+        # Override to "no transactions" if both are zero
+        if buy_count == 0 and sell_count == 0:
+            trend = "no transactions"
+            
+        return json.dumps({"trend": trend}, indent=4)
+
+    except requests.exceptions.RequestException as e:
+        console.log(f"[bold red]An error occurred for {ticker}: {e}[/bold red]")
+        return json.dumps({"trend": "no transactions"}, indent=4)
+
+def get_share_buybacks(ticker: str):
+    url = f"https://stockanalysis.com/stocks/{ticker}/statistics/"
+    console.log(f"Attempting to fetch buyback yield for [bold cyan]{ticker.upper()}[/]")
+
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.content, 'html.parser')
+        
+        # Find all tables on the page
+        tables = soup.find_all('table')
+        
+        for table in tables:
+            rows = table.find_all('tr')
+            for row in rows:
+                cells = row.find_all('td')
+                if len(cells) > 1 and "Buyback Yield" in cells[0].get_text():
+                    buyback_value = cells[1].get_text(strip=True)
+                    console.log(f"[bold green]Success:[/bold green] Found buyback yield for [bold cyan]{ticker.upper()}[/]: [yellow]{buyback_value}[/yellow]")
+                    return buyback_value
+        
+        console.log(f"[bold red]Error:[/bold red] Could not find 'Buyback Yield' for ticker '{ticker}'. It might not be available.")
+        return None
+
+    except requests.exceptions.RequestException as e:
+        console.print(f"[bold red]Request Error for {ticker.upper()}:[/bold red] {e}")
+        return None
+    except Exception as e:
+        console.print(f"[bold red]An unexpected error occurred for {ticker.upper()}:[/bold red] {e}")
+        return None
+
+def get_superinvestor_interest(ticker: str):
+    url = f"https://www.dataroma.com/m/stock.php?sym={ticker.upper()}"
+    console.log(f"Fetching data for [bold cyan]{ticker.upper()}[/] from Dataroma")
+
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.content, 'html.parser')
+        
+        main_table = soup.find('table', {'id': 'grid'})
+
+        if main_table:
+            table_body = main_table.find('tbody')
+            if table_body:
+                rows = table_body.find_all('tr')
+                row_count = len(rows)
+                console.log(f"[bold green]Success:[/bold green] Found {row_count} portfolio managers holding [bold cyan]{ticker.upper()}[/].")
+                return row_count
+        
+        console.log(f"[bold yellow]Note:[/bold yellow] No holdings table found for ticker '{ticker}'. The ticker may be invalid or have no managers tracking it.")
+        return 0
+
+    except requests.exceptions.RequestException as e:
+        console.print(f"[bold red]Request Error for {ticker.upper()}:[/bold red] {e}")
+        return None
+    except Exception as e:
+        console.print(f"[bold red]An unexpected error occurred for {ticker.upper()}:[/bold red] {e}")
+        return None
+
+
+def get_company_description(ticker):
+    console.log(f"Fetching company profile for [bold cyan]{ticker}[/bold cyan]...")
+    try:
+        stock = yf.Ticker(ticker)
+        info = stock.info
+
+        profile_data = {
+            "description": info.get('longBusinessSummary'),
+            "sector": info.get('sector'),
+            "industry": info.get('industry'),
+            "employees": info.get('fullTimeEmployees')
+        }
+        
+        console.log(f"[bold green]Successfully built profile for {ticker}.[/bold green]")
+        return profile_data
+            
+    except Exception as e:
+        console.log(f"[bold red]An error occurred for {ticker}: {e}[/bold red]")
+        return None
+
+def get_ticker_step_ii_info(ticker: str):
+    console.rule(f"[bold blue]Processing Ticker: {ticker.upper()}[/bold blue]")
+
+    try:
+        market_stats = get_market_stats(ticker)
+        if market_stats is None:
+            console.log(f"[bold yellow]Skipping {ticker.upper()} because market stats are absent.[/bold yellow]")
+            return None
+
+    except Exception as e:
+        console.log(f"[bold red]Error in get_market_stats for {ticker}: {e}[/bold red]")
+        return None
+
+    try:
+        insider_buying_json = get_insider_buying(ticker)
+    except Exception as e:
+        console.log(f"[bold red]Error in get_insider_buying for {ticker}: {e}[/bold red]")
+        insider_buying_json = None
+
+    try:
+        share_buybacks = get_share_buybacks(ticker)
+    except Exception as e:
+        console.log(f"[bold red]Error in get_share_buybacks for {ticker}: {e}[/bold red]")
+        share_buybacks = None
+
+    try:
+        superinvestor_interest = get_superinvestor_interest(ticker)
+    except Exception as e:
+        console.log(f"[bold red]Error in get_superinvestor_interest for {ticker}: {e}[/bold red]")
+        superinvestor_interest = None
+
+    try:
+        company_profile = get_company_description(ticker)
+    except Exception as e:
+        console.log(f"[bold red]Error in get_company_description for {ticker}: {e}[/bold red]")
+        company_profile = None
+
+    def safe_json_get(json_string, key):
+        if not json_string:
+            return "N/A"
+        try:
+            data = json.loads(json_string)
+            return data.get(key, "N/A")
+        except (json.JSONDecodeError, TypeError):
+            return "JSON Error"
+
+    ins_trend = safe_json_get(insider_buying_json, 'trend')
+    buyback_yield_str = share_buybacks if share_buybacks is not None else '0%'
+    superinvestor_count = superinvestor_interest if superinvestor_interest is not None else 0
+
+    trend_score_map_insider = {
+        'heavy buying': 2, 'buying': 1, 'selling': 0, 'no transactions': 0
+    }
+
+    def score_share_buybacks(yield_str):
+        if not isinstance(yield_str, str) or '%' not in yield_str:
+            return 0
+        try:
+            yield_val = float(yield_str.replace('%', ''))
+            if yield_val > 5: return 2
+            if 0 < yield_val <= 5: return 1
+            return 0
+        except (ValueError, TypeError):
+            return 0
+
+    ins_score = trend_score_map_insider.get(ins_trend, 0)
+    buyback_score = score_share_buybacks(buyback_yield_str)
+    superinvestor_score = 1 if int(superinvestor_count) > 0 else 0
+
+    total_score = ins_score + buyback_score + superinvestor_score
+
+    flat_data = {
+        'Ticker': ticker.upper(),
+        'Market Cap': format_large_number(market_stats.get('market_cap', 'N/A')) if market_stats else 'N/A',
+        'Shares Outstanding': format_large_number(market_stats.get('shares_outstanding', 'N/A')) if market_stats else 'N/A',
+        'Float Shares': format_large_number(market_stats.get('float_shares', 'N/A')) if market_stats else 'N/A',
+        'Insider Buying Trend': ins_trend,
+        'Share Buyback Yield': buyback_yield_str,
+        'Superinvestor Count': superinvestor_count,
+        'Total Score': total_score,
+        'Description': company_profile.get('description', 'N/A') if company_profile else 'N/A',
+        'Sector': company_profile.get('sector', 'N/A') if company_profile else 'N/A',
+        'Industry': company_profile.get('industry', 'N/A') if company_profile else 'N/A',
+        'Employees': company_profile.get('employees', 'N/A') if company_profile else 'N/A',
+        'Last Updated': date.today().strftime("%Y-%m-%d"),
+    }
+    
+    return flat_data
+
+def prepare_data_step_ii(list_of_ticker_data):
+    console.log("Preparing data for Google Sheets...")
+
+    if not list_of_ticker_data:
+        console.log("[yellow]Warning: No ticker data provided to prepare.[/yellow]")
+        return []
+
+    header = [
+        'Ticker', 'Market Cap', 'Shares Outstanding', 'Float Shares',
+        'Institutional Buying Trend', 'Insider Buying Trend', 'Share Buyback Yield', 'Superinvestor Count',
+        'Total Score', 'Description', 'Sector', 'Industry', 'Employees', 'Last Updated'
+    ]
+    
+    data_for_sheet = [header]
+    
+    for ticker_data in list_of_ticker_data:
+        row = [ticker_data.get(h, "N/A") for h in header]
+        data_for_sheet.append(row)
+        
+    console.log(f"[green]Successfully prepared {len(list_of_ticker_data)} rows for the sheet.[/green]")
+    return data_for_sheet
+
+def write_to_google_sheet_ii(data_to_write, sheet_name, worksheet_name="Sheet1"):
+    client = None
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        client = authenticate_google_sheets_sa()
+    else:
+        creds = authenticate_google_sheets_oauth()
+        if creds:
+            client = gspread.authorize(creds)
+
+    if not client:
+        console.log("[bold red]Authentication failed. Cannot get gspread client.[/bold red]")
+        return
+    
+    if not data_to_write:
+        console.log("[bold red]No data provided to write. Aborting.[/bold red]")
+        return
+
+    console.log(f"Attempting smart write to Google Sheet: '{sheet_name}', Worksheet: '{worksheet_name}'...")
+    try:
+        try:
+            spreadsheet = client.open(sheet_name)
+        except gspread.exceptions.SpreadsheetNotFound:
+            console.log(f"Spreadsheet '{sheet_name}' not found. Aborting process.")
+            return
+
+        header = data_to_write[0]
+        data_rows = data_to_write[1:]
+
+        try:
+            sheet = spreadsheet.worksheet(worksheet_name)
+            console.log(f"Found existing worksheet: '{worksheet_name}'.")
+            all_sheet_data = sheet.get_all_values()
+
+            if not all_sheet_data or "Ticker" not in all_sheet_data[0]:
+                console.log("[bold yellow]Existing worksheet is empty or has an invalid header. Re-initializing...[/bold yellow]")
+                sheet.clear()
+                sheet.append_row(header, value_input_option='USER_ENTERED')
+                if data_rows:
+                    sheet.append_rows(data_rows, value_input_option='USER_ENTERED')
+                console.log(f"[bold green]Successfully re-initialized sheet with {len(data_to_write)} rows.[/bold green]")
+            
+            else:
+                console.log("Worksheet is valid. Running update/append logic...")
+                existing_header = all_sheet_data[0]
+                try:
+                    ticker_col_index = existing_header.index("Ticker")
+                    last_updated_col_index = existing_header.index("Last Updated")
+                except ValueError as e:
+                    console.log(f"[bold red]Missing a required column in the header: {e}. Aborting update.[/bold red]")
+                    return
+
+                existing_tickers_map = {
+                    row[ticker_col_index]: {"row_index": i + 2, "last_updated": row[last_updated_col_index]}
+                    for i, row in enumerate(all_sheet_data[1:]) if len(row) > max(ticker_col_index, last_updated_col_index)
+                }
+
+                rows_to_append = []
+                updates_for_batch = []
+                three_months_ago = datetime.now() - timedelta(days=90)
+                
+                new_ticker_idx = header.index("Ticker")
+
+                for row_data in data_rows:
+                    ticker = row_data[new_ticker_idx]
+                    if ticker not in existing_tickers_map:
+                        rows_to_append.append(row_data)
+                    else:
+                        existing_entry = existing_tickers_map[ticker]
+                        should_update = False
+                        try:
+                            last_updated_date = datetime.strptime(existing_entry["last_updated"], "%Y-%m-%d")
+                            if last_updated_date < three_months_ago:
+                                should_update = True
+                        except (ValueError, TypeError):
+                            should_update = True
+                        
+                        if should_update:
+                            update_range = f"A{existing_entry['row_index']}"
+                            updates_for_batch.append({"range": update_range, "values": [row_data]})
+
+                if rows_to_append:
+                    sheet.append_rows(rows_to_append, value_input_option='USER_ENTERED')
+                    console.log(f"[bold green]Successfully appended {len(rows_to_append)} new tickers.[/bold green]")
+                else:
+                    console.log("[bold yellow]No new tickers to append.[/bold yellow]")
+
+                if updates_for_batch:
+                    sheet.batch_update(updates_for_batch, value_input_option='USER_ENTERED')
+                    console.log(f"[bold green]Successfully updated {len(updates_for_batch)} stale tickers.[/bold green]")
+                else:
+                    console.log("[bold yellow]No stale tickers required an update.[/bold yellow]")
+
+        except gspread.exceptions.WorksheetNotFound:
+            console.log(f"Worksheet '{worksheet_name}' not found. Creating and initializing...")
+            sheet = spreadsheet.add_worksheet(title=worksheet_name, rows=len(data_to_write) + 100, cols=len(header))
+
+            console.log(f"Writing new header to '{worksheet_name}'...")
+            sheet.append_row(header, value_input_option='USER_ENTERED')
+            
+            if data_rows:
+                console.log(f"Appending {len(data_rows)} data rows...")
+                sheet.append_rows(data_rows, value_input_option='USER_ENTERED')
+            
+            console.log(f"[bold green]Successfully created and populated new sheet.[/bold green]")
+
+    except Exception as e:
+        console.log(f"[bold red]An unexpected error occurred while processing the sheet:[/bold red] {e}")
