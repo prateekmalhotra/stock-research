@@ -3,8 +3,6 @@
 # - Market cap
 # - Insider buying
 # - Share buybacks
-# - Insider ownership %
-# - Institutional investors buying in
 # - Superinvestors buying in
 # - Simple elevator pitch of what the company does
 

@@ -26,7 +26,7 @@ jobs:
       run: |
         poetry install --no-root
 
-    - name: Run Python script
+    - name: Run Python scripts
       env:
         GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
         REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
@@ -36,3 +36,5 @@ jobs:
         GITHUB_ACTIONS: "true"
       run: |
         poetry run python -B step_i.py
+        sleep 10
+        poetry run python -B step_ii.py

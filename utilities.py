@@ -5,6 +5,7 @@
 # - Website contexts
 
 import os
+import sys
 import json
 import gspread
 from datetime import datetime, timedelta, UTC, date
@@ -14,6 +15,7 @@ from rich.console import Console
 from rich.progress import Progress
 from rich.panel import Panel
 from rich.table import Table
+from rich.text import Text
 from dotenv import load_dotenv
 
 import re
@@ -32,6 +34,8 @@ import yfinance as yf
 from scipy.stats import linregress
 from gspread.utils import column_letter_to_index
 from google.genai.types import Tool, GenerateContentConfig
+
+from requests.exceptions import RequestException, ReadTimeout
 
 load_dotenv()
 console = Console()
@@ -899,44 +903,72 @@ def get_insider_buying(ticker: str):
             
         return json.dumps({"trend": trend}, indent=4)
 
-    except requests.exceptions.RequestException as e:
-        console.log(f"[bold red]An error occurred for {ticker}: {e}[/bold red]")
+    except ReadTimeout:
+        console.log(f"[bold red]Fatal request error for {ticker.upper()}: Read timed out.[/bold red]")
+        console.log("[bold red]This is a critical network issue. Terminating script as requested.[/bold red]")
+        sys.exit(1)
+    except RequestException as e:
+        console.log(f"[bold red]A non-fatal request error occurred for {ticker}: {e}[/bold red]")
         return json.dumps({"trend": "no transactions"}, indent=4)
 
-def get_share_buybacks(ticker: str):
-    url = f"https://stockanalysis.com/stocks/{ticker}/statistics/"
-    console.log(f"Attempting to fetch buyback yield for [bold cyan]{ticker.upper()}[/]")
 
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
+def get_share_buybacks(ticker_symbol: str):
+    if not ticker_symbol:
+        console.log("[bold red]Error: Ticker symbol cannot be empty.[/bold red]")
+        return None
 
     try:
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()
+        console.log(f"Fetching share history for [cyan]{ticker_symbol}[/cyan]...")
+        stock = yf.Ticker(ticker_symbol)
 
-        soup = BeautifulSoup(response.content, 'html.parser')
-        
-        # Find all tables on the page
-        tables = soup.find_all('table')
-        
-        for table in tables:
-            rows = table.find_all('tr')
-            for row in rows:
-                cells = row.find_all('td')
-                if len(cells) > 1 and "Buyback Yield" in cells[0].get_text():
-                    buyback_value = cells[1].get_text(strip=True)
-                    console.log(f"[bold green]Success:[/bold green] Found buyback yield for [bold cyan]{ticker.upper()}[/]: [yellow]{buyback_value}[/yellow]")
-                    return buyback_value
-        
-        console.log(f"[bold red]Error:[/bold red] Could not find 'Buyback Yield' for ticker '{ticker}'. It might not be available.")
-        return None
+        start_date = (datetime.now() - timedelta(days=450)).strftime('%Y-%m-%d')
+        shares_history = stock.get_shares_full(start=start_date)
 
-    except requests.exceptions.RequestException as e:
-        console.print(f"[bold red]Request Error for {ticker.upper()}:[/bold red] {e}")
-        return None
+        if shares_history is None or shares_history.empty:
+            console.log(f"[bold red]No historical share data available for {ticker_symbol}.[/bold red]")
+            return None
+
+        current_shares = shares_history.iloc[-1]
+        current_date = shares_history.index[-1]
+
+        target_past_date = current_date - timedelta(days=365)
+        
+        # New robust method: find the integer position of the closest date
+        time_deltas = (shares_history.index - target_past_date).to_series().abs()
+        closest_date_position = time_deltas.argmin()
+        actual_past_date = shares_history.index[closest_date_position]
+        past_shares = shares_history.iloc[closest_date_position]
+        
+        if (current_date - actual_past_date).days < 270:
+            console.log(f"[bold red]Not enough historical data for {ticker_symbol} to make a one-year comparison.[/bold red]")
+            return None
+            
+        percentage_change = ((current_shares - past_shares) / past_shares) * 100
+
+        output_text = Text()
+        output_text.append(f"Shares on {actual_past_date.strftime('%Y-%m-%d')}:      ", style="default")
+        output_text.append(f"{past_shares:,.0f}\n", style="bold")
+        output_text.append(f"Shares on {current_date.strftime('%Y-%m-%d')}:        ", style="default")
+        output_text.append(f"{current_shares:,.0f}\n\n", style="bold")
+
+        sign, style = ("+", "bold red") if percentage_change >= 0 else ("", "bold green")
+
+        output_text.append("Total Change over ~1 Year: ", style="default")
+        output_text.append(f"{sign}{percentage_change:.1f}%", style=style)
+
+        console.print(
+            Panel(
+                output_text,
+                title=f"[bold cyan]Yearly Share Count Change for {ticker_symbol}[/bold cyan]",
+                border_style="blue",
+                padding=(1, 2)
+            )
+        )
+        
+        return round(percentage_change, 1)
+
     except Exception as e:
-        console.print(f"[bold red]An unexpected error occurred for {ticker.upper()}:[/bold red] {e}")
+        console.log(f"[bold red]An error occurred for ticker '{ticker_symbol}': {e}[/bold red]")
         return None
 
 def get_superinvestor_interest(ticker: str):
@@ -1002,7 +1034,6 @@ def get_ticker_step_ii_info(ticker: str):
         if market_stats is None:
             console.log(f"[bold yellow]Skipping {ticker.upper()} because market stats are absent.[/bold yellow]")
             return None
-
     except Exception as e:
         console.log(f"[bold red]Error in get_market_stats for {ticker}: {e}[/bold red]")
         return None
@@ -1014,10 +1045,10 @@ def get_ticker_step_ii_info(ticker: str):
         insider_buying_json = None
 
     try:
-        share_buybacks = get_share_buybacks(ticker)
+        share_buybacks_pct = get_share_buybacks(ticker)
     except Exception as e:
         console.log(f"[bold red]Error in get_share_buybacks for {ticker}: {e}[/bold red]")
-        share_buybacks = None
+        share_buybacks_pct = None
 
     try:
         superinvestor_interest = get_superinvestor_interest(ticker)
@@ -1041,29 +1072,26 @@ def get_ticker_step_ii_info(ticker: str):
             return "JSON Error"
 
     ins_trend = safe_json_get(insider_buying_json, 'trend')
-    buyback_yield_str = share_buybacks if share_buybacks is not None else '0%'
     superinvestor_count = superinvestor_interest if superinvestor_interest is not None else 0
 
     trend_score_map_insider = {
         'heavy buying': 2, 'buying': 1, 'selling': 0, 'no transactions': 0
     }
 
-    def score_share_buybacks(yield_str):
-        if not isinstance(yield_str, str) or '%' not in yield_str:
+    def score_share_buybacks(change_percentage):
+        if not isinstance(change_percentage, (int, float)):
             return 0
-        try:
-            yield_val = float(yield_str.replace('%', ''))
-            if yield_val > 5: return 2
-            if 0 < yield_val <= 5: return 1
-            return 0
-        except (ValueError, TypeError):
-            return 0
+        if change_percentage <= -5: return 2
+        if -5 < change_percentage < 0: return 1
+        return 0
 
     ins_score = trend_score_map_insider.get(ins_trend, 0)
-    buyback_score = score_share_buybacks(buyback_yield_str)
+    buyback_score = score_share_buybacks(share_buybacks_pct)
     superinvestor_score = 1 if int(superinvestor_count) > 0 else 0
-
+    
     total_score = ins_score + buyback_score + superinvestor_score
+    
+    share_change_str = f"{share_buybacks_pct:.1f}%" if share_buybacks_pct is not None else "N/A"
 
     flat_data = {
         'Ticker': ticker.upper(),
@@ -1071,7 +1099,7 @@ def get_ticker_step_ii_info(ticker: str):
         'Shares Outstanding': format_large_number(market_stats.get('shares_outstanding', 'N/A')) if market_stats else 'N/A',
         'Float Shares': format_large_number(market_stats.get('float_shares', 'N/A')) if market_stats else 'N/A',
         'Insider Buying Trend': ins_trend,
-        'Share Buyback Yield': buyback_yield_str,
+        'Share Change (1Y)': share_change_str,
         'Superinvestor Count': superinvestor_count,
         'Total Score': total_score,
         'Description': company_profile.get('description', 'N/A') if company_profile else 'N/A',
@@ -1092,7 +1120,7 @@ def prepare_data_step_ii(list_of_ticker_data):
 
     header = [
         'Ticker', 'Market Cap', 'Shares Outstanding', 'Float Shares',
-        'Institutional Buying Trend', 'Insider Buying Trend', 'Share Buyback Yield', 'Superinvestor Count',
+        'Insider Buying Trend', 'Share Change (1Y)', 'Superinvestor Count',
         'Total Score', 'Description', 'Sector', 'Industry', 'Employees', 'Last Updated'
     ]
     
