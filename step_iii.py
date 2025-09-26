@@ -17,10 +17,9 @@ console = Console()
 if __name__ == "__main__":
     console.rule("[bold green]Qualitative Analysis: Step III[/bold green]")
     
-    tickers_all = set(utilities.get_step_ii_tickers())
+    tickers_all = utilities.get_step_ii_tickers()
     already_processed_tickers = set(utilities.get_step_iii_tickers())
-
-    tickers = list(tickers_all - already_processed_tickers)
+    tickers = [t for t in tickers_all if t not in already_processed_tickers]
 
     for ticker in tickers:
         stock_data = utilities.get_ticker_step_iii_info(ticker)
