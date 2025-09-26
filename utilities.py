@@ -66,7 +66,7 @@ def call_llm(prompt, context, response_schema, output_format):
 
     try:
         response = client.models.generate_content(
-            model='gemini-2.5-flash-preview-09-2025-lite',
+            model='gemini-2.5-flash-lite-preview-09-2025-lite',
             contents=full_prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
@@ -1396,7 +1396,7 @@ def get_business_summary(ticker):
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash-preview-09-2025",
+            model="gemini-2.5-flash-lite-preview-09-2025",
             contents = prompt,
             config={
                 "response_mime_type": "application/json",
@@ -1436,7 +1436,7 @@ def get_company_history(ticker):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-preview-09-2025",
+            model="gemini-2.5-flash-lite-preview-09-2025",
             contents=prompt,
             config=config,
         )
@@ -1474,7 +1474,7 @@ def get_moat_analysis(ticker):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-preview-09-2025",
+            model="gemini-2.5-flash-lite-preview-09-2025",
             contents=prompt,
             config=config,
         )
@@ -1507,7 +1507,7 @@ def get_catalyst_analysis(ticker):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-preview-09-2025",
+            model="gemini-2.5-flash-lite-preview-09-2025",
             contents=prompt,
             config=config,
         )
@@ -1541,7 +1541,7 @@ def get_management_record(ticker):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-preview-09-2025",
+            model="gemini-2.5-flash-lite-preview-09-2025",
             contents=prompt,
             config=config,
         )
@@ -1574,7 +1574,7 @@ def get_management_incentive(ticker):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-preview-09-2025",
+            model="gemini-2.5-flash-lite-preview-09-2025",
             contents=prompt,
             config=config,
         )
@@ -1606,7 +1606,7 @@ def get_price_history(ticker):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-preview-09-2025",
+            model="gemini-2.5-flash-lite-preview-09-2025",
             contents=prompt,
             config=config,
         )
@@ -1642,7 +1642,7 @@ def get_long_thesis(ticker, price_history, management_incentive, management_reco
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash-preview-09-2025",
+            model="gemini-2.5-flash-lite-preview-09-2025",
             contents = prompt,
             config={
                 "response_mime_type": "application/json",
@@ -1681,7 +1681,7 @@ def get_bear_scenario(ticker, long_thesis):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-preview-09-2025",
+            model="gemini-2.5-flash-lite-preview-09-2025",
             contents=prompt,
             config=config,
         )
@@ -1729,7 +1729,7 @@ def get_next_steps(ticker, business_summary, company_history,
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-preview-09-2025",
+            model="gemini-2.5-flash-lite-preview-09-2025",
             contents=prompt,
             config=config,
         )
