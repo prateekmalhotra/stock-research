@@ -836,6 +836,69 @@ def get_step_ii_tickers(sheet_name='stock-research', worksheet_name='step-ii'):
         return []
 
 
+def get_step_iii_tickers(sheet_name='stock-research', worksheet_name='step-iii'):
+    client = None
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        console.log("Authenticating using Service Account (GHA)...")
+        client = authenticate_google_sheets_sa()
+    else:
+        console.log("Authenticating using OAuth (local)...")
+        creds = authenticate_google_sheets_oauth()
+        if creds:
+            client = gspread.authorize(creds)
+
+    if not client:
+        console.log("[bold red]Authentication failed. Cannot get gspread client.[/bold red]")
+        return []
+
+    console.log(f"Attempting to read from Google Sheet: '{sheet_name}', Worksheet: '{worksheet_name}'...")
+    try:
+        spreadsheet = client.open(sheet_name)
+        sheet = spreadsheet.worksheet(worksheet_name)
+        console.log("Successfully opened sheet and worksheet.")
+
+        all_data = sheet.get_all_values()
+        if not all_data or len(all_data) < 2:
+            console.log(f"[bold yellow]Worksheet '{worksheet_name}' is empty or has no data rows.[/bold yellow]")
+            return []
+
+        header = all_data[0]
+        if 'Ticker' not in header or 'Last Updated' not in header:
+            console.log(f"[bold red]'Ticker' or 'Last Updated' column not found in '{worksheet_name}'.[/bold red]")
+            return []
+
+        ticker_col_index = header.index('Ticker')
+        last_updated_col_index = header.index('Last Updated')
+        months_ago = datetime.now() - timedelta(days=90)
+        
+        recent_tickers = []
+        for row in all_data[1:]:
+            last_updated_str = row[last_updated_col_index]
+            ticker = row[ticker_col_index]
+            if not last_updated_str:
+                continue
+            
+            try:
+                last_updated_date = datetime.strptime(last_updated_str, "%Y-%m-%d")
+                if last_updated_date >= months_ago:
+                    recent_tickers.append(ticker)
+            except (ValueError, TypeError):
+                continue
+
+        console.log(f"[bold green]Found {len(recent_tickers)} tickers updated within the last 3 months.[/bold green]")
+        return recent_tickers
+
+    except SpreadsheetNotFound:
+        console.log(f"[bold red]Spreadsheet '{sheet_name}' not found.[/bold red]")
+        return []
+    except WorksheetNotFound:
+        console.log(f"[bold red]Worksheet '{worksheet_name}' not found in '{sheet_name}'.[/bold red]")
+        return []
+    except Exception as e:
+        console.log(f"[bold red]An unexpected error occurred while reading the sheet:[/bold red] {e}")
+        return []
+
+
 def format_large_number(num):
     """Formats a large number into a human-readable string (e.g., 1.2B, 345.6M)."""
     if num is None or not isinstance(num, (int, float)):
