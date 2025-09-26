@@ -35,6 +35,7 @@ from scipy.stats import linregress
 from gspread.utils import column_letter_to_index
 from google.genai.types import Tool, GenerateContentConfig
 
+from github import Github, UnknownObjectException
 from requests.exceptions import RequestException, ReadTimeout
 
 load_dotenv()
@@ -45,6 +46,17 @@ TICKER_RE = re.compile(r'^[A-Z0-9\.\-]{1,6}$')
 DOT_PATTERN = re.compile(r'([A-Z0-9\.\-]{1,6})\s*(?:·|•|-)\s+')
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
 
+PAT_GITHUB = os.environ.get("PAT_GITHUB")
+REPO_NAME = os.environ.get("REPO_NAME")
+
+if not PAT_GITHUB:
+    console.print(f"[bold red]❌ Error: PAT_GITHUB environment variable not set.[/bold red]", style="red")
+    sys.exit(1)
+
+if not REPO_NAME:
+    console.print(f"[bold red]❌ Error: REPO_NAME environment variable not set.[/bold red]", style="red")
+    sys.exit(1)
+
 def call_llm(prompt, context, response_schema, output_format):
     full_prompt = (
         f"{prompt}\n\n"
@@ -54,7 +66,7 @@ def call_llm(prompt, context, response_schema, output_format):
 
     try:
         response = client.models.generate_content(
-            model='gemini-2.5-flash-lite',
+            model='gemini-2.5-flash-preview-09-2025-lite',
             contents=full_prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
@@ -674,6 +686,40 @@ def get_more_hedge_funds_tickers():
     return get_all_13f_holdings(hedge_funds)
 
 
+def authenticate_google_sheets_oauth():
+    console.log("Authenticating using OAuth (local user)...")
+    creds = None
+    try:
+        if os.path.exists("token.json"):
+            creds = Credentials.from_authorized_user_file("token.json", SCOPES)
+
+        if not creds or not creds.valid:
+            if creds and creds.expired and creds.refresh_token:
+                console.log("Refreshing expired credentials...")
+                creds.refresh(Request())
+            else:
+                console.log("No valid credentials found, starting OAuth flow...")
+                flow = InstalledAppFlow.from_client_secrets_file(
+                    "credentials.json", SCOPES
+                )
+                creds = flow.run_local_server(port=0)
+
+            with open("token.json", "w") as token:
+                token.write(creds.to_json())
+                console.log("Credentials saved to token.json.")
+
+        console.log("[bold green]OAuth credentials obtained successfully.[/bold green]")
+        return creds
+
+    except FileNotFoundError:
+        console.log("[bold red]OAuth Error: 'credentials.json' not found.[/bold red]")
+        console.log("Please ensure the OAuth client ID file is in the correct directory.")
+        return None
+    except Exception as e:
+        console.log(f"[bold red]OAuth authentication failed:[/bold red] {e}")
+        return None
+
+
 def get_step_i_tickers(sheet_name='stock-research', worksheet_name='step-i'):
     client = None
     if os.getenv("GITHUB_ACTIONS") == "true":
@@ -760,7 +806,7 @@ def get_step_ii_tickers(sheet_name='stock-research', worksheet_name='step-ii'):
 
         ticker_col_index = header.index('Ticker')
         last_updated_col_index = header.index('Last Updated')
-        three_months_ago = datetime.now() - timedelta(days=90)
+        months_ago = datetime.now() - timedelta(days=90)
         
         recent_tickers = []
         for row in all_data[1:]:
@@ -771,7 +817,7 @@ def get_step_ii_tickers(sheet_name='stock-research', worksheet_name='step-ii'):
             
             try:
                 last_updated_date = datetime.strptime(last_updated_str, "%Y-%m-%d")
-                if last_updated_date >= three_months_ago:
+                if last_updated_date >= months_ago:
                     recent_tickers.append(ticker)
             except (ValueError, TypeError):
                 continue
@@ -1133,7 +1179,28 @@ def prepare_data_step_ii(list_of_ticker_data):
     console.log(f"[green]Successfully prepared {len(list_of_ticker_data)} rows for the sheet.[/green]")
     return data_for_sheet
 
-def write_to_google_sheet_ii(data_to_write, sheet_name, worksheet_name="Sheet1"):
+def prepare_data_step_iii(ticker_data: dict):
+    console.log("Preparing qualitative data for Google Sheets...")
+
+    if not ticker_data or not isinstance(ticker_data, dict):
+        console.log("[yellow]Warning: Invalid or no ticker data provided to prepare.[/yellow]")
+        return []
+
+    header = [
+        'Ticker',
+        'Qualitative analysis',
+        'Last Updated',
+    ]
+    
+    row = [ticker_data.get(h, "N/A") for h in header]
+    data_for_sheet = [header, row]
+        
+    ticker_symbol = ticker_data.get('Ticker', 'N/A')
+    console.log(f"[green]Successfully prepared qualitative data for ticker '{ticker_symbol}'.[/green]")
+    
+    return data_for_sheet
+
+def write_to_google_sheet_ii(data_to_write, sheet_name, worksheet_name="Sheet1", days=90):
     client = None
     if os.getenv("GITHUB_ACTIONS") == "true":
         client = authenticate_google_sheets_sa()
@@ -1191,7 +1258,7 @@ def write_to_google_sheet_ii(data_to_write, sheet_name, worksheet_name="Sheet1")
 
                 rows_to_append = []
                 updates_for_batch = []
-                three_months_ago = datetime.now() - timedelta(days=90)
+                months_ago = datetime.now() - timedelta(days=days)
                 
                 new_ticker_idx = header.index("Ticker")
 
@@ -1204,7 +1271,7 @@ def write_to_google_sheet_ii(data_to_write, sheet_name, worksheet_name="Sheet1")
                         should_update = False
                         try:
                             last_updated_date = datetime.strptime(existing_entry["last_updated"], "%Y-%m-%d")
-                            if last_updated_date < three_months_ago:
+                            if last_updated_date < months_ago:
                                 should_update = True
                         except (ValueError, TypeError):
                             should_update = True
@@ -1240,3 +1307,458 @@ def write_to_google_sheet_ii(data_to_write, sheet_name, worksheet_name="Sheet1")
 
     except Exception as e:
         console.log(f"[bold red]An unexpected error occurred while processing the sheet:[/bold red] {e}")
+
+
+def get_business_summary(ticker):
+
+    class BusinessSummary(BaseModel):
+        business_summary: str
+        business_model_risks: str
+
+    company_name = yf.Ticker(ticker).info.get("longName")
+    console.log(f"[yellow]Getting business summary for {company_name}[/yellow]")
+
+    prompt = f"""
+    Explain simply and in a few sentences the business model and associated risks of the business model for {company_name}({ticker}).
+    Your answer should be simple, clear, and concise. Talk in third person.
+
+    In business summary you should talk of where the customers are from - geographically and demographics too. If it is B2B then
+    what kind of businesses buy / use it. You should talk of revenue distribution product-wise. You should mainly, though, focus
+    on the core business model and how it operates. You must assume that I am a total beginner and not use any jargon, explain deeper
+    wherever you can. And remember to use simple language.
+    
+    Focus on near term risks and long term risks that can harm a business' position and harm its earnings and market position. Go into 
+    detail whether these kind of threats have occured in the past and why might they be a cause for concern now.
+    """
+
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-preview-09-2025",
+            contents = prompt,
+            config={
+                "response_mime_type": "application/json",
+                "response_schema": BusinessSummary,
+            },
+        )
+
+        return response.text
+
+    except Exception as e:
+        console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
+        sys.exit(1)
+
+
+def get_company_history(ticker):
+    company_name = yf.Ticker(ticker).info.get("longName")
+    console.log(f"[yellow]Getting company history for {company_name}[/yellow]")
+
+    prompt = f"""
+    Give me a history lesson in {company_name}({ticker}). Start with its inception to present date. Why was the business founded?
+    Problems it faced across the way, and what innovative solutions worked that helped them be the company they are today. Tailwinds they 
+    were fortunate to have, and headwinds they dealt with and how they dealt with it. Really go into detail so me, who has never
+    heard of {company_name} can really understand where this company comes from and what their goal is. Go into lots of detail but
+    keep the explanation jargon-free and in simple english so anyone who is not familiar with the field can also understand.
+
+    Use web search to read the company's 10-K and other blogs, articles to enrich your knowledge and ensure correctness.
+    Markdown with neat formatting. Just simple points (1. 2. 3..). Keep each point only 1-3 sentences.
+    """
+
+    try:
+        grounding_tool = types.Tool(
+            google_search=types.GoogleSearch()
+        )
+
+        config = types.GenerateContentConfig(
+            tools=[grounding_tool]
+        )
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-preview-09-2025",
+            contents=prompt,
+            config=config,
+        )
+
+        return response.text
+
+    except Exception as e:
+        console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
+        sys.exit(1)
+
+
+def get_moat_analysis(ticker):
+    company_name = yf.Ticker(ticker).info.get("longName")
+    console.log(f"[yellow]Getting moat analysis for {company_name}[/yellow]")
+
+    prompt = f"""
+    Analyze the moat of {company_name}({ticker}). What makes it different from its competitors?
+    Does it have any special pricing power or a special position in the market or its products that really differentiates it.
+    Touch upon these subjects. There must be a reason it grew into what it is today, find the reason. How easily can it be displaced
+    by someone with more capital. Are the customers / contracts sticky and recurring or just one time. What has the company done in the past /
+    is doing now to ensure that a solid moat is created. Look into network effects and other advantages it has that makes the business
+    hard to displace. Does it invest a lot in R&D? Does it have to constantly innovate to have that edge. Explain in simple english without any jargons.
+
+    Use web search to read the company's 10-K and other blogs, articles to enrich your knowledge and ensure correctness.
+    Markdown with neat formatting. Just simple points (1. 2. 3..). Keep each point only 1-3 sentences.
+    """
+
+    try:
+        grounding_tool = types.Tool(
+            google_search=types.GoogleSearch()
+        )
+
+        config = types.GenerateContentConfig(
+            tools=[grounding_tool]
+        )
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-preview-09-2025",
+            contents=prompt,
+            config=config,
+        )
+
+        return response.text
+
+    except Exception as e:
+        console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
+        sys.exit(1)
+
+def get_catalyst_analysis(ticker):
+    company_name = yf.Ticker(ticker).info.get("longName")
+    console.log(f"[yellow]Getting catalyst analysis for {company_name}[/yellow]")
+
+    prompt = f"""
+    Analyze the catalysts of {company_name}({ticker}). You need to use web search to gather its news, recent 3-4 earnings calls, articles, investor relations releases, 
+    and whatever else you think is relevant. Use this information to talk of catalysts that might increase stock price in the near and long term. No jargons needed, write in simple english. 
+    Keep it concise and to the point. Explicitly mention what management is saying regarding catalysts and strategy in recent earnings calls.
+
+    Markdown with neat formatting. Just simple points (1. 2. 3..). Keep each point only 1-3 sentences.
+    """
+
+    try:
+        grounding_tool = types.Tool(
+            google_search=types.GoogleSearch()
+        )
+
+        config = types.GenerateContentConfig(
+            tools=[grounding_tool]
+        )
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-preview-09-2025",
+            contents=prompt,
+            config=config,
+        )
+
+        return response.text
+
+    except Exception as e:
+        console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
+        sys.exit(1)
+
+def get_management_record(ticker):
+    company_name = yf.Ticker(ticker).info.get("longName")
+    console.log(f"[yellow]Getting management record for {company_name}[/yellow]")
+
+    prompt = f"""
+    Analyze the management of {company_name}({ticker}). You need to use web search to gather whatever information about its management that might be relevant to an investor.
+    The CEO & management performance, how they deliver on their promises, their history, key decisions they have taken in the past, track record, and popularity. Also speak of 
+    their future strategy and vision. Everything relevant about their background and how they have delivered value to shareholders in the past. 
+    If relevant, talk about previous management and why it changed too.
+
+    Markdown with neat formatting. Just simple points (1. 2. 3..). Keep each point only 1-3 sentences.
+    """
+
+    try:
+        grounding_tool = types.Tool(
+            google_search=types.GoogleSearch()
+        )
+
+        config = types.GenerateContentConfig(
+            tools=[grounding_tool]
+        )
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-preview-09-2025",
+            contents=prompt,
+            config=config,
+        )
+
+        return response.text
+
+    except Exception as e:
+        console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
+        sys.exit(1)
+
+def get_management_incentive(ticker):
+    company_name = yf.Ticker(ticker).info.get("longName")
+    console.log(f"[yellow]Getting management incentives for {company_name}[/yellow]")
+
+    prompt = f"""
+    Analyze the management incentive and compensations for {company_name}({ticker}). You need to use web search to gather DEF 14 A (or equivalent for foreign companies) and use it to understand
+    insider ownership by managers and directors (higher the better). And see their compensation structure. And based on this you need to understand and conclude if they have enough incentive to act in the interest of 
+    the shareholders. Or that they are incentivized to just line their own pockets.
+
+    Markdown with neat formatting. Just simple points (1. 2. 3..). Keep each point only 1-3 sentences.
+    """
+
+    try:
+        grounding_tool = types.Tool(
+            google_search=types.GoogleSearch()
+        )
+
+        config = types.GenerateContentConfig(
+            tools=[grounding_tool]
+        )
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-preview-09-2025",
+            contents=prompt,
+            config=config,
+        )
+
+        return response.text
+
+    except Exception as e:
+        console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
+        sys.exit(1)
+
+def get_price_history(ticker):
+    company_name = yf.Ticker(ticker).info.get("longName")
+    console.log(f"[yellow]Getting price history for {company_name}[/yellow]")
+
+    prompt = f"""
+    Analyze the price history for {company_name}({ticker}). Use web search like tradingview etc to see if it is trading low based on technical analysis. What % it is above 52 week low currently.
+    Answer interesting questions like that. Additionally, if there were big drops or the stock is up bigly in the last few months explain why it is so.
+
+    Markdown with neat formatting. Just simple points (1. 2. 3..). Keep each point only 1-3 sentences.
+    """
+
+    try:
+        grounding_tool = types.Tool(
+            google_search=types.GoogleSearch()
+        )
+
+        config = types.GenerateContentConfig(
+            tools=[grounding_tool]
+        )
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-preview-09-2025",
+            contents=prompt,
+            config=config,
+        )
+
+        return response.text
+
+    except Exception as e:
+        console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
+        sys.exit(1)
+
+def get_long_thesis(ticker, price_history, management_incentive, management_record, catalyst_analysis, moat_analysis, company_history, business_summary):
+    class LongThesis(BaseModel):
+        long_thesis: str
+        long_thesis_assumptions: str
+
+    company_name = yf.Ticker(ticker).info.get("longName")
+    console.log(f"[yellow]Getting long thesis for {company_name}[/yellow]")
+
+    prompt = f"""
+    Explain in concisely, simple english, in a jargon-free manner the long thesis (bull case) scenario for {company_name}({ticker}) going into the future (near term & long term).
+    Here is a bunch of information to help you with your task:
+
+    business summary: {business_summary}
+    company history: {company_history}
+    moat analysis: {moat_analysis}
+    management record: {management_record}
+    management incentive: {management_incentive}
+    catalyst analysis: {catalyst_analysis}
+    price history: {price_history}
+
+    Markdown with neat formatting. Keep it simple and easy to understand. Give assumptions that are baked into this bull case thesis too. 
+    """
+
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-preview-09-2025",
+            contents = prompt,
+            config={
+                "response_mime_type": "application/json",
+                "response_schema": LongThesis,
+            },
+        )
+
+        return response.text
+
+    except Exception as e:
+        console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
+        sys.exit(1)
+
+def get_bear_scenario(ticker, long_thesis):
+    company_name = yf.Ticker(ticker).info.get("longName")
+    console.log(f"[yellow]Getting bear thesis for {company_name}[/yellow]")
+
+    prompt = f"""
+    Given the below long thesis (bull case) for {company_name}({ticker}), your job is to find holes and faults in this thesis.
+
+    Long thesis: {long_thesis}
+
+    Please give your critique and identify flaws in this thesis. Use web search to corroborate the facts and get the most up to date information.
+    Give your bear case thesis for this stock.
+
+    Markdown with neat formatting. Just simple points (1. 2. 3..). Keep each point only 1-3 sentences.
+    """
+
+    try:
+        grounding_tool = types.Tool(
+            google_search=types.GoogleSearch()
+        )
+
+        config = types.GenerateContentConfig(
+            tools=[grounding_tool]
+        )
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-preview-09-2025",
+            contents=prompt,
+            config=config,
+        )
+
+        return response.text
+
+    except Exception as e:
+        console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
+        sys.exit(1)
+
+
+def get_next_steps(ticker, business_summary, company_history,
+                                    moat_analysis, catalyst_analysis, management_record,
+                                    management_incentive, price_history, long_thesis,
+                                    bear_scenario):
+    company_name = yf.Ticker(ticker).info.get("longName")
+    console.log(f"[yellow]Getting next steps for {company_name}[/yellow]")
+
+    prompt = f"""
+    I have done some analysis for {company_name}({ticker}) and here is all the work I have done.
+
+    Business summary: {business_summary}
+    Company history: {company_history}
+    Moat analysis: {moat_analysis}
+    Catalyst analysis: {catalyst_analysis}
+    Management record: {management_record}
+    Management incentive: {management_incentive}
+    Price history: {price_history}
+    Long thesis: {long_thesis}
+    Bear scenario: {bear_scenario}
+
+    Now based on all the above. What do you think I should look at next? What are some important questions still left unanswered that I should
+    investigate further. Use web search to understand more about the company.
+
+    Markdown with neat formatting. Just simple points (1. 2. 3..) with next steps to investigate or important questions to ask. Keep each point only 1-3 sentences.
+    """
+
+    try:
+        grounding_tool = types.Tool(
+            google_search=types.GoogleSearch()
+        )
+
+        config = types.GenerateContentConfig(
+            tools=[grounding_tool]
+        )
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-preview-09-2025",
+            contents=prompt,
+            config=config,
+        )
+
+        return response.text
+
+    except Exception as e:
+        console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
+        sys.exit(1)
+
+
+def save_text_to_github(repo, ticker, file_type, text_content):
+    filename = f"{ticker}_{file_type}.md"
+    path = f"files/{ticker}/{filename}"
+    commit_message = f"Add/Update {file_type} analysis for {ticker}"
+
+    try:
+        contents = repo.get_contents(path)
+        if contents.decoded_content.decode('utf-8') == text_content:
+            console.log(f"↪️ '[bold cyan]{filename}[/bold cyan]' content unchanged. Skipping update.", style="yellow")
+            return contents.html_url
+
+        repo.update_file(contents.path, commit_message, text_content, contents.sha)
+        console.log(f"🔄 Updated '[bold cyan]{filename}[/bold cyan]' in GitHub.", style="green")
+        return contents.html_url
+    except UnknownObjectException:
+        try:
+            repo.create_file(path, commit_message, text_content)
+            console.log(f"✅ Created '[bold cyan]{filename}[/bold cyan]' in GitHub.", style="bold green")
+            new_contents = repo.get_contents(path)
+            return new_contents.html_url
+        except Exception as e:
+            console.log(f"❌ Error creating file [bold red]{path}[/bold red] in GitHub: {e}", style="red")
+            raise
+    except Exception as e:
+        console.log(f"❌ Error interacting with GitHub for [bold red]{path}[/bold red]: {e}", style="red")
+        raise
+
+def get_ticker_step_iii_info(ticker):
+    console.rule(f"[bold blue]Processing Ticker: {ticker.upper()}[/bold blue]")
+    g = Github(PAT_GITHUB)
+    repo = g.get_user().get_repo(REPO_NAME.split('/')[1])
+    console.log(f"✅ Successfully connected to GitHub repo: [bold green]{repo.full_name}[/bold green]")
+
+    try:
+        business_summary = json.loads(get_business_summary(ticker))
+        company_history = get_company_history(ticker)
+        moat_analysis = get_moat_analysis(ticker)
+        catalyst_analysis = get_catalyst_analysis(ticker)
+        management_record = get_management_record(ticker)
+        management_incentive = get_management_incentive(ticker)
+        price_history = get_price_history(ticker)
+        long_thesis = json.loads(get_long_thesis(ticker, price_history, management_incentive, management_record,
+                                      catalyst_analysis, moat_analysis, company_history, business_summary))
+        bear_scenario = get_bear_scenario(ticker, long_thesis)
+        next_steps = get_next_steps(ticker, business_summary, company_history,
+                                    moat_analysis, catalyst_analysis, management_record,
+                                    management_incentive, price_history, long_thesis,
+                                    bear_scenario)
+
+        qualitative_data = {
+            'Business summary': business_summary.get('business_summary'),
+            'Business model risk': business_summary.get('business_model_risks'),
+            'Company history': company_history,
+            'Moat analysis': moat_analysis,
+            'Catalyst analysis': catalyst_analysis,
+            'Management record': management_record,
+            'Management incentive': management_incentive,
+            'Price history': price_history,
+            'Long thesis': long_thesis.get('long_thesis'),
+            'Long thesis assumptions': long_thesis.get('long_thesis_assumptions'),
+            'Bear case scenario': bear_scenario,
+            'Next steps': next_steps,
+        }
+
+        markdown_sections = []
+        for title, content in qualitative_data.items():
+            if content:
+                markdown_sections.append(f"## {title.replace('_', ' ').title()}\n\n{content}")
+
+        merged_markdowns = "\n\n---\n\n".join(markdown_sections)
+        github_url = save_text_to_github(repo, ticker, "qa", merged_markdowns)
+
+        final_data = {
+            'Ticker': ticker.upper(),
+            'Qualitative analysis': github_url,
+            'Last Updated': date.today().strftime("%Y-%m-%d")
+        }
+
+        console.rule(f"[bold blue]Processed Ticker: {ticker.upper()}[/bold blue]")
+        return final_data
+
+    except Exception as e:
+        console.log(f"[bold red]Error {e}. This is possibly a critical resource exhausted error. Terminating script.[/bold red]")
+        sys.exit(1)
