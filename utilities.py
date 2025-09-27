@@ -46,8 +46,8 @@ TICKER_RE = re.compile(r'^[A-Z0-9\.\-]{1,6}$')
 DOT_PATTERN = re.compile(r'([A-Z0-9\.\-]{1,6})\s*(?:·|•|-)\s+')
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
 
-PAT_GITHUB = os.environ.get("PAT_GITHUB")
-REPO_NAME = os.environ.get("REPO_NAME")
+PAT_GITHUB = os.getenv("PAT_GITHUB")
+REPO_NAME = os.getenv("REPO_NAME")
 
 if not PAT_GITHUB:
     console.print(f"[bold red]❌ Error: PAT_GITHUB environment variable not set.[/bold red]", style="red")
