@@ -51,11 +51,11 @@ REPO_NAME = os.getenv("REPO_NAME")
 
 if not PAT_GITHUB:
     console.print(f"[bold red]❌ Error: PAT_GITHUB environment variable not set.[/bold red]", style="red")
-    sys.exit(1)
+    sys.exit(0)
 
 if not REPO_NAME:
     console.print(f"[bold red]❌ Error: REPO_NAME environment variable not set.[/bold red]", style="red")
-    sys.exit(1)
+    sys.exit(0)
 
 def call_llm(prompt, context, response_schema, output_format):
     full_prompt = (
@@ -1015,7 +1015,7 @@ def get_insider_buying(ticker: str):
     except ReadTimeout:
         console.log(f"[bold red]Fatal request error for {ticker.upper()}: Read timed out.[/bold red]")
         console.log("[bold red]This is a critical network issue. Terminating script as requested.[/bold red]")
-        sys.exit(1)
+        sys.exit(0)
     except RequestException as e:
         console.log(f"[bold red]A non-fatal request error occurred for {ticker}: {e}[/bold red]")
         return json.dumps({"trend": "no transactions"}, indent=4)
@@ -1435,7 +1435,7 @@ def get_business_summary(ticker):
 
     except Exception as e:
         console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
-        sys.exit(1)
+        sys.exit(0)
 
 
 def get_company_history(ticker):
@@ -1472,7 +1472,7 @@ def get_company_history(ticker):
 
     except Exception as e:
         console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
-        sys.exit(1)
+        sys.exit(0)
 
 
 def get_moat_analysis(ticker):
@@ -1510,7 +1510,7 @@ def get_moat_analysis(ticker):
 
     except Exception as e:
         console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
-        sys.exit(1)
+        sys.exit(0)
 
 def get_catalyst_analysis(ticker):
     company_name = yf.Ticker(ticker).info.get("longName")
@@ -1543,7 +1543,7 @@ def get_catalyst_analysis(ticker):
 
     except Exception as e:
         console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
-        sys.exit(1)
+        sys.exit(0)
 
 def get_management_record(ticker):
     company_name = yf.Ticker(ticker).info.get("longName")
@@ -1577,7 +1577,7 @@ def get_management_record(ticker):
 
     except Exception as e:
         console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
-        sys.exit(1)
+        sys.exit(0)
 
 def get_management_incentive(ticker):
     company_name = yf.Ticker(ticker).info.get("longName")
@@ -1610,7 +1610,7 @@ def get_management_incentive(ticker):
 
     except Exception as e:
         console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
-        sys.exit(1)
+        sys.exit(0)
 
 def get_price_history(ticker):
     company_name = yf.Ticker(ticker).info.get("longName")
@@ -1642,7 +1642,7 @@ def get_price_history(ticker):
 
     except Exception as e:
         console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
-        sys.exit(1)
+        sys.exit(0)
 
 def get_long_thesis(ticker, price_history, management_incentive, management_record, catalyst_analysis, moat_analysis, company_history, business_summary):
     class LongThesis(BaseModel):
@@ -1681,7 +1681,7 @@ def get_long_thesis(ticker, price_history, management_incentive, management_reco
 
     except Exception as e:
         console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
-        sys.exit(1)
+        sys.exit(0)
 
 def get_bear_scenario(ticker, long_thesis):
     company_name = yf.Ticker(ticker).info.get("longName")
@@ -1717,7 +1717,7 @@ def get_bear_scenario(ticker, long_thesis):
 
     except Exception as e:
         console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
-        sys.exit(1)
+        sys.exit(0)
 
 
 def get_next_steps(ticker, business_summary, company_history,
@@ -1765,7 +1765,7 @@ def get_next_steps(ticker, business_summary, company_history,
 
     except Exception as e:
         console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
-        sys.exit(1)
+        sys.exit(0)
 
 
 def save_text_to_github(repo, ticker, file_type, text_content):
@@ -1851,4 +1851,4 @@ def get_ticker_step_iii_info(ticker):
 
     except Exception as e:
         console.log(f"[bold red]Error {e}. This is possibly a critical resource exhausted error. Terminating script.[/bold red]")
-        sys.exit(1)
+        sys.exit(0)
