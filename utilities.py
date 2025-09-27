@@ -66,7 +66,7 @@ def call_llm(prompt, context, response_schema, output_format):
 
     try:
         response = client.models.generate_content(
-            model='gemini-2.5-flash-lite-preview-09-2025-lite',
+            model='gemini-2.5-flash-lite-preview-09-2025',
             contents=full_prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
