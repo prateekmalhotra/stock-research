@@ -33,6 +33,8 @@ jobs:
         REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        PAT_GITHUB: ${{ secrets.PAT_GITHUB }}
+        REPO_NAME: ${{ secrets.REPO_NAME }}
         GITHUB_ACTIONS: "true"
       run: |
         poetry run python -B step_i.py
