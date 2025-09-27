@@ -66,7 +66,7 @@ def call_llm(prompt, context, response_schema, output_format):
 
     try:
         response = client.models.generate_content(
-            model='gemini-2.5-flash-lite-preview-09-2025',
+            model='gemini-2.5-flash-lite',
             contents=full_prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
@@ -1188,10 +1188,24 @@ def get_ticker_step_ii_info(ticker: str):
     }
 
     def score_share_buybacks(change_percentage):
-        if not isinstance(change_percentage, (int, float)):
+        numeric_value = None
+
+        if isinstance(change_percentage, (int, float)):
+            numeric_value = change_percentage
+        elif isinstance(change_percentage, str):
+            try:
+                cleaned_string = change_percentage.strip().replace('%', '')
+                numeric_value = float(cleaned_string)
+            except (ValueError, TypeError):
+                pass
+
+        if numeric_value is None:
             return 0
-        if change_percentage <= -5: return 2
-        if -5 < change_percentage < 0: return 1
+        if numeric_value <= -5:
+            return 2
+        if -5 < numeric_value < 0:
+            return 1
+        
         return 0
 
     ins_score = trend_score_map_insider.get(ins_trend, 0)
@@ -1368,6 +1382,19 @@ def write_to_google_sheet_ii(data_to_write, sheet_name, worksheet_name="Sheet1",
             
             console.log(f"[bold green]Successfully created and populated new sheet.[/bold green]")
 
+        console.log(f"Sorting worksheet '{worksheet_name}' by 'Total Score'...")
+        
+        current_header = sheet.row_values(1)
+        if 'Total Score' in current_header:
+            score_col_index = current_header.index('Total Score') + 1
+            num_rows = sheet.row_count
+            if num_rows > 1:
+                sort_range = f'A2:{gspread.utils.rowcol_to_a1(num_rows, len(current_header))}'
+                sheet.sort((score_col_index, 'des'), range=sort_range)
+                console.log("[bold green]✅ Sheet successfully sorted by Total Score.[/bold green]")
+        else:
+            console.log("[bold red]⚠️ 'Total Score' column not found in the sheet. Cannot perform sort.[/bold red]")
+
     except Exception as e:
         console.log(f"[bold red]An unexpected error occurred while processing the sheet:[/bold red] {e}")
 
@@ -1396,7 +1423,7 @@ def get_business_summary(ticker):
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite-preview-09-2025",
+            model="gemini-2.5-flash-lite",
             contents = prompt,
             config={
                 "response_mime_type": "application/json",
@@ -1436,7 +1463,7 @@ def get_company_history(ticker):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite-preview-09-2025",
+            model="gemini-2.5-flash-lite",
             contents=prompt,
             config=config,
         )
@@ -1474,7 +1501,7 @@ def get_moat_analysis(ticker):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite-preview-09-2025",
+            model="gemini-2.5-flash-lite",
             contents=prompt,
             config=config,
         )
@@ -1507,7 +1534,7 @@ def get_catalyst_analysis(ticker):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite-preview-09-2025",
+            model="gemini-2.5-flash-lite",
             contents=prompt,
             config=config,
         )
@@ -1541,7 +1568,7 @@ def get_management_record(ticker):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite-preview-09-2025",
+            model="gemini-2.5-flash-lite",
             contents=prompt,
             config=config,
         )
@@ -1574,7 +1601,7 @@ def get_management_incentive(ticker):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite-preview-09-2025",
+            model="gemini-2.5-flash-lite",
             contents=prompt,
             config=config,
         )
@@ -1606,7 +1633,7 @@ def get_price_history(ticker):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite-preview-09-2025",
+            model="gemini-2.5-flash-lite",
             contents=prompt,
             config=config,
         )
@@ -1642,7 +1669,7 @@ def get_long_thesis(ticker, price_history, management_incentive, management_reco
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite-preview-09-2025",
+            model="gemini-2.5-flash-lite",
             contents = prompt,
             config={
                 "response_mime_type": "application/json",
@@ -1681,7 +1708,7 @@ def get_bear_scenario(ticker, long_thesis):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite-preview-09-2025",
+            model="gemini-2.5-flash-lite",
             contents=prompt,
             config=config,
         )
@@ -1729,7 +1756,7 @@ def get_next_steps(ticker, business_summary, company_history,
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite-preview-09-2025",
+            model="gemini-2.5-flash-lite",
             contents=prompt,
             config=config,
         )
