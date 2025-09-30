@@ -32,6 +32,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from urllib.parse import urljoin, urlparse, parse_qs
 
 import numpy as np
+import pandas as pd
 import yfinance as yf
 from scipy.stats import linregress
 from gspread.utils import column_letter_to_index
@@ -1461,6 +1462,92 @@ def update_single_column(
     except Exception as e:
         console.log(f"[bold red]An unexpected error occurred:[/bold red] {e}")
 
+
+def calculate_scores_from_sheet_data(sheet_df: pd.DataFrame) -> pd.DataFrame:
+    trend_score_map_insider = {
+        'heavy buying': 2, 'buying': 1, 'selling': 0, 'no transactions': 0
+    }
+    seeking_alpha_score_map = {
+        'very positive': 2, 'positive': 1, 'mixed': 0, 'negative': 0, 'not_enough_info': 0
+    }
+
+    def score_share_buybacks(change_percentage_str: str) -> int:
+        if not isinstance(change_percentage_str, str):
+            return 0
+        try:
+            numeric_value = float(change_percentage_str.strip().replace('%', ''))
+        except (ValueError, TypeError):
+            return 0
+        if numeric_value <= -5:
+            return 2
+        elif -5 < numeric_value < 0:
+            return 1
+        return 0
+
+    ins_score = sheet_df['Insider Buying Trend'].apply(
+        lambda x: trend_score_map_insider.get(str(x), 0)
+    )
+    buyback_score = sheet_df['Share Change (1Y)'].apply(score_share_buybacks)
+    superinvestor_counts = pd.to_numeric(sheet_df['Superinvestor Count'], errors='coerce').fillna(0)
+    superinvestor_score = (superinvestor_counts > 0).astype(int)
+    seeking_alpha_score = sheet_df['Seeking Alpha Sentiment'].apply(
+        lambda x: seeking_alpha_score_map.get(str(x), 0)
+    )
+    
+    sheet_df['Total Score'] = ins_score + buyback_score + superinvestor_score + seeking_alpha_score
+    return sheet_df
+
+
+def update_total_score_in_sheet(
+    sheet_name: str,
+    key_column_name: str = "Ticker",
+    worksheet_name: str = "Sheet1"
+):
+    client = None
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        client = authenticate_google_sheets_sa()
+    else:
+        creds = authenticate_google_sheets_oauth()
+        if creds:
+            client = gspread.authorize(creds)
+
+    if not client:
+        console.log("[bold red]Authentication failed. Cannot get gspread client.[/bold red]")
+        return
+
+    console.log(f"Processing scores for '{sheet_name}/{worksheet_name}'...")
+    
+    try:
+        spreadsheet = client.open(sheet_name)
+        sheet = spreadsheet.worksheet(worksheet_name)
+        
+        all_sheet_data = sheet.get_all_records()
+        if not all_sheet_data:
+            console.log("[bold red]Worksheet is empty. Cannot process scores.[/bold red]")
+            return
+            
+        df = pd.DataFrame(all_sheet_data)
+        
+        required_cols = ['Insider Buying Trend', 'Share Change (1Y)', 'Superinvestor Count', 'Seeking Alpha Sentiment', key_column_name]
+        if not all(col in df.columns for col in required_cols):
+            console.log(f"[bold red]Missing one of the required columns: {required_cols}[/bold red]")
+            return
+            
+        df_with_scores = calculate_scores_from_sheet_data(df)
+        
+        data_to_update = pd.Series(
+            df_with_scores['Total Score'].values, 
+            index=df_with_scores[key_column_name]
+        ).to_dict()
+
+        update_single_column(sheet_name, data_to_update, key_column_name, "Total Score", worksheet_name)
+
+    except gspread.exceptions.SpreadsheetNotFound:
+        console.log(f"Spreadsheet '{sheet_name}' not found.")
+    except gspread.exceptions.WorksheetNotFound:
+        console.log(f"Worksheet '{worksheet_name}' not found.")
+    except Exception as e:
+        console.log(f"[bold red]An unexpected error occurred during score processing:[/bold red] {e}")
 
 def write_to_google_sheet_ii(data_to_write, sheet_name, worksheet_name="Sheet1", days=90):
     client = None
