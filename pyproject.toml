@@ -6,7 +6,7 @@ authors = [
     {name = "Prateek Malhotra",email = "prateekdbst@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13,<4.0"
+requires-python = ">=3.13,<3.14"
 dependencies = [
     "praw (>=7.8.1,<8.0.0)",
     "rich (>=14.1.0,<15.0.0)",
@@ -20,7 +20,11 @@ dependencies = [
     "scipy (>=1.16.2,<2.0.0)",
     "yfinance (>=0.2.66,<0.3.0)",
     "lxml (>=6.0.2,<7.0.0)",
-    "pygithub (>=2.8.1,<3.0.0)"
+    "pygithub (>=2.8.1,<3.0.0)",
+    "transformers (>=4.56.2,<5.0.0)",
+    "torch (>=2.8.0,<3.0.0)",
+    "beautifulsoup4 (>=4.14.2,<5.0.0)",
+    "cloudscraper (>=1.2.71,<2.0.0)",
 ]
 
 

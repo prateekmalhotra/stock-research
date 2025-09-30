@@ -19,11 +19,13 @@ from rich.text import Text
 from dotenv import load_dotenv
 
 import re
+import time
 import requests
 import praw
 import praw.models
 from bs4 import BeautifulSoup
 from pydantic import BaseModel
+from transformers import pipeline
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -48,6 +50,8 @@ SCOPES = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapi
 
 PAT_GITHUB = os.getenv("PAT_GITHUB")
 REPO_NAME = os.getenv("REPO_NAME")
+
+sentiment_pipeline = pipeline("sentiment-analysis", model="nickmuchi/finbert-tone-finetuned-fintwitter-classification")
 
 if not PAT_GITHUB:
     console.print(f"[bold red]❌ Error: PAT_GITHUB environment variable not set.[/bold red]", style="red")
@@ -793,13 +797,11 @@ def get_step_i_tickers(sheet_name='stock-research', worksheet_name='step-i'):
         console.log(f"[bold red]An unexpected error occurred while reading the sheet:[/bold red] {e}")
         return []
 
-def get_step_ii_tickers(sheet_name='stock-research', worksheet_name='step-ii'):
+def get_step_ii_tickers(sheet_name='stock-research', worksheet_name='step-ii', column=None):
     client = None
     if os.getenv("GITHUB_ACTIONS") == "true":
-        console.log("Authenticating using Service Account (GHA)...")
         client = authenticate_google_sheets_sa()
     else:
-        console.log("Authenticating using OAuth (local)...")
         creds = authenticate_google_sheets_oauth()
         if creds:
             client = gspread.authorize(creds)
@@ -808,51 +810,70 @@ def get_step_ii_tickers(sheet_name='stock-research', worksheet_name='step-ii'):
         console.log("[bold red]Authentication failed. Cannot get gspread client.[/bold red]")
         return []
 
-    console.log(f"Attempting to read from Google Sheet: '{sheet_name}', Worksheet: '{worksheet_name}'...")
+    log_message = f"from '{sheet_name}/{worksheet_name}'"
+    if column:
+        log_message += f" where column '{column}' is not empty"
+    console.log(f"Fetching tickers {log_message}...")
+
     try:
         spreadsheet = client.open(sheet_name)
         sheet = spreadsheet.worksheet(worksheet_name)
-        console.log("Successfully opened sheet and worksheet.")
-
+        
         all_data = sheet.get_all_values()
         if not all_data or len(all_data) < 2:
-            console.log(f"[bold yellow]Worksheet '{worksheet_name}' is empty or has no data rows.[/bold yellow]")
+            console.log(f"[bold yellow]Worksheet is empty or has no data rows.[/bold yellow]")
             return []
 
         header = all_data[0]
-        if 'Ticker' not in header or 'Last Updated' not in header:
-            console.log(f"[bold red]'Ticker' or 'Last Updated' column not found in '{worksheet_name}'.[/bold red]")
-            return []
+        required_columns = ['Ticker', 'Last Updated']
+        if column:
+            required_columns.append(column)
+
+        for col_name in required_columns:
+            if col_name not in header:
+                console.log(f"[bold red]Required column '{col_name}' not found in header.[/bold red]")
+                return []
 
         ticker_col_index = header.index('Ticker')
         last_updated_col_index = header.index('Last Updated')
-        months_ago = datetime.now() - timedelta(days=90)
+        filter_col_index = header.index(column) if column else -1
         
-        recent_tickers = []
+        ninety_days_ago = datetime.now() - timedelta(days=90)
+        
+        tickers_to_return = []
         for row in all_data[1:]:
+            if len(row) <= ticker_col_index or len(row) <= last_updated_col_index:
+                continue
+
             last_updated_str = row[last_updated_col_index]
             ticker = row[ticker_col_index]
-            if not last_updated_str:
+            if not last_updated_str or not ticker:
                 continue
             
             try:
                 last_updated_date = datetime.strptime(last_updated_str, "%Y-%m-%d")
-                if last_updated_date >= months_ago:
-                    recent_tickers.append(ticker)
+                if last_updated_date >= ninety_days_ago:
+                    passes_filter = True
+                    if filter_col_index != -1:
+                        if len(row) <= filter_col_index or not row[filter_col_index]:
+                            passes_filter = False
+                    
+                    if passes_filter:
+                        tickers_to_return.append(ticker)
             except (ValueError, TypeError):
                 continue
 
-        console.log(f"[bold green]Found {len(recent_tickers)} tickers updated within the last 3 months.[/bold green]")
-        return recent_tickers
+        console.log(f"[bold green]Found {len(tickers_to_return)} matching tickers.[/bold green]")
+        return tickers_to_return
 
     except SpreadsheetNotFound:
         console.log(f"[bold red]Spreadsheet '{sheet_name}' not found.[/bold red]")
         return []
     except WorksheetNotFound:
-        console.log(f"[bold red]Worksheet '{worksheet_name}' not found in '{sheet_name}'.[/bold red]")
+        console.log(f"[bold red]Worksheet '{worksheet_name}' not found.[/bold red]")
         return []
     except Exception as e:
-        console.log(f"[bold red]An unexpected error occurred while reading the sheet:[/bold red] {e}")
+        console.log(f"[bold red]An unexpected error occurred:[/bold red] {e}")
         return []
 
 
@@ -1041,6 +1062,58 @@ def get_insider_buying(ticker: str):
         return json.dumps({"trend": "no transactions"}, indent=4)
 
 
+import cloudscraper
+
+def get_seeking_alpha_sentiment(ticker: str):
+    url = f"https://seekingalpha.com/symbol/{ticker.upper()}"
+    retries = 3
+
+    for attempt in range(retries):
+        try:
+            console.log(f"Fetching seeking alpha data for [bold cyan]{ticker.upper()}[/] from {url} (Attempt {attempt + 1}/{retries})")
+            
+            scraper = cloudscraper.create_scraper()
+            response = scraper.get(url).text
+            soup = BeautifulSoup(response, 'html.parser')
+
+            headlines = [
+                a.text for a in soup.find_all('a', attrs={'data-test-id': 'post-list-item-title'}) if '/article/' in a.get('href', '')
+            ]
+
+            if not headlines:
+                raise Exception(f"No headlines found for {ticker.upper()}")
+
+            console.log(f"Fetched {len(headlines)} headlines...")
+            results = sentiment_pipeline(headlines)
+            console.log("Finished analysis...")
+
+            score_map = {'Bullish': 1, 'Neutral': 0, 'Bearish': -1}
+            total_score = sum(score_map.get(result['label'], 0) for result in results)
+
+            normalized_score = total_score / len(results)
+
+            trend_label = "mixed"
+            if normalized_score > 0.7:
+                trend_label = "very positive"
+            elif normalized_score > 0.2:
+                trend_label = "positive"
+            elif normalized_score < -0.2:
+                trend_label = "negative"
+
+            summary = {"ticker": ticker.upper(), "trend": trend_label}
+            return json.dumps(summary, indent=4)
+
+        except Exception as e:
+            console.log(f"[bold red]An error occurred for {ticker} on attempt {attempt + 1}: {e}[/bold red]")
+            if attempt == retries - 1:
+                console.log(f"[bold red]All {retries} attempts failed for {ticker}. Moving on.[/bold red]")
+            else:
+                console.log(f"Retrying in 5 seconds...")
+                time.sleep(5)
+
+    return json.dumps({"ticker": ticker.upper(), "trend": "not_enough_info"})
+
+
 def get_share_buybacks(ticker_symbol: str):
     if not ticker_symbol:
         console.log("[bold red]Error: Ticker symbol cannot be empty.[/bold red]")
@@ -1174,6 +1247,12 @@ def get_ticker_step_ii_info(ticker: str):
         insider_buying_json = None
 
     try:
+        seeking_alpha_json = get_seeking_alpha_sentiment(ticker)
+    except Exception as e:
+        console.log(f"[bold red]Error in seeking_alpha_sentiment for {ticker}: {e}[/bold red]")
+        seeking_alpha_json = None
+
+    try:
         share_buybacks_pct = get_share_buybacks(ticker)
     except Exception as e:
         console.log(f"[bold red]Error in get_share_buybacks for {ticker}: {e}[/bold red]")
@@ -1201,10 +1280,15 @@ def get_ticker_step_ii_info(ticker: str):
             return "JSON Error"
 
     ins_trend = safe_json_get(insider_buying_json, 'trend')
+    seeking_alpha_trend = safe_json_get(seeking_alpha_json, 'sentiment')
     superinvestor_count = superinvestor_interest if superinvestor_interest is not None else 0
 
     trend_score_map_insider = {
         'heavy buying': 2, 'buying': 1, 'selling': 0, 'no transactions': 0
+    }
+
+    seeking_alpha_score_map = {
+        'very positive': 2, 'positive': 1, 'mixed': 0, 'negative': 0, 'not_enough_info': 0
     }
 
     def score_share_buybacks(change_percentage):
@@ -1231,8 +1315,9 @@ def get_ticker_step_ii_info(ticker: str):
     ins_score = trend_score_map_insider.get(ins_trend, 0)
     buyback_score = score_share_buybacks(share_buybacks_pct)
     superinvestor_score = 1 if int(superinvestor_count) > 0 else 0
+    seeking_alpha_sentiment_score = seeking_alpha_score_map.get(seeking_alpha_trend, 0)
     
-    total_score = ins_score + buyback_score + superinvestor_score
+    total_score = ins_score + buyback_score + superinvestor_score + seeking_alpha_sentiment_score
     
     share_change_str = f"{share_buybacks_pct:.1f}%" if share_buybacks_pct is not None else "N/A"
 
@@ -1244,6 +1329,7 @@ def get_ticker_step_ii_info(ticker: str):
         'Insider Buying Trend': ins_trend,
         'Share Change (1Y)': share_change_str,
         'Superinvestor Count': superinvestor_count,
+        'Seeking Alpha Sentiment': seeking_alpha_sentiment,
         'Total Score': total_score,
         'Description': company_profile.get('description', 'N/A') if company_profile else 'N/A',
         'Sector': company_profile.get('sector', 'N/A') if company_profile else 'N/A',
@@ -1263,7 +1349,7 @@ def prepare_data_step_ii(list_of_ticker_data):
 
     header = [
         'Ticker', 'Market Cap', 'Shares Outstanding', 'Float Shares',
-        'Insider Buying Trend', 'Share Change (1Y)', 'Superinvestor Count',
+        'Insider Buying Trend', 'Share Change (1Y)', 'Superinvestor Count', 'Seeking Alpha Sentiment'
         'Total Score', 'Description', 'Sector', 'Industry', 'Employees', 'Last Updated'
     ]
     
@@ -1296,6 +1382,85 @@ def prepare_data_step_iii(ticker_data: dict):
     console.log(f"[green]Successfully prepared qualitative data for ticker '{ticker_symbol}'.[/green]")
     
     return data_for_sheet
+
+
+def update_single_column(
+    sheet_name: str,
+    data_to_update: dict,
+    key_column_name: str,
+    value_column_name: str,
+    worksheet_name: str = "Sheet1"
+):
+    client = None
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        client = authenticate_google_sheets_sa()
+    else:
+        creds = authenticate_google_sheets_oauth()
+        if creds:
+            client = gspread.authorize(creds)
+
+    if not client:
+        console.log("[bold red]Authentication failed. Cannot get gspread client.[/bold red]")
+        return
+
+    if not data_to_update or not isinstance(data_to_update, dict):
+        console.log("[bold red]No data provided or data is not a dictionary. Aborting.[/bold red]")
+        return
+
+    console.log(f"Attempting to update column '{value_column_name}' in '{sheet_name}/{worksheet_name}'...")
+
+    try:
+        spreadsheet = client.open(sheet_name)
+        sheet = spreadsheet.worksheet(worksheet_name)
+
+        all_sheet_data = sheet.get_all_values()
+        if not all_sheet_data:
+            console.log("[bold red]Worksheet is empty. Cannot perform update.[/bold red]")
+            return
+
+        header = all_sheet_data[0]
+        try:
+            key_col_index = header.index(key_column_name)
+            value_col_index = header.index(value_column_name)
+        except ValueError as e:
+            console.log(f"[bold red]Column not found in header: {e}. Aborting update.[/bold red]")
+            return
+
+        updates_for_batch = []
+        updated_keys = set()
+
+        for i, row in enumerate(all_sheet_data[1:]):
+            row_number = i + 2
+            
+            if len(row) > key_col_index:
+                key_value = row[key_col_index]
+                if key_value in data_to_update:
+                    new_value = data_to_update[key_value]
+                    
+                    cell_to_update = gspread.utils.rowcol_to_a1(row_number, value_col_index + 1)
+                    updates_for_batch.append({
+                        "range": cell_to_update,
+                        "values": [[str(new_value)]]
+                    })
+                    updated_keys.add(key_value)
+
+        if updates_for_batch:
+            sheet.batch_update(updates_for_batch, value_input_option='USER_ENTERED')
+            console.log(f"[bold green]✅ Successfully updated {len(updates_for_batch)} cells in column '{value_column_name}'.[/bold green]")
+        else:
+            console.log("[bold yellow]No matching keys found in the sheet to update.[/bold yellow]")
+
+        missed_keys = set(data_to_update.keys()) - updated_keys
+        if missed_keys:
+            console.log(f"[bold yellow]⚠️ The following {len(missed_keys)} keys were not found in the sheet: {missed_keys}[/bold yellow]")
+
+    except gspread.exceptions.SpreadsheetNotFound:
+        console.log(f"Spreadsheet '{sheet_name}' not found. Aborting process.")
+    except gspread.exceptions.WorksheetNotFound:
+        console.log(f"Worksheet '{worksheet_name}' not found. Aborting process.")
+    except Exception as e:
+        console.log(f"[bold red]An unexpected error occurred:[/bold red] {e}")
+
 
 def write_to_google_sheet_ii(data_to_write, sheet_name, worksheet_name="Sheet1", days=90):
     client = None

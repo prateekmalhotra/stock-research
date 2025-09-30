@@ -39,10 +39,33 @@ if __name__ == "__main__":
         stock_data = fetch_stock_info(batch)
         sheet_data = utilities.prepare_data_step_ii(stock_data)
 
-        console.rule()
+         console.rule()
 
         utilities.write_to_google_sheet_ii(
             data_to_write=sheet_data,
             sheet_name='stock-research',
             worksheet_name='step-ii'
         )
+
+    # import json
+
+    # tickers_all = set(utilities.get_step_ii_tickers())
+    # already_processed_tickers = set(utilities.get_step_ii_tickers(column='Seeking Alpha Sentiment'))
+
+    # tickers = list(tickers_all - already_processed_tickers)
+
+    # for ticker in tickers:
+    #     seeking_alpha_info = utilities.get_seeking_alpha_sentiment(ticker)
+    #     seeking_alpha_info = json.loads(seeking_alpha_info)
+    #     ticker = seeking_alpha_info["ticker"]
+    #     trend = seeking_alpha_info["trend"]
+
+    #     seeking_alpha_info = {ticker.upper():trend}
+
+    #     utilities.update_single_column(
+    #         sheet_name='stock-research',
+    #         data_to_update=seeking_alpha_info,
+    #         key_column_name='Ticker',
+    #         value_column_name='Seeking Alpha Sentiment',
+    #         worksheet_name="step-ii"
+    #     )
