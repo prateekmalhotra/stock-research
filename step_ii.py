@@ -39,7 +39,7 @@ if __name__ == "__main__":
         stock_data = fetch_stock_info(batch)
         sheet_data = utilities.prepare_data_step_ii(stock_data)
 
-         console.rule()
+        console.rule()
 
         utilities.write_to_google_sheet_ii(
             data_to_write=sheet_data,
