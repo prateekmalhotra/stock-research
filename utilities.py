@@ -1355,7 +1355,7 @@ def prepare_data_step_ii(list_of_ticker_data):
 
     header = [
         'Ticker', 'Market Cap', 'Shares Outstanding', 'Float Shares',
-        'Insider Buying Trend', 'Share Change (1Y)', 'Superinvestor Count', 'Seeking Alpha Sentiment'
+        'Insider Buying Trend', 'Share Change (1Y)', 'Superinvestor Count', 'Seeking Alpha Sentiment',
         'Total Score', 'Description', 'Sector', 'Industry', 'Employees', 'Last Updated'
     ]
     
