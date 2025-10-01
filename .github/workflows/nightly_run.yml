@@ -35,6 +35,8 @@ jobs:
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         PAT_GITHUB: ${{ secrets.PAT_GITHUB }}
         REPO_NAME: ${{ secrets.REPO_NAME }}
+        GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
         GITHUB_ACTIONS: "true"
       run: |
         poetry run python -B step_i.py
