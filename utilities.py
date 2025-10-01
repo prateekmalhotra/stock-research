@@ -1335,7 +1335,7 @@ def get_ticker_step_ii_info(ticker: str):
         'Insider Buying Trend': ins_trend,
         'Share Change (1Y)': share_change_str,
         'Superinvestor Count': superinvestor_count,
-        'Seeking Alpha Sentiment': seeking_alpha_sentiment,
+        'Seeking Alpha Sentiment': seeking_alpha_trend,
         'Total Score': total_score,
         'Description': company_profile.get('description', 'N/A') if company_profile else 'N/A',
         'Sector': company_profile.get('sector', 'N/A') if company_profile else 'N/A',
