@@ -1286,7 +1286,7 @@ def get_ticker_step_ii_info(ticker: str):
             return "JSON Error"
 
     ins_trend = safe_json_get(insider_buying_json, 'trend')
-    seeking_alpha_trend = safe_json_get(seeking_alpha_json, 'sentiment')
+    seeking_alpha_trend = safe_json_get(seeking_alpha_json, 'trend')
     superinvestor_count = superinvestor_interest if superinvestor_interest is not None else 0
 
     trend_score_map_insider = {
