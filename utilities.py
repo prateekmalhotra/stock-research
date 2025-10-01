@@ -35,11 +35,16 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 from scipy.stats import linregress
+from gspread_formatting import get_effective_format
 from gspread.utils import column_letter_to_index
 from google.genai.types import Tool, GenerateContentConfig
 
 from github import Github, UnknownObjectException
 from requests.exceptions import RequestException, ReadTimeout
+
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 load_dotenv()
 console = Console()
@@ -1990,6 +1995,228 @@ def get_bear_scenario(ticker, long_thesis):
     except Exception as e:
         console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
         sys.exit(0)
+
+
+def rgb_to_hex(rgb_dict):
+    if not all(k in rgb_dict for k in ['red', 'green', 'blue']):
+        return None
+    r = int(rgb_dict.get('red', 0) * 255)
+    g = int(rgb_dict.get('green', 0) * 255)
+    b = int(rgb_dict.get('blue', 0) * 255)
+    return f'#{r:02x}{g:02x}{b:02x}'
+
+
+def find_rows_by_color(
+    sheet_name: str,
+    target_colors: list,
+    worksheet_name: str = "Sheet1"
+):
+    client = None
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        client = authenticate_google_sheets_sa()
+    else:
+        creds = authenticate_google_sheets_oauth()
+        if creds:
+            client = gspread.authorize(creds)
+
+    if not client:
+        console.log("[bold red]Authentication failed. Cannot get gspread client.[/bold red]")
+        return
+
+    target_hex_colors = {rgb_to_hex(color) for color in target_colors}
+    console.log(f"Searching for colors {target_hex_colors} in '{sheet_name}/{worksheet_name}'...")
+
+    try:
+        spreadsheet = client.open(sheet_name)
+        worksheet = spreadsheet.worksheet(worksheet_name)
+        
+        metadata = spreadsheet.fetch_sheet_metadata({"includeGridData": True})
+        
+        sheet_metadata = next(
+            (s for s in metadata.get('sheets', []) if s.get('properties', {}).get('title') == worksheet_name),
+            None
+        )
+
+        if not sheet_metadata:
+            console.log(f"[bold red]Could not find metadata for worksheet '{worksheet_name}'.[/bold red]")
+            return pd.DataFrame()
+
+        data = worksheet.get_all_records()
+        if not data:
+            console.log("[bold yellow]🤷 No data found in the sheet.[/bold yellow]")
+            return pd.DataFrame()
+        df = pd.DataFrame(data)
+
+        matching_df_indices = set()
+        all_row_data = sheet_metadata.get('data', [{}])[0].get('rowData', [])
+
+        for i, row_data in enumerate(all_row_data[1:], start=0):
+            if 'values' in row_data:
+                for cell_data in row_data['values']:
+                    bg_color_style = cell_data.get('effectiveFormat', {}).get('backgroundColorStyle', {})
+                    if 'rgbColor' in bg_color_style:
+                        current_cell_hex = rgb_to_hex(bg_color_style['rgbColor'])
+                        
+                        if current_cell_hex in target_hex_colors:
+                            matching_df_indices.add(i)
+                            break
+                if i in matching_df_indices:
+                    continue
+
+        if matching_df_indices:
+            sorted_indices = sorted(list(matching_df_indices))
+            console.log(f"[bold green]✅ Found target color(s) in {len(sorted_indices)} data rows.[/bold green]")
+            return df.iloc[sorted_indices]
+        else:
+            console.log("[bold yellow]🤷 No rows found with the specified background color.[/bold yellow]")
+            return pd.DataFrame()
+
+    except gspread.exceptions.SpreadsheetNotFound:
+        console.log(f"[bold red]Spreadsheet '{sheet_name}' not found. Aborting.[/bold red]")
+    except gspread.exceptions.WorksheetNotFound:
+        console.log(f"[bold red]Worksheet '{worksheet_name}' not found. Aborting.[/bold red]")
+    except Exception as e:
+        console.log(f"[bold red]An unexpected error occurred: {e}[/bold red]")
+    
+    return pd.DataFrame()
+
+
+def send_consolidated_email_alert(stocks_list, sender_email, password):
+    if not stocks_list:
+        print("No stocks triggered the alert. No email sent.")
+        return
+
+    receiver_email = sender_email
+    num_stocks = len(stocks_list)
+    subject = f"📉 Stock Alert: {num_stocks} Ticker(s) Dropped Over 20%"
+
+    table_rows = ""
+    for stock in stocks_list:
+        table_rows += f"""
+        <tr>
+            <td style="padding: 12px 15px; border-bottom: 1px solid #ddd;">{stock['symbol']}</td>
+            <td style="padding: 12px 15px; border-bottom: 1px solid #ddd;">${stock['past_price']:.2f}</td>
+            <td style="padding: 12px 15px; border-bottom: 1px solid #ddd;">${stock['current_price']:.2f}</td>
+            <td style="padding: 12px 15px; border-bottom: 1px solid #ddd; color: #D32F2F; font-weight: bold;">
+                {stock['percent_drop']:.2f}%
+            </td>
+        </tr>
+        """
+
+    html_body = f"""
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stock Alert</title>
+    </head>
+    <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f4;">
+        <div style="max-width: 600px; margin: auto; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); overflow: hidden;">
+            <div style="background-color: #c62828; color: #ffffff; padding: 20px; text-align: center;">
+                <h1 style="margin: 0; font-size: 24px;">Significant Price Drop Alert</h1>
+            </div>
+            <div style="padding: 20px;">
+                <p style="font-size: 16px; color: #333;">Hi,</p>
+                <p style="font-size: 16px; line-height: 1.6; color: #333;">
+                    This is an automated alert from your Python bot. The following {num_stocks} stock(s) have dropped by more than 20%:
+                </p>
+                <table style="width: 100%; border-collapse: collapse; margin: 25px 0; font-size: 16px;">
+                    <thead style="background-color: #f2f2f2;">
+                        <tr>
+                            <th style="padding: 12px 15px; text-align: left; border-bottom: 2px solid #ddd;">Ticker</th>
+                            <th style="padding: 12px 15px; text-align: left; border-bottom: 2px solid #ddd;">Past Price</th>
+                            <th style="padding: 12px 15px; text-align: left; border-bottom: 2px solid #ddd;">Current Price</th>
+                            <th style="padding: 12px 15px; text-align: left; border-bottom: 2px solid #ddd;">Drop</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {table_rows}
+                    </tbody>
+                </table>
+                <p style="font-size: 14px; color: #555;">
+                    Please review your portfolio and take any necessary action.
+                </p>
+            </div>
+            <div style="background-color: #f9f9f9; color: #777; padding: 15px; text-align: center; font-size: 12px;">
+                <p style="margin: 0;">Regards,</p>
+                <p style="margin: 5px 0 0 0;">Your Python Bot</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+
+    message = MIMEMultipart()
+    message["From"] = sender_email
+    message["To"] = receiver_email
+    message["Subject"] = subject
+    message.attach(MIMEText(html_body, "html"))
+
+    try:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+            server.login(sender_email, password)
+            server.sendmail(sender_email, receiver_email, message.as_string())
+        print("✅ Beautiful consolidated email alert sent successfully!")
+    except Exception as e:
+        print(f"❌ Failed to send consolidated email. Error: {e}")
+
+
+def send_alert_on_down():
+    PINK = {'red': 0.91764706, 'green': 0.81960785, 'blue': 0.8627451}
+    YELLOW = {'red': 1, 'green': 0.9490196, 'blue': 0.8}
+    BLUE = {'red': 0.788235294117647, 'green': 0.8549019607843137, 'blue': 0.9686274509803922}
+
+    stocks_to_alert = []
+
+    sender_email = os.getenv("SENDER_EMAIL")
+    app_password = os.getenv("GMAIL_APP_PASSWORD")
+
+    if not all([sender_email, app_password]):
+        console.log("[bold red]❌ Error: Missing SENDER_EMAIL or GMAIL_APP_PASSWORD environment variables.[/bold red]")
+        return
+
+    rows_df = find_rows_by_color('stock-research', [BLUE, YELLOW], 'step-iii')
+    rows = rows_df.to_dict(orient='records')
+    
+    console.log("Processing stocks...")
+    for row in rows:
+        ticker_symbol = row.get('Ticker')
+        if not ticker_symbol:
+            continue
+
+        try:
+            last_updated_str = row['Last Updated']
+            ticker_obj = yf.Ticker(ticker_symbol)
+            start_date = datetime.strptime(last_updated_str, '%Y-%m-%d').date()
+            
+            hist_df = ticker_obj.history(start=start_date, end=start_date + timedelta(days=5))
+            if hist_df.empty:
+                console.log(f"[{ticker_symbol}] No historical data found for {start_date}", style="yellow")
+                continue
+            
+            past_price = hist_df['Close'].iloc[0]
+            current_price = ticker_obj.history(period="5d")['Close'].iloc[-1]
+
+            if current_price <= (past_price * 0.8):
+                percent_drop = (1 - (current_price / past_price)) * 100
+                console.log(f"🔻 Found drop for {ticker_symbol}: {percent_drop:.2f}%", style="bold magenta")
+
+                stocks_to_alert.append({
+                    'symbol': ticker_symbol,
+                    'past_price': past_price,
+                    'current_price': current_price,
+                    'percent_drop': percent_drop
+                })
+
+        except Exception as e:
+            console.log(f"[bold red]Could not process {ticker_symbol}. Error: {e}[/bold red]")
+
+    if stocks_to_alert:
+        console.log(f"\n[bold green]Found {len(stocks_to_alert)} stocks with significant drops. Sending consolidated email...[/bold green]")
+        send_consolidated_email_alert(stocks_to_alert, sender_email, app_password)
+    else:
+        console.log("\n[green]No stocks met the alert criteria. No email sent.[/green]")
 
 
 def get_next_steps(ticker, business_summary, company_history,

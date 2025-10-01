@@ -684,6 +684,20 @@ google-auth = ">=1.12.0"
 google-auth-oauthlib = ">=0.4.1"
 
 [[package]]
+name = "gspread-formatting"
+version = "1.2.1"
+description = "Complete Google Sheets formatting support for gspread worksheets"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "gspread_formatting-1.2.1-py2.py3-none-any.whl", hash = "sha256:76bef0e751dc276bab666351035f15a818866dea5ca20603a34ae6c847333662"},
+]
+
+[package.dependencies]
+gspread = ">=3.0.0"
+
+[[package]]
 name = "h11"
 version = "0.16.0"
 description = "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
@@ -2993,4 +3007,4 @@ repair = ["scipy (>=1.6.3)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13,<3.14"
-content-hash = "ba671d5c78d64ed964b5c71c6bffa6f19247f43f3c4af9aadb91ab9a9021c02e"
+content-hash = "e6cfb5f4a6c2e6e98eaef55f57edba8a978b2f0a9da4a47660d64ef0ac74385e"

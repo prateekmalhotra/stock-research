@@ -15,6 +15,7 @@ from rich.console import Console
 console = Console()
 
 if __name__ == "__main__":
+    utilities.send_alert_on_down()
     console.rule("[bold green]Qualitative Analysis: Step III[/bold green]")
     
     tickers_all = utilities.get_step_ii_tickers()
