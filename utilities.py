@@ -2198,6 +2198,8 @@ def send_alert_on_down():
             past_price = hist_df['Close'].iloc[0]
             current_price = ticker_obj.history(period="5d")['Close'].iloc[-1]
 
+            console.log(f"No drop for {ticker_symbol}. Price at {last_updated_str} was {past_price}. Currently at {current_price}", style="bold magenta")
+
             if current_price <= (past_price * 0.8):
                 percent_drop = (1 - (current_price / past_price)) * 100
                 console.log(f"🔻 Found drop for {ticker_symbol}: {percent_drop:.2f}%", style="bold magenta")
