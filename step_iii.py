@@ -21,8 +21,9 @@ if __name__ == "__main__":
     tickers_all = utilities.get_step_ii_tickers()
     already_processed_tickers = set(utilities.get_step_iii_tickers())
     tickers = [t for t in tickers_all if t not in already_processed_tickers]
+    limit = 10 if len(tickers) > 10 else len(tickers)
 
-    for ticker in tickers:
+    for ticker in tickers[:limit]:
         stock_data = utilities.get_ticker_step_iii_info(ticker)
         sheet_data = utilities.prepare_data_step_iii(stock_data)
 

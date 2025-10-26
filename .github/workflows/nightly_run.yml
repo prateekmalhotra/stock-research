@@ -44,3 +44,5 @@ jobs:
         poetry run python -B step_ii.py
         sleep 10
         poetry run python -B step_iii.py
+        sleep 10
+        poetry run python -B step_iv_creator.py

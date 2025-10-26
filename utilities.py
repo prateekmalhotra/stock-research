@@ -1390,6 +1390,29 @@ def prepare_data_step_iii(ticker_data: dict):
     return data_for_sheet
 
 
+def prepare_data_step_iv(ticker_data: dict):
+    console.log("Preparing qualitative data for Google Sheets...")
+
+    if not ticker_data or not isinstance(ticker_data, dict):
+        console.log("[yellow]Warning: Invalid or no ticker data provided to prepare.[/yellow]")
+        return []
+
+    header = [
+        'Ticker',
+        'Fair value analysis',
+        'Monte Carlo analysis',
+        'Last Updated',
+    ]
+    
+    row = [ticker_data.get(h, "N/A") for h in header]
+    data_for_sheet = [header, row]
+        
+    ticker_symbol = ticker_data.get('Ticker', 'N/A')
+    console.log(f"[green]Successfully prepared quantiative data for ticker '{ticker_symbol}'.[/green]")
+    
+    return data_for_sheet
+
+
 def update_single_column(
     sheet_name: str,
     data_to_update: dict,
@@ -1553,6 +1576,7 @@ def update_total_score_in_sheet(
         console.log(f"Worksheet '{worksheet_name}' not found.")
     except Exception as e:
         console.log(f"[bold red]An unexpected error occurred during score processing:[/bold red] {e}")
+
 
 def write_to_google_sheet_ii(data_to_write, sheet_name, worksheet_name="Sheet1", days=90):
     client = None
@@ -2267,6 +2291,140 @@ def get_next_steps(ticker, business_summary, company_history,
     except Exception as e:
         console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
         sys.exit(0)
+
+def get_fair_value(ticker):
+    company_name = yf.Ticker(ticker).info.get("longName")
+    g = Github(PAT_GITHUB)
+    repo = g.get_user().get_repo(REPO_NAME.split('/')[1])
+    console.log(f"✅ Successfully connected to GitHub repo: [bold green]{repo.full_name}[/bold green]")
+    console.rule()
+    console.log(f"[yellow]Analyzing fair value for {company_name}[/yellow]")
+
+    prompt = f"""please do a valuation of {company_name}({ticker}) stock. Use the following rules:
+
+                Get total cash & cash equivalents. Anything liquid and in their hands is cash (example - small ownership of marketable securities). Don't use accounts receivable etc. Make sure that if they own a % of some security, it is marked to market. Sometimes company balance sheet can have outdated information.
+
+                Get total debt.
+
+                Then, you need to look at last 4 earnings calls transcripts and figure out revenue for year 2025, 2026, 2027, 2028, 2029, 2030. Use reasonable estimates. Use world knowledge, competitor analysis etc. And you need to understand the business engine and your revenue estimates should be backed by this. You can use management guided internal metrics to come up with good estimates.
+
+                As an example, you can't just say lets assume Netflix will increase revenue by 10% year over year. You need to see what drives the business: paying users and price hikes. And based on earnings call, come up with why the paying users will increase, or any price hikes on the horizon, and where will paying users come from, etc. And how is average revenue per paying user change. And based on this engine come up reasonable revenue estimates based on your engine assumptions.
+
+                You need to be conservative in this business engine building, and future assumptions. Use management commentary and earnings calls to understand where the business engine is headed and make assumptions accordingly.
+
+                Use margin information from the past and management commentary and guidance to come up with good margin % for gross margin, net income, etc. If the company has been unprofitable before but management is guiding profitability, then please use that. Use whatever management has said as truth.
+
+                Assume that net income for each year goes straight into cash for the next year. Then get a reasonable ROIC percentage based on the past to get additional income for the next year. So net income for next year = net income from that year based on reasonable assumptions + ROIC from net income got from previous year. If past ROIC is negative but you are projecting positive net income, just get a conservative but reasonable positive ROIC % and carry on with valuation.
+
+                So then you will have net income until 2030. Then you need to assume a very conservative maturity rate and a conservative (but reasonable) discount rate. Do a discounted cash flow where you get net present value (NPV) of all future cash flows today.
+
+                Use this to calculate fair value of stock by subtracting debt and dividing by shares. Please note the current value of the stock. You will understand that the market is making assumptions about this company, understand what these assumptions are.
+
+                You need to justify each step and if your fair value is too far away from the market value of the stock you need to justify why this is the case. You need to ask yourself why is your assumption so different from the market and make a case for this.
+
+                Please give all reasoning and math and justification first and give fair value at the end.  To get cashflow statement, income statement, and balance sheet only use SEC filings and nothing else. Do not use yahoo finance etc. Do not use analyst estimates - they are idiots anyway.
+
+                Output should be Markdown (for github specifically) with neat formatting. Note that you cannot use latex. So no \\math, \\text, $\\text etc in the output.
+                """
+
+    try:
+        grounding_tool = types.Tool(
+            google_search=types.GoogleSearch()
+        )
+
+        config = types.GenerateContentConfig(
+            tools=[grounding_tool]
+        )
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-preview-09-2025",
+            contents=prompt,
+            config=config,
+        )
+
+        save_text_to_github(repo, ticker, "fv", response.text)
+        return response.text
+
+    except Exception as e:
+        console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
+        sys.exit(0)
+
+
+def get_step_iv_script(ticker, fair_value_text):
+    company_name = yf.Ticker(ticker).info.get("longName")
+    console.log(f"[green]Monte Carlo Simulation for {company_name}[/green]")
+
+    prompt = fair_value_text + "\n\n" + f"""Now you need to write a python script that does monte carlo simluations. So for ALL your assumptions, model them from bear case to conservative to optimistic.
+
+                So your assumptions would go from business engine assumptions -> revenue assumptions -> margin assumptions -> final net incomes till 2030. Make sure that these assumptions are modeled in the python script and considered in every loop. Use a good, very broad range of assumptions to factor in many different scenarios: bearish, conservative, optimistic, etc. 
+
+                Then they would go to maturity % and you can also state here that company will decline or increase. choose numbers between -2% to 2% here. And discount rate also iterate upon. And any and every assumption you have made needs to be considered and factored into the monte carlo function.
+
+                Use for loops to loop through all these assumptions and run a function that calculates fair value for all these. Atleast 5000+ scenarios.
+
+                Then plot histogram of these valuations on a graph and save it as <TICKER>_montecarlo.png. Please only save it, do not display it.
+                """
+
+    try:
+        config=types.GenerateContentConfig(
+            tools=[types.Tool(code_execution=types.ToolCodeExecution)])
+
+        response = client.models.generate_content(
+                model="gemini-2.5-flash-preview-09-2025",
+                contents=prompt,
+                config=config,
+            )
+
+        return response
+
+    except Exception as e:
+        console.print(f"[bold red]Gemini API call failed.[/bold red] {e}", style="red")
+        sys.exit(0)
+
+
+def save_image_to_github(ticker, file_type, image_local_path):
+    g = Github(PAT_GITHUB)
+    repo = g.get_user().get_repo(REPO_NAME.split('/')[1])
+
+    filename = f"{ticker}_{file_type}.png"
+    path = f"files/{ticker}/{filename}"
+    commit_message = f"Add/Update {file_type} image for {ticker}"
+
+    try:
+        with open(image_local_path, "rb") as f:
+            image_content = f.read()
+    except FileNotFoundError:
+        console.log(f"❌ Error: Local file not found [bold red]{image_local_path}[/bold red]", style="red")
+        return None
+    except Exception as e:
+        console.log(f"❌ Error reading local file [bold red]{image_local_path}[/bold red]: {e}", style="red")
+        raise
+
+    try:
+        contents = repo.get_contents(path)
+        
+        if contents.decoded_content == image_content:
+            console.log(f"↪️ '[bold cyan]{filename}[/bold cyan]' content unchanged. Skipping update.", style="yellow")
+            return contents.html_url
+
+        repo.update_file(contents.path, commit_message, image_content, contents.sha)
+        console.log(f"🔄 Updated '[bold cyan]{filename}[/bold cyan]' in GitHub.", style="green")
+        return contents.html_url
+        
+    except Exception as e:
+        if hasattr(e, 'status') and e.status == 404:
+            try:
+                repo.create_file(path, commit_message, image_content)
+                console.log(f"✅ Created '[bold cyan]{filename}[/bold cyan]' in GitHub.", style="bold green")
+                
+                new_contents = repo.get_contents(path)
+                return new_contents.html_url
+            except Exception as create_e:
+                console.log(f"❌ Error *creating* file [bold red]{path}[/bold red] in GitHub: {create_e}", style="red")
+                raise
+        else:
+            console.log(f"❌ Error interacting with GitHub for [bold red]{path}[/bold red]: {e}", style="red")
+            raise
 
 
 def save_text_to_github(repo, ticker, file_type, text_content):
