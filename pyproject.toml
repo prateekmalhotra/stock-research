@@ -27,6 +27,7 @@ dependencies = [
     "cloudscraper (>=1.2.71,<2.0.0)",
     "pandas (>=2.3.3,<3.0.0)",
     "gspread-formatting (>=1.2.1,<2.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)",
 ]
 
 
