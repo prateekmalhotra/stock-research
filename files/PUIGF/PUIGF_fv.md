@@ -1,165 +1,126 @@
-This valuation of **Puig Brands, S.A. (PUIGF/PUIG)** is conducted using a Discounted Cash Flow (DCF) model based *only* on financial data and guidance extracted from the company's official financial statements and earnings commentary. All financial figures are presented in **Millions of Euros (€M)**, the company's base currency.
+This valuation is performed for **Puig Brands, S.A. (PUIGF)** using a Discounted Cash Flow (DCF) model based on historical data and management commentary from the latest available investor materials and earnings call transcripts (FY 2024, Q1, H1, and Q3 2025). The currency used for the valuation is the Euro (€), as Puig is an EU-based company.
 
 ---
 
-## **Puig Brands, S.A. (PUIGF/PUIG) Valuation**
+## 1. Initial Financial Data
 
-**Current Stock Price (PUIG, Madrid):** €13.78 (as of Oct 28, 2025)
-**Shares Outstanding:** 563.30 million
+The required financial figures are based on the latest available consolidated annual accounts for the fiscal year ended December 31, 2024. As a foreign private issuer (an EU company), Puig's primary filings are its Consolidated Annual Accounts submitted to its home country regulator (CNMV in Spain), which are used as the foundational data.
 
-### **I. Balance Sheet Data**
+| Metric | Value (€ millions) | Source/Calculation |
+| :--- | :--- | :--- |
+| **Current Stock Price** | €13.94 | As of Oct 24, 2025, from BME:PUIG (the primary listing). |
+| **Shares Outstanding** | 563,300,359 | Explicit number of shares outstanding as of the end of 2024. |
+| **Total Cash & Equivalents** | €884.44 | Cash & Short-Term Investments as of FY 2024. |
+| **Adjusted EBITDA (FY 2024)** | €969.0 | Management reported figure for FY 2024. |
+| **Net Debt / Adj. EBITDA (FY 2024)** | 1.1x | Management reported leverage ratio. |
+| **Total Debt** | €1,950.34 | **Calculation:** Net Debt (€969M * 1.1) + Cash (€884.44M). |
+| **Net Revenue (FY 2024)** | €4,790.0 | Reported Net Revenue for FY 2024. |
+| **Adjusted Net Profit Margin (FY 2024)** | 11.5% | Adjusted Net Profit (€551M) / Revenue (€4,790M). |
 
-The following figures are extracted from the company's Condensed Consolidated Interim Financial Statements (June 30, 2025) and Consolidated Annual Accounts (December 31, 2024).
+---
 
-| Item | Value (M€) | Date | Source/Basis |
+## 2. Business Engine and Revenue Projections (2025 - 2030)
+
+### Justification for Revenue Projections
+
+Puig's business engine is driven by its strong portfolio of premium and luxury brands, with a core focus on **Fragrance & Fashion (73% of FY 2024 Net Revenue)**, supplemented by high-growth segments in **Skincare and Makeup**.
+
+*   **Core Growth Drivers:**
+    *   **Fragrance & Fashion:** Continued success of core franchises like *Carolina Herrera Good Girl* (#1 feminine fragrance worldwide in 2024) and *Jean Paul Gaultier* (entering the top 10). Growth is also supported by the double-digit performance of Niche brands (e.g., Penhaligon's, Byredo).
+    *   **Skincare:** High-growth category (up 19.8% reported in FY 2024), led by the strong performance of Uriage and *Charlotte Tilbury Skincare*.
+    *   **Makeup:** Showing signs of recovery, with Q3 2025 delivering strong like-for-like growth (+18.8%) after challenges in early 2024. This turnaround is driven by sustained success at *Charlotte Tilbury* and new retail strategies (e.g., strategic pipelining into Amazon in the U.S.).
+
+*   **Management Guidance (2025):** Management has reaffirmed its full-year 2025 outlook for **6%-8% like-for-like net revenue growth**, expecting to land in the **middle of the range** (i.e., **7.0%**).
+
+| Year | Revenue Growth Assumption | Projected Net Revenue (€ millions) | Justification |
 | :--- | :--- | :--- | :--- |
-| **Total Cash & Equivalents** | €283.32 | Jun 30, 2025 | Cash and cash equivalents |
-| **Current Bank Borrowings** | €704.15 | Jun 30, 2025 | Current bank borrowings |
-| **Non-current Bank Borrowings** | €725.81 | Jun 30, 2025 | Non-current bank borrowings |
-| **Total Debt** | **€1,429.96** | Jun 30, 2025 | Sum of current and non-current borrowings |
+| **FY 2024** | *N/A (Base Year)* | 4,790.0 | FY 2024 Reported Revenue. |
+| **FY 2025** | 7.0% | 5,125.3 | Use of management's guidance to land in the middle of the 6-8% LFL growth range. |
+| **FY 2026** | 6.0% | 5,432.8 | Conservative step-down, reflecting continued outperformance but gradual moderation as the base grows. |
+| **FY 2027** | 5.0% | 5,704.4 | Still benefiting from Skincare and Niche expansion, but closer to long-term luxury market growth. |
+| **FY 2028** | 4.0% | 5,932.6 | Reflecting increased market maturity and competition. |
+| **FY 2029** | 3.0% | 6,110.6 | Conservative growth for a globally diversified, premium conglomerate. |
+| **FY 2030** | 2.5% | 6,263.4 | Approaching a conservative terminal growth rate for a mature beauty business. |
 
-### **II. Business Engine and Revenue Forecast**
+---
 
-Puig is a premium beauty product maker, with **Fragrance and Fashion** (73% of H1 2025 net revenue) being the core driver, supplemented by **Skincare** and **Makeup**. The business engine is driven by:
-1.  **Premiumization:** Scaling niche brands (e.g., Byredo, Charlotte Tilbury) to higher volumes while maintaining premium pricing and high margins.
-2.  **Geographic Expansion:** Double-digit LFL growth in the Americas and Asia-Pacific regions is noted in H1 2025.
-3.  **Core Brand Strength:** Continued solid performance from flagship brands (Rabanne, Carolina Herrera).
+## 3. Net Income and Discounted Cash Flow Projections
 
-#### **Revenue Assumptions (M€)**
+### Margin and ROIC Assumptions
 
-The forecast is based on the management guidance and a conservative long-term growth profile:
+*   **Net Income Margin:** The adjusted net profit margin for FY 2024 was **11.5%**. Management is guiding for adjusted EBITDA margin expansion in 2025, in line with 2024. To be conservative yet acknowledge the premium pricing power and operational leverage of the luxury beauty sector, a stable projected Net Income Margin of **12.0%** is used for all years.
+*   **Return on Invested Capital (ROIC):** Based on the strong, positive profitability of the company, and noting the rule to select a reasonable positive ROIC, a conservative ROIC of **6.5%** is assumed for re-investing the prior year's cash generated from Net Income.
+    *   *Calculation logic for additional income:* Net Income ($t$) = (Projected Net Income from Revenue * Margin) + (Cash from Previous Year's Net Income * ROIC).
+    *   *Base Net Income for ROIC 2024:* Net Profit (Adjusted) for FY 2024 was €551M.
 
-*   **2025:** Management reaffirmed a **6-8% like-for-like (LFL) Net Revenue growth**, expecting to land at the lower end. We use **+6.0%** growth on FY 2024 Revenue of €4,790M.
-*   **2026-2027:** Due to the premium beauty market outperformance and brand scaling, a growth rate of **+5.0%** is assumed, slightly above a conservative long-term market growth rate.
-*   **2028-2030:** The growth rate is conservatively tapered down to **+4.0%** and then **+3.0%** to reflect market maturation and a cautious approach as per the valuation rules.
+### DCF Calculation Table
 
-| Year | Revenue (M€) | Growth Rate | Justification |
-| :--- | :--- | :--- | :--- |
-| **2024 (Actual)** | €4,790.0 | - | Company Reported Revenue |
-| **2025 (Projection)** | €5,077.4 | +6.0% | Conservative end of 6-8% management guidance. |
-| **2026 (Projection)** | €5,331.3 | +5.0% | Continued premiumization and market outperformance. |
-| **2027 (Projection)** | €5,597.9 | +5.0% | Continued momentum, moderating slightly. |
-| **2028 (Projection)** | €5,821.8 | +4.0% | Further moderation, in line with long-term industry growth. |
-| **2029 (Projection)** | €5,996.5 | +3.0% | Conservative long-term premium growth assumption. |
-| **2030 (Projection)** | €6,176.4 | +3.0% | Stable mature growth rate. |
+| Metric/Year (€ millions) | FY 2025 | FY 2026 | FY 2027 | FY 2028 | FY 2029 | FY 2030 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **A. Net Revenue** | 5,125.3 | 5,432.8 | 5,704.4 | 5,932.6 | 6,110.6 | 6,263.4 |
+| **B. Projected Net Income (A * 12.0%)** | 615.0 | 651.9 | 684.5 | 711.9 | 733.3 | 751.6 |
+| **C. Previous NI Carried to Cash (Year $t-1$)** | 551.0 (FY 2024) | 651.1 | 693.3 | 738.1 | 785.6 | 835.8 |
+| **D. ROIC Income (C * 6.5%)** | 35.8 | 42.3 | 45.1 | 47.9 | 51.1 | 54.3 |
+| **E. Total Projected Cash Flow (B + D)** | **650.8** | **694.2** | **729.6** | **759.8** | **784.4** | **805.9** |
+| **F. Discount Factor (12.0%)** | 0.893 | 0.797 | 0.712 | 0.636 | 0.568 | 0.507 |
+| **G. Discounted Cash Flow (E * F)** | **581.0** | **553.4** | **519.5** | **483.2** | **445.5** | **409.0** |
 
-### **III. Net Income and ROIC Projection**
+*Note: The actual cash from the previous year's Net Income (C) includes the full Net Income from that year plus the ROIC income carried over.*
 
-#### **Margin Assumptions**
+### Discount Rate and Terminal Value
 
-*   **Gross Margin:** H1 2025 Gross Margin was a very high **75.8%**, one of the highest in the industry. This high margin is maintained across the projection period, reflecting the premium, high-value nature of the luxury fragrance and beauty segments.
-*   **Adjusted EBITDA Margin:** Management guided for a 20 basis points improvement in 2025. H1 2025 adjusted EBITDA margin was 19.4%. We use a **Net Income Margin** that grows moderately, reflecting operational leverage and margin improvement from the premium portfolio.
+*   **Discount Rate:** A conservative but reasonable rate of **12.0%** is chosen. This is higher than the assumed market risk-free rate plus a standard equity premium for a luxury goods company, reflecting the recent IPO, its dual share class structure, and the inherent volatility in the fashion/beauty industry.
+*   **Maturity Rate (Perpetual Growth Rate):** A very conservative **2.0%** is used. This is a conservative estimate, lower than the long-term global premium beauty market growth rate, ensuring the terminal value does not overly inflate the valuation.
 
-**Historical Net Income (FY 2024):**
-Based on previous search context, reported Net Income for FY 2024 was approx. €530M on €4,790M Revenue.
-*   *FY 2024 Net Income Margin:* 530 / 4,790 = **11.06%**
+**Terminal Value (TV) Calculation (end of 2030):**
+$$\text{Terminal Value} = \frac{\text{Projected Cash Flow}_{2030} \times (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}$$
 
-**Net Income Projection:**
-We start with a conservative **11.50%** Net Income margin in 2025, gradually increasing by 20 basis points annually to reflect management's guidance on margin improvement (EBITDA margin up 20 bps) due to scale, which should flow down to the net income line.
+$$\text{Terminal Value} = \frac{\text{€}805.9 \text{M} \times (1 + 0.02)}{0.12 - 0.02} = \frac{\text{€}822.018 \text{M}}{0.10} = \text{€}8,220.18 \text{M}$$
 
-| Year | Revenue (M€) | Net Income Margin | Projected Net Income (M€) |
-| :--- | :--- | :--- | :--- |
-| **2025** | €5,077.4 | 11.50% | €583.9 |
-| **2026** | €5,331.3 | 11.70% | €623.7 |
-| **2027** | €5,597.9 | 11.90% | €666.1 |
-| **2028** | €5,821.8 | 12.10% | €704.4 |
-| **2029** | €5,996.5 | 12.30% | €737.6 |
-| **2030** | €6,176.4 | 12.50% | €772.1 |
+**Net Present Value (NPV) of Terminal Value:**
+$$\text{NPV of TV} = \text{Terminal Value} \times \text{Discount Factor}_{2030}$$
 
-#### **Return on Invested Capital (ROIC) Assumption**
+$$\text{NPV of TV} = \text{€}8,220.18 \text{M} \times 0.507 = \text{€}4,166.43 \text{M}$$
 
-The rule states: Net Income for next year = Net Income from that year (based on margin assumptions) + ROIC from net income got from previous year.
+---
 
-**Historical ROIC Calculation (Approximate FY 2024):**
-*   **Invested Capital (IC) FY 2024:** Total Debt (€1,657.10M) + Total Equity (€3,537.68M) = €5,194.78M
-*   **NOPAT (Net Operating Profit After Tax) FY 2024:** Assuming an average tax rate of 25% on 2024 Adjusted EBITDA of approximately €930M (based on H1 2025 margin guidance), NOPAT is complex to precisely calculate without the full Income Statement.
-*   **Conservative ROIC Assumption:** Given the company's strong brand portfolio (high intangible assets, which inflate the IC denominator) and high gross margins, a conservative, yet positive ROIC is necessary. I will assume a conservative **ROIC of 6.0%**, which is a reasonable return for a stable, premium, non-capital-intensive business in a mature market, and is below the firm's approximate cost of capital.
+## 4. Fair Value Calculation
 
-**Adjusted Net Income (M€):**
-
-| Year | Net Income (M€) | ROIC on Previous Year's Net Income (6.0%) | Adjusted Net Income (Cash Flow) (M€) |
-| :--- | :--- | :--- | :--- |
-| **2025** | €583.9 | - | **€583.9** |
-| **2026** | €623.7 | €35.0 (583.9 \* 6.0%) | **€658.7** |
-| **2027** | €666.1 | €37.4 (623.7 \* 6.0%) | **€703.5** |
-| **2028** | €704.4 | €40.0 (666.1 \* 6.0%) | **€744.4** |
-| **2029** | €737.6 | €42.3 (704.4 \* 6.0%) | **€779.9** |
-| **2030** | €772.1 | €44.3 (737.6 \* 6.0%) | **€816.4** |
-
-### **IV. Discounted Cash Flow (DCF) Analysis**
-
-The Adjusted Net Income is used as a proxy for Free Cash Flow to Equity (FCFE).
-
-#### **Valuation Parameters**
-
-*   **Conservative Maturity Rate (g):** **2.0%** (Assumes long-term growth slightly above historical inflation for a mature, premium business).
-*   **Conservative Discount Rate (r):** **8.0%** (A reasonable cost of equity for a stable luxury/consumer-defensive company, reflecting conservative assumptions).
-
-#### **Net Present Value (NPV) Calculation**
-
-| Year (t) | Adjusted Net Income (M€) | Discount Factor (1/1.08^t) | NPV of Cash Flow (M€) |
-| :--- | :--- | :--- | :--- |
-| **2025** | €583.9 | 0.9259 | €540.6 |
-| **2026** | €658.7 | 0.8573 | €564.6 |
-| **2027** | €703.5 | 0.7938 | €558.3 |
-| **2028** | €744.4 | 0.7350 | €547.2 |
-| **2029** | €779.9 | 0.6806 | €530.8 |
-| **2030** | €816.4 | 0.6302 | €514.5 |
-| **Total NPV of Explicit Period** | | | **€3,256.0** |
-
-#### **Terminal Value (TV) Calculation**
-
-Terminal Value represents the value of all cash flows beyond 2030.
-
-*   **FCFE in 2031 (Estimate):** €816.4M \* (1 + 2.0%) = €832.7M
-*   **TV Formula:** FCFE (2031) / (r - g)
-*   **TV:** €832.7M / (8.0% - 2.0%) = €832.7M / 0.06 = €13,878.3M
-*   **NPV of TV (Discounted back to T=0):** TV \* Discount Factor (2030)
-*   **NPV of TV:** €13,878.3M \* 0.6302 = **€8,746.5M**
-
-**Total Equity Value (TEV):** NPV of Explicit Period + NPV of Terminal Value
-**TEV:** €3,256.0M + €8,746.5M = **€12,002.5 million**
-
-### **V. Fair Value Calculation**
-
-Fair Value is calculated using the Adjusted Net Income (FCFE) as the cash flow metric, meaning the debt/cash adjustment is not necessary if the discount rate is the Cost of Equity. However, following the instruction: *Fair Value = (TEV + Cash - Debt) / Shares Outstanding* using the unlevered cash flow (FCFF) method with WACC is the standard, while using FCFE/Cost of Equity already captures the debt effect in the cash flow itself.
-
-To adhere strictly to the rule: *subtracting debt and dividing by shares* while using the FCFE-derived Total Equity Value, we will use the FCFE method, which yields the Equity Value directly, and then slightly adjust for the cash and debt to meet the prompt's explicit final formula step.
-
-| Item | Value (M€) |
+**Total Equity Value:**
+| Metric | Value (€ millions) |
 | :--- | :--- |
-| **Total Equity Value (from DCF)** | €12,002.5 |
-| **(+) Total Cash & Equivalents** | €283.32 |
-| **(-) Total Debt** | €1,429.96 |
-| **Final Adjusted Equity Value** | **€10,855.9** |
-| **Total Shares Outstanding** | 563.30 million |
-| **Fair Value per Share** | **€19.27** |
+| **NPV of Cash Flows (2025-2030)** | **€3,091.6M** (€581.0 + €553.4 + €519.5 + €483.2 + €445.5 + €409.0) |
+| **NPV of Terminal Value** | **€4,166.43M** |
+| **Total Enterprise Value (TEV)** | **€7,258.03M** |
+| **Add: Total Cash & Equivalents (FY 2024)** | **€884.44M** |
+| **Subtract: Total Debt (FY 2024)** | **€1,950.34M** |
+| **Total Equity Value** | **€6,192.13M** |
+
+**Fair Value Per Share:**
+$$\text{Fair Value Per Share} = \frac{\text{Total Equity Value}}{\text{Shares Outstanding}}$$
+
+$$\text{Fair Value Per Share} = \frac{\text{€}6,192.13 \text{M}}{563,300,359 \text{ shares}} = \text{€}10.99$$
 
 ---
 
-## **Final Valuation Summary**
+## 5. Justification and Conclusion
+
+### Final Valuation
 
 | Metric | Value |
 | :--- | :--- |
-| **Fair Value per Share (EUR)** | **€19.27** |
-| **Current Stock Price (PUIG, EUR)** | **€13.78** |
-| **Valuation Upside** | **+39.84%** |
+| **Fair Value Per Share (EUR)** | **€10.99** |
+| **Current Stock Price (EUR)** | **€13.94** |
+| **Difference** | **-21.16%** |
 
-### **Justification and Market Assumption Analysis**
+### Market vs. Fair Value Justification
 
-The calculated fair value of **€19.27** is significantly higher than the current market price of **€13.78**, suggesting the stock is undervalued based on the conservative growth and margin assumptions.
+The calculated Fair Value of **€10.99** is significantly lower than the current market price of **€13.94**, indicating the stock is **overvalued** by the market based on these conservative assumptions.
 
-**Justification for Disparity (Why is my assumption different from the market?):**
+The market is making a case for a higher valuation by making one or more assumptions that are more aggressive than the conservative DCF model:
 
-1.  **Market Skepticism on Growth Longevity:** The market may not fully believe the long-term growth embedded in my model.
-    *   **My Assumption:** The model assumes an average 4.2% revenue growth (2025-2030) and a conservative terminal growth of 2.0%. This is backed by the company's outperformance of the premium beauty market and its successful M&A strategy (Charlotte Tilbury, Byredo).
-    *   **Market's Possible Assumption:** The market may be discounting the growth rate more aggressively, perhaps due to the heavy reliance on the Fragrance and Fashion segment, which is prone to changing consumer tastes, or due to a highly competitive environment from peers like L'Oréal and Estée Lauder. The recent slowdown in fragrance growth in H2 2025 noted in the earnings reports may be weighing on investor sentiment.
-2.  **Higher Discount Rate / Risk Perception:** The market may perceive the company as riskier than the 8.0% discount rate implies.
-    *   **My Assumption:** 8.0% is a stable, conservative rate for a luxury brand with high margins.
-    *   **Market's Possible Assumption:** Given the company's recent IPO (May 2024), its relatively short public history, dual-class share structure (family retains 93% of voting rights), and exposure to FX risk and supply chain volatility (global luxury goods), the market might be applying a higher **Cost of Equity (r)**, perhaps 9.0% or 10.0%, which would significantly lower the DCF value.
-3.  **Lower ROIC Expectation:** The market may project a lower future ROIC, diminishing the compounding effect of the business.
-    *   **My Assumption:** A 6.0% ROIC is conservative but reflects the inherent high profitability of premium brands.
-    *   **Market's Possible Assumption:** The high level of intangible assets (Goodwill and Brands, >€4.6B in H1 2025) suggests significant acquisition activity and potentially lower capital efficiency on a larger base, leading the market to factor in a lower ROIC, reducing the cash flow contribution from retained earnings.
+1.  **Higher Long-Term Growth Rate (Less Conservative Business Engine):** The market is likely pricing in a higher revenue growth rate post-2025, perhaps closer to 6-8% for longer. Puig has a history of outperforming its own targets (doubled sales in two years instead of three, meeting 2025 sales target in 2023), and a higher growth rate is justified by a sustained boom in the premium beauty sector, especially in Skincare and niche brands. If the growth rate only decelerated to 4% by 2030, the fair value would be closer to the market price.
+2.  **Higher Margin Profile (Operational Leverage):** The market expects continued improvement in margins beyond the 12.0% assumed. Adjusted EBITDA margin increased by 20 basis points in FY 2024. The market may expect Net Income Margin to climb to 13.0% - 14.0% by 2030, reflecting successful brand acquisitions reaching scale and realizing greater economies of scale in distribution.
+3.  **Lower Discount Rate (Lower Perceived Risk):** The market may be using a lower cost of equity, perhaps 10.0% or 10.5%, reflecting the stability and "luxury moat" of the company's brands and its strong financial health (Net Debt/Adj. EBITDA of 1.1x).
 
-**Conclusion on Valuation:**
-The valuation model suggests the market is under-appreciating Puig Brands' ability to maintain its high-margin profile and execute on its strategy of scaling acquired premium brands in high-growth regions like the Americas and Asia-Pacific. The fair value of **€19.27** is justified by the strong gross margins (75.8%) and management's proven track record of outperforming the premium beauty market, which the market's current price of €13.78 does not fully reflect. A 10% discount rate, for example, would yield a fair value of approximately €13.88, which suggests the market is pricing the stock with a more aggressive risk premium ($\sim$10%) than my conservative estimate ($\sim$8.0%).
+The **justification for the discrepancy** is that my valuation is intentionally conservative, as per the rules: a conservative discount rate (12.0%), a very conservative maturity rate (2.0%), and a rapid deceleration in growth rate. The market is extrapolating Puig's historical outperformance and strong premium brand portfolio to generate a higher, sustained growth profile, which is a key assumption an investor must justify when paying the current price.
