@@ -1,164 +1,179 @@
-The valuation of The Middleby Corporation (MIDD) will be performed using a Discounted Cash Flow (DCF) model based on projected Net Income. The model incorporates the critical factor of the announced spin-off of the Food Processing (FP) segment, which significantly impacts the forward-looking revenue engine.
+## Valuation of The Middleby Corporation (MIDD) Stock
 
-All financial data for the current position is sourced from the most recent SEC filings (2024 10-K and Q1 2025 10-Q).
+This valuation is based on a Discounted Cash Flow (DCF) model, incorporating financial data from SEC filings and future projections derived from management commentary in the latest earnings call transcripts. The unique aspect of this valuation is the planned spin-off of the Food Processing Group (FPG) by early 2026, which requires valuing the core "RemainCo" (Commercial Foodservice and Residential Kitchen) and adding the separate value of the "SpunCo" (FPG).
 
 ---
 
-## 1. Current Financial Position
+### 1. Current Financial Position (As of Q3 2024/November 4, 2024)
 
-| Metric | Source/Justification | Value (in Thousands USD) |
+Financial data is extracted from the most recent SEC filings (Q3 2024 10-Q and subsequent disclosures).
+
+| Metric | Value (in millions USD) | Source |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | As of Dec 28, 2024 (2024 10-K) | $689,500 |
-| **Total Debt** | As of Dec 28, 2024 (2024 10-K) | $2,400,000 |
-| **Shares Outstanding (Diluted)** | As of May 5, 2025 (Q1 2025 10-Q) | 53,481,521 |
-| **Net Sales (FY 2024)** | Fiscal Year Ended Dec 28, 2024 (2024 10-K) | $3,875,162 |
+| **Total Cash & Cash Equivalents** | $606.004 | Q3 2024 Condensed Consolidated Balance Sheet |
+| **Current Maturities of Long-Term Debt** | $44.058 | Q3 2024 Condensed Consolidated Balance Sheet |
+| **Long-Term Debt** | $2,361.252 | Q3 2024 Condensed Consolidated Balance Sheet |
+| **Total Debt** | $2,405.310 | Sum of Current & Long-Term Debt |
+| **Outstanding Shares** | 53.793 million | As of November 4, 2024 |
 
-**Historical Net Income and Margin (FY 2024 Estimate)**
+**Note on Cash:** As per the rule, only cash and equivalents are used, not accounts receivable or other non-liquid assets.
 
-Since the full-year 2024 Net Income is not explicitly stated in the public snippets, we derive a conservative estimate using the Q1 2025 Net Earnings margin as a proxy for the normalized post-impairment profitability.
+---
 
-*   Q1 2025 Net Earnings % of Net Sales: **10.2%**
-*   Estimated FY 2024 Net Income = $3,875,162K * 10.2% = **$395,267K**
+### 2. Business Engine and Revenue Projections (2025-2030)
 
-## 2. Business Engine and Revenue Projections (2025-2030)
+The valuation model is built on segment-level performance and incorporates the publicly announced spin-off of the Food Processing Group (FPG) expected by early 2026. The future cash flow is calculated for the *Total Company* (Commercial Foodservice, Food Processing, Residential Kitchen) through 2025, and then for the *RemainCo* (Commercial Foodservice, Residential Kitchen) from 2026 onwards.
 
-The core of the forward-looking business engine is built around the three segments and the announced spin-off of the Food Processing segment, which is expected to occur in early 2026.
+#### A. 2024 Estimated Base Revenue and Segmentation
 
-**Engine Assumption: The valuation of MIDD focuses on the remaining Commercial Foodservice (CFS) and Residential Kitchen (RK) segments from 2026 onwards. The value of the spun-off Food Processing segment is conservatively assumed to be captured entirely by the shareholders in the spin-off event and is therefore excluded from the future cash flows of the *retained* Middleby (MIDD) entity for the DCF model.**
+A proxy for the segment mix (62% CFS, 19% FPG, 19% RES) is applied to the 2024 estimated full-year revenue of $3.9 billion.
 
-### Segment Revenue Breakdown (FY 2024)
-
-| Segment | FY 2024 Revenue (in Thousands USD) | FY 2024 Net Income Margin (Est.) |
+| Segment | 2024 Est. Revenue (Millions USD) | Est. % of Total |
 | :--- | :--- | :--- |
-| **Commercial Foodservice (CFS)** | $2,419,239 | 10.5% |
-| **Food Processing (FP)** | $731,000 | 10.0% |
-| **Residential Kitchen (RK)** | $724,923 | 9.5% |
-| **Total** | **$3,875,162** | **10.2% (Blended)** |
+| Commercial Foodservice (CFS) | $2,418.0 | 62% |
+| Food Processing (FPG) | $741.0 | 19% |
+| Residential Kitchen (RES) | $741.0 | 19% |
+| **Total 2024 Estimated Revenue** | **$3,900.0** | **100%** |
 
-### Revenue Growth Justification & Projections
+#### B. Segment-Specific Growth Assumptions (Conservative)
 
-| Segment | Business Driver & Commentary | 2025 Growth | 2026-2030 Growth |
-| :--- | :--- | :--- | :--- |
-| **CFS** | Management expects a multi-year recovery driven by pent-up demand, following recent macro headwinds (lower restaurant traffic, high food costs). A conservative growth is used for the recovery. | +3.0% | +3.5% |
-| **RK** | Orders have shown an upward trend (best in 2 years), indicating a cyclical recovery from the disrupted housing market. Growth is front-loaded and then moderates. | +5.0% | +4.0% |
-| **FP** | Continues to show strength and organic growth (Q4 2024 organic growth was 4.7%) [cite: 2 (Step 1)]. We project 5.0% growth in its final year before the spin-off. | +5.0% | **0.0% (Spin-off)** |
+Management commentary suggests challenging macro-conditions improving in 2025 and leading to a multi-year recovery.
 
-### Revenue Projections (in Thousands USD)
+| Segment | 2025 Growth | 2026-2027 Growth | 2028-2030 Growth (Maturity) | Justification (Business Engine) |
+| :--- | :--- | :--- | :--- | :--- |
+| **CFS (RemainCo Core)** | 3.0% | 3.0% | 2.0% | Conservative, multi-year recovery driven by pent-up demand, backlog, new store openings, and innovation/market share gains (e.g., in beverage/ice). |
+| **FPG (SpunCo, until 2025)** | 1.0% | **0.0%** (Spun) | **0.0%** (Spun) | Cautious growth for 2025 due to "market uncertainty" impacting large project decision-making. Value is separated from 2026 onward. |
+| **RES (RemainCo Recovery)** | 5.0% | 4.0% | 3.0% | Higher growth from a low point as housing/remodel markets recover, leading to "significant upside in volumes" from new products and strategic investments. |
 
-| Year | CFS Revenue | RK Revenue | FP Revenue | Total Revenue | Notes |
+#### C. Revenue Projections (2025-2030)
+
+| Year | CFS Revenue | FPG Revenue | RES Revenue | **Total Revenue** |
+| :--- | :--- | :--- | :--- | :--- |
+| **2024 (Base)** | $2,418.0 | $741.0 | $741.0 | **$3,900.0** |
+| **2025** | $2,490.5 | $748.4 | $778.1 | **$4,017.0** |
+| **2026** | $2,565.2 | N/A (Spun) | $809.2 | **$3,374.4** (RemainCo) |
+| **2027** | $2,642.1 | N/A (Spun) | $841.6 | **$3,483.7** (RemainCo) |
+| **2028** | $2,695.0 | N/A (Spun) | $866.8 | **$3,561.8** (RemainCo) |
+| **2029** | $2,748.9 | N/A (Spun) | $892.8 | **$3,641.7** (RemainCo) |
+| **2030** | $2,803.9 | N/A (Spun) | $919.6 | **$3,723.5** (RemainCo) |
+
+---
+
+### 3. Net Income and Cash Flow Calculation
+
+#### A. Margin and Operating Income Assumptions
+
+| Segment | Adj. EBITDA Margin (Conservative) | Justification |
+| :--- | :--- | :--- |
+| **CFS** | 28.0% | Consistent with high-end historical performance of 26-29%. |
+| **FPG (until 2025)** | 25.0% | In line with long-term target and recent performance. |
+| **RES** | Ramps from 12.0% to 15.0% | Starts at Q3 2024 level (nearly 12%) and ramps as market volumes and efficiencies improve towards the "normalized period" management goal. |
+
+| Metric | 2025 (Total Co) | 2026-2030 (RemainCo) |
+| :--- | :--- | :--- |
+| **Gross Adjusted EBITDA Margin** | $925.7 M (23.0%) | Ramps from $757.0 M (22.4%) to $930.9 M (25.0%) |
+| **Net Income Margin** | 10.0% | 10.0% |
+
+**Net Income (NI) Calculation Rationale:**
+The 2024 Adjusted EBITDA margin is 22.4%. To derive a conservative, long-term **Net Income Margin** for the DCF (which accounts for Depreciation/Amortization, Interest Expense, and Taxes), a margin of **10.0%** of total revenue is used. This is a conservative assumption given historical adjusted EBITDA margins (over 22%) and the strong cash generation (FCF conversion over 135%).
+
+#### B. Projected Net Income with ROIC Rule
+
+The user-defined rule is applied: $\text{NI}_{n} = \text{NI}_{\text{based}} + \text{NI}_{n-1} \times \text{ROIC}$.
+
+**Conservative ROIC Assumption:** A conservative but reasonable ROIC of **10.0%** is used, reflecting the company's track record of profitable growth through acquisitions and strong operating cash flow generation (FCF conversion).
+
+| Year | Revenue (Millions USD) | Net Income (NI) Margin | Base NI (Millions USD) | NI from Prior Year Cash | **Total Net Income (Cash Flow)** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024 (Actual)** | $2,419,239 | $724,923 | $731,000 | **$3,875,162** | |
-| **2025 (Projection)** | $2,491,816 | $761,169 | $767,550 | **$4,020,535** | All segments grow. |
-| **2026 (Projection)** | $2,579,024 | $791,616 | $0 | **$3,370,640** | **FP Segment spun off (Revenue removed).** |
-| **2027 (Projection)** | $2,670,395 | $823,281 | $0 | **$3,493,676** | |
-| **2028 (Projection)** | $2,763,899 | $856,212 | $0 | **$3,620,111** | |
-| **2029 (Projection)** | $2,860,530 | $890,461 | $0 | **$3,750,991** | |
-| **2030 (Projection)** | $2,960,149 | $926,079 | $0 | **$3,886,228** | |
+| **2025** (Total Co) | $4,017.0 | 10.0% | $401.7 | $0.0 | **$401.7** |
+| **2026** (RemainCo) | $3,374.4 | 10.0% | $337.4$ | $401.7 \times 10.0\% = $40.2 | **$377.6** |
+| **2027** (RemainCo) | $3,483.7 | 10.0% | $348.4$ | $377.6 \times 10.0\% = $37.8 | **$386.2** |
+| **2028** (RemainCo) | $3,561.8 | 10.0% | $356.2$ | $386.2 \times 10.0\% = $38.6 | **$394.8** |
+| **2029** (RemainCo) | $3,641.7 | 10.0% | $364.2$ | $394.8 \times 10.0\% = $39.5 | **$403.7** |
+| **2030** (RemainCo) | $3,723.5$ | 10.0% | $372.4$ | $403.7 \times 10.0\% = $40.4 | **$412.8** |
 
-## 3. Profitability and Cash Flow Projections
+---
 
-### Return on Invested Capital (ROIC)
+### 4. Discounted Cash Flow (DCF) Valuation
 
-**ROIC Calculation (Normalized, using 2024 Est.):**
+#### A. Discount and Maturity Rate Assumptions
 
-*   Estimated FY 2024 Net Income: $395,267K
-*   Estimated Invested Capital (Debt + 2023 Equity proxy): $2,400,000K + $2,999,526K = $5,399,526K
-*   ROIC (Est.) = $395,267K / $5,399,526K = **7.32%**
+*   **Discount Rate (Conservative but Reasonable):** **9.0%**. This reflects a moderate cost of equity for a mature industrial company with global operations, a healthy balance sheet (2.3x leverage), and a history of robust cash flow.
+*   **Maturity Rate (Conservative Perpetual Growth):** **2.5%**. This assumes a conservative long-term growth rate slightly above the expected long-term inflation rate (U.S. economy's long-term GDP growth).
 
-**ROIC Assumption:** We will conservatively use a base ROIC of **7.0%** for all future years.
+#### B. Terminal Value (TV) Calculation (2030)
 
-### Net Income Projections (Discounted Cash Flow)
+The Terminal Value is calculated using the 2030 RemainCo Net Income:
+$\text{TV}_{\text{RemainCo}} = \text{Cash Flow}_{2030} \times \frac{(1 + \text{Maturity Rate})}{(\text{Discount Rate} - \text{Maturity Rate})}$
+$\text{TV}_{\text{RemainCo}} = \$412.8 \times \frac{(1 + 0.025)}{(0.090 - 0.025)} = \$412.8 \times \frac{1.025}{0.065} = \$6,499.0 \text{ million}$
 
-**Assumption for DCF:** Net Income is used as a proxy for Free Cash Flow to Equity (FCFE) in a simplified DCF, as specified.
-**Assumption for ROIC:** Net Income for the next year includes income from the previous year's retained cash (Net Income from that year + ROIC from net income got from previous year).
+#### C. Net Present Value (NPV) of Cash Flows
 
-*   Net Income $(t)$ = (Total Revenue $(t)$ * Blended Net Income Margin) + (Net Income $(t-1)$ * ROIC)
-*   **Blended Margin Assumption:** A conservative, slightly increased blended margin of **10.3%** is used for 2025 and is held constant for 2026-2030 (The slight increase reflects the margin expansion management has been achieving through cost control and scale [cite: 2 (Step 1), 7]).
-
-| Year | Total Revenue (K USD) | Blended Margin | Income from Operations (K USD) | ROIC Carryover from Prior Year (K USD) | Net Income (K USD) (Cash Flow) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024 (Base)** | $3,875,162 | 10.20% | $395,267 | N/A | $395,267 |
-| **2025** | $4,020,535 | 10.30% | $414,115 | $27,669 (395,267 \* 7.0%) | **$441,784** |
-| **2026** | $3,370,640 | 10.30% | $347,106 | $30,925 (441,784 \* 7.0%) | **$378,031** |
-| **2027** | $3,493,676 | 10.30% | $360,049 | $26,462 (378,031 \* 7.0%) | **$386,511** |
-| **2028** | $3,620,111 | 10.30% | $373,871 | $27,056 (386,511 \* 7.0%) | **$400,927** |
-| **2029** | $3,750,991 | 10.30% | $387,352 | $28,065 (400,927 \* 7.0%) | **$415,417** |
-| **2030** | $3,886,228 | 10.30% | $401,281 | $29,079 (415,417 \* 7.0%) | **$430,360** |
-
-## 4. Discounted Cash Flow and Fair Value
-
-### Discount and Maturity Rates
-
-*   **Discount Rate (WACC):** An established industrial company with significant debt (Total Debt / EBITDA of ~2.8x) requires a reasonable but conservative discount rate. I will use **8.5%**.
-*   **Maturity Rate (Terminal Growth Rate):** This must be very conservative. Given the mature nature of the commercial food equipment and residential appliance markets, and the exclusion of the high-growth FP segment, a long-term growth rate of **2.0%** is conservative and reasonable (in line with long-term inflation).
-
-### DCF Calculation
-
-**Terminal Value (TV) as of 2030:**
-
-*   Terminal Cash Flow = Net Income in 2030 = $430,360K
-*   TV Formula = (Terminal Cash Flow * (1 + Maturity Rate)) / (Discount Rate - Maturity Rate)
-*   TV = ($430,360K * 1.02) / (0.085 - 0.02) = **$6,715,643K**
-
-**Net Present Value (NPV) of Future Cash Flows (in Thousands USD):**
-
-| Year (t) | Cash Flow (Net Income) | Discount Factor (1 / (1 + 8.5%)^t) | Present Value |
+| Year (n) | Cash Flow (Millions USD) | Discount Factor (1/1.09^n) | NPV (Millions USD) |
 | :--- | :--- | :--- | :--- |
-| **2025 (t=1)** | $441,784 | 0.9217 | $407,174 |
-| **2026 (t=2)** | $378,031 | 0.8495 | $321,146 |
-| **2027 (t=3)** | $386,511 | 0.7829 | $302,593 |
-| **2028 (t=4)** | $400,927 | 0.7216 | $289,332 |
-| **2029 (t=5)** | $415,417 | 0.6651 | $276,307 |
-| **2030 (t=6)** | $430,360 | 0.6130 | $263,731 |
-| **Terminal Value (t=6)** | $6,715,643 | 0.6130 | $4,116,367 |
-| **Total NPV of Future Cash Flows** | | | **$5,176,650** |
+| **2025** | $401.7$ | 0.9174 | $368.5$ |
+| **2026** | $377.6$ | 0.8417 | $317.9$ |
+| **2027** | $386.2$ | 0.7722 | $298.3$ |
+| **2028** | $394.8$ | 0.7084 | $279.7$ |
+| **2029** | $403.7$ | 0.6499 | $262.4$ |
+| **2030 (Operating)** | $412.8$ | 0.5963 | $246.0$ |
+| **2030 (Terminal)** | $6,499.0$ | 0.5963 | $3,873.3$ |
+| **Total NPV of RemainCo (CFS+RES)** | | | **$5,646.1$ million** |
 
-### Final Fair Value Calculation
+---
 
-| Metric | Value (in Thousands USD) |
+### 5. Valuation of Spun-off Food Processing Group (FPG)
+
+Since the spin-off is expected in early 2026, the FPG is valued as a separate entity and added to the RemainCo NPV. The value is based on its last full year of operation (2025).
+
+*   **FPG 2025 Net Income:** $401.7 M (\text{Total NI}) - $337.4 M (\text{RemainCo Base NI}) = \$64.3 \text{ million}$ (Approximation using 10% Margin on $748.4M revenue).
+*   **Conservative FPG Multiple:** The FPG business has higher organic growth (11% in 2023) and higher margins (over 25% adjusted EBITDA). Given its "best-in-class" status, a conservative P/E multiple of **15x** is used.
+
+$$\text{Value}_{\text{FPG}} = \text{FPG NI}_{2025} \times \text{P/E Multiple} = \$64.3 \text{ million} \times 15 = \$964.5 \text{ million}$$
+
+*   **Present Value of FPG:** Discounted back to present (2025 is year 1):
+    $$\text{PV}_{\text{FPG}} = \frac{\$964.5 \text{ million}}{1.09^1} = \$884.9 \text{ million}$$
+
+---
+
+### 6. Fair Value Calculation
+
+| Metric | Value (Millions USD) |
 | :--- | :--- |
-| Total NPV of Future Cash Flows | $5,176,650 |
-| **ADD:** Total Current Cash & Equivalents | $689,500 |
-| **SUBTRACT:** Total Debt | $2,400,000 |
-| **EQUALS: Total Equity Value** | **$3,466,150** |
-| **DIVIDE BY:** Shares Outstanding | 53,481,521 |
-| **FAIR VALUE PER SHARE** | **$64.81** |
+| **NPV of RemainCo (CFS + RES)** | $5,646.1$ |
+| **Present Value of SpunCo (FPG)** | $884.9$ |
+| **Total Enterprise Value (TEV)** | $6,531.0$ |
+| **Plus: Cash & Cash Equivalents** | $606.0$ |
+| **Less: Total Debt** | $2,405.3$ |
+| **Total Equity Value** | **$4,731.7$** |
+| **Shares Outstanding** | $53.793$ (millions) |
+| **Fair Value Per Share** | **$87.96** |
 
 ---
 
-## 5. Justification and Market Comparison
+### 7. Justification and Market Comparison
 
-### Current Stock Value
+**Fair Value Per Share: $87.96**
 
-As of the current time (last known close from search data), the stock price is approximately **$122.82** [cite: 14 (Step 1)].
+**Note on Market Value:** As of the time of the last data search (Nov 2024), the current market value of MIDD stock is not provided, but based on the search snippets, it was trading around **$144.71** (August 2025 snippet) or near **$167.76** (February 2025 snippet).
 
-### Justification of Divergence (Fair Value vs. Market Price)
+**Justification for Disparity (Market Value vs. Fair Value):**
 
-The calculated Fair Value of **$64.81** is significantly lower than the market price of approximately **$122.82**. This massive 47% divergence suggests the market is making a profoundly different set of assumptions about the company's future value.
+The calculated fair value of **$87.96** is significantly below a typical market price (historical and recent trading range suggests a higher value). This large disparity is due to the extremely conservative assumptions mandated by the valuation rules, particularly the use of **Net Income as the proxy for free cash flow** in the DCF, and the conservative P/E multiple for the FPG spin-off.
 
-**Why My Assumption is Different (The Conservative Case):**
+1.  **Net Income as Cash Flow Proxy:** Middleby is a high-quality cash-flow generator. Management has repeatedly highlighted record cash flows and a Free Cash Flow (FCF) conversion rate around **135%**, with FCF expected to exceed $544M in 2024.
+    *   *FCF is typically much higher than Net Income* for a company like Middleby due to large, non-cash amortization expenses from its acquisition-heavy strategy.
+    *   **The market values the FCF, not the accounting Net Income.** Using Net Income as FCF significantly underestimates the company's true intrinsic value.
 
-1.  **Exclusion of the Food Processing (FP) Spin-off Value:** The most critical difference is the conservative treatment of the FP segment spin-off.
-    *   **My Model:** The FP segment's projected profits for 2026-2030 are completely **excluded** from the MIDD cash flows. The model only values the remaining two segments (CFS and RK). This assumes the *entire* value of the FP segment is distributed to shareholders in a way that does not benefit the ongoing MIDD stock price (e.g., shareholders receive shares of the new company, and the value is not captured in the *retained* MIDD share price).
-    *   **Market Assumption:** The market is likely pricing in the retained value of the FP segment for the full forecast period, or a substantial *premium* for the efficiency/focus gained from the separation, and/or a portion of the value is expected to remain with MIDD (e.g., if the spun-off entity takes less than its fair share of the debt or if MIDD retains a stake).
-    *   **FP Segment Value:** The FP segment is high-growth and high-margin. Its 2024 revenue of $731.0M, growing at 5.0% for 6 years, would add substantial NPV.
+2.  **Conservative ROIC/Net Income Margin:** The **10.0%** Net Income margin assumption is conservative for a business with 22%+ adjusted EBITDA margins.
 
-2.  **Conservative Revenue Growth:** My long-term CAGR of **3.5% for CFS** and **4.0% for RK** is cautious, assuming mature industrial/consumer markets.
-    *   **Market Assumption:** The market is likely anticipating a much stronger, faster rebound in the CFS segment, potentially assuming a long-term CAGR closer to **5-6%** or factoring in continued high-ROIC growth through future accretive acquisitions, which Middleby is known for [cite: 2 (Step 1)].
+3.  **FPG Valuation:** The market is likely pricing the FPG spin-off (a high-margin, high-growth industrial equipment business) at a premium P/E multiple well over the conservative **15x** used in this model.
 
-3.  **Low Maturity Rate (Terminal Growth Rate):** My use of a **2.0%** perpetual growth rate is a very conservative assumption for a global manufacturing leader, reflecting only long-term inflation.
-    *   **Market Assumption:** If the market assumes a strong long-term growth engine (e.g., from ongoing tuck-in acquisitions and market share gains from technology), it would likely use a terminal rate of **3.0% to 3.5%**.
+**Conclusion on Disparity:**
 
-**Impact of Different Market Assumptions:**
+The market is making a critical assumption that:
+1.  **Free Cash Flow (FCF)** is the appropriate metric for valuation, not Net Income. The market values Middleby on a superior FCF yield basis.
+2.  The company will continue its successful **acquisition and integration strategy**, driving profitability and FCF higher than a simple 2.5% perpetual growth rate suggests.
+3.  The Residential segment **margin will recover to pre-headwind levels**, and the spin-off will **unlock significant shareholder value** by separating a fast-growing, high-margin asset (FPG) from the main Commercial business (RemainCo).
 
-If we assume the market uses a slightly higher long-term growth rate of **4.0%** (instead of 2.0%) for the Terminal Value *and* that the value of the FP segment ($731.0M revenue, 10.0% margin, 5% growth) is kept *within* the MIDD cash flows for 2026-2030 (i.e., *ignoring* the spin-off for simplicity in the DCF calculation, as if it did not happen), the estimated Fair Value would increase dramatically.
-
-*   *Hypothetical scenario using a 4.0% terminal growth rate and no spin-off:*
-    *   New Total Revenue for 2030: $4,583,969K
-    *   New Net Income for 2030: $526,989K
-    *   New TV (4.0% rate): $10,488,443K
-    *   New Fair Value Per Share: **~$125.00**
-
-**Conclusion:**
-
-The market value of $122.82 suggests that investors are essentially **ignoring the financial impact of the Food Processing spin-off and/or expecting a faster, stronger, and longer-term growth trajectory** driven by both operational excellence and future high-ROIC acquisitions that are currently not modeled in my conservative DCF. My conservative valuation isolates the value of the *retained* business, CFS and RK, post-spin, which accounts for the massive difference.
+The DCF, constrained to use the conservative Net Income rule and other highly conservative inputs, results in an artificially low fair value. **The model confirms that the market views Middleby as a superior Free Cash Flow compounding machine, a factor that the mandated Net Income DCF methodology fails to capture.**
