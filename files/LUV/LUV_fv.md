@@ -1,179 +1,158 @@
-This valuation of Southwest Airlines Co. (LUV) utilizes financial data exclusively from SEC filings and management commentary from earnings call transcripts to build a conservative, model-based Discounted Cash Flow (DCF) analysis.
-
-The fair value per share is calculated by subtracting net debt (Total Debt - Total Cash) from the Net Present Value (NPV) of future cash flows and dividing by the shares outstanding.
+The valuation of Southwest Airlines Co. (LUV) stock is performed using a Discounted Cash Flow (DCF) model based on financial data derived exclusively from SEC filings and company management guidance found in earnings call transcripts.
 
 ---
 
-## Southwest Airlines Co. (LUV) Stock Valuation
+# Southwest Airlines Co. (LUV) Stock Valuation
 
-| Metric | Value | Source/Justification |
+## I. Initial Financial Data (As of Q3 2025 and FY 2024)
+
+The following metrics are derived from the most recent SEC filings and company reports:
+
+| Metric | Value (in millions) | Source/Justification |
 | :--- | :--- | :--- |
-| **Current Stock Price** | \$33.74 | Market price as of Q3 2025 earnings release date (approx. Oct 23, 2025). (from step 1 and 2, using the explicit price for market comparison) |
-| **Shares Outstanding** | 517.155 million | Share count as of October 22, 2025 (from step 1). (from step 1) |
-| **Total Liquid Cash (Q3 2025)** | \$3.0 billion | Cash and cash equivalents and short-term investments as of September 30, 2025. |
-| **Total Debt (Q3 2025 Est.)** | \$4.124 billion | *Calculated.* Q1 2025 Debt Outstanding of \$6.7 billion (from step 3) minus Q2/Q3 2025 debt repayments of \$1.6 billion (Convertible Notes) and \$976 million (PSP1 Loan). |
-| **Base Revenue (2024)** | \$27.5 billion | Full-year 2024 Operating Revenues. (from step 2) |
-| **Base Net Income (2024)** | \$465 million | Full-year 2024 Net Income. (from step 2) |
+| **Total Cash & Equivalents (C)** | \$3,000 | As of September 30, 2025 (Q3 2025 report/transcript). |
+| **Total Debt (D)** | \$6,700 | As of December 31, 2024 (Long-term debt + Current maturities of long-term debt). |
+| **Shares Outstanding (S)** | 517.155 | Latest reported figure. |
+| **Current Stock Price** | \$42.03 | As of January 26, 2026. |
+| **Historical 2024 Annual Revenue** | \$27,500 | Full Year 2024 Operating Revenue. |
+| **Historical 2024 Adj. Net Income** | \$597 | Full Year 2024 Net Income excluding special items. |
 
 ---
 
-## 1. Business Engine and Revenue Projections (2025-2030)
+## II. Business Engine and Future Revenue Assumptions
 
-Southwest's primary business engine drivers are capacity growth (measured in Available Seat Miles or ASM) and unit revenue (RASM/Yield). The current growth strategy is focused on **yield-driven incremental revenue** from new customer-facing initiatives rather than aggressive capacity expansion.
+Southwest's business engine is fundamentally driven by two metrics: **Available Seat Miles (ASMs - Capacity)** and **Revenue per Available Seat Mile (RASM - Yield)**. The management is actively trying to transform its business model ("Southwest Even Better Plan") to increase RASM through previously avoided methods, while maintaining disciplined capacity.
 
-Management guidance confirms this focus:
-*   **Capacity:** Expected to be modest, in the **1% to 2%** range through 2027. (from step 2)
-*   **Initiatives:** Core of the near-term revenue growth.
-    *   **2026 Incremental EBIT:** More than **\$1 billion** from assigned/extra legroom seating and a full year of bag fees.
-    *   **2027 Incremental EBIT (Full Run-Rate):** Approximately **\$1.5 billion**.
+### Core Assumptions (2025-2030)
 
-### Revenue Projections Rationale:
-
-The revenue forecast is constructed conservatively by combining the following:
-
-1.  **Capacity-Based Growth:** A conservative base growth rate of **1.5%** for all years (the midpoint of management's 1-2% guidance).
-2.  **Initiative-Based Revenue:** Modeling the incremental EBIT contribution as a proxy for revenue growth, given the focus on yield-enhancing products. A conservative assumption is made that the incremental **EBIT** is approximately **1.2x** the incremental **Net Income** (assuming a 20% tax rate, $\text{Net Income} = \text{EBIT} \times (1-0.2)$).
-
-| Year | Capacity Growth Assumption | Base Revenue (Capacity Effect) | Incremental EBIT from Initiatives | Total Revenue | Calculation Rationale |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024 (Actual)** | N/A | \$27.50 B | N/A | \$27.50 B | Base Year. (from step 2) |
-| **2025 (Est.)** | 1.50% | \$27.91 B | \$0.60 B | **\$28.51 B** | **Base:** \$27.5B * 1.015. **Initiatives:** Using the low end of the \$600M-\$800M EBIT guide for the full year 2025. |
-| **2026 (Est.)** | 1.50% | \$28.33 B | \$1.00 B | **\$29.33 B** | **Base:** \$27.91B * 1.015. **Initiatives:** Using the lower-bound guidance of \$1.0B incremental EBIT. |
-| **2027 (Est.)** | 1.50% | \$28.75 B | \$1.50 B | **\$30.25 B** | **Base:** \$28.33B * 1.015. **Initiatives:** Using the full run-rate guidance of \$1.5B incremental EBIT. |
-| **2028 (Est.)** | 1.00% | \$29.04 B | \$0.00 B | **\$30.54 B** | **Base:** \$28.75B * 1.01. **Initiatives:** Incremental growth stops. Reverts to a lower, conservative 1.0% growth rate (below historical norm, as the major initiatives mature). |
-| **2029 (Est.)** | 1.00% | \$29.33 B | \$0.00 B | **\$30.83 B** | **Base:** \$29.04B * 1.01. |
-| **2030 (Est.)** | 1.00% | \$29.62 B | \$0.00 B | **\$31.12 B** | **Base:** \$29.33B * 1.01. |
-
-*(All figures in billions)*
-
----
-
-## 2. Margin and Net Income Projections
-
-### Margin Rationale:
-
-*   **2024 Net Margin:** 1.69% (\$465M / \$27,500M) (from step 2).
-*   **Management Target:** Operating margins of **10% or more** by 2027. (from step 2)
-*   **Projection:** I will conservatively project a ramp-up to a sustainable net margin of **6.0%** by 2028, significantly below the implied 2027 operating margin target of 10% (which would translate to ~8% Net Margin). This incorporates cost inflation and competitive pressures that could dampen management's optimistic targets, but still reflects the benefit of the **\$1.5 billion** EBIT run-rate.
-
-| Year | Total Revenue (A) | Assumed Net Margin % | Projected Net Income (B) |
-| :--- | :--- | :--- | :--- |
-| **2024 (Actual)** | \$27.50 B | 1.69% | \$0.465 B |
-| **2025 (Est.)** | \$28.51 B | 2.50% | \$0.713 B |
-| **2026 (Est.)** | \$29.33 B | 4.00% | \$1.173 B |
-| **2027 (Est.)** | \$30.25 B | 5.50% | \$1.664 B |
-| **2028 (Est.)** | \$30.54 B | 6.00% | \$1.832 B |
-| **2029 (Est.)** | \$30.83 B | 6.00% | \$1.850 B |
-| **2030 (Est.)** | \$31.12 B | 6.00% | \$1.867 B |
-
-*(All figures in billions)*
-
-### Net Income with ROIC Calculation
-
-The rule is: *Net Income for next year = Net Income from that year based on reasonable assumptions + ROIC from net income got from previous year.*
-
-*   **ROIC Assumption:** Management guided an ROIC of **5% to 8% in 2025**, with a target of **15% or more in 2027**. (from step 2)
-*   **Conservative ROIC:** I will use a conservative, stable rate of **6.0%** for the reinvested portion (Net Income from the previous year). This is within the low-end of their near-term guidance.
-
-| Year | Projected Net Income (A) | Prior Year's Net Income (B) | ROIC % | Additional Income (B * ROIC %) | **Final Net Income (A + C)** |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **2025** | \$0.713 B | \$0.465 B (2024) | 6.00% | \$0.028 B | **\$0.741 B** |
-| **2026** | \$1.173 B | \$0.741 B (2025) | 6.00% | \$0.044 B | **\$1.217 B** |
-| **2027** | \$1.664 B | \$1.217 B (2026) | 6.00% | \$0.073 B | **\$1.737 B** |
-| **2028** | \$1.832 B | \$1.737 B (2027) | 6.00% | \$0.104 B | **\$1.936 B** |
-| **2029** | \$1.850 B | \$1.936 B (2028) | 6.00% | \$0.116 B | **\$1.966 B** |
-| **2030** | \$1.867 B | \$1.966 B (2029) | 6.00% | \$0.118 B | **\$1.985 B** |
-
-*(All figures in billions)*
-
----
-
-## 3. Discounted Cash Flow (DCF) Analysis
-
-The **Final Net Income** is used as the projected Free Cash Flow (FCF) for the DCF model, per the instructions.
-
-### Assumptions:
-
-*   **Discount Rate (WACC):** The airline industry, particularly in the post-MAX and post-COVID era, carries high operating and market risk. I will use a conservative (high) discount rate of **10.0%**.
-*   **Maturity Rate (Terminal Growth Rate):** A conservative rate is required. Airlines are a mature, cyclical, and low-margin industry. I will use **2.0%**, which is below long-term GDP growth and reflects a conservative, mature industry growth profile.
-
-### DCF Calculation:
-
-| Year (t) | Projected FCF (Billion) | Discount Factor @ 10.0% | NPV of FCF (Billion) |
-| :--- | :--- | :--- | :--- |
-| **2025 (t=1)** | \$0.741 | 0.909 | \$0.673 |
-| **2026 (t=2)** | \$1.217 | 0.826 | \$1.005 |
-| **2027 (t=3)** | \$1.737 | 0.751 | \$1.304 |
-| **2028 (t=4)** | \$1.936 | 0.683 | \$1.322 |
-| **2029 (t=5)** | \$1.966 | 0.621 | \$1.220 |
-| **2030 (t=6)** | \$1.985 | 0.564 | \$1.120 |
-| **NPV of Explicit Period** | | | **\$6.644 B** |
-
-### Terminal Value Calculation (2030):
-
-The Terminal Value (TV) is calculated using the Gordon Growth Model:
-$$ \text{TV} = \frac{\text{FCF}_{2030} \times (1 + \text{g})}{\text{WACC} - \text{g}} $$
-Where:
-*   $\text{FCF}_{2030} = \$1.985 \text{ Billion}$
-*   $\text{g} = 2.0\% \text{ (Maturity Rate)}$
-*   $\text{WACC} = 10.0\% \text{ (Discount Rate)}$
-
-$$ \text{TV} = \frac{\$1.985 \text{ B} \times (1 + 0.02)}{0.10 - 0.02} = \frac{\$2.025 \text{ B}}{0.08} = \$25.313 \text{ Billion} $$
-
-**NPV of Terminal Value:**
-$$ \text{NPV of TV} = \text{TV} \times \text{Discount Factor}_{2030} = \$25.313 \text{ B} \times 0.564 = \mathbf{\$14.277 \text{ Billion}} $$
-
-### Total Net Present Value (NPV):
-
-$$ \text{Total NPV} = \text{NPV of Explicit Period} + \text{NPV of Terminal Value} $$
-$$ \text{Total NPV} = \$6.644 \text{ B} + \$14.277 \text{ B} = \mathbf{\$20.921 \text{ Billion}} $$
-
----
-
-## 4. Fair Value Calculation
-
-The Fair Value of Equity is calculated as:
-$$ \text{Fair Value of Equity} = \text{Total NPV} + \text{Total Liquid Cash} - \text{Total Debt} $$
-
-| Metric | Value (Billion) | Source |
+| Year | Revenue Driver | Rationale & Justification |
 | :--- | :--- | :--- |
-| **Total NPV (Calculated)** | \$20.921 B | DCF Result |
-| **Add: Total Liquid Cash** | \$3.000 B | Q3 2025 10-Q. |
-| **Less: Total Debt** | -\$4.124 B | Q3 2025 Est. (Adjusted) |
-| **Fair Value of Equity** | **\$19.797 Billion** | |
+| **2025** | **Management Guidance** | Use management's full-year EBIT guidance to determine profitability. |
+| **2026** | **Management Target** | Use the highly specific **\$4.3 Billion EBIT target** as stated by management. |
+| **2027-2030** | **Capacity (ASM)** | Assuming a conservative long-term average ASM growth of **2.0%** per year, slightly above the low 2025 guidance of ~1% but reflecting a return to normal fleet modernization and market growth in a more stable environment. |
+| **2027-2030** | **Yield (RASM)** | Assuming **2.0%** RASM growth, in line with long-term industry inflation and moderate success of "transformational initiatives" (bag fees, assigned seating, new revenue management system). The Q4 2025 guidance of 1-3% RASM growth supports this projection. |
 
-**Fair Value Per Share:**
-$$ \text{Fair Value Per Share} = \frac{\text{Fair Value of Equity}}{\text{Shares Outstanding}} $$
-$$ \text{Fair Value Per Share} = \frac{\$19,797,000,000}{517,155,080} = \mathbf{\$38.28} $$
+### Projected Revenue (In millions)
+
+| Year | Revenue Projection Formula | Projected Revenue |
+| :--- | :--- | :--- |
+| **2024 (Actual)** | N/A | \$27,500 |
+| **2025** | $\text{Projected NI} / \text{Projected NM (derived from EBIT)}$ | \$27,700 |
+| **2026** | $\text{Target EBIT} / \text{Target Operating Margin} = \$4,300 / 15.0\%$ | \$28,667 |
+| **2027** | $2026 \text{ Rev} \times (1 + 2.0\% \text{ ASM}) \times (1 + 2.0\% \text{ RASM})$ | \$29,824 |
+| **2028** | $2027 \text{ Rev} \times 1.04$ | \$31,017 |
+| **2029** | $2028 \text{ Rev} \times 1.04$ | \$32,258 |
+| **2030** | $2029 \text{ Rev} \times 1.04$ | \$33,548 |
+
+*Note on 2026 Revenue: The \$4.3B EBIT target is paramount. Based on a historical-to-target operating margin (EBIT/Revenue) for a successful, post-pandemic SWA, a **15.0% Operating Margin** is conservatively used to back-calculate the 2026 Revenue. (4,300 / 0.15 = 28,667). The 4% annual growth for 2027-2030 is derived from 2.0% ASM + 2.0% RASM, which is conservative given the stated growth initiatives.*
 
 ---
 
-## Summary and Market Comparison
+## III. Net Income and Cash Flow Projections
+
+### Margin & Tax Assumptions
+
+1.  **Tax Rate (t):** 23.0% (Midpoint of 2025 guidance of 22% to 24%).
+2.  **Net Margin (NM):**
+    *   **2025:** Use the mid-point of the **\$600M - \$800M EBIT** guidance (i.e., \$700M).
+    *   **2026:** Use the **\$4.3B EBIT target** as guided.
+    *   **2027-2030:** A conservative Operating Margin (EBIT/Revenue) of **14.0%** is used. This is less than the back-calculated 15.0% for the major target year 2026, creating a conservative assumption for the out-years.
+3.  **Return on Invested Capital (ROIC - r):** **5.0%** is used. This is a conservative, positive rate, slightly higher than the cited 2.76% normalized historical figure, reflecting the anticipated benefits of the \$500M cost reduction plan and fleet modernization.
+
+### Net Income Calculation (in millions)
+
+$\text{EBIT} = \text{Revenue} \times \text{Operating Margin}$
+
+$\text{Net Income (before ROIC)} = \text{EBIT} \times (1 - t)$
+
+$\text{Net Income (final)} = \text{Net Income (before ROIC)} + (\text{Previous Year's Cash} \times r)$
+
+| Year | Revenue | Operating Margin | EBIT | Tax (23%) | NI (Before ROIC) | Previous Cash (C) | ROIC Income (C x 5.0%) | **Total Net Income** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2024** | \$27,500 | 3.5% (EBIT of 979) | \$979 | \$225 | \$754 | N/A | N/A | **\$754** |
+| **2025** | \$27,700 | 2.5% (Midpoint of \$700M guidance) | \$700 | \$161 | \$539 | \$754 | \$38 | **\$577** |
+| **2026** | \$28,667 | 15.0% (Management Target) | \$4,300 | \$989 | \$3,311 | \$577 | \$29 | **\$3,340** |
+| **2027** | \$29,824 | 14.0% | \$4,175 | \$960 | \$3,215 | \$3,340 | \$167 | **\$3,382** |
+| **2028** | \$31,017 | 14.0% | \$4,342 | \$999 | \$3,342 | \$3,382 | \$169 | **\$3,511** |
+| **2029** | \$32,258 | 14.0% | \$4,516 | \$1,039 | \$3,477 | \$3,511 | \$176 | **\$3,653** |
+| **2030** | \$33,548 | 14.0% | \$4,697 | \$1,080 | \$3,617 | \$3,653 | \$183 | **\$3,800** |
+
+---
+
+## IV. Discounted Cash Flow (DCF) Calculation
+
+The Net Income is used as the proxy for Free Cash Flow to Equity (FCFE) for this DCF calculation.
+
+### Discount Rate and Terminal Value Assumptions
+
+*   **Discount Rate (k):** **9.0%** (Conservative WACC/Cost of Equity for a stable, investment-grade airline.)
+*   **Terminal Growth Rate (g):** **2.0%** (Conservative maturity rate, roughly equal to long-term US GDP/inflation).
+
+### DCF Calculation (in millions)
+
+| Year | Total Net Income (FCFE) | Discount Factor ($\frac{1}{(1+k)^t}$) | Net Present Value (NPV) |
+| :--- | :--- | :--- | :--- |
+| **2025** | \$577 | $1 / 1.09^1 = 0.917$ | \$529 |
+| **2026** | \$3,340 | $1 / 1.09^2 = 0.842$ | \$2,812 |
+| **2027** | \$3,382 | $1 / 1.09^3 = 0.772$ | \$2,610 |
+| **2028** | \$3,511 | $1 / 1.09^4 = 0.708$ | \$2,487 |
+| **2029** | \$3,653 | $1 / 1.09^5 = 0.650$ | \$2,374 |
+| **2030** | \$3,800 | $1 / 1.09^6 = 0.596$ | \$2,263 |
+| **Sum of NPV (2025-2030)** | | | **\$13,075** |
+
+**Terminal Value (TV) Calculation:**
+
+$\text{Terminal Value}_{2030} = \frac{\text{FCFE}_{2030} \times (1 + g)}{k - g}$
+
+$\text{Terminal Value}_{2030} = \frac{\$3,800 \times (1 + 0.02)}{0.09 - 0.02} = \frac{\$3,876}{0.07} = \$55,371$ million
+
+**Net Present Value of Terminal Value (NPV TV):**
+
+$\text{NPV TV} = \text{Terminal Value}_{2030} \times \text{Discount Factor}_{2030}$
+
+$\text{NPV TV} = \$55,371 \times 0.596 = \$33,029$ million
+
+### Total Equity Value
+
+$\text{Total Equity Value} = \text{Sum of NPV (2025-2030)} + \text{NPV TV} + \text{Cash} - \text{Debt}$
+
+$\text{Total Equity Value} = \$13,075 + \$33,029 + \$3,000 - \$6,700$
+
+$\text{Total Equity Value} = \$45,404$ million
+
+---
+
+## V. Fair Value Calculation and Conclusion
+
+### Fair Value per Share
+
+$\text{Fair Value per Share} = \frac{\text{Total Equity Value}}{\text{Shares Outstanding}}$
+
+$\text{Fair Value per Share} = \frac{\$45,404,000,000}{517,155,000}$
+
+$\text{Fair Value per Share} = \$87.79$
 
 | Metric | Value |
 | :--- | :--- |
-| **Calculated Fair Value Per Share** | **\$38.28** |
-| **Current Market Price Per Share** | **\$33.74** |
-| **Difference** | **+\$4.54** |
-| **Implied Upside** | **13.46%** |
+| **Fair Value per Share** | **\$87.79** |
+| **Current Market Price** | **\$42.03** |
 
-### Justification of Fair Value and Market Assumptions
+### Justification of Discrepancy
 
-The calculated fair value of **\$38.28** is approximately **13.5% higher** than the current market price of **\$33.74**.
+The calculated **Fair Value of \$87.79** is significantly higher than the **Current Market Price of \$42.03**. This suggests that the market is making much more conservative assumptions about Southwest's business future than the projections based on management's stated goals.
 
-**Justification for the Calculated Fair Value being Higher than Market Price:**
+The primary reason for this large discrepancy lies in the management's **\$4.3 billion EBIT target for 2026** and the subsequent margin assumption.
 
-The market is making a more conservative assumption about the execution and sustained success of Southwest's "Even Better" transformation plan than my model.
+**Market's Implied Assumptions vs. Valuation Assumptions:**
 
-1.  **Discounted Net Margin:** My model projects a stable, conservative Net Margin of **6.0%** from 2028 onwards, which is significantly lower than the **implied Net Margin of ~8.0%** from management's 10% Operating Margin target for 2027. If the market believed the company could reach 10% operating margins reliably, the stock price would be much higher. The market is likely discounting this target due to:
-    *   **Labor Inflation:** The airline industry faces high labor costs, which are partially offset by the new revenue initiatives but represent a significant headwind.
-    *   **Operational Risk/Boeing Delays:** Operational reliability issues (like the late 2022 meltdown) and ongoing delivery issues with Boeing create uncertainty that pressures the valuation multiple.
-    *   **Yield Sustainability:** The market may doubt the long-term sustainability of the incremental revenue from assigned seating and bag fees in a highly competitive, fungible product environment.
-
-2.  **Conservative ROIC/DCF Inputs:** Even with the higher valuation, my assumptions are quite conservative:
-    *   **ROIC (6.0%):** Lower end of the 2025 guidance and far below the 2027 target of 15%+. This is a strong conservative buffer.
-    *   **Discount Rate (10.0%):** A high discount rate for a major U.S. airline, reflecting market risk but also applying a punitive discount for execution uncertainty.
+| Assumption | Valuation Model (Optimistic/Management-Driven) | Market's Implied Assumption (Pessimistic) | Why the difference? |
+| :--- | :--- | :--- | :--- |
+| **2026 EBIT** | \$4.3 billion (Management Target) | Likely assumes a much lower EBIT, perhaps closer to \$1.5B - \$2.0B. | The market is discounting management's ability to execute on the "Southwest Even Better Plan," particularly the revenue management, assigned seating, and cost-reduction initiatives. The market still sees SWA as struggling with its traditional low-fare/no-frills model in a post-pandemic, differentiated-product world. |
+| **Long-Term Margin** | 14.0% Operating Margin (2027-2030) | Likely assumes a lower Operating Margin, closer to the 2024-2025 low single-digit levels, due to perennial cost inflation (CASM-X pressure) and limited pricing power. | Past operational meltdowns and persistent cost pressures, coupled with a history of underperformance in 2024 and 2025, lead the market to believe the cost base is structurally higher than management projects. |
+| **Perpetual Growth** | 2.0% (Stable/Inflationary) | Likely a much lower growth rate, or a higher Discount Rate, reflecting perceived structural risks (e.g., reliance on a single aircraft type - Boeing 737, competitive pressure, labor disputes). | The single-model fleet strategy is now a liability (Boeing delivery issues), and the market is pricing in a higher risk premium (higher discount rate) and slower, more volatile long-term growth. |
 
 **Conclusion:**
 
-The valuation suggests that the current market price of \$33.74 already includes a substantial discount for execution risk, particularly regarding the ability to achieve and sustain the management's ambitious margin targets (10%+ operating margin). My fair value of **\$38.28** is only modestly higher because my projection for Net Margin (6.0%) and ROIC (6.0%) is highly conservative, reflecting only a partial success of the company's transformation plan. The \$4.54 difference represents the market's expectation that the company will undershoot this conservative level or that there is a higher probability of macroeconomic or competitive headwinds.
+The valuation of **\$87.79** is based on taking the **management's explicit, transformative targets (especially the \$4.3B 2026 EBIT target) as truth**, coupled with conservative yet positive long-term growth and a modest capital efficiency (ROIC). The market price of **\$42.03** suggests that investors **do not believe** management will achieve this transformation and are pricing the stock based on a continuation of the much lower, volatile earnings seen in 2024 and 2025.
+
+An investor buying at the current price of \$42.03 is essentially betting that Southwest will fail to execute its plan, while a buyer at \$87.79 is fully convinced of management's capabilities to meet or exceed its 2026 target and sustain a mid-teens operating margin thereafter. **The Fair Value is highly sensitive to the 2026 EBIT assumption.**
