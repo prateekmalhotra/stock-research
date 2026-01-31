@@ -1,147 +1,186 @@
-The valuation of Dave & Buster's Entertainment, Inc. (PLAY) stock is performed using a Discounted Cash Flow (DCF) model, focusing on the company's core business engine of new store expansion and comparable store sales, while maintaining a conservative approach to future performance.
+This valuation of Dave & Buster's Entertainment, Inc. (PLAY) stock is conducted using a Discounted Cash Flow (DCF) model based on financial data from recent SEC filings and management guidance from earnings calls.
 
-### **I. Initial Financial Snapshot**
+### I. Initial Financial Data (From SEC Filings)
 
-The following figures are sourced from the most recent available SEC filings and related press releases/transcripts, with the financial year for PLAY ending in January.
+The initial financial data is based on the Condensed Consolidated Balance Sheets and Statements of Operations from the company's Q3 Fiscal 2025 (ended November 4, 2025) Form 10-Q and the FY 2024 (ended February 4, 2025) financial results.
 
-| Metric | Value (in millions USD) | Source/Notes |
-| :--- | :--- | :--- |
-| **Cash & Cash Equivalents** | $12.0 million | Explicitly stated cash at the end of Q2 2025 (fiscal quarter ending Aug 5, 2025). |
-| **Total Debt** | $1,340.0 million | Used the Total Debt figure of $1.34 billion as of February 4, 2024, as a conservative, citable figure from the fiscal year 2024 breakdown provided in a search snippet, which is an explicit debt number. Note: Other analyst estimates vary widely; this figure is used for a conservative valuation. |
-| **Shares Outstanding** | 34.67 million | Most recent explicit shares outstanding figure. |
-| **Latest Reported Revenue (Q2 2025)**| $557.4 million | Q2 2025 (quarter ended August 5, 2025). |
-| **Current Stock Price** | Approximately $25.41 | Market price post-Q1 2025 earnings call. |
-
----
-
-### **II. Business Engine and Projection Assumptions**
-
-The business engine for Dave & Buster's is driven by two main levers:
-1.  **New Unit Growth:** The company has two primary brands (Dave & Buster's and Main Event) and focuses on opening new, high-return units (40%+ returns on new stores).
-2.  **Comparable Store Sales (SSS):** Driving traffic and spend at existing stores through remodels and new game attractions.
-
-#### **A. Revenue Projection Engine**
-
-**1. New Store Growth (New Unit Revenue)**
-*   **Base Store Count (EOP FY2024):** The total store count at the end of Q2 2025 was 237. We will assume 240 stores at the beginning of FY 2025.
-*   **New Stores per Year:** Management guided for opening 10-12 new stores in FY2025.
-    *   **Assumption:** **11 new stores per year** (midpoint of guidance) from FY2025 to FY2030.
-*   **Average Unit Volume (AUV) for New Stores:** Assuming new stores generate $10.0 million in annualized revenue, a conservative estimate compared to pre-COVID high AUVs.
-*   **New Store Revenue per Year:** $10.0 million * 11 stores = $110 million added annually.
-
-**2. Same Store Sales (SSS) Growth (Existing Unit Revenue)**
-*   **Latest Trend:** SSS declined by -3.0% in Q2 2025. Management targets a long-term SSS growth of 3%.
-*   **Conservative SSS Assumption:** We will be conservative, assuming the SSS recovery is slower than management's long-term goal.
-    *   **FY2025:** **0.0%** (Assumes stabilization after a year of negative comps).
-    *   **FY2026:** **1.0%** (A minor recovery due to remodels and new games).
-    *   **FY2027 onwards:** **2.0%** (A sustained, conservative long-term growth rate, still below management's 3% target).
-
-**3. Base Revenue (FY 2024 Estimate)**
-*   **FY 2024 Estimate:** Based on the run-rate of the last four reported quarters, and adjusting for seasonality, we conservatively project the full-year FY 2024 Revenue (ending Jan 2025) to be **$2,160 million**.
-
-#### **B. Margin Projection**
-
-*   **Historical Net Income Margin (FY2022):** $137.1 million Net Income / $2.0 billion Revenue = **6.86%**.
-*   **Latest Net Income Margin (Q2 2025):** $11.4 million Net Income / $557.4 million Revenue = **2.04%**.
-*   **Conservative Margin Assumption:** Given the recent margin pressure (Q2 2025 margin of 2.04%), we project a gradual recovery to a long-term Net Income Margin of **5.0%**, which is below the historical high of 6.86% to account for operating pressures.
-
-| Year | Assumed Net Income Margin |
-| :--- | :--- |
-| **FY2025** | 3.0% |
-| **FY2026** | 4.0% |
-| **FY2027** | 4.5% |
-| **FY2028 - FY2030** | 5.0% |
-
-#### **C. Return on Invested Capital (ROIC) & Cash Flow Assumption**
-
-*   **Historical ROIC:** For FY 2022, Net Income was $137.1M. Total Invested Capital (Approximation of Total Debt + Equity) was high due to the Main Event acquisition. Given the complexity and volatility, we will use a conservative ROIC assumption instead of a historical calculation.
-*   **Conservative ROIC Assumption:** We assume a conservative **5.0% ROIC** on the *previous year's accumulated net cash*. This is a conservative return for a mature, capital-intensive restaurant/entertainment model.
-*   **Cash Flow Assumption:** Net Income is assumed to go directly into cash for the next year (as per instructions).
+| Metric | Date | Value (Millions USD) | Notes | Citation |
+| :--- | :--- | :--- | :--- | :--- |
+| **Total Cash & Cash Equivalents** | Nov 4, 2025 | $13.6 | From Condensed Consolidated Balance Sheet. | |
+| **Total Debt (Long-term debt, net)** | Nov 4, 2025 | $1,552.8 | From Condensed Consolidated Balance Sheet. | |
+| **Shares Outstanding** | Dec 4, 2025 | 34.68 million | From the Q3 2025 Form 10-Q. | |
+| **Current Stock Price** | Jan 23, 2026 | $20.54 | Used as the current market value. | |
+| **FY 2024 Revenue** | Feb 4, 2025 | $2,132.7 | Full fiscal year revenue. | |
+| **FY 2024 Net Income** | Feb 4, 2025 | $58.3 | Full fiscal year net income. | |
 
 ---
 
-### **III. Discounted Cash Flow (DCF) Model**
+### II. Business Engine, Revenue, and Margin Projections
 
-#### **A. Revenue and Net Income Projection (FY2025 - FY2030)**
+The valuation is built on a conservative model of the company's "back-to-basics" strategy, which focuses on organic growth (new stores), same-store sales recovery, and margin expansion through operational efficiencies.
 
-| Year | Base Revenue (Previous Year) | SSS Growth | SSS Revenue | New Store Revenue (11 units) | Projected Revenue | Net Income Margin | Net Income (A) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **FY2024 (Est)** | | | | | **$2,160** | | |
-| **FY2025** | $2,160 | 0.0% | $2,160 | $110 | **$2,270** | 3.0% | **$68.1** |
-| **FY2026** | $2,270 | 1.0% | $2,293 | $110 | **$2,403** | 4.0% | **$96.1** |
-| **FY2027** | $2,403 | 2.0% | $2,451 | $110 | **$2,561** | 4.5% | **$115.2** |
-| **FY2028** | $2,561 | 2.0% | $2,612 | $110 | **$2,722** | 5.0% | **$136.1** |
-| **FY2029** | $2,722 | 2.0% | $2,776 | $110 | **$2,886** | 5.0% | **$144.3** |
-| **FY2030** | $2,886 | 2.0% | $2,944 | $110 | **$3,054** | 5.0% | **$152.7** |
+#### A. Business Engine and Revenue Drivers
 
-*Note: Revenue figures in millions USD, Net Income figures in millions USD.*
+The primary drivers of revenue growth are:
+1.  **New Store Openings (Domestic):** New unit growth is a core component of the business model, which management states generates "high returns on new unit investment".
+    *   **FY 2025 Guidance:** 11 new domestic stores (Dave & Buster's and Main Event). The total number of company-owned stores was 241 at the end of Q3 2025.
+    *   **Conservative Assumption:** Assuming a sustained, conservative annual new unit growth of **5%** for domestic stores for all projected years (2026-2030), slightly lower than the $\approx 4.8\%$ new store growth in FY2025 (11 new stores / 230 stores at start of FY2025).
+2.  **Same-Store Sales (SSS) Growth:** This is the most crucial, yet volatile, driver. Management noted Q3 2025 comparable store sales decreased 4.0% but with sequential improvement (October comps down only $\approx 1\%$) and positive food & beverage comps. The "back-to-basics" plan aims to address past "execution missteps".
+    *   **Conservative Assumption:**
+        *   **FY 2025:** Will be negative due to year-to-date performance. We will conservatively project a **-1.0% SSS** (factoring in the late-year sequential improvement being offset by earlier declines).
+        *   **FY 2026-2030:** A conservative and gradual recovery, projecting SSS of **1.0%** in 2026, **1.5%** in 2027, and **2.0%** thereafter, reflecting improved operations and marketing but acknowledging competition and economic headwinds.
+3.  **International Franchise Revenue:** Management expects "highly efficient incremental growth" and has agreements for over 35 committed stores.
+    *   **Conservative Assumption:** Assume an annual **$5$ million** in incremental, high-margin royalty/franchise fees starting in 2026, reflecting the small base of franchise fees in the overall revenue mix.
 
-#### **B. Cash Flow Projection with ROIC Principle**
+#### B. Revenue Projections (in millions USD)
 
-The Net Cash Flow (NCF) for the valuation is calculated as:
-*NCF* = *Net Income for the Year* + *ROIC on Previous Year's Accumulated Cash*
+| Year (Fiscal Year End) | New Store Growth (%) | New Store Impact (Est.) | SSS Growth (%) | Total Revenue Growth (%) | Projected Total Revenue |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **FY 2024 (Actual)** | N/A | N/A | -7.2% | -3.3% | $2,132.7$ |
+| **FY 2025** | $\approx 4.8\%$ | $4.8\%$ | -1.0% | $3.8\%$ | $2,213.7$ |
+| **FY 2026** | $5.0\%$ | $5.0\%$ | $1.0\%$ | $6.0\%$ | $2,346.5$ |
+| **FY 2027** | $5.0\%$ | $5.0\%$ | $1.5\%$ | $6.5\%$ | $2,499.0$ |
+| **FY 2028** | $5.0\%$ | $5.0\%$ | $2.0\%$ | $7.0\%$ | $2,674.0$ |
+| **FY 2029** | $5.0\%$ | $5.0\%$ | $2.0\%$ | $7.0\%$ | $2,860.2$ |
+| **FY 2030** | $5.0\%$ | $5.0\%$ | $2.0\%$ | $7.0\%$ | $3,058.4$ |
 
-| Year | Projected Net Income (A) | Previous Year's Acc. Cash (B) | ROIC (5.0%) (C) | Net Cash Flow (A+C) | Accumulated Cash (End of Year) | NPV of NCF (10% Discount) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **FY2025** | $68.1 | $12.0 | $0.6 | **$68.7** | $80.7 | $62.5 |
-| **FY2026** | $96.1 | $80.7 | $4.0 | **$100.1** | $180.8 | $74.6 |
-| **FY2027** | $115.2 | $180.8 | $9.0 | **$124.2** | $305.0 | $83.6 |
-| **FY2028** | $136.1 | $305.0 | $15.3 | **$151.4** | $456.4 | $91.8 |
-| **FY2029** | $144.3 | $456.4 | $22.8 | **$167.1** | $623.5 | $94.6 |
-| **FY2030** | $152.7 | $623.5 | $31.2 | **$183.9** | $807.4 | $94.0 |
+*   *Note: Total Revenue Growth = (1 + New Store Growth) * (1 + SSS Growth) - 1. For simplicity, the New Store Impact is approximated to be equal to the growth % and SSS is a multiplier on the prior year's base. International revenue contribution is small and is embedded in the overall growth rate.*
 
-*Note: All figures in millions USD.*
+#### C. Margin Projections
 
-#### **C. Discount Rate and Terminal Value**
+Management commentary highlights the high-margin nature of the entertainment business (65.2% of FY2024 revenue with an 8.5% cost of entertainment). The "back-to-basics" plan is focused on "significantly improved... Adjusted EBITDA" and margin expansion.
 
-*   **Discount Rate (Conservative but Reasonable):** **10.0%** (Reflects the company's high debt load and operating volatility, making it a riskier investment than a low-volatility consumer staple).
-*   **Conservative Maturity Rate (g):** **1.5%** (A rate well below long-term GDP growth, reflecting a highly mature and competitive leisure market).
+*   **FY 2024 Net Income Margin (Actual):** 2.7% ($58.3M / $2,132.7M)
+*   **FY 2025 YTD (Q3) Net Income Margin (Actual):** -0.6% ($9.0M Loss / $1,573.2M YTD Revenue)
 
-**Terminal Value (TV) Calculation:**
-We assume the Net Cash Flow for FY2030 ($183.9M) will grow at the maturity rate (g).
+Given the current Net Loss in Q3 2025 YTD, a conservative approach is mandatory. We will assume a slow but steady recovery to a sustainable long-term Net Income Margin of **5.0%**, which is below the company's historical highs but above the troubled FY2024 level.
 
-$TV = NCF_{2030} \times (1 + g) / (Discount Rate - g)$
-$TV = \$183.9M \times (1 + 0.015) / (0.10 - 0.015) = \$186.7M / 0.085 = \$2,196.5 million$
-
-**Net Present Value of Terminal Value (NPV_TV):**
-$NPV\_TV = TV / (1 + Discount Rate)^{\text{Year}}$
-$NPV\_TV = \$2,196.5M / (1.10)^6 = \$1,240.2 million$
-
-#### **D. Total Net Present Value**
-
-*   **NPV of Explicit Cash Flows (FY2025-FY2030):** $62.5 + $74.6 + $83.6 + $91.8 + $94.6 + $94.0 = **$501.1 million**
-*   **NPV of Total Future Cash Flows (NPV\_FCF):** $501.1M + $1,240.2M = **$1,741.3 million**
-
----
-
-### **IV. Fair Value Calculation**
-
-| Metric | Value (in millions USD) |
-| :--- | :--- |
-| **NPV of Total Future Cash Flows (NPV\_FCF)** | $1,741.3 |
-| **Less: Total Debt** | $1,340.0$ |
-| **Plus: Current Cash & Cash Equivalents** | $12.0$ |
-| **Equity Value** | **$413.3 million** |
-| **Shares Outstanding** | $34.67$ million |
-| **Fair Value Per Share** | **$11.92** |
-
----
-
-### **V. Justification and Market Comparison**
-
-| Metric | Valuation Result | Market Value | Difference |
+| Year | Projected Total Revenue (M USD) | Assumed Net Income Margin (%) | Projected Net Income from Revenue (A) (M USD) |
 | :--- | :--- | :--- | :--- |
-| **Fair Value Per Share** | **$11.92** | **$25.41** | **-53.0%** |
+| **FY 2025** | $2,213.7$ | $1.5\%$ | $33.2$ |
+| **FY 2026** | $2,346.5$ | $3.0\%$ | $70.4$ |
+| **FY 2027** | $2,499.0$ | $4.0\%$ | $99.9$ |
+| **FY 2028** | $2,674.0$ | $4.5\%$ | $120.3$ |
+| **FY 2029** | $2,860.2$ | $5.0\%$ | $143.0$ |
+| **FY 2030** | $3,058.4$ | $5.0\%$ | $152.9$ |
 
-#### **Justification for Difference (Fair Value vs. Market Price)**
+#### D. ROIC and Incremental Income
 
-My calculated Fair Value of **$11.92** is significantly lower than the market price of approximately $25.41. The market is making a much more optimistic assumption about the company's future growth and/or profitability, or it is using a substantially lower discount rate.
+We must use a conservative, reasonable ROIC. Using the FY2024 SEC data:
+*   Net Operating Profit After Tax (NOPAT) is a proxy for the earnings generated by the invested capital. FY2024 Operating Income was $220.4M. Assuming a conservative 25% tax rate, NOPAT = $220.4M * (1 - 0.25) = $165.3M.
+*   Invested Capital is Net Debt + Equity. FY2024 Net Long-Term Debt was $1,479.1M. Equity was $145.8M. Total Invested Capital = $1,479.1M + $145.8M = $1,624.9M.
+*   Historical ROIC $\approx$ $165.3M / $1,624.9M $\approx$ $10.17\%$.
 
-The divergence is primarily due to the following conservative assumptions in my DCF model:
+For a **conservative valuation**, we will assume an ROIC of **5.0%** (a reasonable positive rate below the historical figure).
 
-1.  **Conservative Revenue Growth (SSS):** I assumed SSS would only recover to **2.0%** long-term, well below the management's target of 3%. The market is likely pricing in a swifter and more robust recovery in comparable store sales, believing the recent negative SSS is transient and that the combined D&B/Main Event strategy will yield better results.
-2.  **Conservative Profit Margin:** I projected the Net Income Margin to recover to a mature **5.0%**, which is below the company's historical 6.86% (FY2022). The market likely believes the company's focus on high-margin entertainment and disciplined cost control will restore margins closer to, or even exceed, past performance. A 6.0% long-term Net Income Margin would significantly boost the valuation.
-3.  **High Discount Rate:** A 10.0% discount rate is appropriate given the company's high debt load (Net Total Leverage Ratio of 3.2x as of Q2 2025) and recent operating volatility (Net Income down significantly YoY in Q2 2025). The market might be using a lower WACC (Weighted Average Cost of Capital), perhaps closer to 8.0-9.0%, which would increase the NPV substantially.
-4.  **Total Debt:** Using a conservative debt figure of **$1.34 billion** (which is lower than some analyst-quoted figures of $3B+) benefits the calculated Equity Value. If the true total debt is closer to the higher figures, the Fair Value per Share would be even lower, suggesting the market is making an even *more* aggressive assumption about future cash flow than currently calculated.
+*   **Net Income for Next Year** = Projected Net Income from Revenue + ROIC from Previous Year's Accumulated Cash (Assumed Net Income).
+*   *Note: Net Income for the previous year is assumed to go straight into "cash" (retained earnings) for investment.*
 
-**Conclusion on Market's Assumptions:** The market is clearly assuming that the company will successfully execute its strategic plan of new store openings, aggressive remodels, and marketing initiatives to hit its long-term **3% SSS growth target** and simultaneously restore its **Net Income Margin to at least 6.0%** (a 1% margin increase changes the entire outcome), thereby generating a significantly higher terminal cash flow than projected under a conservative case.
+| Year | Projected Net Income from Revenue (A) (M USD) | Previous Year's Net Income (Accumulated Cash) (B) (M USD) | ROIC on (B) (5.0%) (C) (M USD) | Projected Net Income (A) + (C) (M USD) |
+| :--- | :--- | :--- | :--- | :--- |
+| **FY 2024 (Base)** | N/A | $58.3$ | N/A | N/A |
+| **FY 2025** | $33.2$ | $58.3$ | $2.9$ | $36.1$ |
+| **FY 2026** | $70.4$ | $94.4$ ($58.3 + 36.1$) | $4.7$ | $75.1$ |
+| **FY 2027** | $99.9$ | $169.5$ ($94.4 + 75.1$) | $8.5$ | $108.4$ |
+| **FY 2028** | $120.3$ | $277.9$ ($169.5 + 108.4$) | $13.9$ | $134.2$ |
+| **FY 2029** | $143.0$ | $412.1$ ($277.9 + 134.2$) | $20.6$ | $163.6$ |
+| **FY 2030** | $152.9$ | $575.7$ ($412.1 + 163.6$) | $28.8$ | $181.7$ |
+
+---
+
+### III. Discounted Cash Flow (DCF) Valuation
+
+#### A. Discount Rate and Terminal Value
+
+1.  **Discount Rate (WACC):** We will use a conservative (high) discount rate to account for the company's negative SSS trend, execution risk in its "back-to-basics" turnaround, and the cyclical nature of the entertainment industry.
+    *   **Conservative Discount Rate:** **10.0%**
+
+2.  **Maturity Rate (Terminal Growth Rate):** This represents the conservative, perpetual growth rate of the business after the projection period. For a mature restaurant/entertainment chain, this should be a low rate close to or below long-term GDP growth and inflation.
+    *   **Conservative Maturity Rate:** **2.0%**
+
+#### B. Net Present Value (NPV) Calculation
+
+The Net Income for each year is used as the proxy for free cash flow to equity (FCFE), as per the prompt's instruction.
+
+| Year | Projected Net Income (FCF) (M USD) | Discount Factor (10.0%) | Net Present Value (M USD) |
+| :--- | :--- | :--- | :--- |
+| **FY 2025** | $36.1$ | $0.909$ | $32.8$ |
+| **FY 2026** | $75.1$ | $0.826$ | $62.0$ |
+| **FY 2027** | $108.4$ | $0.751$ | $81.4$ |
+| **FY 2028** | $134.2$ | $0.683$ | $91.7$ |
+| **FY 2029** | $163.6$ | $0.621$ | $101.6$ |
+| **FY 2030** | $181.7$ | $0.564$ | $102.5$ |
+| **NPV of Explicit Forecast Period** | | | **$472.0$** |
+
+#### C. Terminal Value Calculation
+
+The Terminal Value (TV) is the present value of all cash flows after the forecast period (post-2030).
+
+$$\text{Terminal Value} = \frac{\text{FCF}_{\text{FY2030}} \times (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}$$
+
+$$\text{Terminal Value} = \frac{\$181.7 \text{M} \times (1 + 0.02)}{0.10 - 0.02} = \frac{\$185.3 \text{M}}{0.08} = \$2,316.3 \text{M}$$
+
+#### D. Terminal Value Present Value
+
+The Present Value of the Terminal Value is discounted back to the present (FY2024 end, or t=0).
+
+$$\text{PV of Terminal Value} = \text{Terminal Value} \times \text{Discount Factor}_{\text{FY2030}}$$
+
+$$\text{PV of Terminal Value} = \$2,316.3 \text{M} \times 0.564 = \$1,306.4 \text{M}$$
+
+#### E. Enterprise and Equity Value
+
+| Metric | Value (M USD) |
+| :--- | :--- |
+| **Total Enterprise Value (EV)** | $1,778.4$ |
+| *(NPV of Forecast Period + PV of Terminal Value)* | *($472.0 + 1,306.4$)* |
+| **Add: Cash & Cash Equivalents** | $13.6$ |
+| **Less: Total Debt** | $1,552.8$ |
+| **Total Fair Equity Value** | **$239.2$** |
+
+---
+
+### IV. Fair Value Per Share and Justification
+
+**Fair Value Per Share** = $\frac{\text{Total Fair Equity Value}}{\text{Shares Outstanding}}$
+
+**Fair Value Per Share** = $\frac{\$239.2 \text{ million}}{34.68 \text{ million shares}} = **\$6.89$ per share**
+
+| Metric | Value |
+| :--- | :--- |
+| **Fair Value Per Share** | **$6.89** |
+| **Current Market Price (Jan 23, 2026)** | **$20.54** |
+| **Difference** | **-66.55%** |
+
+### V. Justification and Market Assumptions
+
+The calculated fair value of **$6.89 per share** is significantly lower (approximately 66% lower) than the current market price of $20.54 per share. This large discrepancy requires a strong justification based on the divergence between the conservative assumptions used in this DCF and the assumptions the market is likely embedding in the current stock price.
+
+#### 1. Why the Fair Value is So Low (Conservative Assumptions):
+
+1.  **Conservative Same-Store Sales (SSS) Growth:** The model projects a very slow recovery to only **2.0% SSS** growth by 2028. The current market is likely pricing in a **much sharper turnaround** and a return to the company's historical pre-acquisition/pre-pandemic high-single-digit SSS growth, or at least a quicker path to $3-4\%$ SSS.
+2.  **Conservative Net Income Margin:** The model projects a long-term Net Income Margin of only **5.0%**. The market is likely anticipating the management's "back-to-basics" plan to successfully drive significant cost efficiencies and margin expansion, perhaps expecting a return to pre-pandemic margins closer to **8-10%**, especially given the high gross margins on entertainment revenue (65.2% of FY2024 revenue with 8.5% cost of entertainment).
+3.  **Conservative ROIC:** The model uses a conservative **5.0% ROIC** on retained earnings. The market is likely assuming that new store openings will deliver the "historically high ROIs" that management mentions, which would imply an ROIC closer to the calculated historical rate of **$10-12\%$,** significantly boosting future projected net income.
+4.  **High Discount Rate:** A 10.0% discount rate is aggressive for a cyclical but established brand. The market may be using a lower WACC, reflecting an anticipated lower cost of debt/equity and less risk attached to the successful execution of the turnaround plan.
+
+#### 2. Justification for the Market Price:
+
+The market's current price of **$20.54** is fundamentally betting on the success of the new CEO's strategic shift and the realization of synergistic benefits from the Main Event acquisition.
+
+The market's implied assumptions must be:
+*   **Rapid & Robust SSS Recovery:** The market is likely assuming SSS growth will reach $\mathbf{+4\%}$ to $\mathbf{+5\%}$ in the near term (2026/2027) as the marketing engine is "rebuilt" and operational "missteps" are "unwound".
+*   **Significant Margin Expansion:** The market is assuming the Net Income Margin will rapidly expand to $\mathbf{8\%}$ or higher, driven by the high-margin entertainment focus and disciplined capital spending ("eliminating inefficient spend").
+*   **Sustained High-ROI Growth:** The market assumes domestic new store growth will be sustained at $5\%+$ and that the **International Franchise agreements** (over 35 stores committed) will begin contributing meaningful, high-margin royalty revenue very soon.
+
+**Conclusion:**
+
+This valuation suggests that **Dave & Buster's stock is significantly overvalued** at its current price based on highly conservative but reasonable financial and operational assumptions. The market is pricing in a **"perfect execution" turnaround story** where same-store sales and profitability bounce back quickly to pre-pandemic or optimized levels, which carries substantial risk given the current negative SSS trends and recent operational difficulties. The low fair value of **$6.89** reflects the risk that the "back-to-basics" plan underperforms and that the company reverts to a low-growth, low-margin profile while being saddled with considerable debt.
+
+***
+
+### Fair Value Summary
+
+| Metric | Value |
+| :--- | :--- |
+| **Fair Value Per Share** | **$6.89** |
+| **Current Market Price (Jan 23, 2026)** | **$20.54** |
