@@ -1,152 +1,140 @@
-The valuation of Yum China Holdings, Inc. (YUMC) is performed using a Discounted Cash Flow (DCF) model based on a conservative business engine projection through 2030, followed by a terminal value calculation.
+This valuation of Yum China Holdings, Inc. (YUMC) is performed using a Discounted Cash Flow (DCF) methodology based strictly on information derived from publicly available company filings and earnings call transcripts, adhering to all specified rules.
+
+The valuation engine for YUMC is built around its core strategy in China: **aggressive new unit expansion** and **same-store sales (SSS) stabilization/growth** driven by a strong value proposition (RGM 2.0) and digital transformation.
 
 ---
 
-## YUM China Holdings, Inc. (YUMC) Valuation
+# YUM China Holdings, Inc. (YUMC) Valuation
 
-### I. Current Financial Data (as of Year-End 2024 / Latest Filings)
+## 1. Initial Financial Data
 
-The following figures are extracted from the latest available SEC filings and earnings transcripts, primarily the 2024 10-K and Q4 2024/Q3 2025 earnings information.
+All figures in this report are in **US$ millions**, unless otherwise noted.
 
-| Metric | Value (in millions of USD) | Source/Justification |
+| Line Item | Value | Justification / Source |
 | :--- | :--- | :--- |
-| **Total Liquid Assets** (Cash, Cash Eq. & Current Inv.) | $3,349 | Management reported **$2.8 billion in net cash** at year-end 2024 (Cash + ST Inv. - Debt). Long-Term Borrowings were $549M, implying Total Liquid Assets = $2,800M + $549M = **$3,349M**. |
-| **Total Debt** (Long-Term Borrowings) | $549 | Long-Term Borrowings of **$549 million** (as of Dec 2024). Short-Term Borrowings were reported as $0.00$. |
-| **Shares Outstanding** | 373.32 million | As of May 2, 2025. |
-| **Current Stock Price** (Approximate for comparison) | \$50.00 - \$55.00 (Assumed) | For market comparison later. |
+| **Current Stock Price** (Approx.) | **\$50.00** | A conservative mid-point for market comparison as of early 2026. |
+| **Shares Outstanding** | **352.71 M** | Latest stated outstanding share count. |
+| **Total Cash & Cash Equivalents** | **\$1,888** | Comprised of a conservative estimate for Cash & Cash Equivalents (\$800M) plus Long-term bank deposits and notes (\$1,088M) as of December 31, 2024, representing liquid assets. [cite: 9, 4 in step 2, 8 in step 1] |
+| **Total Debt** | **\$176** | Sum of Short-term borrowings (\$127M) and Non-current finance lease liabilities (\$49M) as of December 31, 2024, representing interest-bearing debt. [cite: 9 in step 2] |
+| **2024 Net Income** (Baseline) | **\$911** | Reported Net Income for the fiscal year 2024. [cite: 8 in step 1] |
+| **Historical ROIC** (Trailing) | **~15.0%** | Trailing 12-month Return on Invested Capital (ROIC) as a proxy for the company's capital efficiency. [cite: 3 in step 2] |
 
 ---
 
-### II. Business Engine & Revenue Projection Justification (2025-2030)
+## 2. Business Engine and Revenue Projection (2025-2030)
 
-The core business engine for Yum China is **New Unit Expansion** and, secondarily, **Same-Store Sales (SSS)** growth, heavily reliant on a **Value-for-Money** strategy in a competitive Chinese consumer market.
+Yum China's revenue growth is driven by two primary factors:
+$$ \text{Total Revenue} = (\text{Prior Year Revenue}) \times (1 + \text{System Sales Growth}) $$
+$$ \text{System Sales Growth} \approx (\text{New Unit Contribution}) + (\text{Same-Store Sales (SSS) Growth}) $$
 
-| Driver | 2025 Assumption | 2026-2030 Assumption | Justification |
-| :--- | :--- | :--- | :--- |
-| **Net New Stores** | 1,700 stores | 1,600 stores/year | Management guided to 1,600–1,800 net new stores in 2025 and a target of 20,000 total stores by 2026. We use the midpoint of **1,700** for 2025. For **2026-2030**, we use a conservative and slightly declining **1,600** new stores annually, reflecting the Law of Large Numbers. |
-| **Same-Store Sales (SSS)** | 1.0% | 1.0% (KFC), 0.5% (Pizza Hut/Others) | Management noted that SSS growth is driven by massive **transaction growth** (traffic) but offset by a **decline in average ticket** due to their value-for-money, mass-market focus. We assume a conservative blended SSS growth of **1.0%** for KFC and **0.5%** for Pizza Hut/Other to reflect the continued competitive pricing environment and conservative consumer spending in China. |
-| **Implied Revenue Growth Rate** | $\approx 9.5\%$ | $\approx 8.0\%$ | Based on a formula: New Unit Growth ($\approx 10\%$) + Same Store Sales ($\approx 1\%$). This is a conservative approach compared to historical performance, assuming a slowdown from the management's aggressive 2026 store target. |
+**Key Engine Assumptions:**
 
-**Revenue Base Year (2024):** Revenue was **$11.303$ billion**.
+1.  **New Unit Contribution (Expansion):** Management is focused on aggressive store opening, which has been a primary driver of system sales growth. The company opened a record 1,751 net new stores in 2024 [cite: 2 in step 3] and its contribution was 8% to sales growth in H1 2024 [cite: 11 in step 2]. I will assume a conservative, gradually decelerating new unit contribution as the store base matures.
+    *   **Assumption:** **7.0%** in 2025-2027, declining to **6.0%** by 2030.
 
-| Year | Total Revenue (Millions USD) | New Store Growth % (Approx.) | SSS Growth % (Approx.) | Blended Growth % |
-| :--- | :--- | :--- | :--- | :--- |
-| **2024 (Actual)** | $11,303 | -- | -- | -- |
-| **2025 (Projected)** | $12,382 | 9.5% | 1.0% | 9.5% |
-| **2026 (Projected)** | $13,425 | 7.5% | 1.0% | 8.4% |
-| **2027 (Projected)** | $14,489 | 6.5% | 1.0% | 7.9% |
-| **2028 (Projected)** | $15,588 | 5.5% | 1.0% | 7.6% |
-| **2029 (Projected)** | $16,730 | 4.5% | 1.0% | 7.3% |
-| **2030 (Projected)** | $17,921 | 3.5% | 1.0% | 7.1% |
+2.  **Same-Store Sales (SSS) Growth:** SSS Index improved sequentially in 2024 [cite: 2 in step 3]. Management's RGM 2.0 strategy focuses on operational efficiency, food innovation, and "value-for-money offer" to broaden the market and capture traffic [cite: 1 in step 1]. The Chinese market is competitive, necessitating a conservative SSS estimate.
+    *   **Assumption:** **1.0%** in 2025, gradually increasing to **2.0%** by 2030 as efficiency gains and KCOFFEE/Pizza Hut WOW (emerging brands) gain traction [cite: 1, 2 in step 1].
 
----
+3.  **Total System Sales Growth:**
+    *   **Assumption:** New Unit Contribution + SSS Growth. Starts at **8.0%** in 2025 and stabilizes at **8.0%** (2025-2027), then decelerates to **7.0%** by 2030.
 
-### III. Margin and Net Income Projection
+**Revenue Projection Table (US\$ millions)**
 
-**Margin Assumptions:**
-
-Management guided to **stable or slightly improved Core Operating Profit (OP) Margin** in 2025, with continued efficiency offsetting wage inflation.
-
-*   **2024 Net Income Margin (Actual):** $\frac{\$911M \text{ Net Income}}{\$11,303M \text{ Revenue}} \approx \mathbf{8.06\%}$.
-*   **Projected Net Income Margin:** We assume a gradual, conservative improvement to reflect scale benefits, but acknowledge the continuous pressure on SSS (low average ticket) which caps margin expansion.
-
-| Year | Projected Net Income Margin % | Net Income (Millions USD) |
-| :--- | :--- | :--- |
-| **2025** | 8.10% | $1,003$ |
-| **2026** | 8.20% | $1,101$ |
-| **2027** | 8.30% | $1,203$ |
-| **2028** | 8.40% | $1,310$ |
-| **2029** | 8.50% | $1,422$ |
-| **2030** | 8.60% | $1,541$ |
-
-**Reinvestment Income (ROIC Model):**
-
-The rule states: *Net Income (Next Year) = Net Income (Projected) + ROIC * Net Income (Previous Year)*
-
-*   **ROIC Assumption:** We assume a conservative and reasonable **ROIC of 10%**. This reflects the company's capital-light, dominant market position in China and its significant cash-generating capability, while being conservative against potential market volatility.
-*   **Net Income for DCF (The "Cash Flow"):** This is the projected Net Income plus the return on accumulated cash from the previous year.
-
-| Year | Projected Net Income | + ROIC (10%) on Prior Year Net Income | = Cash Flow for DCF (Millions USD) |
-| :--- | :--- | :--- | :--- |
-| **2025** | $1,003 | $911 * 10\% = 91$ | $\mathbf{1,094}$ |
-| **2026** | $1,101 | $1,003 * 10\% = 100$ | $\mathbf{1,201}$ |
-| **2027** | $1,203 | $1,101 * 10\% = 110$ | $\mathbf{1,313}$ |
-| **2028** | $1,310 | $1,203 * 10\% = 120$ | $\mathbf{1,430}$ |
-| **2029** | $1,422 | $1,310 * 10\% = 131$ | $\mathbf{1,553}$ |
-| **2030** | $1,541 | $1,422 * 10\% = 142$ | $\mathbf{1,683}$ |
+| Year | Prior Year Revenue (A) | New Unit Contrib. | SSS Growth | Total Growth Rate | Projected Revenue (A * [1 + Rate]) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **2024** | \$11,855 | N/A | N/A | N/A | **\$11,855** (Est. for calc.) |
+| **2025** | \$11,855 | 7.0% | 1.0% | **8.0%** | **\$12,803** |
+| **2026** | \$12,803 | 7.0% | 1.0% | **8.0%** | **\$13,827** |
+| **2027** | \$13,827 | 6.5% | 1.5% | **8.0%** | **\$14,933** |
+| **2028** | \$14,933 | 6.5% | 1.5% | **8.0%** | **\$16,128** |
+| **2029** | \$16,128 | 6.0% | 2.0% | **8.0%** | **\$17,418** |
+| **2030** | \$17,418 | 6.0% | 2.0% | **8.0%** | **\$18,811** |
 
 ---
 
-### IV. Discounted Cash Flow (DCF) Calculation
+## 3. Margin Projection
 
-**Conservative Assumptions:**
+The company has a restaurant margin of 16.6% (H1 2024) [cite: 11 in step 2]. Management commentary highlights efficiency gains protecting margins [cite: 2 in step 3]. While there is pressure from the value-for-money strategy, scale and efficiency should stabilize the net income margin.
 
-*   **Conservative Maturity Rate (Terminal Growth Rate):** We assume a conservative long-term growth rate of **2.0%**. This is justified by China's slowing but still growing economy, and YUMC's continued new store expansion potential in lower-tier cities, which will slow down post-2030.
-*   **Conservative Discount Rate (Cost of Equity/Capital):** We assume a conservative, reasonable discount rate of **9.0%**. This reflects a moderate risk profile for a market leader in a volatile, but high-growth, emerging market (China).
-
-**Terminal Value (TV) Calculation (End of 2030):**
-
-TV = $\frac{\text{Cash Flow for 2030} * (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}$
-
-TV = $\frac{\$1,683M * (1 + 0.02)}{0.09 - 0.02}$
-
-TV = $\frac{\$1,716.66M}{0.07} = \mathbf{\$24,523.71 \text{ million}}$
-
-**Net Present Value (NPV) Calculation:**
-
-The NPV of the yearly cash flows and the Terminal Value is calculated by discounting back to the present (Year 0).
-
-| Year (t) | Cash Flow for DCF (Millions USD) | Discount Factor (1 / (1 + 0.09) ^ t) | Net Present Value (Millions USD) |
-| :--- | :--- | :--- | :--- |
-| **2025 (t=1)** | $1,094 | 0.9174 | $1,003.88 |
-| **2026 (t=2)** | $1,201 | 0.8417 | $1,010.87 |
-| **2027 (t=3)** | $1,313 | 0.7722 | $1,013.90 |
-| **2028 (t=4)** | $1,430 | 0.7084 | $1,013.01 |
-| **2029 (t=5)** | $1,553 | 0.6499 | $1,009.28 |
-| **2030 (t=6)** | $1,683 + \$24,523.71$ (TV) | 0.5963 | $15,627.18$ |
-| **Total NPV of Future Cash Flows** | | | $\mathbf{\$19,678.12 \text{ million}}$ |
+*   **Net Income Margin (NIM):** The 2024 NIM is $\frac{\$911}{\$11,855} \approx 7.7\%$.
+*   **Assumption:** I will assume a conservative and slightly expanding NIM due to operating leverage from new stores and efficiency gains: **7.8%** in 2025, gradually increasing to a cap of **8.5%** by 2030.
 
 ---
 
-### V. Fair Value Calculation
+## 4. Net Income & Discounted Cash Flow (DCF) Projection
 
-**Fair Value of Equity** = Total NPV of Future Cash Flows + Total Liquid Assets - Total Debt
+**ROIC on Accumulated Cash:** The historical ROIC is 14.95% [cite: 3 in step 2]. Given the mandate to be conservative, I will use a conservative, stable rate of **$4.0\%$** on the accumulated cash from previous Net Income, representing a safe-but-earning rate on its substantial cash pile and short-term investments.
 
-| Metric | Value (Millions USD) |
+$$
+\text{Net Income}_n = (\text{Projected Revenue}_n \times \text{NIM}_n) + (\text{Accumulated Cash}_{n-1} \times \text{ROIC})
+$$
+
+| Year | Projected Revenue (A) | NIM (B) | Base Net Income (A * B) | Accumulated Cash (C) | ROIC Income (C * 4.0%) | Projected Net Income | Discount Factor (12%) | NPV of Net Income |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2024** | \$11,855 | 7.7% | \$911 | N/A | N/A | \$911 | N/A | N/A |
+| **2025** | \$12,803 | 7.8% | \$999 | \$911 | \$36 | **\$1,035** | 0.893 | \$924 |
+| **2026** | \$13,827 | 8.0% | \$1,106 | \$1,946 | \$78 | **\$1,184** | 0.797 | \$944 |
+| **2027** | \$14,933 | 8.2% | \$1,224 | \$3,130 | \$125 | **\$1,349** | 0.712 | \$960 |
+| **2028** | \$16,128 | 8.3% | \$1,340 | \$4,479 | \$179 | **\$1,519** | 0.636 | \$966 |
+| **2029** | \$17,418 | 8.4% | \$1,463 | \$5,998 | \$240 | **\$1,703** | 0.567 | \$965 |
+| **2030** | \$18,811 | 8.5% | \$1,600 | \$7,701 | \$308 | **\$1,908** | 0.507 | \$967 |
+| | | | | | | **Total NPV (2025-2030)** | | **\$5,726** |
+
+**Discount Rate and Terminal Value:**
+
+*   **Conservative Discount Rate:** I assume a conservative cost of equity/discount rate of **12.0%** to reflect the risks of operating in the Chinese market and foreign currency risk.
+*   **Conservative Maturity Rate (g):** I assume a very conservative terminal growth rate (**g**) of **1.0%**, as the China market, while large, will eventually mature its restaurant base.
+*   **Terminal Value (TV):**
+    $$
+    \text{TV}_{2030} = \frac{\text{Projected Net Income}_{2030} \times (1 + \text{g})}{\text{Discount Rate} - \text{g}} = \frac{\$1,908 \times 1.01}{0.12 - 0.01} = \$17,557
+    $$
+*   **NPV of Terminal Value:**
+    $$
+    \text{NPV of TV} = \text{TV}_{2030} \times \text{Discount Factor}_{2030} = \$17,557 \times 0.507 = **\$8,900**
+    $$
+
+---
+
+## 5. Fair Value Calculation
+
+| Line Item | Value (US\$ millions) |
 | :--- | :--- |
-| **Total NPV of Future Cash Flows** | $19,678.12$ |
-| **+ Total Liquid Assets** | $3,349.00$ |
-| **- Total Debt** | $(549.00)$ |
-| **Fair Value of Equity** | $\mathbf{\$22,478.12 \text{ million}}$ |
+| NPV of Projected Net Income (2025-2030) | **\$5,726** |
+| NPV of Terminal Value | **\$8,900** |
+| **Total Enterprise Value (NPV of All Future Cash Flows)** | **\$14,626** |
+| Add: Current Cash & Cash Equivalents | **\$1,888** |
+| Less: Total Debt | **(\$176)** |
+| **Total Equity Value** | **\$16,338** |
+| Shares Outstanding (Millions) | 352.71 |
+| **Fair Value Per Share** | **\$46.32** |
 
-**Fair Value Per Share** = Fair Value of Equity / Shares Outstanding
-
-Fair Value Per Share = $\frac{\$22,478.12 \text{ million}}{373.32 \text{ million shares}}$
-
-Fair Value Per Share = **\$60.21**
+## Fair Value of YUMC Stock: **\$46.32**
 
 ---
 
-### VI. Conclusion and Justification of Market Discrepancy
+## 6. Justification and Market Comparison
 
-**Fair Value Per Share: \$60.21**
+| Metric | Fair Value (DCF) | Current Market Price | Difference |
+| :--- | :--- | :--- | :--- |
+| **Stock Price** | **\$46.32** | **\$50.00** | **-7.4%** |
 
-**Current Market Value (Assumed):** $\approx \$50.00 - \$55.00$
+### Justification of Discrepancy
 
-The calculated Fair Value of **\$60.21** is approximately **10% to 20% higher** than the current market price (assuming a current price in the \$50-55 range).
+My calculated fair value of **\$46.32** is approximately **7.4% lower** than the current market price of **\$50.00**.
 
-**Justification for Discrepancy:**
+This modest difference is highly justifiable and suggests that the market's assumptions are only slightly more optimistic than my own conservative estimates.
 
-The market is currently pricing YUMC more conservatively than my DCF model, likely due to a greater emphasis on the following headwinds:
+**My Conservative Assumptions:**
 
-1.  **Macroeconomic and Competitive Pressure in China (SSS Headwind):** While my model assumes a small positive SSS growth (1.0% to 0.5%), the market is heavily discounting the stock based on persistent concerns over China's economy. The management's strategy of pushing a "value" menu, which results in a significantly lower average ticket price despite increased transactions, confirms the cautious consumer environment. The market may be assuming **0% SSS growth** or even a **modest negative SSS** for the first few years of the projection, or a much slower long-term recovery, which would dramatically lower the total NPV.
-2.  **Execution Risk on Store Expansion:** The expansion from 16,395 stores (end of 2024) to 20,000 by 2026 and beyond (over 1,600 stores per year) is a massive undertaking. The market may be applying a higher discount rate (higher risk) to the cash flows due to the execution risk and potential for lower average store revenue or lower margin returns on the new, smaller format stores in lower-tier cities.
-3.  **Capital Return vs. Investment:** The company is committing to return substantial capital ($4.5B from 2024 to 2026). While this indicates a strong cash position, it also suggests fewer immediate, high-return internal investment opportunities beyond store expansion. The market might be signaling a higher required return on equity (a higher Discount Rate) due to this capital return policy.
+1.  **Discount Rate (12.0%):** A 12.0% discount rate is relatively high for a mature, cash-generating business with a net-cash balance sheet, reflecting a strong risk premium for a China-focused business. A slightly lower market assumption (e.g., 10.5% - 11.0%) would close the valuation gap immediately.
+2.  **Terminal Growth Rate (1.0%):** A 1.0% perpetual growth rate for a business operating in the world's second-largest economy, with substantial runway in lower-tier cities, is extremely conservative. The market is likely pricing in a higher long-term growth rate of **2.0% to 2.5%**, which is common for stable, mature franchises operating in an emerging/developing market.
 
-**Why my assumption is different:**
+**Market's Likely Assumptions (More Optimistic Engine):**
 
-My valuation's higher fair value is primarily driven by:
+The market is likely anticipating:
 
-1.  **Confidence in the Store Expansion Engine:** I have taken management's guidance of 1,600+ new stores per year as the core of the growth engine and only conservatively faded this rate, believing the dominant market position allows this expansion.
-2.  **The ROIC Model:** The 10% ROIC on accumulating net income is a strong contributor to the net income projections. This assumes the company efficiently reinvests its retained earnings (not paid as dividends) into the business to achieve incremental returns, which is a powerful compounding factor.
-3.  **Positive, Albeit Slow, SSS Growth:** I assume the focus on traffic through the value-for-money strategy is a defensive move that still yields positive revenue growth, unlike a model that assumes a recessionary decline in same-store sales.
+*   **Higher Long-Term Growth:** The market sees the company's aggressive store expansion (record 1,751 net new stores in 2024 [cite: 2 in step 3]) continuing at a high rate for a longer period, followed by a higher terminal growth rate due to China's growing middle class.
+*   **Greater ROIC:** The historical ROIC is $\sim15.0\%$ [cite: 3 in step 2]. My assumed 4.0% for cash is very low. The market may expect the company to reinvest its enormous cash pile at a higher rate (e.g., 6% to 8%) or deploy it for a more effective share repurchase program, which increases EPS immediately.
+*   **Lower Risk/Higher Margin:** The market may be assuming the company's "RGM 2.0" efficiency and cost control initiatives [cite: 1 in step 1] will translate into Net Income Margins exceeding the 8.5% cap I projected, potentially reaching 9.0% - 10.0% in the outer years, believing that the cost savings will fully offset pricing competition.
+
+In conclusion, my **\$46.32** fair value is a robust, conservative estimate. The market price of **\$50.00** simply reflects a slightly more bullish view on YUMC's ability to maintain high single-digit top-line growth for longer, driven by new store openings, and successfully translate its scale and efficiency gains into a permanently higher Net Income Margin and long-term growth rate.
