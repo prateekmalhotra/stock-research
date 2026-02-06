@@ -1,152 +1,179 @@
-This valuation of Caesars Entertainment, Inc. (CZR) stock follows the strict rules outlined, relying exclusively on reported financial data from SEC filings and management commentary from earnings call transcripts to build a proprietary business engine model and Discounted Cash Flow (DCF) analysis.
+This valuation of Caesars Entertainment, Inc. (CZR) is performed using a Discounted Cash Flow (DCF) model based solely on information derived from the company's latest SEC filings and earnings call transcripts, as mandated.
+
+All figures are in millions of USD, unless otherwise noted.
 
 ---
 
-## Caesars Entertainment, Inc. (CZR) Valuation
+## 1. Initial Financial Data (as of September 30, 2025)
 
-### I. Input Data & Current Market Value
+The base financial figures are sourced from the most recent SEC filing, the Quarterly Report on Form 10-Q for the period ended September 30, 2025.
 
-The following initial data is sourced directly from the company's latest available financial reports (Q2 2025, filed July 29, 2025) and a recent stock price.
-
-| Metric | Value (in millions USD, unless noted) | Source |
+| Metric | Value (Millions USD) | Note |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** (as of Jun 30, 2025) | $982 million | Q2 2025 Earnings Release |
-| **Total Debt** (as of Jun 30, 2025) | $12,300 million ($12.3 billion) | Q2 2025 Earnings Release |
-| **Weighted Average Diluted Shares Outstanding** (as of Jun 30, 2025) | 216 million shares | Q2 2025 Earnings Release |
-| **Current Stock Price** (Close on Oct 24, 2025) | $22.23 | Search Result |
-| **Trailing Twelve Month (TTM) Net Revenue** | ~$11,370 million ($11.37 billion) | Financial Data |
-| **TTM ROIC** (as of Jun 30, 2025) | 7.30% | Financial Data |
-| **Annual Interest Expense Reduction** (Post-Q2 2025 note redemption) | $44 million | Q2 2025 Earnings Release |
+| **Total Cash & Cash Equivalents** | \$836 | As of September 30, 2025, excluding restricted cash. |
+| **Total Outstanding Debt** | \$11,900 | Aggregate principal amount of debt outstanding as of September 30, 2025. |
+| **Shares Outstanding** | 204.1 | Common Stock outstanding as of October 23, 2025 (in millions). |
 
 ---
 
-### II. Business Engine and Revenue Projections (2025 - 2030)
+## 2. Business Engine and Revenue Projections (2025 - 2030)
 
-The revenue model is built on the three main segments: **Las Vegas**, **Regional**, and **Caesars Digital**, with projections conservatively derived from management's guidance and world-knowledge of the gaming industry's growth trajectory.
+Caesars Entertainment's business engine consists of two primary segments:
+1.  **Brick-and-Mortar Operations (Las Vegas and Regional):** Stable, mature assets.
+2.  **Caesars Digital (Sports Betting and iGaming):** High-growth, relatively new segment.
 
-#### Business Engine Assumptions:
+The projection methodology is based on segment-specific growth rates derived from management's commentary in the last four earnings calls.
 
-1.  **Las Vegas Segment:** The Las Vegas leisure market has shown softness (Q2 2025 commentary) but management anticipates **strong group bookings in Q4 2025 and into 2026**. Assuming a conservative recovery, we project a modest rebound in 2025 followed by stability.
-    *   **2025:** Modest growth from a soft 2024/2025 base, driven by strong group bookings in the back half.
-    *   **2026 - 2030:** Assumed 1.0% annual growth, reflecting a mature market environment with stable group business offsetting potential volatility in leisure/gaming.
-2.  **Regional Segment:** Management projects this segment to be **flat or see slight growth for FY2025**, driven by new properties (e.g., Caesars Virginia, New Orleans) and strategic reinvestment in the loyalty program (Caesars Rewards).
-    *   **2025:** Conservatively projected at a slight 1.0% growth.
-    *   **2026 - 2030:** A conservative 0.5% annual growth is applied, reflecting its status as a mature, highly competitive segment with limited geographic expansion potential.
-3.  **Caesars Digital Segment:** This is the high-growth engine, which reported its "best quarter ever" in Q2 2025 and is **firmly on track to achieve an Adjusted EBITDA target of over $500 million by 2026**.
-    *   **2024 Digital Revenue:** Reported as $1.2 billion for the full year 2024.
-    *   **2025/2026:** To reach the 2026 EBITDA target, significant revenue growth is required. Assuming the segment achieves an approximate 15% net income margin (a conservative estimate for a maturing digital platform) on $500M EBITDA, it implies substantial revenue growth. Based on the $343M Q2 2025 net revenue for Digital (annualizing to ~$1.4B), and its 24.3% YoY Q2 growth, we project continued deceleration from high growth.
-    *   **2027 - 2030:** Growth rate conservatively tapers as the market matures and competition increases, eventually settling to a conservative 5% annual growth rate.
+### A. Brick-and-Mortar (Las Vegas and Regional) Engine
 
-#### Revenue Projection Table (in millions USD)
+Management commentary suggests the brick-and-mortar segment is relatively stable, with Las Vegas poised for a "record EBITDA year in 2025" due to strong group bookings (mix increasing to 17% in Q4 2025) and ongoing capital reinvestments, while Regional operations are also showing growth from new properties [cite: 5, 4 (in step 1)].
 
-| Segment | FY2024 (Base) | 2025 Projection | 2026 Projection | 2027 Projection | 2028 Projection | 2029 Projection | 2030 Projection |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Las Vegas** (Assumed 48% of FY24 Rev) | $5,458 | 2.5% Growth | 1.0% Growth | 1.0% Growth | 1.0% Growth | 1.0% Growth | 1.0% Growth |
-| **Regional** (Assumed 42% of FY24 Rev) | $4,775 | 1.0% Growth | 0.5% Growth | 0.5% Growth | 0.5% Growth | 0.5% Growth | 0.5% Growth |
-| **Digital/Other** (Assumed 10% of FY24 Rev) | $1,137 | 15.0% Growth | 10.0% Growth | 7.5% Growth | 6.0% Growth | 5.0% Growth | 5.0% Growth |
-| **Total Net Revenue** | **$11,370** | **$11,812** | **$12,175** | **$12,507** | **$12,790** | **$13,046** | **$13,310** |
-| *Total Revenue Growth* | *—* | *3.9%* | *3.1%* | *2.7%* | *2.3%* | *2.0%* | *2.0%* |
+| Segment | 2024 Revenue (Implied from SEC Filing/Earnings) | 2025-2027 Growth Rate | 2028-2030 Growth Rate | Justification |
+| :--- | :--- | :--- | :--- | :--- |
+| **Las Vegas & Regional** | \$9,813 ((\$11,245 Total Revenue - \$1,163 Digital Revenue) - \$269 M&B/Corp) | 2.0% | 1.5% | **Conservative Growth:** Assumes modest growth driven by full realization of CapEx projects, slight ADR/occupancy improvements in Las Vegas (offsetting 'soft' summer noted in Q3 2025), and maturation of new regional assets (Danville, New Orleans). Long-term growth reverts to a low rate consistent with a mature industry. |
 
----
+### B. Caesars Digital Engine
 
-### III. Margin and Net Income Projections
+The Digital segment is the primary growth driver, with management targeting **\$500 million+ in Adjusted EBITDA by 2026** [cite: 4 (in step 1)]. In 2024, Digital revenue was \$1,163 million and Adjusted EBITDA was \$117 million.
 
-#### Margin Assumptions:
+**Projection Logic:**
+1.  **2025-2026:** Aggressive growth is necessary to reach the management's **\$500 million EBITDA target by 2026**. I will assume a conservative EBITDA of **\$500 million** is achieved in 2026.
+2.  **Digital Margin:** 2024 Adj. EBITDA margin was 10.06% (\$117/\$1,163). To achieve \$500M EBITDA on reasonable revenue, the margin must expand significantly due to scale, lower promotional spend, and operating leverage.
+    *   *Assumption:* I project the Digital Adjusted EBITDA margin to reach **25.0% by 2026** and then stabilize at a mature, conservative **28.0%** by 2030.
+3.  **2026 Revenue Target:** \$500M EBITDA / 25.0% Margin = **\$2,000 million (2.0B) Revenue in 2026**. This implies a 72% compounded revenue growth from 2024 to 2026, which is aggressive but necessary to meet management's own $500M EBITDA guidance.
+4.  **2027-2030:** The segment continues to grow, but at a declining rate as the market matures and competition stabilizes.
 
-CZR is currently operating at a TTM Net Income Margin of **-1.71%**, with a Net Loss of $82 million in Q2 2025. Management's goal of achieving financial targets and debt reduction is key to future profitability.
+| Segment | 2024 Revenue (Actual) | 2025 Revenue Growth | 2026 Revenue Growth | 2027 Revenue Growth | 2028-2030 Growth Rate |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Caesars Digital** | \$1,163 | 35.0% | 35.0% | 15.0% | 8.0% |
+| **Implied 2026 Revenue** | | | **\$2,084** | | |
 
-1.  **Transition to Profitability:** The company is strategically focused on reducing its massive debt load. The Q2 2025 note redemption already **reduces annual interest expense by $44 million**, which directly impacts Net Income.
-2.  **Digital Profitability:** The high-margin Digital segment is accelerating toward a significant EBITDA target, which will substantially improve the consolidated margin.
-3.  **Conservative Net Income Margin:** Given the company's historical unprofitability but clear path to positive EBITDA from Digital and lower interest expense, we project a very conservative, gradual transition to a stable, low single-digit Net Income Margin.
+### C. Total Revenue Projection
 
-| Metric | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Assumed Net Income Margin %** | 0.0% | 1.0% | 2.0% | 2.5% | 3.0% | 3.0% |
-| **Net Income from Revenue** (A) | $0 | $122 | $250 | $320 | $391 | $399 |
-| **Prior Year Net Income** (B) | N/A | $0 | $126 | $268 | $356 | $460 |
-| **ROIC %** (Conservative, Historical TTM is 7.30%) | 5.0% | 5.0% | 5.0% | 5.0% | 5.0% | 5.0% |
-| **ROIC Income** (B x ROIC %) (C) | N/A | $0 | $6 | $13 | $18 | $23 |
-| **Projected Net Income** (A + C) | **$0** | **$122** | **$256** | **$333** | **$409** | **$422** |
-
-*Note: For 2025, Net Income is conservatively modeled at $0, acknowledging the prior losses but factoring in the initial $44M interest savings.*
-
----
-
-### IV. Discounted Cash Flow (DCF) Calculation
-
-The projected Net Income is used as a proxy for unlevered Free Cash Flow (FCF) for the DCF calculation, as per the rules: *Net income for each year goes straight into cash for the next year.*
-
-#### Rate Assumptions:
-
-| Metric | Rationale | Value |
-| :--- | :--- | :--- |
-| **Discount Rate (WACC)** | A conservative but reasonable rate for a high-leverage, mature gaming company with a high beta. | 9.0% |
-| **Terminal Growth Rate** (Maturity Rate) | A very conservative, long-term growth rate for a mature, capital-intensive industry. | 1.0% |
-
-#### Projected Cash Flows (Net Present Value - NPV)
-
-| Year (t) | Projected Net Income (FCF Proxy) (in millions USD) | Discount Factor (1 / (1 + 0.09)^t) | Net Present Value (in millions USD) |
+| Year | Brick-and-Mortar Revenue | Digital Revenue | Total Revenue |
 | :--- | :--- | :--- | :--- |
-| **2025** | $0 | 0.9174 | $0 |
-| **2026** | $122 | 0.8417 | $103 |
-| **2027** | $256 | 0.7722 | $198 |
-| **2028** | $333 | 0.7084 | $236 |
-| **2029** | $409 | 0.6499 | $266 |
-| **2030** | $422 | 0.5963 | $252 |
-| **Total NPV of Explicit Period** | | | **$1,055** |
-
-#### Terminal Value Calculation:
-
-The terminal value represents the value of all cash flows after 2030.
-
-*   Terminal Value (TV) in 2030 = [FCF (2030) x (1 + Terminal Growth Rate)] / (Discount Rate - Terminal Growth Rate)
-*   TV in 2030 = [ $422 million x (1 + 0.01) ] / (0.09 - 0.01)
-*   TV in 2030 = $426.22 million / 0.08
-*   **TV in 2030 = $5,328 million**
-
-#### Net Present Value of Terminal Value:
-
-*   NPV of TV = TV (2030) x Discount Factor (2030)
-*   NPV of TV = $5,328 million x 0.5963
-*   **NPV of TV = $3,178 million**
-
-#### Total Equity Value:
-
-*   Total Enterprise Value (TEV) = NPV of Explicit Period + NPV of Terminal Value
-*   TEV = $1,055 million + $3,178 million = **$4,233 million**
-*   Equity Value = TEV + Total Cash & Cash Equivalents - Total Debt
-*   Equity Value = $4,233 million + $982 million - $12,300 million
-*   **Equity Value = -$7,085 million**
+| **2024** | \$9,813 | \$1,163 | **\$11,245** |
+| **2025** | \$10,009 (2.0% YoY) | \$1,570 (35.0% YoY) | **\$11,579** |
+| **2026** | \$10,210 (2.0% YoY) | \$2,119 (35.0% YoY) | **\$12,329** |
+| **2027** | \$10,414 (2.0% YoY) | \$2,437 (15.0% YoY) | **\$12,851** |
+| **2028** | \$10,570 (1.5% YoY) | \$2,632 (8.0% YoY) | **\$13,202** |
+| **2029** | \$10,728 (1.5% YoY) | \$2,842 (8.0% YoY) | **\$13,570** |
+| **2030** | \$10,889 (1.5% YoY) | \$3,070 (8.0% YoY) | **\$13,959** |
 
 ---
 
-### V. Fair Value Per Share & Justification
+## 3. Net Income and Cash Flow Projections (2025 - 2030)
+
+### A. Margin and Income Assumptions
+
+| Metric | 2024 (Actual) | 2025-2027 | 2028-2030 | Justification |
+| :--- | :--- | :--- | :--- | :--- |
+| **EBITDA Margin (Consolidated)** | 33.2% | 34.0% | 35.0% | **Conservative Improvement:** Based on: (1) high-margin Digital segment growth; (2) realization of CapEx returns; (3) lower G&A/reinvestment levels noted by management. |
+| **Depreciation & Amortization (D&A)** | \$1,324 (2024) | \$1,350 | \$1,400 | **Conservative:** Assumes D&A remains high due to large asset base and continued CapEx. |
+| **Interest Expense (Cash)** | \$879 (YTD Sep 2024) | \$850 | \$800 | **Conservative Reduction:** Reflects management's focus on debt reduction and *potential* benefit from lower floating-rate debt interest costs [cite: 5, 4 (in step 1)]. |
+| **Cash Tax Rate** | Low | 4.0% of EBT | 4.0% of EBT | **Management Guidance:** Use the high end of management's guided 3%-4% of EBITDA (or EBT) cash tax reduction due to favorable law changes [cite: 4 (in step 1)]. |
+| **Return on Invested Capital (ROIC)** | Negative | 3.0% | 3.0% | **Conservative Positive Rate:** Past ROIC is negative due to historical net losses. A conservative, reasonable positive ROIC of **3.0%** is applied to *retained cash* to generate additional income, per instructions, since the business is now stabilizing and debt is being addressed. |
+
+### B. Projected Net Income and Cash Flow Calculation
+
+**Rule Implementation:** Net Income for next year = (Net Income from ops) + (ROIC on previous year's retained cash).
+
+| Metric (in millions) | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Total Revenue** | \$11,579 | \$12,329 | \$12,851 | \$13,202 | \$13,570 | \$13,959 |
+| **EBITDA** (34.0%/35.0% Margin) | \$3,937 | \$4,192 | \$4,370 | \$4,621 | \$4,750 | \$4,886 |
+| **D&A** | (\$1,350) | (\$1,350) | (\$1,350) | (\$1,400) | (\$1,400) | (\$1,400) |
+| **EBIT** | **\$2,587** | **\$2,842** | **\$3,020** | **\$3,221** | **\$3,350** | **\$3,486** |
+| **Interest Expense** | (\$850) | (\$825) | (\$800) | (\$800) | (\$775) | (\$750) |
+| **EBT** | **\$1,737** | **\$2,017** | **\$2,220** | **\$2,421** | **\$2,575** | **\$2,736** |
+| **Taxes** (4.0%) | (\$69) | (\$81) | (\$89) | (\$97) | (\$103) | (\$109) |
+| **Base Net Income (A)** | **\$1,668** | **\$1,936** | **\$2,131** | **\$2,324** | **\$2,472** | **\$2,627** |
+| **ROIC on Retained Cash (B)** | \$0 | \$50 | \$59 | \$65 | \$72 | \$77 |
+| **Total Net Income (A+B)** | **\$1,668** | **\$1,986** | **\$2,190** | **\$2,389** | **\$2,544** | **\$2,704** |
+| **Retained Cash (Cummulative)** | \$1,668 | \$3,654 | \$5,844 | \$8,233 | \$10,777 | \$13,481 |
+| **ROIC Calculation (3.0%)** | | 3.0% on \$1,668 | 3.0% on \$1,986 + 1,668 = \$3,654... |
+
+---
+
+## 4. Discounted Cash Flow (DCF) Analysis
+
+### A. Terminal Value Calculation
+
+*   **Final Cash Flow Year (2030) Net Income:** \$2,704 million
+*   **Conservative Maturity Rate (g):** 1.0% (Assuming long-term growth slightly above US GDP/Inflation)
+*   **Conservative Discount Rate (WACC - r):** 8.0% (Reflects a levered business with moderate risk)
+
+$$
+\text{Terminal Value (TV)} = \frac{\text{Cash Flow}_{2030} \times (1 + g)}{r - g}
+$$
+
+$$
+\text{TV}_{2030} = \frac{\$2,704 \times (1 + 0.01)}{0.08 - 0.01} = \frac{\$2,731}{0.07} = \$39,014 \text{ million}
+$$
+
+### B. Net Present Value (NPV) Calculation
+
+The Discount Factor is calculated as $1 / (1 + WACC)^{\text{Year}}$. The Present Value (PV) of Net Income is the PV of future cash flows.
+
+| Year | Net Income (CF) | Discount Factor (8.0%) | Present Value of CF |
+| :--- | :--- | :--- | :--- |
+| **2025** | \$1,668 | 0.9259 | \$1,544 |
+| **2026** | \$1,986 | 0.8573 | \$1,703 |
+| **2027** | \$2,190 | 0.7938 | \$1,738 |
+| **2028** | \$2,389 | 0.7350 | \$1,756 |
+| **2029** | \$2,544 | 0.6806 | \$1,731 |
+| **2030 (Operating)** | \$2,704 | 0.6302 | \$1,704 |
+| **2030 (Terminal Value)** | \$39,014 | 0.6302 | \$24,587 |
+| | | **Total NPV** | **\$34,763 million** |
+
+---
+
+## 5. Fair Value Calculation and Justification
+
+### A. Fair Value of Equity
+
+| Metric | Value (Millions USD) |
+| :--- | :--- |
+| **Total Net Present Value (NPV)** | \$34,763 |
+| **Add: Total Cash & Cash Equivalents** | \$836 |
+| **Subtract: Total Outstanding Debt** | (\$11,900) |
+| **Fair Value of Equity** | **\$23,699** |
+
+### B. Fair Value Per Share
+
+$$
+\text{Fair Value Per Share} = \frac{\text{Fair Value of Equity}}{\text{Total Shares Outstanding}}
+$$
+
+$$
+\text{Fair Value Per Share} = \frac{\$23,699 \text{ million}}{204.1 \text{ million shares}}
+$$
 
 | Metric | Value |
 | :--- | :--- |
-| **Equity Value** | -$7,085 million |
-| **Weighted Average Diluted Shares Outstanding** | 216 million |
-| **Fair Value Per Share** | **-$32.80** |
+| **Fair Value Per Share** | **\$116.11** |
+| **Current Market Price (Approx.)** | \$20.59 (from prior search data for context) |
 
-#### Fair Value Justification and Comparison to Market Value
+---
 
-| Metric | Value |
-| :--- | :--- |
-| **Calculated Fair Value** | **-$32.80** |
-| **Current Stock Price** (Oct 24, 2025) | **$22.23** |
+## Conclusion and Justification of Disparity
 
-My calculated fair value is **negative $32.80 per share**, which is drastically different from the current market price of **$22.23 per share**.
+### Fair Value of CZR Stock: **\$116.11 per share**
 
-The valuation gap is substantial and is entirely due to the company's massive **Total Debt of $12.3 billion**. The current cash flow projection is insufficient to service this debt while simultaneously generating a positive equity value.
+### Justification of Market Disparity
 
-#### Why the Market Disagrees with the DCF:
+The calculated fair value of **\$116.11** is significantly higher than the approximate current market price of around \$20.59. This disparity suggests the market is not fully pricing in the management's guidance and the full operating leverage potential of the combined entity.
 
-The market's willingness to value CZR at **$22.23 per share** implies that investors are making one or more of the following fundamental assumptions that are not captured in a conservative, unadjusted Net Income-based DCF:
+The key differences in assumptions are:
 
-1.  **Higher Free Cash Flow (FCF) than Net Income:** The market is likely valuing CZR on **Adjusted EBITDA or Free Cash Flow to Firm (FCFF)**, which is significantly higher than Net Income due to non-cash charges like **Depreciation and Amortization (D&A)**. In the gaming industry, D&A is immense due to the high capital cost of resorts. For a DCF using Net Income as a FCF proxy, this non-cash expense is already subtracted, leading to a massive undervaluation relative to the market. The true FCF available for debt reduction is likely much higher than the Net Income figures used here.
-    *   **Evidence:** Management frequently guides on **Adjusted EBITDA** (e.g., Digital $500M by 2026), suggesting the market uses this higher metric for valuation.
-2.  **Asset Sales and Strategic Monetization:** The market is factoring in future debt reduction via asset sales or strategic transactions, such as the potential separation of the Digital business, which would unlock significant cash to pay down the $12.3 billion debt.
-3.  **Higher Terminal Growth Rate or Lower Discount Rate:** The market is likely projecting a much more aggressive long-term growth rate or using a lower WACC, reflecting optimism about the company's ability to deleverage and realize cost synergies from its merger. A higher Terminal Value would be necessary to offset the massive debt.
-4.  **REIT Structure Benefits:** A large portion of CZR's debt is offset by leased assets from its former real estate investment trust (REIT) arrangement, which the market views as a long-term operating expense rather than a debt burden that must be fully paid off with FCF.
+1.  **Confidence in Digital Segment Profitability:** The valuation hinges heavily on the Digital segment achieving and expanding on management's **\$500 million+ EBITDA target by 2026**. The market likely maintains a heavy discount due to:
+    *   **Execution Risk:** Doubts about CZR's ability to transition from high-growth, high-loss to high-margin profitability in the hyper-competitive online sports betting and iGaming space. The market may be projecting a lower terminal margin or higher ongoing customer acquisition cost.
+    *   **High Revenue Growth:** The model requires a 72% compounded revenue growth for Digital from 2024 to 2026 to hit the EBITDA target, which is very aggressive.
 
-**Conclusion:** The negative fair value is a direct consequence of following the rule to use **Net Income as a conservative FCF proxy** for a company with an extremely high debt load and significant non-cash expenses (D&A). The market is effectively valuing the company's operating assets (based on EBITDA/FCFF) and assumes a successful, non-organic (i.e., asset sales) debt reduction strategy to justify the current price. For this DCF model to equal the current price, the Equity Value would need to be approximately $4.8 billion (216M shares x $22.23/share), requiring a Total Enterprise Value of roughly $17.1 billion ($4.8B + $12.3B - $0.982B), or a Terminal Value more than triple the one calculated.
+2.  **High Debt and Interest Burden:** The market is deeply concerned with CZR's massive debt load (\$11.9 billion). While the DCF model calculates the **Equity** value after subtracting debt, the market price (a reflection of equity value) is continuously suppressed by the perceived risk of this high leverage, especially in a rising interest rate or weakening consumer discretionary spending environment. The current negative Net Income also pushes down market sentiment.
+
+3.  **Conservative DCF Model vs. Market Sentiment:**
+    *   The model assumes all net income is converted to cash and reinvested to generate a positive **3.0% ROIC**, leading to substantial compounding of value. The market, seeing historical negative net income and continued CapEx needs for a casino business, is likely projecting zero or near-zero retained cash flow for equity holders for the next several years.
+    *   The use of a **1.0% Perpetual Growth Rate** in the Terminal Value calculation, while conservative for a DCF, is being applied to a very high projected 2030 Free Cash Flow (Net Income of \$2.7 billion), leading to a high terminal value (\$39 billion). The market is likely pricing in a higher risk/lower growth scenario for the mature combined entity.
+
+**Conclusion:** The DCF valuation of \$116.11 reflects a scenario where **Caesars successfully executes its stated Digital profitability targets and continues its disciplined debt reduction to deleverage the balance sheet**, unlocking the full cash flow potential of its large, stable brick-and-mortar portfolio. The market's current price of ~ **\$20.59** indicates a deep skepticism on the execution of the Digital turnaround and a persistent fear of the leverage and its drag on true free cash flow generation for shareholders. The \$116.11 is the theoretical value *if* management's vision for deleveraging and Digital segment's profitability is fully realized.
