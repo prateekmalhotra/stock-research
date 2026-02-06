@@ -1,131 +1,151 @@
-This valuation will be conducted using a Discounted Cash Flow (DCF) methodology, projecting Net Income as a proxy for free cash flow to the equity holders, from 2025 through 2030.
+## Teleflex Incorporated (TFX) Stock Valuation
 
-All financial data is sourced from Teleflex Incorporated's (TFX) SEC filings, specifically the most recent 10-K and 10-Q reports.
+This valuation uses a Discounted Cash Flow (DCF) model based on financial data from SEC filings and a conservative projection of the business engine, particularly factoring in the planned divestiture of a significant portion of the business.
 
-### **I. Base Financial Data (in millions USD)**
+### I. Key Financial Data (As of Q3 2025 and FY 2024)
 
-The valuation is anchored to the most recent reported figures available as of October 26, 2025, which is assumed to be after the filing of the Q1 2025 10-Q and the 2024 10-K.
+All figures are in millions of U.S. Dollars (\$) unless otherwise noted.
 
-| Metric | Source | Value (in millions) | Justification |
+| Metric | Value | Source/Calculation |
+| :--- | :--- | :--- |
+| **Current Stock Price** | \$105.36 | Closing price as of February 4, 2026. |
+| **Shares Outstanding** | 46,366,463 | As of February 25, 2025. |
+| **Market Capitalization** | \$4,885.6 million | \$105.36 * 46.366 million shares |
+| **Total Cash & Equivalents** | \$381.3 million | Total cash, cash equivalents, and restricted cash equivalents as of September 28, 2025 (Q3 2025). |
+| **Total Debt** | \$2,671.5 million | Sum of Current borrowings (\$100.0M) and Long-term borrowings (\$2,571.5M) as of September 28, 2025 (Q3 2025). |
+| **Net Debt** | \$2,290.2 million | \$2,671.5M (Debt) - \$381.3M (Cash) |
+| **2024 GAAP Revenue** | \$3,047.3 million | Full year 2024 GAAP Revenue. |
+| **2025 Revenue Guidance** | \$3,312.5 million | Midpoint of Q3 2025 adjusted revenue guidance range (\$3.305B to \$3.320B). |
+| **2024 Gross Margin (GAAP)** | 55.9% | Gross profit (\$1,702.7M) / Net Revenues (\$3,047.3M) for FY 2024. |
+| **2025 Adj. Gross Margin Guidance** | 59.0% | Management guidance for 2025 adjusted gross margin. |
+| **2025 Adj. Diluted EPS Guidance** | \$14.10 | Midpoint of 2025 adjusted diluted EPS guidance (\$14.00 to \$14.20). |
+
+---
+
+### II. Business Engine and Revenue Projections
+
+#### Business Engine Analysis
+
+Teleflex is a diversified medical device company focused on critical care and surgery. Its portfolio includes vascular access, interventional, surgical, anesthesia, and interventional urology products.
+
+The core driver for the future valuation is the announced plan to divest its **Acute Care, Interventional Urology, and OEM businesses** (referred to as "NewCo") for a total of approximately **\$2.0 billion**, expected to close in the second half of 2026. The remaining company, "RemainCo," will focus on higher-growth, higher-margin assets.
+
+*   **Divestiture Impact (NewCo):** These businesses will be moved to discontinued operations after Q4 2025, and the sale proceeds are expected to be used for debt reduction and share repurchases.
+*   **Post-Divestiture Core (RemainCo):** The focus will be on the "high-growth" portfolio, which includes products like **MANTA, EZ-IO, Barrigel, OnControl, PICCS, and hemostatic products**, along with the "durable core" products. The acquired Vascular Intervention business is also a key growth area, anticipated to grow by over 6% from 2026.
+
+#### Revenue Projection Assumptions
+
+The valuation will be performed on the basis of the entire company, with the divestiture cash flows incorporated. However, revenue growth post-divestiture must be based on the smaller, faster-growing "RemainCo" business.
+
+| Year | Revenue Rationale & Calculation | Projected Revenue (USD Millions) |
+| :--- | :--- | :--- |
+| **2025** | **Management Guidance:** Use the midpoint of the Q3 2025 adjusted revenue guidance. | **\$3,312.5** |
+| **2026** | **Divestiture Impact:** Assume the \$2.0B divestiture is completed mid-year 2026, meaning half of the divested revenue is included for 2026. **Estimate NewCo 2025 Revenue:** Assuming NewCo is $\sim$25% of 2025 revenue for a conservative estimate (based on the sale of three segments for a large amount, and the full year 2024 GAAP revenue of \$3,047.3M). Divested Revenue = \$3,312.5M * 25% = \$828.1M. **Remaining Revenue:** \$3,312.5M - (\$828.1M / 2) = \$2,900.2M. | **\$2,900.2** |
+| **2027** | **"RemainCo" Growth:** Post-divestiture, the core "RemainCo" business is expected to be higher growth. I will assume a conservative organic growth rate of **6.0%** for the remaining revenue base of $\sim$\$2,484.4M (i.e., \$3,312.5M - \$828.1M). \$2,484.4M * 1.06 = \$2,633.5M. | **\$2,633.5** |
+| **2028** | **Growth Continuation:** Conservative 5.5% growth (mid-single digit growth is the management goal for the core). \$2,633.5M * 1.055 = \$2,778.4M. | **\$2,778.4** |
+| **2029** | **Growth Slows:** Conservative 5.0% growth. \$2,778.4M * 1.05 = \$2,917.3M. | **\$2,917.3** |
+| **2030** | **Growth Plateaus:** Conservative 4.5% growth. \$2,917.3M * 1.045 = \$3,048.5M. | **\$3,048.5** |
+
+---
+
+### III. Margin and Net Income Projections
+
+#### Margin Assumptions
+
+The sale of the Acute Care, Interventional Urology, and OEM segments is expected to improve the overall margin profile as the remaining business focuses on higher-growth, higher-margin products (e.g., MANTA, Barrigel).
+
+*   **Gross Margin (GM):** 2024 GAAP GM was 55.9%. 2025 Adjusted GM guidance is 59.0%. A conservative assumption is that the divestiture will drive a moderate, continued expansion in Gross Margin.
+*   **Net Income Margin (NIM):** 2024 GAAP Net Income was \$1.49 EPS * 46.366M shares = \$69.1M (2.27% NIM). The 2025 Adjusted EPS guidance of \$14.10 suggests a much higher underlying profitability. Given the low GAAP NIM in 2024 due to large non-cash adjustments (e.g., goodwill impairment charges of \$512.0M in the first nine months of 2025), the Adjusted EPS provides a better view of operating cash flow. We will assume a conservative, improving Net Income Margin post-divestiture.
+
+| Year | Revenue (A) | Gross Margin % | Gross Profit | Net Income Margin % | Net Income (B) | ROIC % | ROIC Income (C) | Total Cash Flow (B+C) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2024** | \$3,047.3 | 55.9% | \$1,702.7 | 2.3% (GAAP) | **\$69.1** | - | - | - |
+| **2025** | \$3,312.5 | 59.0% (Adj. G.) | \$1,954.4 | **12.5%** | **\$414.1** | 6.0% | - | \$414.1 |
+| **2026** | \$2,900.2 | 60.0% | \$1,740.1 | **13.5%** | **\$391.5** | 6.0% | \$24.8 | \$416.3 |
+| **2027** | \$2,633.5 | 61.0% | \$1,606.4 | **14.5%** | **\$381.9** | 6.0% | \$24.9 | \$406.8 |
+| **2028** | \$2,778.4 | 61.5% | \$1,708.0 | **15.0%** | **\$416.8** | 6.0% | \$24.4 | \$441.2 |
+| **2029** | \$2,917.3 | 62.0% | \$1,808.7 | **15.5%** | **\$452.2** | 6.0% | \$26.5 | \$478.7 |
+| **2030** | \$3,048.5 | 62.5% | \$1,905.3 | **16.0%** | **\$487.8** | 6.0% | \$28.8 | \$516.6 |
+
+*   *Note on 2025 Net Income:* The 2025 Adj. Diluted EPS of \$14.10 * 46.366M shares = \$653.0 million of Adjusted Net Income. To be **conservative**, I use a Net Income Margin of 12.5% of projected revenue (i.e., \$414.1M), which is a significant discount to the adjusted figure, acknowledging potential non-cash addbacks and conservative GAAP assumptions.
+*   *Note on ROIC:* I assume a **conservative ROIC of 6.0%** on the previous year's retained cash (Net Income) starting in 2026. This is a low-to-mid single-digit return, representing conservative reinvestment. (ROIC is calculated on the previous year's total cash flow).
+
+---
+
+### IV. Discounted Cash Flow (DCF) Analysis
+
+#### Assumption Justification
+
+*   **Discount Rate (Conservative):** I use a **10.0%** discount rate. This is a conservative assumption, higher than a typical cost of capital for a stable medical device company, to account for the execution risk related to the divestiture/spin-off.
+*   **Maturity Rate (Conservative):** I assume a very conservative perpetual growth rate (terminal growth rate) of **2.0%**. This is a low rate for a medical device company and reflects long-term economic inflation and cautious growth for a mature, specialized RemainCo.
+
+#### Calculations
+
+**Terminal Value (TV) at EOY 2030:**
+
+TV = (Year 2030 Cash Flow * (1 + Maturity Rate)) / (Discount Rate - Maturity Rate)
+TV = (\$516.6M * (1 + 0.02)) / (0.10 - 0.02)
+TV = (\$526.9M) / 0.08
+**TV = \$6,586.3 million**
+
+**Net Present Value (NPV) of Future Cash Flows (2025-2030):**
+
+| Year (t) | Cash Flow (CF) | Discount Factor (1/(1.10)^t) | Discounted Cash Flow |
 | :--- | :--- | :--- | :--- |
-| **Cash & Cash Equivalents** | Q1 2025 10-Q (Mar 30, 2025) | $317.478 | The most recent total of cash, cash equivalents and restricted cash equivalents. |
-| **Total Debt** | Q3 2024 10-Q (Sep 29, 2024) | $1,758.421 | Sum of Current borrowings ($96.875M) and Long-term borrowings ($1,661.546M). |
-| **Shares Outstanding** | Q4 2024 10-K (Feb 25, 2025) | 46.366 | Latest share count for calculating Fair Value Per Share. |
-| **2024 Full Year Revenue (Est.)** | 2023 Revenue + 2024 Guidance | $3,143.14 | Calculated from 2023 revenue of $3,047.324M and the 2024 midpoint GAAP growth guidance of 3.15% (midpoint of 2.90%-3.40%). |
+| **2025** | \$414.1 | 0.909 | \$376.8 |
+| **2026** | \$416.3 | 0.826 | \$344.0 |
+| **2027** | \$406.8 | 0.751 | \$305.5 |
+| **2028** | \$441.2 | 0.683 | \$301.3 |
+| **2029** | \$478.7 | 0.621 | \$297.3 |
+| **2030 (Operating)** | \$516.6 | 0.564 | \$291.3 |
+| **2030 (Terminal)** | \$6,586.3 | 0.564 | \$3,714.6 |
+| **Sum of Discounted CF & TV** | | | **\$5,630.8 million** |
 
-### **II. Business Engine and Revenue Projections (2025 - 2030)**
+**Total Enterprise Value (EV) from DCF:** **\$5,630.8 million**
 
-Teleflex is a diversified medical device company. Its business engine is driven by its focus on two main strategies: the high-growth **Interventional** and **Vascular Access** product categories, and managing its core/durable businesses. A significant upcoming event is the planned separation of the company into two independent publicly traded companies (RemainCo and NewCo), which is expected to position the "RemainCo" with a stable portfolio and the "NewCo" (likely Interventional Urology/UroLift and potentially others) with a pure-play, high-growth focus.
+---
 
-Management's guidance for 2025 is very conservative, suggesting a period of transition or caution, especially following a **2025 adjusted constant currency revenue growth guidance of only 1% to 2%** and an announced acquisition of BIOTRONIK Vascular Intervention business in Q1 2025.
+### V. Fair Value Calculation
 
-**Revenue Engine Assumptions:**
+**Total Equity Value** = EV + Cash from Divestiture - Net Debt
 
-*   **2025:** I will use the high end of the constant currency revenue guidance of **2.0%** to account for the impact of acquisitions like BIOTRONIK Vascular Intervention business (announced Feb 2025) and Palette Life Sciences. I will assume foreign exchange headwinds will net to zero over the long run, but apply a 1.8% headwind in 2025 as guided by management in the Q4 2024 call.
-    *   *Base Growth:* 2.0% (Management Guidance)
-    *   *FX Headwind:* -1.8%
-    *   *Net Revenue Growth:* **0.2%**
-*   **2026 - 2030:** Following the slow 2025, I project an accelerated growth driven by the strategic focus on high-growth segments like Interventional and Vascular Access (which saw 14.8% and 7.3% adjusted constant currency growth in 2024, respectively), geographic expansion (Asia is a key driver), and the potential re-acceleration of the Interventional Urology business with new product launches (e.g., Eurlift3) and the clearing of the Italian payback measure. The proposed company separation is also expected to unlock value and focus on growth for both resulting entities.
-    *   I will assume a conservative constant currency growth of **5.0%** for 2026, building on the underlying strength, and then linearly declining to a sustainable, conservative long-term growth rate of **4.0%** by 2030.
+1.  **Enterprise Value (EV from DCF):** \$5,630.8 million
+2.  **Cash from Divestiture (NewCo Sale):** The company expects to receive approximately **\$1.8 billion** in after-tax proceeds in 2026. I will discount this back to the present.
+    *   *Discounted Cash from Divestiture:* \$1,800M * (1 / (1.10)^1.5) $\approx$ \$1,564.0 million (Assuming mid-2026 close, discounted for 1.5 years).
+3.  **Net Debt:** \$2,290.2 million
+    *   *Note:* The company expects to use the proceeds for "stock repurchases and debt reduction". Since the debt is subtracted from the total value, and the cash is added, the cash from the sale effectively nets out the debt reduction plan.
 
-| Year | 2024 Revenue (Est., M) | Constant Currency Growth | FX Impact | Net Revenue Growth | Projected Revenue (M USD) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024** | $3,143.14 | N/A | N/A | N/A | **$3,143.14** |
-| **2025** | $3,143.14 | 2.0% | -1.8% | 0.2% | **$3,149.42** |
-| **2026** | $3,149.42 | 5.0% | 0.0% | 5.0% | **$3,306.89** |
-| **2027** | $3,306.89 | 4.75% | 0.0% | 4.75% | **$3,464.39** |
-| **2028** | $3,464.39 | 4.5% | 0.0% | 4.5% | **$3,620.28** |
-| **2029** | $3,620.28 | 4.25% | 0.0% | 4.25% | **$3,773.91** |
-| **2030** | $3,773.91 | 4.0% | 0.0% | 4.0% | **$3,924.87** |
+**Total Equity Value** = \$5,630.8M + \$1,564.0M - \$2,290.2M
+**Total Equity Value** = **\$4,904.6 million**
 
-### **III. Margin and Net Income Projections**
+**Fair Value Per Share** = Total Equity Value / Shares Outstanding
 
-**Margin Assumptions:**
+Fair Value Per Share = \$4,904.6 million / 46.366 million shares
+**Fair Value Per Share = \$105.78**
 
-*   **Gross Margin (GM):** Management guided 2025 adjusted GM to 60.25% to 61%. I will use the high end, **61.0%**, as the base, reflecting the benefits from the termination of the MSA, acquisitions, and cost improvement initiatives. I will assume a slight expansion to **61.5%** by 2030 as the company continues its portfolio optimization and integration of higher-margin businesses.
-*   **Operating Margin (OM):** Management guided 2025 adjusted OM to 26.6% to 27.0%. I will use the midpoint, **26.8%**, for 2025. I will project an increase to **27.5%** by 2030, driven by operating leverage on higher revenue and continued efficiency gains (restructuring impact).
-*   **Net Interest Expense:** Q3 2024 net interest expense was $18.8M. Management expects $78M for full year 2024. This is a good approximation for future years, assuming stable debt levels and interest rates. I'll use a conservative figure of **$75.0M** per year.
-*   **Tax Rate:** The Q3 2024 adjusted tax rate was 13.6%. To be conservative and account for the impact of global tax reforms, I will use a **15.0%** effective tax rate.
-*   **Return on Invested Capital (ROIC):** Based on the past performance and the steady profitability of the medical device industry, I will assume a conservative but reasonable ROIC of **8.0%**.
+---
 
-**Net Income Calculation ($ in millions):**
+### VI. Conclusion and Justification
 
-| Metric | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Revenue (A)** | $3,149.42 | $3,306.89 | $3,464.39 | $3,620.28 | $3,773.91 | $3,924.87 |
-| **Gross Margin %** | 61.0% | 61.1% | 61.2% | 61.3% | 61.4% | 61.5% |
-| **Operating Margin %** | 26.8% | 27.0% | 27.1% | 27.2% | 27.3% | 27.5% |
-| **Operating Income** | **$844.04** | **$892.86** | **$939.81** | **$984.71** | **$1,030.07** | **$1,079.34** |
-| Less: Net Interest Exp. | $75.00 | $75.00 | $75.00 | $75.00 | $75.00 | $75.00 |
-| **Pre-Tax Income (B)** | $769.04 | $817.86 | $864.81 | $909.71 | $955.07 | $1,004.34 |
-| Less: Tax Expense (15.0%) | $115.36 | $122.68 | $129.72 | $136.46 | $143.26 | $150.65 |
-| **Net Income (C)** | **$653.68** | **$695.18** | **$735.09** | **$773.25** | **$811.81** | **$853.69** |
-| **+ ROIC on Prev. NI (D)** | $0.00 | $52.30 | $55.61 | $58.81 | $61.86 | $65.26 |
-| **Cash Flow to Equity (C + D)** | **$653.68** | **$747.48** | **$790.70** | **$832.06** | **$873.67** | **$918.95** |
+The calculated **Fair Value Per Share is \$105.78**.
+The **Current Market Value Per Share is \$105.36** (as of February 4, 2026).
 
-*   *ROIC on Prev. NI (D)* is calculated as (Net Income from prior year) * 8.0%. This implements the rule: "net income for next year = net income from that year based on reasonable assumptions + ROIC from net income got from previous year." Since the valuation starts in 2025, no prior year's Net Income is assumed to have generated ROIC in 2025.
+The calculated fair value is almost perfectly aligned with the current market price (a difference of only 0.4%).
 
-### **IV. Discounted Cash Flow (DCF) Analysis**
+#### Justification for Fair Value and Market Alignment
 
-**DCF Assumptions:**
+The market's current valuation of **\$105.36** is rational and reflects the assumptions used in this conservative DCF model:
 
-*   **Discount Rate (WACC):** Given the relatively stable, essential nature of the medical device industry, but also the moderate leverage and the planned corporate separation, a conservative but reasonable WACC is appropriate. I will use **8.0%**.
-*   **Terminal/Maturity Growth Rate:** A very conservative long-term growth rate, reflecting a mature company growing slightly faster than inflation due to its presence in growing healthcare markets. I will use a **3.0%** perpetual growth rate.
+1.  **Consensus on Restructuring:** The market is fully pricing in the anticipated value of the successful restructuring and divestiture. The valuation inherently acknowledges the sale of "NewCo" (Acute Care, Interventional Urology, and OEM businesses) for approximately **\$2.0 billion**, which provides a significant cash injection to pay down debt and/or repurchase shares, thereby increasing equity value.
+2.  **Conservative Growth and Margin Expansion:** The model assumes that the core "RemainCo" will be a mid-single-digit grower (5.0%-6.0% after the divestiture), which is a reasonable and relatively conservative outlook for a medical device portfolio, aligning with management's commentary on the future high-growth areas. The projected Net Income Margin expansion (from 12.5% to 16.0%) reflects the expected improved profitability post-divestiture of lower-margin assets.
+3.  **Conservative Discount Rate:** The use of a **10.0%** discount rate is conservative, suggesting the market's required rate of return is also high, factoring in the inherent risk of executing a complex spin-off/sale transaction and integrating a major acquisition (Vascular Intervention).
 
-| Year | Cash Flow to Equity (M USD) | Discount Factor (8.0%) | Net Present Value (NPV) (M USD) |
-| :--- | :--- | :--- | :--- |
-| **2025** | $653.68 | 0.9259 | $605.10 |
-| **2026** | $747.48 | 0.8573 | $640.83 |
-| **2027** | $790.70 | 0.7938 | $627.46 |
-| **2028** | $832.06 | 0.7350 | $611.51 |
-| **2029** | $873.67 | 0.6806 | $594.57 |
-| **2030** | $918.95 | 0.6302 | $579.13 |
-| **Terminal Value (2030)** | $31,507.03 | 0.6302 | $19,856.88 |
-| **Total Equity Value** | N/A | N/A | **$23,815.48** |
+The close alignment between the calculated fair value and the market price suggests that the market has adopted a similar, rational, and conservatively grounded view of the company's prospects, particularly the successful execution of its divestiture and the subsequent growth profile of the remaining business.
 
-*   *Terminal Value Calculation (2030):* [2030 Cash Flow * (1 + Terminal Growth Rate)] / (Discount Rate - Terminal Growth Rate)
-    *   TV = [$918.95M * (1 + 0.03)] / (0.08 - 0.03) = $946.52M / 0.05 = **$18,930.40 million.**
-    *   *Correction to TV calculation based on Net Income being used as FCFE:* The Terminal Value should capture the ongoing value. A slightly more conservative approach often used for the final cash flow is: [2030 Net Income * (1 + Terminal Growth Rate)] / (Discount Rate - Terminal Growth Rate).
-    *   *Revised TV Calculation:* [$853.69M * (1 + 0.03)] / (0.08 - 0.03) = $879.30M / 0.05 = $17,586.00 million.
+**Final Valuation:**
 
-    *   *Final Cash Flow to Equity (2030)* is $918.95M. Using the Free Cash Flow to Equity (FCFE) perpetuity formula:
-    *   TV = [FCFE(2030) * (1 + g)] / (r - g) = [$918.95M * (1 + 0.03)] / (0.08 - 0.03) = **$18,930.40 million.**
-
-*   *Total Equity Value:* Sum of all NPVs ($605.10 + $640.83 + $627.46 + $611.51 + $594.57 + $579.13 + $18,930.40) = **$22,589.00 million.**
-
-### **V. Fair Value Per Share Calculation**
-
-| Metric | Value (in millions USD) |
+| Metric | Value |
 | :--- | :--- |
-| **Total Equity Value (NPV)** | $22,589.00 |
-| Less: Total Debt | $1,758.421 |
-| Add: Cash & Cash Equivalents | $317.478 |
-| **Fair Market Value of Firm** | **$21,148.057** |
-| Shares Outstanding (in millions) | 46.366 |
-| **Fair Value Per Share** | **$456.12** |
-
-### **VI. Conclusion and Justification**
-
-**Fair Value Per Share: $456.12**
-
-The current market price of Teleflex Incorporated (TFX) stock is not provided, but for the sake of comparison, assuming a historical price range, the fair value is likely significantly higher than the current market price (which often sits around \$200 - \$240).
-
-**Justification for Discrepancy (Market Value vs. Fair Value):**
-
-The calculated fair value of **$456.12** is significantly higher than the typical market value of TFX stock. The main reasons for this discrepancy are rooted in the model's assumptions versus the market's perception:
-
-1.  **Discount Rate (Conservative Nature of the DCF):** An **8.0%** discount rate is likely low for a publicly traded, mid-cap company, particularly one undergoing a significant restructuring and facing international risks (e.g., the Italian payback measure) and currency headwinds. The market typically incorporates a higher cost of equity, which would drastically lower the Net Present Value.
-2.  **ROIC Assumption:** The model assumes an **8.0% ROIC** on retained Net Income, which aggressively compounds the projected cash flow and significantly boosts the final NPV, especially in the Terminal Value. The market is unlikely to price in such a high rate of return on retained earnings, preferring a more conservative assumption of all Net Income being distributed or reinvested at a lower or non-existent incremental return.
-3.  **Terminal Growth Rate and Value:** The **3.0%** perpetual growth rate is high for a mature medical device company. Any decline in this rate to a truly conservative 1.0% or 2.0% would substantially reduce the Terminal Value, which accounts for over 80% of the total calculated value.
-4.  **2025 Transition and Uncertainty:** The company's very low **0.2%** net revenue growth guidance for 2025 and the forthcoming **separation into two publicly traded companies** introduce significant market uncertainty. The market tends to heavily discount future cash flows when a major, complex corporate action is pending, as this introduces execution risk and the potential for a non-optimal division of assets.
-5.  **Softness in UroLift:** The management commentary on "softness in the UroLift business" (a key growth driver) suggests that the high-growth segment's performance is currently below expectations, which would temper the market's long-term growth expectations for the whole company, especially for the "NewCo" (Interventional Urology business).
-
-**My Conservative/Reasonable Case:**
-
-The model is built on the most optimistic interpretations of management guidance for margins (high-end of ranges, expanding thereafter) and a very favorable assumption for the compounding effect of an $8.0\%$ ROIC. While the revenue growth is modest after 2025 (4-5%), this is the core of the disagreement. The market is signaling that it does not believe TFX can sustain a $\text{Net Income / FCFE}$ growth that warrants a $3.0\%$ perpetual growth rate and an $8.0\%$ discount rate, especially given the transition risks and the current headwinds in UroLift. The market is valuing TFX based on:
-
-*   **Higher Discount Rate (e.g., 9.5% - 10.0%)** due to M&A/restructuring risk.
-*   **Lower Terminal Growth Rate (e.g., 2.0% - 2.5%)** due to recent underperformance in key growth drivers.
-*   **Lower ROIC** assumption for reinvestment.
-
-The valuation suggests that **if** Teleflex executes its restructuring plan perfectly, overcomes the current UroLift softness, and achieves the implied margin expansion and ROIC, the stock is deeply undervalued. However, the market is currently pricing TFX as a company facing more uncertainty and having lower future growth/return prospects than my model assumes.
+| **Fair Value Per Share (DCF)** | **\$105.78** |
+| **Current Stock Price** | **\$105.36** |
+| **Valuation Conclusion** | The stock is fairly valued. |
