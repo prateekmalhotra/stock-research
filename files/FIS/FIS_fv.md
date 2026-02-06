@@ -1,193 +1,161 @@
-This valuation of Fidelity National Information Services, Inc. (FIS) utilizes a Discounted Cash Flow (DCF) model based on financial data from the company's latest SEC filings and a conservative projection of its core, post-Worldpay business engine.
+This valuation of Fidelity National Information Services, Inc. (FIS) utilizes a Discounted Cash Flow (DCF) model based on management's public commentary, historical financials from SEC filings, and a conservative, justifiable business engine projection as requested.
 
-All financial figures are in millions of U.S. Dollars, except per-share data and percentages.
+All financial figures are in millions of US Dollars, unless otherwise noted.
 
 ---
 
-## 1. Financial Inputs from SEC Filings
+## I. Current Financial Position (as of September 30, 2025)
 
-The data is sourced from FIS's latest available SEC filings and related press releases, most notably the Q2 2025 earnings release (August 5, 2025) and its annual report.
+The figures below are derived from FIS's most recent SEC filings and earnings releases, primarily the Q3 2025 results.
 
-| Metric | Value (USD) | Source/Notes |
+| Metric | Value (USD Millions) | Source/Notes |
 | :--- | :--- | :--- |
-| **Current Stock Price** | **$\$$67.52** | Closing price as of October 24, 2025. |
-| **Total Shares Outstanding** | **522.38 million** | As of October 2025. |
-| **Total Cash & Cash Equivalents** | **$\$$581 million** | Estimated cash on the balance sheet as of June 30, 2025. |
-| **Total Debt** | **$\$$12,900 million** (or $\$$12.9 billion) | Debt outstanding as of June 30, 2025. |
-| **Last Full Year (2024) Revenue** | **$\$$10,100 million** (or $\$$10.1 billion) | GAAP Revenue for full year 2024. |
-| **Last Full Year (2024) Net Income** | **$\$$787 million** | GAAP Net Earnings from Continuing Operations for full year 2024. |
-
-*Note: The valuation projects the **current continuing operations** (Banking and Capital Markets), deliberately excluding the financial impact of the Global Payments Issuer Solutions acquisition (expected H1 2026) in the core model to maintain a conservative stance and strictly adhere to using current debt and cash figures. This will be addressed in the final justification.*
+| **Total Cash & Cash Equivalents** | \$571 | As of September 30, 2025. |
+| **Total Debt** | \$13,000 | As of September 30, 2025. |
+| **Shares Outstanding** | 517.85 million | As of October 31, 2025. |
+| **Current Stock Price** | (Assumed based on current search time) **\$54.00** | *Note: This is an assumed market price for calculation. The final step will address the justification.* |
+| **Market Capitalization** | \$27,964 million | *517.85M shares x \$54.00* |
 
 ---
 
-## 2. Business Engine & Revenue Projection (2025-2030)
+## II. Historical Analysis and Model Assumptions
 
-The core business engine of FIS post-Worldpay is comprised of two key, high-retention, high-recurring revenue segments: **Banking Solutions** (approx. 70% of core business) and **Capital Market Solutions**.
+### 1. Business Engine and Revenue Drivers
 
-The business is driven by:
-1.  **Recurring Revenue:** Approximately 81% of core revenue is recurring, providing stability and visibility.
-2.  **Commercial Excellence:** Management attributes recent growth acceleration to commercial excellence, net new sales, and strong client retention.
-3.  **Cross-Selling/Market Share:** Focus on expanding existing client relationships and geographic coverage.
+FIS's core business is now focused on **Banking Solutions** and **Capital Markets Solutions** following the sale of the majority stake in the Worldpay Merchant Solutions business in 2024. [cite: 3 in step 2]
 
-### Revenue Growth Assumptions
+*   **Key Growth Drivers (Management Commentary):**
+    1.  **Recurring Revenue:** The company is experiencing strong recurring revenue growth (e.g., 7.6% in Capital Markets Q3 2025). [cite: 5 in step 1]
+    2.  **Client Retention and Pricing:** Improved renewal retention (approx. 3% improvement in 2024/2025 in Banking) and positive net pricing (60 bps contribution) are key. [cite: 5 in step 1, 10 in step 1]
+    3.  **Strategic M&A:** The acquisition of Global Payments' Issuer Solutions business, expected to close in Q1 2026, is a significant future catalyst. [cite: 5 in step 1, 3]
+    4.  **Margin Expansion:** Management is focused on cost-saving programs and operational efficiency, guiding for margin expansion greater than 60 basis points in 2026. [cite: 5 in step 1]
 
-| Year | Banking Solutions Growth (Assumed) | Capital Market Solutions Growth (Assumed) | Total Adjusted Revenue (Base $10.1B) | Overall Growth Rate | Justification |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **2025** | $4.25\%$ (Midpoint of $4.0-4.5\%$) | $6.75\%$ (Midpoint of $6.5-7.0\%$) | $\$$10,610 | $5.05\%$ | Management's raised guidance midpoint of $4.8\%$ to $5.3\%$ adjusted revenue growth. |
-| **2026** | $4.00\%$ | $6.50\%$ | $\$$11,048 | $4.13\%$ | Conservative step-down. Assumes slight post-acquisition (Global Payments) integration focus and moderate economic slowdown impacting non-recurring (license) revenue. |
-| **2027** | $3.50\%$ | $5.50\%$ | $\$$11,418 | $3.35\%$ | Further conservatism, reflecting a maturing core market but stable growth due to high recurring revenue. |
-| **2028** | $3.00\%$ | $4.50\%$ | $\$$11,749 | $2.90\%$ | Continues to slow, but stays ahead of industry inflation/GDP growth driven by a solid $81\%$ recurring base. |
-| **2029** | $2.50\%$ | $4.00\%$ | $\$$12,042 | $2.50\%$ | Slowing to a long-term normalized growth rate for a mature fintech provider. |
-| **2030** | $2.50\%$ | $3.50\%$ | $\$$12,327 | $2.37\%$ | Approaching the Terminal Growth Rate, reflecting long-term stability and market saturation. |
+### 2. Return on Invested Capital (ROIC)
 
-*Note: To simplify the calculation while being conservative, I will calculate the $\$$ change for each segment and sum it up, which results in the Total Adjusted Revenue shown.*
+The Return on Invested Capital is crucial for generating subsequent-year income in this model. I use 2024 full-year figures for a normalized, post-Worldpay-split baseline of the continuing operations.
+
+| Metric | 2024 Value (USD Millions) | Calculation/Notes |
+| :--- | :--- | :--- |
+| **Net Income from Cont. Ops** (NI) | \$790 | 2024 Full-Year GAAP NI (Cont. Ops). [cite: 10 in step 2] |
+| **Interest Expense** (I) | \$351 | 2024 Full-Year. [cite: 10 in step 2] |
+| **Total Pre-Tax Income** (PTI) | \$1,297 | 2024 Full-Year. [cite: 10 in step 2] |
+| **Income Tax Expense** (T) | \$362 | 2024 Full-Year. [cite: 10 in step 2] |
+| **Tax Rate** (t) | 28% | T / PTI = $362M / $1,297M $\approx$ 27.9%. (Rounded conservatively). |
+| **NOPAT** | \$1,043 | $NI + I * (1 - t)$ = $790M + $351M * (1 - 0.28). |
+| **Invested Capital** (IC) | \$27,493 | *Est. Q3 2025: Total Debt ($13,000M) + Equity ($15,064M) - Cash ($571M).* [cite: 1, 3, 5 in step 2] |
+| **Historical ROIC** | **3.79%** | $NOPAT / IC = $1,043M / $27,493M. |
+
+**Assumption:** I will use a conservative, rounded ROIC of **4.00%** for the projections, which is slightly above the calculated historical rate from continuing operations.
+
+### 3. Margin Projection (Net Income Margin)
+
+Based on management's strong guidance for margin expansion, I will project a gradual improvement in Net Income Margin (as a percentage of Revenue) for the continuing business.
+
+*   **2024 Baseline (Cont. Ops):** 7.80% ($790M NI / $10,127M Rev). [cite: 10 in step 2]
+*   **Initial 2025 Margin:** 8.50% (A conservative increase reflecting initial benefits of the restructuring).
+*   **Annual Margin Increase:** **50 basis points (0.50%)** per year, reflecting management's execution on cost savings and operating leverage.
 
 ---
 
-## 3. Margin Projection & Net Income Calculation
+## III. Discounted Cash Flow (DCF) Model
 
-### Margin Assumptions
+### A. Revenue and Margin Projections (USD Millions)
 
-Management guidance focuses on expanding adjusted EBITDA margin by approximately $20$ basis points (bps) and achieving a free cash flow (FCF) conversion rate of $82\%$ to $85\%$ of adjusted net earnings. The strategy is explicitly focused on *operational simplification* and *reducing capital intensity* (CapEx target is $8\%$ of revenue). This directly translates into stronger future GAAP Net Income.
-
-To project **GAAP Net Income** (which is used as the proxy for Cash Flow in this instruction's model), I use the 2024 GAAP Net Income/Revenue ratio and assume an improvement reflecting the $20$ bps EBITDA margin expansion and improved cost structure.
-
-| Year | Revenue ($M) | Est. Net Income Margin | Projected Net Income ($M) |
-| :--- | :--- | :--- | :--- |
-| **2024 (Actual Base)** | $\$$10,100 | $7.8\%$ ($\$$787M / $\$$10,100M) | $\$$787 |
-| **2025** | $\$$10,610 | $8.0\%$ | $\$$849 |
-| **2026** | $\$$11,048 | $8.5\%$ | $\$$940 |
-| **2027** | $\$$11,418 | $9.0\%$ | $\$$1,028 |
-| **2028** | $\$$11,749 | $9.5\%$ | $\$$1,116 |
-| **2029** | $\$$12,042 | $10.0\%$ | $\$$1,204 |
-| **2030** | $\$$12,327 | $10.5\%$ | $\$$1,294 |
-
-*Justification:* The Net Income Margin expansion from $7.8\%$ to $10.5\%$ by 2030 is conservative compared to the projected *Adjusted* EBITDA Margin expansion (20bps increase per year is often management's guide to a higher base) and the stated goal of significantly improved Free Cash Flow conversion. This projection bakes in the benefit of the restructuring and focus on high-margin core products.
-
-### Net Income with ROIC Calculation
-
-The instruction requires incorporating a Return on Invested Capital (ROIC) for additional income.
-*   **ROIC Assumption:** Since the historical ROIC can be volatile or negative due to the Worldpay impairment, and the instruction calls for a **conservative but reasonable positive ROIC** when projecting positive net income, I will use a conservative **$10\%$ ROIC**. This reflects a mature, stable technology services company that reinvests its prior year's retained earnings (Net Income) into its high-margin recurring business.
-
-$$
-\text{Net Income}_{n} = \text{Projected Net Income}_{n} + (\text{Net Income}_{n-1} \times \text{ROIC})
-$$
-
-| Year | Projected Net Income (from Margin, $A$) | Prior Year Net Income ($B$) | ROIC Contribution ($B \times 10\%$) | **Total Net Income** ($A + C$, used as Cash Flow) |
+| Year | Revenue (A) | Y-o-Y Growth Rate | Net Income Margin (B) | Net Income from Operations (A x B) (C) |
 | :--- | :--- | :--- | :--- | :--- |
-| **2025** | $\$$849 | $\$$787 | $\$$79 | **$\$$928** |
-| **2026** | $\$$940 | $\$$928 | $\$$93 | **$\$$1,033** |
-| **2027** | $\$$1,028 | $\$$1,033 | $\$$103 | **$\$$1,131** |
-| **2028** | $\$$1,116 | $\$$1,131 | $\$$113 | **$\$$1,229** |
-| **2029** | $\$$1,204 | $\$$1,229 | $\$$123 | **$\$$1,327** |
-| **2030** | $\$$1,294 | $\$$1,327 | $\$$133 | **$\$$1,427** |
+| **2025** | 10,610 | 4.8% (Conservative) | 8.50% | \$902 |
+| **2026** | 11,141 | 5.0% | 9.00% | \$1,003 |
+| **2027** | 11,586 | 4.0% | 9.50% | \$1,101 |
+| **2028** | 11,992 | 3.5% | 10.00% | \$1,199 |
+| **2029** | 12,352 | 3.0% | 10.50% | \$1,297 |
+| **2030** | 12,661 | 2.5% | 11.00% | \$1,393 |
 
----
+*   *2025 Revenue:* Midpoint of management's raised guidance for the full year. [cite: 4 in step 1]
+*   *2026 Growth:* Use 5.0%, slightly above the $10,610M * (1 + 5.0%) = $11,141M. This incorporates the projected 2025 growth momentum and the beginning of the acquisition's integration/synergies, while remaining conservative against the top end of 2025 guidance.
+*   *Post-2026 Growth:* Taper the growth rate down to 2.5% by 2030 to reflect industry maturity and a conservative view of long-term sustainable growth.
 
-## 4. Discounted Cash Flow (DCF) Calculation
+### B. Net Income (Cash Flow) Projection and Discounting
 
-### DCF Assumptions
+The instruction is to assume: **Net Income for each year goes straight into cash for the next year.**
 
-| Metric | Value | Justification |
-| :--- | :--- | :--- |
-| **Discount Rate (WACC)** | **$9.0\%$** | **Conservative/Reasonable.** Reflects the company's relatively stable, recurring revenue stream in a mature industry (Fintech/Banking Technology) combined with a moderate debt load. |
-| **Terminal Growth Rate** | **$2.0\%$** | **Very Conservative/Maturity Rate.** Set below global GDP growth and the projected 2030 revenue growth ($2.37\%$). This assumes FIS's core business settles into a stable, highly mature maintenance/upgrade cycle long-term. |
+**Formula:** $Net Income_{x} = Net Income_{Operations} + ROIC \times Net Income_{x-1}$
 
-### Net Present Value (NPV) Calculation
+| Year | Net Income from Operations (C) | Prior Year Net Income (D) | ROIC (4.00%) | ROIC Income (D x ROIC) (E) | Projected Net Income (C + E) (F) | Discount Factor (10.00%) | Present Value (F x DF) (G) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2025** | \$902 | \$790 (2024 NI Cont. Ops) | 4.00% | \$32 | \$934 | 0.909 | **\$849** |
+| **2026** | \$1,003 | \$934 | 4.00% | \$37 | \$1,040 | 0.826 | **\$859** |
+| **2027** | \$1,101 | \$1,040 | 4.00% | \$42 | \$1,143 | 0.751 | **\$858** |
+| **2028** | \$1,199 | \$1,143 | 4.00% | \$46 | \$1,245 | 0.683 | **\$850** |
+| **2029** | \$1,297 | \$1,245 | 4.00% | \$50 | \$1,347 | 0.621 | **\$836** |
+| **2030** | \$1,393 | \$1,347 | 4.00% | \$54 | \$1,447 | 0.564 | **\$816** |
+| **Sum of NPV (2025-2030)** | | | | | | | **\$5,068** |
 
-The Discount Factor is calculated as $1 / (1 + \text{Discount Rate})^n$, where $n$ is the number of years from the present.
+### C. Terminal Value Calculation
 
-| Year ($n$) | Cash Flow (Net Income, $A$) | Discount Factor ($9.0\%$) | NPV of Cash Flow ($A \times \text{DF}$) |
-| :--- | :--- | :--- | :--- |
-| **2025 (n=1)** | $\$$928 | $0.9174$ | $\$$851 |
-| **2026 (n=2)** | $\$$1,033 | $0.8417$ | $\$$869 |
-| **2027 (n=3)** | $\$$1,131 | $0.7722$ | $\$$873 |
-| **2028 (n=4)** | $\$$1,229 | $0.7084$ | $\$$871 |
-| **2029 (n=5)** | $\$$1,327 | $0.6499$ | $\$$862 |
-| **2030 (n=6)** | $\$$1,427 | $0.5963$ | $\$$851 |
-| **Sum of Projected Cash Flows (2025-2030)** | | | **$\$$5,177** |
+**Assumptions:**
 
-### Terminal Value Calculation
+*   **Terminal Growth Rate (g):** **1.5%** (Conservative maturity rate, below long-term GDP/inflation).
+*   **Discount Rate (r):** **10.0%** (Conservative and reasonable for a technology company).
+*   **Last Cash Flow for Perpetuity:** 2030 Net Income, **\$1,447 million** (F).
 
-The Terminal Value is the projected value of all cash flows beyond 2030.
+**Terminal Value (TV) Formula:** $TV = \frac{Cash Flow_{2030} \times (1 + g)}{r - g}$
 
-$$
-\text{Terminal Value} = \frac{\text{Cash Flow}_{2030} \times (1 + \text{Terminal Growth Rate})}{\text{Discount Rate} - \text{Terminal Growth Rate}}
-$$
+$$TV = \frac{\$1,447 \times (1 + 0.015)}{0.10 - 0.015} = \frac{\$1,468.61}{0.085} = \$17,278 \text{ million}$$
 
-$$
-\text{Terminal Value} = \frac{\$$1,427 \times (1 + 0.02)}{0.09 - 0.02} = \frac{\$$1,455.54}{0.07} = \$$20,793 \text{ million}
-$$
+**Terminal Value Net Present Value (TV NPV):**
 
-**NPV of Terminal Value (Discounted to Present):**
+$$TV_{NPV} = TV \times \text{Discount Factor}_{2030} = \$17,278 \times 0.564 = \mathbf{\$9,747} \text{ million}$$
 
-$$
-\text{NPV of Terminal Value} = \text{Terminal Value} \times \text{Discount Factor}_{n=6}
-$$
+### D. Calculation of Enterprise Value (EV)
 
-$$
-\text{NPV of Terminal Value} = \$$20,793 \times 0.5963 = \$$12,400 \text{ million}
-$$
-
-### Enterprise Value
-
-$$
-\text{Enterprise Value} = \text{NPV of Projected Cash Flows} + \text{NPV of Terminal Value}
-$$
-
-$$
-\text{Enterprise Value} = \$$5,177 + \$$12,400 = \$$17,577 \text{ million}
-$$
-
----
-
-## 5. Fair Value Calculation
-
-$$
-\text{Equity Value} = \text{Enterprise Value} + \text{Total Cash} - \text{Total Debt}
-$$
-
-$$
-\text{Equity Value} = \$$17,577 + \$$581 - \$$12,900 = \$$5,258 \text{ million}
-$$
-
-$$
-\text{Fair Value Per Share} = \frac{\text{Equity Value}}{\text{Shares Outstanding}}
-$$
-
-$$
-\text{Fair Value Per Share} = \frac{\$$5,258 \text{ million}}{522.38 \text{ million shares}} = \$$10.06
-$$
-
----
-
-## Conclusion and Justification
-
-### **Fair Value of FIS Stock (DCF Model): $\$$10.06**
-
-| Metric | Value |
+| Metric | Value (USD Millions) |
 | :--- | :--- |
-| **Fair Value Per Share** | **$\$$10.06** |
-| **Current Market Price (Oct 24, 2025)** | **$\$$67.52** |
+| **NPV of Explicit Period Cash Flows** (2025-2030) | \$5,068 |
+| **NPV of Terminal Value** | \$9,747 |
+| **Total Net Present Value (EV)** | **\$14,815** |
 
-### Justification for Difference Between Fair Value and Market Value
+---
 
-The calculated Fair Value of $\$$10.06 is approximately $85\%$ lower than the current market price of $\$$67.52. This massive discrepancy signals that the market is making a fundamental assumption about the company's future that is *diametrically opposed* to the structure of the conservative DCF model used, as dictated by the constraints.
+## IV. Fair Value Calculation
 
-**The Market's Assumptions (Why the stock is $\$$67.52):**
+**Fair Value of Equity Formula:** $Equity Value = Total NPV + Total Cash - Total Debt$
 
-The market is overwhelmingly pricing FIS based on the announced, high-value, transformative transactions, which were explicitly *excluded* from the core DCF model to adhere to the instruction's strict financial inputs.
+| Metric | Value (USD Millions) |
+| :--- | :--- |
+| **Total NPV (EV)** | \$14,815 |
+| **ADD: Total Cash & Cash Equivalents** | \$571 |
+| **LESS: Total Debt** | (\$13,000) |
+| **Fair Value of Equity** | **\$2,386** |
 
-1.  **Post-Acquisition Business Profile:** The market is valuing the **Pro Forma FIS**, which will include the Global Payments' Issuer Solutions business (the $\$$12 billion net acquisition). This deal, expected to close in H1 2026, significantly increases FIS's revenue base, creates a more focused "pure-play" banking and capital markets tech company, and is expected to drive higher profits and cash flow immediately. The market sees a much larger and more profitable business model starting in 2026.
-2.  **Increased Debt is Covered by EBITDA/Cash Flow:** While the acquisition will be funded by approximately $\$$8 billion of new debt, the market believes the increased EBITDA and cash flow from the acquired business will justify the debt and allow the company to deleverage quickly to its $2.8x$ target. The market's Enterprise Value for the pro-forma entity is much higher, easily absorbing the new debt.
-3.  **Future Cash Flow Conversion:** Management has guided for $82\%$ to $85\%$ cash conversion. The market is factoring in this significant improvement in the quality and quantity of future free cash flow, which is a stronger, less-leveraged multiple than what a GAAP Net Income DCF (even with a conservative ROIC) can capture.
+**Fair Value Per Share Formula:** $\text{Equity Value} / \text{Shares Outstanding}$
 
-**Why the DCF's Fair Value is $\$$10.06 (The Conservative Constraints):**
+$$\text{Fair Value Per Share} = \frac{\$2,386 \text{ million}}{517.85 \text{ million shares}} = \mathbf{\$4.61}$$
 
-1.  **Exclusion of Major Acquisition:** The largest cause of the low valuation is the strict adherence to valuing only the **current continuing operations** (Banking + Capital Markets) through 2030, while using the $12.9 billion **current total debt** for the final equity calculation. The $12.9 billion debt is a heavy burden on a projected Enterprise Value of only $17.6$ billion from the current, smaller core business.
-2.  **Debt Misalignment:** The instruction mandates using the $\$$12.9 billion in **current total debt** but does not allow for adding the future earnings from the $\$$12 billion acquired asset (the GPN Issuer Solutions business). In effect, the model applies a large debt from the current balance sheet *against the earnings stream of a much smaller business*, which is financially inconsistent with a true Pro-Forma valuation.
+---
+
+## V. Justification and Market Comparison
+
+### Fair Value of FIS Stock: **\$4.61 per share**
+
+### Justification of the Difference between Fair Value and Market Price
+
+Assuming a market price of approximately **\$54.00 per share** (used for a market cap estimate), the calculated fair value of **\$4.61** is significantly lower.
+
+**Why the Valuation is so Different from the Market:**
+
+The core of the difference lies in the constraint of using **GAAP Net Income** in the DCF model, as instructed, rather than the widely accepted financial metric for enterprise valuation: **Adjusted Free Cash Flow (FCF)**.
+
+1.  **GAAP Net Income vs. Adjusted Free Cash Flow (FCF):**
+    *   **The Valuation Model's Cash Flow (GAAP Net Income):** The required model uses GAAP Net Income, which is heavily impacted by large, non-cash amortization expenses from historical acquisitions (especially the Worldpay merger) and volatile one-time gains/losses. For example, FIS had a significant GAAP Net Loss in Q2 2025 (-$470 million) [cite: 10 in step 2].
+    *   **FIS's Reported Economic Cash Flow (Adjusted FCF):** Management guides its performance based on **Adjusted FCF** and is explicitly managing for it, guiding to over 85% conversion in 2025 and 90% in 2026. [cite: 5 in step 1]
+    *   The market is valuing FIS based on its *economic cash flow* (Adjusted FCF) and its deleveraging/capital return program.
+    *   **2025 Projected Adjusted FCF (Q3 2025 YTD):** Year-to-date Adjusted FCF was \$1.6 billion for nine months. Assuming a strong Q4, the full year could be over \$2.1 billion.
+    *   **The Market's Assumptions:** The market is likely assuming that the current level of high capital expenditure and non-cash amortization will normalize or that the FCF will be the true determinant of value. The market may also be valuing the Worldpay retained stake and pending acquisition at much higher levels.
+
+2.  **The Impact of High Debt and the Worldpay Transaction:**
+    *   The model calculates a high Total NPV (\$14,815 million), but the large **\$13,000 million in debt** is then subtracted from this to determine the Equity Value.
+    *   The market is also implicitly assuming that the sale of the remaining Worldpay interest for **\$6.6 billion** (expected to close in Q1 2026) and the \$13.5 billion acquisition of Issuer Solutions will fundamentally reshape the balance sheet and cash flows, potentially reducing the net debt or funding the acquisition without major additional debt, which would significantly increase the FCF profile immediately. The current model is unable to fully account for the Q1 2026 cash infusion from the Worldpay sale without more complex modeling of non-recurring events.
 
 **Conclusion:**
 
-The market is valuing FIS based on the expected outcome of its announced strategic transformation, which dramatically increases its future earnings and deleveraging potential. The model's $\$$10.06 Fair Value is an artificially low figure driven by the conservative constraint to **exclude the future financial benefits of the announced acquisition (a material event) while subtracting the large current debt balance against the small, pre-growth earnings of the remaining business.** The market correctly anticipates that the post-transaction Enterprise Value is far higher.
+The computed Fair Value of **\$4.61 per share** is a mathematical result of adhering strictly to the mandated methodology of using *GAAP Net Income* as the cash flow metric in an environment where FIS's Net Income is severely depressed by non-cash charges and is not a true reflection of the cash generation capacity of the continuing operations. The market's price of $\sim$\$54.00 per share reflects its valuation of the company's robust, management-guided **Adjusted Free Cash Flow** and the expected deleveraging and value creation from the planned strategic transactions. The market is giving little to no weight to the temporary volatility in GAAP Net Income.
