@@ -1,182 +1,137 @@
-The valuation of Scholastic Corporation (SCHL) stock will be performed using a Discounted Cash Flow (DCF) model based on the following rules: using SEC filing data for historical financials, relying on management's earnings call commentary for a conservative future business engine, projecting net income until 2030, and incorporating an assumed Return on Invested Capital (ROIC) for cash flow generation.
+## Valuation of Scholastic Corporation (SCHL) Stock
 
-All dollar figures are in **millions of USD** unless otherwise noted.
+This valuation is performed using a Discounted Cash Flow (DCF) model, strictly adhering to the user's rules, which mandate the use of SEC filings and management commentary for all inputs. The valuation is highly conservative in its assumptions for revenue growth, margins, and discount rates.
 
 ***
 
-## 1. Initial Financial Data (SEC Filings & Latest Releases)
+### 1. Initial Financial Data (Pro-Forma Balance Sheet)
 
-The following data is based on Scholastic Corporation's latest available financial reports, including the Q1 Fiscal Year 2026 results (ended August 31, 2025) and the Fiscal Year 2025 Annual Report (ended May 31, 2025).
+The most recent complete balance sheet figures from an SEC filing are from the Quarterly Report on Form 10-Q for the period ended **November 30, 2024** (Q2 Fiscal Year 2025). However, a significant material event—the sale-leaseback of major real estate assets—occurred subsequently, generating an estimated \$401 million in net cash proceeds [cite: 2 (from step 2)], which must be included for a timely valuation.
 
-| Metric | Value (USD Millions) | Source/Notes |
+| Metric | Value (in Millions USD) | Source/Calculation |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | $94.3 | Q1 FY2026 Balance Sheet [cite: 4 (from Step 3)] |
-| **Total Debt** | $345.9 | $331.2M (Lines of credit/LTD) + $14.7M (Film obligations) [cite: 1 (from Step 2)] |
-| **Shares Outstanding (SO)** | 25.14 million | Most Recent Quarter [cite: 5 (from Step 3)] |
-| **Current Stock Price** | $29.24 | As of Oct 26, 2025 |
-| **FY2025 Total Revenue** | $1,625.5 | Fiscal Year ended May 31, 2025 [cite: 7, 8 (from Step 3)] |
-| **FY2025 Net Loss** | -$1.9 | Fiscal Year ended May 31, 2025 [cite: 7, 9 (from Step 3)] |
-| **FY2026 Revenue Guidance (Midpoint)** | 3.0% Growth | Affirming 2% - 4% growth [cite: 1, 2 (from Step 3)] |
-| **FY2026 Adj. EBITDA Guidance (Midpoint)** | $165.0 | $160M - $170M guidance [cite: 1, 2 (from Step 3)] |
+| **Cash and Cash Equivalents** (as of 11/30/2024) | \$139.6 | 10-Q for 11/30/2024 |
+| **Total Debt** (Lines of Credit + Long-term Debt as of 11/30/2024) | \$256.2 | \$6.2 + \$250.0 (10-Q for 11/30/2024) |
+| **Sale-Leaseback Net Proceeds** (Subsequent Event) | \$401.0 | Management Disclosure (post-Q2 FY2026) [cite: 2 (from step 2)] |
+| **Pro-Forma Total Cash** | **\$540.6** | \$139.6 + \$401.0 |
+| **Pro-Forma Total Debt** | **\$256.2** | Assumes no principal repayment with cash proceeds |
+| **Total Shares Outstanding** (TSO) (as of 06/30/2025) | **25.05 million** | Common + Class A shares [cite: 8 (from step 1)] |
 
 ***
 
-## 2. Business Engine & Revenue Projection (2025 - 2030)
+### 2. Business Engine and Revenue Projections
 
-Scholastic's business engine is driven by its irreplaceable access to schools through **Book Fairs** and **Book Clubs** (Children's Book Group), complemented by high-value, durable **Intellectual Property (IP)** (Dog Man, Harry Potter, Hunger Games) and the expansion of its **Entertainment** (9 Story Media Group) and **International** segments. The main drag is the volatile **Education Solutions** segment.
+Scholastic's business engine consists primarily of Children's Book Publishing & Distribution (Book Fairs, Book Clubs, Trade), Education Solutions, and International, with a growing Entertainment segment (including the 9 Story Media Group acquisition).
 
-### Business Engine Assumptions
+*   **FY2025 Actual Revenue:** \$1,625.5 million (2% growth) [cite: 5 (from step 2)]
+*   **Key Drivers (Management Commentary):**
+    *   **Book Fairs:** Expected to continue performing well with higher fair counts and revenue per fair [cite: 2 (from step 2)].
+    *   **Education Solutions:** Volatile, facing headwinds from federal grant delays and state budget impasses [cite: 7 (from step 2)].
+    *   **Trade Publishing:** Driven by "flagship franchises" (e.g., *Hunger Games* series) and general demand [cite: 5 (from step 2)].
+    *   **9 Story Entertainment:** Recently acquired, consolidating into the Entertainment segment and expected to contribute to future revenue growth [cite: 5 (from step 2)].
+    *   **Cost & Efficiency:** Management is focused on organizational changes and cost-saving initiatives to drive earnings growth in FY2026 and beyond [cite: 5, 7 (from step 2)].
 
-| Segment | Driver & Management Commentary | Conservative Growth Rate Assumption |
+| Fiscal Year (Ends May 31) | Growth Rate (Conservative Assumption) | Revenue (in Millions USD) | Justification/Commentary |
+| :--- | :--- | :--- | :--- |
+| **2025 (Actual)** | N/A | \$1,625.5 | Last Reported Actual Revenue [cite: 5 (from step 2)] |
+| **2026** | 3.5% | \$1,682.4 | Conservative bump from 2% (FY25) due to full-year impact of 9 Story acquisition and expected strength in Book Fairs. |
+| **2027** | 3.0% | \$1,732.9 | Assumes stabilization after the initial acquisition boost, with continued modest growth from core segments. |
+| **2028** | 2.5% | \$1,776.2 | Conservative deceleration reflecting macro pressures on Education Solutions and the cyclical nature of publishing/IP. |
+| **2029** | 2.0% | \$1,811.7 | Assumes long-term growth trends normalize to the historical rate. |
+| **2030** | 1.5% | \$1,838.9 | Final year: Reflects a very conservative, below-inflation long-term growth rate. |
+
+***
+
+### 3. Margin and Net Income Projections
+
+*   **FY2025 Adjusted Operating Margin:** $\approx 2.2\%$ (\$35.8M / \$1,625.5M) [cite: 5 (from step 2)].
+*   **FY2026 Guidance:** Adjusted EBITDA of **\$146M - \$156M** (Midpoint: \$151M) [cite: 2 (from step 2)].
+    *   Assuming an approximate 45% Net Income conversion from Adjusted EBITDA (a conservative but reasonable estimate given historical volatility and non-operating expenses) for a profitable year, the Net Income for FY2026 is projected to be $\$151M * 0.45 = \$68.0M$.
+*   **Net Income Margin Assumption:** To be conservative but reflect management's focus on cost-saving and *earnings growth* (FY2026 guidance), I will project a **4.0%** Net Income Margin for the mature years, increasing from a conservative FY2026 estimate.
+
+#### Net Income and ROIC Projection
+
+| Fiscal Year (Ends May 31) | Projected Revenue (A) | Net Income Margin (Conservative Assumption) | Net Income (B) (Straight to Cash) | ROIC % (Conservative) | ROIC Income (C) (B x ROIC % from Prior Year) | Total Projected Net Income (B+C) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2025** (Actuals are Volatile) | \$1,625.5 | 0.0% | \$0.0 | N/A | N/A | \$0.0 |
+| **2026** | \$1,682.4 | 4.0% | \$67.3 | **6.0%** | N/A | **\$67.3** |
+| **2027** | \$1,732.9 | 4.0% | \$69.3 | 6.0% | \$4.0 | **\$73.3** |
+| **2028** | \$1,776.2 | 4.0% | \$71.0 | 6.0% | \$4.4 | **\$75.4** |
+| **2029** | \$1,811.7 | 4.0% | \$72.5 | 6.0% | \$4.5 | **\$77.0** |
+| **2030** | \$1,838.9 | 4.0% | \$73.6 | 6.0% | \$4.6 | **\$78.2** |
+
+*   **Net Income Margin:** A conservative 4.0% margin is used for profitable years, reflecting an improvement over the FY2025 adjusted operating margin of 2.2% but well below peak profitability, aligning with management's stated cost-saving and efficiency goals.
+*   **ROIC Assumption:** Since the company's historical profitability has been volatile or negative, a positive yet conservative **6.0% ROIC** is selected as per the rule. This is justified by the large cash infusion from the real estate sale, which can be deployed to earn a reasonable return. ROIC Income (C) for the next year is calculated as the previous year's Net Income (B) multiplied by the 6.0% ROIC.
+
+***
+
+### 4. Discounted Cash Flow (DCF) Analysis
+
+The Total Projected Net Income is treated as the unlevered Free Cash Flow (FCF) for this DCF model (Net Income is assumed to go straight into cash for the next year).
+
+#### Assumptions for DCF:
+
+1.  **Discount Rate (Conservative but Reasonable):** **9.0%**. This is a conservative WACC estimate for a company in the traditional media and education sector, accounting for business risks (e.g., funding volatility, publishing cycles).
+2.  **Maturity Rate (Conservative Terminal Growth Rate):** **1.0%**. This is a very conservative terminal growth rate, well below inflation, reflecting long-term industry stagnation but a sustained presence.
+
+#### Calculation of Net Present Value (NPV)
+
+| Year | Cash Flow (Total Projected Net Income) (in Millions USD) | Discount Factor (1 / (1 + 9.0%) ^ Year) | Present Value (in Millions USD) |
+| :--- | :--- | :--- | :--- |
+| **2026 (Year 1)** | \$67.3 | 0.9174 | \$61.7 |
+| **2027 (Year 2)** | \$73.3 | 0.8417 | \$61.7 |
+| **2028 (Year 3)** | \$75.4 | 0.7722 | \$58.2 |
+| **2029 (Year 4)** | \$77.0 | 0.7084 | \$54.6 |
+| **2030 (Year 5)** | \$78.2 | 0.6499 | \$50.8 |
+| **Sum of NPV of Forecast Period** | | | **\$287.0** |
+
+#### Terminal Value Calculation
+
+$$\text{Terminal Value} = \frac{\text{Cash Flow Year 5} * (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}$$
+
+$$\text{Terminal Value}_{2030} = \frac{\$78.2 * (1 + 0.01)}{0.09 - 0.01} = \frac{\$78.98}{0.08} = \$987.25 \text{ million}$$
+
+$$\text{NPV of Terminal Value} = \text{Terminal Value} * \text{Discount Factor}_{Year 5}$$
+
+$$\text{NPV of Terminal Value} = \$987.25 * 0.6499 = **\$641.6 \text{ million}**$$
+
+#### Total Net Present Value of Future Cash Flows (Enterprise Value)
+
+$$\text{Total NPV} = \text{NPV of Forecast Period} + \text{NPV of Terminal Value}$$
+
+$$\text{Total NPV} = \$287.0 \text{ million} + \$641.6 \text{ million} = **\$928.6 \text{ million}**$$
+
+***
+
+### 5. Fair Value Calculation
+
+$$\text{Fair Value of Equity} = \text{Total NPV} + \text{Pro-Forma Total Cash} - \text{Pro-Forma Total Debt}$$
+
+$$\text{Fair Value of Equity} = \$928.6 \text{ million} + \$540.6 \text{ million} - \$256.2 \text{ million} = **\$1,213.0 \text{ million}**$$
+
+$$\text{Fair Value per Share} = \frac{\text{Fair Value of Equity}}{\text{Total Shares Outstanding}}$$
+
+$$\text{Fair Value per Share} = \frac{\$1,213.0 \text{ million}}{25.05 \text{ million}} = **\$48.42$$
+
+***
+
+### 6. Summary and Market Comparison
+
+| Metric | Valuation Result | Current Market Context (Approximate) |
 | :--- | :--- | :--- |
-| **Children's Book Publishing & Distribution (CBPD)** | Strong IP cycle (new *Dog Man* and *Hunger Games* releases). Fall Book Fair bookings are encouraging. New integrated **Children's Book Group** expected to drive efficiencies and long-term growth. | **3.0%** (FY2027-2028), **2.5%** (FY2029-2030) |
-| **Education Solutions** | Significant headwinds in supplemental curriculum (28% decline in Q1 FY2026) due to volatile federal/state funding. Company is "repositioning" for long-term growth. | **-5.0%** (FY2027-2028: Assume continued pressure and a slow turnaround), **1.0%** (FY2029-2030: Assume modest rebound after repositioning) |
-| **Entertainment** | Acquisition of **9 Story Media Group** for 360-degree IP strategy (digital/streaming/licensing). Management targets high-margin digital/licensing revenue streams. | **10.0%** (FY2027-2029: Driven by IP monetization), **8.0%** (FY2030: Growth moderates) |
-| **International** | Steady growth (4% in Q1 FY2026) in key markets (Australia, U.K., Asia) and operational efficiencies. | **4.0%** (FY2027-2030: Modest, steady global expansion) |
+| **Calculated Fair Value per Share** | **\$48.42** | |
+| **Current Stock Price (Approx.)** | N/A (Cannot use a real-time price per instructions) | (Must be found by the reader for comparison) |
+| **Current Market Capitalization** | N/A (Cannot use a real-time price per instructions) | |
 
-### Revenue Projection Table
+The current market value of the stock can be inferred from the context of the valuation being requested, but without a direct quote, a comparison is made on the assumptions. Assuming the current market price is lower than the calculated fair value of \$48.42, the discrepancy is primarily due to the following assumptions:
 
-The starting point for **FY2025 (Actual)** is $1,625.5 million. The **FY2026 (Projected)** revenue is a **3.0%** increase on FY2025, per management's midpoint guidance ($1,625.5 * 1.03 = $1,674.3M).
+#### Justification for Fair Value Discrepancy
 
-| Year (Fiscal Year Ending May 31) | FY2025 (Actual) | FY2026 (Projection) | FY2027 | FY2028 | FY2029 | FY2030 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Revenue Growth Rate** | 2.3% | **3.0%** (Guidance) | 3.0% | 3.0% | 2.5% | 2.5% |
-| **Total Revenue** | **1,625.5** | **1,674.3** | **1,724.5** | **1,776.2** | **1,820.6** | **1,866.1** |
+**Why the Calculated Fair Value is Higher Than Market Price (Likely):**
 
-***
+1.  **Incorporation of Real Estate Proceeds:** The valuation *immediately* incorporates the **\$401 million** net cash from the post-quarter-end sale-leaseback, which translates to $\approx \$16.01$ per share in net cash alone (before debt reduction). The market may not have fully factored in the eventual deployment of this cash for shareholder value (e.g., share repurchases, debt paydown, or acquisitions) or may be discounting the *pro-forma* value due to the inherent risk of future corporate actions.
+2.  **Conservative Future Profitability:** The valuation assumes a sustained **4.0% Net Income Margin** from FY2026 onwards, backed by management's focus on cost-saving and efficiency leading to earnings growth. The market, given Scholastic's history of volatile or net losses (as indicated by the need to use a conservative positive ROIC), is likely assigning a much lower or even zero net profit margin over the long term. The market may not fully trust the sustainability of the turnaround/efficiency initiatives.
+3.  **Low Terminal Value Discounting:** The model uses a highly conservative **1.0% Maturity Rate** and a reasonable **9.0% Discount Rate**. However, if the market perceives a higher risk of competition from digital learning or if it applies a higher WACC (Discount Rate) due to perceived business cycle volatility, the NPV, particularly the Terminal Value, would be significantly lower. For example, a 10.0% WACC and 0.5% Terminal Growth would drastically reduce the NPV.
 
-## 3. Margin & Net Income Projection
-
-The valuation will use Net Income as a proxy for Cash Flow to Equity, as per the rules.
-
-### Margin Assumptions
-
-1.  **FY2026 Net Income Margin:** Calculate a target Net Income based on the Adj. EBITDA guidance to establish a conservative baseline for profitability.
-    *   *Adj. EBITDA (Midpoint)*: $165.0 million.
-    *   *Depreciation & Amortization (D&A):* Assuming a conservative $50M - $60M, based on past filings (non-search data). Using **$55.0M**.
-    *   *Interest Expense (Net):* Assuming modest expense given net debt position and average interest rates. Using **$10.0M**.
-    *   *Tax Rate:* Scholastic is often close to zero tax due to tax credits/losses but we will use a conservative **21%** statutory rate for long-term taxable income.
-
-    *   *Adj. Operating Income (EBIT):* $165.0 - $55.0 = $110.0
-    *   *Pre-Tax Income:* $110.0 - $10.0 = $100.0
-    *   *Tax (21%):* $21.0
-    *   *Net Income (FY2026 Target):* **$79.0M** (or a 4.7% Net Income Margin).
-
-2.  **Long-Term Margin (FY2027-2030):** Assume the Net Income Margin expands slowly due to cost-saving initiatives, the new Children's Book Group's efficiencies, and the shift to higher-margin digital/licensing revenue in the Entertainment segment. The conservative margin increase is **0.25% per year**.
-
-### ROIC & Net Income Calculation
-
-The rule is: **Net Income for next year = (Net Income from that year based on reasonable assumptions) + (ROIC from net income got from previous year)**. This treats the entire Net Income from the prior year as cash that generates an ROIC-based return in the subsequent year, which is then added to the organic Net Income of that subsequent year.
-
-*   **Historical ROIC (FY2025):** The company had a Net Loss of -$1.9M in FY2025 [cite: 7 (from Step 3)].
-*   **Conservative ROIC Assumption:** Given the past volatility and the turn toward profitability, we must select a *conservative but reasonable positive ROIC %*. A conservative, low-growth ROIC for a publishing/media company is **3.0%**.
-
-| Year (FY Ended May 31) | FY2025 (Actual) | FY2026 (Projection) | FY2027 | FY2028 | FY2029 | FY2030 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Total Revenue** | 1,625.5 | 1,674.3 | 1,724.5 | 1,776.2 | 1,820.6 | 1,866.1 |
-| **Net Income Margin** | -0.1% | 4.7% | 4.95% | 5.20% | 5.45% | 5.70% |
-| **A: Organic Net Income (NI)** | -1.9 | **79.0** | 85.3 | 92.4 | 99.2 | 106.4 |
-| **B: ROIC from Prior NI** | N/A | $0.0 ($0 NI from FY25 to be conservative) | 2.4 | 2.6 | 2.8 | 3.0 |
-| **Total Net Income (A+B)** | **-1.9** | **79.0** | **87.7** | **95.0** | **102.0** | **109.4** |
-
-***
-
-## 4. Discounted Cash Flow (DCF) Calculation
-
-### DCF Assumptions
-
-*   **Conservative Discount Rate (WACC):** We will use a WACC of **8.0%**. This is a reasonable but conservative rate for a mature company with low-to-moderate growth expectations in a stable, established industry.
-*   **Conservative Maturity Rate (Terminal Growth Rate):** We will use a long-term growth rate of **1.0%**. This assumes that Scholastic's growth will eventually stabilize below the long-term GDP growth rate, reflecting the conservative nature of the publishing industry.
-*   **Terminal Year Cash Flow:** We will use the FY2030 *Total Net Income* as the final cash flow for the terminal value calculation.
-
-### Present Value Calculation
-
-| Year (n) | FY (End of Year) | Total Net Income (Cash Flow) (A+B) | Discount Factor (1 / (1 + 8.0%)^n) | Net Present Value (NPV) |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | 2026 | $79.0 | 0.9259 | $73.15 |
-| 2 | 2027 | $87.7 | 0.8573 | $75.28 |
-| 3 | 2028 | $95.0 | 0.7938 | $75.40 |
-| 4 | 2029 | $102.0 | 0.7350 | $74.97 |
-| 5 | 2030 | $109.4 | 0.6806 | $74.46 |
-| **Sum of NPV (2026-2030)** | | | | **$373.26** |
-
-### Terminal Value Calculation (as of End of FY2030)
-
-$$
-\text{Terminal Value (TV)} = \frac{\text{Cash Flow}_{\text{FY2030}} \times (1 + \text{g})}{\text{WACC} - \text{g}}
-$$
-
-$$
-\text{TV} = \frac{\$109.4 \times (1 + 0.01)}{0.08 - 0.01} = \frac{\$110.5}{0.07} = \$1,578.57 \text{ million}
-$$
-
-### Terminal Value Net Present Value
-
-$$
-\text{NPV of TV} = \text{TV} \times \text{Discount Factor}_{\text{Year 5}}
-$$
-
-$$
-\text{NPV of TV} = \$1,578.57 \times 0.6806 = \$1,074.37 \text{ million}
-$$
-
-### Net Present Value of Firm
-
-$$
-\text{Total NPV} = \text{Sum of NPV (2026-2030)} + \text{NPV of TV}
-$$
-
-$$
-\text{Total NPV} = \$373.26 + \$1,074.37 = \mathbf{\$1,447.63} \text{ million}
-$$
-
-***
-
-## 5. Fair Value Calculation
-
-$$
-\text{Fair Value of Equity} = \text{Total NPV} + \text{Current Cash} - \text{Total Debt}
-$$
-
-$$
-\text{Fair Value of Equity} = \$1,447.63 + \$94.3 - \$345.9 = \mathbf{\$1,196.03} \text{ million}
-$$
-
-$$
-\text{Fair Value Per Share} = \frac{\text{Fair Value of Equity}}{\text{Shares Outstanding}}
-$$
-
-$$
-\text{Fair Value Per Share} = \frac{\$1,196.03 \text{ million}}{25.14 \text{ million shares}} = \mathbf{\$47.57} \text{ per share}
-$$
-
-***
-
-## 6. Conclusion and Justification
-
-### Fair Value Summary
-
-| Metric | Value |
-| :--- | :--- |
-| **Fair Value Per Share (SCHL)** | **$47.57** |
-| **Current Market Price (SCHL)** | **$29.24** [cite: 2, 4 (from Step 4)] |
-| **Valuation Discrepancy** | **62.7% higher** |
-
-### Justification for Discrepancy
-
-My fair value of **$47.57** is significantly higher (62.7%) than the current market price of $29.24. This large discrepancy suggests the market is making much more conservative assumptions about the company's future profitability and growth than my model, which is already built on conservative principles.
-
-**Why the Market is Conservative (The Bear Case):**
-
-1.  **Education Solutions Headwinds:** The market is heavily discounting the value due to the $41.4 million revenue decline in the Education Solutions segment in FY2025 [cite: 7 (from Step 3)] and the further 28% decline in Q1 FY2026 [cite: 5 (from Step 3)]. This segment is seen as a black box of uncertainty due to volatile federal and state funding, and the market likely projects a *deeper, longer-term decay* for this segment than my modest rebound assumption.
-2.  **IP Cyclicality:** Scholastic's success is tied to mega-franchise releases (e.g., *Dog Man*, *Hunger Games*). The market may not believe the company can consistently replace the revenue from these massive, cyclical hits, assigning a lower multiple to the core publishing business. The market views the $79.0M Net Income target for FY2026 as an *aberration* driven by the *Sunrise on the Reaping* and new *Dog Man* releases.
-3.  **Real Estate Uncertainty:** While the potential sale-leaseback of real estate (SoHo headquarters, Jefferson City distribution center) is an upside, the market may be waiting for the *guaranteed* realization of this cash before incorporating it into the valuation.
-4.  **Low Historical Profitability:** FY2025 saw a net loss of $1.9M [cite: 7 (from Step 3)]. The market is hesitant to trust the projected FY2026 profitability (4.7% Net Income Margin) and the long-term margin expansion, pricing the stock based on its *historic* near-zero margins, not its *projected* margins.
-
-**Why My Assumption is Different (The Bull/Justified Case):**
-
-1.  **Management Guidance as Truth:** My model *must* use management's guidance as truth. The company is guiding to **$160M - $170M Adjusted EBITDA** and **2% - 4% revenue growth** for FY2026 [cite: 1, 2 (from Step 3)], which translates to robust profitability ($79.0M Net Income). The market is effectively stating management's guidance is unachievable.
-2.  **360-Degree IP Monetization:** My model gives credit to the higher-margin digital/licensing revenue from the **Entertainment** segment (9 Story Media Group) and the new streaming app, which is a strategic shift to a less-asset-heavy, high-margin model [cite: 5, 8 (from Step 3)]. The market is undervaluing this transformation.
-3.  **Conservative DCF Inputs:** The DCF uses a conservative WACC of 8.0% and an extremely conservative terminal growth rate of 1.0%. If Scholastic simply maintains a 4.7% Net Income margin and grows at 3% a year after 2030, the value would be even higher. The current valuation suggests the market is pricing in either a near-zero growth rate or a significant long-term decline in profitability.
-
-**Conclusion:** The market is pricing SCHL as a cyclical, low-growth, low-margin publisher facing a secular decline in its Education business. My model, based on management's confirmed FY2026 profitability guidance and the new, higher-margin **360-degree IP strategy** (Entertainment and Children's Book Group integration) shows significant upside. The $47.57 Fair Value Per Share represents the value of Scholastic if it **successfully executes on its strategic pivot** and achieves its stated profit targets, overcoming the temporary headwinds in its Education segment.
+**Conclusion on Assumptions:**
+The **\$48.42** fair value per share is primarily driven by the certainty of the large cash inflow (the \$401M) and a conservative assumption of sustained, positive mid-single-digit (4%) Net Income Margin. The market's lower valuation is likely a reflection of deep-seated skepticism regarding the *sustainability* of a 4% net margin in the publishing and education supply industries and the risk premium associated with the Education Solutions segment's volatile funding environment.
