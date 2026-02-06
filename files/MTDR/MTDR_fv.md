@@ -1,159 +1,147 @@
-## Matador Resources Company (MTDR) Stock Valuation
-
-The following valuation uses a Discounted Cash Flow (DCF) model based on a conservative business engine analysis derived from Matador Resources Company's (MTDR) last four earnings call transcripts and associated financial reporting summaries that reference the latest SEC filings.
+This valuation of Matador Resources Company (MTDR) stock is conducted using a Discounted Cash Flow (DCF) model based on financial data from SEC filings and management commentary from earnings call transcripts.
 
 ---
 
-### I. Input Data & Current Financial Position
+## I. Financial Data & Assumptions
 
-| Metric | Source | Value (in millions USD, except per share/ratio) |
+### A. Balance Sheet and Shares Outstanding
+
+| Metric | Value (in millions USD) | Source/Justification |
 | :--- | :--- | :--- |
-| **Current Stock Price** | Market Data (As of Oct. 25, 2025) | **$39.31** |
-| **Shares Outstanding** | Market Data (Approximate) | **124.38 million** |
-| **Total Cash & Cash Equivalents** | Q3 2025 Earnings Release/Credit Agreement | **$20 million** |
-| **Total Debt (Gross)** | Q3 2025 Earnings Release/Credit Agreement | **$2,435 million** (Senior Notes: $2,150M + RBL Borrowings: $285M) |
-| **Net Debt** | Calculation (Total Debt - Cash) | **$2,415 million** |
-| **2024 Full-Year Revenue** | Financial Data Summary | **$3,240 million** |
-| **Q3 2025 Net Income** | Q3 2025 Earnings Release | **$176 million** |
+| **Total Cash & Cash Equivalents** | $20$ | From Q3 2025 earnings release, noted as "available cash" in the Net Debt calculation. This is a very conservative liquid cash figure. |
+| **Total Debt** | $2,489$ | **Calculation:** Senior Notes ($2,150M) + RBL Borrowings ($285M) + Outstanding Letters of Credit ($54M) from Q3 2025 release. |
+| **Shares Outstanding (Diluted)** | $124.27$ | Used a recent, precise figure for shares outstanding. |
+| **Current Stock Price** | $43.00 | Conservative figure used for comparison. |
+| **Base Year Revenue (FY 2024)** | $3,500$ | Based on full-year 2024 reported revenue of $\sim\$3.5$ billion. |
 
----
+### B. Business Engine & Revenue Forecast Assumptions
 
-### II. Business Engine Analysis & Revenue Projections
+Matador Resources' primary business engine is oil and natural gas exploration and production (E&P) in the liquids-rich Delaware Basin, complemented by its integrated midstream segment (San Mateo Midstream). Revenue growth is driven by increasing production volumes (through successful drilling/completion and acquisitions) and commodity prices.
 
-The business engine for an Exploration & Production (E&P) company like MTDR is primarily driven by **production volume growth** and **realized commodity prices**. MTDR has a secondary revenue stream from its wholly-owned midstream assets, San Mateo Midstream, LLC.
+**Engine Assumptions based on Management Commentary:**
 
-#### A. Key Business Engine Assumptions (Conservative)
+1.  **2025 Growth Rate (Inorganic & Accelerated Organic):** The Company guided for aggressive year-over-year production growth in 2025, suggesting $\sim30\%$ growth in Q1 and Q2, and $20\%+$ for Q3, driven by the Ameredev acquisition and the acceleration of wells. A conservative, blended full-year revenue growth is estimated at **$20.0\%$** from the FY 2024 baseline.
+2.  **2026 Growth Rate (Organic):** Management projects a more moderate **$3.5\%$** organic production growth (midpoint of the $2\%-5\%$ guidance range) following the accelerated 2025 activity, reflecting sustainable drilling economics.
+3.  **Long-Term Growth Rate (2027-2030):** The E&P business is fundamentally a depleting asset business. While Matador has a strong inventory with high rates of return ($>50\%$ at $50 oil), a conservative estimate assumes this organic growth rate will gradually moderate to reflect the capital-intensive nature and maturity of the industry.
+    *   2027-2028: **$3.0\%$**
+    *   2029-2030: **$2.5\%$**
+4.  **Terminal Growth Rate (G):** A conservative long-term growth rate for a mature E&P company in a cyclical commodity industry is set at **$2.0\%$**.
 
-1.  **Production Volume Growth:**
-    *   **2025 (Full Year):** The company is on track for record production. Total BOE production averaged 209,184 BOE/day in Q3 2025. Management is guiding for **20% total BOE production growth for full-year 2025** compared to 2024, with average daily BOE production of 205,000 BOE/day. This guidance is used.
-    *   **2026:** Management is targeting a conservative organic growth of **2% to 5%** in production, driven by operational efficiencies like $50M-$60M in capital savings and 10% longer lateral lengths. I will use the **midpoint of 3.5%** for production growth in 2026.
-    *   **2027 - 2030 (Maturity Phase):** Given the mandate for conservative assumptions in a commodity-driven business, and the likelihood of capital discipline limiting aggressive, high-cost growth in out-years, I assume organic production growth slows to a **conservative 1.0% per year** after 2026.
-
-2.  **Commodity Price (WTI) Assumption:**
-    *   WTI crude oil prices are the single largest driver of revenue. To maintain a **conservative maturity rate**, I adopt a long-term declining price deck, reflecting the energy transition risk and potential for non-OPEC+ oversupply, which is a key risk cited in management discussions. The long-term price is stabilized at a conservative $55/bbl.
-
-| Year | WTI Price (USD/bbl) (Conservative Assumption) | Production Growth Rate |
-| :--- | :--- | :--- |
-| **2025** (Q4 Avg.) | **$65.00** | 20.0% (Management Guidance) |
-| **2026** | **$62.00** | 3.5% (Midpoint of Mgmt. Organic Guidance) |
-| **2027** | **$60.00** | 1.0% (Conservative Maturity Rate) |
-| **2028** | **$58.00** | 1.0% (Conservative Maturity Rate) |
-| **2029** | **$56.00** | 1.0% (Conservative Maturity Rate) |
-| **2030** | **$55.00** | 1.0% (Conservative Maturity Rate) |
-
-3.  **Revenue Projection Calculation:**
-    *   **Revenue 2025:** Based on the $3.24B (2024 Revenue) and the 20% production growth, the implied price decline from 2024 to 2025 is factored in. I use the $939M for Q3 2025 and extrapolate the full year based on the production growth and management guidance.
-    *   **Midstream Revenue (San Mateo):** Midstream operations contribute an increasing, stable revenue stream. Management guides for $40M-$50M in 2026 Adjusted EBITDA. I conservatively assume midstream revenue adds **$250 million** annually (based on 2024's $3.24B revenue being primarily E&P, and midstream revenue being a smaller component) and grows at a modest **3%** per year, in line with midstream guidance.
-
-#### B. Projected Annual Revenue (in millions USD)
-
-| Year | Production Growth | Price Effect (Conservative) | Revenue Growth Rate | Midstream Adj. (Approx.) | **Total Revenue** |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024** | N/A | N/A | N/A | N/A | **$3,240** |
-| **2025** | 20.0% | Moderate Decline | 10.0% | $250 | **$3,564** |
-| **2026** | 3.5% | Price -4.6% | -1.1% | $258 | **$3,525** |
-| **2027** | 1.0% | Price -3.2% | -2.2% | $266 | **$3,448** |
-| **2028** | 1.0% | Price -3.3% | -2.3% | $275 | **$3,369** |
-| **2029** | 1.0% | Price -3.4% | -2.4% | $283 | **$3,289** |
-| **2030** | 1.0% | Price -1.8% | -0.8% | $291 | **$3,263** |
-
----
-
-### III. Margin and Net Income Projections
-
-#### A. Historical Margin Analysis
-
-*   **2024 Net Income:** $885.32 million (from Step 1)
-*   **2024 Net Income Margin:** $885.32M / $3,240M = **27.3%**
-*   **Q3 2025 Net Income Margin:** $176M / $939M = **18.7%**
-
-The Q3 2025 margin drop reflects the volatility and lower realized prices for oil and natural gas during the quarter. The **average of the 2024 high margin and the Q3 2025 lower margin is 23.0%**.
-
-#### B. Projected Net Income Margin (Conservative)
-
-I will use a **conservative, steady-state Net Income Margin of 20.0%** for all projected years (2025-2030). This is below the 2024 full-year margin and assumes ongoing commodity price pressure and increased operating costs offset by the company's continuous operational efficiency gains, such as a lower well cost midpoint of $844 per foot.
-
-#### C. Return on Invested Capital (ROIC)
-
-As a conservative measure for E&P, a stable and positive ROIC is a strong indicator of management quality and operational efficiency. Management has explicitly stated that new wells in the 2025 capital plan have expected **rates of return exceeding 50%**.
-*   **Historical ROIC:** Calculating precise historical GAAP ROIC is complex without detailed NOPAT and invested capital figures from the full 10-K/10-Q. However, given the *expected* returns on new capital are over 50% and the business is highly profitable, a long-term ROIC of **15.0%** for the cash retained (Net Income rolled over) is a very conservative and reasonable estimate, well below the company's expected well returns.
-
-#### D. Projected Net Income (in millions USD)
-
-The model follows the rule: Net Income(n) = Projected Revenue * 20.0% Margin + ROIC * Retained Cash(n-1).
-
-| Year | Total Revenue | Net Income Margin | Operating Net Income | Retained Cash (Beg.) | ROIC % | ROIC Income | **Total Net Income** | **Retained Cash (End)** |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2025** | $3,564 | 20.0% | $713 | $0 | 15.0% | $0 | **$713** | $713 |
-| **2026** | $3,525 | 20.0% | $705 | $713 | 15.0% | $107 | **$812** | $1,525 |
-| **2027** | $3,448 | 20.0% | $690 | $1,525 | 15.0% | $229 | **$919** | $2,444 |
-| **2028** | $3,369 | 20.0% | $674 | $2,444 | 15.0% | $367 | **$1,041** | $3,485 |
-| **2029** | $3,289 | 20.0% | $658 | $3,485 | 15.0% | $523 | **$1,181** | $4,666 |
-| **2030** | $3,263 | 20.0% | $653 | $4,666 | 15.0% | $700 | **$1,353** | $6,019 |
-
----
-
-### IV. Discounted Cash Flow (DCF) Calculation
-
-The Net Income stream will be used as the proxy for free cash flow to equity (FCFE), as per the assumption that net income goes straight into cash.
-
-#### A. Discount Rate and Terminal Value Assumptions
-
-*   **Discount Rate (Conservative but Reasonable):** I use a high discount rate of **10.0%**. This reflects the volatility and geopolitical risk inherent in the E&P sector, a higher rate than a stable-growth company, thus maintaining conservatism.
-*   **Conservative Maturity Rate (Long-Term Growth):** The business is in a mature, cyclical industry (Oil & Gas). I assume a very conservative, long-term sustainable growth rate for cash flows (Terminal Growth Rate) of **0.0%** (i.e., the business merely holds its 2030 cash flow in perpetuity).
-
-#### B. Net Present Value (NPV) Calculation
-
-| Year (n) | Total Net Income (FCFE) (Millions USD) | Discount Factor (1 / (1 + 0.10)^n) | Present Value (Millions USD) |
+| Year | Revenue (Millions USD) | Revenue Growth Rate | Justification |
 | :--- | :--- | :--- | :--- |
-| **2025** (n=1) | $713 | 0.909 | $648 |
-| **2026** (n=2) | $812 | 0.826 | $671 |
-| **2027** (n=3) | $919 | 0.751 | $690 |
-| **2028** (n=4) | $1,041 | 0.683 | $711 |
-| **2029** (n=5) | $1,181 | 0.621 | $733 |
-| **2030** (n=6) | $1,353 | 0.564 | $763 |
-| **Terminal Value** | $\frac{\text{FCFE}_{2030} \times (1 + \text{g})}{\text{WACC} - \text{g}} = \frac{\$1,353 \times (1+0.00)}{0.10 - 0.00} = \$13,530$ | 0.564 | $7,633 |
-| **Sum of NPV** | | | **$11,850** |
-
-**Total Net Present Value (NPV) of Future Cash Flows = $11,850 million**
+| **2024 (Actual)** | $3,500$ | - | Base year. |
+| **2025 (Projected)** | $4,200$ | $20.0\%$ | Conservative estimate based on strong Q1-Q3 2025 Y/Y production growth guidance ($\sim20\%-30\%$), boosted by M&A and accelerated drilling. |
+| **2026 (Projected)** | $4,347$ | $3.5\%$ | Midpoint of management's organic growth guidance for 2026 ($2\%-5\%$) after the 2025 acceleration. |
+| **2027 (Projected)** | $4,477$ | $3.0\%$ | Conservative moderation of growth. |
+| **2028 (Projected)** | $4,611$ | $3.0\%$ | Conservative moderation of growth. |
+| **2029 (Projected)** | $4,726$ | $2.5\%$ | Conservative moderation of growth. |
+| **2030 (Projected)** | $4,844$ | $2.5\%$ | Conservative moderation of growth. |
 
 ---
 
-### V. Fair Value Calculation
+## II. Profitability and Net Income Projections
 
-The final calculation of fair value per share is performed using the balance sheet equation:
-$$\text{Equity Value} = \text{NPV of Future Cash Flows} + \text{Cash} - \text{Debt}$$
-$$\text{Fair Value per Share} = \frac{\text{Equity Value}}{\text{Shares Outstanding}}$$
+### A. Margin and ROIC Assumptions
 
-| Metric | Value (in millions USD) |
+1.  **Net Income Margin:** Full-year 2024 Net Income Margin was approximately $25.3\%$ ($885.3M Net Income on $\sim\$3.5B$ Revenue). Management anticipates significant cost synergies ($>150$ million over five years) and reduced operating expenses (35\% LOE reduction on Ameredev) which should support healthy margins. I will conservatively assume a **$25.0\%$** stable Net Income Margin across the projection period, slightly below historical levels to account for potential commodity price volatility and increasing capital/service costs over the long term.
+2.  **ROIC (Return on Invested Capital):** Historical TTM ROIC is approximately $10.0\%$ to $11.1\%$. The business shows efficient use of capital (wells yielding $>50\%$ returns at $50 oil). I will use a conservative, perpetual **$10.0\%$** ROIC on the accumulated cash/retained earnings from prior years. This assumes all Net Income is retained as cash and reinvested to generate additional income.
+
+### B. Projected Net Income Calculation
+
+| Year | Revenue (A) | Net Income Margin | Operating Net Income (B) = A * 25.0% | Prior Year Cash | ROIC (10.0%) on Prior Year Cash (C) | Total Net Income (D) = B + C |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Initial (End of 2024)** | - | - | - | $885$ | - | - |
+| **2025** | $4,200$ | $25.0\%$ | $1,050$ | $885$ | $88$ | $1,138$ |
+| **2026** | $4,347$ | $25.0\%$ | $1,087$ | $2,023$ | $202$ | $1,289$ |
+| **2027** | $4,477$ | $25.0\%$ | $1,119$ | $3,312$ | $331$ | $1,450$ |
+| **2028** | $4,611$ | $25.0\%$ | $1,153$ | $4,762$ | $476$ | $1,629$ |
+| **2029** | $4,726$ | $25.0\%$ | $1,181$ | $6,391$ | $639$ | $1,820$ |
+| **2030** | $4,844$ | $25.0\%$ | $1,211$ | $8,211$ | $821$ | $2,032$ |
+| **Terminal Value** | - | - | - | $10,243$ | - | - |
+
+*   *Note: Prior Year Cash for Year $N$ is the sum of Net Income from all years prior to $N$ plus the initial FY 2024 Net Income of $885.3M$ (rounded to $885M$ for simplicity) - based on the rule that "net income for each year goes straight into cash for the next year."*
+    *   *Prior Year Cash 2026 = $885$ (2024 NI) + $1,138$ (2025 NI) = $2,023$*
+    *   *Prior Year Cash 2027 = $2,023$ + $1,289$ (2026 NI) = $3,312$, etc.*
+
+---
+
+## III. Discounted Cash Flow (DCF) Analysis
+
+### A. Discount Rate and Terminal Value
+
+1.  **Discount Rate (WACC):** A reasonable and conservative discount rate (Weighted Average Cost of Capital) for an E&P company is assumed to be **$9.0\%$**. This is higher than a historical WACC reference in search results of $8.74\%$ to maintain conservatism.
+2.  **Maturity Rate (Perpetual Growth Rate, G):** A very conservative **$2.0\%$** is used, reflecting a growth rate slightly above the long-term inflation rate, appropriate for a mature, capital-intensive industry.
+
+The cash flow for the DCF is assumed to be the **Total Net Income (D)** for the purposes of this model, as requested, which assumes Net Income is a reasonable proxy for Free Cash Flow to Equity (FCFE) given the "goes straight into cash" rule.
+
+**Terminal Value (TV) in 2030:**
+*   $TV = (\text{Last Year's Cash Flow} * (1 + G)) / (\text{Discount Rate} - G)$
+*   $TV = (\$2,032 \text{ million} * (1 + 0.02)) / (0.09 - 0.02)$
+*   $TV = \$2,072.64 \text{ million} / 0.07$
+*   $TV = \$29,609$ million
+
+### B. Net Present Value (NPV) Calculation
+
+| Year | Total Net Income (D) | Discount Factor (9.0%) | Present Value (PV) |
+| :--- | :--- | :--- | :--- |
+| **2025 (t=1)** | $1,138$ | $0.9174$ | $1,044$ |
+| **2026 (t=2)** | $1,289$ | $0.8417$ | $1,085$ |
+| **2027 (t=3)** | $1,450$ | $0.7722$ | $1,119$ |
+| **2028 (t=4)** | $1,629$ | $0.7084$ | $1,154$ |
+| **2029 (t=5)** | $1,820$ | $0.6499$ | $1,183$ |
+| **2030 (t=6)** | $2,032$ | $0.5963$ | $1,211$ |
+| **Terminal Value (t=6)** | $29,609$ | $0.5963$ | $17,665$ |
+| **Sum of PVs (NPV)** | | | **$24,461$** |
+
+*   *Note: Present Value is rounded to the nearest million for table display.*
+
+**Net Present Value (NPV) of Future Cash Flows = $24,461$ million**
+
+---
+
+## IV. Fair Value Calculation
+
+1.  **Equity Value:**
+    *   $\text{Equity Value} = \text{NPV} + \text{Cash} - \text{Debt}$
+    *   $\text{Equity Value} = \$24,461 \text{ million} + \$20 \text{ million} - \$2,489 \text{ million}$
+    *   $\text{Equity Value} = \$21,992$ million
+
+2.  **Fair Value per Share:**
+    *   $\text{Fair Value per Share} = \text{Equity Value} / \text{Shares Outstanding}$
+    *   $\text{Fair Value per Share} = \$21,992 \text{ million} / 124.27 \text{ million shares}$
+    *   $\text{Fair Value per Share} = \$177.08$
+
+---
+
+## V. Conclusion and Justification
+
+### Fair Value of Matador Resources Company Stock
+
+| Metric | Value |
 | :--- | :--- |
-| **Total NPV of Future Cash Flows** | $11,850 |
-| **Add: Total Cash & Cash Equivalents** | $20 |
-| **Less: Total Debt** | $2,435 |
-| **Equity Value** | **$9,435 million** |
-| **Shares Outstanding (in millions)** | 124.38 |
-| **Fair Value per Share** | $\frac{\$9,435 \text{ million}}{124.38 \text{ million}} = \mathbf{\$75.86}$ |
+| **Calculated Fair Value per Share** | **$177.08** |
+| **Current Stock Price (Market Value)** | **$43.00** |
 
----
+### Justification of Valuation and Market Discrepancy
 
-### VI. Conclusion and Market Comparison
+The calculated fair value of **$177.08** is significantly higher (over $4$ times) than the current market price of approximately **$43.00**. This large discrepancy implies that the market is making much more conservative assumptions about Matador's future performance than those derived from the management's commentary and historical profitability.
 
-**Fair Value per Share (Calculated):** **$75.86**
-**Current Stock Price (Market Value):** **$39.31**
+**Reasons for the Discrepancy (Why the Market is More Conservative):**
 
-#### Justification for the Difference
+1.  **Commodity Price Risk:** The biggest risk for an E&P company is commodity price volatility. While the model assumes a stable $25.0\%$ Net Income Margin, the market likely projects a sharp decline in commodity prices (oil and gas) over the $2025-2030$ forecast, which would severely erode revenue and net income. A lower average oil and gas price assumption in the DCF would drastically reduce the $\text{NPV}$.
+2.  **Sustainability of Growth/Capex:** The market may doubt the sustainability of the projected $20.0\%$ growth in 2025 and the subsequent organic growth rates without a corresponding increase in capital expenditure (CapEx). While the management is touting high-return wells and cost synergies, the market may assume higher future CapEx is needed to maintain production (given depletion) which would reduce the FCF proxy (Net Income).
+3.  **Net Income as Proxy for FCFE:** Using Net Income as a direct proxy for cash flow to equity ($\text{FCFE}$) is a major source of model-market discrepancy, especially for an E&P company. True FCFE is calculated as:
+    $$ \text{Net Income} + \text{D\&A} - \text{CapEx} - \text{Change in Working Capital} - \text{Debt Repayments} $$
+    Since E&P companies have high Depletion, Depreciation, and Amortization (D&A) and high CapEx, the true FCFE is almost certainly *much lower* than the Net Income used in this model. For example, for full-year 2024, Net Cash from Operations was $\$2.25$ billion, but Adjusted Free Cash Flow was only $\$807.3$ million. This means the actual cash flow is $\sim64\%$ lower than the Net Income in the base year alone.
 
-My calculated Fair Value of **$75.86** is approximately **93% higher** than the current market price of $39.31. This significant difference suggests the market is making far more conservative assumptions than even my own, or is applying a much greater discount for risk.
+**Conclusion on Discrepancy:**
 
-**The Market's Implicit Assumptions vs. My Model:**
+The model's high valuation is primarily driven by the explicit rule of assuming **Net Income goes straight into cash for the next year** and then using this Net Income as the cash flow for DCF. In a capital-intensive industry like E&P, where $\text{Net Income} \neq \text{Free Cash Flow}$, this rule creates a significant overvaluation.
 
-1.  **Lower Long-Term Commodity Prices:** The market is likely pricing MTDR on a significantly lower long-term commodity price deck. My model uses an *average* WTI price of $58.83/bbl across the projection period (2025-2030). The market is likely modeling a sustained WTI price in the **low $50s or high $40s** to justify the current price, or is using an extremely high discount rate for the cash flows beyond 2026.
-2.  **Higher Discount Rate (Risk Premium):** The market's valuation implies a much higher discount rate than my conservative **10.0%**. This is a reflection of high uncertainty regarding the geopolitical risk and the long-term outlook for fossil fuels due to the energy transition. The market is pricing in the *risk of obsolescence* beyond the mid-term.
-3.  **Lower Profitability (Margin):** The market may be projecting a lower Net Income Margin than my conservative **20.0%**. Given the Q3 2025 margin was 18.7% due to lower realized prices, the market may be projecting this lower-margin, higher-cost environment to persist, negating the management's guidance on efficiency gains.
-4.  **No Terminal Value Growth (or even decline):** While my model assumes a very conservative **0.0%** terminal growth rate, the market's valuation suggests an assumption of a *negative* terminal growth rate, reflecting a belief that MTDR's cash flows will decline post-2030 as global oil demand plateaus and begins to fall.
+**The Market's Implicit Assumptions:**
 
-**My Case for the Higher Valuation:**
+Assuming the market is valuing MTDR at $\$43.00$ per share, its implied equity value is approximately $\$5.34$ billion ($124.27M * \$43.00$).
 
-My model is justified because it is grounded in **Management's clearly communicated operational engine** and the *realized* high-profitability of the company.
-*   **Strong Balance Sheet/ROIC:** My model incorporates the fact that Matador has an excellent balance sheet (low leverage ratio of 0.4x is noted in the transcripts) and is generating highly profitable new projects with expected rates of return *exceeding 50%*. The market seems to be ignoring the significant value creation of the integrated upstream/midstream model (San Mateo Midstream value not "fully realized" in stock price) and the high returns on invested capital.
-*   **Conservative Margins and Price:** My margin (20.0%) and price deck are highly conservative. If oil prices stabilize even slightly above the $55 long-term floor (e.g., at $65/bbl), the intrinsic value would align with my calculated fair value. The market is essentially pricing Matador for an **Oil & Gas recession** that does not yet appear imminent, even with conservative long-term price forecasts. The market is disproportionately discounting the stock for macro commodity price risk, ignoring the company's low-cost structure and proven operational efficiency.
+$$\text{Implied Equity Value} = \$5,340 \text{ million}$$
+
+This suggests the market is discounting the future cash flows by a factor that would yield a much lower $\text{NPV}$ of only $\mathbf{\$7,809 \text{ million}}$ (i.e., $\text{NPV} = \text{Equity Value} - \text{Cash} + \text{Debt}$). The market's valuation is likely based on an average annual Free Cash Flow to Equity (FCFE) of $\sim\$550-\$600$ million, which is in line with the lower, more realistic cash flow figures reported by the company.
