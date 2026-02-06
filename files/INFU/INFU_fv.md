@@ -1,129 +1,151 @@
-This valuation of InfuSystem Holdings, Inc. (INFU) stock uses a Discounted Cash Flow (DCF) model based on management's stated guidance, a conservative business engine analysis, and financial data extracted directly from recent SEC filings.
-
-All figures are in **millions of U.S. Dollars**, unless otherwise noted.
+The valuation of InfuSystem Holdings, Inc. (INFU) stock will be performed using a Discounted Cash Flow (DCF) methodology based strictly on SEC filings and management guidance.
 
 ---
 
-## 1. Initial Financial Data Extraction (as of June 30, 2025)
+## InfuSystem Holdings, Inc. (INFU) Stock Valuation
 
-The following financial data is extracted from the Company's most recent available SEC filing (Form 10-Q for the quarter ended June 30, 2025, filed August 5, 2025) or corresponding earnings release.
+### 1. Current Financial Position
 
-| Metric | Value (USD Millions) | Source/Justification |
+The following data is derived from the company's latest available SEC filings, primarily the Form 10-Q for the quarter ended September 30, 2025.
+
+| Metric | Value (in Thousands) | Source/Note |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | **\$0.7** | Cash and cash equivalents as of June 30, 2025. |
-| **Total Debt** | **\$26.3** | Total debt as of June 30, 2025, used in Net Debt calculation. |
-| **Shares Outstanding** | **20.43 million** | Shares issued and outstanding as of June 30, 2025 (20,425,964). |
-| **2024 Net Revenue (Actual)** | **\$136.4** | Full-year 2024 net revenue. (from Step 1 search, based on Q4 2024 earnings) |
+| **Total Cash & Cash Equivalents** | \$1,000 | From Q3 2025 press release (rounded from \$955k). |
+| **Total Debt** | \$20,900 | Total debt as of September 30, 2025, used in the company's net debt calculation. |
+| **Shares Outstanding** | 20,336,183 | As of October 31, 2025. |
+| **Current Stock Price (Feb 5, 2026)** | \$7.66 | Market data. |
 
----
+### 2. Business Engine and Revenue Projections (2025-2030)
 
-## 2. Business Engine and Projection Assumptions (2025 - 2030)
+InfuSystem operates under a two-platform model: **Patient Services** (Oncology, Pain Management, Wound Care) and **Device Solutions** (Rentals, Sales, and Biomedical services). The growth is primarily driven by high-margin Patient Services, particularly Oncology and Wound Care, and the upcoming regulatory tailwind from the **NOPAIN Act**.
 
-The core business engine for INFU is the **Patient Services Segment** (primarily high-margin Oncology and growing Wound Care) and the **Device Solutions Segment** (rental business with high operating cash margins). Management's strategy is focused on profitable growth through favorable revenue mix (rentals and oncology) and operational efficiencies (ERP system).
+The management's most recent guidance will be the anchor for the initial projection:
 
-| Category | Assumption | Justification |
+*   **2024 Historical Net Revenue (FY):** \$136,400 thousand.
+*   **2025 Net Revenue Guidance:** 6% to 8% growth. We will use the conservative midpoint of **7.0%** for 2025.
+*   **2025 Adjusted EBITDA Margin Guidance:** 20% or higher. We will use a conservative **20.0%**.
+
+#### Revenue Engine Assumptions:
+
+1.  **2025 Revenue:** Based on management's midpoint guidance of 7.0% growth.
+    *   **Justification:** This adheres to management's direct guidance.
+2.  **2026-2027 Revenue:** A conservative growth rate of **5.0%** is assumed.
+    *   **Justification:** This reflects a slowdown from the 2025 pace, but captures a positive impact from the full implementation of the **NOPAIN Act** in 2026, which offers a regulatory-backed tailwind for their pain management segment, coupled with continued growth in high-margin Oncology treatments and the expansion of the Wound Care business via partnerships. This is a conservative assumption given the high-margin segment momentum offset by the weak performance in biomedical services.
+3.  **2028-2030 Revenue:** The growth rate is conservatively tapered down to a stable **3.0%** for the final three years.
+    *   **Justification:** This reflects market maturity and competitive pressures outweighing the initial boost from the NOPAIN Act and partnership expansions, a conservative posture as required.
+4.  **Long-Term/Terminal Growth Rate (g):** **2.0%** is assumed.
+    *   **Justification:** A very conservative rate, slightly above long-term inflation, representing the business maturing to a stable, slow-growth state within the durable medical equipment industry.
+
+#### Net Income and Margin Assumptions:
+
+1.  **Adjusted EBITDA Margin:** We will use the low end of the management's guidance for 2025 (**20.0%**) and conservatively hold this margin flat across all projection years.
+    *   **Justification:** While gross margin is improving due to a favorable mix (Oncology/Rentals), we will assume Selling, General, and Administrative (SG&A) and depreciation/amortization pressures (especially pump depreciation) prevent further margin expansion, thereby ensuring a conservative estimate.
+2.  **Net Income Margin:** Net Income will be calculated from EBITDA by subtracting estimated Depreciation & Amortization (D&A), Interest Expense (I), and Income Tax (T).
+    *   **D&A:** Using the TTM Q3 2025 D&A of approximately \$16,000 thousand (based on 2024 total of \$20,950 thousand) and factoring in an average D&A-to-Revenue ratio of approximately 12.0% (based on historicals), we will apply this to projected revenue for D&A estimate. **Note:** Given the lack of a full, reliable 2024 10-K breakdown, a simplified margin assumption is necessary. We will instead calculate a conservative **Net Income Margin** based on the 2025 EBITDA guidance and a historical tax rate.
+3.  **Simplified Net Income Margin Derivation (Conservative):**
+    *   **2025 Adj. EBITDA Margin:** 20.0% (Management Guidance).
+    *   **D&A/Revenue:** Approx. 12.0% (Based on internal TTM Q3 2025 estimates and historicals).
+    *   **EBIT/Revenue:** 20.0% - 12.0% = 8.0%.
+    *   **Interest Expense (I):** \$20,900 thousand debt at an estimated 8.0% interest rate = \$1,672 thousand. Average Annual Revenue (2025-2030) is $\sim$ \$163,000 thousand. I/Revenue $\approx$ 1.0%.
+    *   **Tax Rate (T):** Use a conservative corporate rate of **25.0%**.
+    *   **Net Income Margin (NIR):** EBIT (8.0%) - I (1.0%) = 7.0% (EBT Margin). NIR = EBT Margin * (1 - T) = 7.0% * (1 - 0.25) = **5.25%**.
+    *   **Net Income Margin Assumption (2025-2030):** We will use a highly conservative flat **5.0%** Net Income Margin (NIR) for all years.
+
+### 3. Projected Financials and Discounted Cash Flow (DCF)
+
+#### A. Net Income Projection (in Thousands)
+
+| Year | Revenue Growth Rate | Projected Net Revenue | Net Income Margin | Net Income (A) | ROIC Income (B) | Total Net Income (A+B) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2024 (Actual)** | 7.2% | \$136,400 | - | - | - | - |
+| **2025** | 7.0% | \$145,948 | 5.0% | \$7,297 | \$0 | \$7,297 |
+| **2026** | 5.0% | \$153,245 | 5.0% | \$7,662 | \$730 | \$8,392 |
+| **2027** | 5.0% | \$160,907 | 5.0% | \$8,045 | \$839 | \$8,884 |
+| **2028** | 3.0% | \$165,734 | 5.0% | \$8,287 | \$888 | \$9,175 |
+| **2029** | 3.0% | \$170,706 | 5.0% | \$8,535 | \$918 | \$9,453 |
+| **2030** | 3.0% | \$175,827 | 5.0% | \$8,791 | \$945 | \$9,736 |
+
+**ROIC Calculation:**
+*   **ROIC Percentage:** The company has been profitable but has a relatively low return on capital employed given its capital-intensive rental fleet. To be conservative, we assume a post-tax Return on Invested Capital (ROIC) of **10.0%**.
+*   **ROIC Income (B):** For 2026, B = 2025 Total Net Income * 10.0% = \$7,297 * 0.10 = \$730. Net Income is assumed to go straight to cash for the next year, and this cash generates the ROIC income.
+
+#### B. Discounted Cash Flow (DCF)
+
+For this model, **Total Net Income** is used as the proxy for Free Cash Flow to Equity (FCFE), as per the requirement to assume net income goes straight into cash.
+
+**Assumptions for DCF:**
+
+| Metric | Value | Justification |
 | :--- | :--- | :--- |
-| **2025 Revenue Growth** | **6.0%** | The conservative end of management's updated full-year 2025 guidance range of 6% to 8%. |
-| **2026 Revenue Growth** | **5.5%** | Conservative deceleration, but remains strong due to full realization of ERP efficiency benefits and continued growth in the high-margin Oncology and Advanced Wound Care segments post-processing/reimbursement fixes. |
-| **2027 Revenue Growth** | **5.0%** | Continued, mature growth based on core market expansion. |
-| **2028-2030 Revenue Growth** | **4.5%** | Slow, conservative deceleration toward the terminal rate, reflecting market maturity but stable demand for essential medical equipment rentals. |
-| **2025 Adj. EBITDA Margin** | **20.0%** | The conservative end of management's "20% or higher" full-year 2025 guidance. This figure *includes* a drag from ERP implementation costs. |
-| **2026-2030 Adj. EBITDA Margin** | **22.0%** | A conservative estimate based on management's expectation to **"sustain low 20s margins"** post-ERP completion in early 2026, driven by favorable revenue mix and operational efficiencies. |
-| **Depreciation & Amortization (D&A)** | **\$13.0** | A conservative long-term proxy, estimated as an average of historical D&A figures, which are a significant non-cash expense due to the large equipment rental asset base. |
-| **Interest Expense** | **\$2.0** | A conservative estimate based on Q2 2025 interest expense, assuming the current debt level of \$26.3M and a blended cost of debt of approximately 7.6% (26.3 \* 0.076 $\approx$ 2.0). |
-| **Tax Rate** | **0% (2025-2027)**, **25% (2028-2030)** | The company has a significant accumulated deficit (\$61.5M as of Q2 2025) and associated Net Operating Losses (NOLs), which will shield taxable income for several years. A 0% cash tax rate is assumed until 2028, and a conservative, standard blended federal/state rate of **25%** is applied thereafter. |
-| **ROIC %** | **5.0%** | A conservative, positive rate is assumed. The company recently turned profitable (Q2 2025 net income of \$2.6M) but has a historical retained deficit. A 5.0% rate reflects a positive return on new capital without being overly aggressive for a recovering growth company. |
+| **Discount Rate (r)** | **10.0%** | A conservative but reasonable rate representing the company's cost of equity, given its size and moderate debt profile (Net Debt/EBITDA of 0.66x). |
+| **Terminal Growth Rate (g)** | **2.0%** | A very conservative, long-term rate, slightly above historical inflation. |
 
----
-
-## 3. Financial Projections and Cash Flow Forecast
-
-### A. Revenue and Margin Projections (USD Millions)
-
-| Year | Revenue (A) | Revenue Growth | Adj. EBITDA Margin (B) | Adj. EBITDA (A * B) | D&A | Interest Expense | Pre-Tax Income | Tax Expense | Net Income from Operations | ROIC Income | **Total Projected Net Income** |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024 (Actual)** | \$136.4 | 7.2% | 18.8% | \$25.6 | - | - | - | - | \$3.8 (Est) | - | - |
-| **2025** | \$144.6 | 6.0% | 20.0% | \$28.9 | \$13.0 | \$2.0 | \$13.9 | \$0.0 | \$13.9 | \$0.0 | **\$13.9** |
-| **2026** | \$152.5 | 5.5% | 22.0% | \$33.6 | \$13.0 | \$2.0 | \$18.6 | \$0.0 | \$18.6 | \$0.7 | **\$19.3** |
-| **2027** | \$160.1 | 5.0% | 22.0% | \$35.2 | \$13.0 | \$2.0 | \$20.2 | \$0.0 | \$20.2 | \$1.6 | **\$21.8** |
-| **2028** | \$167.3 | 4.5% | 22.0% | \$36.8 | \$13.0 | \$2.0 | \$21.8 | \$5.5 | \$16.3 | \$2.3 | **\$18.6** |
-| **2029** | \$174.9 | 4.5% | 22.0% | \$38.5 | \$13.0 | \$2.0 | \$23.5 | \$5.9 | \$17.6 | \$2.6 | **\$20.2** |
-| **2030** | \$182.8 | 4.5% | 22.0% | \$40.2 | \$13.0 | \$2.0 | \$25.2 | \$6.3 | \$18.9 | \$3.0 | **\$21.9** |
-
-*   *ROIC Income Calculation:* Net Income from previous year \* 5.0% ROIC. For 2026, \$13.9 \* 0.05 = \$0.7.
-*   *Tax Expense Calculation:* Pre-Tax Income \* Tax Rate. The tax shield of NOLs is assumed to expire at the end of 2027.
-
-### B. Discounted Cash Flow (DCF) Calculation
-
-The model assumes **Total Projected Net Income is the Cash Flow** for the period, as instructed.
-
-| Year | Cash Flow (Net Income) (USD Millions) | Discount Factor (15.0%) | Present Value (PV) (USD Millions) |
+| Year | Total Net Income (FCFE) (in Thousands) | Discount Factor (10.0%) | Present Value (in Thousands) |
 | :--- | :--- | :--- | :--- |
-| **2025** | \$13.9 | 0.870 | \$12.1 |
-| **2026** | \$19.3 | 0.756 | \$14.6 |
-| **2027** | \$21.8 | 0.658 | \$14.3 |
-| **2028** | \$18.6 | 0.572 | \$10.6 |
-| **2029** | \$20.2 | 0.497 | \$10.0 |
-| **2030** | \$21.9 | 0.432 | \$9.5 |
-| **NPV of Explicit Period (2025-2030)** | | | **\$71.1** |
+| **2025** | \$7,297 | 0.9091 | \$6,634 |
+| **2026** | \$8,392 | 0.8264 | \$6,936 |
+| **2027** | \$8,884 | 0.7513 | \$6,674 |
+| **2028** | \$9,175 | 0.6830 | \$6,265 |
+| **2029** | \$9,453 | 0.6209 | \$5,869 |
+| **2030** | \$9,736 | 0.5645 | \$5,490 |
+| **Sum of PVs (2025-2030)** | | | **\$37,868** |
 
-### C. Terminal Value Calculation
+**Terminal Value (TV) Calculation:**
+The Terminal Value is the Present Value of all cash flows after 2030. The 2031 Cash Flow (FCFE) is projected using the 2030 Net Income, plus ROIC on the 2030 Net Income, continuing the ROIC assumption.
 
-The **Terminal Value (TV)** is calculated using the Perpetuity Growth Method, assuming the 2030 cash flow grows indefinitely at a conservative, long-term maturity rate.
+*   2031 Net Income: (\$9,736 * 1.03) * 5.0% + (\$9,736 * 10.0%) = \$501 + \$974 = \$1,475 thousand.
+    *   *Note: Using a straight 2.0% growth rate on 2030 FCFE (as per the conservative 'g' assumption):*
+    *   **2031 FCFE (Projected):** \$9,736 * (1 + 0.02) = \$9,931 thousand.
 
-*   **Conservative Maturity Rate (g):** **2.0%**. This reflects the slow, steady growth expected for a mature medical equipment/service provider in an essential sector of healthcare.
-*   **Conservative Discount Rate (r):** **15.0%**. This is a reasonable, high-end rate for a Small-Cap company like INFU with recent volatility and a higher risk profile than a large-cap stock.
+*   **Terminal Value in 2030:** TV = (2031 FCFE) / (r - g) = \$9,931 / (0.10 - 0.02) = \$124,138 thousand.
+*   **Present Value of Terminal Value (PV-TV):** PV-TV = TV / (1 + r)^6 = \$124,138 / (1.10)^6 = \$124,138 * 0.5645 = **\$70,064 thousand**.
 
-$$ \text{Terminal Value}_{2030} = \frac{\text{Cash Flow}_{2030} \times (1 + g)}{r - g} $$
+**Net Present Value (NPV) of Future Cash Flows:**
+*   NPV = Sum of PVs (2025-2030) + PV-TV
+*   NPV = \$37,868 thousand + \$70,064 thousand = **\$107,932 thousand**
 
-$$ \text{Terminal Value}_{2030} = \frac{\$21.9 \times (1 + 0.02)}{0.15 - 0.02} = \frac{\$22.34}{\$0.13} = \$171.8 \text{ million} $$
+### 4. Fair Value Calculation
 
-**Present Value of Terminal Value (PV of TV):**
+The fair value of equity is calculated as:
+**Fair Value of Equity** = NPV of Future Cash Flows + Total Cash & Cash Equivalents - Total Debt
 
-$$ \text{PV of TV} = \text{Terminal Value}_{2030} \times \text{Discount Factor}_{2030} $$
+*   Fair Value of Equity = \$107,932 + \$1,000 - \$20,900
+*   **Fair Value of Equity** = **\$88,032 thousand**
 
-$$ \text{PV of TV} = \$171.8 \times 0.432 = \$74.2 \text{ million} $$
+**Fair Value per Share** = Fair Value of Equity / Shares Outstanding
+
+*   Fair Value per Share = \$88,032,000 / 20,336,183
+*   **Fair Value per Share** = **\$4.33**
 
 ---
 
-## 4. Fair Value Calculation
+## Conclusion and Market Comparison
 
-| Metric | Value (USD Millions) |
+| Metric | Value |
 | :--- | :--- |
-| **NPV of Explicit Cash Flows (2025-2030)** | \$71.1 |
-| **PV of Terminal Value** | \$74.2 |
-| **Total Enterprise Value (TEV)** | **\$145.3** |
-| **Add: Cash & Cash Equivalents** | \$0.7 |
-| **Subtract: Total Debt** | (\$26.3) |
-| **Equity Value** | **\$119.7** |
-| **Shares Outstanding (Millions)** | 20.43 |
-| **Fair Value Per Share** | **\$5.86** |
+| **Fair Value per Share (DCF)** | **\$4.33** |
+| **Current Stock Price (Feb 5, 2026)** | **\$7.66** |
+| **Difference** | -\$3.33 |
+| **Percentage Difference** | -43.5% |
 
----
+### Justification for Difference
 
-## 5. Justification and Market Comparison
+My calculated fair value of **\$4.33** per share is significantly lower than the current market price of **\$7.66** per share, indicating the market is making more aggressive assumptions about the company's future growth and profitability.
 
-### Fair Value: **\$5.86 per share**
+**Market Assumptions Implied by the Current Price:**
 
-*(For comparison, you should note the current market value of the stock, which I cannot retrieve live. Assuming a hypothetical current market price of \$9.50 for the sake of the final justification.)*
+The market's current valuation of $\approx\$7.66$ implies one or more of the following:
 
-**Hypothetical Market Price:** **\$9.50**
+1.  **Higher Growth Rate in Patient Services:** The market is likely pricing in a much more significant and sustained long-term growth rate than my conservative 5.0% (2026-2027) and 3.0% (2028-2030) assumptions. They may believe the **NOPAIN Act** and the high-margin Oncology and Wound Care segments will drive double-digit growth (e.g., 10-12%) for a longer period.
+2.  **Significant Margin Expansion:** The market may be assuming the company's gross margin improvements (from favorable mix and efficiency) will translate into a much higher Net Income Margin than my conservative flat 5.0%. For example, a stable 7.0% Net Income Margin would substantially increase the valuation.
+3.  **Lower Discount Rate:** The market may perceive the company's business model (recurring patient services revenue with favorable regulatory support) to be less risky than my 10.0% discount rate implies, valuing future cash flows at a lower cost of capital (e.g., 8.0%).
+4.  **Higher Terminal Value/Growth:** The market may be using a higher terminal growth rate ($g > 2.0\%$) to reflect the view that the durable medical equipment rental business is a stable, non-cyclical utility with a higher-than-average perpetual growth rate.
+5.  **Acquisition Upside/Capital Return:** The market may be assigning value to the company's potential to continue paying down debt, increasing its stock buyback program (as seen in Q3 2025), or making value-accretive acquisitions that are not factored into the current revenue model.
 
-**Justification for Discrepancy (Fair Value $\ll$ Market Value):**
+**Conclusion on Fair Value:**
 
-My calculated Fair Value of **\$5.86** is significantly lower than the hypothetical current market price of **\$9.50**. This discrepancy indicates that the market is making more aggressive assumptions about the company's future performance than the conservative business engine analysis I have built based on management's own guidance.
+My valuation is a deliberate **conservative estimate** as mandated by the rules. The primary differences stem from:
+*   **Conservative Margin Assumption (5.0% NIR):** This is the biggest single point of difference. My conservative 5.0% Net Income Margin assumes high operational costs (especially D&A on the rental fleet) will continue to suppress net profitability, despite management guiding to a 20%+ Adjusted EBITDA margin.
+*   **Conservative Growth Rate Taper:** My rapid tapering of the revenue growth to 3.0% by 2028 does not give sufficient credit to the multi-year tailwind potential of the NOPAIN Act, which the market may believe will sustain growth closer to 7-10% for the entire period.
 
-**Market's Assumptions vs. My Conservative Assumptions:**
-
-| Metric | My Conservative Assumption | Market's Likely Implied Assumption | Why the Difference? |
-| :--- | :--- | :--- | :--- |
-| **Revenue Growth (Long-Term)** | Deceleration to 4.5% by 2028 | Sustained growth of 6% - 8% | The market is likely pricing in a successful, unhindered ramp-up of the **Advanced Wound Care** partnership and the **Chemo Mouthpiece** opportunity, which management explicitly called out as *delayed* and *revised* in 2025 guidance. |
-| **Adj. EBITDA Margin (Post-2025)** | 22.0% (Low 20s) | 25.0% or Higher | The market may be projecting greater operational leverage from the ERP system and a faster/more dramatic mix shift toward the highest-margin Patient Services (Oncology/Rentals). |
-| **Discount Rate (r)** | 15.0% (High Risk) | 10.0% - 12.0% (Lower Risk) | The market views INFU as having successfully executed its turnaround and deleveraging strategy, justifying a lower cost of capital, potentially viewing it as a safer, more mature company. |
-| **Terminal Growth Rate (g)** | 2.0% (Maturity) | 3.0% (Above-GDP Growth) | The market believes the specialized DME rental and service market offers persistent, non-cyclical growth above the general economy's rate. |
-
-**Conclusion:**
-
-My conservative valuation ($\text{\$5.86}$) is based on using the *low end* of all management's recent guidance (6.0% 2025 revenue growth and 20.0% EBITDA margin, despite a higher underlying run-rate) and explicitly incorporating the delays and challenges management noted in key growth areas (Wound Care and Chemo Mouthpiece).
-
-The market ($\text{\$9.50}$) is likely valuing the stock based on the **full potential of the business engine**—assuming successful, rapid execution and resolution of the revenue-dampening factors (ERP completion, Wound Care/Chemo Mouthpiece ramp-up) and assigning a lower risk/discount rate. My valuation suggests a considerable **margin of safety** or that the stock is currently **overvalued** based on a purely conservative application of management's latest, revised guidance.
+I will adhere to my conservative calculation. The market is giving a premium for the projected acceleration of the high-margin Patient Services segment and the resulting increase in cash flow/net income that the conservative model is intentionally suppressing.
