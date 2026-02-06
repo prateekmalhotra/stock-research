@@ -1,155 +1,153 @@
-## Valuation of Option Care Health, Inc. (OPCH) Stock
+This valuation of Option Care Health, Inc. (OPCH) stock is performed using a Discounted Cash Flow (DCF) model based solely on publicly available SEC filing data and management commentary from earnings call transcripts, as mandated by the rules. All figures are in millions of U.S. Dollars, except for per-share data.
 
-This valuation is based on a Discounted Cash Flow (DCF) model using a conservative business engine derived solely from Option Care Health, Inc. (OPCH) SEC filings and earnings call transcripts. Net Income is used as a proxy for the cash flow to equity as instructed.
+***
 
-### I. Key Financial Data (As of September 30, 2024, or as noted)
+# **Option Care Health, Inc. (OPCH) Stock Valuation**
 
-The financial figures are derived from the latest available company disclosures, primarily the Q3 2024 earnings release and related commentary, which acts as a proxy for the latest 10-Q filing.
+## **Part 1: Initial Financial Data (as of December 31, 2024)**
 
-| Metric | Value (USD Millions) | Source/Derivation |
+The following figures are sourced from the company's most recent available SEC filings and financial press releases referencing the filings.
+
+| Metric | Value (in millions) | Source/Justification |
 | :--- | :--- | :--- |
-| **Current Stock Price** | **\$27.91** | NASDAQ:OPCH closing price as of October 25, 2025. |
-| **Cash & Cash Equivalents** | **\$483.0** | Cash balance at the end of Q3 2024. [cite: 1, 2, 3 in previous thought] |
-| **Total Debt** | **\$1,133.85** | *Derived* from Net Debt ($650.85M) + Cash ($483.0M). See derivation below. |
-| **Total Shares Outstanding (Diluted Wt. Avg.)** | **173.87** | *Derived* from Q3 2024 Net Income (\$53.9M) / Diluted EPS (\$0.31). [cite: 1 in previous thought] |
-| **TTM Adjusted EBITDA** | **\$433.9** | Sum of Q4 2023 (\$111.6M), Q1 2024 (\$98.3M), Q2 2024 (\$108.4M), Q3 2024 (\$115.6M). [cite: 20, 3, 2, 1 in previous thoughts] |
+| **Total Cash & Cash Equivalents** | \$413 | From Condensed Consolidated Balance Sheets as of December 31, 2024 (\$412,565 thousand). |
+| **Total Debt** | \$1,105 | Using "Long-term debt, net of discount, deferred financing costs and current portion" from the Condensed Consolidated Balance Sheets as of December 31, 2024 (\$1,104,641 thousand). This represents the primary interest-bearing debt. |
+| **Shares Outstanding** | 158.73 million | Shares outstanding as of October 28, 2025 (latest available count) from a Form 10-Q. |
+| **Current Stock Price** | \$34.62 (as of Feb 2, 2026 in the search results) | Using a recent price found in the search results for context and comparison, as a real-time price cannot be guaranteed. |
 
-**Total Debt Derivation:**
-Management reported a Net Debt-to-TTM Adjusted EBITDA leverage ratio of **1.5x** as of Q3 2024. [cite: 4, 23 in previous thoughts]
-*   Net Debt = TTM Adjusted EBITDA * Leverage Ratio
-*   Net Debt = \$433.9 million * 1.5 = \$650.85 million
-*   Total Debt = Net Debt + Cash & Cash Equivalents
-*   Total Debt = \$650.85 million + \$483.0 million = **\$1,133.85 million**
+***
 
----
+## **Part 2: Business Engine and Revenue/Net Income Projection**
 
-### II. Business Engine and Financial Projections
+The business engine of Option Care Health is driven by two main therapy portfolios: **Chronic (approx. 75% of revenue)** and **Acute (approx. 25% of revenue)**. The chronic business provides a stable, long-term revenue base, while the acute business can be more volatile. The primary growth and margin levers are:
 
-Option Care Health's core business is providing home and alternate site infusion services, a sector driven by the shift of care from high-cost hospital settings to lower-cost outpatient/home settings and the growth in specialized, high-cost therapies.
+1.  **Patient Volume/New Referrals:** Driven by the shift of care from high-cost hospital settings to the home/alternate sites.
+2.  **Therapy Mix:** Growth in higher-margin therapies (rare/orphan) offsets margin pressure from established therapies (e.g., biosimilars).
+3.  **Operational Efficiency:** Increased nurse productivity via Ambulatory Infusion Suites and SG&A leverage.
 
-The key drivers are:
-1.  **Patient Volume/Referrals (Unit Growth):** Driven by market share gains, expansion of services (like new compounding pharmacies and advanced practitioner models), and general industry shift to home care.
-2.  **Mix/Price (Value Per Unit):** Driven by the strong growth in the "rare and orphan portfolios" and "newer limited distribution and rare orphan therapies" within the chronic portfolio, which carry a higher revenue value per patient.
+### **Revenue Projections (2025 - 2030)**
 
-#### A. Revenue Estimates (2025 - 2030)
+The projection is built upon management's guidance and then conservatively extrapolated using the identified business drivers.
 
-| Year | Revenue (USD Millions) | Growth Rate (YoY) | Justification |
+| Year | Revenue Guidance/Projection (in millions) | Justification |
+| :--- | :--- | :--- |
+| **2024 (Actual)** | \$4,998 | Actual net revenue for the full year 2024. |
+| **2025** | \$5,625 | Midpoint of management's updated full-year guidance (\$5.60B - \$5.65B), representing 12.5% YoY growth. This incorporates the estimated \$60M - \$70M headwind from STELARA biosimilars, meaning underlying growth is higher. |
+| **2026** | \$5,900 | Midpoint of management's preliminary guidance (\$5.8B - \$6.0B), representing 4.9% YoY growth. The significant biosimilar headwind from 2025 is largely absorbed, leading to a more normalized but still conservative mid-single-digit growth. |
+| **2027** | \$6,200 | Assuming a **5.1%** conservative growth rate. This reflects continued but slowing organic growth as market penetration increases and ongoing, though less severe, biosimilar pressure in the chronic portfolio is expected. |
+| **2028** | \$6,480 | Assuming a **4.5%** growth rate. Continuing to temper the growth rate to reflect a conservative long-term outlook for a mature home infusion market leader. |
+| **2029** | \$6,760 | Assuming a **4.3%** growth rate. |
+| **2030** | \$7,030 | Assuming a **4.0%** growth rate. |
+
+### **Net Income & Margin Projections (2025 - 2030)**
+
+The Net Income projection for 2025 is derived from the Adjusted EBITDA guidance, and subsequent years are based on conservative margin assumptions and the required ROIC reinvestment model.
+
+**2025 Base Year Calculation:**
+
+1.  **Adjusted EBITDA (Midpoint):** \$470.5 million
+2.  **Net Interest Expense (Midpoint):** \$56 million
+3.  **Depreciation & Amortization (D&A):** For 2024, D&A was \$60.9 million. I will conservatively increase this by 5% to \$64 million in 2025 to reflect continued infrastructure investment.
+4.  **EBT (Earnings Before Tax):** Adjusted EBITDA - D&A - Net Interest = \$470.5 - \$64 - \$56 = **\$350.5 million**
+5.  **Tax Rate (Midpoint):** 26%
+6.  **Base Net Income (NI_projection):** \$350.5 million * (1 - 0.26) = **\$259.4 million**
+
+**ROIC & Reinvestment Model (2026 - 2030)**
+
+*   **ROIC Assumption:** I will use a conservative but reasonable positive Return on Invested Capital (ROIC) of **6.0%**. This is justified as a stable, mature healthcare service provider with pricing power and operational leverage should be able to generate a return on reinvested capital greater than its cost of capital over time.
+*   **Net Income Reinvestment Rule:** Net Income for next year = NI_projection from that year + ROIC from net income got from previous year.
+
+| Year | Revenue (A) | NI Projection (B) | Previous Year's NI (C) | ROIC (6.0%) from C (D) | Final Net Income (B+D) | Margin % (E/A) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2024 (Actual)** | \$4,998 | N/A | N/A | N/A | **\$211.8** | 4.24% |
+| **2025** | \$5,625 | \$259.4 | \$211.8 | \$12.7 | **\$272.1** | 4.84% |
+| **2026** | \$5,900 | \$278.3 | \$272.1 | \$16.3 | **\$294.6** | 5.00% |
+| **2027** | \$6,200 | \$300.0 | \$294.6 | \$17.7 | **\$317.7** | 5.12% |
+| **2028** | \$6,480 | \$315.6 | \$317.7 | \$19.1 | **\$334.7** | 5.17% |
+| **2029** | \$6,760 | \$330.4 | \$334.7 | \$20.1 | **\$350.5** | 5.19% |
+| **2030** | \$7,030 | \$345.5 | \$350.5 | \$21.0 | **\$366.5** | 5.21% |
+
+**Note on NI Projection (B) for 2026-2030:** Assumes Net Income as a percentage of revenue remains around the target 5.0% for 2026, slightly expanding to 5.21% by 2030. This is conservative given management's focus on cost leverage (SG&A leverage, nurse efficiency) countering gross margin headwinds.
+
+***
+
+## **Part 3: Discounted Cash Flow (DCF) Analysis**
+
+### **Discount Rate and Terminal Value Assumptions**
+
+*   **Discount Rate (Cost of Capital):** A conservative rate of **9.0%** is used. This accounts for the market-leading position and stable nature of the healthcare services industry, but incorporates a risk premium above a long-term risk-free rate (e.g., 4-5%) due to the complex regulatory and drug pricing environment.
+*   **Maturity Rate (Terminal Growth Rate):** A very conservative perpetual growth rate of **2.0%** is used. This is slightly below the long-term US GDP growth and reflects a mature, low-growth phase for the company beyond the projection period (2030), consistent with the "conservative" rule.
+
+### **Net Present Value (NPV) Calculation**
+
+The Net Income figures are treated as the Free Cash Flow to Equity (FCFE) for the DCF calculation, as per the instruction: "net income for each year goes straight into cash."
+
+**Terminal Value (TV):**
+$$TV = \frac{FCF_{2030} \times (1 + \text{Maturity Rate})}{(\text{Discount Rate} - \text{Maturity Rate})}$$
+$$TV = \frac{\$366.5 \times (1 + 0.02)}{(0.09 - 0.02)} = \frac{\$373.83}{\text{0.07}} \approx \$5,340.4 \text{ million}$$
+
+**NPV of Future Cash Flows:**
+
+| Year | FCF (Net Income) (E) | Discount Factor (9.0%) | NPV of FCF |
 | :--- | :--- | :--- | :--- |
-| **2024 (Est.)** | **\$4,925.0** | 14.5% (Midpoint) | Midpoint of updated full-year 2024 guidance of \$4.9B to \$4.95B. [cite: 4 in previous thought] |
-| **2025** | **\$5,417.5** | **10.0%** | Conservative step-down from 2024 due to potential drug price reductions (e.g., Stelara mention [cite: 8 in previous thought]) and temporary supply chain disruptions (Q4 2024 impact [cite: 1 in previous thought]). This reflects management's commitment to "double-digit revenue growth" through organic initiatives. [cite: 8 in previous thought] |
-| **2026** | **\$5,904.0** | **9.0%** | Continued strong growth, but conservative deceleration. This factors in sustained expansion of the chronic/orphan portfolio (mid-teens growth historically [cite: 3 in previous thought]) and a recovery in acute therapies after supply chain issues resolve, while anticipating increased competition or payer pressure. |
-| **2027** | **\$6,376.3** | **8.0%** | Revenue growth further normalizes, but remains robust, reflecting the company's national scale as the largest independent platform [cite: 5 in previous thought] and ongoing operating leverage from technology investments (e.g., Naven platform for nursing capacity [cite: 5 in previous thought]). |
-| **2028** | **\$6,822.6** | **7.0%** | Long-term growth settles at a mid-to-high single-digit rate, consistent with a leading player in a growing but maturing home infusion market. |
-| **2029** | **\$7,231.9** | **6.0%** | Slowed growth to reflect a conservative long-term outlook and a focus on margin expansion over pure top-line acceleration. |
-| **2030** | **\$7,593.5** | **5.0%** | The final forecast year's growth is a conservative assumption toward the terminal growth rate. |
+| **2025** | \$272.1 | 0.9174 | \$249.7 |
+| **2026** | \$294.6 | 0.8417 | \$247.9 |
+| **2027** | \$317.7 | 0.7722 | \$245.4 |
+| **2028** | \$334.7 | 0.7084 | \$237.1 |
+| **2029** | \$350.5 | 0.6499 | \$227.8 |
+| **2030 (Operating)**| \$366.5 | 0.5963 | \$218.4 |
+| **2030 (Terminal)**| \$5,340.4 | 0.5963 | \$3,184.2 |
+| **Total NPV of Future Cash Flows** | | | **\$4,610.5** |
 
-#### B. Margin Estimates (2025 - 2030)
+***
 
-| Metric | 2024 Est. | 2025 | 2026 | 2027-2030 | Justification |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Gross Margin (%)** | 20.7% | **20.8%** | **21.0%** | **21.2%** | Past margins were ~22.8% (FY 2023) [cite: 20 in previous thought], but are lower currently (20.1-20.8% in 2024 [cite: 1, 3, 15, 18 in previous thoughts]) due to revenue mix shift to lower-margin chronic therapies. Management believes they can *expand* these upward over time [cite: 3 in previous thought]. A slow, conservative expansion to 21.2% by 2027 is assumed. |
-| **SG&A as % of Revenue** | 12.5% | **12.3%** | **12.1%** | **12.0%** | SG&A leverage is improving, with the ratio at 12.3% in Q3 2024 [cite: 4 in previous thought] and management expecting continued "strong spending leverage" due to infrastructure investments [cite: 24 in previous thought]. This is conservatively reduced by 20-30 bps per year. |
-| **Effective Tax Rate** | 27.0% | **27.0%** | **27.0%** | **27.0%** | Midpoint of the company's full-year 2024 guidance range of 26% - 28%. [cite: 19, 20 in previous thoughts] |
-| **Net Interest Expense (M)** | \$57.5 | **\$57.5** | **\$57.5** | **\$57.5** | Midpoint of the 2024 guidance of \$55M to \$60M [cite: 19, 20 in previous thoughts]. Assumed constant as debt reduction is mostly offset by cash accumulation interest income. |
+## **Part 4: Fair Value Calculation**
 
-#### C. Return on Invested Capital (ROIC) Projection
+| Metric | Value (in millions) |
+| :--- | :--- |
+| **Total NPV of Future Cash Flows** | \$4,610.5 |
+| **Add: Total Cash & Cash Equivalents** | \$413 |
+| **Less: Total Debt** | (\$1,105) |
+| **Equity Value** | **\$3,918.5** |
+| **Divide by: Shares Outstanding** | 158.73 million |
+| **Fair Value Per Share** | **\$24.68** |
 
-*   **Historical ROIC:** The company had a 17.53% Return on Equity (ROE) in Q2 2025. Given this strong historical performance, a conservative and reasonable positive ROIC for additional income is necessary.
-*   **Conservative ROIC Assumption:** We assume a conservative but reasonable **7.0%** ROIC on the prior year's retained cash (Net Income proxy).
+### **Fair Value of Option Care Health, Inc. (OPCH) Stock**
 
----
+The calculated **Fair Value Per Share** for Option Care Health, Inc. (OPCH) is **\$24.68**.
 
-### III. Discounted Cash Flow (DCF) Calculation
+***
 
-The DCF is performed using the instructions: **Net Income** for each year acts as the free cash flow for that period, and the prior year's accumulated Net Income (cash proxy) generates an additional return (ROIC).
+## **Part 5: Justification and Market Comparison**
 
-**Discount Rate (WACC):**
-*   **Conservative but Reasonable Discount Rate:** **9.0%**
-    *   *Justification:* This is a conservative WACC (Weighted Average Cost of Capital) for a stable, national healthcare provider. OPCH has a low beta ($\beta \approx 0.88$), suggesting lower systematic risk, but a higher discount rate is used to remain conservative, accounting for industry risks (regulatory changes, drug pricing pressure).
+*   **Calculated Fair Value:** **\$24.68**
+*   **Current Stock Price (Context):** **\$34.62**
+*   **Difference:** The market price is approximately **40% higher** than the calculated fair value.
 
-**Maturity Rate (Terminal Growth Rate):**
-*   **Very Conservative Maturity Rate:** **2.0%**
-    *   *Justification:* This is a conservative, perpetual growth rate, approximating the long-term US inflation or below-GDP growth, appropriate for a mature company.
+### **Justification for the Difference**
 
-| Year | Revenue (A) | Gross Profit (A x GP%) | SG&A Expense (A x SG&A%) | EBIT | Interest Exp. (M) | PBT | Tax @ 27.0% | Net Income (NI) (A) | Prior Year Acc. Cash | ROIC Income (B) (7.0%) | Total Cash Flow (NI + B) | Discount Factor @ 9.0% | NPV of Cash Flow |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2025** | 5,417.5 | 1,126.8 | 666.3 | 460.5 | 57.5 | 403.0 | 108.8 | **294.2** | 0.0 | 0.0 | **294.2** | 0.917 | 270.0 |
-| **2026** | 5,904.0 | 1,239.8 | 714.4 | 525.4 | 57.5 | 467.9 | 126.3 | **341.6** | 294.2 | 20.6 | **362.2** | 0.842 | 304.9 |
-| **2027** | 6,376.3 | 1,351.8 | 765.2 | 586.6 | 57.5 | 529.1 | 142.9 | **386.2** | 655.8 | 45.9 | **432.1** | 0.772 | 333.6 |
-| **2028** | 6,822.6 | 1,446.4 | 818.7 | 627.7 | 57.5 | 570.2 | 153.9 | **416.3** | 1,087.9 | 76.2 | **492.5** | 0.708 | 348.9 |
-| **2029** | 7,231.9 | 1,533.1 | 867.8 | 665.3 | 57.5 | 607.8 | 164.1 | **443.7** | 1,580.4 | 110.6 | **554.3** | 0.649 | 360.0 |
-| **2030** | 7,593.5 | 1,609.8 | 911.2 | 698.6 | 57.5 | 641.1 | 173.1 | **468.0** | 2,134.7 | 149.4 | **617.4** | 0.596 | 367.6 |
-| **Terminal Value (TV)** | | | | | | | | | | | | 0.596 | 4,206.8 |
-| **Total NPV** | | | | | | | | | | | | | **6,191.8** |
+The significant difference suggests that the market is making more optimistic assumptions about the company's future growth and profitability than the conservative DCF model presented here.
 
-*Note: All figures in USD Millions except percentages and factors.*
-*Prior Year Acc. Cash = Sum of Total Cash Flow from previous years. ROIC Income (B) = Prior Year Acc. Cash * 7.0%. Total Cash Flow = Net Income (A) + ROIC Income (B).*
+**1. Revenue Growth Rate Assumption:**
 
-**Terminal Value (TV) Calculation:**
-*   Terminal Cash Flow = 2030 Net Income + (ROIC on 2029 Acc. Cash)
-*   2030 Perpetual Cash Flow = (2030 NI * (1 + Growth Rate)) + (ROIC on 2030 Acc. Cash)
-    *   For a conservative calculation, the continuing value is based on the **Terminal Cash Flow** (which includes the ROIC benefit) and the last net income growth rate.
-    *   $617.4 million (2030 Cash Flow) is used as $FCF_{2030}$
-*   TV = [Cash Flow * (1 + Maturity Rate)] / (Discount Rate - Maturity Rate)
-*   TV = [617.4 * (1 + 0.02)] / (0.09 - 0.02)
-*   TV = 630.0 / 0.07 = **\$9,000.0 million**
-*   NPV of TV = \$9,000.0 million / (1 + 0.09)^6 = \$9,000.0 million * 0.596 = **\$5,364.0 million**
+*   **DCF Assumption (Conservative):** Average YoY growth of **~6.8%** from 2025-2030 (driven by 12.5% in 2025 and slowing to 4.0% by 2030).
+*   **Market Assumption (Implied):** The market is likely pricing in a higher, sustained growth rate, perhaps closer to **8-10%** for the entire projection period. This would be justified by a more aggressive view on:
+    *   **New Therapy Adoption:** Strong and continuous launch of new rare and orphan therapies, which are often high-margin and less susceptible to immediate biosimilar pressure.
+    *   **Site-of-Care Shift:** A faster and more profound shift of infusion care from hospitals to the home setting, driven by payer and patient preference for lower-cost and more convenient care.
+    *   **Acquisition/M&A:** The market may be assuming value-accretive acquisitions (like the IntraMed Plus acquisition mentioned in the Q4 2024 guidance) that are not factored into this organic growth-based projection.
 
-***Self-Correction for Terminal Value Calculation based on Instruction:*** The instruction implies that the Net Income for a given year is the primary cash flow, and the ROIC is a separate component. To avoid double counting the ROIC component in the terminal year (as the perpetual growth rate should cover all organic income), I will use the 2030 **Net Income (A)** to project the TV, ensuring the perpetual growth is applied to the company's core earning power, then add the NPV of the accumulated ROIC benefit:
+**2. Profitability and Margin Assumption:**
 
-*   **2030 Net Income (A) = \$468.0 million**
-*   TV (Net Income component only) = [468.0 * (1 + 0.02)] / (0.09 - 0.02) = **\$6,822.9 million**
-*   NPV of TV (Net Income component) = \$6,822.9 million * 0.596 = **\$4,064.0 million**
-*   Total NPV = NPV of Annual Flows (2025-2030) + NPV of TV (Net Income component) + NPV of 2030 ROIC Income
-    *   NPV of Annual Flows (2025-2030) (NI + ROIC) = \$270.0 + \$304.9 + \$333.6 + \$348.9 + \$360.0 + \$367.6 = **\$1,985.0 million**
-*   I will stick to the **Total Cash Flow (NI + ROIC)** column for the annual flows and use the simplified TV from the first calculation as it incorporates the growth of the earnings base most accurately to the model instructions.
-    *   **Total NPV (2025-2030) = \$1,985.0 million** (From table)
-    *   **NPV of Terminal Value = \$5,364.0 million** (Using 2030 Cash Flow which is NI + ROIC)
-    *   **Total NPV of Future Cash Flows = \$1,985.0 + \$5,364.0 = \$7,349.0 million**
+*   **DCF Assumption (Conservative):** Net Income Margin expands modestly from 4.84% in 2025 to **5.21%** in 2030. This is based on management commentary that operational efficiencies must offset margin headwinds from drug mix/biosimilars.
+*   **Market Assumption (Implied):** The market may believe OPCH can execute greater operational leverage and SG&A savings, leading to a Net Income Margin in the **6.0% - 7.0%** range by 2030, suggesting better control over drug costs or a greater mix of high-margin therapies.
 
----
+**3. Discount Rate Assumption:**
 
-### IV. Fair Value Calculation
-
-1.  **Equity Value:** Net Present Value of Future Cash Flows + Total Cash & Equivalents - Total Debt
-    *   Equity Value = \$7,349.0 million + \$483.0 million - \$1,133.85 million
-    *   Equity Value = **\$6,698.15 million**
-
-2.  **Fair Value Per Share:** Equity Value / Total Shares Outstanding
-    *   Fair Value Per Share = \$6,698.15 million / 173.87 million shares
-    *   Fair Value Per Share = **\$38.52**
-
----
-
-### V. Conclusion and Market Comparison
-
-| Metric | Valuation Result | Market Value (as of 10/25/25) | Difference |
-| :--- | :--- | :--- | :--- |
-| **Fair Value Per Share** | **\$38.52** | **\$27.91** | **+37.9%** |
-| **Market Cap** | \$6.70 Billion (Equity Value) | \$4.53 Billion | |
-
-**The Fair Value of Option Care Health (OPCH) stock is estimated to be $38.52 per share.**
-
-#### Justification of Discrepancy
-
-My fair value estimate of **\$38.52** is significantly higher (37.9%) than the current market price of \$27.91. This suggests the market is making more conservative assumptions about the company's future performance or risk profile than my model.
-
-**Analysis of Market Assumptions vs. Model Assumptions:**
-
-1.  **Revenue Growth Conservatism:** My model assumes an average compounded annual growth rate (CAGR) of **7.5%** from 2025-2030. The market's valuation implies a lower long-term growth rate or a much higher discount rate. A market price of \$27.91 would imply a terminal growth rate of approximately 0.5% at a 9.0% discount rate, or a discount rate of 11.5% at a 2.0% terminal growth rate, suggesting the market is baking in:
-    *   **Higher Regulatory Risk:** The market may be overly concerned about potential future drug pricing regulation (like the Inflation Reduction Act negotiations impacting key therapies [cite: 8 in previous thought]) or changes in reimbursement models that could suppress future revenue or margin.
-    *   **Supply Chain / Execution Risk:** The current price may still reflect some uncertainty about the impact of the ongoing supply chain disruptions (like the IV bag shortage) [cite: 1 in previous thought] and the company's ability to capitalize on new market opportunities, such as the announced exit of a large infusion provider from certain acute therapies [cite: 8 in previous thought].
-
-2.  **Margin Conservatism (Discount Rate):** My discount rate of 9.0% is conservative for a stable healthcare company, but the market might be demanding a higher rate to compensate for the operational complexities (e.g., Change Healthcare incident impact in Q1 2024 [cite: 3 in previous thought]) and the lower initial margins on the fastest-growing part of the business (chronic/orphan therapies) [cite: 3 in previous thought].
+*   **DCF Assumption (Conservative):** **9.0%** to reflect regulatory and competitive risk.
+*   **Market Assumption (Implied):** A lower perceived risk (lower discount rate) would substantially increase the present value. A lower discount rate of **7.5%**, which implies a lower cost of capital, would result in a much higher Fair Value.
 
 **Conclusion:**
 
-My model's primary assumptions are a strong, sustained mid-to-high single-digit revenue growth driven by the shift to home infusion and the chronic/orphan drug portfolio, coupled with modest but consistent operating leverage (SG&A as a % of revenue decreasing). This growth engine, backed by management commentary, warrants a higher valuation. The significant discount in the current stock price implies that the market is excessively conservative regarding:
-*   The company's ability to maintain high single-digit revenue growth and achieve modest margin expansion after 2025, or;
-*   The long-term risks associated with reimbursement/regulation in the specialized infusion space.
+The calculated fair value of **\$24.68** represents a **highly conservative baseline value** for Option Care Health, Inc. It assumes management's guidance only for the near term, a slow deceleration of growth thereafter, significant margin pressure requiring operational gains merely to sustain margins, and a high cost of capital (9.0%) with a minimal terminal growth rate (2.0%).
 
-**I conclude that Option Care Health, Inc. (OPCH) is currently undervalued based on a conservative DCF model using management's stated business drivers and guidance, indicating a potential upside of approximately 38%.**
-
-| Final Fair Value Per Share |
-| :--- |
-| **\$38.52** |
+The market price of **\$34.62** is justified if investors assume the company's strategic investments in operational efficiency and its position to capitalize on the secular shift to home-based care will translate into a sustained revenue growth rate of **8% or more** and a terminal Net Income Margin greater than **6%**, paired with a lower cost of capital. **The DCF model is intentionally conservative** by projecting continued operational headwinds and a rapid deceleration of growth to minimize risk, thereby establishing a floor valuation that the current market price comfortably exceeds.
