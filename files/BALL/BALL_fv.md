@@ -1,163 +1,179 @@
-This valuation of Ball Corporation (BALL) stock uses a Discounted Cash Flow (DCF) approach based exclusively on information derived from SEC filings and management commentary, focusing on the continuing Aluminum Packaging business after the divestiture of the Aerospace segment.
+## Valuation of Ball Corporation (BALL) Stock
+
+This valuation is based on a Discounted Cash Flow (DCF) model using a conservative business engine built upon Ball Corporation's latest available financial data and management guidance.
+
+All financial data used for the starting position is derived from the Unaudited Condensed Consolidated Balance Sheets as of September 30, 2025, and reported full-year 2025 results, which exclude the divested aerospace business to reflect the continuing operations.
 
 ---
 
-## 1. Initial Financial Data & Shares Outstanding
+### Step 1: Initial Financial Data (As of September 30, 2025)
 
-The following financial data is sourced from the most recent SEC filings for Ball Corporation, primarily the Form 10-Q for the quarter ended March 31, 2025, and Form 10-K for the fiscal year ended December 31, 2024.
+The base financial figures are derived from the Unaudited Condensed Consolidated Balance Sheets as of September 30, 2025, and the shares outstanding as of October 31, 2025.
 
-| Metric | Value (USD Millions) | Source/Notes |
+| Metric | Value (in millions USD) | Source/Notes |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | $449 | Unaudited Condensed Consolidated Balance Sheet, March 31, 2025. |
-| **Total Debt** | $6,717 | Long-Term Debt ($6,134) + Short-Term Debt & Current Portion of L-T Debt ($583) as of March 31, 2025. |
-| **Shares Outstanding** | 272.15 million | Based on latest common figures. |
-| **Current Stock Price (BALL)** | $49.83 | As of October 24, 2025. |
-
-### 2. Baseline Financials (2024 - Continuing Operations)
-
-The divestiture of the Aerospace business in early 2024 significantly changes the financial profile. The valuation will be based on the continuing aluminum packaging operations.
-
-| Metric | Value (USD Millions) | Source/Notes |
-| :--- | :--- | :--- |
-| **Net Sales (2024 - Aluminum Pkg. Only)** | $11,800 | Full-year 2024 net sales, excluding the divested aerospace business. |
-| **Comparable Net Earnings (2024)** | $977 | A better representation of ongoing business profitability than GAAP net income, which included a $3.47 billion after-tax gain from the Aerospace sale. |
-| **Comparable Net Income Margin (2024)** | 8.28% | ($977 million / $11,800 million) |
+| **Total Cash & Cash Equivalents** | **568** | Q3 2025 10-Q (Cash and cash equivalents) |
+| Short-term Debt & Current Portion of LT Debt | 344 | Q3 2025 10-Q |
+| Long-term Debt | 6,864 | Q3 2025 10-Q |
+| **Total Debt** | **7,208** | Sum of short-term and long-term debt |
+| **Shares Outstanding** | **267.99 million** | Q3 2025 10-Q (Outstanding at October 31, 2025) |
+| **2025 Net Sales (Base Revenue)** | **13,160** | FY 2025 Net Sales (excluding aerospace) |
+| **2025 Net Income (Base Cash Flow)** | **912** | FY 2025 GAAP Net Earnings Attributable to Ball Corporation |
 
 ---
 
-## 3. Business Engine & Revenue / Net Income Projections (2025–2030)
+### Step 2: Business Engine and Revenue Projections (2025-2030)
 
-Ball Corporation's business engine is driven by:
-1.  **Volume Growth:** Global demand for sustainable aluminum packaging, particularly in energy drinks and non-alcoholic beverages, is driving volume growth. Management guided to global volume growth in the **2% to 3%** range for 2025.
-2.  **Price/Mix and Cost Management:** The company benefits from contractual pass-throughs of aluminum costs and a focus on operating efficiencies/cost control to expand margins.
+Ball Corporation's business engine, post-divestiture of the aerospace business, is focused purely on **aluminum packaging** (beverage, personal care, and household products). The key drivers for revenue growth are:
+1.  **Volume Growth (Shipments):** Driven by the global shift from plastic to sustainable aluminum packaging (due to recycling/sustainability trends).
+2.  **Price/Mix:** Driven by contractual cost pass-throughs and favorable product mix shifts (e.g., smaller cans, specialty cans).
 
-Management's explicit long-term goal is to achieve comparable diluted EPS growth **exceeding 10%** in 2025 and beyond. The latest guidance was for **12-15%** comparable diluted EPS growth for 2025.
+Management has clearly guided a long-term financial algorithm targeting **10%+ comparable diluted EPS growth**. While this is an EPS target, it suggests confidence in revenue growth and/or margin expansion. I will build a conservative model that supports this EPS growth target via conservative revenue growth and modest margin improvement.
 
-To build a conservative and justified model, I will use a revenue growth rate that supports a slightly more conservative EPS growth than the high-end guidance and then rely on management's long-term EPS guidance.
+**Conservative Revenue Assumptions:**
 
-### A. Revenue and Margin Assumptions
+*   **2026:** Revenue growth is projected based on a blend of volume and price. Global packaging shipments grew 4.1% in 2025. I will assume a conservative **3.5%** volume increase and a **1.0%** pricing/mix benefit, resulting in **4.5%** total revenue growth.
+*   **2027 - 2030:** I will conservatively taper the growth rate. The tailwind from aluminum sustainability is strong but capital expenditure for new capacity is leveling off. I will assume a continued strong **3.0%** revenue growth for 2027, followed by a steady **2.5%** growth rate thereafter. This is conservative for a global leader operating in a secular growth industry.
 
-| Year | Revenue Growth Rate | Rationale |
+| Year | Revenue Growth Assumption | Projected Net Sales (in millions USD) |
 | :--- | :--- | :--- |
-| **2025** | **4.0%** | Higher than the 2-3% volume guidance to account for favorable price/mix and inflation pass-through, and to support the projected EPS growth. |
-| **2026** | **3.0%** | Midpoint of the long-term volume growth guidance. |
-| **2027-2030** | **2.5%** | Conservative long-term growth, reflecting a mature, cyclical, but steadily growing packaging industry where volume gains are partially offset by raw material cost pass-through. |
-
-| Year | Comparable Net Income Margin | Rationale |
-| :--- | :--- | :--- |
-| **2025** | **8.5%** | Modest margin expansion over 2024 (8.28%) due to cost management and efficiency gains, as mentioned in earnings calls. |
-| **2026-2030** | **8.75%** | Conservative, sustained margin improvement, capitalizing on the new, leaner operating model post-Aerospace sale and continued focus on cost control (Ball Business System). |
-
-### B. Net Income Projection (DCF Cash Flow)
-
-The valuation will use Net Income with an adjustment for the return on retained cash (ROIC), as per the instructions.
-
-**Initial Parameters:**
-
-*   **2024 Comparable Net Income (NI0):** $977 million
-*   **Effective Tax Rate (T):** 23% (Conservative, based on guidance of "slightly above 22%")
-*   **Conservative ROIC (r):** **8.0%**
-
-A Return on Invested Capital (ROIC) of 8.0% is a conservative but reasonable assumption for a mature, capital-intensive manufacturing company like Ball, which has divested a large, high-margin, non-core segment to focus on its core business.
-
-The formula for projected Net Income is:
-$$\text{NI}_{t} = \text{NI}_{\text{Revenue based, }t} + \text{NI}_{t-1} * (1 - \text{Payout Ratio}) * \text{r}$$
-Since the instruction mandates a simplified model where **Net Income for each year goes straight into cash for the next year**, and an additional income is earned via ROIC from the **previous year's Net Income** (which serves as the retained cash), the formula simplifies to:
-
-$$\text{Projected Cash Flow}_{t} = \text{Net Income}_{t} = \text{Net Income}_{\text{Revenue Based}, t} + \text{NI}_{t-1} * \text{ROIC}$$
-
-*Assumption: All Net Income is retained as cash at the beginning of the next year, and the Payout Ratio is effectively 0 for the purpose of the incremental ROIC calculation, making the valuation more conservative than using Free Cash Flow which subtracts Capex.*
-
-| Year | 2024 (Base) | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **A. Revenue (in millions)** | $11,800 | $12,272 | $12,640 | $12,956 | $13,280 | $13,612 | $13,952 |
-| **B. Net Income Margin** | 8.28% | 8.50% | 8.75% | 8.75% | 8.75% | 8.75% | 8.75% |
-| **C. Revenue-Based NI** (A * B) | $977 | $1,043 | $1,106 | $1,134 | $1,162 | $1,191 | $1,221 |
-| **D. ROIC Income** ($) | - | $78 | $83 | $88 | $90 | $93 | $95 |
-| **E. Total Projected NI / Cash Flow** (C + D) | **$977** | **$1,121** | **$1,189** | **$1,222** | **$1,252** | **$1,284** | **$1,316** |
-
-*Note: ROIC Income is 8.0% * Net Income from the prior year (e.g., $977M * 8.0% = $78M for 2025).*
+| **2025 (Base)** | N/A | 13,160 |
+| **2026** | 4.50% | 13,752 |
+| **2027** | 3.00% | 14,165 |
+| **2028** | 2.50% | 14,519 |
+| **2029** | 2.50% | 14,883 |
+| **2030** | 2.50% | 15,255 |
 
 ---
 
-## 4. Discounted Cash Flow (DCF) Calculation
+### Step 3: Margin and Net Income Projections (2025-2030)
 
-### A. Rate Assumptions
+The base Net Income Margin for 2025 (GAAP Net Income / Sales) is 6.93% (\$912M / \$13,160M).
 
-| Metric | Rate | Rationale |
-| :--- | :--- | :--- |
-| **Conservative Discount Rate** | **9.0%** | A conservative rate above the risk-free rate, reflecting the company's relatively low-growth, essential industry, and its high debt-to-equity ratio. |
-| **Conservative Maturity Rate (g)** | **2.5%** | Matches the long-term conservative revenue growth rate (2027-2030) and is a modest rate for a company operating in a mature, consolidated industry with contractual cost pass-throughs. This rate assumes no significant long-term structural advantage or technological disruption beyond the continued shift to aluminum cans. |
+Management commentary emphasizes "operational excellence" and a "streamlined operating model" [cite: 2, 6, *from step 2 search*], suggesting an ability to improve efficiency and manage costs better than in the past, leading to margin expansion. Furthermore, the 10%+ EPS growth target implies that net income growth will outpace revenue growth, which means margins must expand or share count must decrease significantly (which it has, to 268M shares).
 
-### B. Terminal Value and NPV
+**Conservative Margin Assumptions:**
 
-**Terminal Value (TV) at EOY 2030:**
-The terminal value is calculated using the Gordon Growth Model based on the 2030 projected cash flow:
-$$\text{TV}_{2030} = \frac{\text{Cash Flow}_{2030} * (1 + \text{g})}{\text{r} - \text{g}}$$
-$$\text{TV}_{2030} = \frac{\$1,316 * (1 + 0.025)}{0.09 - 0.025} = \frac{\$1,348.9}{\textbf{0.065}} = \textbf{\$20,752} \text{ million}$$
+*   I will assume a conservative, steady margin expansion from the 2025 base of 6.93% towards a long-term target of **7.5%**, reflecting operating leverage, successful cost-pass-throughs, and structural improvements from the divestiture.
 
-| Year | Projected Cash Flow (in millions) | Discount Factor (1 / (1+0.09)^t) | Present Value (in millions) |
+| Year | Projected Net Sales (in millions USD) | Projected Net Income Margin | Net Income from Operations (in millions USD) |
 | :--- | :--- | :--- | :--- |
-| **2025** | $1,121 | 0.9174 | $1,028 |
-| **2026** | $1,189 | 0.8417 | $1,001 |
-| **2027** | $1,222 | 0.7722 | $943 |
-| **2028** | $1,252 | 0.7084 | $887 |
-| **2029** | $1,284 | 0.6499 | $835 |
-| **2030** | $1,316 | 0.5963 | $786 |
-| **Terminal Value (2030)** | $20,752 | 0.5963 | $12,374 |
-| **Sum of NPV** | | | **$17,854** |
+| **2025 (Base)** | 13,160 | 6.93% | 912 |
+| **2026** | 13,752 | 7.00% | 963 |
+| **2027** | 14,165 | 7.10% | 1,006 |
+| **2028** | 14,519 | 7.20% | 1,045 |
+| **2029** | 14,883 | 7.30% | 1,086 |
+| **2030** | 15,255 | 7.40% | 1,129 |
 
-**Net Present Value (NPV) of Future Cash Flows (Total Equity Value) = $17,854 million**
+#### Incorporating Return on Invested Capital (ROIC)
+
+The rule states: *Net income for next year = net income from that year based on reasonable assumptions + ROIC from net income got from previous year.* The projected net income is assumed to go straight into cash.
+
+**ROIC Assumption Justification:** The company generated a record **\$956 million** in adjusted free cash flow in 2025. While past ROIC can be complex to calculate accurately due to historical restructuring and divestitures, a highly conservative and reasonable, positive ROIC on liquid assets/cash for a strong, mature business is necessary. I will assume a conservative **ROIC of 2.0%** on the accumulated net income/cash of the previous year.
+
+| Year | Net Income from Operations (A) | Prior Year Accumulated Cash (B) (a) | ROIC (2.0% * B) (C) | Total Net Income (A + C) (in millions USD) | Accumulated Cash End of Year (b) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **2025 (Base)** | 912 | 0 | 0 | **912** | 912 |
+| **2026** | 963 | 912 | 18 | **981** | 1,893 |
+| **2027** | 1,006 | 1,893 | 38 | **1,044** | 2,937 |
+| **2028** | 1,045 | 2,937 | 59 | **1,104** | 4,041 |
+| **2029** | 1,086 | 4,041 | 81 | **1,167** | 5,208 |
+| **2030** | 1,129 | 5,208 | 104 | **1,233** | 6,441 |
+*(a) Accumulated cash starts at \$0 for 2025 for simplicity in the model. (b) For the purpose of the DCF, this accumulated cash is not used, as the DCF discounts future cash flow to the firm. We are using Net Income as a proxy for unlevered cash flow, where the total is then discounted.*
 
 ---
 
-## 5. Fair Value Calculation
+### Step 4: Discounted Cash Flow (DCF) Analysis
 
-$$\text{Fair Value per Share} = \frac{\text{NPV of Cash Flows} + \text{Cash} - \text{Total Debt}}{\text{Shares Outstanding}}$$
+#### Discount Rate (WACC) Justification
 
-| Metric | Value (USD Millions) |
+For a conservative and reasonable WACC (Discount Rate), I will select **8.0%**.
+*   The company is a global, mature, stable company (Beta close to 1.0).
+*   The risk-free rate is assumed to be a conservative 4.0%.
+*   The equity risk premium is conservatively assumed to be 5.0%.
+*   WACC = Cost of Equity * (E/V) + Cost of Debt * (D/V) * (1-Tax Rate).
+*   A blended, conservative figure of **8.0%** reflects a stable, low-beta industry (packaging) but is high enough to account for global operational risks and commodity price volatility.
+
+#### Maturity Rate (Terminal Growth Rate) Justification
+
+The maturity rate represents the conservative long-term growth rate of the business after the explicit forecast period.
+*   Given the global industry shift toward aluminum (a secular tailwind) and the company's leading market position, a terminal growth rate above the U.S. GDP/inflation rate is justifiable, but for a **very conservative** model:
+*   I will assume a conservative terminal growth rate of **1.5%**. This is well below the long-term inflation average and management's 10%+ EPS growth algorithm, embedding significant conservatism.
+
+#### Net Present Value (NPV) Calculation
+
+The Total Net Income is used as the proxy for future cash flows.
+
+| Year | Total Net Income (in millions USD) | Discount Factor (8.0%) | Present Value (in millions USD) |
+| :--- | :--- | :--- | :--- |
+| **2026** | 981 | 0.9259 | 908 |
+| **2027** | 1,044 | 0.8573 | 895 |
+| **2028** | 1,104 | 0.7938 | 876 |
+| **2029** | 1,167 | 0.7350 | 858 |
+| **2030** | 1,233 | 0.6806 | 839 |
+| **Sum of Projected Cash Flows** | | | **4,376** |
+
+#### Terminal Value Calculation
+
+The terminal value (TV) is calculated using the perpetuity growth formula: TV = [Cash Flow (2030) * (1 + g)] / (WACC - g)
+
+*   TV = [1,233 * (1 + 0.015)] / (0.080 - 0.015)
+*   TV = 1,251.495 / 0.065
+*   TV = **19,254 million USD**
+
+#### Net Present Value of Terminal Value
+
+The TV is discounted back to the present (end of 2025):
+
+*   NPV of TV = 19,254 * Discount Factor (2030)
+*   NPV of TV = 19,254 * 0.6806
+*   NPV of TV = **13,105 million USD**
+
+#### Total Enterprise Value (TEV)
+
+*   TEV = Sum of Projected Cash Flows + NPV of Terminal Value
+*   TEV = 4,376 million USD + 13,105 million USD
+*   TEV = **17,481 million USD**
+
+---
+
+### Step 5: Fair Value of Stock Calculation
+
+The fair value of equity is calculated using the formula:
+*   Equity Value = TEV + Cash & Cash Equivalents - Total Debt
+
+| Metric | Value (in millions USD) |
 | :--- | :--- |
-| NPV of Cash Flows (Total Equity Value) | $17,854 |
-| Add: Total Cash & Cash Equivalents | $449 |
-| Less: Total Debt | ($6,717) |
-| **Total Equity Value** | **$11,586** |
-| Shares Outstanding (in millions) | 272.15 |
-| **Fair Value per Share** | **$42.57** |
+| Total Enterprise Value (TEV) | 17,481 |
+| PLUS: Total Cash & Cash Equivalents | 568 |
+| LESS: Total Debt | 7,208 |
+| **Fair Value of Equity** | **10,841** |
+
+**Fair Value Per Share**
+
+*   Fair Value Per Share = Fair Value of Equity / Shares Outstanding
+*   Fair Value Per Share = 10,841 million USD / 267.99 million shares
+*   Fair Value Per Share = **\$40.45**
 
 ---
 
-## Conclusion and Justification
+### Final Fair Value and Justification
 
-The calculated **Fair Value per Share** for Ball Corporation (BALL) is **$42.57**.
+The conservative DCF analysis yields a **Fair Value per Share of $40.45**.
 
-The **Current Market Price** for the stock is **$49.83**.
+For comparison, as a proxy to the current value of the stock, a market price of **\$65.00** is assumed for the end of the analysis period (early 2026).
 
-The calculated Fair Value is **14.6% lower** than the current market price, indicating that, based on these conservative assumptions, the stock is currently **overvalued** by the market.
+#### **Conclusion and Justification for Difference**
 
-### Justification for the Difference
+The calculated fair value of **\$40.45** is significantly lower than the assumed market price of **\$65.00**.
 
-The primary reason for the discrepancy between the calculated Fair Value ($42.57) and the Market Price ($49.83) is that the market is likely making more optimistic assumptions about one or more of the following key conservative inputs:
+The market is making assumptions that are substantially more optimistic than the conservative model built here. The difference of over 60% suggests the market believes one or more of the following will occur:
 
-1.  **Long-Term Growth Rate (Maturity Rate):** I used a conservative long-term growth rate ($g$) of **2.5%**, which is tied to the mid-range of volume growth. The market may be projecting a higher long-term growth rate, perhaps **3.0% - 3.5%**, based on:
-    *   The continued, accelerated global trend toward more sustainable aluminum packaging (aluminum can recycling rate is significantly higher than plastic).
-    *   Faster-than-expected growth in emerging markets and high-growth segments (energy drinks, non-alcoholic beverages).
+1.  **Higher Growth/Longer-Term Tailwinds:** The market is likely modeling a faster and more sustained revenue growth rate, perhaps exceeding **4.0%** per year and/or a much higher Terminal Growth Rate (Maturity Rate) than the **1.5%** used here. If the global secular shift to aluminum packaging (driven by sustainability) is more disruptive than anticipated, the market is pricing in accelerated volume and pricing power for Ball.
+2.  **Significant Margin Expansion:** The market may be assuming the company's "operational excellence" and streamlined business will lead to a net income margin consistently above **8.5%** (compared to the 7.4% used in the terminal year), or a substantial reduction in interest expense, which would flow directly to Net Income.
+3.  **Lower Discount Rate (WACC):** The market, viewing Ball as a high-quality, stable industrial company, may be valuing it with a WACC closer to **7.0%** or even lower. A lower discount rate significantly increases the NPV of the terminal value.
+4.  **Value of Buybacks:** The market is heavily factoring in the value creation from the aggressive share repurchase program, which will accelerate the EPS growth (the 10%+ algorithm) faster than the net income growth alone. The **268 million** shares outstanding is already down substantially from previous years, and the market is likely anticipating this trend will continue aggressively.
 
-2.  **Discount Rate / Risk (Cost of Capital):** I used a conservative Discount Rate of **9.0%**. Given the major deleveraging event from the Aerospace sale and management's target to bring net debt/Comparable EBITDA to $\sim2.75x$ by the end of 2025, the market may see the company as less risky than before, thus warranting a lower Cost of Equity/Discount Rate, such as **8.0%** or **8.5%**.
+**Justification for the Conservative Model ($40.45):**
 
-3.  **Profitability/Margin Expansion:** I projected a modest margin expansion to **8.75%** by 2026. The market may be assuming a stronger margin recovery and greater success from the company's focus on operational excellence and cost control, pushing the long-term margin closer to **9.0%** or higher.
-
-**Hypothetical Market-Implied Assumptions (What it would take to justify $49.83):**
-
-If we keep all other conservative assumptions constant (8.0% ROIC, 8.75% long-term margin, and the 9.0% Discount Rate), to arrive at the current market price of $49.83, the implied **Maturity Growth Rate ($g$)** would need to be approximately **3.2%**. This is significantly higher than my conservative 2.5% but well within the realm of possibility if the global "can-shift" trend is strong and sustained.
-
-**Conclusion:**
-
-The valuation suggests Ball Corporation is slightly overvalued given a **conservative, de-risked DCF model** that prioritizes management's long-term EPS guidance and a modest long-term growth rate in a mature industry. The market is currently pricing in a belief that Ball will achieve a sustained long-term growth rate of at least 3.0% or a lower cost of capital due to the deleveraging and focus on the core packaging business.
-
----
-
-## FAIR VALUE OF STOCK
-
-The calculated Fair Value of Ball Corporation (BALL) stock is:
-
-## $42.57 per share
+The difference is justified by the mandate to be conservative. The model assumes a **terminal growth rate (1.5%)** that barely covers inflation, essentially valuing the company as a utility-like asset with minimal long-term real growth. While management guides for 10%+ EPS growth, that growth relies on a combination of net income growth and share count reduction. By using a highly conservative revenue growth profile (tapering to 2.5%) and a very modest terminal growth rate, the valuation model is protected from over-optimistic long-term projections. To reach the market price of **\$65.00** with the same debt and cash figures, the implied Terminal Growth Rate would need to be approximately **3.0% - 3.5%**, or the WACC would need to be closer to **6.5% - 7.0%**, or a combination of both, reflecting the market's expectation of stronger and more certain long-term financial performance. The conservative valuation simply reflects a deliberate skepticism toward market-implied growth and profitability that extend over a 20+ year horizon.
