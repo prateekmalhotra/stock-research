@@ -1,149 +1,173 @@
-This valuation of Illinois Tool Works Inc. (ITW) stock utilizes a Discounted Cash Flow (DCF) model based on management guidance, the company's stated business engine, and conservative long-term assumptions. The model uses Net Income as a proxy for Free Cash Flow, as specified in the instructions.
-
-All financial figures are in **Millions of U.S. Dollars (\$)**, unless otherwise noted.
+This valuation of Illinois Tool Works Inc. (ITW) is conducted using a Discounted Cash Flow (DCF) model based on forward-looking revenue and margin projections derived primarily from management guidance in the latest available earnings call transcripts and SEC filings.
 
 ---
 
-## I. Initial Financial Data
+## 1. Current Financial Data & Key Assumptions
 
-The initial financial data is extracted from the latest public filings and reports, primarily the Q3 2025 earnings release/filing data.
+The initial financial data is sourced directly from the latest available SEC filings and earnings call summaries.
 
-| Metric | Value | Basis/Source |
+### A. Balance Sheet and Shares Outstanding
+
+| Metric | Value (in Millions USD) | Source/Derivation |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | \$924 Million | As of Q3 2025 |
-| **Total Debt** | \$8,940 Million | Total Debt as of Q3 2025 |
-| **Diluted Shares Outstanding** | 292.3 Million | As of October 2025 |
-| **Current Stock Price** | \$257.44 | Closing price as of Oct 23, 2025 |
-| **2024 Full-Year Revenue** | \$15,900 Million | Reported Full-Year 2024 Revenue |
-| **LTM ROIC** | 21.96% | LTM Return on Invested Capital |
+| **Total Cash & Cash Equivalents** | \$948 | Dec 31, 2024, 10-K |
+| **Total Debt** | \$7,085 | Sum of Long-term debt (\$6,308M) and Short-term debt (\$777M) as of Dec 31, 2024 (from Q1 2025 10-Q/10-K snippets) |
+| **Shares Outstanding** | 293.5 million | As of Jan 31, 2025 |
+| **Current Stock Price** | \$288.51 | As of Feb 5, 2026 (for comparison) |
+| **Current Market Cap** | \$84,657.38 | \$288.51 * 293.5M shares |
+
+### B. Business Engine Baseline (FY 2025)
+
+The business engine is anchored by the successful implementation of the **ITW Business Model** focusing on **Customer-Backed Innovation (CBI)** and **Enterprise Initiatives (EI)** for organic growth and margin expansion.
+
+| Metric | Value (in Millions USD, unless otherwise noted) | Source/Derivation |
+| :--- | :--- | :--- |
+| **Revenue (FY 2025)** | \$16,000 | Full-year 2025 reported revenue |
+| **Adjusted EPS (FY 2025)** | \$10.35 | Midpoint of the narrowed guidance range (\$10.40 to \$10.50), I will use the midpoint of the full year GAAP EPS guidance from an earlier update: (\$10.15 to \$10.55), which is \$10.35 |
+| **Net Income (FY 2025)** | \$3,037.73 | \$10.35 EPS * 293.5M shares |
+| **Net Income Margin (FY 2025)** | 18.99% | \$3,037.73M / \$16,000M |
+| **Long-Term Target** | Organic Growth of 3%+ by 2030 | ITW's strategic goal |
 
 ---
 
-## II. Business Engine Analysis & Projection Justification (2025 - 2030)
+## 2. Revenue and Net Income Projection (2026-2030)
 
-ITW’s valuation is heavily driven by the consistent execution of the **ITW Business Model**, which focuses on a decentralized, entrepreneurial culture and the **Enterprise Strategy** (referred to as Enterprise Initiatives). This strategy drives margin expansion and above-market organic growth, primarily through two pillars: **Product Line Simplification (PLS)** and **customer-backed innovation** (a key driver for higher content per vehicle in Automotive OEM).
+### A. Revenue Growth Assumptions
 
-*   **Controllable Factors:** The management consistently cites Enterprise Initiatives as contributing significantly to margin expansion (e.g., 140 bps in Q3 2025) and has a long-term goal for continued operating margin improvement. PLS, while a headwind to organic revenue ($\sim 1\%$ reduction), is an intentional part of improving the business's quality and margin profile.
-*   **Growth Drivers (2025):** The full-year 2025 organic growth guidance is $0-2\%$, reflecting a challenging demand environment. Strong segments like Automotive OEM (outperforming auto builds by 200–300 bps) and Welding are offsetting weaker ones like Construction Products and Polymers & Fluids.
+| Year | Revenue Growth Rate | Justification |
+| :--- | :--- | :--- |
+| **2026** | **2.0%** | Conservative (low end) of management's 2%-4% Total Revenue Growth guidance. |
+| **2027** | **3.0%** | Reflects increasing success of Customer-Backed Innovation (CBI), which reached 2.4% contribution in 2025. This is conservative relative to the 3%+ long-term goal. Assumes no material F/X or M&A impact. |
+| **2028** | **3.0%** | Sustained performance, in line with the long-term CBI objective but conservative at the lower bound of the target. |
+| **2029** | **2.5%** | Conservative moderation, reflecting market maturity and competition. |
+| **2030** | **2.0%** | Conservative long-term maturity rate for a large, diversified industrial company. |
 
-### Revenue Projection (2025 - 2030)
+### B. Margin and ROIC Assumptions
 
-ITW's historical performance suggests a long-term growth rate above industrial GDP, but the immediate environment is challenging. The projection adopts a conservative, declining growth rate, starting with the low-end of management's guidance and moderating to a conservative terminal growth rate.
+*   **Tax Rate:** **24.0%** (Based on management's projected effective tax rate).
+*   **Net Income Margin Expansion:** The primary driver is **Enterprise Initiatives (EI)**. Management expects EI to contribute **100 bps** of margin improvement annually. I will apply this to the Net Income Margin for the initial years and then taper to be conservative.
 
-| Year | Revenue (Start) | Organic Growth Rate (Assumption) | FX/Acq. (Assumption) | Total Revenue Growth Rate | Revenue Projection | Justification |
+| Year | Net Income Margin | Justification |
+| :--- | :--- | :--- |
+| **2025 (Base)** | 18.99% | FY 2025 Net Income / Revenue (calculated above) |
+| **2026** | **19.99%** (+100 bps) | Management guidance of 100 bps from EI. |
+| **2027** | **20.49%** (+50 bps) | Tapering of EI contribution to a conservative half of the original guidance. |
+| **2028** | **20.99%** (+50 bps) | Continued but reduced margin expansion from structural efficiency. |
+| **2029** | **21.24%** (+25 bps) | Further moderation of EI benefit. |
+| **2030** | **21.24%** (Flat) | Stable, mature Net Income Margin. |
+
+*   **Return on Invested Capital (ROIC):** **10.0%**
+    *   **Justification:** The company reported an exceptionally high after-tax ROIC of 29.3% in 2025. To adhere to the instruction to use a **conservative** but reasonable ROIC, I will use **10.0%**, which is a high-quality return but a fraction of their recent performance, reflecting extreme conservatism and a long-term normalized return on capital for new investments.
+
+### C. Projected Net Income Calculation (in Millions USD)
+
+| Year | Revenue (A) | Rev Growth (B) | NI Margin (C) | Base NI (D) = A * C | ROIC Income (E) | Total NI (D + E) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2025 (E)** | \$15,900 | 1.5% | 0.5% | 2.0% | **\$16,218** | Midpoint of 1-3% guidance, with organic trending toward lower end (0-2%). |
-| **2026 (E)** | \$16,218 | 2.5% | 0.0% | 2.5% | **\$16,623** | Modest acceleration from 2025, assuming a slight macro recovery, but maintaining conservatism. |
-| **2027 (E)** | \$16,623 | 2.5% | 0.0% | 2.5% | **\$17,039** | Reflects ITW's capability for "above-market growth" powered by innovation, but without FX benefit. |
-| **2028 (E)** | \$17,039 | 2.0% | 0.0% | 2.0% | **\$17,380** | Moderating growth as macro tailwinds stabilize. |
-| **2029 (E)** | \$17,380 | 1.5% | 0.0% | 1.5% | **\$17,640** | Approaching long-term industrial GDP growth. |
-| **2030 (E)** | \$17,640 | 1.0% | 0.0% | 1.0% | **\$17,816** | Conservative long-term growth rate for the final year. |
+| **2025** | \$16,000.00 | 0.0% | 18.99% | \$3,037.73 | - | **\$3,037.73** |
+| **2026** | \$16,320.00 | 2.0% | 19.99% | \$3,262.39 | \$303.77 (3037.73 * 10.0%) | **\$3,566.16** |
+| **2027** | \$16,809.60 | 3.0% | 20.49% | \$3,444.27 | \$356.62 (3566.16 * 10.0%) | **\$3,800.89** |
+| **2028** | \$17,313.89 | 3.0% | 20.99% | \$3,634.20 | \$380.09 (3800.89 * 10.0%) | **\$4,014.29** |
+| **2029** | \$17,742.74 | 2.5% | 21.24% | \$3,768.17 | \$401.43 (4014.29 * 10.0%) | **\$4,169.60** |
+| **2030** | \$18,097.59 | 2.0% | 21.24% | \$3,844.75 | \$416.96 (4169.60 * 10.0%) | **\$4,261.71** |
 
-### Margin and Net Income Projection (2025 - 2030)
-
-The key to ITW's value is its margin profile, driven by Enterprise Initiatives. Operating Margin is guided at 26-27% for 2025, with enterprise initiatives adding $\sim 125$ bps. This projection assumes management's margin expansion efforts continue, but at a more conservative pace for the later years.
-
-**The Valuation Engine Rule:** *Net income for each year goes straight into cash for the next year. Then get a reasonable ROIC percentage based on the past to get additional income for the next year.*
-
-*   **Net Income (NI) = Revenue * Net Income Margin**
-*   **ROIC-Driven Income (ROIC-NI)**: A very strong historical LTM ROIC of **21.96%** is a testament to the business model's strength. I will use a conservative ROIC assumption of **15.0%** for future cash deployment, which is significantly lower than the historical figure but still robust.
-*   **Net Income Margin:** The **2025** projection uses the midpoint of the Operating Margin guidance (26.5%) and the guided Effective Tax Rate (23%). Subsequent years assume a conservative, steady $\sim 50$ bps Operating Margin expansion per year, largely due to the predictable nature of the Enterprise Initiatives.
-
-#### **Calculation Steps:**
-1.  **Calculate Operating Income (OI):** Revenue * Operating Margin
-2.  **Calculate Net Income Before ROIC-Driven Income (NI_Base):** OI - Net Interest Expense (assume a conservative constant \$450M) * (1 - Tax Rate)
-3.  **Calculate ROIC-Driven Income (ROIC-NI):** (NI from Prior Year) * ROIC (15.0%)
-4.  **Calculate Total Net Income (NI_Total) / Proxy for Free Cash Flow (FCF):** NI_Base + ROIC-NI
-
-| Year | Revenue | Operating Margin % (Assumption) | Operating Income | NI Margin % (Implied) | NI Base (A) | Prior Year NI (B) | ROIC-NI (B * 15.0%) | Total FCF (A + ROIC-NI) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024 (A)** | \$15,900 | 26.8% | \$4,261 | 19.1% | \$3,030 | N/A | N/A | N/A |
-| **2025 (E)** | \$16,218 | 26.5% | \$4,300 | 19.2% | \$3,119 | \$3,030 | \$455 | **\$3,574** |
-| **2026 (E)** | \$16,623 | 27.0% | \$4,488 | 19.6% | \$3,293 | \$3,574 | \$536 | **\$3,829** |
-| **2027 (E)** | \$17,039 | 27.5% | \$4,686 | 20.0% | \$3,476 | \$3,829 | \$574 | **\$4,050** |
-| **2028 (E)** | \$17,380 | 28.0% | \$4,866 | 20.3% | \$3,630 | \$4,050 | \$608 | **\$4,238** |
-| **2029 (E)** | \$17,640 | 28.5% | \$5,027 | 20.7% | \$3,780 | \$4,238 | \$636 | **\$4,416** |
-| **2030 (E)** | \$17,816 | 29.0% | \$5,167 | 21.0% | \$3,913 | \$4,416 | \$662 | **\$4,575** |
-
-*Note: NI Base is conservatively calculated as (OI - \$450M Interest) * (1 - 0.23 Tax Rate). Interest expense of \$450M is a conservative increase over recent periods to account for the increase in total debt and potential higher interest rates.*
+*Note: The calculation assumes Net Income for each year goes straight into cash for the next year, and the additional income is generated by applying the ROIC% to the previous year's Total Net Income.*
 
 ---
 
-## III. Discounted Cash Flow (DCF) Analysis
+## 3. Discounted Cash Flow (DCF) Valuation
 
-### A. Rate Assumptions
+### A. Discount Rate and Terminal Value Assumptions
 
-*   **Discount Rate (WACC Proxy):** A conservative but reasonable rate of **8.0%** is chosen. This is in line with a stable, high-quality, dividend-growing industrial manufacturer (ITW has a 62nd consecutive dividend increase) with strong margins and returns (LTM ROIC of 21.96%) but with a significant debt-to-equity ratio.
-*   **Maturity Rate (Terminal Growth Rate):** A very conservative rate of **1.5%** is used. This is well below the long-term expected global GDP and the company's expected organic growth rate, reflecting a conservative, slow-growth mature phase after 2030.
+*   **Discount Rate (Conservative WACC):** **9.0%**
+    *   **Justification:** A conservative, yet reasonable discount rate for a stable, high-quality, diversified industrial conglomerate with a low beta and investment-grade rating. This is slightly above the long-term historical average return of the stock market, reflecting a robust hurdle rate.
+*   **Maturity Rate (Terminal Growth Rate):** **2.0%**
+    *   **Justification:** A very conservative long-term growth rate, which is in line with or slightly below the long-term expected global GDP and inflation, and matches the revenue growth assumption for 2030.
 
 ### B. Net Present Value (NPV) Calculation
 
-The Net Income (FCF Proxy) is discounted back to present value (as of year-end 2024 to simplify the period calculation, meaning 2025 cash flow is discounted by 1 year).
+The *Total Net Income* (which is assumed to be the Free Cash Flow for this valuation model per instructions) is discounted back to the present.
 
-| Year | FCF (NI Total) | Discount Factor (8.0%) | Net Present Value (NPV) |
+| Year | Total Net Income (Cash Flow) (in Millions USD) | Discount Factor (9.0%) | Present Value (in Millions USD) |
 | :--- | :--- | :--- | :--- |
-| **2025 (1)** | \$3,574 | 0.9259 | \$3,309 |
-| **2026 (2)** | \$3,829 | 0.8573 | \$3,284 |
-| **2027 (3)** | \$4,050 | 0.7938 | \$3,215 |
-| **2028 (4)** | \$4,238 | 0.7350 | \$3,115 |
-| **2029 (5)** | \$4,416 | 0.6806 | \$3,005 |
-| **2030 (6)** | \$4,575 | 0.6302 | \$2,883 |
-| **Sum of NPV (2025 - 2030)** | | | **\$18,811** |
+| **2026** | \$3,566.16 | 0.917 | \$3,270.47 |
+| **2027** | \$3,800.89 | 0.842 | \$3,200.05 |
+| **2028** | \$4,014.29 | 0.772 | \$3,099.99 |
+| **2029** | \$4,169.60 | 0.708 | \$2,951.35 |
+| **2030** | \$4,261.71 | 0.650 | \$2,770.93 |
+| **Subtotal (NPV of Explicit Period)** | - | - | **\$15,292.79** |
 
-### C. Terminal Value Calculation
+### C. Terminal Value (TV) Calculation
 
-Terminal Value (TV) is calculated using the Gordon Growth Model:
-*TV at 2030* = (FCF in 2030 * (1 + Maturity Rate)) / (Discount Rate - Maturity Rate)
-*TV at 2030* = (\$4,575 * (1 + 0.015)) / (0.080 - 0.015)
-*TV at 2030* = \$4,643 / 0.065 = **\$71,431 Million**
+The terminal value calculates the worth of all cash flows after 2030.
 
-*NPV of Terminal Value* = TV at 2030 * Discount Factor for 2030 (0.6302)
-*NPV of Terminal Value* = \$71,431 * 0.6302 = **\$45,014 Million**
+$$
+\text{Terminal Value}_{2030} = \frac{\text{Cash Flow}_{2030} \times (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}
+$$
 
-### D. Total Equity Value
+$$
+\text{Terminal Value}_{2030} = \frac{\$4,261.71 \times (1 + 0.02)}{0.09 - 0.02} = \frac{\$4,346.94}{0.07} = \$62,099.14 \text{ million}
+$$
 
-| Component | Value (Million \$) |
+$$
+\text{NPV of Terminal Value} = \frac{\text{Terminal Value}_{2030}}{\text{Discount Factor}_{2030}} = \frac{\$62,099.14}{1.689} = \$36,750.00 \text{ million}
+$$
+
+*Note on Discount Factor for TV: The discount factor is based on the 2030 discount factor for a 5-year model.*
+*Note on Discount Factor for TV (Revised): The TV is calculated at the end of the final explicit year (2030), so it is discounted back 5 years. Discount Factor = $\frac{1}{(1+0.09)^5}$ = 0.650*
+
+$$
+\text{NPV of Terminal Value} = \frac{\text{Terminal Value}_{2030}}{(1+\text{Discount Rate})^5} = \frac{\$62,099.14}{(1+0.09)^5} = \$62,099.14 \times 0.650 = \mathbf{\$40,364.44} \text{ million}
+$$
+
+### D. Enterprise Value and Equity Value
+
+| Metric | Value (in Millions USD) |
 | :--- | :--- |
-| Sum of NPV (2025-2030) | \$18,811 |
-| NPV of Terminal Value | \$45,014 |
-| **Enterprise Value** | **\$63,825** |
-| Plus: Cash & Cash Equivalents (C) | \$924 |
-| Less: Total Debt (D) | (\$8,940) |
-| **Fair Value of Equity** | **\$55,809** |
+| **NPV of Explicit Cash Flows** | \$15,292.79 |
+| **NPV of Terminal Value** | \$40,364.44 |
+| **Total Enterprise Value (TEV)** | **\$55,657.23** |
+| **Add: Total Cash & Equivalents** | \$948.00 |
+| **Less: Total Debt** | -\$7,085.00 |
+| **Equity Value** | **\$49,520.23** |
 
 ---
 
-## IV. Fair Value and Conclusion
+## 4. Fair Value Calculation and Justification
 
-### Calculation of Fair Value Per Share
+### A. Fair Value Per Share
 
-$$\text{Fair Value Per Share} = \frac{\text{Fair Value of Equity}}{\text{Diluted Shares Outstanding}}$$
+$$
+\text{Fair Value Per Share} = \frac{\text{Equity Value}}{\text{Shares Outstanding}} = \frac{\$49,520.23 \text{ million}}{293.5 \text{ million}} = \mathbf{\$168.72 \text{ per share}}
+$$
 
-$$\text{Fair Value Per Share} = \frac{\$55,809,000,000}{292,300,000}$$
-
-$$\text{Fair Value Per Share} = \mathbf{\$191.07}$$
-
-### Summary and Justification
+### B. Comparison to Market Price
 
 | Metric | Value |
 | :--- | :--- |
-| **Fair Value Per Share (DCF)** | **\$191.07** |
-| **Current Market Price (Oct 23, 2025)** | **\$257.44** |
-| **Difference** | **-25.7%** |
+| **Calculated Fair Value** | **\$168.72** |
+| **Current Market Price** | **\$288.51** |
+| **Valuation Gap** | **-41.5%** |
 
-The DCF-derived Fair Value of **\$191.07** is **25.7% lower** than the Current Market Price of \$257.44.
+### C. Justification of the Valuation Gap
 
-#### Justification for the Difference (DCF vs. Market)
+The calculated Fair Value of **\$168.72** is **41.5% lower** than the Current Market Price of **\$288.51**. This significant difference suggests that the market is making much more aggressive assumptions about ITW's future growth and profitability than the conservative model has allowed.
 
-The market is making a fundamental assumption that future growth and/or capital deployment will be more aggressive than the conservative figures used in this valuation model, specifically:
+**Why the Conservative Valuation is Lower (Market's Implicit Assumptions):**
 
-1.  **Higher Terminal Growth and/or Lower Discount Rate:** The market likely assumes a higher long-term growth rate ($\approx 2.0-2.5\%$) and a lower discount rate (lower WACC, perhaps $6.5-7.5\%$) for such a high-quality, dividend-aristocrat industrial company with an "arguably the strongest balance sheet". A lower WACC (discounting factor) and higher Terminal Growth Rate would significantly boost the NPV of the Terminal Value, which is the largest component of this valuation.
-    *   *Example:* Changing the Discount Rate to $7.0\%$ and the Maturity Rate to $2.0\%$ would yield a Fair Value per Share of approximately $\mathbf{\$261.21}$, which aligns closely with the current market price.
+1.  **Revenue Growth is Too Conservative:**
+    *   My model projects long-term growth (2027-2030) at a conservative 3.0%-2.0%.
+    *   **Market's Assumption:** The market is likely pricing in a more successful transition to the "Next Phase" strategy, believing ITW will achieve its **3%+ organic growth target** and sustain it well beyond 2030, possibly incorporating a higher impact from new market drivers like electric vehicles and semiconductor manufacturing. The market may be projecting 4% to 5% long-term revenue growth.
 
-2.  **More Aggressive Margin Expansion and ROIC:** The market may be assuming the company's Enterprise Initiatives will continue to drive margin expansion at a higher rate (e.g., $100$ bps per year) for a longer period, leading to a higher terminal operating margin (30%+) much sooner. Furthermore, the market may value the ROIC at its historical level ($\approx 22\%$) rather than the conservative $15.0\%$ used here, which would dramatically increase the projected "ROIC-Driven Income (ROIC-NI)" and, by extension, the FCF proxy in the projection period.
+2.  **Margin Expansion is Too Conservative:**
+    *   My model conservatively tapers the Enterprise Initiative (EI) contribution from 100 bps in 2026 to 25 bps by 2029.
+    *   **Market's Assumption:** The market likely believes the EI's structural improvements and cost discipline will lead to *sustained* 100+ bps of margin expansion (from Enterprise Initiatives) for a longer period (e.g., all the way to 2030), pushing the mature Net Income Margin significantly higher than the projected 21.24%.
 
-3.  **Future M&A:** Management has stated they "still have a lot of capacity on the balance sheet for any type of M&A opportunities". The market may be pricing in the value of future accretive acquisitions that are not accounted for in this model.
+3.  **ROIC/Reinvestment Rate is Too Conservative:**
+    *   My model uses an extremely conservative 10.0% ROIC on reinvested cash, compared to the company's reported 29.3% in 2025.
+    *   **Market's Assumption:** The market is likely modeling a higher reinvestment rate of Net Income and/or a much higher ROIC (e.g., 20%+) on reinvested capital, leading to a much higher growth rate for cash flow.
 
-**Conclusion:**
+4.  **Discount Rate is Too High:**
+    *   My model uses a high hurdle rate of 9.0%.
+    *   **Market's Assumption:** Given ITW's stability, low beta, and best-in-class margins and returns, the market may be applying a lower discount rate (e.g., 7.0%-7.5%), which would significantly inflate the present value of the Terminal Value.
 
-This valuation uses conservative estimates for long-term growth and capital deployment (ROIC of 15.0%) and a high discount rate (8.0%) for a stable industrial. The resulting fair value is substantially lower than the market price, indicating that the market is pricing in a more optimistic scenario. The market's implied assumptions (either a higher long-term growth rate/lower discount rate or a more aggressive ROIC/margin profile) are not unreasonable given ITW's track record of management execution and strong historical returns. The DCF suggests that for the current stock price to be justified, the fundamental assumptions (WACC/Terminal Growth) need to be adjusted to reflect a "premium" industrial with a higher long-term growth profile than a modest $1.5\%$ maturity rate.
+In summary, the market appears to be assigning a **premium valuation** to ITW based on the demonstrable success of its proprietary operating model (ITW Business Model) and the expectation of **sustained, best-in-class financial performance** that will meet or exceed its stated long-term goals for organic growth and margin expansion through its Enterprise Initiatives. The market views ITW as a premium multi-industrial with superior execution, justifying a valuation that our conservative inputs cannot support. For an investor to realize the calculated fair value, there would need to be a significant, sustained failure in the company's core strategic initiatives (CBI and EI) or a major unforeseen recession.
