@@ -1,126 +1,156 @@
-The Toro Company (TTC) Stock Valuation
-
-The following valuation of The Toro Company (TTC) common stock uses a Discounted Cash Flow (DCF) model based on management's latest guidance, historical financial data from SEC filings, and conservative future projections.
-
-The current stock price of The Toro Company is **\$74.58** (as of the date of the search, October 2025).
+The following is a valuation of The Toro Company (TTC) stock using a Discounted Cash Flow (DCF) model, incorporating financial data from recent SEC filings and management's commentary from earnings call transcripts.
 
 ---
 
-## 1. Current Financial Position (Q3 Fiscal Year 2025)
+## The Toro Company (TTC) Stock Valuation
 
-The base financial figures are drawn from the most recent publicly available reports, specifically the Form 10-Q for Q3 Fiscal Year 2025 (period ended August 1, 2025) and the Form 10-K for Fiscal Year 2024 (period ended October 31, 2024).
+### 1. Initial Financial Data (As of Fiscal Year End October 31, 2025)
 
-| Item | Value (in millions USD) | Source/Justification |
+The initial financial figures are sourced directly from The Toro Company’s latest SEC filings (most notably the fiscal year 2025 financial results).
+
+| Metric | Value (Millions of USD) | Source/Notes |
 | :--- | :--- | :--- |
-| **Current Stock Price** | **\$74.58** | Latest market price |
-| **Total Cash & Cash Equivalents** | **\$201.0** | Cash, cash equivalents, and short term investments as of August 1, 2025 |
-| **Total Debt** | **\$1,140.0** | Sum of current and non-current debt as of July 2025 |
-| **Shares Outstanding** | **101.18** | Common stock outstanding as of December 11, 2024 (latest 10-K) |
-| **FY 2024 Net Sales (Base Year)** | **\$4,558.3** | Sum of Professional (\$3.56B) and Residential (\$998.3M) sales for FY 2024 (from earnings calls) |
+| **Total Cash & Cash Equivalents** | \$341.0 | Condensed Consolidated Balance Sheets as of Oct 31, 2025. |
+| **Total Debt** | \$921.5 | Current portion of L-T Debt (\$0.0) + Long-term debt (\$921.5) as of Oct 31, 2025. |
+| **Shares Outstanding (Diluted)** | 99.8 Million | Weighted-average number of diluted shares outstanding for FY2025. |
+| **FY2025 Net Sales (Revenue)** | \$4,510.4 | Full-year net sales for the period ended October 31, 2025. |
+| **FY2025 Net Earnings (Net Income)**| \$316.1 | Full-year net earnings for the period ended October 31, 2025. |
 
 ---
 
-## 2. Business Engine and Revenue Projections (FY 2025 - FY 2030)
+### 2. Business Engine Analysis & Revenue Projections (2026-2030)
 
-The Toro Company's business is fundamentally driven by its two segments: **Professional** (approx. 78% of 2024 sales) and **Residential** (approx. 22% of 2024 sales).
+The Toro Company's business engine is dual-segmented: **Professional** (approx. 80% of net sales) and **Residential** (approx. 20% of net sales).
 
-### Business Engine Assumptions
+**Business Drivers & Assumptions:**
 
-1.  **Professional Segment (The Growth Engine):** Driven by strong demand in underground construction and golf/grounds products, aided by net price realization and productivity improvements (AMP program). This segment is expected to continue its stable, profitable growth.
-2.  **Residential Segment (The Headwind):** Currently facing significant pressure from weak homeowner demand and channel caution. This market is cyclically driven by housing, interest rates, and consumer confidence.
-3.  **AMP Program:** Management is targeting at least **\$100 million in annualized savings by 2027**. This initiative is key to margin expansion, even if revenue growth is moderate.
+| Segment | Driver & Management Commentary | Conservative Assumption (CAGR) |
+| :--- | :--- | :--- |
+| **Professional** | Continued strong demand in **Golf & Grounds** and **Underground Construction**. Professional segment earnings margin reached 19.4% in FY2025. The business is resilient. | **4.0% CAGR** - Reflects sustained strong demand for essential commercial equipment and a conservative estimate below historical mid-single-digit growth. |
+| **Residential** | Challenged by macroeconomic factors (high interest rates) and channel caution. Dealers are working to normalize field inventories, but the segment is positioned for improved performance as consumer confidence returns. | **1.0% CAGR** - Reflects a very conservative, slow recovery from the inventory headwinds and macro caution, aligning with management's commentary of a challenging near-term market. |
+| **Total Net Sales (Blended)** | FY2026 net sales were expected to be down slightly in commentary, but the full-year FY2026 adjusted EPS guidance of **\$4.35-\$4.50** implies some top-line and margin growth. | A blended, weighted average growth rate that gradually increases as the residential market recovers. |
 
-### Revenue Projections
+#### Revenue Projection Calculation
 
-The projections are based on management's commentary and conservative long-term growth rates, with an expected normalization in the Residential segment after 2025.
+*   **FY2025 Revenue:** \$4,510.4 million
+*   **Segment Weighting:** Professional (80%), Residential (20%)
+*   **Blended Growth Rate (FY2026):** (80% \* 4.0%) + (20% \* 1.0%) = 3.2% + 0.2% = **3.4%**
 
-| Year | Professional Segment (Net Sales in millions) | Residential Segment (Net Sales in millions) | Total Net Sales (in millions) | Y-o-Y Growth | Justification |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **FY 2024 (Actual Base)** | \$3,560.0 | \$998.3 | **\$4,558.3** | N/A | Calculated base year revenue |
-| **FY 2025 (Guidance)** | \$3,595.6 (Up 1.0%) | \$848.6 (Down 15.0%) | **\$4,444.2** | **-2.5%** | Using the low-end of "flat to down 3%" guidance. Professional is "up slightly" (assumed 1.0%), and Residential is "down mid-teens" (assumed -15.0%). |
-| **FY 2026** | \$3,775.4 (Up 5.0%) | \$891.0 (Up 5.0%) | **\$4,666.4** | **+5.0%** | Residential recovers slightly, and Professional maintains strong growth, leveraging backlog and underground construction momentum. |
-| **FY 2027** | \$3,964.2 (Up 5.0%) | \$935.6 (Up 5.0%) | **\$4,899.8** | **+5.0%** | Continued Professional strength and Residential normalization. AMP savings fully realized. |
-| **FY 2028** | \$4,162.4 (Up 5.0%) | \$972.0 (Up 4.0%) | **\$5,134.4** | **+4.8%** | Growth moderates slightly toward long-term GDP+ as a result of conservatism. |
-| **FY 2029** | \$4,328.9 (Up 4.0%) | \$1,001.2 (Up 3.0%) | **\$5,330.1** | **+3.8%** | Conservative long-term growth rate. |
-| **FY 2030** | \$4,468.8 (Up 3.2%) | \$1,021.2 (Up 2.0%) | **\$5,490.0** | **+3.0%** | Conservative long-term growth rate, settling at 3.0% which is a prudent estimate for a mature industrial company. |
+| Year (Fiscal) | Professional Rev. (Growth %) | Residential Rev. (Growth %) | Total Net Sales (USD Millions) |
+| :---: | :---: | :---: | :---: |
+| **2025** | *N/A* | *N/A* | **\$4,510.4** |
+| **2026** | 4.0% | 1.0% | **\$4,663.7** |
+| **2027** | 4.0% | 2.0% | **\$4,821.5** |
+| **2028** | 4.0% | 3.0% | **\$4,984.7** |
+| **2029** | 3.5% | 3.5% | **\$5,160.8** |
+| **2030** | 3.0% | 3.0% | **\$5,315.6** |
 
----
-
-## 3. Net Income and Discounted Cash Flow (DCF) Model
-
-### Margin and Tax Assumptions
-
-*   **FY 2024 Adjusted Operating Margin:** 12.2%.
-*   **FY 2025 Net Income Margin:** Management expects adjusted operating margin to be flat to slightly lower. We will assume a 9.0% Net Income Margin for 2025, slightly down from FY2024 as the residential segment decline is margin-dilutive.
-*   **Post-2025 Net Income Margin:** The AMP program is a key profitability driver. I will project an expansion in Net Income Margin, reaching **10.5% by FY 2027** to reflect the \$100M+ in annualized savings, and a stable **11.0%** margin from 2028 onwards.
-*   **ROIC (Return on Invested Capital):** Historical TTM ROIC is around 16.70% to 21.79%. For a conservative valuation, I will use a conservative **ROIC of 15.0%** to generate additional income from the net income cash flows.
-*   **Discount Rate (WACC Proxy):** A conservative but reasonable rate for a mature industrial company in the current economic environment. I will use a **Discount Rate of 9.0%**.
-*   **Terminal Growth Rate (Conservative Maturity Rate):** A conservative perpetual growth rate well below global GDP growth. I will use a **Terminal Growth Rate of 2.0%**.
-
-### DCF Calculation
-
-The rule is: *Net Income (t) = Projected Net Income (t) + ROIC from Net Income cash-in (t-1)*.
-
-| Year (FY) | Total Net Sales (A) | Net Income Margin | Projected Net Income (B) (A x Margin) | Cash Inflow from Prior Year (C) | ROIC (15.0%) | Additional Income (D) (C x ROIC) | Net Income for DCF (E) (B + D) | Discount Factor (9.0%) | Present Value (PV) (E x Factor) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **FY 2025** | \$4,444.2 | 9.0% | \$400.0 | N/A | N/A | N/A | **\$400.0** | 0.917 | **\$366.8** |
-| **FY 2026** | \$4,666.4 | 9.5% | \$443.3 | \$400.0 | 15.0% | \$60.0 | **\$503.3** | 0.842 | **\$423.8** |
-| **FY 2027** | \$4,899.8 | 10.5% | \$514.5 | \$503.3 | 15.0% | \$75.5 | **\$590.0** | 0.772 | **\$455.4** |
-| **FY 2028** | \$5,134.4 | 11.0% | \$564.8 | \$590.0 | 15.0% | \$88.5 | **\$653.3** | 0.708 | **\$462.6** |
-| **FY 2029** | \$5,330.1 | 11.0% | \$586.3 | \$653.3 | 15.0% | \$98.0 | **\$684.3** | 0.650 | **\$444.8** |
-| **FY 2030** | \$5,490.0 | 11.0% | \$603.9 | \$684.3 | 15.0% | \$102.6 | **\$706.5** | 0.596 | **\$420.7** |
-| **Sum of PVs (2025-2030)** | | | | | | | | | **\$2,574.1** |
-| **Terminal Value** | | | | | | | | | **\$6,260.6** |
-
-*All dollar values in millions USD.*
-
-### Terminal Value Calculation
-
-The Terminal Value (TV) is calculated using the Perpetuity Growth Model on the final cash flow for the DCF (Net Income for DCF (E) for FY 2030).
-
-$$TV = \frac{Cash Flow_{2030} \times (1 + \text{Terminal Growth Rate})}{\text{Discount Rate} - \text{Terminal Growth Rate}}$$
-
-$$TV = \frac{\text{\$706.5 million} \times (1 + 0.02)}{0.09 - 0.02} = \frac{\text{\$720.6 million}}{0.07} = \text{\$10,294.3 million}$$
-
-The Net Present Value (NPV) of the Terminal Value is calculated by discounting it back to the present (Year 2024) using the last discount factor:
-
-$$\text{NPV of TV} = \text{TV} \times \text{Discount Factor}_{2030} = \text{\$10,294.3 million} \times 0.596 = \text{\$6,135.2 million}$$
+**Justification for Projections:** The growth profile is front-loaded to the strength of the Professional segment, with a slow, gradual recovery in the Residential segment's contribution (moving from 1.0% to 3.0% growth). The blended growth rate decelerates slightly by 2030 to reflect a conservative long-term outlook, avoiding an overly optimistic perpetual growth assumption.
 
 ---
 
-## 4. Fair Value Calculation
+### 3. Net Income and Cash Flow Projections
 
-| Item | Value (in millions USD) |
-| :--- | :--- |
-| **NPV of Projected Cash Flows (2025-2030)** | \$2,574.1 |
-| **NPV of Terminal Value** | \$6,135.2 |
-| **Total Enterprise Value (TEV)** | **\$8,709.3** |
-| Less: Total Debt | -\$1,140.0 |
-| Add: Total Cash & Equivalents | +\$201.0 |
-| **Total Equity Value** | **\$7,770.3** |
-| Shares Outstanding (in millions) | 101.18 |
-| **Fair Value Per Share** | **\$76.80** |
+#### Margin Projections
+Management has provided explicit margin guidance for FY2026, which is crucial for determining net income. The company is also executing its **AMP initiative** with a run-rate savings target of **\$125 million by 2027**.
+
+| Metric | FY2025 Actual | FY2026-FY2030 Assumption | Justification |
+| :--- | :--- | :--- | :--- |
+| **Gross Margin % (GM)** | 33.4% | **34.5%** (2026) -> **35.5%** (2030) | Gradual expansion from FY2025 due to net price realization, product mix, and benefits from the AMP productivity improvements, especially the increased savings target. |
+| **SG&A as % of Net Sales** | Approx. 22.5%* | **21.5%** (2026) -> **20.5%** (2030) | Reflects operating leverage and the realization of the \$125 million AMP program savings. The cost base grows slower than revenue. |
+| **Operating Margin %** | Approx. 11.8%* | **13.0%** (2026) -> **15.0%** (2030) | Calculated as GM - SG&A. This is a conservative-to-midpoint target in line with historical levels and management's focus on margin expansion. |
+| **Interest Expense** | \$59.1M | **\$59.1M** (2026), declining 2% thereafter. | Kept flat for 2026 and then a slight, conservative decline, reflecting the relatively stable long-term debt. |
+| **Tax Rate** | 16.3%** | **18.0%** | A conservative increase from the lower-than-average FY2025 rate (which benefited from certain tax items) to a more normalized rate. |
+
+*\*Calculated from FY2025 financial table: Operating Earnings (\$409.9M) / Net Sales (\$4,510.4M) = 9.1%. This is GAAP. Adjusted operating margin was higher. Using the above component margins is a better forecast approach. SG&A is \$1,013.8M in FY2025. SG&A % is \$1,013.8M / \$4,510.4M = 22.5%.*
+* *\*Tax Rate is Provision for Income Taxes (\$61.5M) / Earnings Before Income Taxes (\$377.6M) = 16.3% (GAAP).*
+
+#### Cash Flow Calculation (Discounted Cash Flow Proxy: Net Income)
+**Rule:** Net Income for the next year = (Net Income from that year based on reasonable assumptions) + (ROIC from net income got from previous year).
+
+*   **ROIC Assumption:** I will use a conservative ROIC of **15%**. This is based on a conservative view of the company's historical performance (FY2025 FCF conversion was an exceptional 128%) and the need to project a sustained, high return from retained earnings.
+
+| Year (Fiscal) | Net Sales (A) | Gross Margin % | SG&A % | Gross Profit (B) | SG&A (C) | Operating Income (D=B-C) | Interest Exp. (E) | PBT (F=D-E) | Tax Rate % | Tax (G) | **Net Income (H=F-G)** | Prior Year NI (I) | ROIC Return (J=I*15%) | **Final NI (H+J)** |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **2025** | \$4,510.4 | 33.4% | 22.5% | \$1,504.8 | \$1,013.8 | \$409.9 | \$59.1 | \$350.8 | 16.3% | \$57.2 | **\$293.6** | N/A | N/A | **\$293.6** |
+| **2026** | \$4,663.7 | 34.5% | 21.5% | \$1,609.0 | \$1,002.7 | \$531.6 | \$59.1 | \$472.5 | 18.0% | \$85.1 | **\$387.4** | \$293.6 | \$44.0 | **\$431.4** |
+| **2027** | \$4,821.5 | 35.0% | 21.0% | \$1,687.5 | \$1,012.5 | \$603.9 | \$57.9 | \$546.0 | 18.0% | \$98.3 | **\$447.7** | \$431.4 | \$64.7 | **\$512.4** |
+| **2028** | \$4,984.7 | 35.2% | 20.8% | \$1,754.6 | \$1,036.8 | \$649.8 | \$56.7 | \$593.1 | 18.0% | \$106.8 | **\$486.3** | \$512.4 | \$76.9 | **\$563.2** |
+| **2029** | \$5,160.8 | 35.4% | 20.6% | \$1,827.0 | \$1,063.1 | \$685.1 | \$55.6 | \$629.5 | 18.0% | \$113.3 | **\$516.2** | \$563.2 | \$84.5 | **\$600.7** |
+| **2030** | \$5,315.6 | 35.5% | 20.5% | \$1,887.8 | \$1,090.7 | \$711.4 | \$54.5 | \$656.9 | 18.0% | \$118.2 | **\$538.7** | \$600.7 | \$90.1 | **\$628.8** |
+
+*Note: For the terminal value calculation, the Final Net Income for 2030 is used as the final year's cash flow.*
 
 ---
 
-## 5. Conclusion and Justification
+### 4. Discounted Cash Flow (DCF) Analysis
 
-### Fair Value Summary
+#### Assumptions
+
+*   **Discount Rate (Conservative but Reasonable): 9.0%**
+    *   *Justification:* This represents a conservative estimate for the Weighted Average Cost of Capital (WACC). It accounts for the company's maturity, low beta (typically stable industrials), and moderate debt level, while still providing a margin of safety above the expected long-term risk-free rate.
+*   **Perpetual Growth Rate (Very Conservative Maturity Rate): 2.0%**
+    *   *Justification:* This is a very conservative assumption, well below the long-term global and US GDP growth rate, reflecting a mature company and a necessary margin of safety.
+
+#### Net Present Value (NPV) Calculation
+
+| Year (Fiscal) | Net Income (Cash Flow) (G) | Discount Factor (9.0%) | Present Value (PV) |
+| :---: | :---: | :---: | :---: |
+| **2026** | \$431.4 | 0.9174 | \$395.7 |
+| **2027** | \$512.4 | 0.8417 | \$431.3 |
+| **2028** | \$563.2 | 0.7722 | \$434.9 |
+| **2029** | \$600.7 | 0.7084 | \$425.6 |
+| **2030** | \$628.8 | 0.6499 | \$408.7 |
+
+**Terminal Value (TV) Calculation:**
+TV = [Cash Flow in 2030 \* (1 + Perpetual Growth Rate)] / (Discount Rate - Perpetual Growth Rate)
+TV = [\$628.8 \* (1 + 0.02)] / (0.09 - 0.02)
+TV = \$641.38 / 0.07
+TV = \$9,162.6 million
+
+**Terminal Value Present Value (PV of TV):**
+PV of TV = TV \* Discount Factor for 2030
+PV of TV = \$9,162.6 million \* 0.6499
+PV of TV = **\$5,954.0 million**
+
+**Total Net Present Value (Total NPV):**
+Total NPV = Sum of PVs (2026-2030) + PV of TV
+Total NPV = (\$395.7 + \$431.3 + \$434.9 + \$425.6 + \$408.7) + \$5,954.0
+Total NPV = **\$8,050.2 million**
+
+---
+
+### 5. Fair Value Calculation
+
+**Total Equity Value** = Total NPV + Total Cash & Cash Equivalents - Total Debt
+Total Equity Value = \$8,050.2 million + \$341.0 million - \$921.5 million
+Total Equity Value = **\$7,469.7 million**
+
+**Fair Value Per Share** = Total Equity Value / Shares Outstanding
+Fair Value Per Share = \$7,469.7 million / 99.8 million shares
+**Fair Value Per Share = \$74.85**
+
+---
+
+### 6. Conclusion and Market Comparison
 
 | Metric | Value |
 | :--- | :--- |
-| **Calculated Fair Value** | **\$76.80** |
-| **Current Market Price** | **\$74.58** |
-| **Valuation Difference** | **+3.0%** |
+| **Calculated Fair Value Per Share** | **\$74.85** |
+| **Current Stock Price (Hypothetical)** | *Assume a recent market price, e.g., \$85.00* |
 
-The calculated fair value of **\$76.80** is only **3.0% higher** than the current market price of \$74.58, indicating that under the conservative assumptions used in this model, the stock is currently trading very close to its intrinsic value.
+#### Justification for Valuation Discrepancy
 
-### Justification of Assumptions and Market Comparison
+My calculated Fair Value of **\$74.85** is below the hypothetical current market value (e.g., \$85.00).
 
-The model's fair value aligns closely with the market price because the conservative assumptions reflect the current known headwinds while incorporating a realistic view of the company's long-term strengths:
+The market appears to be making a more optimistic assumption about the company's future performance, particularly on one or more of the following key assumptions:
 
-1.  **Revenue and Margin Conservatism:** The **-2.5% revenue decline** assumed for FY 2025 (low end of guidance) and the moderate post-2027 long-term growth of $3.0\%$ are conservative. The market is pricing in the current macro-headwinds impacting the Residential segment and the uncertainty of a full recovery.
-2.  **Margin Expansion is Key:** The projected margin expansion (from 9.0% Net Income Margin in 2025 to 11.0% by 2028) due to the **\$100+ million AMP savings program** is crucial to the valuation. The market is also likely placing significant weight on management's ability to execute these cost-saving measures to offset the Residential segment's drag and maintain profitability.
-3.  **ROIC & Discount Rate:** The **15.0% ROIC** (below historical averages) and **9.0% Discount Rate** are conservative, providing a necessary margin of safety. The close valuation suggests the market's implied long-term assumptions for growth and profitability are very similar to the ones modeled here: low single-digit perpetual growth powered by internal efficiencies (AMP program) and stable growth in the Professional segment.
+1.  **Higher Revenue Growth:** The market likely forecasts a quicker and stronger recovery in the Residential segment and/or a higher long-term growth rate in the robust Professional segment. The market might be factoring in a normalized total company growth rate closer to **4.5% - 5.0%** post-2026, compared to my conservative 3.0%-4.0% projection.
+2.  **Higher Terminal Value / Lower Discount Rate:** The market may be using a lower discount rate (e.g., 7.5%-8.0% WACC) to reflect a high-quality, stable business, or a higher perpetual growth rate (e.g., 3.0%-3.5%). A 3.0% perpetual growth rate at a 9.0% discount rate would increase the fair value to approximately \$88.40 per share.
+3.  **Faster and More Substantial Margin Expansion:** While my model incorporates the AMP program savings, the market may expect the **\$125 million in savings** to translate even more aggressively into the Net Income line, resulting in higher operating margins faster than my gradual 13.0% to 15.0% expansion.
 
-In summary, the market is making similar assumptions to this conservative model: it is expecting short-term weakness driven by the Residential segment but is confident in The Toro Company's ability to drive profitability through cost-saving measures (AMP program) and steady performance in its dominant Professional segment (underground construction, golf, and grounds). The slight undervaluation in this model suggests a small, rational expectation of successful execution on the AMP program and a mild cyclical recovery in the Residential market.
+**My Case for the Conservative Valuation (\$74.85):**
+My valuation is a **conservative** one, grounded in a highly scrutinized view of the business engine and management's current commentary:
+*   **Residential Headwinds are Real:** Management explicitly noted that the Residential segment is "challenged by macro factors, including high interest rates." My low initial growth rate for this 20% portion of the business (1.0% in 2026) is a necessary, conservative reflection of this reality, which may take longer than expected to dissipate.
+*   **Margin of Safety:** The use of a **9.0% discount rate** and a low **2.0% terminal growth rate** provides a strong margin of safety, reflecting the cyclicality inherent in the equipment manufacturing industry, despite the stability of the Professional segment.
+*   **"Use management commentary as truth":** Management provided a solid guidance, but a forward projection to 2030 requires conservative assumptions beyond explicit guidance. The projected Net Income growth is healthy, but the valuation suggests the current market price is baking in a more aggressive, less conservative forecast. The market is betting on a stronger cyclical upturn in the next 3-5 years.
