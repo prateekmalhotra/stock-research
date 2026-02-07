@@ -1,169 +1,135 @@
-## Valuation of Noble Corporation plc (NE) Stock
+This valuation of Noble Corporation plc (NE) stock is based solely on financial information extracted from SEC filings/earnings summaries and a conservative business engine analysis derived from management commentary.
 
-This valuation is based on a Discounted Cash Flow (DCF) model using a conservative business engine derived from the company's latest financial reports and management commentary, adhering strictly to the provided rules.
+The final output is a Discounted Cash Flow (DCF) valuation to determine the intrinsic value per share.
 
-### I. Starting Financial Data (as of June 30, 2025)
+---
 
-The following financial data is sourced from Noble Corporation plc's Q2 2025 earnings release, which is filed with the U.S. Securities and Exchange Commission (SEC).
+# Noble Corporation plc (NE) Stock Valuation
 
-| Metric | Value (USD Millions) | Source/Basis |
+## I. Core Financial Data (As of latest available reports)
+
+The following financial figures are sourced from Noble Corporation's earnings reports and press releases, which summarize the information from SEC filings.
+
+| Metric | Value (Millions USD) | Notes |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | $338 million | Q2 2025 Balance Sheet |
-| **Total Debt** | $2,000 million (or $2.0 Billion) | Q2 2025 Balance Sheet |
-| **Shares Outstanding** | 158.8 million | Most recent data [cite: 6 in step 1] |
-| **Current Stock Price (approx.)** | $27.48 (as of 10/17/2025) [cite: 14 in step 1] | For comparison purposes only |
+| **Total Cash & Cash Equivalents** | \$478 | As of Q3 2025 earnings summary. |
+| **Total Debt** | \$1,950 | Principal value as of December 31, 2024. |
+| **Shares Outstanding** | 158.85 million | Rounded value from various reports. |
+| **Current Stock Price** | \$37.02 | Last closing price from a recent date for comparison. |
+| **Historical Net Income Margin** | 11.0% | Based on Q4 2024 Net Income (\$97M) / Revenue (\$882M). |
+| **Historical ROIC** | 5.77% | Reported trailing ROIC. |
 
 ---
 
-### II. Business Engine and Financial Projections (2025-2030)
+## II. Business Engine Analysis and Revenue Projections (2025-2030)
 
-The core business of Noble Corporation (NE) is contract offshore drilling, driven by rig utilization, average day rates, and fleet size/quality. The company's future revenue is heavily underpinned by its substantial **contract backlog** ($6.9 billion as of Q2 2025), which provides excellent visibility into the near-term and a strong base for long-term estimates. The business engine relies on securing new contracts at higher day rates as the deepwater drilling cycle continues its recovery.
+Noble Corporation is a contract driller, meaning its revenue is driven by:
+1.  **Fleet Utilization:** The percentage of time their rigs are on contract.
+2.  **Average Day Rates:** The price charged per day for the drilling services.
+3.  **Fleet Size:** The number of rigs (24 marketed floaters as of Jan 2026).
 
-**Key Engine Assumptions:**
+**Management Commentary & Market Cycle:**
+*   **2025:** Full-year Adjusted EBITDA guidance is strong at \$1.1 - \$1.125 billion.
+*   **2026:** Management expects an **EBITDA trough** in the first half of 2026 due to market softening, followed by a recovery towards late 2026.
+*   **2027 & Beyond:** A market inflection and increasing deepwater activity are anticipated in late 2026 or early 2027. New contracts are being signed at higher rates (\$300k - \$473M over three years), and marketed drillship utilization is projected to be 94% for 2027 (industry-wide). The company has a substantial backlog of over **\$8.3 billion** that smooths out near-term fluctuations.
 
-1.  **2025 Revenue:** Based on management's full-year guidance midpoint.
-    *   *2025 Revenue Guidance:* \$3.20 billion - \$3.30 billion.
-    *   *Conservative Estimate:* Midpoint **\$3.25 Billion**.
-2.  **Backlog Conversion:** The existing backlog provides the floor for future years' revenue:
-    *   2026: \$2.3 Billion (49% coverage)
-    *   2027: \$1.6 Billion (36% coverage)
-    *   2028: \$1.0 Billion (20% coverage)
-    *   2029-2031: \$0.9 Billion (5% coverage) [cite: 6 in step 2]
-3.  **Uncontracted Revenue (Spot Market):** The remaining revenue for each year must come from new contracts. I will model the uncontracted portion based on a combination of a slowly rising market day rate and conservative, gradual utilization improvement. The company's strategic focus on high-specification fleets and fleet rationalization is expected to capture high-value contracts [cite: 7, 12 in step 1].
-    *   **Assumption:** The offshore drilling market is recovering, but the long-term nature of this business cycle warrants conservative uncontracted revenue growth. I assume an annual increase in *new contracting revenue* of **5%** on the uncontracted portion of available days. The uncontracted portion will be estimated as Total Revenue minus Backlog Conversion for each year.
-4.  **Net Income Margin (NIM):**
-    *   *2025 NIM:* Based on the Q1 and Q2 2025 Net Income and the overall 2025 Revenue estimate. The sum of Q1 and Q2 2025 Net Income is \$108M + \$43M = \$151M. This is an approximate annualized NIM of $\sim 4.6\%$ (if Q3 and Q4 are similar). The 2025 Adjusted EBITDA guidance midpoint is \$1.1125B. Due to the high **\$100 million in merger synergies** expected to be fully realized by the end of 2025 [cite: 7 in step 1] and operating leverage, a slight improvement in NIM is justified.
-    *   *Conservative Estimate:* I will project a starting Net Income Margin of **5.5%** for 2025 and assume conservative, incremental expansion to **6.0%** by 2030 due to cost controls, full synergy realization, and improving operating leverage from higher day rates. This is a conservative assumption given the high Adjusted EBITDA guidance and is well below the 9.39% TTM net income margin cited in external data [cite: 1 in step 1].
+**Conservative Revenue Model Assumptions:**
 
-#### Revenue and Net Income Projection Table
+| Year | Rationale | Assumption |
+| :--- | :--- | :--- |
+| **2025** | Using the midpoint of management's Adj. EBITDA guidance (\$1.1125B) and a conservative Q3 2025 Adj. EBITDA margin (32%) to back into Revenue. | **\$3,476 Million** (Calculated: \$1,112.5M / 0.32) |
+| **2026** | Reflects the anticipated H1 trough and flat/lower day rates from contracts rolling off, despite new contracts starting later in the year. A conservative year-over-year **decrease**. | **-2.5%** |
+| **2027** | Reflects the predicted market inflection, rising day rates from newly signed, higher-priced contracts, and near-max utilization. | **+10.0%** |
+| **2028** | Continued strong growth as the industry cycle is in full swing, but moderating from the inflection year. | **+8.0%** |
+| **2029** | Stable, high-utilization operations with moderate growth as the cycle matures. | **+5.0%** |
+| **2030** | Further moderation, projecting a conservative, sustained growth rate. | **+4.0%** |
 
-| Year | (A) Backlog Conversion (Billion) [cite: 6 in step 2] | (B) Estimated Total Revenue (Billion) | (C) Net Income Margin (NIM) | (D) Projected Net Income (Billion) (B x C) |
-| :--- | :--- | :--- | :--- | :--- |
-| **2025** | *N/A (using guidance)* | $3.250 | 5.50% | $0.179 |
-| **2026** | $2.300 | $3.500 | 5.60% | $0.196 |
-| **2027** | $1.600 | $3.750 | 5.70% | $0.214 |
-| **2028** | $1.000 | $3.900 | 5.80% | $0.226 |
-| **2029** | $0.300 | $4.000 | 5.90% | $0.236 |
-| **2030** | *N/A* | $4.100 | 6.00% | $0.246 |
+## III. Projected Financials and Discounted Cash Flow (DCF)
 
-***Justification for Revenue 2026-2030 (B):***
-*   **2026:** \$3.50B is a conservative increase from 2025's \$3.25B, well-justified by the \$2.3B in firm backlog, leaving \$1.2B to be contracted, a reasonable amount given market recovery and $6.9B total backlog [cite: 6 in step 2].
-*   **2027-2030:** I model a conservative, decelerating annual revenue growth rate from 7.1% (2026-2027) down to 2.5% (2029-2030). This reflects the expected full utilization of the high-spec fleet and the conservative nature of the offshore deepwater cycle, where growth is constrained by rig supply and day-rate strength rather than massive new fleet capacity.
+### 1. Projections (Millions USD)
 
----
+The valuation assumes that Net Income is a reasonable proxy for Free Cash Flow (FCF) for the purposes of this DCF.
 
-### III. Discounted Cash Flow (DCF) Analysis
+| Metric | Calculation | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **A. Revenue** | Base year derived from guidance, then growth rates applied. | **3,476** | **3,388** | **3,727** | **4,025** | **4,226** | **4,395** |
+| **B. Net Income Margin** | Conservative estimate below Q4 2024's 11.0%. | 10.0% | 10.0% | 10.0% | 10.0% | 10.0% | 10.0% |
+| **C. Initial Net Income** (A * B) | --- | 348 | 339 | 373 | 403 | 423 | 440 |
+| **D. Prior Year Cash (Net Income)** | Year-over-year carry-over of net income. | (Starting NI) | 348 | 339 | 373 | 403 | 423 |
+| **E. ROIC** (Conservative) | Conservative rate below historical 5.77%. | 5.0% | 5.0% | 5.0% | 5.0% | 5.0% | 5.0% |
+| **F. ROIC Income** (D * E) | Additional income generated from retained earnings. | 17 | 17 | 19 | 20 | 21 | 22 |
+| **G. Total Cash Flow (Net Income)** (C + F) | Represents the estimated Free Cash Flow for the DCF. | **365** | **356** | **392** | **423** | **444** | **462** |
 
-The cash flow for this DCF model is defined as: **Projected Net Income** + **Income from Reinvested Cash (ROIC)**.
+***
 
-#### A. Return on Invested Capital (ROIC) Assumption
+### 2. Discounted Cash Flow (DCF) Calculation
 
-*   **Rule:** Assume net income for each year goes straight into cash for the next year. Then get a reasonable ROIC percentage based on the past to get additional income for the next year.
-*   **Historical ROIC (TTM):** The Trailing Twelve Months (TTM) ROIC is approximately 7.96% [cite: 1 in step 1].
-*   **Conservative ROIC for Projection:** I will use a conservative **7.5%** ROIC on the prior year's accumulated cash (Net Income from prior years). This is slightly below the TTM figure and reflects a prudent expectation for returns on reinvested earnings in capital-intensive projects.
+*   **Discount Rate (WACC):** **10.0%** (Conservative given a historical 9.00% WACC and offshore sector risk)
+*   **Terminal Value Growth Rate (Maturity Rate):** **2.0%** (A very conservative long-term growth rate for a cyclical industry)
 
-#### B. Discount Rate and Maturity Rate
+| Year | Cash Flow (FCF) | Discount Factor (1 / (1 + 0.10)^t) | Present Value (PV) |
+| :--- | :--- | :--- | :--- |
+| **2025** | \$365 | 0.9091 | \$332 |
+| **2026** | \$356 | 0.8264 | \$294 |
+| **2027** | \$392 | 0.7513 | \$294 |
+| **2028** | \$423 | 0.6830 | \$289 |
+| **2029** | \$444 | 0.6209 | \$276 |
+| **2030** | \$462 | 0.5645 | \$261 |
+| **Sum of PV (2025-2030)** | --- | --- | **\$1,746** |
 
-*   **Discount Rate (Conservative but Reasonable):** I will use a **10.0%** discount rate. This is reasonable for an offshore driller operating in a highly cyclical, volatile, and capital-intensive industry, reflecting a higher required rate of return than a stable utility.
-*   **Terminal (Maturity) Rate (Conservative):** The conservative long-term growth rate after 2030 is set at **2.0%**. This is a standard conservative rate, slightly above long-term inflation, assuming NE will grow at a modest pace well into maturity.
+**Terminal Value (TV) Calculation (End of 2030):**
+*   TV = [FCF 2030 * (1 + Terminal Growth Rate)] / (WACC - Terminal Growth Rate)
+*   TV = [\$462 * (1 + 0.02)] / (0.10 - 0.02)
+*   TV = \$471.24 / 0.08 = **\$5,891 Million**
 
-#### C. DCF Calculation
+**Terminal Value Net Present Value (TV-NPV):**
+*   TV-NPV = TV / (1 + WACC)^6
+*   TV-NPV = \$5,891 / (1.10)^6 = \$5,891 / 1.7716 = **\$3,325 Million**
 
-| Year | Projected Net Income (Billion) | Income from ROIC (7.5%) (Billion) | Total Cash Flow (Billion) | Discount Factor (10.0%) | Present Value (Billion) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **2025** | $0.179 | $0.000 | $0.179 | 0.909 | $0.163 |
-| **2026** | $0.196 | $0.013 ($0.179 * 7.5%) | $0.209 | 0.826 | $0.173 |
-| **2027** | $0.214 | $0.028 ($0.388 * 7.5%) | $0.242 | 0.751 | $0.182 |
-| **2028** | $0.226 | $0.046 ($0.630 * 7.5%) | $0.272 | 0.683 | $0.186 |
-| **2029** | $0.236 | $0.066 ($0.902 * 7.5%) | $0.302 | 0.621 | $0.188 |
-| **2030** | $0.246 | $0.090 ($1.204 * 7.5%) | $0.336 | 0.564 | $0.189 |
-| **Sum of NPV (2025-2030)** | | | | | **$1.081 Billion** |
+**Total Net Present Value (NPV):**
+*   Total NPV = Sum of PV (2025-2030) + TV-NPV
+*   Total NPV = \$1,746 + \$3,325 = **\$5,071 Million**
 
-***Note on ROIC:*** *The ROIC base for year N is the accumulated net income from all prior years (Year 2025 Cash Flow Base = 2025 Net Income. 2026 Cash Flow Base = 2025 Net Income + 2026 Net Income etc.). For the table, the Cash Flow base for 2027 is Net Income (2025) + Total CF (2026 Net Income) = $0.179B + $0.209B = $0.388B.*
+***
 
-#### D. Terminal Value (TV) Calculation
+## IV. Fair Value Calculation and Justification
 
-The terminal value is calculated as the Perpetuity Growth Model starting from 2031:
+### 1. Fair Value Calculation
 
-$$
-\text{Terminal Value} = \frac{\text{Cash Flow}_{2030} \times (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}
-$$
-
-$$
-\text{Terminal Value} = \frac{\$0.336 \text{ Billion} \times (1 + 0.02)}{0.10 - 0.02} = \frac{\$0.3427 \text{ Billion}}{0.08} = \$4.284 \text{ Billion}
-$$
-
-**NPV of Terminal Value (Discounted to present):**
-$$
-\text{NPV of TV} = \text{Terminal Value} \times \text{Discount Factor}_{2030}
-$$
-
-$$
-\text{NPV of TV} = \$4.284 \text{ Billion} \times 0.564 = **\$2.416 \text{ Billion}**
-$$
-
-#### E. Total Enterprise Value (EV)
-
-$$
-\text{Total Enterprise Value (EV)} = \text{Sum of NPV (2025-2030)} + \text{NPV of TV}
-$$
-
-$$
-\text{Total Enterprise Value (EV)} = \$1.081 \text{ Billion} + \$2.416 \text{ Billion} = **\$3.497 \text{ Billion}**
-$$
-
----
-
-### IV. Fair Value Calculation
-
-The Fair Value of Equity is calculated by adjusting the Enterprise Value for Debt and Cash.
-
-| Metric | Value (USD Billions) |
+| Metric | Value (Millions USD) |
 | :--- | :--- |
-| **Total Enterprise Value (EV)** | $3.497 |
-| (+) Total Cash & Cash Equivalents | $0.338 |
-| (-) Total Debt | $2.000 |
-| **Total Fair Value of Equity** | **$1.835 Billion** |
+| **Total Net Present Value (NPV)** | **\$5,071** |
+| **Add: Total Cash & Cash Equivalents** | \$478 |
+| **Subtract: Total Debt** | -\$1,950 |
+| **Equity Value** | **\$3,599** |
+| **Shares Outstanding** | 158.85 |
+| **Fair Value Per Share** (Equity Value / Shares Outstanding) | **\$22.66** |
 
-**Fair Value Per Share Calculation:**
+### 2. Market Comparison and Justification
 
-$$
-\text{Fair Value Per Share} = \frac{\text{Total Fair Value of Equity}}{\text{Shares Outstanding}}
-$$
+| Metric | Valuation Result | Market Value | Difference |
+| :--- | :--- | :--- | :--- |
+| **Fair Value Per Share** | **\$22.66** | **\$37.02** | **-38.8%** |
 
-$$
-\text{Fair Value Per Share} = \frac{\$1,835 \text{ Million}}{158.8 \text{ Million Shares}} = **\$11.56 \text{ Per Share}**
-$$
+The calculated fair value of **\$22.66** per share is significantly lower than the current market price of **\$37.02**.
 
----
+**Justification for the Difference:**
 
-### V. Final Result and Justification
+The substantial difference implies that **the market's consensus assumptions for Noble Corporation's future cash flows are significantly more optimistic than the conservative assumptions used in this valuation.**
 
-| Metric | Value |
-| :--- | :--- |
-| **Fair Value Per Share (DCF)** | **$11.56** |
-| **Current Market Price (approx.)** | **$27.48** |
+1.  **More Aggressive Day Rate/Utilization Assumptions:**
+    *   **The Market:** Is likely pricing in much higher day rates (e.g., \$500k to \$600k for high-spec rigs) and a faster ramp-up of utilization starting earlier than late 2026. The market is projecting a steeper and longer-duration up-cycle than the modest **10%** and **8%** growth rates assumed for 2027-2028 in this analysis.
+    *   **Conservative Valuation:** The revenue growth reflects a conservative, delayed recovery, and the terminal value assumes only 2.0% perpetual growth, which is a significant dampener compared to a high-growth "re-rating" scenario the market may be anticipating.
 
-#### Justification for Discrepancy
+2.  **Higher Terminal Value/Lower Discount Rate:**
+    *   **The Market:** May be using a significantly lower cost of capital (Discount Rate/WACC) than the conservative **10.0%** used here, reflecting the company's strong balance sheet post-debt restructuring and its superior, high-spec fleet. A lower WACC significantly inflates the NPV and especially the Terminal Value (e.g., a 9.0% WACC and 3.0% growth would yield a fair value closer to the current price).
+    *   **The Market:** Is also likely projecting a much higher long-term growth rate for the Terminal Value (e.g., 3.0% - 4.0%), capitalizing on the structural supply constraints in the offshore drilling industry (due to high replacement cost and lack of new-builds), which Noble is uniquely positioned to capitalize on with its fleet.
 
-The calculated Fair Value of **\$11.56** is significantly lower than the market price of approximately **\$27.48**. The market is making assumptions that are *far more optimistic* than the conservative model employed here.
+3.  **Margin/ROIC Optimism:**
+    *   **The Market:** Is likely anticipating an immediate and sustained increase in the Net Income Margin above the conservative **10.0%** used here, leveraging the high operating leverage of the drilling business as day rates increase. They may also project a higher ROIC than the **5.0%** used, reflecting superior capital allocation.
 
-**Reasons for the Market's Higher Valuation (and the Difference from the Model):**
+In conclusion, the market is pricing in a **stronger, faster, and more sustained up-cycle** for the offshore drilling sector and Noble Corporation specifically, due to its premium assets and high contract backlog. This conservative valuation serves as a margin of safety, suggesting that the current stock price can only be justified by assuming a best-case or near-best-case scenario for the upcoming cyclical recovery.
 
-1.  **More Aggressive Day Rate and Utilization Forecast:** The market is likely pricing in a substantially faster and more aggressive recovery in the offshore drilling cycle than my conservative model, which assumes a slow, steady improvement in uncontracted revenue (49% coverage in 2026, 36% in 2027) [cite: 6 in step 2]. The market is assuming that the uncontracted portion of the fleet will secure contracts at *significantly higher day rates* in 2026-2030, driving total revenue much higher than my estimates (which peak at \$4.1B).
-2.  **Higher Long-Term Margin Expectations:** My model projects a modest Net Income Margin increase from 5.5% to 6.0%. The market is likely assuming Noble achieves a much higher sustainable margin, perhaps closer to the *double-digit margins* seen during previous peaks in the drilling cycle (which would be consistent with the company's focus on high-spec, highly utilized rigs) [cite: 7 in step 1]. For my DCF to match the current price of \$27.48, the *Total Fair Value of Equity* would need to be $\sim\$4.36$ Billion (158.8M shares * $27.48/share). This would require Net Income in the terminal period to be nearly double my projections, implying a terminal Net Income Margin closer to 10-12% on higher revenue.
-3.  **Lower Discount Rate (WACC):** The market might be using a lower cost of capital (Discount Rate) than my conservative **10.0%**. A lower WACC (e.g., 8.0-9.0%) significantly inflates the Terminal Value and, consequently, the overall valuation.
-4.  **Assumptions on Cash Return:** My model conservatively reinvests all Net Income at a 7.5% ROIC. The market may be placing a high value on the company's aggressive **return of capital program** (over \$1.1 billion returned since Q4 2022). Investors may be valuing the company based on a higher Free Cash Flow (FCF) yield, which would be a different valuation methodology than my Net Income-based DCF.
+## V. Fair Value Summary
 
-**Conclusion on Valuation:**
-
-The **\$11.56** fair value represents a highly conservative estimate, primarily due to:
-*   Conservative revenue projections post-2027 that prioritize certainty (backlog) over the full potential of a cyclical upswing.
-*   Conservative Net Income Margin expansion (5.5% to 6.0%) despite strong adjusted EBITDA guidance.
-*   A high, conservative discount rate of 10.0%.
-
-The market's multiple is a bet on the full, unconstrained recovery of the deepwater drilling market—a high-conviction cyclical call that requires substantially higher utilization and day rates than my model conservatively estimates. For a value investor, the current price suggests the company must generate significantly higher earnings than what management guidance and a prudent extrapolation of the business engine indicate.
-
-### Fair Value of Noble Corporation plc (NE) Stock
-
-**Fair Value Per Share:** **\$11.56**
+**Fair Value of Noble Corporation plc (NE) Stock: \$22.66**
