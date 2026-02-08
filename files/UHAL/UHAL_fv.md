@@ -1,132 +1,148 @@
-The valuation for U-Haul Holding Company (UHAL) is conducted using a Discounted Cash Flow (DCF) methodology based on conservative, forward-looking projections derived directly from company SEC filings and earnings call commentary. All figures are in **millions USD** unless otherwise noted.
+## U-Haul Holding Company (UHAL) Stock Valuation
 
----
+This valuation uses a Discounted Cash Flow (DCF) model based on a conservative projection of U-Haul Holding Company's (UHAL) future Net Income, guided by financial data from SEC filings and management commentary.
 
-## **U-Haul Holding Company (UHAL) Stock Valuation**
+### Step 1: Current Financial Position (Data from SEC Filings)
 
-### **I. Financial Data Baseline (Latest SEC Filings)**
+The initial financial data is consolidated from the latest available filings, primarily the Annual Report on Form 10-K for the fiscal year ended March 31, 2025 (FY2025), and the Quarterly Report on Form 10-Q for the quarter ended December 31, 2025 (FY2026 Q3).
 
-The following data is sourced from the U-Haul Holding Company Form 10-K for the fiscal year ended March 31, 2025, and the Form 10-Q for the quarter ended June 30, 2025.
-
-| Metric | Value (USD Millions) | Source/Calculation |
-| :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** (3/31/2025) | **\$988.8** | Form 10-K, Balance Sheet (using fiscal year-end for valuation base) [cite: 11 (from step 2), 3 (from step 3)] |
-| **Total Debt** (3/31/2025) | **\$7,229.4** | Real Estate Secured Debt (\$2,703.7) + Unsecured Debt (\$1,700.0) + Fleet Secured Debt (\$2,758.8) + Other Secured Debt (\$66.9) |
-| **Total Shares Outstanding** | **196,077,880** | Sum of Common and Series N Non-Voting Shares (as of Aug 6, 2025) [cite: 7 (from step 2), 9 (from step 2)] |
-| **Current Stock Price** (Approximate Market Value) | **\$55.33/share** | Previous Close (for comparison purposes) [cite: 2 (from step 2), 13 (from step 2)] |
-
-| Historical Financials (FY ending March 31) | FY 2025 | FY 2024 |
-| :--- | :--- | :--- |
-| **Consolidated Revenue** (A) | \$5,828.7 | \$5,625.7 |
-| **Net Earnings** (B) | \$367.1 | \$628.7 |
-| **Net Margin** (B/A) | 6.30% | 11.18% |
-
----
-
-### **II. Business Engine & Future Assumptions**
-
-U-Haul's business is split into high-growth, high-margin, asset-heavy segments (Self-Storage/U-Box) and a mature, but necessary, core business (Self-Move Equipment Rental). The recent drop in net margin is due to two key headwinds: increased depreciation from new fleet purchases and reduced gains on the sale of retired equipment. Management expects these depreciation effects to persist but eventually trend downward [cite: 7 (from step 3), 17 (from step 2)].
-
-#### **A. Revenue Projections (Conservative Model)**
-
-| Segment/Metric | FY 2025 Base (USD Millions) | FY 2026 - FY 2030 Annual Growth Rate Assumption | Justification (Based on Earnings Calls) |
+| Metric | Value (Millions USD) | Date / Period | Rationale / Source |
 | :--- | :--- | :--- | :--- |
-| **Moving & Storage - Rental** (Core) | ~$3,730.0 (64% of FY2025 Rev) | **3.0%** | Q1 FY2026 revenue was up 4.3%, driven by price/revenue per transaction as transaction volume is "largely held steady." A conservative long-term growth of 3.0% accounts for moderate price hikes and steady, mature market demand [cite: 6 (from step 2)]. |
-| **Self-Storage & U-Box** (Growth) | ~$1,100.0 (19% of FY2025 Rev) | **8.0%** | Self-Storage revenue was up 8.6% in Q1 FY2026. U-Box revenue was up 16% in Q1 FY2026. The company has a significant development pipeline (14.8 million nrsf) targeting a 10% IRR. An 8.0% conservative growth rate reflects the maturation of this pipeline offset by market competition [cite: 6 (from step 2), 14 (from step 2)]. |
-| **Insurance & Other** (Steady) | ~$998.7 (17% of FY2025 Rev) | **2.0%** | A conservative rate for the steady, non-core insurance business. |
-| **Total Consolidated Revenue** (FY2025: **\$5,828.7**) | | **~4.5% Blended Growth Rate** | The high-growth segments (20% of revenue) significantly lift the blended growth rate. |
+| **Total Cash & Cash Equivalents** | **$1,032.3** | Dec 31, 2025 (FY26 Q3) | Latest cash balance reported. |
+| **Total Debt** | **$8,020.0** | Dec 31, 2025 (FY26 Q3) | Total debt reported. |
+| **Total Shares Outstanding** | **196.08 million** | May 28, 2025 | Sum of Common (19.61M) and Non-Voting (176.47M) shares. |
+| **Current Stock Price (UHAL)** | **$50.24** | *Approximation* | Conservative average of recent quotes. |
 
-**Projected Revenue (USD Millions)**
+**Historical Financials (In Millions USD):**
 
-| Fiscal Year | FY 2025 (Base) | FY 2026 | FY 2027 | FY 2028 | FY 2029 | FY 2030 |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Revenue** | **5,828.7** | **6,093.0** | **6,370.4** | **6,661.9** | **6,968.0** | **7,289.4** |
+| Metric | FY 2024 (Mar 31) | FY 2025 (Mar 31) | TTM FY 2026 (Dec 31) |
+| :--- | :--- | :--- | :--- |
+| Total Revenue | $5,625.7 | $5,828.7 | $6,000.0 (Approx.) |
+| Net Income | $628.7 | $367.1 | $128.6 (Approx.) |
+| **Net Income Margin** | **11.18%** | **6.30%** | **2.14%** |
 
-#### **B. Margin & Return on Invested Capital (ROIC) Projections**
+***
 
-1.  **Net Margin Projection:**
-    *   **FY 2025 Net Margin:** 6.30%. This is an anomaly due to non-cash depreciation and low gains on asset sales.
-    *   **FY 2024 Net Margin:** 11.18%. This is a better, though slightly elevated, representation of a healthy year.
-    *   **Assumption:** I will assume the company's efforts to rotate in new, more efficient equipment and the growth of its high-margin self-storage/U-Box segment will restore profitability. I will use a **conservative, normalized Net Margin of 8.0%** for all projected years. This is a mid-point between the recent distressed 6.3% and the more profitable 11.18% to reflect persistent cost/depreciation headwinds offset by structural growth.
+### Step 2: Business Engine Analysis & Revenue Projection
 
-2.  **ROIC on Retained Earnings:**
-    *   **Assumption:** The company is asset-heavy and has a targeted 10% unlevered IRR on new storage developments [cite: 10 (from step 2)]. For the purposes of valuing the **reinvested net income** (the "cash" remaining after operations), I will use a very **conservative ROIC of 5.0%**. This accounts for the company's internal deployment of capital into its core business at a rate lower than its stated IRR target for conservatism.
+U-Haul's core business is divided into two key segments: **Self-Moving Equipment Rental** (trucks, trailers, etc.) and **Self-Storage**. The business engine analysis must recognize the primary driver of recent earnings volatility: **fleet costs.**
 
----
+**Business Engine Drivers:**
 
-### **III. Projected Net Income & Discounted Cash Flow (DCF)**
+1.  **Self-Moving (Revenue Engine):** Driven by *Volume (Transactions)* and *Price (Revenue per transaction)*. The primary headwind has been **Cost of Goods Sold (COGS)**, specifically fleet depreciation and losses on disposal of retired equipment, which management attributes to the high prices paid for trucks in the preceding 30 months.
+2.  **Self-Storage/U-Box (Growth Engine):** Driven by *Net Rentable Square Feet (NRSF) added* and *Revenue per Occupied Foot*. This segment is a significant growth area, with the company aggressively expanding its footprint (6.5 million NRSF added in FY2025, plus 15.0 million NRSF in development). U-Box revenue, a key part of this, grew 8.5% in FY2025.
 
-The Net Income projection is calculated as: **Projected Net Income = (Projected Revenue \* Net Margin) + (Prior Year's Accumulated Cash \* ROIC)**
+**Projection Assumptions (Conservative Approach):**
 
-*   **FY 2026:** (5,828.7 \* 8.0%) + (988.8 \* 5.0%) = 466.3 + 49.4 = **515.7**
-*   **FY 2027 Net Income:** (6,093.0 \* 8.0%) + (515.7 \* 5.0%) = 487.4 + 25.8 = **513.2**
-*   **FY 2028 Net Income:** (6,370.4 \* 8.0%) + (513.2 \* 5.0%) = 509.6 + 25.7 = **535.3**
-*   **FY 2029 Net Income:** (6,661.9 \* 8.0%) + (535.3 \* 5.0%) = 533.0 + 26.8 = **559.8**
-*   **FY 2030 Net Income:** (6,968.0 \* 8.0%) + (559.8 \* 5.0%) = 557.4 + 28.0 = **585.4**
+| Category | FY2026 (Estimate) | FY2027 - FY2030 | Rationale (Conservative) |
+| :--- | :--- | :--- | :--- |
+| **Revenue Growth** | 3.0% (from $6.0B TTM) | 2.5% per year | U-Haul's growth has been slowing. We project a moderate growth above historical averages, driven primarily by the high-growth Storage segment. The TTM revenue is approximately $6.0B. |
+| **Self-Moving Segment** | Flat revenue growth | 0.5% - 1.0% growth | Assumes fleet utilization/pricing is stable but faces macroeconomic pressure. Management is reducing fleet purchases, indicating a shift away from high volume-chase at the expense of fleet quality. |
+| **Self-Storage/U-Box** | 7.0% growth | 6.0% growth | Conservative reduction from the 8.0% growth seen in FY2025, reflecting potential for new NRSF to be added and filled over the forecast period. |
 
-#### **DCF Model Parameters:**
+**Projected Revenue (In Millions USD):**
 
-*   **Discount Rate (Conservative but Reasonable): 9.0%** (Reflects the company's capital-intensive, cyclical, but stable market position. This is higher than their 10% unlevered IRR target, providing a safe margin.)
-*   **Conservative Maturity (Terminal) Growth Rate: 2.0%** (Assumes the company will grow long-term at the rate of global GDP/inflation, a very conservative long-term outlook for a market leader.)
+| Year | Basis | Revenue Growth | Projected Revenue |
+| :--- | :--- | :--- | :--- |
+| **FY 2025** | *Historical* | *N/A* | *$5,828.7$* |
+| **FY 2026**| $5,828.7 * (1+3.0%)$ | 3.0% | **$6,003.5** |
+| **FY 2027**| $6,003.5 * (1+2.5%)$ | 2.5% | **$6,153.6** |
+| **FY 2028**| $6,153.6 * (1+2.5%)$ | 2.5% | **$6,307.4** |
+| **FY 2029**| $6,307.4 * (1+2.5%)$ | 2.5% | **$6,464.9** |
+| **FY 2030**| $6,464.9 * (1+2.5%)$ | 2.5% | **$6,626.5** |
 
-| Fiscal Year (N) | Revenue (Millions) | Net Income / FCF (Millions) | Discount Factor (9.0%) | Net Present Value (NPV) |
-| :---: | :---: | :---: | :---: | :---: |
-| **2026** (1) | 6,093.0 | 515.7 | 0.917 | 473.0 |
-| **2027** (2) | 6,370.4 | 513.2 | 0.842 | 432.1 |
-| **2028** (3) | 6,661.9 | 535.3 | 0.772 | 413.4 |
-| **2029** (4) | 6,968.0 | 559.8 | 0.708 | 396.6 |
-| **2030** (5) | 7,289.4 | 585.4 | 0.650 | 380.5 |
-| **Sum of Projected NPVs (2026-2030)** | | | | **\$2,095.6 million** |
+***
 
-#### **Terminal Value Calculation (End of 2030):**
+### Step 3: Margin and Net Income Projection
 
-*   Terminal FCF = Net Income for 2030: **\$585.4 million**
-*   Terminal Value (at end of 2030) = FCF * (1 + g) / (r - g)
-*   Terminal Value = \$585.4 * (1 + 0.02) / (0.09 - 0.02)
-*   Terminal Value = \$597.1 / 0.07 = **\$8,530.0 million**
-*   **NPV of Terminal Value** (Discounted back 5 years) = \$8,530.0 * 0.650 = **\$5,544.5 million**
+The company's Net Income Margin has compressed from 11.18% in FY2024 to 2.14% in TTM FY2026. This is the core issue to address in projections.
 
-#### **Total Equity Value Calculation:**
+**Margin Assumptions (Conservative Return to Normalization):**
 
-| Metric | Value (USD Millions) |
+| Metric | Rationale |
 | :--- | :--- |
-| **NPV of Projected FCF (2026-2030)** | \$2,095.6 |
-| **NPV of Terminal Value** | \$5,544.5 |
-| **Total Enterprise Value (TEV)** | \$7,640.1 |
-| **Plus: Cash & Cash Equivalents** (3/31/2025) | \$988.8 |
-| **Minus: Total Debt** (3/31/2025) | (\$7,229.4) |
-| **Total Equity Value** | **\$1,409.5 million** |
+| **Net Income Margin** | Management expects the fleet depreciation/resale headwind to **"bottom out" in calendar year 2026** (mid-FY2027). The cost of new van acquisitions is also down 12%. This is a strong indicator of margin recovery. We will *conservatively* assume the margin recovers to a historical average but stop short of the FY2024 peak (11.18%). We project a recovery to a sustainable **7.5%** by FY2030, a mid-point between the depressed TTM and the FY2024 peak. |
+| **Return on Invested Capital (ROIC)** | The trailing normalized ROIC is 3.16%. We will use a conservative ROIC of **3.0%** to project the additional income generated by reinvesting accumulated net income (cash). |
 
----
+**Projected Net Income (In Millions USD):**
 
-### **IV. Fair Value and Justification**
+| Year | Projected Revenue (A) | Net Income Margin | Projected NI (B) = A * NI% | Cash from Prior Year (C) | ROIC (D) = C * 3.0% | Total Net Income (B + D) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **FY 2025** | $5,828.7 | *6.30%* | $367.1 | *N/A* | *N/A* | **$367.1** |
+| **FY 2026**| $6,003.5 | 4.00% | $240.1 | $367.1 | $11.0 | **$251.1** |
+| **FY 2027**| $6,153.6 | 5.00% | $307.7 | $251.1 | $7.5 | **$315.2** |
+| **FY 2028**| $6,307.4 | 6.00% | $378.4 | $315.2 | $9.5 | **$387.9** |
+| **FY 2029**| $6,464.9 | 7.00% | $452.5 | $387.9 | $11.6 | **$464.1** |
+| **FY 2030**| $6,626.5 | 7.50% | $497.0 | $464.1 | $13.9 | **$510.9** |
+
+***
+
+### Step 4: Discounted Cash Flow (DCF) Calculation
+
+The Net Income is used as the proxy for Free Cash Flow to Equity (FCFE) as per the instruction ("net income for each year goes straight into cash").
+
+| Assumptions | Value | Rationale |
+| :--- | :--- | :--- |
+| **Discount Rate (Conservative)** | **10.0%** | A conservative but reasonable rate for a mature, capital-intensive business. |
+| **Terminal Growth Rate (Maturity Rate)** | **2.0%** | A very conservative, below-GDP long-term growth rate, suitable for a mature company. |
+
+**Discounted Cash Flow:**
+
+| Year | Projected Net Income (A) (Millions USD) | Discount Factor @ 10.0% | NPV of FCF (Millions USD) |
+| :--- | :--- | :--- | :--- |
+| FY 2026 | $251.1 | 0.909 | $228.3 |
+| FY 2027 | $315.2 | 0.826 | $260.4 |
+| FY 2028 | $387.9 | 0.751 | $291.3 |
+| FY 2029 | $464.1 | 0.683 | $317.0 |
+| FY 2030 | $510.9 | 0.621 | $317.3 |
+| **Sum of NPV of FCFs** | | | **$1,414.3** |
+
+**Terminal Value Calculation (based on FY2030 Net Income):**
+$$Terminal\ Value = \frac{FY2030\ Net\ Income\ \times\ (1\ +\ Maturity\ Rate)}{Discount\ Rate\ -\ Maturity\ Rate}$$
+$$Terminal\ Value = \frac{510.9\ \times\ (1\ +\ 0.02)}{0.10\ -\ 0.02} = \frac{521.1}{0.08} = \$6,513.8\ Million$$
+
+**Net Present Value (NPV) of Terminal Value:**
+$$NPV\ of\ Terminal\ Value = Terminal\ Value\ \times\ Discount\ Factor\ (Year\ 2030)$$
+$$NPV\ of\ Terminal\ Value = \$6,513.8\ Million\ \times\ 0.621 = **\$4,044.1\ Million**$$
+
+**Total Equity Value (Enterprise Value) = Sum of NPV of FCFs + NPV of Terminal Value**
+$$Total\ Equity\ Value = \$1,414.3\ Million\ +\ \$4,044.1\ Million = **\$5,458.4\ Million**$$
+
+***
+
+### Step 5: Fair Value Calculation
+
+| Metric | Value (Millions USD) |
+| :--- | :--- |
+| Total Equity Value (NPV of Future Cash Flows) | $5,458.4$ |
+| **ADD: Total Cash & Cash Equivalents** | $1,032.3$ |
+| **LESS: Total Debt** | $(8,020.0)$ |
+| **Calculated Fair Value of Equity** | **$(1,529.3)$** |
+
+**Fair Value Per Share = Fair Value of Equity / Total Shares Outstanding**
+$$Fair\ Value\ Per\ Share = \frac{(\$1,529.3\ Million)}{196.08\ Million\ Shares} = **(\$7.80)\ per\ share**$$
+
+### Final Valuation and Justification
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Equity Value** (A) | \$1,409.5 million |
-| **Total Shares Outstanding** (B) | 196,077,880 |
-| **Fair Value per Share (A/B)** | **\$7.19** |
-| **Current Stock Price (for comparison)** | \$55.33 |
+| **Calculated Fair Value Per Share (DCF)** | **(\$7.80)** |
+| **Current Market Price Per Share** | **~$50.24** |
 
-#### **Conclusion and Justification for Discrepancy**
+#### Justification for the Discrepancy
 
-**Fair Value per Share (Calculated): \$7.19**
-**Current Market Price per Share: \$55.33**
+The negative fair value of **($7.80)** calculated using the DCF model highlights a massive discrepancy with the current market price of **$50.24**. This severe outcome is not a reflection of the company being worthless, but a direct consequence of the company's current financial structure and highly capital-intensive nature being strictly evaluated under the DCF model's constraints.
 
-The calculated intrinsic fair value of **\$7.19** is substantially lower than the current market price, indicating a significant difference in assumptions between this conservative DCF model and the market's collective forecast.
+The core reasons for the negative valuation are:
 
-**Why is the Fair Value so much lower than the Market Price?**
+1.  **Massive Total Debt Relative to Projected Net Income:** The company carries over **$8.02 billion** in debt. This debt is significantly larger than the sum of the projected discounted net incomes and current cash. In a FCFE (Net Income) based DCF model, the debt is subtracted directly from the NPV of future earnings, which in this case, completely overwhelms the projected cash flow.
+2.  **Weak Proxy for FCFE:** Using Net Income as a proxy for Free Cash Flow to Equity (FCFE) for a capital-intensive company like U-Haul is highly conservative, as mandated by the rules. U-Haul has extremely high non-cash charges like **Depreciation and Amortization (D&A)**, specifically fleet depreciation.
+    *   **The Market's Assumption:** The market likely values UHAL using Free Cash Flow *to the Firm* (FCFF) or adjusts FCFE by adding back the portion of D&A that exceeds capital expenditures for *maintenance* (since a large portion of their CapEx is for growth). FCF is typically much higher than Net Income for UHAL. For example, Operating Cash Flow in the nine months ended Dec 31, 2025 was **$1.39 billion**, compared to a 9-month Net Income of only $210.9 million. The market is valuing the high operating cash flow, not the depressed net income.
+3.  **Conservative Margin Assumptions:** The valuation only projects a Net Income Margin recovery to a conservative 7.5%. Given the management's strong conviction that the fleet depreciation/resale losses are **bottoming out** and the cost of new equipment is falling, the market may be pricing in a much faster and more significant recovery towards the historical 11%+ margin.
+4.  **Growth in Self-Storage/U-Box:** The perpetual growth rate of 2.0% is very conservative. The self-storage and U-Box segments are the company's long-term growth engines, continually adding rentable space (15.0 million NRSF in development). The market is likely applying a higher perpetual growth rate to capture the value of this long-term real estate/storage asset accumulation.
 
-The primary reason for the large discrepancy is the market's assumption that U-Haul's earnings will *normalize and rapidly grow* to a much higher and more consistent Net Margin than the conservative **8.0%** used in this model.
+**Conclusion on Discrepancy:**
 
-1.  **Market Assumes Net Margin Reversion to Historical Norm/Higher EBITDA Multiples:**
-    *   The market is likely valuing UHAL based on a higher operating metric, such as **Adjusted EBITDA**, which removes the high non-cash depreciation and fluctuating gains/losses on equipment sales that have suppressed Net Income. For instance, the Moving & Storage segment's trailing twelve months EBITDA was $1,650.3 million as of June 30, 2025 [cite: 7 (from step 3)]. A valuation based on a multiple of this larger, more stable EBITDA figure would yield a much higher stock price.
-    *   The market expects the Net Margin to revert toward, or even exceed, the 11.18% seen in FY 2024, or the margins seen in the company's high-growth, high-profit segments. If a **12.0% Net Margin** (reflecting successful self-storage/U-Box maturation) was used, the calculated Fair Value would increase dramatically.
+The negative fair value is a technical result of strictly applying a conservative FCFE model (Net Income as FCFE) to a company with a very high debt load and massive non-cash charges (D&A). The market is clearly making a different, more optimistic assumption: that U-Haul's true **Free Cash Flow** (which is significantly higher than Net Income) will be sufficient to support its debt and that margins will recover robustly as fleet-related headwinds subside.
 
-2.  **Market Values the Asset Base (Real Estate):**
-    *   U-Haul is essentially a large, self-administered **real estate company** that operates a moving business. Its balance sheet is dominated by long-term assets (property, plant, and equipment), which totaled over \$15.5 billion as of June 30, 2025 [cite: 4 (from step 3)]. The market likely values this massive, appreciating real estate portfolio (often at market value, not just book value) and the development pipeline (14.8 million nrsf) much more highly than a simple DCF based on historical net income allows.
-
-3.  **Conservative DCF Inputs:**
-    *   The use of a **9.0% Discount Rate** and a **2.0% Terminal Growth Rate** is very conservative. The market, projecting a faster growth trajectory for the lucrative storage segment, likely uses a higher perpetual growth rate and may justify a lower cost of equity due to the company's dominant market position and stability.
-
-In summary, the conservative DCF model primarily captures the discounted value of the company's recent, lower Net Income. The market is valuing UHAL on its **stable, yet appreciating, real estate assets** and the projected **high-margin growth of its self-storage and U-Box segments** being unburdened by temporary fleet depreciation headwinds, justifying a significantly higher price-to-earnings or enterprise-value-to-EBITDA multiple.
+The market value of $50.24/share reflects a valuation based on the company's **strong underlying cash flow from operations** (EBITDA/OCF), a much higher terminal growth rate (3%+), and an expectation of significant margin recovery back towards or above the 11% historical peak, combined with the successful, value-accretive growth of the self-storage and U-Box segments.
