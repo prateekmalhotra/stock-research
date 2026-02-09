@@ -1,138 +1,133 @@
-This valuation of Koito Manufacturing Co., Ltd. (KOTMY) is based on a Discounted Cash Flow (DCF) analysis, using the company's publicly available financial statements and its "1st Medium-Term Management Plan" as the primary source for future projections. All figures are in **Japanese Yen (¥) Millions** unless otherwise specified.
+## Koito Manufacturing Co., Ltd. (KOTMY) Stock Valuation
+
+This valuation uses a Discounted Cash Flow (DCF) model based on projected Net Income. All core calculations are performed in Japanese Yen (¥) and converted to USD for the final per-share value.
 
 ---
 
-# Koito Manufacturing Co., Ltd. (KOTMY) Stock Valuation
+### I. Financial Data (Japanese Yen - ¥ millions)
 
-## I. Calculation of Net Cash / Net Debt
+The following financial data is extracted from Koito Manufacturing Co., Ltd.'s Consolidated Earnings Reports, with a Fiscal Year (FY) ending March 31.
 
-The valuation is calculated using the latest available consolidated financial data for the fiscal year ended March 31, 2025 (FY2024).
-
-| Line Item | Value (¥ Millions) | Source/Justification |
-| :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** (C) | ¥111,345 | Derived from the cash flow statement for the year ended March 31, 2025. [cite: 3 (from step 2)] |
-| **Total Debt** (D) | ¥10,000 | **Conservative Estimate/Assumption.** The company's business report lists total non-consolidated outstanding loans to principal lenders as ¥5.7 billion [cite: 1 (from step 4)]. To be conservative and account for all consolidated, interest-bearing liabilities (short-term & long-term borrowings, capital leases), a round figure of **¥10 billion** is used, reflecting Koito's extremely strong balance sheet and high equity ratio (70.5%) [cite: 2 (from step 4)]. |
-| **Net Cash** (C - D) | **¥101,345** | ¥111,345 - ¥10,000 |
-| **Shares Outstanding** (S) | 251,005,495 | Calculated from Issued Shares (260,582,115) minus Treasury Shares (9,576,620) as of March 31, 2025. [cite: 3 (from step 2)] |
-
-## II. Business Engine and Projection Assumptions (FY2025 - FY2030)
-
-The core of the valuation relies on the management's *1st Medium-Term Management Plan* (FY2025-FY2027) which targets major improvements in profitability driven by new technologies like LED/LiDAR and increased sales to non-Japanese OEMs.
-
-### 1. Revenue Engine & Growth Assumptions
-
-The business engine is primarily driven by:
-*   **Volume:** Global vehicle production trends and market share gain with Non-Japanese OEMs.
-*   **Price/Mix:** Shifting product mix towards high-value, high-margin products like Adaptive LED Headlamps and the consolidation of the Cepton-LiDAR business [cite: 2 (from step 4)].
-
-| Fiscal Year (Ends Mar 31) | Base Revenue (¥ Billions) | Year-over-Year (YoY) Change | Revenue (¥ Millions) | Justification |
-| :---: | :---: | :---: | :--- | :--- |
-| **FY2024 (Actual)** | 916.7 | - | 916,709 | Consolidated result. [cite: 2 (from step 4)] |
-| **FY2025 (Forecast)** | 868.0 | -5.3% | 868,000 | Management's explicit full-year forecast for FY2025, which reflects a challenging environment with production and shipment suspensions. [cite: 5 (from step 3)] |
-| **FY2026** | 933.0 | 7.5% | 933,000 | Interpolated growth to reach the FY2027 target. This high growth is consistent with management's guided CAGR. [cite: 1 (from step 2)] |
-| **FY2027 (Target)** | 1,000.0 | 7.2% | 1,000,000 | Management's explicit target of **"¥1 Trillion or more"** in Net Sales for the end of the Medium-Term Plan. [cite: 1 (from step 2)] |
-| **FY2028** | 1,030.0 | **3.0%** | 1,030,000 | **Conservative Decline:** A step-down from the aggressive plan period, but sustained by the roll-out of new high-tech products (LiDAR/ADAS). |
-| **FY2029** | 1,055.7 | **2.5%** | 1,055,750 | **Conservative Maturity:** Represents growth slightly above long-term inflation, a conservative rate for a global auto parts leader. |
-| **FY2030** | 1,082.6 | **2.5%** | 1,082,644 | **Conservative Maturity.** |
-
-### 2. Margin and ROIC Assumptions
-
-The core assumption is the successful execution of the management plan to significantly boost operating margins, which had been low in the base year.
-
-| Fiscal Year | OPM Target [cite: 1 (from step 2)] | **Net Income Margin** (NIM) | Justification |
-| :---: | :---: | :---: | :--- |
-| **FY2024 (Actual)** | 4.9% | 5.04% | Base year (Net Income ¥46.24B / Net Sales ¥916.7B). [cite: 2 (from step 4)] |
-| **FY2025 (Forecast)** | 4.3% | 4.42% | Management's OPM forecast (4.3%) [cite: 5 (from step 3)] adjusted by the FY2024 NIM/OPM ratio (1.028). |
-| **FY2026** | 6.2% | 6.38% | Interpolated increase towards the ambitious FY2027 target. |
-| **FY2027 - FY2030** | 8.0% | **8.22%** | Management's explicit OPM target of **8%** [cite: 1 (from step 2)], consistently applied as a conservative long-term cap. |
-| **ROIC Assumption** | **9.0%** | - | Management's target of **"9% or more"** is used as a conservative reinvestment rate for existing cash flows. [cite: 1 (from step 2)] |
-
----
-
-## III. Discounted Cash Flow (DCF) Calculation
-
-The Net Income is used as the cash flow for the valuation, adjusted by the ROIC earned on the previous year's accumulated cash (as per the rule).
-
-**DCF Assumptions:**
-*   **Discount Rate (Conservative but Reasonable):** **9.0%**. This is consistent with the company's own ROIC target and a low-risk WACC for a highly capitalized global market leader.
-*   **Perpetuity Growth Rate (Conservative Maturity Rate):** **1.5%**. This is a conservative assumption, below the global economic average and the company's long-term revenue growth rate, reflecting maturity.
-
-### Projected Net Income (Cash Flow)
-
-$$ \text{Cash Flow}_{\text{n}} = (\text{Revenue}_{\text{n}} * \text{NIM}_{\text{n}}) + (\text{Cash}_{\text{n-1}} * \text{ROIC}) $$
-
-| FY (Ends Mar 31) | Revenue (A) (¥ MM) | NIM (B) (%) | Net Income (A * B) (¥ MM) | Cash from Previous Year (C) (¥ MM) | ROIC (D) (%) | ROIC Income (C * D) (¥ MM) | **Total Cash Flow (E)** (¥ MM) | NPV (9.0% Discount) (¥ MM) |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **FY2024 (Base)** | 916,709 | 5.04% | 46,240 | 111,345 (Start Cash) | - | - | **46,240** | - |
-| **FY2025** | 868,000 | 4.42% | 38,369 | 111,345 | 9.0% | 10,021 | **48,390** | 44,394 |
-| **FY2026** | 933,000 | 6.38% | 59,520 | 159,735 | 9.0% | 14,376 | **73,896** | 62,176 |
-| **FY2027** | 1,000,000 | 8.22% | 82,200 | 233,631 | 9.0% | 21,027 | **103,227** | 79,664 |
-| **FY2028** | 1,030,000 | 8.22% | 84,666 | 336,858 | 9.0% | 30,317 | **114,983** | 81,424 |
-| **FY2029** | 1,055,750 | 8.22% | 86,707 | 451,841 | 9.0% | 40,666 | **127,373** | 82,752 |
-| **FY2030** | 1,082,644 | 8.22% | 88,881 | 579,214 | 9.0% | 52,129 | **141,010** | 84,008 |
-| **Sum of NPV (2025 - 2030)** | | | | | | | | **¥434,418 Million** |
-
-*Note: Cash (C) is the cumulative sum of Total Cash Flow from the previous year, assuming all net income flows to cash (as per rule).*
-
-### Terminal Value (TV) Calculation
-
-The terminal value captures the value of all cash flows after 2030 (Year 6).
-
-$$ \text{Terminal Value} = \frac{\text{Cash Flow}_{2030} \times (1 + \text{g})}{\text{WACC} - \text{g}} = \frac{¥141,010 \times (1 + 0.015)}{0.09 - 0.015} = ¥1,911,436 \text{ Million} $$
-
-**Net Present Value of Terminal Value (NPV TV):**
-
-$$ \text{NPV TV} = \frac{\text{Terminal Value}}{(1 + \text{WACC})^{6}} = \frac{¥1,911,436 \text{ Million}}{(1 + 0.09)^{6}} = ¥1,139,185 \text{ Million} $$
-
-### IV. Fair Value Calculation
-
-| Line Item | Value (¥ Millions) |
-| :--- | :--- |
-| **Sum of DCF NPV (FY2025-2030)** | ¥434,418 |
-| **NPV of Terminal Value** | ¥1,139,185 |
-| **Total Enterprise Value (TEV)** | **¥1,573,603** |
-| Less: Total Debt | -¥10,000 |
-| Add: Total Cash & Cash Equivalents | +¥111,345 |
-| **Total Equity Value** | **¥1,674,948** |
-| Divide by: Shares Outstanding | 251,005,495 |
-| **Fair Value per Share (JPY)** | **¥6,672** |
-
-## V. Conclusion and Market Comparison
-
-| Metric | Fair Value (JPY) | Current Market Value (JPY) | Current Market Value (USD) | Implied Upside |
-| :--- | :--- | :--- | :--- | :--- |
-| **Price per Share** | **¥6,672** | ¥2,128 | $15.20 | 213% |
-
-*   *Current Market Price (JPY) is calculated as $15.20 (KOTMY price) multiplied by the company's stated exchange rate of ¥140.0/$1.00.* [cite: 1 (from step 3), 2 (from step 4)]
-
-### Justification of Discrepancy
-
-The calculated Fair Value of **¥6,672** is significantly higher (over 200% upside) than the implied current market value of **¥2,128**. This wide discrepancy is primarily due to different assumptions regarding the successful execution of the management's ambitious turnaround plan.
-
-**Market's Assumptions (Why the stock is low):**
-
-1.  **Skepticism on Margin Improvement:** The market is likely heavily discounting the company's ability to achieve an **8% Operating Profit Margin (OPM)** by FY2027, given the FY2024 actual OPM was only 4.9% [cite: 2 (from step 4)] and the FY2025 forecast OPM is even lower at 4.3% [cite: 5 (from step 3)]. The automotive supply chain is a low-margin, high-volume business, and a nearly doubling of the margin is a massive leap in profitability.
-2.  **Weak Core Market:** The stock is likely being valued as a traditional Japanese automotive supplier heavily reliant on Japanese OEMs (Toyota/Honda/Nissan account for over 50% of sales), a sector facing slow growth and intense pressure from the shift to Electric Vehicles (EVs) [cite: 1 (from step 2)]. The market is not giving credit for the diversification and the high-tech LiDAR/ADAS strategy.
-3.  **Conservative Valuation:** As an ADR traded on the OTC market, KOTMY often trades at a discount due to lower liquidity and awareness compared to its TSE listing.
-
-**My Assumptions (Why the Fair Value is high):**
-
-1.  **Management Guidance is Truth:** The valuation strictly adheres to the rule of using management's explicit guidance as *truth*, specifically the **8% OPM** and **9% ROIC** targets for the end of the medium-term plan [cite: 1 (from step 2)]. These targets, if achieved, fundamentally change the earnings power of the company.
-2.  **High-Tech Catalyst:** The valuation assumes successful market penetration and high-margin revenue from the *new business engine* components: high-end lighting (Adaptive LED) and the **LiDAR business** (Cepton consolidation), which are the actual drivers of the projected margin expansion [cite: 2 (from step 4)].
-3.  **Rock-Solid Balance Sheet:** The valuation explicitly reflects the company's massive net cash position (over ¥101 billion) which provides a strong cushion against market shocks and funds the necessary CapEx for the technological shift.
-
-### Justification
-
-The Fair Value of **¥6,672** is justified by the successful execution of the *1st Medium-Term Management Plan*. The market is currently valuing Koito Manufacturing based on its legacy auto supplier earnings profile (low margin, high volume), while the DCF is valuing the company on its **future high-tech profile** (high margin, new product revenue streams) as guided by management. The key to realizing this value is the margin expansion from **4.9% to 8.22% (NIM)**, which, if achieved, fundamentally proves the current market valuation to be a major undervaluation.
+| Metric | Date/Period | Value (¥ millions) | Source |
+| :--- | :--- | :--- | :--- |
+| **Total Cash & Cash Equivalents** | Mar 31, 2025 (FY2024 End) | 270,845 | |
+| **Total Debt (Current & Non-Current Loans)** | Dec 31, 2025 (Q3 FY2025) | 5,800 | |
+| **Net Sales (Revenue)** | FY2024 (Actual) | 916,709 | |
+| **Net Income** | FY2024 (Actual) | 46,240 | |
+| **Net Income Margin** | FY2024 (Calculated) | 5.04% | (46,240 / 916,709) |
+| **Shares Outstanding (Derived)** | FY2024 | 295,470,637 | (46,240m / ¥156.49 EPS) |
+| **Current Stock Price (7276.T)** | Feb 7, 2026 | ¥2,601 | |
+| **Current Stock Price (KOTMY ADR)** | Jan 2, 2026 | $14.77 | |
+| **Current Exchange Rate (USD/JPY)** | Feb 9, 2026 | 1 USD = 156.70 JPY | |
 
 ***
 
-## FINAL FAIR VALUE SUMMARY
+### II. Business Engine and Projection Assumptions
+
+Koito's business engine is dominated by **Automotive Lighting (93.8% of sales)**. The future growth is driven by:
+1.  **Increased Content per Vehicle (ASP):** The accelerated shift from traditional to high-value-added lighting systems, primarily **LED Headlamps** and the introduction of **Advanced Driver Assistance Systems (ADAS)/LiDAR integration**.
+2.  **LiDAR Business:** The new high-growth segment from the consolidation of Cepton and securing new orders from a global OEM for Level 4 autonomous driving vehicles.
+3.  **Global Automotive Production Volume:** A conservative assumption of slow, stable volume growth.
+
+| Metric | FY2025 (E) | FY2026 (E) | FY2027 (E) | FY2028 (E) | FY2029 (E) | FY2030 (E) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Conservative Revenue Growth Rate** | 4.0% | 4.5% | 4.0% | 3.5% | 3.0% | 2.5% |
+| **Net Income Margin (%)** | 5.10% | 5.20% | 5.30% | 5.35% | 5.40% | 5.40% |
+| **ROIC on Prior Year's Net Income (%)** | 6.5% | 6.5% | 6.5% | 6.5% | 6.5% | 6.5% |
+
+#### Justification of Estimates:
+
+*   **Revenue Growth:** The growth is anchored in high-value product adoption (LED/LiDAR). The initial rate (4.0-4.5%) is slightly higher than conservative global auto production growth (1-2%) to account for the increasing ASP driven by new technology adoption (LiDAR, ADAS integration) and the continued shift to LED, aligning with management's focus on high-value products. The rate is conservatively tapered down to 2.5% by FY2030, reflecting an anticipated maturation of the LED adoption cycle.
+*   **Net Income Margin:** The FY2024 margin was 5.04%. I project a very conservative, gradual improvement to 5.40% by FY2029-2030. This slow increase is justified by **cost rationalization efforts** and the inherent **higher margin of innovative products** (LiDAR/ADAS lighting) but is heavily conservative given the volatility and competition in the Tier 1 auto supplier market.
+*   **ROIC (Return on Invested Capital):** A conservative 6.5% is used, slightly below the historical FY2024 ROE of 7.1%. This return is applied to the previous year's retained Net Income (cash) to model the value-add of cash reinvestment.
+
+***
+
+### III. Discounted Cash Flow (DCF) Calculation
+
+#### A. DCF Assumptions
+
+*   **Conservative Discount Rate (WACC):** 9.0%
+    *   *Justification:* A large, established, global automotive parts supplier like Koito has a relatively stable, moderate risk profile. 9.0% is a conservative yet reasonable WACC, higher than the cost of capital for a low-risk, pure-play industrial firm to account for cyclical automotive demand and technology disruption risk.
+*   **Conservative Terminal Growth Rate (g):** 2.0%
+    *   *Justification:* This is a conservative, long-term growth rate, slightly above the long-term inflation goal of many developed economies and appropriate for a mature but technologically forward-looking auto components manufacturer.
+
+#### B. Projected Net Income and Discounted Cash Flow (¥ millions)
+
+| Year | Revenue (¥m) | Net Income Margin (%) | Net Income (¥m) from Operations | Income from Prior Cash (ROIC) | Total Net Income (Cash Flow) | Discount Factor (9.0%) | NPV of Cash Flow (¥m) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **FY2024 (Actual)** | 916,709 | 5.04% | 46,240 | - | - | - | - |
+| **FY2025** | 953,377 | 5.10% | 48,622 | 3,006 | **51,628** | 0.9174 | 47,351 |
+| **FY2026** | 996,252 | 5.20% | 51,805 | 3,356 | **55,161** | 0.8417 | 46,432 |
+| **FY2027** | 1,036,102 | 5.30% | 54,913 | 3,585 | **58,498** | 0.7722 | 45,174 |
+| **FY2028** | 1,072,366 | 5.35% | 57,377 | 3,792 | **61,169** | 0.7084 | 43,337 |
+| **FY2029** | 1,104,537 | 5.40% | 59,645 | 3,976 | **63,621** | 0.6499 | 41,349 |
+| **FY2030** | 1,132,150 | 5.40% | 61,136 | 4,135 | **65,271** | 0.5963 | 38,913 |
+| **Terminal Value** | | | | | | | |
+| **Total NPV of Project Period** | | | | | | | **262,556** |
+
+*Note on Income from Prior Cash:* $Net\ Income\ (ROIC) = (Net\ Income\ from\ previous\ year \times 6.5\%)$. For example, in FY2025: $46,240 \times 6.5\% \approx 3,006$.
+
+#### C. Terminal Value Calculation
+
+The terminal cash flow is assumed to grow at a conservative perpetual rate of 2.0%.
+1.  **Terminal Cash Flow (2031):** $FY2030\ Net\ Income \times (1 + g) = ¥65,271 \times (1 + 0.02) = ¥66,576$ million
+2.  **Terminal Value (at FY2030):** $Terminal\ Cash\ Flow / (WACC - g) = ¥66,576 / (0.09 - 0.02) = ¥951,086$ million
+3.  **NPV of Terminal Value:** $Terminal\ Value \times Discount\ Factor\ (FY2030) = ¥951,086 \times 0.5963 = ¥567,114$ million
+
+**Total Enterprise Value (TEV)**
+
+$TEV = NPV\ of\ Project\ Period\ Cash\ Flows + NPV\ of\ Terminal\ Value$
+$TEV = ¥262,556 \text{ million} + ¥567,114 \text{ million} = ¥829,670 \text{ million}$
+
+***
+
+### IV. Fair Value Calculation
+
+#### A. Equity Value Calculation
+
+| Metric | Value (¥ millions) |
+| :--- | :--- |
+| **Total Enterprise Value (TEV)** | 829,670 |
+| **Add: Total Cash & Cash Equivalents** | 270,845 |
+| **Subtract: Total Debt** | 5,800 |
+| **Fair Equity Value** | **1,094,715** |
+
+#### B. Fair Value Per Share
 
 | Metric | Value |
 | :--- | :--- |
-| **Fair Value per Share (JPY)** | **¥6,672** |
-| **Fair Value per Share (USD)** | **$47.66** |
-| Current Market Price (KOTMY) | $15.20 |
+| **Fair Equity Value** | ¥1,094,715 million |
+| **Shares Outstanding** | 295,470,637 shares |
+| **Fair Value Per Share (JPY)** | **¥3,705.61** |
 
-*(USD conversion uses the company's rate of ¥140.0/$1.00)*
+#### C. Final Conversion to USD
+
+*   **Exchange Rate (USD/JPY):** 156.70
+*   **Fair Value Per Share (USD):** ¥3,705.61 / 156.70 $\approx$ **$23.65**
+
+***
+
+### V. Conclusion and Market Comparison
+
+| Metric | Value |
+| :--- | :--- |
+| **Fair Value Per Share (USD)** | **$23.65** |
+| **Current Market Price (KOTMY ADR)** | $14.77$ |
+| **Valuation Difference** | **+60.12%** |
+
+#### Justification of Difference
+
+The calculated **Fair Value of $23.65 per share** is **60.12% higher** than the Current Market Price of $14.77 per share.
+
+**Reasons for Market Disparity (Why the Market is more conservative):**
+
+1.  **Cyclical Industry Discount:** As a Tier 1 automotive supplier, Koito's revenues and profits are highly cyclical and tied to global auto production volume, which the market often discounts due to recession risk and slow growth prospects.
+2.  **Conservative Margin/ROIC Assumptions:** The market may be projecting a lower future Net Income Margin than my modestly increasing assumption (from 5.04% to 5.40%). Persistent commodity price volatility and increased R&D spending on new technologies (LiDAR, ADAS) could continue to pressure margins, and the market may be pricing in a static or declining margin.
+3.  **LiDAR Risk Discount:** While my model incorporates revenue growth from high-value products like LiDAR, the market may view this new business line with caution. The LiDAR market is highly competitive and nascent, and Koito's investment in Cepton and new orders carry the risk of technological obsolescence or integration failure, leading to a much lower Terminal Growth Rate or higher Discount Rate assumption by the market.
+4.  **Cash Reinvestment Scepticism:** The market may not give full credit for the ROIC assumption (6.5%) on the large cash pile. If Koito merely holds this cash without deploying it for high-return projects, the market's internal valuation of this liquid asset's earning power would be near zero (or T-bill rates), making the NPV lower than my calculation.
+5.  **Weak JPY/ADR Price Discrepancy:** While my calculation uses a recent JPY/USD rate, the market price for the KOTMY ADR ($14.77) may not perfectly reflect the JPY share price (¥2,601) due to structural ADR/OTC trading discounts and the market's long-term bearish view on the Japanese Yen's strength.
+
+**Conclusion on Fair Value:**
+
+My valuation is a **conservative yet optimistic perspective** on Koito's ability to successfully execute its strategic pivot to high-value-added lighting systems and capitalize on the shift to autonomous driving (LiDAR). The $\text{¥3,705.61}$ per share valuation suggests the market is not fully appreciating the potential long-term value from the embedded high-growth (LiDAR) segment, or is applying an overly punitive risk premium due to the cyclicality of the core auto parts business. For Koito to reach the calculated Fair Value, it must demonstrate consistent execution of its LiDAR strategy and successfully translate its market dominance in traditional lighting into a dominant position in next-generation ADAS/autonomous vehicle components.
