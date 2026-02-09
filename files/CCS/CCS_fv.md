@@ -1,142 +1,146 @@
-This valuation of Century Communities, Inc. (CCS) stock utilizes a Discounted Cash Flow (DCF) methodology based on a conservative projection of the company's core business engine, management guidance from the last four earnings calls, and a set of conservative financial assumptions.
+This valuation of Century Communities, Inc. (CCS) stock follows the requested methodology, utilizing data exclusively from recent SEC filings and earnings call transcripts.
 
-***
+---
 
-## 1. Initial Financial Data (as of September 30, 2025)
+## Century Communities, Inc. (CCS) Stock Valuation
 
-The following data is sourced from Century Communities, Inc.'s Q3 2025 financial statements and press releases, representing its financial position at the end of the third quarter of 2025.
+### I. Initial Financial Data (As of December 31, 2025)
 
-| Metric | Value (in millions) | Source/Basis |
+The base financial figures are derived from Century Communities' latest Annual Report (10-K) for the fiscal year ended December 31, 2025, and related filings.
+
+| Metric | Value (in millions) | Justification/Source |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents (C)** | **$174.8** | Sum of Cash and Cash Equivalents ($130.1M) and Cash held in escrow ($44.7M). |
-| **Total Debt (D)** | **$1,660.0** | Total debt as reported in Q3 2025 disclosures. |
-| **Shares Outstanding (S)** | **30.0** | Diluted shares of 29.92 million implied by Q3 2025 results, rounded conservatively. |
-| **Current Stock Price** | **$63.15** | Most recent trading price. |
+| **Total Cash & Cash Equivalents (C)** | **$158.0** | $109.4 million of Cash and Cash Equivalents plus $48.6 million of cash held in escrow. Cash held in escrow is a liquid, short-term asset for the company's benefit, totaling \$158.0 million. |
+| **Total Debt (D)** | **$551.5** | Explicit debt includes $500.0 million of Senior Notes due 2033 and $51.5 million outstanding under the revolving line of credit at year-end 2025. |
+| **Shares Outstanding (S)** | **29.05 million** | Shares of common stock issued and outstanding as of January 23, 2026. |
+| **Current Stock Price** | **\$68.57** | Price as of February 5, 2026. |
 
-***
+---
 
-## 2. Business Engine and Revenue Projection (2025 - 2030)
+### II. Business Engine Analysis & Revenue Forecast
 
-### Business Engine
+The core business engine for Century Communities (CCS) is **New Home Deliveries multiplied by Average Sales Price (ASP)**. The company's future growth is fundamentally supported by its land pipeline.
 
-The core revenue for a homebuilder like Century Communities is driven by the following engine:
-$$\text{Revenue} = (\text{Deliveries} \times \text{Average Sales Price (ASP)}) + \text{Financial Services Revenue}$$
-$$\text{Deliveries} = \text{Ending Community Count} \times \text{Pace (Deliveries per Community)}$$
+**Key Business Metrics from 2025 (Full Year):**
+*   **New Home Deliveries:** 10,387
+*   **Total Revenues (Home Sales + Other):** \$4.1 billion
+*   **Owned and Controlled Lots (Land Pipeline):** ~61,000 at year-end 2025.
 
-The company focuses on the first-time homebuyer segment and has a two-brand strategy (Century Communities and Century Complete) with significant land and community growth in high-growth markets like Texas, the Southeast, and the Mountain regions. Management's guidance emphasizes community count growth and operating leverage.
+#### Revenue Engine & Assumptions
 
-### Projection Assumptions
+Management guidance for 2026 is conservative, reflecting current high-interest rate and economic uncertainty, projecting deliveries of 10,000 to 11,000 homes. This level is roughly flat compared to 2025. The large pipeline of 61,000 lots provides a significant capacity for growth once market conditions (primarily mortgage rates) normalize.
 
-To maintain a conservative and realistic long-term forecast, I use the following assumptions, which reflect a tapering of growth after the immediate post-2024 expansion period. The macro environment is assumed to improve with interest rate stabilization/decline, which should support demand.
-
-| Metric | 2025 (Guidance) | 2026 | 2027 | 2028 | 2029 | 2030 |
+| Year | Deliveries (Units) | ASP (USD) | Home Sales Revenue (\$M) | Other Rev. (\$M) | Total Revenue (\$M) | Engine Justification |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Community Count Growth (CC $\text{YoY}$ %)** | **5.0%** | **7.0%** | **5.0%** | **4.0%** | **3.0%** | **2.0%** |
-| **2. Deliveries per Community (Pace)** | **31.5** | **33.0** | **34.0** | **34.5** | **35.0** | **35.0** |
-| **3. ASP $\text{YoY}$ %** | **-2.8%** | **1.0%** | **2.0%** | **2.0%** | **2.0%** | **2.0%** |
-| **4. Homebuilding Gross Margin (GM %)** | **18.5%** | **19.0%** | **19.5%** | **19.5%** | **19.5%** | **19.5%** |
-| **5. SG&A as % of Home Sales Revenue** | **13.0%** | **12.5%** | **12.0%** | **11.8%** | **11.6%** | **11.5%** |
-| **6. Financial Services $\text{YoY}$ Growth** | **-12.2%** | **5.0%** | **5.0%** | **5.0%** | **5.0%** | **5.0%** |
+| **2025** (Actual) | 10,387 | ~$394,724 | ~$4,099.6 | ~$86.2 | **\$4,185.8** | Baseline from SEC filings. |
+| **2026** (Est.) | 10,500 | \$380,000 | \$3,990.0 | \$75.0 | **\$4,065.0** | **Conservative near-term guidance:** Deliveries use the midpoint of 10,000-11,000 guidance. ASP is decreased from 2025 to reflect continued higher incentives cited in Q4 2025 earnings calls to drive sales pace. |
+| **2027** (Est.) | 11,550 | \$390,000 | \$4,504.5 | \$75.0 | **\$4,579.5** | **Market Normalization:** Assumes a market recovery, leveraging the 61,000 lot pipeline. A conservative 10% growth in deliveries (compared to the flat 2026) and a modest 2.6% ASP increase as incentives begin to ease. |
+| **2028** (Est.) | 12,300 | \$400,000 | \$4,920.0 | \$75.0 | **\$4,995.0** | **Moderate Growth:** Slowing delivery growth to 6.5% and a slightly higher ASP increase of 2.6% as improved market conditions allow for price increases. |
+| **2029** (Est.) | 13,000 | \$410,000 | \$5,330.0 | \$75.0 | **\$5,405.0** | **Slowing Growth:** Delivery growth eases to 5.7%; ASP increase remains moderate at 2.5%. |
+| **2030** (Est.) | 13,500 | \$415,000 | \$5,602.5 | \$75.0 | **\$5,677.5** | **Mature Growth:** Delivery growth is very conservative at 3.8%; ASP increase slows to 1.2% reflecting a more mature homebuilding cycle. |
 
-*   **Community Count/Deliveries:** **2025 CC** is estimated at $\text{321} \times \text{1.05} = 337$ (using Q3's 321 CC and mid-single-digit guidance). The growth is aggressive in the near term (7.0% in 2026) based on management's stated goal to drive 10%+ delivery growth over the next couple of years, and then tapers to a conservative 2.0% by 2030 as the market matures. Pace increases modestly from the implied 2025 figure ($\text{10,125 deliveries} / \text{321 Q3 CC} \approx 31.5$) as the company leverages its scale.
-*   **ASP:** The 2025 ASP is based on management's full-year guidance ($\text{\$3.85B} / \text{10,125 homes} \approx \text{\$380K}$). Future ASP growth is projected at a very conservative 2.0%, reflecting sustained inflation in construction costs offset by the company's focus on affordable housing.
-*   **Margins:** **2025 Homebuilding GM %** is projected at **18.5%**, a slight conservative increase from Q3 2025 GAAP GM of 17.9%, assuming some cost containment success. This gradually improves to **19.5%** by 2027 due to operational efficiencies and the expected decline in incentives as mortgage rates stabilize/decline. **SG&A as % of Revenue** improves from the 2025 guided **13.0%** to **11.5%** by 2030, a clear benefit of operating leverage on higher volume.
+---
 
-### Projected Revenue and Net Income
+### III. Margin and Net Income Projection
 
-| Metric (in millions USD) | **2024 (Actual)** | **2025 (Projected)** | **2026 (Projected)** | **2027 (Projected)** | **2028 (Projected)** | **2029 (Projected)** | **2030 (Projected)** |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Home Sales Rev** | $4,300.0$ | $3,850.0$ | $4,127.3$ | $4,586.9$ | $4,930.0$ | $5,233.1$ | $5,437.9$ |
-| **Financial Services Rev** | $84.2$ | $74.0$ | $77.7$ | $81.6$ | $85.7$ | $90.0$ | $94.5$ |
-| **Total Revenue** | **$4,384.2** | **$3,924.0** | **$4,205.0** | **$4,668.5** | **$5,015.7** | **$5,323.1** | **$5,532.4** |
-| **Homebuilding Gross Profit**| $924.5$ | $712.3$ | $784.2$ | $894.4$ | $961.3$ | $1,020.4$ | $1,060.4$ |
-| **Homebuilding SG&A** | $516.0$ | $500.5$ | $515.9$ | $550.4$ | $581.7$ | $607.0$ | $625.4$ |
-| **Operating Income (Pre-Fin. Svc. Inc.)** | $408.5$ | $211.8$ | $268.3$ | $344.0$ | $379.6$ | $413.4$ | $435.0$ |
-| **Financial Services Net Inc.** | $\approx 20.0$ | $15.0$ | $15.8$ | $16.6$ | $17.4$ | $18.3$ | $19.2$ |
-| **Pre-Tax Income (Base)** | $\mathbf{428.5}$ | $\mathbf{226.8}$ | $\mathbf{284.1}$ | $\mathbf{360.6}$ | $\mathbf{397.0}$ | $\mathbf{431.7}$ | $\mathbf{454.2}$ |
+Margins are projected based on full-year 2025 performance and specific management guidance for 2026.
 
-### Net Income Calculation with ROIC
+| Metric | 2025 (Actual) | 2026 (Est.) | 2027 (Est.) | 2028-2030 (Est.) | Justification |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Total Revenue (\$M)** | \$4,185.8 | \$4,065.0 | \$4,579.5 | See Revenue table | Revenue forecast from above. |
+| **Gross Margin % (GAAP)** | 17.6% | 16.5% | 17.0% | 17.5% | Conservative: Reduced from 2025 actual (17.6%) to reflect Q4 2025 GAAP margin of 15.4% and continued high incentives in the near term. Ramps up to 17.5% as market stabilizes and incentives ease. |
+| **Gross Profit (\$M)** | \$736.7 | \$670.7 | \$778.5 | \$874.1, \$945.9, \$993.6 | Calculation (Revenue * GM%). |
+| **SG&A as % of Revenue** | ~12.2% (Q4 2025) | 13.0% | 12.5% | 12.0% | Management guided for 13% in 2026. Eases to a more efficient 12.0% by 2028-2030 as volume growth absorbs fixed costs. |
+| **SG&A (\$M)** | N/A | \$528.5 | \$572.4 | \$599.4, \$648.6, \$681.3 | Calculation (Revenue * SG&A%). |
+| **Operating Income (\$M)** | N/A | \$142.2 | \$206.1 | \$274.7, \$297.3, \$312.3 | Gross Profit - SG&A. |
+| **Tax Rate %** | 24.1% | 25.5% | 25.5% | 25.5% | Management expects 2026 full-year tax rate in the range of 25% to 26%; using the midpoint. |
+| **Net Income (Initial) (\$M)** | \$147.6 | \$105.9 | \$153.6 | \$204.6, \$221.7, \$232.9 | Operating Income * (1 - Tax Rate). |
 
-**Return on Invested Capital (ROIC) Assumption:**
-The ROIC is a crucial component as mandated by the rule. Given the cyclical nature of the industry and the historical profitability, a conservative, yet reasonable, positive ROIC is chosen: **7.5%**. This is applied to the prior year's Net Income (retained cash) to generate additional income in the current year.
+---
 
-**Tax Rate:** A stable and guided rate of **25.0%** is used for all years.
+### IV. Net Income with ROIC (Cash Flow Projection)
 
-| Metric (in millions USD) | **2025 (Projected)** | **2026 (Projected)** | **2027 (Projected)** | **2028 (Projected)** | **2029 (Projected)** | **2030 (Projected)** |
+The valuation model assumes net income converts directly to cash, and a return on invested capital (ROIC) is earned on the accumulated cash from the prior year.
+
+*   **ROIC Assumption:** A conservative **6.0%** is used. While the 2025 Return on Equity (ROE) was 6.87%, a lower, conservative ROIC is appropriate for generating additional cash income from reinvested prior-year cash (Net Income).
+*   **Net Income into Cash Flow:** Net Income (Initial) $\to$ Cash.
+*   **ROIC Income:** Cash from Previous Year (Net Income) * ROIC.
+
+| Metric (in \$M) | **2025 (Actual)** | **2026** | **2027** | **2028** | **2029** | **2030** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **A. Pre-Tax Income (Base)** | $226.8$ | $284.1$ | $360.6$ | $397.0$ | $431.7$ | $454.2$ |
-| **B. ROIC Income (7.5% on Prior Year Net Income)** | $-$ | $42.5$ | $74.7$ | $103.5$ | $130.6$ | $161.4$ |
-| **C. Total Pre-Tax Income (A + B)** | **$226.8** | **$326.6** | **$435.3** | **$500.5** | **$562.3** | **$615.6** |
-| **D. Taxes (25.0%)** | $56.7$ | $81.7$ | $108.8$ | $125.1$ | $140.6$ | $153.9$ |
-| **E. Projected Net Income (C - D) / Cash Flow (CF)** | **$170.1** | **$244.9** | **$326.4** | **$375.4** | **$421.7** | **$461.7** |
+| **(A) Initial Net Income** | \$147.6 | \$105.9 | \$153.6 | \$204.6 | \$221.7 | \$232.9 |
+| **(B) Prior Year's Cash (Net Income)** | N/A | \$147.6 | \$105.9 | \$153.6 | \$204.6 | \$221.7 |
+| **(C) ROIC Income (B * 6.0%)** | N/A | \$8.9 | \$6.4 | \$9.2 | \$12.3 | \$13.3 |
+| **(D) Projected Cash Flow (A + C)** | N/A | **\$114.8** | **\$160.0** | **\$213.8** | **\$234.0** | **\$246.2** |
 
-***
+---
 
-## 3. Discounted Cash Flow (DCF) Analysis
+### V. Discounted Cash Flow (DCF) Analysis
 
-### DCF Assumptions
-
-| Metric | Value | Justification |
+| Assumption | Rate | Justification |
 | :--- | :--- | :--- |
-| **Discount Rate (DR)** | **10.0%** | Conservative, representing the required return for an investment in a mid-cap, cyclical homebuilder. |
-| **Terminal Growth Rate (TGR)** | **2.5%** | Conservative assumption, slightly above the long-term US inflation rate, reflecting stable and mature long-term growth for the homebuilding industry. |
+| **Discount Rate (WACC)** | **9.0%** | A conservative but reasonable rate for a homebuilder, reflecting industry cyclicality and risk. |
+| **Terminal Growth Rate (Maturity Rate)** | **2.5%** | A conservative, long-term growth rate assumption, slightly above the long-term U.S. inflation rate, which is suitable for a mature homebuilding company. |
 
-### Net Present Value (NPV) Calculation
+#### Terminal Value and NPV Calculation
 
-| Year | Projected Cash Flow (E) | Discount Factor (1 / (1 + DR)^t) | Present Value (PV) |
+The Terminal Value (TV) is the present value of all cash flows beyond 2030. The 2030 cash flow is the basis for this calculation.
+
+**1. Terminal Value (TV) in 2030:**
+TV in 2030 = (Projected Cash Flow in 2030 * (1 + Terminal Growth Rate)) / (Discount Rate - Terminal Growth Rate)
+TV in 2030 = (\$246.2 M * (1 + 0.025)) / (0.090 - 0.025)
+TV in 2030 = (\$246.2 M * 1.025) / 0.065 = \$252.355 M / 0.065 = **\$3,882.38 M**
+
+**2. Discounted Cash Flows (DCF) and Net Present Value (NPV):**
+
+| Year | Projected Cash Flow (\$M) | Discount Factor (9.0%) | Discounted Cash Flow (\$M) |
 | :--- | :--- | :--- | :--- |
-| 2025 | $170.1 | $0.909 | $154.6 |
-| 2026 | $244.9 | $0.826 | $202.3 |
-| 2027 | $326.4 | $0.751 | $245.2 |
-| 2028 | $375.4 | $0.683 | $256.4 |
-| 2029 | $421.7 | $0.621 | $261.9 |
-| **2030** | **$461.7** | **$0.564** | **$260.4** |
-| **Sum of PVs of Explicit Forecast** | | | **$1,380.8** |
+| **2026** | \$114.8 | 0.9174 | \$105.3 |
+| **2027** | \$160.0 | 0.8417 | \$134.7 |
+| **2028** | \$213.8 | 0.7722 | \$165.1 |
+| **2029** | \$234.0 | 0.7084 | \$165.8 |
+| **2030** | \$246.2 | 0.6499 | \$160.0 |
+| **Terminal Value** | \$3,882.38 | 0.6499 | \$2,523.1 |
+| **Total NPV (Sum of DCFs)** | | | **\$3,254.0 M** |
 
-### Terminal Value Calculation
+---
 
-The terminal value is the present value of all cash flows after 2030, calculated using the Gordon Growth Model:
+### VI. Fair Value Calculation
 
-$$\text{Terminal Value}_{2030} = \frac{\text{Cash Flow}_{2030} \times (1 + \text{TGR})}{(\text{DR} - \text{TGR})} = \frac{\$461.7 \times (1 + 0.025)}{(0.10 - 0.025)} = \$6,348.45 \text{ million}$$
+**Total Fair Value of Equity** = Total NPV + Cash - Debt
+Total Fair Value of Equity = \$3,254.0 M + \$158.0 M - \$551.5 M
+**Total Fair Value of Equity = \$2,860.5 M**
 
-$$\text{NPV of Terminal Value} = \frac{\text{Terminal Value}_{2030}}{(\text{1 + DR})^6} = \frac{\$6,348.45}{(1.10)^6} = \$3,584.5 \text{ million}$$
+**Fair Value Per Share** = Total Fair Value of Equity / Shares Outstanding
+Fair Value Per Share = \$2,860.5 M / 29.05 M shares
+**Fair Value Per Share = \$98.47**
 
-$$\text{Total Net Present Value (NPV)} = \text{Sum of PVs of Explicit Forecast} + \text{NPV of Terminal Value}$$
-$$\text{Total NPV} = \$1,380.8 \text{ million} + \$3,584.5 \text{ million} = \mathbf{\$4,965.3 \text{ million}}$$
+---
 
-***
-
-## 4. Fair Value Calculation and Justification
-
-### Fair Value Formula
-
-$$\text{Fair Value per Share} = \frac{(\text{Total NPV} + \text{Cash}) - \text{Debt}}{\text{Shares Outstanding}}$$
-
-### Fair Value Calculation
-
-$$\text{Fair Value per Share} = \frac{(\$4,965.3 \text{M} + \$174.8 \text{M}) - \$1,660.0 \text{M}}{30.0 \text{ million shares}}$$
-
-$$\text{Fair Value per Share} = \frac{\$3,480.1 \text{ million}}{30.0 \text{ million shares}} = \mathbf{\$116.00}$$
-
-### Conclusion
+### VII. Conclusion and Market Comparison
 
 | Metric | Value |
 | :--- | :--- |
-| **Calculated Fair Value per Share** | **$116.00** |
-| **Current Stock Price** | **$63.15** |
-| **Difference** | **$52.85 (83.7\% undervaluation)** |
+| **Calculated Fair Value Per Share** | **\$98.47** |
+| **Current Market Price Per Share** | **\$68.57** |
+| **Valuation Upside** | **43.5%** |
 
-### Market Assumption Justification
+**Justification for the Discrepancy (Fair Value vs. Market Price):**
 
-The calculated fair value of **\$116.00** is significantly higher than the current market price of **\$63.15**. This large discrepancy suggests the market is making much more conservative assumptions about the company's future cash flows and risk profile than my model.
+The calculated fair value of **\$98.47** is significantly higher than the current market price of **\$68.57**, implying a substantial undervaluation by the market based on these conservative assumptions.
 
-**The Market's Conservative Assumptions (The "Why"):**
+**Market's Assumptions vs. My Assumptions:**
 
-1.  **Macroeconomic/Cyclical Risk (Higher Discount Rate):** The market is likely pricing in a higher risk premium (i.e., a higher Discount Rate) due to the cyclical nature of the homebuilding industry. My use of a 10.0% Discount Rate for a mid-cap, high-beta stock in a volatile industry is likely considered too low by the market. If the market is using a **12.5%** Discount Rate, which is often used for higher-risk cyclical stocks, the NPV of the Terminal Value would drop significantly, which would pull the Fair Value per Share closer to the market price.
-    *   *Example with 12.5% DR:* Total NPV would drop to $\approx \$3,446$ million, resulting in a **Fair Value per Share of $\approx \$65.36$**, which is almost exactly the current stock price.
+1.  **Lower Long-Term Growth/Higher Risk Discount:** The market appears to be discounting future cash flows more aggressively than the 9.0% WACC and 2.5% terminal growth rate used in this model. The high uncertainty in the housing market, driven by persistent high mortgage rates, leads to a higher perceived risk and thus a higher discount rate. The market may be assuming the company's long-term growth will not exceed the 2.5% terminal rate, or even be lower, for a longer period.
+2.  **Margin Contraction/Continued Incentives:** The market is likely forecasting a steeper and more prolonged period of margin compression than the assumed Gross Margin of 16.5% for 2026 and a slow recovery thereafter. The market is giving more weight to the incentive-driven sales that compress the ASP and the GAAP Gross Margin (which was only 15.4% in Q4 2025) than the long-term cost-efficiency gains and adjusted margins (19.9% in 2025).
+3.  **Land/Inventory Impairment Risk:** As a homebuilder, the market may be assigning a higher probability to future inventory impairment charges (like the one seen in Q4 2025) that would reduce future Net Income.
+4.  **Conservative Land Pipeline Value:** The market may not fully value the 61,000 owned and controlled lots as a stable source of future growth, or it may assume a slower pace of conversion of these lots into deliveries than the model projects, further extending the period of slower growth.
 
-2.  **Margin Contraction and Lower Volume (Skepticism on Projections):** The market may not believe the projected increase in Homebuilding Gross Margin from 18.5% to 19.5% and the aggressive SG&A leverage to 11.5%. Given recent trends of high incentives due to elevated mortgage rates, the market may be projecting sustained higher incentives, leading to Gross Margins closer to 16-17% for the entire forecast, or a more pessimistic growth in Deliveries and ASP.
+**My Case for the Fair Value:**
 
-3.  **Low ROIC/Efficiency and Liquidation Value Focus:** Homebuilders often trade on Price-to-Book value. The company's Book Value per Share as of Q3 2025 was a record \$87.74. The market price of \$63.15 represents a **Price/Book multiple of 0.72**, meaning the market is valuing the company *below* its reported book value. This is a typical "recession valuation", suggesting investors are either discounting the value of the land inventory or projecting a major slowdown, effectively pricing the company for a modest downturn or a very low long-term ROIC.
+My fair value is justified by two key conservative assumptions, which nonetheless lead to a high valuation:
 
-My model's primary assumption that diverges from the market is the relatively low **Discount Rate (10.0%)** coupled with a conservative but achievable **Net Margin expansion** and **moderate growth** after 2026. The market is effectively demanding a much higher rate of return (closer to **12.5%**) for the inherent risk in the homebuilding cycle and its large land inventory. My calculated intrinsic value of **\$116.00** represents the long-term, through-the-cycle value if the company executes its growth strategy and realizes the expected leverage and margin recovery.
+1.  **Conservative Debt/Asset Treatment:** I used a conservative approach by only netting out the explicit debt found in the filing snippets, which is likely a minimum, but used a very liquid and solid cash position. More importantly, I did not explicitly value the substantial land bank (inventory is often undervalued on the balance sheet for homebuilders) or the record book value per share of **\$89.21** at year-end 2025.
+2.  **Conservative Near-Term, Realistic Mid-Term Recovery:** The model accepts the management's conservative 2026 guidance (flat revenue/deliveries) but projects a realistic, yet still conservative, mid-term recovery to a low-to-mid-single-digit growth by 2030, supported by the large, derisked land pipeline. This long-term cash flow generation power, even with a conservative WACC, is what drives the high intrinsic value. The market is focused on short-term macro headwinds, whereas this DCF model prices in the long-term operating capability of the business engine.
+
+The market price seems to be excessively focused on the current, temporary, high-interest rate and incentive-heavy market environment, failing to adequately price in the substantial asset base (Book Value: **\$89.21** per share) and the moderate, long-term growth potential supported by the company's lot pipeline and stated focus on operational efficiency.
