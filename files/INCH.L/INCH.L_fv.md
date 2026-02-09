@@ -1,133 +1,160 @@
-The following valuation of Inchcape plc (INCH.L) stock is based on the latest available financial data, primarily from the Full Year 2024 (FY 2024) preliminary results and the 2024 Annual Report and Accounts (ARA), combined with the company's medium-term strategic guidance for the years 2025 to 2030. All values are in millions of British Pounds (GBP) unless otherwise noted.
+This valuation of Inchcape plc (INCH.L) stock is performed using a Discounted Cash Flow (DCF) model based on management's medium-term guidance and publicly reported financial statements (Annual Reports, Results Announcements).
 
 ---
 
-### **1. Financial Data Extraction (FY 2024)**
+## 1. Initial Financial Data & Key Assumptions
 
-The following figures are extracted from Inchcape plc's 2024 financial statements, which represent the base for the valuation.
+All figures are in **GBP millions ($\text{£m}$)** as of the financial year end **December 31, 2024** (FY 2024), based on company reports.
 
-| Metric | Value ($\text{£m}$) | Justification |
+| Metric | Value ($\text{£m}$) | Source/Justification |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | $\text{549}$ | "Cash And Short Term Investments" from the Consolidated Balance Sheet as of 31 December 2024. |
-| **Total Debt** | $\text{1,041}$ | "Total debt" from the Consolidated Balance Sheet as of 31 December 2024 (Short-term debt + Current portion of long-term debt + Long-term debt). |
-| **Shares Outstanding** | $\text{394.0}$ | Total common shares outstanding (in millions) as of 31 December 2024. Note: This figure is used as the base, acknowledging that buybacks completed post-year-end will increase the final calculated value per share. |
-| **Current Stock Price** | $\text{£7.69}$ (769.00p) | Approximate price as of the most recent search date. |
-| **FY 2024 Revenue** | $\text{9,263}$ | Reported Revenue from continuing operations. |
-| **FY 2024 Statutory PBT** | $\text{414}$ | Statutory Profit Before Tax from continuing operations. |
-| **FY 2024 Effective Tax Rate** | $\text{31.3%}$ | Effective tax rate for FY 2024. |
-| **FY 2024 Net Income (Base)** | $\text{284.4}$ | Statutory PBT $\text{414m} \times (\text{1} - \text{0.313})$. |
-| **FY 2024 ROCE** | $\text{27.0%}$ | Return on Capital Employed for FY 2024. |
+| **Current Stock Price (as of latest market close)** | 8.31 (GBX 831.00) | Based on recent stock price data. |
+| **Shares Outstanding (S.O.)** | 408.288 million | Most precise recent figure from company data. |
+| **Total Revenue (R_2024)** | 9,300 | Reported revenue for FY 2024 from continuing operations. |
+| **Net Income (NI_2024)** | 435 | Statutory total profit for the period attributable to owners for FY 2024. |
+| **Net Income Margin (NI\_Margin)** | 4.68% (435/9,300) | Used as the starting point for future margin estimates. |
+| **Total Cash & Cash Equivalents (CASH)** | 549 | Cash at bank and short-term deposits as of Dec 31, 2024. |
+| **Total Debt (DEBT)** | 1,041 | **Conservative assumption:** Used as Gross Debt + Lease Liabilities. Calculated as Net Debt (incl. leases) (£492m) + Cash (£549m). |
+| **Return on Invested Capital (ROIC Proxy)** | 27.0% | Inchcape's reported Return on Capital Employed (ROCE) for FY 2024, highlighting the capital-light distribution model. |
+| **Medium-Term Growth Target (Volume CAGR)** | 3.0% - 5.0% | Management's stated organic volume CAGR for FY2025-2030. |
 
-### **2. Business Engine & Future Assumptions**
+---
 
-Inchcape's business engine is transitioning from a mixed Retail/Distribution model to a "pureplay automotive Distributor," which is explicitly stated by management as being **capital-light, highly cash-generative, and higher-margin**. The future growth is underpinned by:
+## 2. Business Engine & Revenue Projections (2025-2030)
 
-1.  **Organic Volume Growth:** Outperformance of the underlying market, which management targets to deliver an **Organic Volume CAGR of 3% to 5%** for FY 2025 to FY 2030.
-2.  **New Contracts:** The scaling of 44 distribution contracts won since 2021, with an average contract expected to deliver $\text{£20m}$ to $\text{£30m}$ in revenue at maturity.
+Inchcape's business model is shifting to a pure-play automotive distributor, which is characterized by a high-margin, capital-light structure with a strong focus on Aftersales (30% of Gross Profit in 2024) and scaling through distribution contract wins.
 
-#### **A. Revenue Projections (2025 - 2030)**
+The core revenue engine for the projection is driven by two components, aligned with management's **Accelerate+** strategy:
 
-To remain conservative while aligning with management's strategic outlook, the following assumptions are used:
+1.  **Market Outperformance/Volume Growth:** Inchcape targets a 3.0% to 5.0% Organic Volume CAGR (Compound Annual Growth Rate) by outperforming the market's expected 1% to 2% growth.
+2.  **New Contracts & Acquisitions:** The business has won 40+ contracts since 2021, each expected to contribute $\text{£20m}$ to $\text{£30m}$ in revenue at maturity. The long-term ambition is to grow market share from 3% to 10%, which would "treble the size of the business".
+
+### **Conservative Revenue Projection Assumptions:**
 
 | Metric | Assumption | Justification |
 | :--- | :--- | :--- |
-| **Revenue Growth Rate (CAGR 2025-2030)** | $\text{4.0%}$ | Conservative mid-point of the management-guided Organic Volume CAGR of $\text{3%}$ to $\text{5%}$ for the medium term. This compounds the $\text{£9,263m}$ FY 2024 Revenue base. |
+| **Volume/Organic Growth Rate** | 3.5% CAGR | Mid-point of management's 3%-5% organic volume CAGR target, a conservative estimate based on the goal of outperforming the market. |
+| **Revenue Multiple Factor** | 1.0% p.a. | A conservative additional revenue factor to account for the financial impact of new contract wins (22 in 2024) and bolt-on acquisitions **above** the organic volume growth. This factor tapers down in later years as the model is conservative. |
+| **Total Revenue Growth Rate** | $\approx$ 4.5% - 4.1% p.a. | Sum of Organic Growth + Revenue Factor. |
 
-| Year | Revenue ($\text{£m}$) | Calculation |
-| :--- | :--- | :--- |
-| **FY 2024 (Actual Base)** | $\text{9,263}$ | |
-| **FY 2025** | $\text{9,634}$ | $\text{9,263} \times \text{1.040}$ |
-| **FY 2026** | $\text{10,020}$ | $\text{9,634} \times \text{1.040}$ |
-| **FY 2027** | $\text{10,421}$ | $\text{10,020} \times \text{1.040}$ |
-| **FY 2028** | $\text{10,838}$ | $\text{10,421} \times \text{1.040}$ |
-| **FY 2029** | $\text{11,271}$ | $\text{10,838} \times \text{1.040}$ |
-| **FY 2030** | $\text{11,722}$ | $\text{11,271} \times \text{1.040}$ |
+### **Projected Revenue and Net Income (in £m)**
 
-#### **B. Margin and Profit Projections (2025 - 2030)**
+| Year | R_t ($\text{£m}$) | Growth Rate | NI\_Margin | NI\_t ($\text{£m}$) | Cash Inflow from ROIC | Total Cash Flow (CF) ($\text{£m}$) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2024 (Actual)** | 9,300 | - | 4.68% | 435 | - | 435 |
+| **2025 (t=1)** | 9,719 | 4.50% | 4.80% | 466 | 118 | 584 |
+| **2026 (t=2)** | 10,135 | 4.28% | 4.90% | 497 | 158 | 655 |
+| **2027 (t=3)** | 10,544 | 4.04% | 5.00% | 527 | 185 | 712 |
+| **2028 (t=4)** | 10,950 | 3.85% | 5.10% | 558 | 212 | 770 |
+| **2029 (t=5)** | 11,358 | 3.73% | 5.20% | 591 | 240 | 831 |
+| **2030 (t=6)** | 11,768 | 3.61% | 5.30% | 624 | 270 | 894 |
+| **Terminal Year** | 11,945 | 1.50% | 5.30% | 633 | - | 633 |
 
-The Distribution-focused business is expected to deliver "resilient operating margins of c. 6%".
+***
 
-| Metric | Assumption | Justification |
-| :--- | :--- | :--- |
-| **Adjusted Operating Margin** | $\text{6.0%}$ | Conservative-to-target margin (below the FY 2024 $\text{6.3%}$) reflecting prudent caution for potential industry/FX headwinds while adhering to management's 'c. 6%' medium-term target. |
-| **Tax Rate** | $\text{30.0%}$ | Conservative assumption, slightly lower than the FY 2024 rate of $\text{31.3%}$ due to Pillar Two adjustments, but still higher than many corporate tax rates. |
-| **ROIC** | $\text{20.0%}$ | Prudent and conservative estimate, well below the historical $\text{27.0%}$ ROCE and the $\text{25\%}$ to $\text{30\%}$ medium-term target. This addresses the requirement to be conservative with future assumptions. |
+### **Margin & Return on Invested Capital (ROIC) Justification**
 
-### **3. Discounted Cash Flow (DCF) Valuation**
-
-The projected Net Income is used as a proxy for Free Cash Flow (FCF), as management targets a FCF/PAT conversion of **c. 100%**.
-
-#### **DCF Model Inputs:**
-
-*   **Discount Rate (WACC):** $\text{10.0%}$ (Conservative, but reasonable rate for an international distributor with exposure to emerging markets).
-*   **Terminal Growth Rate (g):** $\text{2.0%}$ (Conservative long-term growth rate, well below the $\text{4.0%}$ revenue CAGR assumption, suggesting market saturation and maturity after the current growth cycle).
-
-#### **Cash Flow Projection and NPV Calculation ($\text{£m}$):**
-
-| Year | Revenue ($\text{£m}$) | Operating Profit ($\text{£m}$) | Net Income (Base) ($\text{£m}$) | ROIC Income ($\text{£m}$) | Net Income/FCF ($\text{£m}$) | Discount Factor at $\text{10.0%}$ | NPV ($\text{£m}$) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **FY 2024** | $\text{9,263}$ | $\text{584.0}$ | $\text{284.4}$ | - | $\text{284.4}$ | $\text{1.000}$ | - |
-| **FY 2025** | $\text{9,634}$ | $\text{578.0}$ | $\text{404.6}$ | $\text{56.9}$ | $\text{461.5}$ | $\text{0.909}$ | $\text{419.5}$ |
-| **FY 2026** | $\text{10,020}$ | $\text{601.2}$ | $\text{420.8}$ | $\text{92.3}$ | $\text{513.1}$ | $\text{0.826}$ | $\text{423.8}$ |
-| **FY 2027** | $\text{10,421}$ | $\text{625.3}$ | $\text{437.7}$ | $\text{102.6}$ | $\text{540.3}$ | $\text{0.751}$ | $\text{405.8}$ |
-| **FY 2028** | $\text{10,838}$ | $\text{650.3}$ | $\text{455.2}$ | $\text{108.1}$ | $\text{563.3}$ | $\text{0.683}$ | $\text{384.8}$ |
-| **FY 2029** | $\text{11,271}$ | $\text{676.3}$ | $\text{473.4}$ | $\text{112.7}$ | $\text{586.1}$ | $\text{0.621}$ | $\text{364.1}$ |
-| **FY 2030** | $\text{11,722}$ | $\text{703.3}$ | $\text{492.3}$ | $\text{117.2}$ | $\text{609.5}$ | $\text{0.564}$ | $\text{343.8}$ |
-| **Terminal Value** | | | | | $\text{609.5}$ | | $\text{5,453.6}$ |
-| **Total NPV of Cash Flows** | | | | | | | $\text{7,795.4}$ |
-
-***Calculations Explained:***
-*   **Operating Profit:** Revenue * $\text{6.0%}$ Operating Margin.
-*   **Net Income (Base):** Operating Profit * $(\text{1} - \text{0.300})$ Tax Rate. (Assuming no significant change in net finance costs which were $\text{£142m}$ in FY 2024, PBT/Operating Profit is simplified here).
-*   **ROIC Income for next year:** Net Income/FCF from previous year * $\text{20.0%}$ ROIC.
-    *   *FY 2025 ROIC Income:* $\text{284.4m}$ (2024 base NI) * $\text{0.20}$ = $\text{56.9m}$.
-*   **Net Income/FCF:** Net Income (Base) + ROIC Income.
-*   **Terminal Value (TV):** $(\text{FCF in FY 2030} \times (\text{1} + \text{g})) / (\text{WACC} - \text{g})$
-    *   TV in FY 2030: $(\text{609.5} \times \text{1.02}) / (\text{0.10} - \text{0.02}) = \text{7,770.0m}$
-    *   NPV of TV: $\text{7,770.0m} \times \text{0.564}$ (FY 2030 Discount Factor) = $\text{4,379.8m}$
-    *   *Note: For the final total NPV, the individual cash flows plus the NPV of the Terminal Value are summed.*
-
-### **4. Fair Value Calculation**
-
-The fair value of the equity is calculated by starting with the Total NPV of the business (Enterprise Value), subtracting debt, and adding cash.
-
-| Metric | Value ($\text{£m}$) | Calculation/Justification |
-| :--- | :--- | :--- |
-| **Total NPV of Future FCFs (Enterprise Value)** | $\text{7,795.4}$ | Sum of NPV of all Projected FCFs + NPV of Terminal Value. |
-| **Less: Total Debt** | $\text{1,041.0}$ | Gross Total Debt from FY 2024 Balance Sheet. |
-| **Add: Total Cash & Cash Equivalents** | $\text{549.0}$ | Cash and Short Term Investments from FY 2024 Balance Sheet. |
-| **Fair Value of Equity** | $\text{7,303.4}$ | $\text{7,795.4} - \text{1,041.0} + \text{549.0}$ |
-| **Shares Outstanding (Millions)** | $\text{394.0}$ | Used the FY 2024 end-of-year figure as the base. |
-| **Fair Value Per Share (GBP)** | $\text{18.54}$ | $\text{7,303.4} / \text{394.0}$ |
+*   **Net Income Margin:** The margin increases conservatively from 4.68% (FY2024) to **5.30%** by 2030. This is justified by the strategic shift to a pure-play distributor model which is inherently higher-margin and less capital intensive than the retail model that was disposed. The growth of the high-margin Aftersales business (30% of gross profit) supports this margin expansion.
+*   **ROIC (Reinvestment Efficiency):**
+    *   **Assumption:** The net income from the previous year is assumed to be cash available for reinvestment, generating additional income in the following year (ROIC from cash).
+    *   **ROIC % used:** 27% (Based on the actual FY 2024 reported ROCE). Management's high ROCE (27% in 2024) is a key feature of the new capital-light model.
+    *   **Calculation (example t=1):** $\text{NI}_{2025} = \text{Revenue}_{2025} \times \text{NI\_Margin}_{2025} = \text{£466m}$. $\text{Cash Flow from ROIC}_{2025} = \text{NI}_{2024} \times \text{ROIC (27\%)} = \text{£435m} \times 27\% = \text{£118m}$.
+    *   **Total Cash Flow (CF) for DCF:** $\text{CF}_t = \text{NI}_t + \text{Cash Inflow from ROIC}_t$.
 
 ---
 
-### **Fair Value of Inchcape plc Stock (INCH.L)**
+## 3. Discounted Cash Flow (DCF) Analysis
 
-**Fair Value Per Share (FVPS): $\text{£18.54}$**
+### **Conservative Discount & Maturity Rates**
 
-**Current Stock Price: $\text{£7.69}$**
+*   **Discount Rate (Conservative but Reasonable):** 9.0%
+    *   *Justification:* This is a conservative WACC (Weighted Average Cost of Capital) proxy. It reflects a high rate for a company operating in volatile emerging markets (Americas, APAC) and the cyclical nature of the automotive distribution business, while still acknowledging its strong execution and high ROIC/low leverage.
+*   **Terminal/Maturity Growth Rate (Very Conservative):** 1.5%
+    *   *Justification:* This assumes the company's growth rate will drop significantly below its medium-term target (3.5% organic) to slightly above the long-term GDP growth for a mature economy. This is a very conservative assumption for a company with a long-term goal to *treble its size* and is used to capture the value of all cash flows beyond 2030.
+
+### **Net Present Value (NPV) Calculation**
+
+The **Cash Flow (CF)** used for DCF is the **Total Cash Flow** ($\text{NI}_t + \text{Cash Inflow from ROIC}_t$).
+
+| Year (t) | Total Cash Flow ($\text{£m}$) | Discount Factor (9.0%) | NPV of Cash Flow ($\text{£m}$) |
+| :--- | :--- | :--- | :--- |
+| **2025 (t=1)** | 584 | 0.917 | 536 |
+| **2026 (t=2)** | 655 | 0.842 | 551 |
+| **2027 (t=3)** | 712 | 0.772 | 550 |
+| **2028 (t=4)** | 770 | 0.708 | 545 |
+| **2029 (t=5)** | 831 | 0.650 | 540 |
+| **2030 (t=6)** | 894 | 0.596 | 533 |
+| **NPV of Projected Cash Flows** | | | **3,255** |
+
+### **Terminal Value (TV) Calculation**
+
+The Terminal Value captures the value of all cash flows from 2031 to perpetuity.
+
+$$ \text{TV} = \frac{\text{CF}_{\text{t=6}} \times (1 + \text{g})}{\text{r} - \text{g}} $$
+
+Where:
+*   $\text{CF}_{\text{t=6}} = \text{£894m}$ (2030 Total Cash Flow)
+*   $\text{g}$ (Terminal Growth Rate) = 1.5%
+*   $\text{r}$ (Discount Rate) = 9.0%
+
+$$ \text{TV}_{\text{2030}} = \frac{894 \times (1 + 0.015)}{0.09 - 0.015} = \frac{907.41}{0.075} = \text{£12,099m} $$
+
+### **NPV of Terminal Value (NPV\_TV)**
+
+$$ \text{NPV\_TV} = \text{TV}_{\text{2030}} \times \text{Discount Factor}_{\text{t=6}} = \text{£12,099m} \times 0.596 = \text{£7,205m} $$
+
+### **Total Enterprise Value (TEV)**
+
+$$ \text{TEV} = \text{NPV of Projected Cash Flows} + \text{NPV of Terminal Value} $$
+
+$$ \text{TEV} = \text{£3,255m} + \text{£7,205m} = \text{£10,460m} $$
 
 ---
 
-### **Justification and Market Disparity Analysis**
+## 4. Fair Value Calculation
 
-The calculated fair value of $\text{£18.54}$ is **141% higher** than the current market price of $\text{£7.69}$. This significant disparity requires a strong justification.
+$$ \text{Fair Value of Equity} = \text{TEV} + \text{Cash} - \text{Total Debt} $$
 
-The core reason for the discrepancy lies in the market's skepticism regarding the sustainability and magnitude of the company's stated medium-term financial targets and the successful execution of its "pureplay automotive Distributor" strategy.
+$$ \text{Fair Value of Equity} = \text{£10,460m} + \text{£549m} - \text{£1,041m} = \text{£9,968m} $$
 
-| Valuation Assumption | Market's Implicit Assumption (Skepticism) | Justification for Disparity |
-| :--- | :--- | :--- |
-| **4.0% Revenue CAGR (2025-2030)** | Market assumes a much lower CAGR, likely closer to $\text{1\%}$ - $\text{2\%}$ due to: 1) Cyclicality/volatility of the global auto market. 2) Foreign exchange volatility (which management acknowledged is a headwind). 3) Execution risk in integrating new contracts and exiting retail operations. | My assumption is directly from management guidance of $\text{3\%}$ to $\text{5\%}$. If the market assumes $\text{2\%}$ growth, the valuation drops significantly. |
-| **6.0% Operating Margin** | Market assumes margins will revert towards a lower, more cyclical historical average, perhaps $\text{4\%}$ - $\text{5\%}$, as competition in distribution markets increases or as new contracts take longer to reach maturity. | My assumption uses the stated medium-term target of **c. 6%** for the new, higher-margin distribution model. This is a major factor in the high valuation. |
-| **20.0% ROIC** | Market believes the transition to "capital-light" distribution is incomplete or that the new capital-light business is inherently subject to working capital demands, leading to a much lower real ROIC and FCF conversion over the cycle. | My $\text{20.0\%}$ ROIC is already a **conservative discount** to the $\text{25\%}$ - $\text{30\%}$ management target. If the market projects an ROIC closer to $\text{10\%}$, the valuation would be much lower. |
-| **Terminal Growth Rate of 2.0%** | Market may be applying a zero or negative terminal growth rate, implying that the distribution model is at risk of disruption from direct-to-consumer models being pursued by OEMs. | My assumption is conservative for a long-lived international business but still positive. Any assumption of long-term contraction will wipe out significant value. |
+$$ \text{Fair Value per Share} = \frac{\text{Fair Value of Equity}}{\text{Shares Outstanding}} $$
 
-**Conclusion on Disparity:**
+$$ \text{Fair Value per Share} = \frac{\text{£9,968m}}{408.288 \text{m}} = \text{£24.41} $$
 
-The valuation is an **"Execution Success"** valuation, where all of management's medium-term strategic targets for a profitable, capital-light global distributor are met. The market, however, is pricing in a significant **Execution Risk Discount**. For the stock to trade at $\text{£7.69}$, the market is implicitly assuming a combination of:
-1.  **Lower Growth:** Long-term growth significantly below the $\text{4.0\%}$ modeled CAGR.
-2.  **Margin Contraction:** Failure to sustain $\text{6.0\%}$ operating margins.
-3.  **Lower Return/Higher Capital Needs:** A real FCF conversion and ROIC much lower than the management targets.
+---
 
-The fair value of $\text{£18.54}$ suggests that if Inchcape successfully executes its transition to a pureplay distributor and meets its $\text{>10\%}$ EPS CAGR target, the stock is currently a deep-value opportunity. The current market price reflects high skepticism that the company can transition its financial profile as successfully as it projects.
+## 5. Conclusion and Market Comparison
+
+| Metric | Value |
+| :--- | :--- |
+| **Calculated Fair Value per Share** | **£24.41** |
+| **Current Market Price per Share** | **£8.31** |
+| **Difference** | **+193.7%** |
+
+### **Justification for the Valuation Difference**
+
+The calculated Fair Value of $\text{£24.41}$ is approximately **194% higher** than the current market price of $\text{£8.31}$. This significant difference suggests that the market is making much more conservative assumptions about Inchcape's future profitability and growth than the management's own medium-term guidance and the inherent economics of the business model.
+
+**Assumptions Embedded in the Market Price (£8.31):**
+
+The market appears to be skeptical about Inchcape's ability to execute on its "pure-play distributor" strategy and achieve the guided targets. The current price likely discounts one or more of the following risks/factors:
+
+1.  **Sustained Low Margin/Cyclicality:** The market may be assuming the Net Income Margin will remain close to historical levels (e.g., closer to 3.0-3.5%) rather than expanding to the projected 5.3% due to the cyclical and competitive nature of the automotive industry.
+2.  **Failure of New Contracts to Mature:** The valuation heavily relies on the success of the 40+ new distribution contracts and the goal to treble the business. The market likely assigns a much lower probability to this ambitious execution, effectively discounting the growth rate to 0-1% beyond a few years.
+3.  **ROIC Compression:** The market may not believe the exceptionally high Return on Capital Employed (ROCE) of 27% is sustainable long-term. Inchcape's high ROCE is a function of its capital-light model post-disposals, and if future acquisitions or inventory needs require more capital, the ROIC will drop significantly.
+4.  **Terminal Value Discounting:** An $\text{£8.31}$ share price could be explained by a model using the same inputs but a drastically higher discount rate (e.g., 12-14%) and a terminal growth rate of **0%**, reflecting an assumption that the business has no perpetual growth.
+
+**Justification for the High Fair Value:**
+
+My Fair Value is a direct translation of Inchcape's own stated strategic targets and financial profile:
+
+1.  **Management Guidance is Truth:** The rules require using management's commentary as truth. The projected 3.5% organic growth (mid-point of 3-5% target) and increasing margins towards 5.3% are justified by the high-value focus on the distribution segment and aftersales growth.
+2.  **High ROIC is Economic Reality:** The high, capital-light ROCE of 27% is a result of the fundamental shift away from the capital-intensive retail model. Using this rate for reinvestment is economically sound for a value-accretive distribution business.
+3.  **Conservative Terminal Rate:** The 1.5% terminal growth rate is already highly conservative given the company's long-term goal to triple the business size.
+
+The market is being overly pessimistic and discounting the entire value creation from the transformation to a pure-play automotive distributor, offering a deep discount on the company's officially projected value. If Inchcape delivers on its stated $ >10\%$ EPS CAGR medium-term target, the stock is severely undervalued.
+
+---
+## **Final Fair Value**
+
+The calculated fair value of Inchcape plc stock is **$\text{£24.41}$ per share**.
