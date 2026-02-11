@@ -1,158 +1,117 @@
-This valuation of Cardlytics, Inc. (CDLX) uses a Discounted Cash Flow (DCF) model based on a conservative build-up of the company's business engine, driven by key operating metrics and direct management commentary from SEC filings and earnings call transcripts. All figures are in millions of U.S. Dollars, except for per-share data and percentages.
-
-The current stock price of Cardlytics, Inc. (CDLX) is approximately **$0.93** per share (as of the date of the search in February 2026).
+This valuation of Cardlytics, Inc. (CDLX) uses a Discounted Cash Flow (DCF) model based on a conservative projection of the company's core business drivers, as outlined in recent SEC filings and earnings call transcripts.
 
 ---
 
-## 1. Balance Sheet Analysis
+## **Cardlytics, Inc. (CDLX) Stock Valuation**
 
-The following data is derived from the latest available financial information, primarily the Q3 2025 earnings information and related updates.
+### **1. Current Financial Data**
 
-| Metric | Value (USD Millions) | Source/Justification |
+All financial figures are in **millions of USD**, except for per-share data.
+
+| Metric | Value | Source/Justification |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | **$44.0** | Cash and cash equivalents as of Q3 2025 (September 30, 2025). |
-| **Total Debt** | **$222.5** | Composed of: $172.5M aggregate principal of 4.25% convertible senior notes due 2029, and $50.0M drawn on the line of credit, after repaying the 2020 notes in September 2025. |
-| **Shares Outstanding** | **53.5** | Fully diluted weighted-average common shares as of Q3 2025. |
+| **Current Stock Price (as of Feb 10, 2026)** | \$0.93 | Search Result |
+| **Total Cash & Cash Equivalents (Cash)** | \$65.6 | Q4 2024 Earnings Call |
+| **Total Debt (Interest-Bearing)** | \$213.9 | Debt figure as of March 2025, primarily convertible senior notes. |
+| **Shares Outstanding (SO)** | 53.493 | As of January 2026 |
+| **Trailing Twelve Month (TTM) Revenue (2024)** | \$278.3 | 2024 Full Year Results |
+| **TTM Adjusted Contribution (AC) (2024)** | \$150.5 | 2024 Full Year Results |
+| **TTM Billings (2024)** | \$443.8 | 2024 Full Year Results |
+| **TTM Net Income Margin** | -44.12% | Historical TTM Margin |
+| **TTM ROIC** | -12.25% | Historical TTM ROIC |
 
----
+### **2. Business Engine and Revenue Projections (2025 - 2030)**
 
-## 2. Business Engine & Revenue Projection
+Cardlytics' business engine is driven by **Monthly Active Users (MAUs)** and the **Billings per MAU (B-ARPU)**. Revenue is derived from Billings, which represents the total value of rewards/offers delivered before deducting the Financial Institution (FI) partner share and the direct consumer incentive. Management's "Northstar" is consumer rewards, meaning higher incentives are being paid out to drive engagement, which dampens the reported Revenue/ARPU, but the core Gross Profit is the Adjusted Contribution (AC). Therefore, the forecast focuses on **Billings** and the resulting **Adjusted Contribution margin**.
 
-Cardlytics' business engine is fundamentally driven by **Monthly Qualified Users (MQUs)** and **Average Revenue per User (ARPU)**.
+| Metric | 2024 (Actual) | 2025 (Projected) | 2026 (Projected) | 2027 (Projected) | 2028 (Projected) | 2029 (Projected) | 2030 (Projected) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **MAUs (Millions)** | 166.9 | 168.6 | 170.3 | 172.0 | 173.7 | 175.5 | 177.3 |
+| **MAU Growth (YoY)** | 3.0% | 1.0% | 1.0% | 1.0% | 1.0% | 1.0% | 1.0% |
+| **B-ARPU (Annual)** | \$2.66 | \$2.77 | \$2.88 | \$3.00 | \$3.12 | \$3.25 | \$3.38 |
+| **B-ARPU Growth (YoY)** | - | 4.0% | 4.0% | 4.0% | 4.0% | 4.0% | 4.0% |
+| **Billings (Millions)** | **\$443.8** | **\$467.5** | **\$491.9** | **\$516.4** | **\$542.4** | **\$569.5** | **\$597.9** |
 
-*   **MQUs:** Cardlytics has shown growth in MQUs, which increased 21% year-over-year in Q3 2025 to 230.3 million, driven by the full ramp of a new large Financial Institution (FI) partner. This demonstrates a strong ability to maintain and expand "supply" (users/partners).
-*   **ARPU:** ARPU, however, was down 31% to $0.11 in Q3 2025 due to content constraints from the largest FI partner and the ramp of the newest partner. This reflects a current challenge in matching "supply" (users) with "demand" (advertiser offers).
+#### **Justification for Revenue Engine Assumptions (Conservative)**
 
-The revenue projection will be based on management's stated plan to improve operational execution, scale the new FI partner, and launch the new Cardlytics Rewards Platform (CRP) with expected material financial impact starting in 2026.
+1.  **MAU Growth (1.0%):** MAUs for the full year 2024 were up 3.0%, but Q4 2024 saw a slight decrease due to winding down a partner. The company is signing new FI partners. A very conservative 1.0% annual growth rate is assumed, accounting for potential churn and slow ramp-up of new partners, which aligns with the "conservative" rule.
+2.  **B-ARPU Growth (4.0%):** B-ARPU for 2024 was \$2.66. As the platform matures, integrates Bridg technology (identity resolution) and signs more national brands on engagement-based pricing, the core advertising spend (Billings) should increase. A 4.0% compounded growth rate is conservative, given the goal of increasing engagement and advertiser budgets.
+3.  **Revenue Projection:** Revenue = Billings * Revenue %
 
-### **Revenue Calculation (2025 Actuals/Estimate)**
+### **3. Margin Projections and Net Income (2025 - 2030)**
 
-*   **Q1-Q3 2025 Actual Revenue:** $\text{Q1 + Q2 + Q3}$
-    *   Q3 2025 Revenue: $52.0M
-    *   *Assumed Q1 and Q2 2025 (not explicitly found in snippet) are around $60M each for a conservative Q1-Q3 total of $172M.*
-*   **Q4 2025 Guidance (Midpoint):** $55.1M (Midpoint of $\$51.1\text{M}-\$59.1\text{M}$)
-*   **Total 2025 Estimated Revenue:** $172.0M + \$55.1\text{M} = \mathbf{\$227.1\text{M}}$ (Used as a conservative baseline for future growth).
+The company's focus on profitability and cost discipline is a key management commentary.
 
-### **Revenue Growth Assumptions (2026-2030)**
+| Metric | 2024 (Actual) | 2025 (Projected) | 2026 (Projected) | 2027 (Projected) | 2028 (Projected) | 2029 (Projected) | 2030 (Projected) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Adj. Contribution / Billings (%) (AC%)**| 33.9% | 34.0% | 35.0% | 36.0% | 37.0% | 38.0% | 40.0% |
+| **Adj. Contribution (AC) (Millions)** | **\$150.5** | **\$159.0** | **\$172.2** | **\$185.9** | **\$200.7** | **\$216.4** | **\$239.2** |
+| **Net Income Margin (%) of Revenue** | -44.1% | -10.0% | 0.0% | 1.0% | 3.0% | 4.0% | 5.0% |
+| **Revenue / Billings (%) (Rev%)** | 62.7% | 61.0% | 60.0% | 59.0% | 58.0% | 57.0% | 56.0% |
+| **Revenue (Millions)** | **\$278.3** | **\$285.4** | **\$295.1** | **\$304.7** | **\$314.6** | **\$324.6** | **\$334.8** |
+| **Net Income (Millions)**| **(\$122.8)** | **(\$28.5)** | **\$0.0** | **\$3.0** | **\$9.4** | **\$13.0** | **\$16.7** |
 
-| Year | Growth Assumption | Revenue (USD Millions) | Justification |
-| :--- | :--- | :--- | :--- |
-| **2026** | **20.0%** | **$272.5** | Management expects acceleration as the new FI partner scales and the CRP/new CPG offers begin to have a "material financial impact." The 20% growth is a conservative estimate of the return to growth after a challenging 2025, driven by improved ARPU (better content) layered on top of the established MQU base. |
-| **2027** | **18.0%** | **$321.6** | Assumes continued acceleration from the platform shift and better content, but the growth rate is slightly tapered as the initial boost from the new major FI partner begins to mature. |
-| **2028** | **15.0%** | **$370.0** | Tapers growth further, reflecting industry maturation and conservative engine ramp. |
-| **2029** | **12.0%** | **$414.4** | Reflects a sustainable, long-term growth rate for a platform business in the mid-to-late stage of its growth cycle. |
-| **2030** | **10.0%** | **$455.8** | A very conservative growth rate, approaching a mature/terminal phase. |
+#### **Justification for Margin Assumptions**
 
----
+1.  **Adjusted Contribution / Billings (AC%):** The TTM AC% is 33.9%. This is projected to increase modestly to 40.0% by 2030. This is conservative, assuming efficiency gains from the new Cardlytics/Bridg platform and better advertiser monetization.
+2.  **Revenue / Billings (Rev%):** This ratio is declining as the company increases *Consumer Incentives* (the "Northstar"), which is a deduction from Billings to get Revenue. It is projected to decline from 62.7% to 56.0% by 2030, a conservative assumption that higher consumer rewards will continue to depress reported revenue.
+3.  **Net Income Margin:** The company was unprofitable but achieved positive Adjusted EBITDA for the full year 2024 (\$0.2 million) and positive operating cash flow in Q4 2024 (\$3.0 million). This suggests a path to profitability. A projection to reach a conservative **5.0% Net Income Margin of Revenue** by 2030 is reasonable, acknowledging the risks and assuming successful execution of the turnaround plan.
 
-## 3. Margin Projection & Net Income
+### **4. Discounted Cash Flow (DCF) Calculation**
 
-The profitability will be modeled on management's clear focus on cost reduction and achieving positive Adjusted EBITDA.
+**Assumption:**
+*   **ROIC:** A conservative positive ROIC of **3.0%** is used, given the TTM ROIC is negative (-12.25%). This assumes a minimal return on accumulated cash.
+*   **Terminal/Maturity Growth Rate:** A very conservative **2.0%** is used.
+*   **Discount Rate (WACC):** A conservative but reasonable **12.0%** is used, reflecting the company's high-risk profile, history of unprofitability, and high debt load.
 
-*   **Gross Margin / Adjusted Contribution Margin:** Q3 2025 Adjusted Contribution Margin was a record **57.7%** due to a favorable partner mix. Given this high margin is the stated new goal, I will conservatively assume a **Gross Margin of 55.0%** for all future years, slightly below the Q3 2025 peak but reflecting long-term efficiency.
-*   **Operating Expenses (OpEx):** The company has undertaken significant operational restructuring, with $50M in cumulative annualized savings announced (including $26M in annualized savings for 2026). OpEx (excluding non-cash items like Stock-Based Compensation) was $26.8M in Q3 2025 (plus one-time benefits).
-    *   **2025 Estimated OpEx:** Based on the run rate, OpEx will be approximately $120M.
-    *   **2026 OpEx:** Applying the $26M in annualized savings from Q3 2025, I will project a significant drop to **$94M** (120 - 26) to reflect management's commitment to efficiency and positive Adjusted EBITDA in 2026.
-    *   **2027-2030 OpEx:** I will assume a conservative **4.0% annual increase** in OpEx to account for inflationary and investment pressures.
-
-### **Projected Net Income Calculation**
-
-| Metric (USD Millions) | 2025 (Est.) | 2026 (Proj.) | 2027 (Proj.) | 2028 (Proj.) | 2029 (Proj.) | 2030 (Proj.) |
+| Year | Net Income (A) | Previous Year Cash (B) | ROIC on Previous Cash (B * 3.0%) (C) | Total Cash Flow (A + C) | Discount Factor (12.0%) | NPV of Cash Flow |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Revenue** | **$227.1** | **$272.5** | **$321.6** | **$370.0** | **$414.4** | **$455.8** |
-| Gross Margin (55.0%) | $124.9 | $150.0 | $176.9 | $203.5 | $227.9 | $250.7 |
-| **Operating Expenses** | $120.0 | $94.0 | $97.8 | $101.7 | $105.8 | $110.0 |
-| **Operating Income** | **$4.9** | **$56.0** | **$79.1** | **$101.8** | **$122.1** | **$140.7** |
-| Interest Expense (Est. 10%) | $22.3 | $22.3 | $22.3 | $22.3 | $22.3 | $22.3 |
-| **Pre-Tax Income** | **($17.4)** | **$33.7** | **$56.8** | **$79.5** | **$99.8** | **$118.4** |
-| Tax Rate (Est. 20%) | $0.0 | $6.7 | $11.4 | $15.9 | $20.0 | $23.7 |
-| **Base Net Income** | **($17.4)** | **$27.0** | **$45.4** | **$63.6** | **$79.8** | **$94.7** |
+| **2025** | (\$28.5) | \$0.0 | \$0.0 | (\$28.5) | 0.8929 | (\$25.4) |
+| **2026** | \$0.0 | (\$28.5) | (\$0.9) | (\$0.9) | 0.7972 | (\$0.7) |
+| **2027** | \$3.0 | (\$29.4) | (\$0.9) | \$2.1 | 0.7118 | \$1.5 |
+| **2028** | \$9.4 | (\$27.3) | (\$0.8) | \$8.6 | 0.6355 | \$5.5 |
+| **2029** | \$13.0 | (\$18.7) | (\$0.6) | \$12.4 | 0.5674 | \$7.0 |
+| **2030** | \$16.7 | (\$6.3) | (\$0.2) | \$16.5 | 0.5066 | \$8.4 |
+| **Sum of NPV of Cash Flows (2025-2030)**| | | | | | **\$(\$3.7) million** |
 
-### **ROIC Cash Build-Up**
+**Terminal Value Calculation (2030):**
+*   **Terminal Cash Flow (2031 Estimate):** Net Income 2030 * (1 + 2.0%) = \$16.7 * 1.02 = \$17.0 million
+*   **Terminal Value Formula:** (Terminal Cash Flow) / (Discount Rate - Maturity Rate)
+*   **Terminal Value:** \$17.0 / (0.12 - 0.02) = \$170.0 million
+*   **NPV of Terminal Value (Discounted to Today):** \$170.0 * 0.5066 (2030 Discount Factor) = **\$86.1 million**
 
-The rule requires that net income goes into cash for the next year, and then a reasonable ROIC is applied to that cash. Since Cardlytics has been historically unprofitable, I will use a **conservative ROIC of 5.0%** on the accumulated cash from prior-year Net Income to represent a conservative return on surplus capital.
+**Total Net Present Value (NPV):**
+*   \$(\$3.7) million (2025-2030 NPV) + \$86.1 million (Terminal Value NPV) = **\$82.4 million**
 
-*   **Cash Flow for DCF:** I will use the **Base Net Income** as a proxy for unlevered Free Cash Flow (FCF) for this DCF, as the focus is on the long-term enterprise value of the operating business reaching profitability. I will assume a Net Income to Free Cash Flow conversion of 100% since Net Income is projected to be positive after the initial loss and operating cash flow was positive in Q3 2025. The ROIC component is a secondary income source, not part of the core business FCF.
+### **5. Fair Value Per Share Calculation**
 
-| Metric (USD Millions) | 2025 (Est.) | 2026 (Proj.) | 2027 (Proj.) | 2028 (Proj.) | 2029 (Proj.) | 2030 (Proj.) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Projected FCF (Base Net Income)** | **($17.4)** | **$27.0** | **$45.4** | **$63.6** | **$79.8** | **$94.7** |
+| Metric | Calculation | Value (Millions of USD) |
+| :--- | :--- | :--- |
+| **Total NPV of Future Cash Flows** | | \$82.4 |
+| **Add: Total Cash & Cash Equivalents** | | \$65.6 |
+| **Subtract: Total Debt** | | (\$213.9) |
+| **Total Equity Value** | NPV + Cash - Debt | **\$(\$65.9) million** |
+| **Total Shares Outstanding** | | 53.493 million |
+| **Fair Value Per Share** | Total Equity Value / Shares Outstanding | **\$(\$1.23)** |
 
----
+### **6. Conclusion and Justification**
 
-## 4. Discounted Cash Flow (DCF) Valuation
+**Fair Value Per Share:** **\$(\$1.23)**
 
-### **Discount Rate & Terminal Value Assumptions**
+**Current Stock Price:** **\$0.93**
 
-1.  **Discount Rate (Conservative but Reasonable):** Given the company's lack of consistent profitability, negative shareholder equity, and high debt-to-equity ratio, a high discount rate is necessary to account for the risk. A **15.0%** discount rate will be used.
-2.  **Terminal Growth Rate (Conservative Maturity Rate):** A conservative long-term growth rate for a mature tech company. A **2.0%** terminal growth rate will be used.
+The calculated Fair Value Per Share is negative, indicating that the present value of the company's projected future cash flows, even with conservative long-term growth and a path to profitability, is insufficient to cover the company's current total debt.
 
-### **Net Present Value (NPV) Calculation**
+**Justification for Discrepancy (Fair Value vs. Market Price):**
 
-| Year (t) | FCF (USD Millions) | Discount Factor (15.0%) | NPV of FCF (USD Millions) |
-| :--- | :--- | :--- | :--- |
-| 2026 (t=1) | $27.0 | 0.870 | $23.5 |
-| 2027 (t=2) | $45.4 | 0.756 | $34.3 |
-| 2028 (t=3) | $63.6 | 0.658 | $41.8 |
-| 2029 (t=4) | $79.8 | 0.572 | $45.6 |
-| 2030 (t=5) | $94.7 | 0.497 | $47.1 |
-| **Sum of Projected FCF (NPV)** | | | **$192.3** |
+The market price of **\$0.93** is significantly higher than the calculated negative fair value. This discrepancy suggests the market is making a few different, and much more optimistic, assumptions than my conservative DCF model:
 
-### **Terminal Value Calculation**
+1.  **Higher Growth Rate / Faster Turnaround:** The market is likely pricing in a faster and more aggressive ramp-up of the turnaround plan. My projection of 1.0% MAU growth and 4.0% B-ARPU growth might be too conservative. The market may assume that new FI partners and product improvements (Bridg integration) will lead to MAU/ARPU growth rates exceeding 10% per year for a sustained period.
+2.  **Higher Terminal Value / Margins:** The market assumes Cardlytics will achieve a significantly higher long-term Net Income Margin (e.g., 10-15%) rather than my conservative 5.0% by 2030, or that the cost of capital (Discount Rate) is lower than 12.0%, which would dramatically increase the Terminal Value.
+3.  **Debt Restructuring/Conversion:** The majority of the debt is in the form of convertible senior notes. The market may be assuming:
+    *   The notes will be converted to equity (leading to massive dilution, but eliminating the debt). My calculation does not factor in this dilution or the potential conversion price, but assumes the debt must be paid off or refinanced.
+    *   The company will successfully refinance the debt at a favorable rate, or the debt holders are not immediately concerned with repayment due to the equity cushion (though the current market cap is low).
 
-Terminal Value (TV) is calculated as: $\text{TV} = [\text{FCF} \text{ year } 5 \times (1 + \text{Terminal Growth Rate})] / (\text{Discount Rate} - \text{Terminal Growth Rate})$
+**Conclusion on Market's Assumptions:**
 
-$\text{TV}_{2030} = [\$94.7 \times (1 + 0.02)] / (0.15 - 0.02) = (\$96.6) / 0.13 = \$743.0\text{M}$
-
-$\text{NPV of TV} = \text{TV}_{2030} / (1 + \text{Discount Rate})^5$
-
-$\text{NPV of TV} = \$743.0 / (1.15)^5 = \$743.0 / 2.011 = \mathbf{\$369.5\text{M}}$
-
-### **Total Enterprise Value (TEV)**
-
-$\text{TEV} = \text{NPV of Projected FCF} + \text{NPV of Terminal Value}$
-
-$\text{TEV} = \$192.3\text{M} + \$369.5\text{M} = \mathbf{\$561.8\text{M}}$
-
----
-
-## 5. Fair Value Calculation
-
-$\text{Fair Value of Equity} = \text{TEV} + \text{Cash} - \text{Total Debt}$
-
-$\text{Fair Value of Equity} = \$561.8\text{M} + \$44.0\text{M} - \$222.5\text{M} = \mathbf{\$383.3\text{M}}$
-
-$\text{Fair Value per Share} = \text{Fair Value of Equity} / \text{Shares Outstanding}$
-
-$\text{Fair Value per Share} = \$383.3\text{M} / 53.5\text{M} \text{ shares} = \mathbf{\$7.16}$
-
----
-
-## 6. Conclusion and Justification
-
-### **Fair Value of CDLX Stock: $7.16 per share**
-
-| Metric | Value |
-| :--- | :--- |
-| **Calculated Fair Value** | **$7.16 / share** |
-| **Current Market Price** | **$0.93 / share** |
-| **Difference** | **670%** |
-
-### **Justification for the Valuation Disparity**
-
-The calculated fair value of **$7.16** is significantly higher (over 670%) than the current market price of **$0.93**. The market is making dramatically different assumptions about the company's future compared to the conservative-but-optimistic assumptions built into this DCF model.
-
-**Assumptions The Market Is Making (Why the Stock is Low - Bear Case):**
-
-1.  **Failure to Execute the Turnaround:** The market is discounting the stock because it believes management will **fail to achieve positive Adjusted EBITDA** in 2026, or that the cost-saving initiatives will negatively impact the core business, leading to a continued net loss.
-2.  **FI Partner Risk:** The market believes the content constraints and loss of ARPU from the largest FI partner are a structural, permanent problem, not a temporary headwind. They are pricing in **zero to negative revenue growth** in 2026/2027 and a stagnant ARPU.
-3.  **Liquidity & Debt Risk:** The high debt load of **$222.5 million** combined with negative retained earnings and historical losses indicates a fragile balance sheet. The market is pricing in a **significant risk of dilution** (if the convertible notes are not paid) or outright **bankruptcy/liquidation** given the negative book value. The interest expense is a massive drag on the path to net profitability.
-4.  **Discount Rate:** The market is likely using a *much* higher implied discount rate (25%+), reflecting a high probability of failure and low confidence in management's ability to transition the business model.
-
-**Assumptions in This Valuation (Why the Fair Value is High - Bull Case with Conservative Estimates):**
-
-1.  **Management Guidance is Truth (Path to Profitability):** This valuation takes management's commentary as truth: the **57.7% adjusted contribution margin** is sustainable, and the **$26M in annualized savings** for 2026 will lead to a step-change in OpEx. This is the biggest driver of the valuation's positive outcome.
-2.  **Growth Engine Restart:** The model assumes the new FI partner fully scales and the new CRP platform will drive a conservative **20% growth in 2026**, which would correct the ARPU issue and restart the business engine.
-3.  **Long-Term Value:** The valuation is driven heavily by the Terminal Value ($\approx\$370\text{M} \text{ NPV}$), which assumes the business will eventually mature into a healthy, 2.0%-growth-forever company. The market is pricing in a very low or non-existent Terminal Value.
-
-The massive difference indicates that the market views CDLX as a **highly distressed asset** with a high probability of business failure/debt restructuring, while the DCF model, built on management's plan to return to aggressive growth and profitability, sees a significant embedded value should the turnaround succeed. **The $7.16 valuation is a reflection of the successful execution of management's entire turnaround plan.**
+The market is betting on the successful execution of the management's turnaround strategy, specifically the ability to grow **Billings** and, more importantly, to achieve sustained, substantial **Net Income Margins** through operating leverage as revenue scales, rapidly moving from Adjusted EBITDA breakeven to significant GAAP profitability. The market is ignoring the current debt burden in favor of this future growth story, or banking on a non-cash conversion of the debt. My analysis, strictly adhering to conservative accounting for debt and modest growth, concludes the company is currently overleveraged relative to its projected cash flows, hence the negative fair value.
