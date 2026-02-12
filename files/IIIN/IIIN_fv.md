@@ -1,143 +1,143 @@
-The following is a valuation of Insteel Industries Inc. (IIIN) stock using the requested discounted cash flow (DCF) methodology. All data is sourced from SEC filings and earnings call transcripts summaries as of the latest available information.
+## Valuation of Insteel Industries Inc. (IIIN) Stock
+
+### I. Financial Data (As of December 27, 2025)
+
+The financial inputs are based on Insteel Industries Inc.'s most recent financial filings, specifically the Q1 Fiscal 2026 press release (for cash/debt) and the Fiscal 2025 10-K (for shares outstanding).
+
+| Metric | Value (USD in millions) | Justification/Source |
+| :--- | :--- | :--- |
+| **Total Cash & Cash Equivalents (Cash)** | \$15.6 million | As of December 27, 2025, from the Q1 2026 results. |
+| **Total Debt** | \$0 | The company reported no debt outstanding as of December 27, 2025. |
+| **Shares Outstanding** | 19.416 million | Shares outstanding as of October 21, 2025, confirmed from the Fiscal 2025 10-K filing. |
+| **Current Market Price** | **[Current IIIN Stock Price]** | *Note: This will be stated at the end for comparison.* |
+| **FY 2025 Net Sales (Actual)** | \$647.7 million | Fiscal 2025 full-year results. |
+| **FY 2025 Net Income (Actual)** | \$41.0 million | Fiscal 2025 full-year results. |
 
 ---
 
-# Insteel Industries Inc. (IIIN) Stock Valuation
+### II. Business Engine and Projection Assumptions
 
-## I. Current Financial Data (Source: FY 2025 Q4 Earnings Results & Filings)
+Insteel Industries is the nation’s largest manufacturer of steel wire reinforcing products for concrete construction. Its revenue engine is driven by volume (shipments) and pricing/spreads (between selling price and raw material cost) within its core end markets: non-residential construction (including infrastructure), which accounted for approximately 85% of sales in fiscal 2025, and residential construction (15%).
 
-The company's fiscal year ends in September. All figures are based on the fiscal year ended September 27, 2025.
+The key future drivers are:
+1.  **Infrastructure Spending:** The Infrastructure Investment and Jobs Act (IIJA) is a multi-year catalyst, with management citing this as a support for continued growth into 2027. This underpins long-term volume growth in its core market.
+2.  **Specialty Markets:** Growth in data center construction is a specific, strong demand driver mentioned by management.
+3.  **Efficiency/Spreads:** The company is an FIFO reporter, meaning stable or increasing spreads between raw material (wire rod) and selling prices are critical. Capital expenditure of approximately \$20.0 million in FY 2026 is focused on cost and productivity improvements, which will support margins.
 
-| Metric | Value (USD) | Source/Notes |
-| :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | **$38.6 million** | Based on the fiscal year-end September 27, 2025. |
-| **Total Debt** | **$0.0 million** | The company is debt-free with no borrowings on its credit facility. |
-| **FY 2025 Net Sales (Revenue)** | **$647.7 million** | Explicitly stated for the full fiscal year 2025. |
-| **FY 2025 Net Earnings** | **$41.0 million** | Explicitly stated for the full fiscal year 2025. |
-| **Diluted Shares Outstanding** | **19.524 million** | Implied from FY2025 Net Earnings ($41.0M) / Diluted EPS ($2.10). |
-| **Current Stock Price (Assumption)** | **\$38.00** | Assumed current market price for comparison (as current price is not an accessible search result). |
+The valuation uses a **conservative and decelerating growth model** to reflect the cyclical nature of the construction industry, balancing the current positive infrastructure tailwind with long-term industrial maturity.
 
-## II. Business Engine and Future Assumptions
+#### A. Revenue Projection (USD in millions)
 
-Insteel Industries' business engine is driven by **volume/shipment growth** and the **spread between selling prices and raw material costs (steel wire rod)** in the concrete construction market. Shipments are supported by recent acquisitions and demand in nonresidential construction (especially data centers and infrastructure), while residential construction continues to lag. The company's profitability is highly sensitive to its ability to maintain or expand the price-to-raw-material spread.
+| Fiscal Year | Starting Revenue | Revenue Growth Rate | Projected Revenue | Justification |
+| :--- | :--- | :--- | :--- | :--- |
+| **2025 (Actual)** | - | - | \$647.7 | Actual reported Net Sales. |
+| **2026** | \$647.7 | **5.0%** | \$680.1 | Reflects near-term "solid opportunity" and ramp-up of infrastructure/data center projects. Assumes modest volume (shipment) growth. |
+| **2027** | \$680.1 | **4.0%** | \$707.3 | Continued, but moderating, benefit from the IIJA and commercial construction projects. |
+| **2028** | \$707.3 | **2.0%** | \$721.5 | Begins normalization to a conservative long-term growth rate for a cyclical, mature industrial company. |
+| **2029** | \$721.5 | **2.0%** | \$735.9 | Conservative long-term growth. |
+| **2030** | \$735.9 | **2.0%** | \$750.6 | Conservative long-term growth. |
 
-### A. Revenue Projections (FY 2026 - FY 2030)
+#### B. Margin and Net Income Projection
 
-Management is cautiously optimistic for FY 2026, pointing to a recovery trend and the benefit of prior acquisitions, but notes limited long-term visibility due to trade policies and economic cycles. The **Infrastructure Investment and Jobs Act** is a key long-term catalyst.
+The FY 2025 Net Income Margin was 6.33% (\$41.0M / \$647.7M). To be conservative and account for industry cyclicality and price volatility, the margin is modeled to decelerate to a lower long-term average of 5.0% after the peak infrastructure-driven period.
 
-| Fiscal Year | Growth Driver / Justification | Revenue Growth % | Projected Revenue (Million USD) |
-| :---: | :--- | :---: | :---: |
-| **FY 2025 (Base)** | Actual Net Sales | - | **$647.7** |
-| **FY 2026** | **Conservative near-term growth:** Strong Q4 momentum, full-year benefit of acquisitions, and initial phase of infrastructure spending. I assume a moderate growth rate, balancing optimism with raw material/pricing volatility. | 3.5% | **$670.4** |
-| **FY 2027** | **Steady growth:** Continued but moderating benefit from infrastructure and non-residential market, tapering the initial post-acquisition/recovery bump. | 3.0% | **$690.5** |
-| **FY 2028** | **Long-term normalized growth:** Reflects the cyclical nature of construction and a conservative long-term growth rate for the heavy-side construction industry. | 2.0% | **$704.3** |
-| **FY 2029** | **Conservative maturity:** Same as above, reflecting sustainable demand for concrete reinforcement. | 2.0% | **$718.4** |
-| **FY 2030** | **Conservative maturity:** Same as above. | 2.0% | **$732.8** |
-
-### B. Margin and ROIC Projections
-
-*   **Net Income Margin:** FY2025 Net Margin was $41.0M / $647.7M $\approx$ 6.33%. Given the volatility in the steel market (price/spread risk) and the focus on cost improvement via $20.0 million in CapEx for FY 2026, I will use a conservative but strong **6.0% Net Margin** for the entire projection period.
-*   **Return on Invested Capital (ROIC):** The valuation rule is to use a reasonable ROIC on the *accumulated net income (cash)* from the prior year to generate additional income. Given the capital-intensive nature and the conservative outlook, a **6.0% ROIC** is chosen. This is a conservative, positive return, justified by management's continuous investment in "cost and productivity improvement initiatives."
-*   **Net Income Calculation:** Net Income = (Projected Revenue * Net Margin) + (Prior Year Accumulated Cash/Net Income * ROIC)
-
-## III. Discounted Cash Flow (DCF) Calculation
-
-### A. DCF Assumptions
-
-| Metric | Value | Justification |
-| :--- | :--- | :--- |
-| **Discount Rate** | **10.0%** | A conservative rate for a highly cyclical and capital-intensive industry (steel/construction), reflecting higher business risk than a typical S&P 500 company. |
-| **Terminal Growth Rate (g)** | **1.5%** | A very conservative, below-average long-term nominal GDP/inflation rate, appropriate for a mature, cyclical industry in the terminal period. |
-
-### B. Projected Net Income and NPV
-
-| Fiscal Year | Projected Revenue (A) | Net Margin | Net Income (B) (A * Net Margin) | Prior Year Acc. Net Income (C) | ROIC (D) (C * 6.0%) | Total Net Income (E) (B + D) | Discount Factor (10.0%) | NPV of Net Income (E * DF) |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **FY 2025** | $647.7 | 6.33% | $41.0 | - | - | $41.0 | - | - |
-| **FY 2026** | $670.4 | 6.00% | $40.2 | $41.0 | $2.5 | $42.7 | 0.9091 | $38.8 |
-| **FY 2027** | $690.5 | 6.00% | $41.4 | $83.7 | $5.0 | $46.4 | 0.8264 | $38.3 |
-| **FY 2028** | $704.3 | 6.00% | $42.3 | $130.1 | $7.8 | $50.1 | 0.7513 | $37.6 |
-| **FY 2029** | $718.4 | 6.00% | $43.1 | $180.2 | $10.8 | $53.9 | 0.6830 | $36.8 |
-| **FY 2030** | $732.8 | 6.00% | $44.0 | $234.1 | $14.0 | $58.0 | 0.6209 | $36.0 |
-| **Total NPV of Projected Cash Flows** | | | | | | | | **$187.5 million** |
-
-*Note: Prior Year Acc. Net Income (C) = Sum of all Total Net Income (E) from prior years. The calculation of C for FY2026 starts with the $41.0M from FY2025. All figures in Millions.*
-
-### C. Terminal Value Calculation
-
-The Terminal Value (TV) represents the value of all cash flows after the projection period (2030). We will use the Gordon Growth Model.
-
-$$
-\text{TV}_{\text{2030}} = \frac{\text{Net Income}_{\text{2030}} \times (1 + \text{g})}{\text{Discount Rate} - \text{g}}
-$$
-
-$$
-\text{TV}_{\text{2030}} = \frac{\$58.0 \times (1 + 0.015)}{0.10 - 0.015} = \frac{\$58.9}{\text{0.085}} = \$692.9 \text{ million}
-$$
-
-**NPV of Terminal Value:**
-
-$$
-\text{NPV of TV} = \frac{\text{TV}_{\text{2030}}}{\text{(1 + Discount Rate)}^{\text{Year of TV}}} = \frac{\$692.9}{\text{(1 + 0.10)}^{5}} = \$692.9 \times 0.6209 = \mathbf{\$430.2 \text{ million}}
-$$
-
-## IV. Fair Value Calculation
-
-### Enterprise Value (EV)
-
-$$
-\text{EV} = \text{NPV of Projected Cash Flows} + \text{NPV of Terminal Value}
-$$
-
-$$
-\text{EV} = \$187.5 \text{ million} + \$430.2 \text{ million} = \mathbf{\$617.7 \text{ million}}
-$$
-
-### Fair Value of Equity
-
-$$
-\text{Fair Value of Equity} = \text{EV} + \text{Total Cash} - \text{Total Debt}
-$$
-
-$$
-\text{Fair Value of Equity} = \$617.7 \text{ million} + \$38.6 \text{ million} - \$0.0 \text{ million} = \mathbf{\$656.3 \text{ million}}
-$$
-
-### Fair Value Per Share
-
-$$
-\text{Fair Value Per Share} = \frac{\text{Fair Value of Equity}}{\text{Diluted Shares Outstanding}}
-$$
-
-$$
-\text{Fair Value Per Share} = \frac{\$656.3 \text{ million}}{19.524 \text{ million shares}} = \mathbf{\$33.61 \text{ per share}}
-$$
-
----
-
-# Fair Value of Insteel Industries Inc. (IIIN) Stock
-
-**Fair Value Per Share: \$33.61**
-
-### Justification and Market Comparison
-
-| Metric | Valuation Result | Assumed Market Value | Difference |
+| Fiscal Year | Projected Revenue | Net Income Margin | Net Income (A) |
 | :--- | :--- | :--- | :--- |
-| **Fair Value Per Share** | **\$33.61** | **\$38.00** | **-11.55%** |
+| **2025 (Actual)** | \$647.7 | 6.33% | \$41.0 |
+| **2026** | \$680.1 | **6.3%** | \$42.8 | Near-term benefit from recent stronger spreads and cost control. |
+| **2027** | \$707.3 | **5.8%** | \$41.0 | Slight moderation as price spreads face inevitable cyclical pressure. |
+| **2028** | \$721.5 | **5.5%** | \$39.7 | Continued cyclical margin compression. |
+| **2029** | \$735.9 | **5.0%** | \$36.8 | Modeling a return to a conservative, long-term industry average margin. |
+| **2030** | \$750.6 | **5.0%** | \$37.5 | Conservative long-term average margin. |
 
-My calculated **Fair Value Per Share of \$33.61** is approximately 11.55% lower than the assumed current market price of $38.00.
+#### C. Discounted Cash Flow (DCF) Calculation
 
-#### Why the Difference?
+**1. Cash Flow Model (Net Income + ROIC):**
 
-The difference suggests the market is pricing in a more optimistic scenario than my conservative assumptions. The market's assumptions are likely factoring in:
+*   **Assumption:** Net Income for each year goes straight into cash for the next year.
+*   **ROIC (Return on Invested Capital) Assumption:** Since the company is debt-free and generates cash, a very conservative, positive ROIC of **4.0%** is used on the cumulative retained cash balance. This reflects a low-risk, internal rate of return on capital, which is a key management focus.
 
-1.  **More Aggressive Revenue Growth:** The market may be assuming the **Infrastructure Investment and Jobs Act** will have a much more immediate and sustained positive impact on volume than my tapering growth rates of 3.5% to 2.0%. A small increase in my long-term growth rate to 4.0% in 2026, 3.5% in 2027, and 2.5% thereafter (still conservative for a growth phase) would push the fair value higher.
-2.  **Higher Spreads/Margins:** My Net Margin of 6.0% is slightly below the FY2025 result of 6.33% and significantly below the peak-period quarterly margins of 16.1% and 17.1% (Q4 and Q3 2025). The market may believe the company's recent pricing power and spread recovery are more durable, projecting an average Net Margin closer to **7.0%** for the full projection period.
-    *   *Self-Correction Check:* A sustained 7.0% Net Margin (holding all other assumptions constant) would increase the Fair Value Per Share to approximately **\$38.80**, which is in line with the market price.
-3.  **Lower Discount Rate:** The market may perceive Insteel's strong financial position (debt-free with significant cash) and its dominant position as the largest manufacturer of its products in the US as lower risk. A lower cost of equity/discount rate would significantly increase the Net Present Value of the Terminal Value. Using a **9.0%** discount rate (instead of 10.0%) and the original 6.0% margin pushes the fair value to approximately **\$40.92**.
+| Fiscal Year | Net Income (A) | Cash In-Hand (Start of Year) (B) | ROIC on Cash (B x 4.0%) (C) | Total Cash Flow (A + C) |
+| :--- | :--- | :--- | :--- | :--- |
+| **2026** | \$42.8 | \$15.6 (Initial Cash) | \$0.6 | **\$43.4** |
+| **2027** | \$41.0 | \$58.4 (15.6 + 42.8) | \$2.3 | **\$43.3** |
+| **2028** | \$39.7 | \$99.4 (58.4 + 41.0) | \$4.0 | **\$43.7** |
+| **2029** | \$36.8 | \$139.1 (99.4 + 39.7) | \$5.6 | **\$42.4** |
+| **2030** | \$37.5 | \$175.9 (139.1 + 36.8) | \$7.0 | **\$44.5** |
 
-**Conclusion on Discrepancy:**
+*(Note: Cash in-hand for 2026 is the initial cash. The cash from 2026 Net Income is added to the balance for the 2027 calculation, etc. The ROIC component is calculated from the *prior* year's accrued cash (Initial Cash + Prior Net Income Accruals). Dividends and share repurchases are disregarded to maintain a conservative net income-to-cash flow model.)*
 
-The market is likely justifying the higher valuation based on a combination of a slightly more optimistic outlook for **Net Income Margin (closer to 7.0%)** and a **lower Discount Rate (closer to 9.0%)** due to the company's strong balance sheet and favorable positioning to capture long-term infrastructure demand.
+**2. Terminal Value Calculation (2030 onwards):**
 
-My valuation is a **conservative estimate**, which is appropriate for a cyclical, capital-intensive company. I will not adjust my base model, as my conservative assumptions (6.0% margin, 10.0% discount rate, and 1.5% terminal growth) provide a larger margin of safety against the company's inherent exposure to volatile raw material prices and construction cycles.
+*   **Terminal Growth Rate (g):** **1.5%** (Very conservative, below long-term GDP/inflation, for a mature, cyclical industry).
+*   **Discount Rate (WACC):** **8.0%** (Conservative, reasonable WACC for a debt-free industrial company, assuming a higher cost of equity due to business cyclicality).
+*   **Perpetuity Formula:** [Cash Flow 2030 * (1 + g)] / (WACC - g)
+*   **Terminal Value:** [ \$44.5M * (1 + 0.015) ] / (0.080 - 0.015) = **\$693.3 million**
+
+**3. Net Present Value (NPV) Calculation:**
+
+The Net Present Value (NPV) is the sum of the discounted cash flows for the explicit forecast period (2026-2030) and the discounted Terminal Value.
+
+| Year | Cash Flow (USD in millions) | Discount Factor (8.0%) | Discounted Cash Flow (NPV) |
+| :--- | :--- | :--- | :--- |
+| **2026** | \$43.4 | 0.9259 | \$40.2 |
+| **2027** | \$43.3 | 0.8573 | \$37.1 |
+| **2028** | \$43.7 | 0.7938 | \$34.7 |
+| **2029** | \$42.4 | 0.7350 | \$31.2 |
+| **2030** | \$44.5 | 0.6806 | \$30.3 |
+| **Terminal Value (2030)** | \$693.3 | 0.6806 | \$471.8 |
+| **Total NPV of Future Cash Flows** | | | **\$645.3 million** |
+
+---
+
+### III. Fair Value Calculation
+
+The Fair Value is calculated using the Equity Value formula:
+
+**Equity Value** = Total NPV of Future Cash Flows + Current Cash - Total Debt
+
+*   **Total NPV of Future Cash Flows:** \$645.3 million
+*   **Current Cash:** \$15.6 million
+*   **Total Debt:** \$0
+
+**Equity Value** = \$645.3 million + \$15.6 million - \$0 = **\$660.9 million**
+
+**Fair Value Per Share** = Equity Value / Shares Outstanding
+
+*   **Shares Outstanding:** 19,416,462 (19.416 million)
+
+**Fair Value Per Share** = \$660.9 million / 19.416 million shares = **\$34.04**
+
+---
+
+### IV. Conclusion and Justification
+
+The calculated **Fair Value Per Share is \$34.04**.
+
+**Market Comparison and Justification:**
+
+*   **Fair Value:** \$34.04
+*   **Current Stock Price:** [Current IIIN Stock Price]
+
+If the current market price of IIIN stock is significantly different from \$34.04, it suggests the market is making a different set of assumptions about the future of the company.
+
+**If the Market Price is Higher than \$34.04:**
+
+The market is likely assuming one or more of the following:
+1.  **Higher Terminal Growth:** The market anticipates that the Infrastructure Investment and Jobs Act (IIJA) and related secular growth (e.g., data centers) will have a longer-lasting impact, leading to a terminal growth rate higher than the conservative 1.5% used here. For example, a 2.5% terminal growth rate would push the valuation up considerably.
+2.  **Higher Long-Term Margins:** The market believes that the company's cost and productivity initiatives (supported by CapEx) will result in a sustainable, higher long-term Net Income Margin, perhaps averaging 6.5% or more, even through a cyclical downturn.
+3.  **Lower Discount Rate:** Given the company's pristine, debt-free balance sheet and strong cash position, the market might be applying a lower Cost of Equity (and thus a lower WACC) than the conservative 8.0% used in this analysis.
+
+**If the Market Price is Lower than \$34.04:**
+
+The market's assumptions would be more bearish, suggesting:
+1.  **Imminent Cyclical Downturn:** The market is discounting the near-term benefits of the infrastructure spending and instead pricing in an immediate, severe cyclical downturn in non-residential construction, leading to lower Net Income Margins (e.g., < 4.0%) in the near term.
+2.  **Increased Raw Material Volatility/Competition:** The market may be concerned about rising raw material costs (wire rod) and aggressive import competition, which will compress the pricing spreads and quickly erode profitability despite volume increases.
+3.  **Lower ROIC/Inefficient Capital Allocation:** Despite the focus on "Return on Capital," the market may be skeptical of the company's ability to efficiently reinvest its growing cash pile, assuming a lower or zero return (ROIC < 4.0%).
+
+**The conservatism of this analysis is primarily housed in:**
+*   The sharp deceleration of the Net Income Margin from 6.3% to a flat 5.0% by 2029, which builds in an inevitable cyclical decline.
+*   The very conservative 1.5% Terminal Growth Rate.
+*   The relatively high 8.0% Discount Rate for a debt-free company.
+
+**The Fair Value Per Share is \$34.04.**
