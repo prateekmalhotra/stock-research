@@ -1,152 +1,136 @@
-This valuation uses a Discounted Cash Flow (DCF) model based on Cantaloupe, Inc.'s (CTLP) core business drivers, management's guidance from the most recent earnings calls, and a conservative outlook.
+## Valuation of Cantaloupe, Inc. (CTLP) Stock
 
-***
+This valuation is based on a Discounted Cash Flow (DCF) model and includes a critical analysis of the current market context, specifically the pending all-cash acquisition. All financial data is sourced from SEC filings.
 
-# Cantaloupe, Inc. (CTLP) Stock Valuation
+---
 
-## I. Financial Starting Point (Millions USD)
+### I. Financial Data (As of December 31, 2024)
 
-The following data is derived from the latest available SEC filings and management commentary, primarily from the Fiscal Year 2025 (FY2025, which ends June 30, 2025) reporting period.
+The data is sourced from Cantaloupe, Inc.'s Q2 Fiscal Year 2025 (FY2025) Condensed Consolidated Balance Sheet (period ended December 31, 2024), unless otherwise noted.
 
-| Metric | Value | Source/Justification |
+| Metric | Value (in millions) | Source/Note |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | \$51.15 M | Based on most recent balance sheet information (around June 2025). |
-| **Total Debt** | \$38.66 M | Total debt as reported in most recent balance sheet information (around June 2025). |
-| **Net Cash Position** | \$12.49 M | (\$51.15 M - \$38.66 M) |
-| **Shares Outstanding** | 73.37 M | As of September 2025. |
-| **Current Stock Price** | \$10.58 | Reference price as of 10/24/2025. |
-| **FY2025 Revenue (Guidance Midpoint)** | \$325.0 M | Midpoint of revised FY2025 guidance of \$322M - \$328M. |
-| **FY2025 GAAP Net Income (Guidance Midpoint)** | \$27.0 M | Midpoint of reaffirmed FY2025 GAAP Net Income guidance of \$22M - \$32M. |
-| **FY2024 Net Income** | \$11.4 M | Fiscal Year 2024 U.S. GAAP Net Income Applicable to Common Shares. |
-| **FY2024 Revenue** | \$268.6 M | Fiscal Year 2024 Revenue. |
+| **Total Cash & Cash Equivalents** | **\$27.68M** | Cash and cash equivalents as of December 31, 2024. |
+| **Current Obligations under Long-Term Debt** | \$1.93M | As of March 31, 2025, from a Q3 2025 10-Q filing. This is the nearest and most recent explicit current debt figure. |
+| **Long-Term Debt, less current portion** | \$37.23M | As of March 31, 2025, from a Q3 2025 10-Q filing. The company refinanced debt in Jan 2025. |
+| **Total Debt** | **\$39.16M** | \$1.93M (Current) + \$37.23M (Long-Term). |
+| **Shares Outstanding** | **73.72 million** | As of February 2, 2026. |
+| **Current Stock Price (Reference)** | **\$10.70** | Approximate market price. |
+| **Pending Acquisition Price** | **\$11.50** | All-cash acquisition price per share by 365 Retail Markets, LLC. |
 
-***
+---
 
-## II. Business Engine and Projection Assumptions
+### II. Business Engine and Conservative Revenue/Margin Projections (FY2025 - FY2030)
 
-Cantaloupe's business is driven by three segments: high-margin **Transaction** and **Subscription** revenue (SaaS and processing fees) and low-margin **Equipment** sales (card readers, Smart Stores). The core high-margin business is fueled by the number of Active Devices and the Annual Revenue Per Unit (ARPU).
+Cantaloupe's business engine is defined by a high-margin, recurring revenue Software-as-a-Service (SaaS) and transaction-processing model, supported by initial equipment sales. The key growth drivers are:
+1.  **Increase in Active Devices/Customers:** Expanding its presence in the unattended retail market (vending, micro markets, smart stores).
+2.  **Increase in Average Revenue Per Unit (ARPU):** Driven by a higher take rate from transaction processing, higher average ticket sizes, and new value-added services (e.g., AdVantage, Cantaloupe Capital).
 
-**Business Engine Assumptions:**
+#### A. Revenue Projections (FY2025 - FY2030)
 
-1.  **Core Revenue Growth (Transaction + Subscription):** This is the high-margin, scalable part of the business.
-    *   **FY2025 Guidance:** 15% to 20% growth. I will be conservative and use the low end of the guidance for FY2025 and a gradual, yet conservative, slowdown in subsequent years, reflecting increasing market penetration and competition.
-    *   The primary driver is the increase in ARPU (up 12% Y/Y in Q2 2025) due to new, higher-ticket products like **Smart Store** and cross-sell of software/micromarkets, and the ancillary revenue streams like **Cantaloupe Capital** and **Advantage**.
+Management has provided strong guidance for FY2025, which serves as the anchor for the projections.
 
-2.  **Equipment Revenue Growth:** This is the low-margin segment, which management has shown willingness to sacrifice for higher-margin Subscription/Transaction growth. Equipment revenue declined 7.4% in Q2 FY2025, despite the success of Smart Store sales.
-    *   I will assume this segment remains flat for the projection period, reflecting a mix of new device roll-outs and ongoing low-margin price pressure.
+*   **FY2025 Guidance (Midpoint):** Total Revenue of \$315M (range \$308M-\$322M). Subscription/Transaction revenue growth of 15%-20%.
 
-3.  **Gross Margin:** Margins are expanding due to scale and favorable revenue mix shift toward Transaction/Subscription revenue.
-    *   **Subscription GM:** 90.7% (Q3 FY2025). I will conservatively maintain this at **90.0%**.
-    *   **Transaction GM:** 24.8% (Q3 FY2025). This has been rapidly expanding. I will project a modest expansion to **26.0%** by 2030, reflecting better cost management and transaction routing.
-    *   **Equipment GM:** 9.1% (Q2 FY2025). I will project a conservative expansion to **10.0%** by 2030.
+| Year | Revenue Driver: | Assumptions & Justification | Revenue Projection (\$M) |
+| :--- | :--- | :--- | :--- |
+| **FY2025** | **Management Guidance** | Use the conservative end of the guidance range: **\$308M**. | **308.0** |
+| **FY2026** | **Growth Slowdown (Conservative)** | Assume a conservative, but still strong, growth rate. Given the uncertainty of the pending acquisition, I will temper the growth from 15%+ to **12.0%**. This reflects continued organic growth in devices and ARPU but a more cautious M&A environment. | 308.0 * 1.120 = **345.0** |
+| **FY2027** | **Post-Acquisition Uncertainty/Maturity** | Assume a further, more conservative slowdown to **10.0%**. This rate is above market inflation and suggests healthy market penetration but reflects a conservative view on expansion over time. | 345.0 * 1.100 = **379.5** |
+| **FY2028** | **Maturing Market** | Slowdown to **8.0%**. | 379.5 * 1.080 = **409.9** |
+| **FY2029** | **Conservative Long-Term Growth** | Slowdown to **6.0%**. | 409.9 * 1.060 = **434.5** |
+| **FY2030** | **Steady State** | Slowdown to **5.0%**. | 434.5 * 1.050 = **456.2** |
 
-4.  **Operating Expenses (OpEx):** OpEx leverage is key. Historically, management has managed SG&A, though acquisitions (like CHEQ) cause short-term increases [cite: 7 in previous step, 7]. I will project a gradual decrease in OpEx as a percentage of revenue, moving from a projected FY2025 figure to a mature SaaS-like margin.
+#### B. Net Income Margin Projections (FY2025 - FY2030)
 
-5.  **Return on Invested Capital (ROIC):** Based on the principle of projecting a reasonable positive ROIC. A conservative, yet realistic, reinvestment rate for a growing, profitable SaaS-focused technology company is **10.0%**.
+The company has a high-margin subscription business (Q2 FY2025 Adjusted Gross Margin: 89.7%). Management guides for FY2025 US GAAP Net Income between \$22M and \$32M.
 
-6.  **Discount Rate (WACC):** Given the company's size, growth stage, and the volatility of the tech sector, a high, conservative discount rate is appropriate. I will use **11.0%**.
+| Year | Revenue (\$M) | US GAAP Net Income Guidance (\$M) | Implied/Assumed Net Income Margin (%) |
+| :--- | :--- | :--- | :--- |
+| **FY2025** | 308.0 | **22.0** (Conservative Low End) | 7.14% (22.0 / 308.0) |
+| **FY2026** | 345.0 | N/A | **8.00%** (Slight margin expansion due to operating leverage on high-margin recurring revenue) |
+| **FY2027** | 379.5 | N/A | **9.00%** (Continued modest leverage as SaaS/Transaction revenue grows faster than equipment sales) |
+| **FY2028** | 409.9 | N/A | **9.50%** |
+| **FY2029** | 434.5 | N/A | **10.00%** |
+| **FY2030** | 456.2 | N/A | **10.00%** |
 
-7.  **Maturity Rate (Perpetual Growth Rate):** This represents the long-term, stable growth rate of the business after the projection period. A highly conservative rate, slightly above long-term inflation, is appropriate. I will use **2.0%**.
+---
 
-## III. Projected Income Statement and Cash Flow (Millions USD)
+### III. Discounted Cash Flow (DCF) Calculation
 
-### A. Revenue and Margin Projections
+The Net Income for the following year will be calculated as:
+*   *Net Income (t) = (Net Income from Projections (t)) + (Net Income from Prior Year (t-1) * ROIC)*
 
-| Year (Fiscal) | 2025 (Guide) | 2026 | 2027 | 2028 | 2029 | 2030 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Transaction & Sub. Revenue** | \$283.0 | \$311.3 | \$336.2 | \$360.7 | \$382.3 | \$401.4 |
-| *Y/Y Growth (Assumption)* | 15.0% | 10.0% | 8.0% | 7.2% | 6.0% | 5.0% |
-| **Equipment Revenue** | \$42.0 | \$42.0 | \$42.0 | \$42.0 | \$42.0 | \$42.0 |
-| *Y/Y Growth (Assumption)* | -10.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
-| **Total Revenue** | **\$325.0** | **\$353.3** | **\$378.2** | **\$402.7** | **\$424.3** | **\$443.4** |
-| | | | | | | |
-| **Gross Margin %** | **41.0%** | **41.5%** | **42.0%** | **42.5%** | **43.0%** | **43.5%** |
-| **Gross Profit** | **\$133.2** | **\$146.4** | **\$158.8** | **\$171.1** | **\$182.5** | **\$192.9** |
-| | | | | | | |
-| **Operating Exp. % of Revenue**| 31.1% | 30.5% | 30.0% | 29.5% | 29.0% | 28.5% |
-| **Operating Expenses** | \$101.2 | \$107.8 | \$113.5 | \$118.8 | \$123.1 | \$126.4 |
-| **Operating Income (EBIT)** | **\$32.0** | **\$38.6** | **\$45.3** | **\$52.3** | **\$59.4** | **\$66.5** |
-| | | | | | | |
-| **Tax Rate** | 15.0% | 20.0% | 21.0% | 21.0% | 21.0% | 21.0% |
-| **Net Income (Initial)** | **\$27.2** | **\$30.9** | **\$35.8** | **\$41.3** | **\$47.0** | **\$52.5** |
+A Return on Invested Capital (ROIC) is needed. Given past profitability is guided to be positive and growing, I will use a **conservative, but reasonable ROIC of 5.0%** for new cash flows, reflecting a cautious rate of return on reinvested profits, which is a blend of their high-return software business and lower-return equipment sales/cash holdings.
 
-*Note: FY2025 Gross Margin of 41.0% is a conservative estimate given the 41.6% in Q3 2025. The Operating Expense % is derived from an implied OpEx of (Revenue - Adj. EBITDA / Margin) from the guidance.*
+#### A. Projected Net Income (Cash Flow Proxy)
 
-### B. Projected Cash Flow and Terminal Value
+| Year (Fiscal Year Ending June 30) | Revenue (\$M) | Net Income Margin (%) | Net Income from Projections (\$M) | ROIC from Prior Year's Cash (\$M) | **Total Net Income / Cash Flow Proxy (\$M)** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **2025** | 308.0 | 7.14% | 22.00 | N/A | **22.00** |
+| **2026** | 345.0 | 8.00% | 27.60 | 22.00 * 5.0% = 1.10 | **28.70** |
+| **2027** | 379.5 | 9.00% | 34.16 | 28.70 * 5.0% = 1.44 | **35.60** |
+| **2028** | 409.9 | 9.50% | 38.94 | 35.60 * 5.0% = 1.78 | **40.72** |
+| **2029** | 434.5 | 10.00% | 43.45 | 40.72 * 5.0% = 2.04 | **45.49** |
+| **2030** | 456.2 | 10.00% | 45.62 | 45.49 * 5.0% = 2.27 | **47.89** |
 
-The assumption is that net income (as a proxy for Free Cash Flow to Equity) goes straight into cash for the next year, and the cash earns additional income via ROIC.
+#### B. Discounted Cash Flow (DCF)
 
-| Year (Fiscal) | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Net Income (Initial)** | \$27.2 | \$30.9 | \$35.8 | \$41.3 | \$47.0 | \$52.5 |
-| **Beginning Cash** | \$51.15 | \$78.35 | \$111.34 | \$149.38 | \$192.51 | \$243.21 |
-| *Cash from NI (Previous Year)* | *(\$51.15 M from June 2025 Balance Sheet)* | \$27.20 | \$30.99 | \$35.81 | \$41.31 | \$47.02 |
-| **ROIC % (Conservative)** | 10.0% | 10.0% | 10.0% | 10.0% | 10.0% | 10.0% |
-| **ROIC Income** | *N/A* | \$7.8 | \$11.1 | \$14.9 | \$19.3 | \$24.3 |
-| **Adjusted Cash Flow (FCFE)**| **\$27.2** | **\$38.7** | **\$47.0** | **\$56.2** | **\$66.3** | **\$76.8** |
-| | | | | | | |
-| **Discount Factor (11.0%)** | 0.901 | 0.812 | 0.731 | 0.659 | 0.593 | 0.535 |
-| **NPV of Cash Flow** | **\$24.5** | **\$31.4** | **\$34.4** | **\$37.0** | **\$39.3** | **\$41.1** |
+*   **Discount Rate (Conservative but Reasonable):** **10.0%**. This is used to reflect the risk of a small-cap technology company.
+*   **Maturity Rate (Conservative Terminal Growth Rate):** **3.0%**. This is a conservative long-term growth rate, slightly above global inflation, representing the business growing at a pace slightly exceeding the broader economy.
 
-*Note: Adjusted Cash Flow = Net Income (Initial) + ROIC Income (from previous year's total cash balance, excluding current year's NI).*
+**Terminal Value (TV) at the end of 2030:**
+*   TV = \[Cash Flow Proxy (2030) \* (1 + Maturity Rate)\] / (Discount Rate - Maturity Rate)
+*   TV = \[47.89 \* (1 + 0.03)\] / (0.10 - 0.03)
+*   TV = \[49.33] / 0.07 = **\$704.70 million**
 
-### C. Terminal Value Calculation
+**Net Present Value (NPV) Calculation (Discounted to present value - T=0):**
 
-The terminal value (TV) is the value of all cash flows beyond the projection period (2030).
+| Year (t) | Cash Flow Proxy (\$M) | Discount Factor (1 / (1 + 0.10)^t) | Discounted Cash Flow (\$M) |
+| :--- | :--- | :--- | :--- |
+| **2025 (t=1)** | 22.00 | 0.9091 | 20.00 |
+| **2026 (t=2)** | 28.70 | 0.8264 | 23.73 |
+| **2027 (t=3)** | 35.60 | 0.7513 | 26.75 |
+| **2028 (t=4)** | 40.72 | 0.6830 | 27.81 |
+| **2029 (t=5)** | 45.49 | 0.6209 | 28.24 |
+| **2030 (t=6)** | 47.89 | 0.5645 | 27.03 |
+| **Terminal Value (T=6)** | 704.70 | 0.5645 | 397.87 |
+| **Total NPV of Future Cash Flows** | | | **\$551.43 million** |
 
-*   **Final Cash Flow:** \$76.8 M
-*   **Maturity Rate (g):** 2.0%
-*   **Discount Rate (r):** 11.0%
-*   **Terminal Value (2030) Formula:** FCFE2030 * (1 + g) / (r - g)
-*   **Terminal Value (2030):** \$76.8 M * (1.02) / (0.11 - 0.02) = **\$870.9 M**
+---
 
-### D. Net Present Value (NPV) Calculation
+### IV. Fair Value Calculation
 
-*   **NPV of Projected Cash Flows (2025-2030):** \$24.5 + \$31.4 + \$34.4 + \$37.0 + \$39.3 + \$41.1 = **\$207.7 M**
-*   **NPV of Terminal Value (Today):** \$870.9 M * 0.535 (Discount Factor for 2030) = **\$466.0 M**
-*   **Total Enterprise Value (NPV of all Future Cash Flows):** \$207.7 M + \$466.0 M = **\$673.7 M**
-
-***
-
-## IV. Fair Value Per Share
-
-| Metric | Value (Millions USD) |
+| Metric | Value (in millions) |
 | :--- | :--- |
-| **Total Enterprise Value (NPV)** | \$673.7 M |
-| **Add: Total Cash & Equivalents** | \$51.15 M |
-| **Subtract: Total Debt** | (\$38.66 M) |
-| **Equity Value** | **\$686.19 M** |
-| **Shares Outstanding** | 73.37 M |
-| **Fair Value Per Share** | **\$9.35** |
+| **Total Net Present Value (NPV)** | \$551.43 |
+| **ADD: Total Cash & Cash Equivalents** | \$27.68 |
+| **SUBTRACT: Total Debt** | (\$39.16) |
+| **Equity Value** | **\$539.95 million** |
+| **Shares Outstanding** | 73.72 |
+| **Fair Value Per Share** | **\$7.32** |
 
-## V. Conclusion and Justification
+---
 
-**Fair Value Per Share: \$9.35**
+### V. Conclusion and Justification
 
-**Current Stock Price (Ref): \$10.58**
+| Metric | Value |
+| :--- | :--- |
+| **Calculated DCF Fair Value Per Share** | **\$7.32** |
+| **Current Market Stock Price** | **\$10.70** |
+| **Pending Acquisition Price Per Share** | **\$11.50** |
 
-### Discrepancy Justification
+The calculated fair value of **\$7.32 per share** is significantly lower than the current market price of **\$10.70** and the pending all-cash acquisition price of **\$11.50**.
 
-The calculated intrinsic fair value of **\$9.35** is approximately **11.6% lower** than the current market price of **\$10.58**.
+#### Justification for the Discrepancy
 
-**The market is making a clear assumption about a Corporate Action:**
+The market is currently pricing CTLP stock based almost entirely on the pending all-cash acquisition.
 
-The most significant factor overriding any pure intrinsic DCF valuation is the publicly announced definitive agreement for Cantaloupe to be acquired by 365 Retail Markets, LLC, for approximately **\$830 million**.
+1.  **Market Arbitrage:** The price of \$10.70 is only about 7% lower than the \$11.50 acquisition price. This discount represents the market's perceived risk that the merger with 365 Retail Markets, LLC will *not* close (e.g., due to regulatory clearance issues, like the mentioned FTC Second Request) and the company would revert to a price closer to its standalone fundamental valuation.
+2.  **Market Assumptions vs. DCF Assumptions:**
+    *   **Market Assumption (Acquisition):** The market assumes the company's value is **\$11.50 per share**, realizing a significant premium over the DCF calculation.
+    *   **Market Assumption (Standalone):** The market's *standalone* valuation, implied by the \$10.70 price, is still significantly higher than the DCF. This suggests that the market's *long-term growth* and/or *margin* assumptions are much more aggressive than the conservative figures used in this DCF. The market likely assumes:
+        *   **Higher Long-Term Growth Rate:** A more bullish view on active device expansion and ARPU growth through new products like Smart Store and AdVantage, potentially seeing 10%+ growth continuing past FY2028, or a higher Terminal Value growth rate (Maturity Rate).
+        *   **Lower Discount Rate:** The market may be using a lower cost of capital (Discount Rate) than 10.0%, perhaps closer to 8.0%, suggesting a lower risk profile due to the increasingly sticky, high-margin recurring revenue model.
 
-*   The implied acquisition price per share would be **\$11.31** (\$830M / 73.37M shares).
-
-The market price of **\$10.58** is trading at a discount to the announced acquisition price of \$11.31 per share.
-
-*   **Market Assumption:** The market is pricing the stock to reflect a high probability of the merger closing (which would result in a gain for shareholders at the acquisition price), offset by a small discount reflecting the **risk** of the deal falling through (in which case the stock would likely trade closer to the calculated intrinsic value of \$9.35, or potentially lower).
-
-**Why the Intrinsic Value is Lower:**
-
-My conservative DCF valuation, which assumes the business continues as an independent, publicly traded entity, is lower than the acquisition price because:
-
-1.  **Conservative Projections:** My revenue growth rates slow down more aggressively (to 5.0% by 2030) than an aggressive investor might project, and the OpEx leverage (moving to a 28.5% OpEx/Revenue by 2030) is also conservative for a true SaaS-like business.
-2.  **ROIC:** The 10.0% ROIC is a reasonable, conservative reinvestment assumption, but a company generating high-margin SaaS revenue could arguably sustain a higher ROIC in a non-dilutive reinvestment scenario.
-3.  **Risk Acknowledgment:** The valuation does not account for the immediate synergistic value that an acquirer like 365 Retail Markets would immediately unlock.
-
-**Conclusion:**
-
-The intrinsic value of **\$9.35** represents the baseline value of the company's future cash flows based on conservative, independent operation projections. The current market price of **\$10.58** strongly suggests that the market has factored in the announced merger, and the stock is trading as an **arbitrage opportunity** on the closing of the **\$11.31 per share** acquisition.
+**In summary, the DCF calculation of \$7.32 is a conservative fundamental valuation for CTLP as a standalone company. The current market price of \$10.70 is a function of a near-term arbitrage opportunity, effectively pricing the stock at the acquisition value of \$11.50 less the risk of the deal failing.**
