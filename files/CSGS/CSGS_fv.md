@@ -1,130 +1,155 @@
-This valuation of CSG Systems International, Inc. (CSGS) utilizes a Discounted Cash Flow (DCF) model based on management's stated business engine, future revenue guidance, and margin commentary, using a conservative set of assumptions.
+This valuation of CSG Systems International, Inc. (CSGS) is based exclusively on publicly available SEC filings and management commentary from earnings call transcripts.
 
 ---
 
-## 1. Initial Financial Data (As of June 30, 2025)
+# CSG Systems International, Inc. (CSGS) Stock Valuation
 
-The following financial data is sourced directly from the latest available SEC filings, specifically the Quarterly Report on Form 10-Q for the quarter ended June 30, 2025.
+## I. Financial Data (in millions USD, except per share data)
 
-| Metric | Value (in millions USD) | Justification |
+The data below is extracted or calculated from the most recently available SEC filings (Form 8-K reporting FY 2025 results) and historical 10-K filings.
+
+### A. Balance Sheet Snapshot (as of December 31, 2025)
+
+| Metric | Value (USD Millions) | Source/Justification |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | **$145.9** | Cash and cash equivalents as of June 30, 2025. |
-| **Total Debt (Net Carrying Value)** | **$537.8** | Comprised of Long-term debt, net of unamortized discounts ($537.767 million) and Current portion of long-term debt ($0) as of June 30, 2025. |
-| **Net Debt** | **$391.9** | Calculated as Total Debt ($537.8) - Cash ($145.9). |
-| **Common Shares Outstanding** | **28.977 million** | Common shares outstanding as of May 6, 2025. |
-| **Current Stock Price** | **~$67.62** | Last updated October 27, 2025. |
+| **Total Cash & Cash Equivalents** | $180.0 | Cash and cash equivalents as of December 31, 2025. |
+| **Total Debt** | $539.45 | Debt reported for the fiscal quarter ending December 2025. |
+| **Shares Outstanding (Diluted)** | 27.01 million | Most recently reported shares outstanding. |
+| **Current Stock Price** | $79.75 | The current stock price as of the most recent close in the search results is used as a reference point. [cite: 5, step 2] |
 
 ---
 
-## 2. Business Engine and Conservative Projections
+## II. Valuation Model Assumptions and Business Engine Analysis
 
-CSG's business engine is characterized by a high-recurring revenue (SaaS-focused) model, driven by three key factors: **1) new logo sales wins**, **2) deal expansions with existing major customers** (e.g., Charter, Comcast until 2030), and **3) revenue diversification** into faster-growing industry verticals outside of Communications Service Providers (CSPs), such as financial services and retail. Management has a long-term aspiration for organic revenue growth in the 2% to 6% range. The focus is on higher-margin SaaS deals, which is expected to expand profitability.
+### A. Business Engine and Revenue Projections
 
-### **A. Revenue Projections (2025-2030)**
+CSG's business engine is driven by its highly recurring revenue model, primarily from its core communications segment (cable/telecom), and its strategic shift towards **SaaS and related solutions** in faster-growing new industry verticals (fintech, retail, healthcare) [cite: 7, step 3],. The company's key strategic driver is accelerating organic revenue growth and diversifying its revenue base.
 
-The projections are based on management's official guidance and a conservative tapering of growth, acknowledging their efforts in high-growth segments while remaining disciplined.
+| Metric | Base Value/Driver | Management Guidance | Conservative Assumption (Organic Growth) | Justification |
+| :--- | :--- | :--- | :--- | :--- |
+| **FY 2025 Revenue** | $1,223.3M | Actual Reported Revenue. | $1,223.3M | Starting point for the model. |
+| **Long-Term Revenue Growth** | N/A | 2% to 6% pure organic revenue growth. | **3.0%** (2026-2030) | A conservative assumption, using a rate slightly below the midpoint of the long-term guidance (2%-6%) to account for potential macroeconomic headwinds and the slow transition away from its dominant, slower-growing core business. |
 
-| Year | Revenue (Millions USD) | Y-o-Y Growth | Justification |
-| :--- | :--- | :--- | :--- |
-| **2024 (Base)** | $1,200 (approx. LTM) | - | Derived from historical data/context. |
-| **2025 (Projected)** | **$1,210** | **0.8%** | Using the conservative low end of the management's full-year guidance of $1.21 to $1.25 billion. |
-| **2026 (Projected)** | **$1,246** | **3.0%** | Uses the midpoint of management's expected "similar 2% to 4% revenue growth range in 2026". |
-| **2027 (Projected)** | **$1,277** | **2.5%** | A slight, conservative moderation from the 2026 guidance. |
-| **2028 (Projected)** | **$1,303** | **2.0%** | Tapering toward a conservative long-term growth rate. |
-| **2029 (Projected)** | **$1,329** | **2.0%** | Conservative long-term growth. |
-| **2030 (Projected)** | **$1,356** | **2.0%** | Conservative long-term growth. |
+**Revenue Projection (in millions USD)**
 
-### **B. Net Income Margin Projections**
-
-Management guides for a long-term Non-GAAP Operating Margin of **18% to 20%** and an expectation for the bottom line to grow faster than the top line. The last twelve months' (LTM) GAAP Net Income Margin was approximately 7.24% ($\frac{\$86.85M}{\$1,200M}$).
-
-To be conservative, the DCF model uses Net Income Margin, starting slightly above the LTM GAAP margin and gradually increasing toward the low end of the Non-GAAP operating goal.
-
-| Year | Net Income Margin | Justification |
+| Year | Revenue (USD Millions) | Calculation/Justification |
 | :--- | :--- | :--- |
-| **2025** | **8.0%** | Conservative increase from LTM GAAP margin (7.24%), reflecting early benefits of cost efficiency. |
-| **2026** | **8.5%** | Continued, gradual margin expansion. |
-| **2027** | **9.0%** | Continued, gradual margin expansion. |
-| **2028** | **9.5%** | Continued, gradual margin expansion. |
-| **2029** | **10.0%** | Reflects management's goal for bottom-line to outpace top-line, still very conservative versus 18%-20% Non-GAAP Op Margin target. |
-| **2030** | **10.0%** | Stabilized, conservative long-term margin. |
+| **2026** | $1,260.0 | $1,223.3M * (1 + 3.0%) |
+| **2027** | $1,297.8 | $1,260.0M * (1 + 3.0%) |
+| **2028** | $1,336.7 | $1,297.8M * (1 + 3.0%) |
+| **2029** | $1,376.8 | $1,336.7M * (1 + 3.0%) |
+| **2030** | $1,418.1 | $1,376.8M * (1 + 3.0%) |
 
-### **C. Return on Invested Capital (ROIC) Assumption**
+### B. Margin and Net Income Projections
 
-*   **ROIC Assumption:** **6.0%**
-*   **Justification:** A conservative, reasonable positive rate for a mature, improving software/IT services company. This assumes the management effectively reinvests or utilizes the retained cash (Net Income from the previous year).
+Management has guided for a long-term non-GAAP operating margin of **18% to 20%**. For the purpose of this conservative DCF based on *Net Income*, I will use the *GAAP Net Income Margin* and project a modest, conservative expansion towards the midpoint of the non-GAAP guidance, assuming improving operating leverage from the shift to SaaS solutions.
 
----
+*   **Historical GAAP Net Income Margin (FY 2024):** $86.9M / $1,197.2M = **7.26%** [cite: 9, step 2], [cite: 7, step 3]
+*   **Projected GAAP Net Income Margin:** I will assume a conservative annual increase of **50 basis points (0.50%)** per year, from the implied 2025 margin of 4.37% (Net Income $53.48M / Revenue $1,223.3M, calculated from $1.98 EPS [cite: 7, step 3]) towards the 18-20% non-GAAP target. This slow expansion is conservative, as the actual 2025 GAAP Net Income was suppressed, likely due to one-time charges related to strategic shifts, making the starting point artificially low.
 
-## 3. Discounted Cash Flow (DCF) Calculation
-
-The DCF calculation uses Net Income as a proxy for the cash flow available to equity holders (Free Cash Flow to Equity - FCFE), as is often done for non-capital-intensive, mature companies with stable working capital.
-
-*   **Discount Rate (Conservative WACC Proxy):** **9.0%**
-*   **Maturity Rate (Terminal Growth Rate):** **2.0%** (A very conservative rate, below historical and expected GDP growth, matching the long-term revenue growth rate assumption).
-
-### **Projected Net Income and NPV**
-
-| Year | Revenue (A) | Net Income Margin | Net Income (B) (A x Margin) | ROIC on Prior Year NI (C) | Total Cash Flow to Equity (D) (B+C) | Discount Factor (9.0%) | NPV of FCFE (D x Factor) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2025** | 1,210 | 8.0% | 96.8 | - | 96.8 | 0.917 | 88.75 |
-| **2026** | 1,246 | 8.5% | 105.9 | 5.8 (96.8 x 6.0%) | 111.7 | 0.842 | 94.05 |
-| **2027** | 1,277 | 9.0% | 114.9 | 6.7 (111.7 x 6.0%) | 121.6 | 0.772 | 93.89 |
-| **2028** | 1,303 | 9.5% | 123.8 | 7.3 (121.6 x 6.0%) | 131.1 | 0.708 | 92.83 |
-| **2029** | 1,329 | 10.0% | 132.9 | 7.9 (131.1 x 6.0%) | 140.8 | 0.650 | 91.52 |
-| **2030** | 1,356 | 10.0% | 135.6 | 8.5 (140.8 x 6.0%) | 0.596 | 80.76 |
-| **Sum of NPV (2025-2030)** | | | | | | | **$541.80** |
-
-### **Terminal Value Calculation**
-
-The Terminal Value (TV) is calculated using the Gordon Growth Model based on the **2030 Cash Flow to Equity** ($135.6 million). The ROIC factor is *excluded* for the perpetuity assumption, as the cash flow into perpetuity is assumed to be the stabilized FCF/Net Income.
-
-*   **Terminal Cash Flow (NI 2030):** $135.6 million
-*   **Terminal Value:** $\frac{\text{Cash Flow}_{2030} \times (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}$
-*   **Terminal Value (TV):** $\frac{\$135.6 \times (1 + 0.02)}{0.09 - 0.02} = \frac{\$138.3}{0.07} = \$1,975.7$ million
-*   **NPV of Terminal Value (NPV TV):** $\text{TV} \times \text{Discount Factor}_{2030}$
-*   **NPV of TV:** $\$1,975.7 \times 0.596 = **\$1,178.61**$ million
-
-### **Total Equity Value**
-
-| Metric | Value (in millions USD) |
+| Year | Net Income Margin (Assumption) |
 | :--- | :--- |
-| NPV of Projected FCFE (2025-2030) | $541.80 |
-| NPV of Terminal Value | $1,178.61 |
-| **Total Enterprise Value (TEV)** | **$1,720.41** |
-| Less: Net Debt | $391.90 |
-| **Total Equity Value** | **$1,328.51** |
+| **2025 (Base)** | 4.37% (Calculated from $1.98 EPS) [cite: 7, step 3] |
+| **2026** | 4.87% |
+| **2027** | 5.37% |
+| **2028** | 5.87% |
+| **2029** | 6.37% |
+| **2030** | 6.87% |
+
+### C. Return on Invested Capital (ROIC) Assumption
+
+The historical ROIC will be calculated using the following conservative estimate:
+*   Invested Capital (IC) = Total Debt + Total Equity.
+*   Total Equity (Est.) = Total Debt ($539.45M) / Debt-to-Equity Ratio (1.99) = $271.08M.
+*   IC (Est.) = $539.45M + $271.08M = $810.53M.
+*   Historical ROIC (2024 Net Income) = $86.9M / $810.53M = 10.72%.
+
+**Conservative ROIC Assumption for Projection: 10.0%**
+
+This is a conservative ROIC, slightly lower than the calculated historical rate of 10.72%, and significantly lower than the market-implied trailing ROIC of 26.83%, aligning with the principle of conservatism.
 
 ---
 
-## 4. Fair Value Calculation and Market Comparison
+## III. Discounted Cash Flow (DCF) Model
 
-### **Fair Value Per Share**
+### A. Projected Cash Flows (Net Income)
 
-*   **Total Equity Value:** $1,328.51$ million
-*   **Shares Outstanding:** $28.977$ million
-*   **Fair Value Per Share:** $\frac{\$1,328.51}{28.977} = **\$45.85**$
+The projected Net Income for each year is calculated as:
+**Net Income = (Revenue * Net Income Margin) + (Prior Year's Net Income * ROIC)**
 
-### **Comparison and Justification**
+| Year | Revenue (A) | Net Income Margin (B) | Base NI (A * B) | ROIC Income (C) | Total NI (Base NI + C) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **2025** | $1,223.3 | 4.37% | $53.48 | N/A | $53.48 (Base) |
+| **2026** | $1,260.0 | 4.87% | $61.35 | $53.48 * 10.0% = $5.35 | $66.70 |
+| **2027** | $1,297.8 | 5.37% | $69.74 | $66.70 * 10.0% = $6.67 | $76.41 |
+| **2028** | $1,336.7 | 5.87% | $78.80 | $76.41 * 10.0% = $7.64 | $86.44 |
+| **2029** | $1,376.8 | 6.37% | $87.72 | $86.44 * 10.0% = $8.64 | $96.36 |
+| **2030** | $1,418.1 | 6.87% | $97.43 | $96.36 * 10.0% = $9.64 | $107.07 |
 
-| Metric | Fair Value (DCF) | Market Value (October 2025) | Difference |
+### B. Discount and Maturity Rate Assumptions
+
+*   **Conservative Maturity Rate (g):** 2.0%
+    *   This is a conservative long-term growth rate, slightly above the typical long-term inflation rate, assuming the company matures but still grows with the broader economy.
+*   **Conservative Discount Rate (r):** 10.0%
+    *   A conservative, reasonable rate, representing a relatively high required rate of return for equity investors in a stable, but slow-growing technology/services company.
+
+### C. Terminal Value Calculation (2030)
+
+The Terminal Value (TV) is calculated using the Gordon Growth Model:
+*   TV = [Cash Flow (2030) * (1 + g)] / (r - g)
+*   TV = [$107.07M * (1 + 0.02)] / (0.10 - 0.02)
+*   TV = $109.21M / 0.08
+*   **TV = $1,365.13 million**
+
+### D. Net Present Value (NPV) Calculation
+
+The Present Value (PV) of each projected cash flow (Net Income) is calculated using the formula: PV = CF / (1 + r)^t
+
+| Year | Cash Flow (NI) | Discount Factor @ 10.0% | Present Value |
 | :--- | :--- | :--- | :--- |
-| **Price Per Share** | **$45.85** | **~$67.62** | **-32.2%** |
+| **2026** | $66.70 | 0.9091 | $60.63 |
+| **2027** | $76.41 | 0.8264 | $63.14 |
+| **2028** | $86.44 | 0.7513 | $64.94 |
+| **2029** | $96.36 | 0.6830 | $65.80 |
+| **2030 (Operating)** | $107.07 | 0.6209 | $66.50 |
+| **2030 (Terminal Value)** | $1,365.13 | 0.6209 | $847.60 |
+| **Total NPV of Future Cash Flows** | | | **$1,168.61** |
 
-The calculated Fair Value of **$45.85** is significantly lower than the current market price of ~$67.62. This indicates that the market is making more optimistic assumptions about CSGS's future growth and/or profitability than the conservative model.
+---
 
-**Analysis of the Difference:**
+## IV. Fair Value Calculation
 
-1.  **Revenue Growth:** The DCF model uses a very conservative, tapering growth profile (starting at 0.8% and stabilizing at 2.0%). The market is likely pricing in a consistent **higher organic growth rate** toward the high end or even above the management's 2%-6% long-term aspiration, particularly from the faster-growing SaaS solutions and vertical market expansion. For example, a perpetual growth rate assumption of **3.5%** (instead of 2.0%) would increase the Terminal Value NPV to approximately $1,610 million, resulting in a Fair Value of ~$60 per share, much closer to the current price.
+1.  **Total Equity Value** = NPV of Future Cash Flows + Total Cash & Cash Equivalents - Total Debt
+    *   Total Equity Value = $1,168.61M + $180.0M - $539.45M
+    *   **Total Equity Value = $809.16 million**
 
-2.  **Profitability (Margin):** The DCF model uses a conservative Net Income Margin (stabilizing at 10.0%) as a proxy for FCFE, while management is guiding for non-GAAP operating margins between 18.1% to 18.5% in 2025 and a long-term range of 18% to 20%. The market is likely valuing the company closer to its **Non-GAAP Free Cash Flow**, which management guided to a midpoint of $135 million for 2025 (a margin of $\frac{\$135}{\$1,210} \approx 11.2\%$ in 2025). The market assumes the company will close the gap between its GAAP Net Income Margin and its higher Non-GAAP Operating Margin, converting non-cash charges (like amortization of acquired intangibles) more effectively into tangible cash flow.
+2.  **Fair Value Per Share** = Total Equity Value / Shares Outstanding
+    *   Fair Value Per Share = $809.16 million / 27.01 million shares
+    *   **Fair Value Per Share = $29.96**
 
-3.  **Shareholder Return Policy:** CSGS has a strong commitment to returning capital to shareholders ($100M+ in 2025 via buybacks and dividends). The market may be factoring in the continued reduction of the share count at a greater pace than implicitly assumed by the stable share count in this valuation.
+---
 
-**Conclusion:** The conservative DCF valuation suggests CSGS is overvalued based on the most cautious interpretation of management guidance. However, the market is primarily valuing CSGS as a successful, cash-generating **SaaS/BSS transition story** that will realize its full profitability (i.e., achieving an FCF margin closer to its 18-20% Non-GAAP Op Margin goal) and maintain a long-term growth rate above the conservative 2.0% terminal rate used here. The difference is primarily due to the market's higher expectations for sustained growth and profit margin realization from the core business.
+## V. Conclusion and Market Comparison
 
-**Fair Value Conclusion:**
+**Fair Value Per Share: $29.96**
 
-The conservative intrinsic value for CSG Systems International, Inc. (CSGS) common stock is:
+**Current Market Price (Reference): $79.75**
 
-# **\$45.85 per share**
+### Justification for the Difference
+
+The calculated fair value of **$29.96 per share** is significantly lower than the current market price of **~$79.75**, suggesting the market is making much more aggressive assumptions than this conservative model.
+
+The market's implied assumptions compared to the model's conservative assumptions are:
+
+1.  **Higher Revenue Growth:** The market likely believes CSGS will achieve or exceed the high end of its long-term organic revenue growth target of **6.0%** (vs. the model's 3.0%). This high growth is expected to come from its transition to a higher-growth **SaaS platform** model, penetrating new verticals like retail and fintech [cite: 7, step 3].
+
+2.  **Faster Margin Expansion (SaaS Operating Leverage):** The market is likely pricing in a rapid expansion of the GAAP Net Income margin toward and possibly beyond the **18-20% non-GAAP operating margin target**. The market believes the operating leverage from their high-margin SaaS deals will accelerate profit conversion much faster than the conservative 50 bps annual increase used in this model. The market-implied Net Income margin in the terminal period would be closer to **12-15%** for a valuation near $80.
+
+3.  **Higher Terminal Value Assumption:** The market likely uses a much lower Discount Rate (r) or a higher conservative Maturity Rate (g) than the $10.0\%$ and $2.0\%$ used here, respectively. A high-growth tech company is often valued with an **r closer to 8%** and a **g closer to 3.0%-3.5%**, which drastically increases the Terminal Value.
+
+The difference of **~$50 per share** is justified by the model's adherence to a *conservative* interpretation of management's guidance and historical GAAP performance:
+*   Using the lower half of the 2%-6% organic growth range.
+*   Projecting a very slow increase in the GAAP Net Income Margin.
+*   Utilizing a conservative 10.0% ROIC and 10.0% Discount Rate.
+
+**In summary, the market is viewing CSGS as a high-growth SaaS and Digital Monetization company that is successfully diversifying away from its slow-growth telecom core and is betting on the acceleration of its long-term revenue and margin targets. This valuation views CSGS as a stable, slow-growing technology services company with a moderate margin expansion runway.**
