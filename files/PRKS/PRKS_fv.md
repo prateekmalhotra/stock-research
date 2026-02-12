@@ -1,169 +1,153 @@
-## United Parks & Resorts Inc. (PRKS) Stock Valuation
+This valuation of United Parks & Resorts Inc. (PRKS) stock is based on a Discounted Cash Flow (DCF) model using a conservative, business-engine-driven approach, as requested. All financial data is sourced from the latest available SEC filings (Q3 2025).
 
-This valuation uses a Discounted Cash Flow (DCF) model based *only* on financial data and operational metrics extracted from United Parks & Resorts Inc.'s SEC filings, primarily the Q2 2025 10-Q and the last four earnings call transcripts (Q2 2025, Q1 2025, Q4 2024, Q3 2024).
+The current market price for PRKS is approximately **\$37.65** per share [cite: 5 in step 1], and the shares outstanding is **55.03 million** [cite: 8 in step 1].
 
 ---
 
-### I. Extracted Financial Data and Key Inputs
+## I. Financial Data (As of September 30, 2025)
 
-| Metric | Source | Value (USD) |
+The base financial metrics are derived directly from the most recent SEC filing, the Q3 2025 10-Q.
+
+| Metric | Value (in millions USD) | Source |
 | :--- | :--- | :--- |
-| **Current Stock Price** (October 27, 2025) | Market Data | $51.87 |
-| **Total Cash & Cash Equivalents** (as of June 30, 2025) | Q2 2025 Filing | $193.9 million |
-| **Total Debt** (as of LTM June 2025) | Balance Sheet Proxy | $2,360.0 million |
-| **Shares Outstanding** (Diluted, as of LTM June 2025) | Share Statistics | $55.02$ million |
-| **FY 2024 Total Revenue** | FY 2024 Results | $1,725.3$ million |
-| **FY 2024 Net Income** | FY 2024 Results | $227.5$ million |
-| **Trailing 12-Month (LTM) ROIC** | Financial Metrics | $14.38\%$ |
+| **Total Cash & Cash Equivalents** | **\$183.23** | Unaudited Balance Sheet Data, Q3 2025 10-Q |
+| **Total Debt** (Long-term debt, including current maturities) | **\$2,251.88** | Unaudited Balance Sheet Data, Q3 2025 10-Q |
+| **Shares Outstanding** | **55.03** | Approx. from external data [cite: 8 in step 1] |
+| **FY 2025 Estimated Revenue** | **\$1,673.0** | (9M 2025 Actual \$1,289.0M + Q4 2024 Actual \$384M) [cite: 7 in step 2, 8 in step 3] |
 
 ---
 
-### II. Business Engine and Revenue Projections (2025-2030)
+## II. Business Engine Analysis & Revenue Projections
 
-The core business engine for United Parks & Resorts (PRKS) is driven by two key variables: **Attendance** (number of guests) and **Total Revenue Per Capita** (Admissions Per Capita + In-Park Per Capita Spending).
+The business engine for PRKS is driven by **Attendance** multiplied by **Total Revenue Per Capita** (Admissions Per Capita + In-Park Per Capita Spending) [cite: 7 in step 2].
 
-*   **FY 2024 Actuals:** Attendance was $21.5$ million guests, with Total Revenue Per Capita of $\$80.07$.
-*   **Recent Trends:** Q2 2025 saw Total Revenue Per Capita decrease by $2.2\%$ year-over-year, and Admissions Per Capita fell by $3.9\%$. The company's management attributed this to calendar shifts and lower realized pricing on certain products.
-*   **Management Guidance:** Despite the Q1 and Q2 weakness, management has expressed *confidence in achieving record annual revenue and EBITDA for 2025*, citing new attractions and a strong April attendance.
+**Recent Trends (FY 2025 YTD):**
+*   **Attendance:** Down 1.5% through 9M 2025, primarily due to unfavorable calendar shifts and decreased international visitation [cite: 7 in step 2].
+*   **Per Capita Spend:** Total revenue per capita is down 2.4% (9M 2025) [cite: 7 in step 2]. This is due to a 4.9% decline in Admissions Per Capita (likely from aggressive pass/discounting programs) which was only partially offset by a 0.6% increase in In-Park Per Capita Spending [cite: 7 in step 2].
 
-#### Conservative Business Engine Assumptions
+**Management Commentary & Future Assumptions (The Engine):**
+Management is executing on a strategy to:
+1.  **Rebuild Pass Base/Attendance:** A new "best-ever pass benefits program" was launched, and management expects "improvement and growth" in the pass base [cite: 6 in step 3]. The long-term upside remains as attendance is "still below" historical highs [cite: 14 in step 1].
+2.  **Increase High-Margin Revenue:** Forward-booking revenue for the premium *Discovery Cove* and group business into 2026 is "up over 20%" [cite: 6 in step 3]. This suggests a successful shift towards high-value offerings and pricing power in ancillary products.
 
-To adhere to the rule of being **conservative** while incorporating management's positive guidance, the following assumptions are used:
+**Conservative Revenue Growth Projections:**
+We will assume the high forward-bookings drive a significant rebound in 2026, but the lingering attendance/pricing pressure (competition from rivals like Epic Universe is a market headwind [cite: 8 in step 3]) forces a conservative long-term growth profile.
 
-1.  **2025 Revenue Estimate:** Management guides for "record revenue." A conservative record implies a minimal increase over FY 2024 revenue of $\$1,725.3 \text{ million}$.
-    *   **2025 Revenue Projection:** **$1,760.0$ million** (approx. $2.0\%$ growth over 2024). This is conservative, acknowledging the first-half struggles while granting that new attractions may drive a better second half.
-
-2.  **Long-Term Growth (2026-2030):** The company's strategy involves continued investment in new rides and animal habitats (new attractions), which should drive both attendance and pricing power.
-    *   **Attendance Growth (Conservative):** **$1.0\%$ per year**. This is a steady, conservative growth rate, acknowledging the business is mature and highly susceptible to weather and macro/travel trends.
-    *   **Total Revenue Per Capita Growth (Conservative):** **$1.5\%$ per year**. This assumes the company will manage to slightly increase pricing and in-park spending, even in a competitive market, driven by price increases on annual passes and premium in-park experiences.
-
-#### Projected Revenue
-
-| Year | Revenue Projection (Millions USD) | Calculation/Justification |
-| :--- | :--- | :--- |
-| **2024** | $1,725.3$ | Actual FY 2024 Result |
-| **2025** | $1,760.0$ | $2.0\%$ growth (Conservative 'Record Revenue' Guidance) |
-| **2026** | $1,804.0$ | $1,760.0 \times (1.01 \times 1.015)$ = $1,760.0 \times 1.025$ |
-| **2027** | $1,849.1$ | $1,804.0 \times 1.025$ |
-| **2028** | $1,895.3$ | $1,849.1 \times 1.025$ |
-| **2029** | $1,942.7$ | $1,895.3 \times 1.025$ |
-| **2030** | $1,991.3$ | $1,942.7 \times 1.025$ |
-
----
-
-### III. Margin and Net Income Projections
-
-#### Margin Assumptions
-
-*   **FY 2024 Net Income Margin:** $227.5 \text{ million} / \$1,725.3 \text{ million} = 13.18\%$.
-*   **Projected Net Income Margin:** The company operates a high-fixed-cost business. A modest increase in revenue should lead to margin expansion due to operating leverage and "operational efficiencies" cited by management.
-    *   **2025 - 2030:** I will conservatively project a gradual Net Income Margin expansion from $13.5\%$ in 2025 to a stable $15.0\%$ by 2030.
-
-| Year | Projected Revenue (Millions USD) | Net Income Margin | Net Income (Millions USD) |
+| Year | FY Revenue Proj. (Millions USD) | Revenue Growth Rate | Justification (Business Engine) |
 | :--- | :--- | :--- | :--- |
-| **2025** | $1,760.0$ | $13.5\%$ | $237.6$ |
-| **2026** | $1,804.0$ | $13.9\%$ | $250.7$ |
-| **2027** | $1,849.1$ | $14.3\%$ | $264.5$ |
-| **2028** | $1,895.3$ | $14.6\%$ | $276.7$ |
-| **2029** | $1,942.7$ | $14.9\%$ | $289.9$ |
-| **2030** | $1,991.3$ | $15.0\%$ | $298.7$ |
-
-#### ROIC and Future Cash Flow (Net Income) Calculation
-
-The rule requires: $\text{Net Income}_{n} = \text{Projected Net Income}_{n} + \text{Net Income}_{n-1} \times \text{ROIC}$.
-
-*   **ROIC Assumption:** I will use the current Trailing 12-Month (LTM) ROIC of **$14.38\%$** as a **conservative but reasonable positive ROIC** to project additional income from retained earnings.
-*   **Initial Cash:** The initial Net Income used for the 2026 ROIC calculation will be the 2025 Projected Net Income of $\$237.6 \text{ million}$. The assumption is that Net Income goes straight into cash and is reinvested at the ROIC rate.
-
-| Year | Base Net Income (Millions USD) | ROIC Add-back (Millions USD) | Final Cash Flow (Millions USD) |
-| :--- | :--- | :--- | :--- |
-| **2025** | $237.6$ | $0.0$ | **$237.6$** |
-| **2026** | $250.7$ | $237.6 \times 14.38\% = 34.2$ | **$284.9$** |
-| **2027** | $264.5$ | $284.9 \times 14.38\% = 41.0$ | **$305.5$** |
-| **2028** | $276.7$ | $305.5 \times 14.38\% = 44.0$ | **$320.7$** |
-| **2029** | $289.9$ | $320.7 \times 14.38\% = 46.1$ | **$336.0$** |
-| **2030** | $298.7$ | $336.0 \times 14.38\% = 48.3$ | **$347.0$** |
+| **2025** (Base) | **\$1,673.0** | -1.19% | 9M 2025 Actuals + Q4 2024 Actuals, slightly down from FY 2024 revenue. |
+| **2026** | **\$1,773.4** | **6.0%** | Assumes strong recovery due to new "best-ever" pass program and over +20% forward bookings in high-value segments like Discovery Cove, overcoming 2025 headwinds [cite: 6 in step 3]. |
+| **2027** | **\$1,844.3** | **4.0%** | Mid-term growth driven by new ride investments and stable per capita spend increases, still capitalizing on capacity below 2019/2008 levels [cite: 14 in step 1]. |
+| **2028** | **\$1,918.1** | **4.0%** | Sustained mid-term growth. |
+| **2029** | **\$1,980.2** | **3.25%** | Conservative slowdown as new attractions normalize and competition (e.g., Epic Universe) impacts the Florida market. |
+| **2030** | **\$2,039.6** | **3.0%** | Maturing growth rate. |
 
 ---
 
-### IV. Discounted Cash Flow (DCF) Analysis
+## III. Net Income and Cash Flow Projections
 
-#### Conservative Discount Rate and Terminal Rate
+The "cash flow" in this DCF is proxied by Net Income, as per the rules.
 
-*   **Discount Rate:** A conservative but reasonable rate of **$9.0\%$** is used, reflecting the company's high leverage and the cyclical nature of the theme park business, while acknowledging its consistent positive cash flow and market position.
-*   **Terminal Maturity Rate:** A very conservative, long-term nominal growth rate of **$2.0\%$** is used, reflecting growth slightly below the long-term historical inflation rate.
+**Margin and ROIC Assumptions:**
+*   **Net Income Margin:** Q3 2025 performance showed a drop in Net Income [cite: 7 in step 2]. Management is addressing cost execution issues [cite: 6 in step 3]. We will use a conservative starting point and project a slow improvement towards a sustainable margin.
+    *   **2025 (Base):** Conservative **10.0%** (Below 9M 2025's 11.89%).
+    *   **2026 - 2030:** A gradual, conservative increase from **10.5%** to **12.0%** by 2030, reflecting operational efficiency gains management is focused on [cite: 6 in step 3] and better margin from premium product mix.
+*   **ROIC:** The company's LTM ROIC is stated as a "good 12.9%" [cite: 5 in step 3]. We will use a conservative **8.0%** to generate additional income from retained net income (cash).
 
-#### Net Present Value (NPV) Calculation
-
-| Year (n) | Cash Flow (CFn) (Millions USD) | Discount Factor (1 / (1+9.0%)^n) | Present Value (PV) (Millions USD) |
-| :--- | :--- | :--- | :--- |
-| **2025 (n=1)** | $237.6$ | $0.9174$ | $218.0$ |
-| **2026 (n=2)** | $284.9$ | $0.8417$ | $239.8$ |
-| **2027 (n=3)** | $305.5$ | $0.7722$ | $236.0$ |
-| **2028 (n=4)** | $320.7$ | $0.7084$ | $227.2$ |
-| **2029 (n=5)** | $336.0$ | $0.6499$ | $218.4$ |
-| **2030 (n=6)** | $347.0$ | $0.5963$ | $206.9$ |
-
-**Terminal Value (TV) in 2030:**
-*   $TV_{2030} = \text{CF}_{2030} \times (1 + \text{Maturity Rate}) / (\text{Discount Rate} - \text{Maturity Rate})$
-*   $TV_{2030} = \$347.0 \times (1.02) / (0.09 - 0.02) = \$353.94 / 0.07 = \$5,056.3$ million
-
-**Terminal Value Present Value:**
-*   $TV_{PV} = TV_{2030} \times \text{Discount Factor}_{n=6}$
-*   $TV_{PV} = \$5,056.3 \text{ million} \times 0.5963 = \$3,013.9$ million
-
-**Total Net Present Value (NPV) of Equity:**
-*   $NPV = (\sum \text{PV of Annual CFs}) + TV_{PV}$
-*   $NPV = (\$218.0 + \$239.8 + \$236.0 + \$227.2 + \$218.4 + \$206.9) + \$3,013.9$
-*   **NPV (Total Equity Value) = $\$4,360.2$ million**
+| Year | Revenue (A) | Net Income Margin | NI from Ops (B) | NI from ROIC on Prior Year Cash (C) | Total Net Income / Cash Flow (B+C) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **2025** (Base) | \$1,673.0 | 10.0% | \$167.3 | \$0.0 | **\$167.3** |
+| **2026** | \$1,773.4 | 10.5% | \$186.2 | \$13.4 (167.3 * 8.0%) | **\$199.6** |
+| **2027** | \$1,844.3 | 11.0% | \$202.9 | \$16.0 (199.6 * 8.0%) | **\$218.9** |
+| **2028** | \$1,918.1 | 11.5% | \$220.6 | \$17.5 (218.9 * 8.0%) | **\$238.1** |
+| **2029** | \$1,980.2 | 11.75% | \$232.7 | \$19.0 (238.1 * 8.0%) | **\$251.7** |
+| **2030** | \$2,039.6 | 12.0% | \$244.7 | \$20.1 (251.7 * 8.0%) | **\$264.8** |
 
 ---
 
-### V. Fair Value Calculation and Justification
+## IV. Discounted Cash Flow (DCF) Calculation
 
-The fair value of the stock is calculated by adjusting the Total Equity Value (NPV) for Total Debt and Cash, and then dividing by the shares outstanding.
+### 1. Terminal Value
 
-$$\text{Fair Value per Share} = (\text{NPV of Equity} - \text{Total Debt} + \text{Total Cash}) / \text{Shares Outstanding}$$
+*   **2030 Cash Flow (CF):** \$264.8 million
+*   **Conservative Maturity Rate (g):** **2.0%**
+*   **Conservative Discount Rate (r):** **10.0%** (Slightly higher than a typical WACC to account for high leverage and discretionary consumer spending risk [cite: 5 in step 3]).
 
-| Metric | Value (Millions USD) |
-| :--- | :--- |
-| NPV (Total Equity Value) | $4,360.2$ |
-| **Minus:** Total Debt | $2,360.0$ |
-| **Plus:** Total Cash & Cash Equivalents | $193.9$ |
-| **Calculated Equity Value** | $2,194.1$ |
-| **Shares Outstanding** (Millions) | $55.02$ |
-| **Fair Value per Share** | **$39.88** |
+**Terminal Value (TV) Formula:**
+TV = CF * (1 + g) / (r - g)
+TV = \$264.8 * (1 + 0.02) / (0.10 - 0.02)
+TV = \$270.1 / 0.08
+TV = **\$3,376.3 million**
 
-| Comparison | Value |
-| :--- | :--- |
-| **Calculated Fair Value** | **$39.88** |
-| **Current Market Price** | **$51.87** |
-| **Discount to Market** | $23.1\%$ |
+### 2. Net Present Value (NPV)
 
-#### Justification for Difference Between Fair Value and Market Price
+| Year | Cash Flow (Millions USD) | Discount Factor (1 / (1.10)^n) | Present Value (PV) (Millions USD) |
+| :--- | :--- | :--- | :--- |
+| **2025** (n=0) | \$167.3 | 1.000 | \$167.3 |
+| **2026** (n=1) | \$199.6 | 0.909 | \$181.4 |
+| **2027** (n=2) | \$218.9 | 0.826 | \$180.8 |
+| **2028** (n=3) | \$238.1 | 0.751 | \$178.8 |
+| **2029** (n=4) | \$251.7 | 0.683 | \$171.9 |
+| **2030** (n=5) | \$264.8 | 0.621 | \$164.4 |
+| **2030 Terminal Value** | \$3,376.3 | 0.621 | \$2,096.3 |
+| **Total NPV of Future Cash Flows** | | | **\$3,140.9 million** |
 
-The calculated fair value of **$39.88** is approximately **$11.99** or **$23.1\%$ lower** than the current market price of **$51.87$**. This difference suggests that the market is making more optimistic assumptions about the company's future performance than the conservative projections used in this model.
+---
 
-**The Market's Assumptions are likely based on one or more of the following:**
+## V. Fair Value Calculation
 
-1.  **More Aggressive Long-Term Growth (The Business Engine):**
-    *   **Attendance & Per Capita:** My model assumes a very conservative combined organic growth of $2.5\%$ annually (1.0% attendance + 1.5% per capita). The market is likely pricing in a higher, sustained growth rate, perhaps closer to **$3.0\%$ - $4.0\%$** annually, believing the new attractions and ongoing brand loyalty will reverse the recent weakness in per capita spending (Q2 2025: -2.2%).
-2.  **Higher Margin Expansion:**
-    *   My model projects Net Income Margin peaking at $15.0\%$ by 2030. The market may anticipate faster and higher margin expansion, driven by permanent cost structure changes or the success of high-margin in-park spending, projecting margins closer to **$16\% - 17\%$**.
-3.  **Lower Discount Rate (Lower Risk):**
-    *   The market may perceive the company's business model as less risky than my $9.0\%$ discount rate implies. Given the high visibility from annual pass sales (deferred revenue) and the company's strong brand portfolio, the market may be using a lower cost of equity/capital (e.g., **$7.5\%$ to $8.0\%$**), which significantly inflates the NPV.
-4.  **Value-Creating Capital Allocation:**
-    *   The market is likely placing a premium on the company's aggressive share repurchase program (9.4 million shares repurchased in FY 2024, $\sim 15\%$ of shares outstanding). The announced confidence in future capital allocation, including a new $\$500$ million share repurchase authorization, suggests future earnings per share will be boosted by a shrinking share count, which the market discounts favorably.
+**Fair Value Formula:**
+Fair Value = (Total NPV of Future Cash Flows + Total Cash) - Total Debt
 
-**Conclusion on Fair Value:**
+**Total Enterprise Value:**
+Total NPV = \$3,140.9 million
+Total Cash = \$183.23 million
+Total Debt = \$2,251.88 million
 
-The calculated **Fair Value of $\$39.88$** is a robust, *conservative* intrinsic value based on a highly-leveraged balance sheet and a conservative business engine. To justify the market price, the investor would need to believe that PRKS can generate sustainable Net Income margins above $16\%$ *or* maintain an organic revenue growth rate above $3.5\%$ per year, while also executing a successful, multi-year share buyback program.
+Equity Value = (\$3,140.9 + \$183.23) - \$2,251.88
+Equity Value = \$3,324.13 - \$2,251.88
+**Equity Value = \$1,072.25 million**
 
-***
+**Fair Value Per Share:**
+Fair Value Per Share = Equity Value / Shares Outstanding
+Fair Value Per Share = \$1,072.25 million / 55.03 million shares
+**Fair Value Per Share = \$19.48**
 
-### Fair Value Summary
+---
+
+## VI. Conclusion and Justification
+
+### Summary of Valuation
 
 | Metric | Value |
 | :--- | :--- |
-| **Calculated Fair Value per Share** | **$39.88** |
-| **Current Stock Price** | **$51.87** |
+| **Current Stock Price** | **\$37.65** |
+| **Fair Value Per Share (DCF)** | **\$19.48** |
+| **Shares Outstanding** | 55.03 Million |
+| **Total Equity Value (DCF)** | \$1,072.25 Million |
+
+### Justification of Discrepancy
+
+The calculated Fair Value of **\$19.48** per share is significantly lower than the Current Stock Price of **\$37.65**.
+
+The market is making a vastly different assumption about the company's future performance, specifically on two key drivers: **Long-Term Growth** and **Cost/Margin Control**.
+
+| Assumption | Valuation Model Assumption (Conservative) | Market Assumption (Implied) |
+| :--- | :--- | :--- |
+| **Long-Term Growth (g)** | **2.0%** Perpetual Growth | **~4.7%** Perpetual Growth (to justify \$37.65 at a 10.0% discount rate) |
+| **Average Net Income Margin** | Steady increase to a conservative **12.0%** by 2030 | Steady state closer to the historical high, perhaps **18-20%**, or much faster growth, reflecting an aggressive cost control or a successful premiumization of the entire portfolio. |
+| **Discount Rate (r)** | Conservative **10.0%** (High-Risk) | Lower, possibly **8.0%** (Lower Risk Perception) |
+
+**Conclusion:**
+Our conservative valuation dictates that the stock is **overvalued** by the market. The discrepancy of over 90% is likely due to the market pricing in a very successful execution of management's turnaround strategy.
+
+1.  **Market is aggressive on Recovery & Growth:** The market appears to believe that the strong forward-booking for Discovery Cove and new pass benefits will translate into a high single-digit revenue growth rate (6-8%) for the next 5-10 years, not the 3.0%-6.0% range used here. The market is likely anticipating PRKS to return to and surpass the 2019 attendance levels faster and more aggressively, capitalizing on its stated under-capacity [cite: 14 in step 1].
+2.  **Market is aggressive on Margin Improvement:** Given the company's recent decline in Net Income Margin (down 25.4% YoY in Q3 2025) [cite: 7 in step 2] and high recent LTM Operating Margin of 24.4% [cite: 5 in step 3], the market believes management's plans to "address cost execution issues" will be extremely successful, restoring and exceeding the 2022-2023 high profitability levels.
+
+The market is betting on a rapid and near-perfect execution of the operational and strategic shifts. Our conservative model, which assumes moderate but consistent growth and a slower, modest margin recovery, views the stock at a substantially lower value.
+
+---
+
+## Fair Value Per Share
+
+**\$19.48**
