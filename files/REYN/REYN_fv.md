@@ -1,146 +1,162 @@
-This valuation of Reynolds Consumer Products Inc. (REYN) is based strictly on publicly available SEC filings, earnings call transcripts, and conservative, justified financial modeling.
+This valuation is conducted as of the current time, February 13, 2026, using the most recent financial data available, primarily from the Reynolds Consumer Products Inc. (REYN) Annual Report on Form 10-K for the fiscal year ended December 31, 2025, and related earnings releases/transcripts.
+
+All figures are in millions of U.S. Dollars, except for per-share data and percentages.
 
 ---
 
-## **Reynolds Consumer Products Inc. (REYN) Stock Valuation**
+## 1. Current Financial Metrics (as of December 31, 2025)
 
-### **Step 1: Financial Data Extraction**
+The following data is extracted from the latest SEC filings:
 
-The following data is extracted from the most recent SEC filings and related earnings announcements.
-
-| Metric | Value (USD Millions) | Source/Reference |
+| Metric | Value (USD Millions) | Source/Justification |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | $96.00 | Q3 2024 Press Release (as of Sep 30, 2024) |
-| **Total Debt** | $1,735.00 | Q3 2024 Press Release (as of Sep 30, 2024) |
-| **Shares Outstanding** | 210.33 | Q2 2025 10-Q (as of July 25, 2025) |
-| **2024 Net Revenue (Base Year)** | $3,695.00 | Q4 2024 Earnings Call Transcript |
-| **2024 Adjusted Net Income (Base)** | $312.00 | LTM Net Income cited in Q4 2024 results (proxy for profitability) |
-| **Current Stock Price** | (Based on a hypothetical date of Oct 29, 2025, which is today's current date, and an assumed current market price for comparison. A specific market price is not provided, so a comparison to the final valuation will be made conceptually, as if the price were known.) | N/A |
+| **Total Cash & Cash Equivalents (TCCE)** | $147 | Balance Sheet as of December 31, 2025. |
+| **Total Debt** | $1,580 | Total Debt as of December 31, 2025. |
+| **Shares Outstanding** | 210.3 million | Used a consistently reported recent share count for valuation. |
+| **Current Stock Price** | Assumed: $23.28 | Current market price as of the latest data point found. |
+| **Net Revenues (FY 2025)** | $3,721 | Full Year 2025 Net Revenues. |
+| **Net Income (FY 2025)** | $301 | Full Year 2025 Net Income. |
 
-***Note on Cash & Debt:*** *The Total Debt figure is based on the most recent complete balance sheet data available, which shows Net Debt reduction to 2.3x TTM Adjusted EBITDA as of Q3 2024, illustrating management's commitment to deleveraging.*
+---
 
-### **Step 2: Business Engine Analysis & Revenue Forecast (2025-2030)**
+## 2. Business Engine and Revenue Projections (2025-2030)
 
-#### **Business Engine Drivers:**
+Reynolds Consumer Products' business engine is driven by its strong branded portfolio (Reynolds Wrap, Hefty) in the stable, slow-growth consumer staples market, complemented by a store-brand segment (Presto). The core drivers are: **(1) Pricing/Price-Pack Architecture** to offset commodity inflation and reduce elasticity; **(2) Manufacturing/Operational Efficiency (Productivity)** via automation investments to expand margins; and **(3) Innovation** (new scents, eco-friendly products) to gain market share.
 
-Reynolds Consumer Products (REYN) is a consumer packaged goods (CPG) company specializing in essential household products (Reynolds Wrap, Hefty bags, etc.). The business engine is driven by:
-1.  **Volume/Share Gains:** Achieved through product innovation (e.g., Hefty Fabuloso, EcoSave) and new business wins.
-2.  **Strategic Pricing:** Utilizing "Price Pack Architecture" (PPA) to pass through material/commodity costs and drive margin.
-3.  **Cost Management:** Aggressive focus on operational and SG&A cost reductions and productivity improvements.
+The management's strategy for 2026 is focused on executing productivity and innovation initiatives to drive earnings growth, even with a flat to slightly negative top-line outlook.
 
-The primary headwinds are:
-*   **Secular Decline in Foam Plates:** The small but cash-generative foam plate business (less than 10% of revenue) faces sustained legislative and consumer preference challenges.
-*   **Commodity Volatility:** Volatility in raw materials (aluminum, resin) requires constant price adjustments.
+### Revenue Projection Justification
 
-#### **Revenue Assumptions:**
-
-The forecast is conservative, reflecting the current low single-digit decline guidance for 2025 and an expectation of slight recovery driven by innovation and cost control offset by the foam plate headwind.
-
-| Year | Revenue Rationale & Assumptions | Revenue Growth | Projected Revenue (USD Millions) |
+| Year | Assumed Growth Rate | Projected Net Revenue | Justification/Commentary |
 | :--- | :--- | :--- | :--- |
-| **2025** | **Management Guidance:** Net revenues expected to be **down low single digits** vs. 2024's $3.695B. We assume a conservative **-2.0% decline** to the low end of guidance. | -2.0% | $3,621 |
-| **2026** | **Conservative Recovery:** Transition year. Decline moderates as cost/productivity initiatives and non-foam innovation start to offset foam headwind and initial volume challenges. Assumed 0.0% growth (flat). | 0.0% | $3,621 |
-| **2027** | **Modest Growth:** Business model stability confirmed. Growth driven by modest volume/share gains from new products and successful PPA implementation. Assumed **+1.0% growth**. | +1.0% | $3,657 |
-| **2028** | **Sustained Low-Single-Digit Growth:** Reflects CPG company growth, factoring in low inflation-level pricing and volume driven by innovation pipeline (consistent with the "2030 strategic vision"). Assumed **+1.5% growth**. | +1.5% | $3,712 |
-| **2029** | **Sustained Low-Single-Digit Growth:** Continued modest volume and price realization. Assumed **+1.5% growth**. | +1.5% | $3,767 |
-| **2030** | **Sustained Low-Single-Digit Growth:** Assumed **+1.5% growth**. | +1.5% | $3,823 |
+| **2025 (Actual)** | N/A | $3,721 | Full-year 2025 Net Revenue. |
+| **2026 (Management Guide)** | 0.0% (Midpoint of -3% to +1%) | $3,721 | Using the conservative midpoint of management's guidance range. Reflects category headwinds (foam/foil) but expects to match or beat category performance. |
+| **2027** | 1.0% | $3,758 | Conservative growth assumption. Reflects the expected positive impact of 2026's increased investment in automation, innovation, and productivity starting to materialize in volume and mix, partially offset by commodity volatility. |
+| **2028** | 1.5% | $3,814 | Assumes a slight acceleration as the multi-year productivity and automation investments are fully operational, yielding modest, stable growth typical of a mature consumer staples company. |
+| **2029** | 1.5% | $3,871 | Continuation of stable, low-single-digit growth, driven by pricing power in branded segments and supply chain efficiency. |
+| **2030** | 1.5% | $3,929 | Assumes the business engine has stabilized to a long-term, conservative growth rate. |
 
-### **Step 3: Margin & Net Income Forecast (2025-2030)**
+---
 
-#### **Margin Assumptions & Rationale:**
+## 3. Margin Assumptions and Net Income Calculation
 
-*   **Net Income Margin (2024 Base):** Calculated as 2024 Adjusted Net Income ($312M) / 2024 Net Revenue ($3,695M) = **8.44%**.
-*   **2025 Net Income Margin:** Management guided Adjusted EBITDA of $650M - $670M (midpoint $660M). This implies margin expansion through cost/productivity initiatives, despite lower sales. The 2025 Adjusted Net Income is projected to be in line with the midpoint of the Adjusted EPS guidance of $1.54 to $1.61, which is $1.575 EPS * 210.33M shares = $331M. This is an implied Net Income Margin of $331M / $3,621M = **9.14%**. The valuation will use this management-implied profitability metric.
-*   **2026-2030 Net Income Margin:** Due to the focus on operational cost reductions, margin expansion, and a shift away from high-volatility, low-margin business, the Net Income margin is assumed to **gradually increase by 10 basis points per year** (e.g., from 9.14% to 9.24%, etc.), reflecting a conservative realization of the "margin expansion" strategic priority.
+### Margin Justification
 
-#### **Return on Invested Capital (ROIC) Assumption:**
+The Net Income Margin will be calculated to justify the Net Income Projections.
 
-*   **Historical ROIC:** The initial search provided a historical ROIC of **8.53%** (LTM).
-*   **Valuation ROIC:** Since the historical ROIC is positive and aligns with management's goal of "high-return work streams," an **8.0%** ROIC will be used for the valuation, which is slightly below the historical figure, making it a conservative but reasonable assumption.
+*   **FY 2025 Net Income Margin:** $301M (Net Income) / $3,721M (Revenue) = **8.09%**.
+*   **FY 2026 Net Income Margin (Midpoint Guide):** $337M (Midpoint of $331M-$343M Net Income Guide) / $3,721M (Revenue) = **9.06%**.
 
-#### **Net Income Projection:**
+The expected increase in Net Income Margin for 2026 (from 8.09% to 9.06%) is explicitly supported by management's focus on cost reduction, manufacturing efficiencies, and SG&A optimization.
 
-| Year | Projected Revenue (A) (USD Millions) | Projected Net Income Margin (B) | Base Net Income (A \* B) (USD Millions) | ROIC on Prior Year Cash (C) (USD Millions) | Total Net Income (Base + ROIC) (USD Millions) | Cumulative Cash (D) (USD Millions) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024** | $3,695 | 8.44% | $312 | - | $312 | $312 |
-| **2025** | $3,621 | 9.14% | $331 | $312 \* 8.0% = $25 | $356 | $668 |
-| **2026** | $3,621 | 9.24% | $334 | $668 \* 8.0% = $53 | $387 | $1,055 |
-| **2027** | $3,657 | 9.34% | $341 | $1,055 \* 8.0% = $84 | $425 | $1,480 |
-| **2028** | $3,712 | 9.44% | $350 | $1,480 \* 8.0% = $118 | $468 | $1,948 |
-| **2029** | $3,767 | 9.54% | $360 | $1,948 \* 8.0% = $156 | $516 | $2,464 |
-| **2030** | $3,823 | 9.64% | $368 | $2,464 \* 8.0% = $197 | $565 | $3,029 |
+### Net Income Projection Assumptions
 
-*(Note: Cumulative Cash (D) is the projected Net Income from all prior years, assuming it flows straight to cash as per instructions. For 2025, it is $312M + $356M = $668M. This cash is used for the subsequent year's ROIC calculation.)*
-
-### **Step 4: Discounted Cash Flow (DCF) Valuation**
-
-#### **Discount Rate (WACC) Assumption:**
-
-*   **Conservative Discount Rate:** A conservative discount rate should be used to reflect the stable but low-growth nature of the CPG sector, the leverage on the balance sheet, and the inherent risks of commodity volatility.
-*   **Assumption:** **9.0%** (This is a reasonable WACC for a stable, mature consumer staple company with moderate debt, factoring in a higher equity risk premium due to the CPG market's current inflationary and recessionary pressures).
-
-#### **Maturity Rate (Terminal Growth Rate) Assumption:**
-
-*   **Conservative Maturity Rate:** This represents the long-term, stable growth rate after the forecast period (2030). Given the secular headwinds in part of the business and the maturity of the industry, a very conservative rate is justified.
-*   **Assumption:** **1.5%** (This is a conservative rate, close to the long-term inflation rate and at the low end of US GDP growth, reflecting a stable CPG company).
-
-#### **Net Present Value (NPV) Calculation:**
-
-The Net Income from 2030 will be used for the Terminal Value calculation, as it represents the cash flow of the final year.
-
-| Year | Cash Flow (Net Income) (USD Millions) | Discount Factor (9.0%) | Net Present Value (NPV) (USD Millions) |
-| :--- | :--- | :--- | :--- |
-| **2025** | $356 | 0.9174 | $326.5 |
-| **2026** | $387 | 0.8417 | $325.8 |
-| **2027** | $425 | 0.7722 | $328.2 |
-| **2028** | $468 | 0.7084 | $331.6 |
-| **2029** | $516 | 0.6499 | $335.3 |
-| **2030 (Operating CF)** | $565 | 0.5963 | $336.9 |
-
-| Calculation | Formula | Value (USD Millions) |
+| Metric | Assumption | Justification |
 | :--- | :--- | :--- |
-| **Terminal Value (TV)** | 2030 CF \* (1 + Maturity Rate) / (Discount Rate - Maturity Rate) | $565 \* (1 + 0.015) / (0.090 - 0.015) = $7,639 |
-| **NPV of Terminal Value** | TV \* Discount Factor for 2030 | $7,639 \* 0.5963 | $4,554.2 |
-| **Total NPV of Future Cash Flows** | Sum of all NPVs (2025-2030) + NPV of TV | $326.5 + $325.8 + $328.2 + $331.6 + $335.3 + $336.9 + $4,554.2 | **$6,538.5** |
+| **Net Income Margin (2027-2030)** | 9.25% | A conservative and marginal expansion over the 2026 guidance midpoint of 9.06%. This accounts for the sustained benefit of ongoing automation projects and cost savings programs, partially countered by continuous investment in innovation and potential commodity inflation. |
+| **ROIC (for re-invested earnings)** | 8.5% | Based on conservative view of historical and TTM ROIC figures (TTM ROIC was 9.40%, 3-year average was 8.91% - using a slightly lower and more conservative figure). |
 
-### **Step 5: Fair Value Calculation**
+### Projected Net Income (NI) with ROIC Mechanism
 
-The total fair value of the equity is calculated by starting with the Total NPV of Future Cash Flows (Enterprise Value Proxy), adding current Cash & Cash Equivalents, and subtracting Total Debt.
+The calculation follows the rule: $NI_{year} = (Projected Revenue_{year} \times NI\ Margin) + (Net\ Income_{year-1} \times ROIC)$
+
+| Year | Net Revenue | NI Margin % | NI from Operations (A) | NI from Prior Year ROIC (B) | Total Net Income (A+B) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **2025 (Actual)** | $3,721 | 8.09% | $301.0 | N/A | **$301.0** |
+| **2026 (Guide)** | $3,721 | 9.06% | $337.0 | ($301.0 \times 8.5\%$) = $25.6$ | **$362.6** |
+| **2027 (Est)** | $3,758 | 9.25% | $347.1$ | ($362.6 \times 8.5\%$) = $30.8$ | **$377.9** |
+| **2028 (Est)** | $3,814 | 9.25% | $352.3$ | ($377.9 \times 8.5\%$) = $32.1$ | **$384.4** |
+| **2029 (Est)** | $3,871 | 9.25% | $357.5$ | ($384.4 \times 8.5\%$) = $32.7$ | **$390.2** |
+| **2030 (Est)** | $3,929 | 9.25% | $362.8$ | ($390.2 \times 8.5\%$) = $33.2$ | **$396.0** |
+
+---
+
+## 4. Discounted Cash Flow (DCF) Analysis
+
+### DCF Assumptions
+
+| Metric | Assumption | Justification/Commentary |
+| :--- | :--- | :--- |
+| **Discount Rate (WACC)** | 8.0% | Conservative yet reasonable for a mature, stable consumer staples company. This is slightly higher than the cited WACC of 7.38% (as of Jan 2026), to be conservative. |
+| **Maturity Rate (Terminal Growth Rate)** | 2.0% | Very conservative. Reflects the long-term, slow growth of the U.S. consumer staples market and is only a modest fraction above long-term inflation targets. |
+
+### Net Present Value (NPV) Calculation
+
+The net income is assumed to be the cash flow available for all stakeholders (Unlevered Free Cash Flow surrogate).
+
+$$NPV = \sum_{t=1}^{n} \frac{CF_t}{(1+r)^t} + \frac{CF_{n}(1+g)}{{(r-g)(1+r)^n}}$$
+
+Where:
+*   $CF_t$ = Total Net Income for year $t$
+*   $r$ = Discount Rate (8.0%)
+*   $g$ = Maturity Rate (2.0%)
+*   $n$ = Last projection year (2030, or $t=5$ for projection period)
+
+| Year ($t$) | Total Net Income (CF_t) | Discount Factor $\frac{1}{(1.08)^t}$ | Present Value (PV) |
+| :--- | :--- | :--- | :--- |
+| **2026** (t=1) | $362.6 | 0.9259 | $335.7 |
+| **2027** (t=2) | $377.9 | 0.8573 | $324.0 |
+| **2028** (t=3) | $384.4 | 0.7938 | $305.1 |
+| **2029** (t=4) | $390.2 | 0.7350 | $286.9 |
+| **2030** (t=5) | $396.0 | 0.6806 | $269.5 |
+| **NPV of Explicit Period (2026-2030)** | | | **$1,521.2** |
+
+### Terminal Value Calculation
+
+Terminal Value in 2030:
+$$TV_{2030} = \frac{CF_{2030}(1+g)}{(r-g)} = \frac{\$396.0 \times (1+0.02)}{(0.08 - 0.02)} = \frac{\$403.92}{0.06} = \$6,732.0$$
+
+Present Value of Terminal Value:
+$$PV(TV) = \frac{TV_{2030}}{(1+r)^5} = \frac{\$6,732.0}{(1.08)^5} = \frac{\$6,732.0}{1.4693} = \mathbf{\$4,581.8}$$
+
+### Total Equity Value (Enterprise Value)
+
+$$Total\ Equity\ Value = NPV\ of\ Explicit\ Period + PV\ of\ Terminal\ Value$$
+$$Total\ Equity\ Value = \$1,521.2\ (NPV\ of\ Explicit) + \$4,581.8\ (PV\ of\ TV) = \mathbf{\$6,103.0}$$
+
+---
+
+## 5. Fair Value Calculation
 
 | Metric | Value (USD Millions) |
 | :--- | :--- |
-| **Total NPV of Future Cash Flows** | $6,538.5 |
-| **Add: Total Cash & Cash Equivalents** | $96.0 |
-| **Less: Total Debt** | ($1,735.0) |
-| **Total Fair Value of Equity** | **$4,899.5** |
+| **Total Equity Value (from DCF)** | $6,103.0 |
+| **Subtract: Total Debt** | $(1,580.0)$ |
+| **Add: Total Cash & Cash Equivalents** | $147.0$ |
+| **Fair Value of Common Equity** | $\mathbf{\$4,670.0}$ |
+| **Shares Outstanding (millions)** | $210.3$ |
+| **Fair Value per Share** | $\$4,670.0 / 210.3 = \mathbf{\$22.21}$ |
 
-| Metric | Value |
-| :--- | :--- |
-| **Fair Value of Equity** | $4,899.5 million |
-| **Shares Outstanding** | 210.33 million |
-| **Fair Value Per Share** | $4,899.5M / 210.33M | **$23.29** |
+## **Fair Value of Stock: $22.21 per share**
 
 ---
 
-## **Conclusion and Justification**
+## 6. Comparison and Justification
 
-**Fair Value Per Share: $23.29**
+| Metric | Value |
+| :--- | :--- |
+| **Fair Value (Calculated)** | **$22.21** |
+| **Current Stock Price** | **$23.28** |
+| **Difference** | **$(1.07)** |
+| **Percentage Difference** | **-4.6%** |
 
-### **Justification for Assumptions**
+### Justification and Market Assumption Analysis
 
-1.  **Revenue Forecast:** The forecast is conservative, starting with a 2% decline in 2025 based on management's "low single-digit decline" guidance. The subsequent 1.0%-1.5% growth rate is modest for a CPG company, fully accounting for the secular headwind in the foam business and commodity volatility. This assumes management's investments in innovation and cost-cutting will only partially materialize as modest long-term volume gains.
-2.  **Margin Forecast:** The initial Net Income margin for 2025 (9.14%) is directly derived from the midpoint of the management's adjusted EPS guidance for 2025, adhering to the rule to "Use whatever management has said as truth." The 10 basis point annual increase is a conservative reflection of the stated strategic goal of **margin expansion** through operational efficiency, suggesting a disciplined but cautious execution.
-3.  **ROIC:** The 8.0% ROIC is conservative, slightly lower than the historical figure of 8.53%, to ensure a prudent valuation.
-4.  **Discount Rate & Maturity Rate:** The 9.0% Discount Rate is appropriate for a stable, mature, but moderately leveraged consumer staple company. The 1.5% Maturity Rate is highly conservative, positioned well below the historical long-term growth of the US economy, fully reflecting the secular challenges and slow-growth industry.
+The calculated Fair Value of **\$22.21** is very close to the assumed current market price of **\$23.28**, representing a small overvaluation of about 4.6% based on the model's assumptions.
 
-### **Market Comparison & Discrepancy Analysis**
+**Market Assumptions vs. Model Assumptions:**
 
-*   **Current Stock Price (Hypothetical):** The calculated Fair Value per share is **$23.29**.
-*   **The Market's Assumptions:** If the current market price is significantly different, it implies the market is making a different set of assumptions.
+The market is making slightly more optimistic assumptions than my conservative model, but the difference is minimal. The market appears to be pricing in one or more of the following:
 
-| Market Price vs. Fair Value | Market's Implicit Assumption (If Price is...) | Why My Model is Different |
-| :--- | :--- | :--- |
-| **...Significantly HIGHER** | **Higher Growth/Margins/Lower Risk:** The market believes REYN's investments in innovation (e.g., Hefty Fabuloso, EcoSave) and cost-cutting will result in higher than 1.5% revenue growth (perhaps 3-4%), and/or much faster margin expansion (e.g., 20-30 bps annually). The market may also be using a lower discount rate (e.g., 8.0%-8.5%), indicating a lower perceived risk. | My model is more conservative by capping long-term growth at 1.5% and slow-walking margin expansion, acknowledging the real drag from the foam plate business and commodity risk mentioned in the transcripts. |
-| **...Significantly LOWER** | **Lower Growth/Margins/Higher Risk:** The market believes REYN will fail to execute on its cost and innovation strategy, leading to sustained revenue declines beyond 2025 or margin contraction due to inability to pass on commodity inflation. They might be assuming a higher discount rate (e.g., 10%+), reflecting a perception that REYN's high debt load ($1.735B) poses a greater risk than management's deleveraging efforts suggest. | My model gives management credit for their guided 2025 profitability and their commitment to the "2030 strategic vision." The model assumes they successfully stabilize the core business, which is a key management goal stated in the transcripts. If the market price is low, it suggests a lack of confidence in this execution. |
+1.  **Higher Terminal Growth:** The market likely uses a slightly higher long-term growth rate ($g$) than my conservative 2.0%. A Terminal Value based on a **2.3%** growth rate would bring the fair value in line with the current price:
+    *   $TV_{2030} = \frac{\$396.0 \times (1+0.023)}{(0.08 - 0.023)} = \$7,117.2$
+    *   $PV(TV) = \$7,117.2 / 1.4693 = \$4,844.0$
+    *   *New Fair Value per Share (at 2.3% g):* $(\$1,521.2 + \$4,844.0 - \$1,580 + \$147) / 210.3 = \mathbf{\$23.41}$.
 
-Given the strict adherence to conservative assumptions and management's own guidance, the calculated fair value of **$23.29** is a *conservative intrinsic value* based on available facts.
+2.  **Higher ROIC:** The market might assume a slightly higher long-term ROIC on re-invested earnings than my conservative 8.5%. My model's projected **9.25%** Net Income Margin for 2027-2030 is already relatively conservative given the management's commentary on productivity and cost savings initiatives, and the expected 9.06% in 2026. A slightly higher margin could easily justify the current price.
+
+3.  **Lower Cost of Capital:** The market may be using a slightly lower Discount Rate (WACC) than my conservative 8.0%. For a stable, low-beta consumer staples company with a target Net Debt Leverage of 2.0x to 2.5x (and actual 2.1x), a WACC slightly below 8.0% is entirely reasonable. The cited analyst WACC of 7.38% supports this, and using that lower WACC would result in a higher valuation.
+
+**Conclusion on Divergence:**
+
+The minimal divergence of **-4.6%** is easily explained by slightly more optimistic, yet still reasonable, assumptions from the market on the company's long-term growth rate ($g$) or its cost of capital ($r$). My valuation is therefore extremely close to the current market price and confirms the company is trading within a tight range of its fair value based on conservative, management-guided fundamentals. The market is giving management credit for its execution on cost savings and margin expansion, anticipating that the Net Income Margin will continue to expand modestly and sustainably after the 2026 transition year.
