@@ -1,163 +1,149 @@
-This valuation of The Estée Lauder Companies Inc. (EL) stock utilizes a Discounted Cash Flow (DCF) model based on financial data strictly from SEC filings (Form 10-K, 10-Q) and management's own guidance from recent earnings call transcripts.
+The Estée Lauder Companies Inc. (EL) Fair Value Calculation
+
+## I. Financial Data from SEC Filings
+
+The valuation is based on financial data for The Estée Lauder Companies Inc. (EL) extracted exclusively from the most recent SEC filings, primarily the Annual Report on Form 10-K for the fiscal year ended June 30, 2025, and subsequent Quarterly Reports on Form 10-Q.
+
+| Metric | Value (Millions of USD) | Source/Notes |
+| :--- | :--- | :--- |
+| **Current Stock Price (EL)** | **$108.23** | Closing price as of February 13, 2026. |
+| **Total Cash & Cash Equivalents** | **$2,921** | As of June 30, 2025. |
+| **Total Debt** | **$7,317** | Current Portion Long-Term Debt ($3M) + Long-Term Debt ($7,314M) as of June 30, 2025. |
+| **Shares Outstanding** | **359.89 million** | 234,347,415 Class A + 125,542,029 Class B as of August 13, 2025. |
+| **Net Sales (FY 2025)** | **$14,326** | Fiscal Year ended June 30, 2025. |
+| **Net (Loss) / Income (FY 2025)** | **$(1,133)** | Fiscal Year ended June 30, 2025. |
 
 ---
 
-## The Estée Lauder Companies Inc. (EL) Stock Valuation
+## II. Business Engine and Revenue Projections (2026-2030)
 
-### 1. Initial Financial Data (As of Q1 Fiscal Year 2025, ended September 30, 2024)
+The core of the business engine analysis relies on the last four earnings call transcripts (Q3 FY2025, Q4 FY2025, Q1 FY2026, Q2 FY2026). The company is navigating a significant operational transformation called the "Profit Recovery and Growth Plan" (PRGP) while facing headwinds, most notably in the global travel retail channel and softened demand in Mainland China.
 
-All figures are in **millions USD** unless otherwise noted.
+**Engine Assumptions:**
 
-| Metric | Source/Notes | Value (USD Millions) |
-| :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | Q1 FY2025 (Sept 30, 2024) Earnings Release. [cite: 5 in step 3] | **\$2,350** |
-| **Total Debt** | Long-Term Debt (FY2024 10-K data) plus a conservative estimate for current portion. [cite: 2 in step 4] | **\$7,517** |
-| **FY 2024 Net Sales** | FY 2024 (Jun 30, 2024) Earnings Release. [cite: 1 in step 3] | **\$15,610** |
-| **FY 2024 GAAP Net Earnings** | FY 2024 (Jun 30, 2024) Earnings Release. [cite: 1 in step 3] | **\$390** |
-| **Diluted Shares Outstanding** | Based on the FY 2024 10-K diluted share count. [cite: 4 in step 3] | **360.8 million** |
-| **Current Stock Price (Approximation)** | *Market data not used as per rule.* The valuation result will be compared to the market. | |
+1.  **Revenue Growth Driver (The "Engine"):** Revenue growth is expected to pivot from the traditional reliance on high-volume travel retail to a more diversified, multi-channel approach driven by:
+    *   **Strategic Investments:** Increased consumer-facing investments (a 480 basis point increase in Q3 FY2025) in marketing and advertising to enhance brand equity and drive consumer acquisition.
+    *   **Channel Expansion:** Gaining share in key markets (U.S., China, Japan), and accelerating online growth through expansion on platforms like Amazon and TikTok Shop.
+    *   **Innovation:** Focus on high-growth categories like skincare and fragrance (which grew 6% organically in Q2 FY2026) and a continued pipeline of new product launches.
+    *   **PRGP Efficiencies:** Cost-saving measures are expected to offset volume deleverage and fund growth investments.
 
-**Note on Total Debt:** The total debt figure is calculated as the FY2024 reported Long-Term Debt of \$7,267 million [cite: 2 in step 4], plus an estimated current portion of long-term debt of \$250 million for a conservative total.
+2.  **Conservative Revenue Growth Estimates:**
 
-### 2. Business Engine and Projection Assumptions
+| Fiscal Year | Initial Base Net Sales (USD Million) | Growth Rate Justification (Conservative) | Projected Net Sales (USD Million) |
+| :--- | :--- | :--- | :--- |
+| **FY 2025 (Actual)** | $14,326 | Reported. | $14,326 |
+| **FY 2026** | $14,326 | Management guidance is 1%-3% organic net sales growth; using the lowest end: **1%**. | $14,469 |
+| **FY 2027** | $14,469 | Assuming the initial PRGP benefits and normalization of the travel retail environment begin to show; conservative growth of **4%**. | $15,048 |
+| **FY 2028** | $15,048 | PRGP fully executed, leveraging new channels (Amazon/TikTok), and a moderate recovery in China/Travel Retail. Conservative estimate of **5%**. | $15,800 |
+| **FY 2029** | $15,800 | Continued strong execution in core prestige beauty markets; stabilizing at a **5%** growth rate, reflecting the long-term historical growth of the global prestige beauty market. | $16,590 |
+| **FY 2030** | $16,590 | Maintaining the long-term stable growth rate of **5%**. | $17,420 |
 
-The foundation of this valuation is EL’s **Profit Recovery and Growth Plan (PRGP)**, which is the management-guided engine for future earnings. The recent fiscal year (FY2024) Net Income Margin was severely depressed at 2.50% ($\frac{\$390}{\$15,610}$) due to significant impairment charges and litigation settlements [cite: 1 in step 3]. The valuation assumes a phased recovery.
+---
 
-#### A. Revenue Engine
+## III. Margin and Net Income Projections (2026-2030)
 
-The key drivers are the recovery in Asia Travel Retail and Mainland China, alongside growth in high-demand channels (specialty multi, online) and brands (La Mer, Le Labo, The Ordinary).
+The projection of margins is heavily weighted on the PRGP's expected margin expansion.
 
-*   **FY 2025 (Starting Point):** Management guided for an Organic Net Sales Growth of -1% to +2%. To be conservative, we assume growth will be at the very low end of the positive range, giving a slight organic sales lift, but revenue will be further boosted by the impact of recent acquisitions (e.g., Tom Ford, DECIEM) which are captured in reported sales.
-    *   **Assumption:** **FY2025 Reported Net Sales Growth: 1.5%**
-*   **FY 2026 - FY 2030 (Normalization):** The global prestige beauty market typically grows in the mid-to-high single digits. Following the successful execution of the PRGP (ending in FY2026), the company is expected to return to its historical growth rate, which has averaged around $7\%$ in the past decade. Given the mandate for conservatism, we model a return to more modest growth.
-    *   **Assumption:** **FY2026-FY2027: 5.0%** (Post-recovery acceleration)
-    *   **Assumption:** **FY2028-FY2030: 4.0%** (Conservative, long-term luxury/prestige growth)
+1.  **Gross Margin (GM) Assumption:**
+    *   FY 2025 GM was 74.0%.
+    *   Q2 FY 2026 GM was 76.5%, driven by operational efficiencies from PRGP.
+    *   **Assumption:** Given the strong execution of PRGP and a focus on efficiency, the GM will stabilize at a conservative but higher level than FY2025. We project a gradual increase to **75.5%** by FY2027 and maintain it.
 
-| Fiscal Year (FY) | Revenue Growth Rate (YoY) | Projected Net Sales (USD Millions) |
-| :--- | :--- | :--- |
-| **2024 (Actual)** | N/A | \$15,610 |
-| **2025 (Conservative Guided)** | 1.5% | **\$15,844** |
-| **2026 (Post-PRGP Kick-in)** | 5.0% | **\$16,636** |
-| **2027** | 5.0% | **\$17,468** |
-| **2028** | 4.0% | **\$18,167** |
-| **2029** | 4.0% | **\$18,893** |
-| **2030** | 4.0% | **\$19,649** |
+2.  **Net Income (NI) Margin Assumption:**
+    *   The company reported a significant net loss in FY 2025 due to non-core items (impairment charges, restructuring charges). Normalizing for these one-time events is critical.
+    *   Management's guidance suggests a return to profitability and margin expansion (Operating Margin of 14.4% in Q2 FY2026).
+    *   **Assumption:** We project a conservative Net Income Margin based on a normalized recovery post-PRGP. We assume a conservative Net Income Margin progression to a long-term target of **10.0%** by FY2028, below the company's historical pre-pandemic high-teens operating margin, to remain conservative.
 
-#### B. Margin Engine (Net Income Margin)
-
-The PRGP is expected to deliver incremental operating profit of **\$1.25 billion** (midpoint of \$1.1B - \$1.4B) over FY2025 and FY2026. [cite: 10 in step 1] We will model this directly into the operating income recovery.
-
-*   **FY 2024 Actual Operating Income (OI):** \$970 million. [cite: 1 in step 3]
-*   **PRGP Impact:** Assume $\mathbf{\$625M}$ in incremental OI for FY2025 and $\mathbf{\$625M}$ for FY2026.
-*   **Operating Margin Stabilization:** Post-2026, the OI Margin is expected to normalize at a sustainable level. The FY2024 Adjusted Operating Margin was $\approx 10.5\%$. A conservative long-term OI margin is assumed to be $\mathbf{12.0\%}$.
-*   **Tax Rate:** The FY2024 reported tax rate was very high at $47.0\%$ due to non-deductible charges. [cite: 1 in step 3] We will use a more normalized and conservative long-term tax rate of **25.0%**.
-
-| FY | Projected OI (M) | OI Margin | Tax Rate | Net Income Margin |
+| Fiscal Year | Net Sales (USD Million) | Gross Margin % (GM) | Net Income Margin % (NI %) | Net Income (USD Million) |
 | :--- | :--- | :--- | :--- | :--- |
-| **2024 (Actual)** | \$970 | 6.21% | 47.0% | 2.50% |
-| **2025 (PRGP Year 1)** | $\$970 + \$625 = \$1,595$ | 10.07% | 25.0% | 7.55% |
-| **2026 (PRGP Year 2)** | $\$1,595 + \$625 = \$2,220$ | 13.34% | 25.0% | 10.01% |
-| **2027** | 12.50% (Slight pull-back) | \$2,184 | 25.0% | 9.38% |
-| **2028 - 2030** | 12.00% (Conservative LT) | *Calculated* | 25.0% | 9.00% |
+| **FY 2025 (Actual)** | $14,326 | 74.0% | -7.9% | $(1,133)$ |
+| **FY 2026 (Projection)** | $14,469 | 75.0% | 5.0% | $723$ |
+| **FY 2027 (Projection)** | $15,048 | 75.5% | 8.0% | $1,204$ |
+| **FY 2028 (Projection)** | $15,800 | 75.5% | 10.0% | $1,580$ |
+| **FY 2029 (Projection)** | $16,590 | 75.5% | 10.0% | $1,659$ |
+| **FY 2030 (Projection)** | $17,420 | 75.5% | 10.0% | $1,742$ |
 
-### 3. Net Income Forecast (Incorporating ROIC)
+---
 
-The valuation requires: $Net Income_{Next Year} = Net Income_{From Business} + ROIC \times (Net Income_{Previous Year})$
+## IV. Discounted Cash Flow (DCF) Calculation
 
-First, we must establish a conservative Return on Invested Capital (ROIC). Given the FY2024 results were heavily impacted by one-time charges, the GAAP ROIC is not representative. Instead, we use a conservative figure based on what a high-quality, luxury goods company should generate in a non-disrupted year.
+### A. Cash Flow & ROIC
 
-*   **Conservative ROIC Assumption:** **8.0%**
+The methodology requires that net income for each year goes straight into cash for the next year, and an additional income component is generated by applying a Return on Invested Capital (ROIC) percentage to the net income from the previous year.
 
-This assumption is conservative for a luxury brand with significant intangible assets (brand value) that typically has high ROIC, but reflects the recent headwinds and mandate for conservatism.
+*   **ROIC Assumption:** Based on the company's historical performance, and accounting for the negative FY2025 loss and the required conservatism, we assume a conservative, reasonable long-term **ROIC of 15%**. This is a reasonable target for a prestige beauty company that is successfully executing a cost-savings and growth-focused restructuring plan.
 
-**FY2025 Net Income Calculation:**
-*   $Net Income_{Business} = \$15,844 \times 10.07\% \times (1 - 0.25) = \mathbf{\$1,196M}$
-*   $Net Income_{ROIC} = 8.0\% \times Net Income_{FY2024} = 8.0\% \times \$390M = \$31M$
-*   $Total Net Income_{FY2025} = \$1,196M + \$31M = \mathbf{\$1,227M}$
+*   **Net Income for Valuation (Cash Flow Proxy):**
+    $$NI_{Valuation, year} = NI_{from NI \% , year} + (NI_{from NI \% , year-1} \times ROIC)$$
 
-| FY | Net Sales (M) | Net Income from Business (A) (M) | Net Income from ROIC (B) (M) | Total Net Income (A+B) (M) |
-| :--- | :--- | :--- | :--- | :--- |
-| **2024** | \$15,610 | N/A | N/A | **\$390** (Actual) |
-| **2025** | \$15,844 | \$1,196 | \$31 | **\$1,227** |
-| **2026** | \$16,636 | \$1,665 | \$98 | **\$1,763** |
-| **2027** | \$17,468 | \$1,638 | \$141 | **\$1,779** |
-| **2028** | \$18,167 | \$1,635 | \$142 | **\$1,777** |
-| **2029** | \$18,893 | \$1,700 | \$142 | **\$1,842** |
-| **2030** | \$19,649 | \$1,768 | \$147 | **\$1,915** |
+| Fiscal Year | Net Income (USD Million) | ROIC Additional Income (NI * 15%) | Total Cash Flow Proxy (USD Million) |
+| :--- | :--- | :--- | :--- |
+| **FY 2026** | $723$ | N/A (Using NI only for first year) | $723$ |
+| **FY 2027** | $1,204$ | $723 \times 15\% = 108$ | $1,204 + 108 = 1,312$ |
+| **FY 2028** | $1,580$ | $1,204 \times 15\% = 181$ | $1,580 + 181 = 1,761$ |
+| **FY 2029** | $1,659$ | $1,580 \times 15\% = 237$ | $1,659 + 237 = 1,896$ |
+| **FY 2030** | $1,742$ | $1,659 \times 15\% = 249$ | $1,742 + 249 = 1,991$ |
 
-### 4. Discounted Cash Flow (DCF) Analysis
+### B. Discount and Terminal Value Assumptions
 
-The final step is to calculate the Net Present Value (NPV) of the projected Net Income (used as a proxy for Free Cash Flow to Equity, FCFE) and the Terminal Value.
+*   **Discount Rate (Conservative but Reasonable):** **9.0%** (Reflects the risk profile of a mature, but cyclical and recently volatile, prestige consumer staple company).
+*   **Maturity Rate (Conservative Terminal Growth):** **2.5%** (A conservative long-term growth rate, slightly above global inflation, representing the company's long-term potential as a leader in prestige beauty).
 
-#### A. DCF Assumptions
+1.  **Terminal Value (TV) Calculation (at the end of FY 2030):**
+    $$TV = \frac{CF_{2030} \times (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}$$
+    $$TV = \frac{\$1,991 \times (1 + 0.025)}{0.090 - 0.025} = \frac{\$2,041}{0.065} \approx \$31,400 \text{ million}$$
 
-*   **Discount Rate (WACC/Cost of Equity):** **9.0%**
-    *   *Justification:* A conservative but reasonable rate for a large, established, globally diversified, but non-cyclical luxury/prestige company that recently experienced significant operational headwinds. It is higher than the historical average for stable consumer staples to account for higher perceived risk during the recovery period.
-*   **Maturity Rate (Terminal Growth Rate):** **2.5%**
-    *   *Justification:* This is a very conservative long-term growth rate, well below the historical global GDP growth rate, reflecting the conservative mandate and the mature nature of the company's markets.
+2.  **Net Present Value (NPV) Calculation:**
 
-#### B. NPV Calculation
+| Fiscal Year (N) | Cash Flow Proxy (CF) (USD Million) | Discount Factor (1 / (1 + 9.0%) ^ N) | Discounted Cash Flow (DCF) (USD Million) |
+| :--- | :--- | :--- | :--- |
+| **2026 (N=1)** | $723$ | 0.9174 | $663$ |
+| **2027 (N=2)** | $1,312$ | 0.8417 | $1,104$ |
+| **2028 (N=3)** | $1,761$ | 0.7722 | $1,360$ |
+| **2029 (N=4)** | $1,896$ | 0.7084 | $1,343$ |
+| **2030 (N=5)** | $1,991$ | 0.6499 | $1,294$ |
+| **Terminal Value (TV)** | $31,400$ | 0.6499 | $20,407$ |
+| **Total NPV (Sum of DCFs)** | | | **$26,171$** |
 
-| FY | Year | Total Net Income (M) | Discount Factor (9.0%) | NPV (M) |
-| :--- | :--- | :--- | :--- | :--- |
-| **2025** | 1 | \$1,227 | 0.9174 | \$1,126 |
-| **2026** | 2 | \$1,763 | 0.8417 | \$1,484 |
-| **2027** | 3 | \$1,779 | 0.7722 | \$1,374 |
-| **2028** | 4 | \$1,777 | 0.7084 | \$1,259 |
-| **2029** | 5 | \$1,842 | 0.6499 | \$1,197 |
-| **2030** | 6 | \$1,915 | 0.5963 | \$1,141 |
-| **Sum of Projected NPVs (2025-2030):** | | | | **\$7,581** |
+---
 
-#### C. Terminal Value Calculation
+## V. Fair Value Calculation and Justification
 
-Terminal Value (TV) is the value of all future cash flows beyond 2030.
+### A. Fair Value Summary
 
-*   $\mathbf{TV_{2030}} = \frac{Net Income_{2030} \times (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}$
-*   $\mathbf{TV_{2030}} = \frac{\$1,915M \times (1 + 0.025)}{0.09 - 0.025} = \frac{\$1,963.88M}{0.065} = \mathbf{\$30,214M}$
-
-*   $\mathbf{NPV\ of\ TV} = TV_{2030} \times \text{Discount Factor}_{2030}$
-*   $\mathbf{NPV\ of\ TV} = \$30,214M \times 0.5963 = \mathbf{\$18,016M}$
-
-#### D. Total Enterprise Value (Equity Value)
-
-*   $\mathbf{Total\ NPV\ (Equity\ Value)} = \text{Sum of Projected NPVs} + \text{NPV of Terminal Value}$
-*   $\mathbf{Total\ NPV} = \$7,581M + \$18,016M = \mathbf{\$25,597M}$
-
-### 5. Fair Value Per Share Calculation
-
-| Metric | Value (USD Millions) |
+| Metric | Value (USD Million) |
 | :--- | :--- |
-| **Total Equity Value (NPV)** | \$25,597 |
-| **(+) Total Cash & Cash Equivalents** | \$2,350 |
-| **(-) Total Debt** | \$7,517 |
-| **Total Fair Value of Common Equity** | $\mathbf{\$20,430}$ |
-| **Diluted Shares Outstanding (M)** | 360.8 |
-| **Fair Value Per Share** | $\frac{\$20,430M}{360.8M} = \mathbf{\$56.62}$ |
+| **Total NPV of Future Cash Flows** | $26,171$ |
+| **Add: Total Cash & Cash Equivalents** | $2,921$ |
+| **Subtract: Total Debt** | $7,317$ |
+| **Equity Value** | **$21,775$** |
+| **Shares Outstanding** | $359.89$ million |
+| **Fair Value Per Share** | **$60.51** |
 
----
+### B. Justification of Difference between Fair Value and Market Price
 
-## Conclusion and Justification
+*   **Calculated Fair Value:** **$60.51**
+*   **Current Market Price:** **$108.23**
 
-### Fair Value of The Estée Lauder Companies Inc. (EL) Stock: **\$56.62**
+The calculated fair value is significantly lower than the current market price (a discount of approximately 44%).
 
-**Current Market Value Comparison:** *Assuming the current market price (as of the context date, October 29, 2025) is approximately **\$95** (as hinted in the initial search results).*
+**Justification for the Valuation Gap:**
 
-### Justification for Difference
+The difference suggests the market is pricing in a **much more aggressive and rapid recovery** than the conservative assumptions used in this DCF model.
 
-The calculated fair value of **\$56.62** is significantly *lower* than the approximate current market price of **\$95**. This substantial difference suggests that the market is making much more optimistic assumptions about EL's future performance than the conservative model presented here.
-
-**Why the Market is More Optimistic (Market's Assumptions):**
-
-1.  **Faster and Stronger Recovery in Asia:** The market is likely pricing in a swift and V-shaped recovery in the high-margin Asia Travel Retail and Mainland China markets, which are the main engines for EL's premium skincare brands (La Mer, Estée Lauder). This means the market's assumed **Revenue Growth Rate** for FY2025 and FY2026 is likely in the *high single digits* to *low double digits*, rather than the conservative $1.5\%$ to $5.0\%$ used here.
-2.  **Higher Terminal Margin/Growth:** The market likely believes that the PRGP will lead to a sustained **Operating Margin well above $12\%$** (closer to its historical peak of $16\%$ to $18\%$) and a higher **Terminal Growth Rate** (closer to $3.0\%$ - $3.5\%$), believing that EL's prestige position shields it from long-term slowing growth.
-3.  **Higher ROIC / FCF Conversion:** The market may be assuming that FCFE (cash flow) is significantly higher than the Net Income proxy, perhaps due to a lower CapEx or better working capital management not fully captured by Net Income. It may also assume a much higher **ROIC** (closer to $15\% - 20\%$ to reflect its luxury brand equity) which would substantially increase the Net Income forecast.
-
-**Why the Conservative Valuation is Lower (Model's Assumptions):**
-
-1.  **Conservative Revenue Trajectory:** The model's $\mathbf{1.5\%}$ growth for FY2025 and stabilization at $4.0\%$ assumes that the weakness in China and Travel Retail is *structural* and *protracted*, and that competition from local players and other global brands will limit EL's ability to fully recapture past peak growth rates.
-2.  **Modest ROIC/Margin Recovery:** The model uses an $\mathbf{8.0\%}$ ROIC and a $\mathbf{12.0\%}$ long-term Operating Margin, which provides limited benefit from the "luxury" positioning compared to the high-teens margins it generated at its peak. This reflects the significant recent disruptions (inventory issues, geopolitical tension, China softness) as a persistent headwind.
-3.  **Conservative Discount Rate:** The $\mathbf{9.0\%}$ discount rate is a reasonable choice to account for the risk inherent in a turnaround story, effectively penalizing future cash flows more heavily than the market appears to be doing.
+1.  **Revenue Growth:** The market likely assumes a quick return to pre-headwind growth rates ($15.91 billion in FY2023). Our model uses a conservative 1% growth for FY2026, building to 5% by FY2028. The market is likely pricing a quicker acceleration, perhaps 8-10% growth immediately following FY2026, which would drastically increase the NPV.
+2.  **Margin Recovery:** Our model assumes a steady-state Net Income Margin of a conservative 10.0% by FY2028. Before the recent downturn, EL's operating margin was often in the high-teens. If the market believes the PRGP will successfully restore operating margins to **15-18%** quickly, or that the **Net Income Margin will reach 12-14%**, the resulting cash flows would be much higher. The Q2 FY2026 operating margin of 14.4% suggests our 10% Net Income Margin target might be too conservative, as Net Income is generally lower than Operating Income but higher than the 11.4% operating margin achieved in Q3 FY2025.
+3.  **Risk and Discount Rate:** Our Discount Rate of **9.0%** reflects a perception of moderate risk due to volatility in China and travel retail. The market, anticipating a successful turnaround driven by the PRGP, may be using a lower, more aggressive discount rate (e.g., 7.5% - 8.0%), reflecting a lower perceived risk for a blue-chip company. A 7.5% discount rate would increase the NPV significantly.
+4.  **ROIC Assumption:** Our ROIC assumption of 15% is conservative. EL's strong brand portfolio could reasonably command a higher long-term ROIC of **18-20%**, a key feature of a premium brand engine.
 
 **Conclusion:**
 
-The market is pricing EL as a high-growth, high-margin, blue-chip luxury stock on the cusp of a rapid turnaround. The conservative valuation of **\$56.62** suggests that if the PRGP falls short of the \$1.25 billion target, the recovery in China/Travel Retail is slow, or long-term growth merely normalizes at a modest pace, the stock is significantly **overvalued** at its current price. The gap represents the market's confidence in management's ability to execute a near-perfect operational and geographic recovery, which carries considerable execution risk.
+The market is making a clear assumption that **The Estée Lauder Companies' "Profit Recovery and Growth Plan" (PRGP) will be an unqualified success**, leading to a much faster return to high-teens operating margins and pre-headwind growth rates (5%+), likely starting in FY2027. My valuation is based on **conservative assumptions**, particularly on the pace of margin recovery and the long-term growth rate, which leads to a lower Fair Value. The $108.23 market price reflects a premium for this expected, high-speed, successful execution of the restructuring plan.
+
+---
+
+## Fair Value of Stock
+
+The fair value of The Estée Lauder Companies Inc. (EL) stock, based on a conservative Discounted Cash Flow (DCF) model, is:
+
+# $60.51 per share
