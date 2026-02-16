@@ -1,170 +1,154 @@
-The valuation of Universal Health Services, Inc. (UHS) stock will be conducted using a Discounted Cash Flow (DCF) methodology based on projected Net Income. The analysis uses information solely from Universal Health Services, Inc.'s SEC filings and earnings call commentary.
-
-All financial figures are in millions of U.S. Dollars, except for per-share data and percentages.
+This valuation of Universal Health Services, Inc. (UHS) utilizes a Discounted Cash Flow (DCF) approach based on conservative projections of the company's business engine, financial data from recent SEC filings, and management commentary.
 
 ---
 
-## I. Initial Financial Data (from SEC Filings)
+## Universal Health Services, Inc. (UHS) Stock Valuation
 
-The initial financial data is based on the most recent available SEC filing data, primarily the Form 10-Q for the quarter ended March 31, 2025 (Q1 2025) and earnings release figures for Q3 2025.
+### 1. Initial Financial Data (As of September 30, 2025)
 
-| Metric | Value (Millions USD) | Source |
+The following financial data is extracted from the most recent available quarterly reports (Q3 2025 Form 10-Q and associated earnings releases).
+
+| Metric | Value (USD) | Source/Justification |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** (Jun 30, 2025) | \$137.595 | Q2 2025 10-Q snippet |
-| **Current Portion of Long-Term Debt** (Mar 31, 2025) | \$40.410 | Q1 2025 10-Q |
-| **Long-Term Debt** (Non-current, Mar 31, 2025) | \$4,609.272 | Q1 2025 10-Q |
-| **Total Debt** (Mar 31, 2025) | \$4,649.682 | Sum of above |
-| **UHS Common Stockholders' Equity** (Mar 31, 2025) | \$6,785.604 | Q1 2025 10-Q |
-| **Shares Outstanding** (October 2025) | 64.356 | Companies Market Cap snippet (SEC-derived) |
-| **Current Stock Price** (Approx. Oct 2025) | \$219.32 | Seeking Alpha/Investing.com snippet |
+| **Total Cash & Cash Equivalents** | \$112.9 million | Based on latest Q3 2025 financial summaries, representing the most liquid assets. |
+| **Total Debt** | \$4.69 billion | Based on latest Q3 2025 financial summaries (Short-term debt + Long-term debt). |
+| **Shares Outstanding (Diluted)** | 64,000,000 | A conservative round-off from the reported $0.064$ billion for Q3 2025. |
+| **Last Twelve Months (LTM) Revenue (Est.)** | \$17.38 billion | LTM calculated as 9M 2025 Revenue (\$12.879B) + Q4 2024 Rev. (Est. \$4.5B) |
+| **LTM Net Income (Est.)** | \$1.27 billion | 9M 2025 Adjusted Net Income Attributable to UHS (\$1.03B) + Q4 2024 Adj. Net Income (Est. \$0.24B) |
+| **Current Stock Price (Feb 13, 2026)** | \$233.93 | Based on a recent closing price. |
 
 ---
 
-## II. Business Engine and Revenue Projections
+### 2. Business Engine Analysis and Revenue Forecast (2025-2030)
 
-Universal Health Services operates two primary segments: **Acute Care Hospitals** and **Behavioral Health Centers**. The business engine for revenue growth is driven by a combination of *volume* (admissions/patient days) and *price* (net revenue per adjusted admission/patient day).
+UHS's business engine is driven by two primary segments: **Acute Care Hospital Services** and **Behavioral Health Care Services**. Revenue growth is a function of:
+1.  **Volume Growth (Adjusted Patient Days/Admissions):** Driven by population growth, market share gains in existing facilities, and new facility openings/expansions.
+2.  **Pricing/Rate Increases (Net Revenue per Adjusted Admission):** Driven by contract negotiations with commercial payers, favorable payer mix, and government reimbursement rates (Medicare/Medicaid).
 
-### A. 2025 Revenue and Net Income Baseline
-
-The baseline for 2025 is derived directly from the company's full-year guidance, which management has stated as truth:
-*   **2025 Full-year Net Revenue Guidance (Midpoint):** \$17.3755 Billion
-*   **2025 Full-year Adjusted EPS Guidance (Midpoint):** \$21.80
-
-**2025 Projected Net Income Calculation:**
-*   Projected Net Income 2025 = Adjusted EPS Guidance $\times$ Shares Outstanding
-*   Projected Net Income 2025 = \$21.80/share $\times$ 64.356 million shares
-*   **Projected Net Income 2025 = \$1,403.95 million**
-
-### B. Revenue Engine & Growth Assumptions (2026-2030)
-
-Management commentary indicates strong pricing power (net revenue per adjusted day/admission) and modest volume growth, supplemented by new facility openings and outpatient expansion.
-
-| Segment | Driver | Growth Rate (2026-2030) | Justification |
+| Segment | Growth Driver | Q3 2025 Y/Y Performance | Forward-Looking Commentary |
 | :--- | :--- | :--- | :--- |
-| **Acute Care** | Net Revenue Growth | **3.0%** | This is a conservative moderation from the recent Q2 2025 same-facility net revenue growth of 7.2% and Q3 2025 Acute Same Facility Net Revenues of 12.8%, reflecting a long-term normalized growth rate below the recent surge, which included supplemental Medicaid payments. |
-| **Behavioral Health** | Net Revenue Growth | **6.5%** | This is the midpoint of the long-term $6\%-7\%$ revenue growth model (4%-5% price, 2.5%-3% volume) cited by management. [cite: 12 - from an earlier search] The Q3 2025 same-facility growth of 9.3% indicates current momentum supports this long-term rate. |
+| **Acute Care** | Volume & Pricing | Same facility net revenues increased by 12.8% Y/Y. Same facility adjusted admissions up 2%. | Expecting same facility-adjusted patient day growth of 2% to 3% near-term. Continued CapEx on new hospitals (e.g., Florida, California). |
+| **Behavioral Health** | Volume & Pricing | Same facility net revenues increased by 7.9% for the first nine months of 2025. Modest volume improvement. | Labor tightness improving steadily. Focus on new beds and facility expansions. |
 
-**Segment Weighting (from 2024 Revenue for reference):** The segments are roughly 50/50 in total revenue. I will use a simplified blended growth rate for total revenue, recognizing the strong growth from the more stable Behavioral segment.
+**Revenue Growth Assumptions (Conservative Engine Model):**
 
-**Conservative Blended Revenue Growth Rate:**
-I will assume an average compounded annual growth rate (CAGR) that is conservatively low, factoring in the tailwind from behavioral health and a slight slowdown in acute care as supplemental payments normalize.
-*   **Conservative Blended Growth Rate for 2026-2030:** **5.0%** (This is a conservative estimate given the strong Q3 2025 consolidated revenue growth of 13.4%).
+The high growth rates in 2025 reflect post-pandemic normalization, strong pricing, and supplemental payments. A conservative model should project a deceleration to a more sustainable long-term growth rate.
 
-| Year | Projected Revenue (in millions) | Calculation |
-| :--- | :--- | :--- |
-| **2025 (Baseline)** | **\$17,375.5** | Management Midpoint |
-| **2026** | \$18,244.275 | \$17,375.5 $\times$ 1.050 |
-| **2027** | \$19,156.489 | \$18,244.275 $\times$ 1.050 |
-| **2028** | \$20,114.313 | \$19,156.489 $\times$ 1.050 |
-| **2029** | \$21,120.029 | \$20,114.313 $\times$ 1.050 |
-| **2030** | \$22,176.030 | \$21,120.029 $\times$ 1.050 |
+*   **2025 (Full Year):** Assume LTM Revenue of \$17.38B represents a high watermark due to the one-time impact of supplemental payments and strong post-COVID recovery. A full year revenue of **\$17.20 Billion** is projected (approximately 10.1% Y/Y growth from FY2024 est.).
+*   **2026-2027 (Near-Term Growth):** Assume volume growth of **2.5%** (mid-range of management guidance) and pricing/payer mix/new facility contribution of **3.5%**, for a total annual revenue growth of **6.0%**. This reflects continued strength in Behavioral Health and steady Acute Care expansion.
+*   **2028-2030 (Mid-Term Growth):** Assume growth decelerates as the labor market stabilizes and new facility growth moderates. Annual revenue growth is conservatively set at **5.0%**.
+
+**Revenue Projections (in Billions USD)**
+
+| Year | Revenue (Billions USD) | Growth Rate | Justification |
+| :--- | :--- | :--- | :--- |
+| **2025** | \$17.20 | 10.1% (Est.) | Based on 9M 2025 reported revenue and Q4 estimate. |
+| **2026** | \$18.23 | 6.0% | Volume (2.5%) + Pricing/Expansion (3.5%). |
+| **2027** | \$19.32 | 6.0% | Continuation of near-term tailwinds. |
+| **2028** | \$20.29 | 5.0% | Conservative moderation as market normalizes. |
+| **2029** | \$21.31 | 5.0% | Consistent mid-term growth. |
+| **2030** | \$22.38 | 5.0% | Steady-state industry growth. |
 
 ---
 
-## III. Margin and Net Income Projections
+### 3. Margin & Net Income Projections
 
-### A. Net Income Margin Assumption
+UHS's profitability has improved significantly. The Q3 2025 adjusted net income margin was approximately 8.04% (\$362.3M net income on \$4.5B revenue). The LTM Net Margin (using estimated LTM figures) is approximately $7.3\%$.
 
-*   **Historical Net Income Attributable to UHS Margin:** Based on the nine months ended September 30, 2025, the reported net income was \$1,043 million on \$12,879 million in revenue, for an 8.10% margin.
-*   **Conservative Margin Assumption (2026-2030):** I will conservatively assume a **7.50%** Net Income Margin (Net Income Attributable to UHS as a % of Revenue). This is a slight haircut to the 2025 YTD margin, reflecting potential pressure on wages (labor tightness is noted in management commentary) and government reimbursement, even though management is guiding for strong 2025 results.
+**Net Income Margin Assumption:**
+The valuation assumes that cost pressures (primarily labor) will continue to moderate (as per management commentary), but a conservative long-term margin is necessary. A Net Income Margin of **7.5%** is used for all projected years, reflecting a slight improvement over the LTM but remaining conservative against the recent high-performance quarter (Q3 2025).
 
-### B. ROIC and Net Income Reinvestment
+**Net Income Projections (in Billions USD)**
 
-*   **Historical ROIC Calculation (using 2024 Year-End and 2025 Q1 Data):**
-    *   NOPAT (2024 Est. TTM) $\approx$ Net Income Attributable to UHS (LTM Q1 2025) / (1 - Tax Rate) $\times$ (1 - Tax Rate) $\approx$ \$1,281M (Calculated from a non-cited 2024 10-K Net Income).
-    *   Invested Capital (IC) (Mar 31, 2025) = Total Debt (\$4,649.682M) + Total Equity (\$6,785.604M) = \$11,435.286M.
-    *   ROIC $\approx$ 11.20% (from a non-cited historical data source for consistency).
-*   **Conservative ROIC for Projections:** I will use a conservative, stable ROIC of **10.0%** for new investments, reflecting management's focus on new, EBITDA-positive facilities and share buybacks (which is a return of capital).
+| Year | Revenue (Billions USD) | Net Income Margin | Operating Net Income (A) (Billions USD) |
+| :--- | :--- | :--- | :--- |
+| **2025** | \$17.20 | 7.5% | \$1.290 |
+| **2026** | \$18.23 | 7.5% | \$1.367 |
+| **2027** | \$19.32 | 7.5% | \$1.449 |
+| **2028** | \$20.29 | 7.5% | \$1.522 |
+| **2029** | \$21.31 | 7.5% | \$1.598 |
+| **2030** | \$22.38 | 7.5% | \$1.678 |
 
-**Net Income Projection Table (in millions USD):**
+---
 
-| Year | Revenue (A) | Net Income (B) (A $\times$ 7.50%) | ROIC Income (C) (B $\times$ 10.0%) | Adjusted Net Income (B+C) |
+### 4. Return on Invested Capital (ROIC) and Total Net Income
+
+**ROIC Assumption:**
+The instruction requires an ROIC-based additional income calculation. UHS has historically demonstrated an ability to generate returns on its capital. Given the projected positive net income, a conservative but reasonable ROIC of **10.0%** is applied to the prior year's Net Income (cash) to model additional income generated from reinvested profits.
+
+*   **2025 Starting Cash (from 2024/LTM Net Income):** \$1.27 billion (LTM Est.)
+
+| Year | Operating Net Income (A) (Billions USD) | Start-of-Year Cash (B) (Billions USD) | ROIC Additional Income (B * 10%) (C) (Billions USD) | Total Net Income (A+C) (Billions USD) |
 | :--- | :--- | :--- | :--- | :--- |
-| **2025 (Baseline)** | \$17,375.500 | \$1,403.950 *(\text{from EPS})* | - | **\$1,403.950** |
-| **2026** | \$18,244.275 | \$1,368.321 | \$140.395 | **\$1,508.716** |
-| **2027** | \$19,156.489 | \$1,436.737 | \$150.872 | **\$1,587.609** |
-| **2028** | \$20,114.313 | \$1,508.574 | \$158.761 | **\$1,667.335** |
-| **2029** | \$21,120.029 | \$1,583.999 | \$166.734 | **\$1,750.733** |
-| **2030** | \$22,176.030 | \$1,663.202 | \$175.073 | **\$1,838.275** |
-
-*Note: For 2026-2030, Net Income (B) is calculated as Revenue (A) $\times$ 7.50%. ROIC Income (C) is calculated as the previous year's Adjusted Net Income $\times$ 10.0\%. The 2025 baseline Net Income is from the management's EPS guidance and is used for the 2026 ROIC calculation.*
+| **2025** | \$1.290 | \$1.270 | \$0.127 | **\$1.417** |
+| **2026** | \$1.367 | \$1.417 | \$0.142 | **\$1.509** |
+| **2027** | \$1.449 | \$1.509 | \$0.151 | **\$1.600** |
+| **2028** | \$1.522 | \$1.600 | \$0.160 | **\$1.682** |
+| **2029** | \$1.598 | \$1.682 | \$0.168 | **\$1.766** |
+| **2030** | \$1.678 | \$1.766 | \$0.177 | **\$1.855** |
 
 ---
 
-## IV. Discounted Cash Flow (DCF) Valuation
+### 5. Discounted Cash Flow (DCF) Analysis
 
-### A. Terminal Value and Discount Rate Assumptions
+The Total Net Income for each year is treated as the projected free cash flow to the firm.
 
-*   **Conservative Maturity Rate (g):** **2.0%**. This reflects the long-term expected rate of inflation and real GDP growth, suitable for a large, established healthcare provider.
-*   **Conservative Discount Rate (r):** **8.5%**. This reflects a reasonable cost of equity/capital for a company in the stable, though regulatory-influenced, healthcare sector. It is conservative as it is higher than the long-term average equity returns, providing a margin of safety.
+*   **Discount Rate (WACC Proxy):** A conservative but reasonable discount rate of **9.0%** is used. This is a high rate for a stable healthcare company but reflects current higher interest rate environments and general market risk.
+*   **Terminal Growth Rate (Conservative Maturity Rate):** A conservative long-term growth rate of **2.0%** is applied after 2030, reflecting long-term US healthcare spending growth and inflation.
 
-### B. Net Present Value (NPV) Calculation
+**Terminal Value (TV) Calculation (End of 2030):**
+*   TV = [2030 Total Net Income \* (1 + Terminal Growth Rate)] / (Discount Rate - Terminal Growth Rate)
+*   TV = [\$1.855B \* (1 + 0.02)] / (0.09 - 0.02)
+*   TV = \$1.8921B / 0.07 = **\$27.030 Billion**
 
-The *Adjusted Net Income* (which assumes all net income is available to shareholders and is equivalent to Free Cash Flow to Equity (FCFE) for this model) is discounted back to the present.
+**Net Present Value (NPV) Calculation**
 
-| Year | Adjusted Net Income (in millions) (A) | Discount Factor (r=8.5%) (B) | Net Present Value (NPV) (A $\times$ B) |
+| Year (t) | Total Net Income (FCF) (Billions USD) | Discount Factor (1 / (1 + 0.09) ^ t) | Net Present Value (Billions USD) |
 | :--- | :--- | :--- | :--- |
-| **2026** | \$1,508.716 | 0.9217 | \$1,389.987 |
-| **2027** | \$1,587.609 | 0.8495 | \$1,348.601 |
-| **2028** | \$1,667.335 | 0.7830 | \$1,305.011 |
-| **2029** | \$1,750.733 | 0.7217 | \$1,263.350 |
-| **2030** | \$1,838.275 | 0.6652 | \$1,223.473 |
-| **Sum of Projected NPVs (2026-2030)** | | | **\$6,530.422** |
-
-### C. Terminal Value
-
-The cash flow in 2030 is assumed to grow perpetually at the conservative maturity rate (g) of 2.0%.
-
-*   **Terminal Value (TV)** = (Cash Flow 2030 $\times$ (1 + g)) / (r - g)
-*   TV = (\$1,838.275M $\times$ 1.020) / (0.085 - 0.020)
-*   TV = \$1,874.0415M / 0.065
-*   TV = \$28,831.408 million
-
-*   **NPV of Terminal Value** = Terminal Value $\times$ Discount Factor 2030
-*   NPV of TV = \$28,831.408M $\times$ 0.6652
-*   **NPV of Terminal Value = \$19,195.960 million**
-
-### D. Total Equity Value
-
-*   **Total Equity Value** = Sum of Projected NPVs + NPV of Terminal Value
-*   Total Equity Value = \$6,530.422 million + \$19,195.960 million
-*   **Total Equity Value = \$25,726.382 million**
+| **2025 (t=1)** | \$1.417 | 0.9174 | \$1.300 |
+| **2026 (t=2)** | \$1.509 | 0.8417 | \$1.270 |
+| **2027 (t=3)** | \$1.600 | 0.7722 | \$1.236 |
+| **2028 (t=4)** | \$1.682 | 0.7084 | \$1.192 |
+| **2029 (t=5)** | \$1.766 | 0.6499 | \$1.148 |
+| **2030 (t=6)** | \$1.855 | 0.5963 | \$1.107 |
+| **Terminal Value (2030)** | \$27.030 | 0.5963 | \$16.110 |
+| **NPV of Future Cash Flows** | | | **\$23.363 Billion** |
 
 ---
 
-## V. Fair Value Calculation and Justification
+### 6. Fair Value Calculation
 
-### A. Final Fair Value Calculation
+The Fair Value of the stock is calculated using the following formula:
 
-| Metric | Value (Millions USD) |
+**Fair Value = (NPV of Future Cash Flows + Total Cash & Equivalents - Total Debt) / Shares Outstanding**
+
+| Metric | Value (USD) |
 | :--- | :--- |
-| **Total Equity Value** | \$25,726.382 |
-| **PLUS: Total Cash & Equivalents** | \$137.595 |
-| **MINUS: Total Debt** | \$4,649.682 |
-| **Total Fair Value of Equity** | **\$21,214.295** |
-| **Shares Outstanding (in millions)** | 64.356 |
-| **Fair Value Per Share** | **\$329.65** |
+| NPV of Future Cash Flows (A) | \$23.363 Billion |
+| Total Cash & Cash Equivalents (B) | \$0.113 Billion |
+| Total Debt (C) | \$4.690 Billion |
+| Net Equity Value (A + B - C) | **\$18.786 Billion** |
+| Shares Outstanding (D) | 64,000,000 |
+| **Fair Value Per Share (Net Equity / D)** | **\$293.53** |
 
-### B. Justification and Market Comparison
+---
 
-| Metric | Valuation Result | Current Market Value (Approx. Oct 2025) | Difference |
-| :--- | :--- | :--- | :--- |
-| **Fair Value Per Share** | **\$329.65** | **\$219.32** | **+50.3%** |
+### 7. Justification and Conclusion
 
-The calculated Fair Value of **\$329.65** is **50.3% higher** than the current market price of approximately \$219.32.
+#### Final Valuation Result:
 
-**Justification for the Discrepancy (Market's Assumptions):**
+The intrinsic fair value of Universal Health Services, Inc. (UHS) stock is calculated to be **\$293.53 per share**.
 
-The market is making significantly more conservative assumptions about Universal Health Services' future growth and/or profitability than this model. The large difference can be primarily attributed to three market concerns which translate into lower implied assumptions:
+#### Justification for Discrepancy with Market Price:
 
-1.  **Lower Long-Term Growth Rate ($g$):** The market is likely pricing in a substantially lower long-term growth rate than the assumed 2.0%. This model's *implied* long-term growth rate, holding all other assumptions constant, would need to be around **-0.1%** to justify the current stock price, which is extremely pessimistic for a company with a strong position in a growing sector like healthcare. This suggests the market is expecting a permanent decline in the business's real earnings.
-2.  **Higher Discount Rate ($r$):** The market perceives a much higher risk (higher discount rate) due to the company's reliance on government programs (Medicare/Medicaid/Supplemental Payments) which are subject to political and regulatory risk.
-3.  **Lower Sustainable Margins:** The market likely believes that the recent labor cost tightness and the non-recurring nature of certain supplemental Medicaid payments recognized in 2025 (like the \$90 million DC supplemental program recognized in Q3 2025) make the projected 7.50% net income margin unsustainable. The market may be assuming margins revert to a lower, more historical mean, especially if the company struggles to fully pass on inflationary labor costs.
+*   **Fair Value:** \$293.53
+*   **Current Market Price:** \$233.93
+*   **Difference:** $25.5\%$ higher than the market price.
 
-**Conclusion:**
+The calculated Fair Value is significantly higher than the current market price, suggesting the stock is undervalued based on the model's assumptions. The difference can be justified by the market making more conservative assumptions about one or more of the following key inputs:
 
-The valuation suggests that Universal Health Services is significantly undervalued at its current market price. The market appears overly cautious about regulatory/reimbursement risk and labor cost pressures, discounting the solid, above-inflation growth in net revenue per adjusted patient day/admission in both segments and management's aggressive share buyback authorization, which signals internal confidence. The valuation represents a conservative, long-term case for continued health in the business engine.
+1.  **Revenue Growth De-rating:** The market may be assuming a faster and deeper deceleration in revenue growth than the projected **6.0% (2026-2027)** and **5.0% (2028-2030)**. Investors may view the strong Q3 2025 growth as unsustainable, particularly due to the temporary nature of some supplemental Medicaid payments.
+2.  **Margin Pressure:** The market may believe that the structural labor challenges, while improving, will keep margins compressed below the conservative **7.5%** net income margin used in this model. Persistent inflation in clinical staff wages is a major industry concern that could prevent a full margin recovery.
+3.  **Discount Rate/Risk Premium:** The market's assumed cost of capital (Discount Rate) for UHS might be higher than the **9.0%** used here, reflecting higher perceived regulatory risk, reimbursement risk (especially with government programs), or a greater uncertainty around future capital deployment (CapEx efficiency). A higher discount rate (e.g., 10.0%) would significantly lower the NPV and Fair Value.
 
-### Final Fair Value
-
-The calculated **Fair Value Per Share of Universal Health Services, Inc. (UHS)** is **\$329.65**.
+**Conclusion:** Our conservative business engine model, backed by management's commentary on volume and pricing strength in Acute Care and Behavioral Health, and a long-term **7.5%** net margin, suggests a significant upside to the current stock price. The market appears to be excessively discounting UHS's future earnings power, likely due to a conservative outlook on long-term margin stability and sustained high single-digit revenue growth.
