@@ -1,148 +1,132 @@
-This valuation of Ashland Inc. (ASH) stock uses a Discounted Cash Flow (DCF) methodology based strictly on data from SEC filings and management commentary found in earnings call transcripts.
+This valuation of Ashland Inc. (ASH) stock is based on a Discounted Cash Flow (DCF) model, utilizing financial data from the most recent SEC filings and forward-looking business guidance from the last four earnings call transcripts.
 
-## Ashland Inc. (ASH) Stock Valuation
+All figures are in millions of U.S. Dollars (USD), except for percentages and per-share values.
 
-### 1. Current Financial Snapshot
+---
 
-The following key financial figures are based on the most recent available SEC filing data (Fiscal Year 2025 Q1 10-Q summary) and other reported metrics, strictly adhering to the instruction to use SEC filings for balance sheet items.
+## 1. Current Financial Snapshot and Key Data
+
+The most recent available financial data is based on the Fiscal Year 2025 (FY2025) Annual Report and the Q1 Fiscal Year 2026 (Q1 FY2026) Quarterly Report.
 
 | Metric | Value (USD Millions) | Source/Basis |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | $219 million | Q1 FY2025 10-Q Summary, ending Jan 29, 2025 |
-| **Total Debt** | $1,313 million | Q1 FY2025 10-Q Summary, ending Jan 29, 2025 |
-| **Shares Outstanding** | 50.13 million | Q2 FY2024 10-Q, as of March 31, 2024 |
-| **Current Stock Price** | $50.71 | As of October 2025 |
+| **Total Cash & Cash Equivalents** | **\$304** | Based on Q1 FY2026 filing summaries. |
+| **Total Debt (Long-Term)** | **\$1,387** | Based on Q1 FY2026 long-term debt summary. |
+| **Shares Outstanding** | **46 million** | Based on recent company data. |
+| **Current Stock Price (Implied)** | **\$60.65** | Calculated from Market Cap (\$2,790M) / Shares (46M). |
+| **Historical Net Income (FY2025)** | -\$845 | Primarily due to a non-cash goodwill impairment charge. |
+| **Historical Adjusted EBITDA (FY2025)** | \$401 | On Revenue of \$1,824M (22.0% margin). |
+| **Historical ROIC (LTM)** | 5.22% | Return on Invested Capital (LTM: Last Twelve Months). |
 
-### 2. Business Engine and Revenue Forecast (2025-2030)
+---
 
-Ashland's business model is centered on being a global additives and specialty ingredients company, with a strategic focus on high-value, consumer-focused markets: **Life Sciences (Pharmaceuticals), Personal Care,** and **Specialty Additives**. The core of the business engine is:
+## 2. Business Engine and Conservative Future Assumptions
 
-1.  **Portfolio Optimization:** Divesting low-margin, non-core businesses (e.g., CMC, Nutraceuticals, Avoca) to create a "clean, focused platform for growth".
-2.  **Strategic Innovation:** Driving growth through new product launches, particularly in pharmaceutical cellulosics (Viatel bioresorbable polymers) and biofunctionals, which command high margins.
-3.  **Cost Management:** A multi-year $90 million restructuring and manufacturing optimization program is underway, with a significant P&L benefit expected to phase in over FY2025 and FY2026.
+Ashland's business engine is driven by its strategic shift to a high-value, high-margin specialty chemicals portfolio, primarily centered on three segments: **Life Sciences**, **Personal Care**, and **Specialty Additives**. The company has completed its portfolio optimization (divestitures like Avoca) to focus on these more resilient end-markets, which management expects to drive future profitable growth.
 
-**Revenue Projections Justification:**
+The valuation utilizes a conservative growth model based on this strategic focus and management's guidance.
 
-*   **FY 2025 (Initial Guidance):** Management narrowed its full-year fiscal 2025 sales guidance to a range of **$1.825 billion to $1.850 billion**.
-    *   **Assumption:** We use the conservative midpoint of **$1.8375 billion**.
-*   **FY 2026 - FY 2030 (Long-Term Growth):** Management's long-term financial aspiration for the "core business" is an approximate **5% sales CAGR**. This is a conservative yet reasonable assumption, given the focus on high-growth, high-margin end markets (pharma and personal care) which showed resilience or growth even in soft demand environments (e.g., Personal Care sales growth, Life Sciences pharma growth).
-    *   **Assumption:** We use the management-guided **5.0% CAGR** for all years from 2026 through 2030.
+### A. Revenue Growth Assumptions (2026-2030)
 
-| Year | Revenue (USD Millions) | Basis/Justification |
-| :--- | :--- | :--- |
-| **2025** | $1,837.5 | Midpoint of Management's Narrowed FY 2025 Guidance ($1.825B - $1.850B). |
-| **2026** | $1,929.4 | 5.0% CAGR (Management's long-term target) |
-| **2027** | $2,025.9 | 5.0% CAGR |
-| **2028** | $2,127.2 | 5.0% CAGR |
-| **2029** | $2,233.5 | 5.0% CAGR |
-| **2030** | $2,345.2 | 5.0% CAGR |
+Management guided for full-year fiscal 2026 Sales of \$1.835 billion to \$1.905 billion, representing organic growth of approximately 1% to 5% over the prior year. This low-to-mid single-digit growth aligns with a specialty ingredient company operating in a mixed demand environment.
 
-### 3. Net Income and ROIC Projections (2025-2030)
+The long-term growth assumption reflects an acceleration as the company's innovation platforms (injectables, high-value excipients) and cost optimization programs fully mature.
 
-The valuation will use a Net Income forecast, with annual income adding to the cash balance which is then subject to an additional Return on Invested Capital (ROIC).
-
-**Net Income Margin Justification:**
-
-Ashland's strategy is explicitly aimed at driving sustainable margin improvement through cost savings and portfolio mix.
-
-*   **Target Adjusted EBITDA Margin:** Management's long-term aspiration is for an Adjusted EBITDA margin **over 25%**. Q3 2025 Adjusted EBITDA margin was already **24.4%**, with the high-margin Life Sciences segment achieving 33%.
-*   **Cost Savings:** The restructuring program is expected to yield approximately **$90 million** in savings by FY 2027.
-
-| Year | Net Income Margin | Rationale |
-| :--- | :--- | :--- |
-| **2025** | 6.0% | Conservative projection based on historical performance and management's cost savings ($20M in FY25) starting to flow through. Historical TTM Net Margin was highly negative due to a non-cash goodwill impairment, so a normalized positive margin is necessary for future profitability. |
-| **2026** | 7.0% | Reflects the full impact of FY2025 savings, $12M in carryover benefits for FY26, and continued operational discipline, moving toward the 25%+ EBITDA target. |
-| **2027-2030** | 8.0% | Represents a conservative long-term stabilized Net Income Margin, significantly below its 25%+ Adjusted EBITDA target, to reflect the full amortization, depreciation, and tax burden that is not captured in EBITDA, even after the full $90M in savings is realized by FY27.
-
-**ROIC Assumption Justification:**
-
-The Trailing Twelve Month (TTM) ROIC has been reported at **2.38%** [cite: 2 (from step 2)]. Given the management's focus on high-value products and improved profitability, a slightly more optimistic but still conservative ROIC is warranted for future income on accumulated cash flows.
-
-*   **Assumption:** A conservative **3.0% ROIC** is used, reflecting the new focused, high-margin portfolio strategy.
-
-**Net Income Projection Table (USD Millions):**
-
-| Year | Revenue | Net Income Margin | Net Income (A) | ROIC on Prior NI\* (B) | Total Net Income (A+B) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **2025** | $1,837.5 | 6.0% | $110.3 | $0.0 | $110.3 |
-| **2026** | $1,929.4 | 7.0% | $135.1 | $3.3 | $138.4 |
-| **2027** | $2,025.9 | 8.0% | $162.1 | $7.4 | $169.5 |
-| **2028** | $2,127.2 | 8.0% | $170.2 | $12.5 | $182.7 |
-| **2029** | $2,233.5 | 8.0% | $178.7 | $18.0 | $196.7 |
-| **2030** | $2,345.2 | 8.0% | $187.6 | $24.0 | $211.6 |
-
-*   *ROIC on Prior NI Calculation: Net Income from prior year (cash) * 3.0% ROIC. For 2026: ($110.3 * 3.0%) = $3.3. For 2027: ($110.3 + $138.4) * 3.0% = $7.4, etc.*
-
-### 4. Discounted Cash Flow (DCF) Valuation
-
-**Discount Rate and Terminal Growth Rate Justification:**
-
-*   **Discount Rate (WACC proxy):** A **10.0%** discount rate is assumed. This is a reasonable and conservative rate for a specialty chemicals company undergoing restructuring and facing current volume headwinds, reflecting the cost of equity and debt.
-*   **Maturity Rate (Terminal Growth Rate):** A very conservative long-term growth rate of **2.0%** is used. This is well below the long-term sales CAGR target of 5% and represents the expected long-term inflation and GDP growth rate, aligning with the "very conservative maturity rate" instruction.
-
-**Net Present Value (NPV) Calculation (USD Millions):**
-
-The Net Cash Flow (NCF) is assumed to be equal to the Total Net Income (as per instruction).
-
-| Year | NCF (USD Millions) | Discount Factor (10.0%) | Net Present Value (NPV) |
+| Year | Basis / Rationale | Revenue Growth % | Projected Revenue (USD Millions) |
 | :--- | :--- | :--- | :--- |
-| **2025** | $110.3 | 0.909 | $100.27 |
-| **2026** | $138.4 | 0.826 | $114.33 |
-| **2027** | $169.5 | 0.751 | $127.20 |
-| **2028** | $182.7 | 0.683 | $124.78 |
-| **2029** | $196.7 | 0.621 | $122.15 |
-| **2030** | $211.6 | 0.564 | $119.33 |
-| **Sum of Projected NPVs (2025-2030):** | | | **$708.06** |
+| **FY2025 (Base)** | Actual Sales | - | \$1,824 |
+| **FY2026** | Midpoint of management guidance (\$1.87B, 2.5% organic growth). | 2.5% | \$1,870 |
+| **FY2027** | Slight acceleration as market headwinds ease and cost/optimization savings flow through. | 3.5% | \$1,936 |
+| **FY2028** | Further acceleration toward long-term potential as Life Sciences continues to be the primary engine. | 4.5% | \$2,023 |
+| **FY2029** | Stable, conservative growth rate for a mature specialty chemical company. | 4.5% | \$2,114 |
+| **FY2030** | Stable, conservative growth rate. | 4.5% | \$2,209 |
 
-**Terminal Value (TV) Calculation:**
+### B. Net Income Margin Assumptions
 
-*   **2030 NCF:** $211.6 million
-*   **Terminal Value:** (2030 NCF \* (1 + Growth Rate)) / (Discount Rate - Growth Rate)
-*   TV = ($211.6 \* (1 + 0.02)) / (0.10 - 0.02) = $215.83 / 0.08 = **$2,697.88 million**
+For FY2026, management narrowed Adjusted EBITDA guidance to \$400-\$420 million. The underlying business is focused on high margins (Life Sciences EBITDA margin is over 30%). The company is targeting significant cost savings (\$30M restructuring and \$60M manufacturing optimization).
 
-**Terminal Value NPV:**
+We use a projected Net Income Margin that starts conservatively and expands modestly, reflecting the completion of restructuring and realization of long-term benefits from a higher-margin product mix.
 
-*   **TV NPV:** Terminal Value / (1 + Discount Rate)^(Terminal Year)
-*   TV NPV = $2,697.88 / (1.10)^(6) = **$1,523.00 million**
+| Year | Rationale | Net Income Margin % |
+| :--- | :--- | :--- |
+| **FY2026** | Conservative net income on guided revenue; reflects continued D&A, interest, and taxes below the 22% FY2025 Adjusted EBITDA margin. | 6.0% |
+| **FY2027** | Initial realization of cost savings and improved mix. | 6.5% |
+| **FY2028** | Further margin expansion from 'globalize' initiatives. | 7.0% |
+| **FY2029** | Approaching long-term, focused portfolio margin. | 7.5% |
+| **FY2030** | Conservative long-term margin (Note: This is far below the Life Sciences margin of >30%, aligning with the "conservative" rule). | 8.0% |
 
-**Total Equity Value (TEV):**
+### C. ROIC, Discount Rate, and Terminal Rate Assumptions
 
-*   TEV = Sum of Projected NPVs + TV NPV
-*   TEV = $708.06 million + $1,523.00 million = **$2,231.06 million**
+*   **Return on Invested Capital (ROIC):** Historical ROIC is 5.22%. We use a conservative $\text{ROIC}$ of **4.5%** for calculating additional income from reinvestment of prior year's cash (Net Income).
+*   **Discount Rate (WACC):** We use a conservative (higher) Discount Rate of **7.5%** to account for business cyclicality and the near-term operational challenges (e.g., Calvert City delay).
+*   **Terminal Growth Rate ($g$):** A conservative long-term maturity rate for a specialty chemical company that is expected to grow slightly above the long-term GDP growth rate. We use **2.0%**.
 
-### 5. Fair Value Per Share Calculation
+---
+
+## 3. Discounted Cash Flow (DCF) Calculation
+
+The user-defined cash flow for the DCF model is calculated as:
+$\text{Net Income (t) = Projected Net Income (t) + ROIC * Net Income (t-1)}$
+
+For the first year (FY2026), $\text{Net Income (t-1)}$ will be set to $\text{Net Income (FY2025) of \$0}$ to eliminate the impact of the non-cash loss and apply the "if past ROIC is negative... just get a conservative but reasonable positive ROIC" rule to the first projected positive year.
+
+| Year (t) | Projected Revenue | Net Income Margin | Projected Net Income (A) | ROIC Income (B) (4.5% * NI t-1) | Total Net Income (A+B) | Discount Factor (7.5%) | Net Present Value (NPV) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2026** | \$1,870 | 6.0% | \$112.2 | \$0.0 | \$112.2 | 0.930 | \$104.4 |
+| **2027** | \$1,936 | 6.5% | \$125.8 | \$5.0 | \$130.8 | 0.865 | \$113.1 |
+| **2028** | \$2,023 | 7.0% | \$141.6 | \$5.9 | \$147.5 | 0.805 | \$118.8 |
+| **2029** | \$2,114 | 7.5% | \$158.5 | \$6.6 | \$165.1 | 0.749 | \$123.7 |
+| **2030** | \$2,209 | 8.0% | \$176.7 | \$7.4 | \$184.1 | 0.697 | \$128.4 |
+| | | | | | | **Sum of NPV (2026-2030)** | **\$588.4** |
+
+### D. Terminal Value Calculation
+
+The Terminal Value (TV) is the value of the company's cash flows beyond the projection period (2030).
+
+Formula: $\text{Terminal Value} = \text{Cash Flow}_{\text{2030}} * (1 + g) / (WACC - g)$
+
+$\text{Terminal Value} = \$184.1 * (1 + 0.02) / (0.075 - 0.02) = \$184.1 * 1.02 / 0.055 = \$3,412.0$ million
+
+**Net Present Value of Terminal Value (NPV TV):**
+
+$\text{NPV TV} = \text{Terminal Value} * \text{Discount Factor}_{\text{2030}} = \$3,412.0 * 0.697 = \$2,379.7$ million
+
+### E. Total Enterprise Value (EV)
+
+$\text{Total Enterprise Value} = \text{Sum of NPV (2026-2030)} + \text{NPV of Terminal Value}$
+$\text{Total Enterprise Value} = \$588.4 + \$2,379.7 = \$2,968.1$ million
+
+---
+
+## 4. Fair Value Calculation
 
 | Metric | Value (USD Millions) |
 | :--- | :--- |
-| **Total Equity Value (TEV)** | $2,231.06 |
-| **Add: Total Cash & Cash Equivalents** | $219.0 |
-| **Less: Total Debt** | $1,313.0 |
-| **Calculated Fair Market Value (FMV) of Equity** | **$1,137.06 million** |
-| **Shares Outstanding** | 50.13 million |
-| **Fair Value Per Share** (FMV / Shares Outstanding) | **$22.68** |
+| Total Enterprise Value | \$2,968.1 |
+| Plus: Total Cash & Cash Equivalents | \$304.0 |
+| Less: Total Debt | \$1,387.0 |
+| **Fair Value of Equity** | **\$1,885.1** |
+| Shares Outstanding | 46.0 million |
+| **Fair Value Per Share** | **\$40.98** |
 
-***
+---
 
-## Final Valuation and Market Comparison
+## 5. Justification and Market Comparison
 
-**Fair Value Per Share: $22.68**
-**Current Stock Price: $50.71**
+### Fair Value of Ashland Inc. (ASH) Stock
 
-### Justification for Discrepancy
+**Fair Value Per Share:** **\$40.98**
 
-My conservative DCF valuation suggests a **Fair Value of $22.68 per share**, which is significantly lower than the current market price of **$50.71**.
+**Current Stock Price (Implied):** **\$60.65**
 
-The market is making assumptions that are significantly more aggressive than the conservative model built on management's explicitly stated long-term targets:
+### Justification of Discrepancy
 
-1.  **Market Assumes Higher Long-Term Growth (Higher Terminal Value):**
-    *   **My Assumption:** 5.0% sales CAGR for the forecast period, and a very conservative 2.0% terminal growth rate.
-    *   **Market's Likely Assumption:** For the stock price to be $50.71, the market is likely discounting a future cash flow stream that assumes a *much higher* perpetual growth rate, possibly in the range of **3.5% - 4.0%** (closer to its stated 5% CAGR target). This assumes the company will successfully transition to a high-growth "specialty chemicals" pure-play and maintain a growth rate well above GDP for decades.
-2.  **Market Assumes Faster and Higher Margin Expansion:**
-    *   **My Assumption:** A gradual increase to an 8.0% Net Income Margin by 2027.
-    *   **Market's Likely Assumption:** The market is likely pricing in a swift conversion of the 25%+ Adjusted EBITDA target into a much higher Net Income Margin, perhaps **10% to 12%** or more, starting much sooner than 2027. This reflects high confidence in the full realization of the $90 million in cost savings and the high-margin profile of the pharmaceutical segment (Life Sciences' 33% EBITDA margin).
-3.  **Market Assumes Successful Execution of Strategic Transformation:**
-    *   The market is taking management's commentary about the "clean, focused platform for growth" and "advancing new technology platforms" as truth, assigning a premium for a high-quality specialty portfolio. My valuation is cautious, reflecting the current sales decline and the non-cash goodwill impairment charges which signal recent struggles in achieving book value.
+The calculated Fair Value of **\$40.98** is approximately **32% lower** than the current implied market price of **\$60.65**. This significant difference suggests that the market is making more aggressive assumptions about Ashland's future profitability and growth than the conservative assumptions used in this DCF model.
 
-**Conclusion:**
+| Model's Conservative Assumption | Market's Likely Assumption | Rationale for Market Assumption |
+| :--- | :--- | :--- |
+| **Long-Term Revenue Growth:** 4.5% | **Long-Term Revenue Growth:** $\sim6\%-8\%$ | The market may be projecting that Ashland's focus on high-growth areas like Life Sciences (Pharma/Injectables) will drive sustained, above-industry organic growth once global industrial demand (Specialty Additives) recovers. |
+| **Long-Term Net Income Margin:** 8.0% | **Long-Term Net Income Margin:** $\sim10\%-12\%$ | The market is likely giving full credit to the significant, high-margin nature of the focused Life Sciences and Personal Care portfolios (which already have EBITDA margins >30%) and expects the multi-year cost optimization programs to drop a much higher percentage of revenue to the bottom line. |
+| **Discount Rate (WACC):** 7.5% | **Discount Rate (WACC):** $\sim5.5\%-6.5\%$ | The market may be using a lower cost of capital, reflecting Ashland's strong balance sheet, solid liquidity (~$900M total liquidity), and manageable net leverage of 2.7x. A lower WACC significantly increases the value of the perpetual cash flows (Terminal Value). |
 
-My valuation is deeply conservative. It values the company based on a floor-level perpetuity growth rate and a slow, conservative build-up to a moderate single-digit net income margin, even though management is guiding for 25%+ EBITDA margins. The market's valuation of $50.71 reflects a substantial **"Execution Premium"** that prices in the successful and full realization of all cost-saving, portfolio optimization, and innovation-driven growth targets, leading to a long-term, high-margin growth rate closer to its 5% CAGR. For a risk-averse investor, the current stock price appears overvalued based on a strict and conservative interpretation of the public guidance.
+In conclusion, the market is pricing Ashland as a fully-transformed, high-growth, high-margin specialty ingredients pure-play, justifying a price of \$60.65. The conservative DCF model, strictly adhering to cautious growth and margin assumptions, produces a fair value of \$40.98, indicating the market is pricing in a successful execution of the long-term strategic plan with a quicker and more pronounced impact on the bottom line. The difference represents the premium for **successful execution risk** and the market's bullish long-term view on the specialized, high-barrier-to-entry Life Sciences segment.
