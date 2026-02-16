@@ -1,154 +1,147 @@
-This valuation of The Western Union Company (WU) stock utilizes a modified Discounted Cash Flow (DCF) model based on the provided, non-standard rules for calculating future cash flows. The model focuses on the company's "Evolve 2025" strategy, which aims to offset the decline in its core retail money transfer business with growth in its Branded Digital and Consumer Services segments, including the new Travel Money business and the strategic Intermex acquisition.
+The Western Union Company (WU) Valuation
 
-All financial data for the current period is based on the company's Q3 2025 financial reports and related earnings call commentary.
+## 1. Initial Financial Data
 
----
+The valuation is based on the most recent publicly available SEC filing data and management commentary from earnings call transcripts and investor day presentations.
 
-## 1. Current Financial Data & Share Count
-
-The following figures are sourced from The Western Union Company's most recent Q3 2025 reports and SEC filings.
-
-| Metric | Value (in millions USD) | Source/Date |
-| :--- | :--- | :--- |
-| Total Cash & Cash Equivalents | 947.8 million | Q3 2025 10-Q |
-| Total Debt | 2,592.2 million | Q3 2025 10-Q |
-| Shares Outstanding | 317.84 million | As of Oct 17, 2025 |
-| Current Stock Price (WU) | $9.33 | As of Oct 31, 2025 |
-| Trailing Twelve Months (TTM) Revenue | $\approx$ $4.1$ billion | Q3 2025 Commentary |
-
----
-
-## 2. Business Engine Analysis & Revenue Projections (2025-2030)
-
-Western Union's business is transitioning from a traditional, high-margin, cash-based retail model to a lower-margin, digital-first financial services platform (the **Evolve 2025 strategy**).
-
-### Business Engine Assumptions
-
-1.  **Core Retail (Headwind):** The traditional retail money transfer business is declining due to competition from digital-only and lower-cost competitors. This decline is largely offset by cost management and retail stabilization efforts in key regions.
-2.  **Digital/Consumer Services (Growth Engine):** The company's growth is driven by its Branded Digital business (6% revenue growth, 12% transaction growth in Q3 2025) and the expansion of Consumer Services, notably the Travel Money business (49% revenue growth in Q3 2025).
-3.  **Strategic Acquisition (Intermex):** The pending acquisition of International Money Express, Inc. (Intermex), expected to close in mid-2026, will boost revenue, particularly in the critical US-Mexico corridor. Intermex revenue in 2024 was $\approx$ $638$ million (Based on its filings, not explicitly in the WU search results, but used for modeling the impact of the $\approx$ $500$ million cash acquisition). For conservatism, I will model a lower impact to WU's total revenue.
-4.  **Long-Term Headwinds:** The company faces a historical revenue decline of $\sim 3.4\%$ annually over the last five years, which frames the conservative approach. Regulatory risks, such as a potential 1% remittance tax in 2026, also dampen long-term growth prospects.
-
-### Revenue Projection Justification
-
-The projection builds from the 2025 guidance and incorporates the strategic growth drivers with conservative deceleration due to core business headwinds and long-term saturation/competition.
-
-| Year | Revenue (Midpoint) / Growth Assumption | Revenue (USD Billion) | Justification |
+| Metric | Source | Value | Justification / Notes |
 | :--- | :--- | :--- | :--- |
-| **2024** (Baseline) | TTM Revenue $\approx$ $4.1$ B | 4.100 | TTM Revenue estimate (Q3 2025 filing) |
-| **2025** | Management Guidance Midpoint (4.035B - 4.135B) | 4.085 | **-0.4%** growth, slightly below $4.1$ B baseline for conservatism. |
-| **2026** | **2.5% Growth** | 4.187 | Assumes core decline stabilization, continued 6-8% branded digital growth, and the **Intermex acquisition** (estimated $\sim$ $100$ million in annualized revenue contribution, prorated for a mid-2026 close, which is conservative given Intermex's size). |
-| **2027** | **1.5% Growth** | 4.250 | Assumes a full-year benefit from the acquisition and continued growth in Consumer Services/Digital, but tempered by the secular decline in core retail and competitive pressure. |
-| **2028** | **1.0% Growth** | 4.292 | Digital growth is partially saturated, and the core business continues its gradual decline. |
-| **2029** | **0.5% Growth** | 4.313 | Growth slows as the transition stabilizes. |
-| **2030** | **0.0% Growth** (Maturity) | 4.313 | Assumes a full maturity/stable state with no net growth. |
+| Current Stock Price | Market Data | $9.67 | Conservative closing price from market data. |
+| Shares Outstanding | Market Data / SEC Filings | 317.84 million | Used a recent reported figure for shares outstanding. |
+| Total Cash & Equivalents (C) | TTM / Q3 2025 Balance Sheet | \$947.8 million | The more conservative TTM/Q3 2025 figure is used. |
+| Total Debt (D) | Balance Sheet (Approximation) | \$2.60 billion | Used a recent reported figure for total debt. |
+| **Net Cash/(Debt)** | C - D | (\$1.65 billion) | Calculated as \$947.8M - \$2.60B. |
 
----
+## 2. Business Engine and Revenue Projections (2025-2030)
 
-## 3. Margin Projections & Net Income Calculation
+The Western Union business engine is shifting from a traditional cash-based remittance business to a "Digital-First" and "Beyond" strategy, aiming for a global financial services network. The revenue forecast is conservatively built using management's specific, medium-term targets and then decelerating.
 
-### Margin Assumptions
+**Business Engine Assumptions:**
 
-*   **Gross Margin (GM):** Historically strong, recently cited at $37.7\%$ (Q3 2025). The shift to digital may slightly depress this long-term due to higher partner commission rates, but I will maintain it.
-*   **Adjusted Operating Margin (Op. Margin):** Management guides to a 19%-21% range for 2025. The company has completed its cost redeployment program two years ahead of schedule, which supports margin expansion. I will use the current $20\%$ as a stable, conservative projection.
-*   **Net Income Margin:** TTM Net Margin is $21.84\%$, which is high partly due to a low Q3 2025 tax rate (12%). I will use the $20\%$ Adjusted Operating Margin and apply a conservative 20% tax rate (higher than the recent 12% to account for less discrete benefits in the future). This results in a $\approx 16\%$ Net Income Margin.
-*   **Net Income Margin (Projection):** $16\%$ for all years.
+1.  **Digital/Consumer Services Growth:** The core engine relies on the acceleration of the Branded Digital business (transactions up 9%-12%, revenue up 6% in 2025 snippets) and the Consumer Services division (expected double-digit revenue growth). The strategy is to shift to higher-margin digital/account-to-account (A2A) flows and diversify beyond traditional remittances (the 'Beyond' strategy, including products like USDPT stablecoin).
+2.  **Retail Headwinds:** The legacy retail business is expected to continue facing pressure from geopolitical issues and digital competition, as noted in the earnings calls.
+3.  **Conservative Target Achievement:** We use the mid-point of the company's publicly stated 2028 revenue target (\$4.8B - \$5.3B $\rightarrow$ \$5.0B) but apply a highly conservative deceleration post-2028.
 
-### Net Income Calculation (Simplified)
+| Year | Revenue (Billions) | Calculation / Justification | Growth Rate |
+| :--- | :--- | :--- | :--- |
+| **2025** | \$4.05 | Mid-point of management's adjusted revenue guidance (\$4.0B - \$4.1B) [cite: 10 from step 1]. | - |
+| **2026** | \$4.33 | 7.0% growth on 2025 revenue. This is slightly below the 7.3% CAGR required to hit the 2028 target, providing an initial conservative buffer while still relying on management's guided ramp-up. | 7.00% |
+| **2027** | \$4.64 | 7.0% growth on 2026 revenue. | 7.00% |
+| **2028** | \$4.96 | 7.0% growth on 2027 revenue. This brings the revenue to the edge of the management's mid-point target of $5.0B, reflecting a near-miss/conservative achievement. | 7.00% |
+| **2029** | \$5.11 | Highly conservative deceleration. Growth halved to 3.0% to reflect maturity and intense competition pressure, assuming the "Beyond" strategy's initial boost wanes. | 3.00% |
+| **2030** | \$5.27 | Continued conservative 3.0% growth. | 3.00% |
 
-| Year | Revenue (B) | Op. Margin (20%) | Operating Income (B) | Tax Rate (20%) | Net Income Margin (16%) | Net Income (A) (B) |
+## 3. Margin Projections and Net Income (2025-2030)
+
+**Net Income Margin Assumptions:**
+
+1.  **2025 Margin (Guidance-Implied):** Management's 2025 Adjusted EPS guidance (\$1.65 - \$1.75) [cite: 10 from step 1] implies a Net Income margin significantly lower than the 22.2% reported in FY 2024 (which may include one-time items). Using the mid-point of the EPS guidance on $4.05B revenue gives an NI of ~$540.3M, or a margin of **13.3%** ($\text{\$540.3M} / \text{\$4050M}$). This conservative figure is used to start the forecast.
+2.  **2028 Margin (Target-Implied):** Management's 2028 Adjusted EPS target (\$2.30) on the projected \$4.96B revenue gives an NI of $\text{\$731.0M}$, or a margin of **14.7\%** ($\text{\$731.0M} / \text{\$4960M}$).
+3.  **Long-Term Margin:** Net Margin is held steady at **14.7%** post-2028. The long-term upside from cost efficiencies and a shift to a higher-margin digital business is conservatively offset by continued pricing pressure in the remittance market.
+
+**ROIC Assumption:**
+
+*   **ROIC (Historical TTM):** 30.70%. This figure is extremely high due to a low equity base.
+*   **ROIC (Conservative for Valuation):** A reasonable and conservative ROIC of **6.0%** is used on accumulated net income/cash (as per the rule), reflecting a modest and sustainable return on re-invested capital and cash reserves.
+
+**Net Income (NI) Projection:**
+
+| Year | Revenue (M) | Net Margin (%) | NI from Operations (M) | ROIC on Prior Year Cash (M) | Total Net Income (M) | Cash for Next Year (M) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2025** | 4.085 | 20.0% | 0.817 | 20.0% | 16.0% | 0.654 |
-| **2026** | 4.187 | 20.0% | 0.837 | 20.0% | 16.0% | 0.670 |
-| **2027** | 4.250 | 20.0% | 0.850 | 20.0% | 16.0% | 0.680 |
-| **2028** | 4.292 | 20.0% | 0.858 | 20.0% | 16.0% | 0.687 |
-| **2029** | 4.313 | 20.0% | 0.863 | 20.0% | 16.0% | 0.690 |
-| **2030** | 4.313 | 20.0% | 0.863 | 20.0% | 16.0% | 0.690 |
+| **2024 (A)** | \$4,200 (FY) [cite: 11 from step 2] | 22.2% | \$934.2 | N/A | \$934.2 | \$934.2 |
+| **2025 (E)** | \$4,050 | 13.3% | \$540.3 | N/A | \$540.3 | \$540.3 |
+| **2026 (E)** | \$4,330 | 13.8% | \$597.5 | \$32.4 | \$629.9 | \$1,170.2 |
+| **2027 (E)** | \$4,640 | 14.3% | \$663.5 | \$70.2 | \$733.7 | \$1,903.9 |
+| **2028 (E)** | \$4,960 | 14.7% | \$729.1 | \$114.2 | \$843.3 | \$2,747.2 |
+| **2029 (E)** | \$5,110 | 14.7% | \$751.2 | \$164.8 | \$916.0 | \$3,663.2 |
+| **2030 (E)** | \$5,270 | 14.7% | \$775.0 | \$219.8 | \$994.8 | \$4,658.0 |
 
----
+*   *NI from Operations* = Revenue * Net Margin
+*   *ROIC on Prior Year Cash* = Cash for Previous Year * 6.0% (Note: Cash is accumulated Net Income from the prior year. For 2026, the accumulated cash is $\text{\$934.2M}$ for 2024 and $\text{\$540.3M}$ for 2025. The instruction states "net income for each year goes straight into cash for the next year," which is then subject to ROIC for the year after. Therefore, the 2026 ROIC is calculated on the 2025 Net Income: $\text{\$540.3M} \times 6.0\% = \text{\$32.4M}$). However, the most conservative interpretation of the rule: "ROIC from net income got from previous year" is used. For this DCF, we will treat **Total Net Income** as the **Free Cash Flow to Firm (FCFF)** proxy for the simple valuation model as instructed.
 
-## 4. Discounted Cash Flow (DCF) Calculation (Modified per Rules)
+## 4. Discounted Cash Flow (DCF) Valuation
 
-The user's instruction for Net Income is: **Net income for next year = net income from that year based on reasonable assumptions + ROIC from net income got from previous year.**
+**Valuation Parameters:**
 
-*   The company's past ROIC is difficult to calculate without full historical balance sheets, but its business model is capital-light. Given this, I will select a conservative, positive Return on Invested Capital (ROIC).
-*   **Conservative ROIC Assumption:** **5.0%**. This is a reasonable, positive return on retained earnings, reflecting the company's ability to re-invest its cash flow at a low rate.
-*   **Discount Rate (Conservative but Reasonable):** **10.0%**. This reflects a high-risk premium for a company in a secularly challenged industry, undergoing a strategic transformation.
-*   **Maturity Rate (Conservative):** **-1.0%** (Negative 1%). Given the secular decline in the core business and intense competition, assuming a terminal growth rate below zero (i.e., a slow decline) is the most conservative and justified approach for the mature cash-based remittance business.
+| Parameter | Value | Justification |
+| :--- | :--- | :--- |
+| **Discount Rate (WACC)** | 7.00% | A conservative rate, slightly above the reported 5.81% WACC [cite: 10 from step 2] to account for future risk in a rapidly changing industry. |
+| **Terminal Growth Rate** | 1.50% | A very conservative maturity rate, significantly below the projected 3.0% long-term growth and global GDP, reflecting the competitive nature of the market. |
 
-### Projected Cash Flow (Net Income) & NPV
+**Net Present Value (NPV) Calculation:**
 
-The Net Income from the previous year is assumed to turn into cash, which then generates a return (ROIC) in the subsequent year.
+The Net Income is used as a proxy for Free Cash Flow (FCF) as per the instruction's simplified model.
 
-| Year (t) | Net Income (A) (B) (Original) | Prior NI\*ROIC (C) (B) | Total Net Income / CF (A+C) (B) | Discount Factor (10.0%) | Net Present Value (NPV) (B) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **2025** | 0.654 | 0.000 (Initial Year) | 0.654 | 0.909 | 0.595 |
-| **2026** | 0.670 | 0.033 (0.654 \* 5.0%) | 0.703 | 0.826 | 0.581 |
-| **2027** | 0.680 | 0.035 (0.703 \* 5.0%) | 0.715 | 0.751 | 0.537 |
-| **2028** | 0.687 | 0.036 (0.715 \* 5.0%) | 0.723 | 0.683 | 0.493 |
-| **2029** | 0.690 | 0.036 (0.723 \* 5.0%) | 0.726 | 0.621 | 0.451 |
-| **2030** | 0.690 | 0.036 (0.726 \* 5.0%) | 0.727 | 0.564 | 0.410 |
-| **Sum of NPV (2025-2030)** | | | | | **3.067 Billion** |
+| Year | Total Net Income (M) | Discount Factor (7.00%) | Present Value (M) |
+| :--- | :--- | :--- | :--- |
+| **2025** | \$540.3 | 0.9346 | \$504.9 |
+| **2026** | \$629.9 | 0.8734 | \$550.2 |
+| **2027** | \$733.7 | 0.8163 | \$599.3 |
+| **2028** | \$843.3 | 0.7629 | \$643.3 |
+| **2029** | \$916.0 | 0.7130 | \$652.9 |
+| **2030** | \$994.8 | 0.6663 | \$662.9 |
+| **Sum of Projected FCFF** | | | **\$3,613.5** |
 
-### Terminal Value Calculation (2031 onwards)
+**Terminal Value (TV) Calculation:**
 
-The **Terminal Value (TV)** is calculated at the end of 2030 using the 2030 cash flow as the starting point for a perpetuity.
+The Terminal Value is calculated using the 2030 FCF projection and the perpetuity growth formula (FCF \* (1 + g) / (WACC - g)).
 
-$$
-\text{TV} = \frac{\text{Cash Flow}_{\text{2030}} \times (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}
-$$
+$$\text{Terminal Value} = \frac{\text{\$994.8M} \times (1 + 0.015)}{0.0700 - 0.0150} = \text{\$18,367.7M}$$
 
-$$
-\text{TV} = \frac{0.727 \text{ Billion} \times (1 + (-0.01))}{0.10 - (-0.01)} = \frac{0.727 \times 0.99}{0.11} = 6.541 \text{ Billion}
-$$
+**Present Value of Terminal Value:**
 
-The Net Present Value (NPV) of the Terminal Value is calculated by discounting the TV back to today (Year 0).
+$$\text{PV of TV} = \text{Terminal Value} \times \text{Discount Factor}_{2030} = \text{\$18,367.7M} \times 0.6663 = \text{\$12,236.4M}$$
 
-$$
-\text{NPV of TV} = \frac{\text{TV}}{(1 + \text{Discount Rate})^{\text{Years}}} = \frac{6.541 \text{ Billion}}{(1.10)^6} = 3.690 \text{ Billion}
-$$
+**Total Net Present Value (Enterprise Value):**
 
-**Total Equity Value (Enterprise Value):**
-$$\text{Total Equity Value} = \text{Sum of NPV (2025-2030)} + \text{NPV of Terminal Value}$$
-$$\text{Total Equity Value} = \$3.067 \text{ Billion} + \$3.690 \text{ Billion} = \$6.757 \text{ Billion}$$
-
----
+$$\text{Total NPV (Enterprise Value)} = \text{Sum of Projected FCFF} + \text{PV of TV}$$
+$$\text{Total NPV (Enterprise Value)} = \text{\$3,613.5M} + \text{\$12,236.4M} = \text{\$15,849.9M}$$
 
 ## 5. Fair Value Calculation
 
-The final valuation is calculated by subtracting Total Debt and adding back Total Cash & Cash Equivalents (Net Debt adjustment) from the Total Equity Value, and then dividing by the Shares Outstanding.
+$$\text{Fair Value per Share} = \frac{\text{Enterprise Value} + \text{Cash} - \text{Debt}}{\text{Shares Outstanding}}$$
 
-| Metric | Value (in millions USD) |
+| Metric | Value (Millions) |
 | :--- | :--- |
-| Total Equity Value (NPV) | 6,757.0 million |
-| Less: Total Debt | (2,592.2) million |
-| Add: Total Cash & Cash Equivalents | 947.8 million |
-| **Fair Value of Common Equity** | **5,112.6 million** |
-| Shares Outstanding | 317.84 million |
-| **Fair Value Per Share** | **$16.08** |
+| **Enterprise Value (NPV)** | \$15,849.9 |
+| **(+) Total Cash & Equivalents** | \$947.8 |
+| **(-) Total Debt** | \$2,600.0 |
+| **Equity Value** | **\$14,197.7** |
+| **Divided by Shares Outstanding** | 317.84 |
+| **Fair Value per Share** | **\$44.67** |
 
 ---
 
-## Conclusion and Justification
+## 6. Conclusion and Justification
 
-### Fair Value: **$16.08**
-### Current Stock Price: **$9.33**
+### Fair Value of WU Stock
 
-### Justification for Fair Value Discrepancy
+The calculated conservative intrinsic **Fair Value per Share** for The Western Union Company (WU) is **\$44.67**.
 
-The calculated fair value of **$16.08** per share is significantly higher than the current market price of **$9.33** per share. The market is making far more conservative assumptions than even this model's cautious estimates.
+### Justification for Fair Value vs. Market Value
 
-**Why the Market is Discounting the Stock (Assumptions the Market is Making):**
+| Metric | Value |
+| :--- | :--- |
+| **Calculated Fair Value** | **\$44.67** |
+| **Current Market Price** | **\$9.67** |
+| **Variance** | **461%** |
 
-1.  **Terminal Decline (Not Stabilization):** The market likely assumes that the secular decline in the core retail business is not stoppable or even containable at a $-0.4\%$ growth rate (as modeled for 2025) but rather a continuous, accelerating decline (e.g., $-5\%$ to $-10\%$ per year for the next decade) that will overwhelm any growth from the Digital/Consumer Services segments.
-2.  **Failed Acquisition Synergy/Integration Risk:** The Intermex acquisition is a bet on a key corridor. The market may be skeptical of Western Union's ability to successfully integrate and realize the synergies, pricing the risk of a value-destroying acquisition.
-3.  **Low or Zero ROIC:** The market's valuation implies a belief that the company's retained earnings (Net Income converted to cash) will generate a very low to negative return (ROIC) due to poor capital allocation or a high-churn, low-margin competitive environment in digital money transfer.
-4.  **Higher Discount Rate:** A significantly higher implied discount rate is being used. For example, if we were to back-calculate the discount rate that makes the Fair Value equal to the current price of $9.33, it would be substantially higher than the $10\%$ used here, reflecting an extreme level of risk aversion.
+The enormous discrepancy between the calculated Fair Value and the Current Market Price is primarily due to the market's severe skepticism about the company's ability to achieve its **2028 Revenue and EPS targets** and, more importantly, the market's perception of the **sustainability and predictability of its future Free Cash Flow (FCF)**.
 
-**Justification for the Fair Value (Why the Model is Higher):**
+**Why My Assumptions Differ from the Market's (And Why the Market is Discounting WU):**
 
-1.  **Business Transformation Success:** My model assumes the *Evolve 2025* strategy succeeds in stabilizing the core business and that the digital/consumer services segment can maintain mid-single-digit growth and better margins, which is supported by the management commentary and the Q3 2025 results (Branded Digital revenue growth of 6-7%, Consumer Services growth of 49%).
-2.  **Value of Free Cash Flow:** Even with negative long-term growth (Maturity Rate of $-1\%$), the model recognizes the substantial cash flows the company generates from its established, wide-reach network (evidenced by the strong $20\%$ Adjusted Operating Margin). The market may be over-discounting the value of this consistent, high-margin cash flow.
-3.  **Conservative Debt/Cash Treatment:** The DCF model uses Net Income as a proxy for cash flow, and then adjusts for Net Debt in the final step. Western Union has a solid balance sheet with ample liquidity (Cash $947.8M$) and manageable debt, which my model fully accounts for, whereas the market may be implicitly applying a high-interest risk to the debt load.
+1.  **Terminal Decline Assumption:** The market likely bakes in a secular decline or a *zero/negative* long-term growth rate for Western Union's core remittance business. The market views WU as a **melting ice cube** whose legacy retail network is being rapidly replaced by fintech competitors (e.g., Remitly, Wise) with better pricing and user experience.
+2.  **Uncertainty of the "Beyond" Strategy:** My valuation assumes management *will* achieve its 2028 revenue goal of nearly \$5.0B and the corresponding 14.7% net margin. The market, however, is likely assigning a very low probability to the successful execution of the "Beyond" digital strategy, the high double-digit growth in Consumer Services, and the successful pivot into digital assets (USDPT stablecoin).
+3.  **Risk Premium (Discount Rate):** While I used a conservative 7.0% discount rate, the market's required rate of return for WU is likely much higher (perhaps 10-12% or more) due to:
+    *   **High Business Risk:** Extreme competitive pressure and exposure to volatile global remittance markets and regulation.
+    *   **Financial Risk:** The high debt-to-equity ratio (approx. 2.8x) and limited financial flexibility.
+4.  **ROIC on Cash:** My calculation includes a **6.0% ROIC** on accumulated cash, which adds significant value in the outer years ($\text{\$219.8M}$ in 2030 alone). The market may not give credit for this, assuming any excess cash is simply returned as dividends or buybacks, or that the return on internal investment will be near-zero.
 
-**Conclusion:** The market is pricing Western Union as a company in terminal decline with high execution risk on its digital transformation. My model, while conservative in its revenue growth projections and using a conservative $10\%$ discount rate, believes the Evolve 2025 strategy, bolstered by the Intermex acquisition, will at least stabilize the business to a low single-digit growth/flat-line and that the company can generate a positive return on its substantial cash flows, justifying a fair value nearly double the current stock price.
+**Conclusion:**
+
+My valuation suggests Western Union is **significantly undervalued** based on the explicit guidance provided by management for the next five years. For the stock to be priced at **\$9.67**, the market is making one or both of the following assumptions:
+
+*   **A "No Growth, Low Margin" Scenario:** Assuming a terminal value with a $\text{0\%}$ (or even negative) Terminal Growth Rate *and* a much higher Discount Rate (e.g., 10-12%).
+*   **A Failure of Strategy:** Assuming management fails to meet its 2028 $\text{\$5.0B}$ revenue target and its associated profitability, with revenue remaining flat or declining from 2025 onwards.
+
+The valuation of **\$44.67** is the fair value **if and only if** the management's "Beyond" strategy is successfully executed and the company can achieve its long-term growth and margin targets, which is a major, yet management-guided, assumption.
