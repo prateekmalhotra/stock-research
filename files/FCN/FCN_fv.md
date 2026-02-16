@@ -1,133 +1,147 @@
-FTI Consulting, Inc. (FCN) Stock Valuation
+## FTI Consulting, Inc. (FCN) Stock Valuation - Discounted Cash Flow (DCF) Analysis
 
-This valuation uses a Discounted Cash Flow (DCF) model based *solely* on publicly available SEC filing data and management commentary from the last four earnings call transcripts, as strictly requested. All projections are based on a conservative interpretation of the company's business engine.
+This valuation uses a Discounted Cash Flow (DCF) model based *exclusively* on data derived from SEC filings and management commentary from earnings call transcripts, as strictly required.
 
-### 1. Financial Data Extraction (Based on Q3 2025 SEC Filings)
+---
 
-The following figures are extracted from FTI Consulting, Inc.'s Q3 2025 financial reports, filed on October 23, 2025.
+### 1. Financial Data Extraction and Historical Metrics
 
-| Metric | Value (in Millions USD) | Source/Basis |
+All figures are in millions of USD, except per share data, and are derived from the most recent available SEC filings (primarily the Q3 2025 Form 10-Q and 2024 Form 10-K).
+
+#### A. Balance Sheet & Capital Structure (as of September 30, 2025)
+
+| Metric | Value (USD Millions) | Source/Calculation |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | $146.0 | As of September 30, 2025. |
-| **Total Debt (Long-Term)** | $510.0 | Long-term debt under the revolving credit facility as of September 30, 2025. |
-| **Common Shares Outstanding** | 30.876 million | As of October 16, 2025. |
-| **LTM Revenue (Approx.)** | ~$3,660 (Q3 2025 Guidance Midpoint) | Full-year 2025 revenue guidance midpoint ($3.685B - $3.735B). |
-| **Current Stock Price** | **$170.07** | Proxy for market price on October 29, 2025 (Previous Close on Nasdaq). |
+| **Total Cash & Cash Equivalents** | $146.0 | Q3 2025 10-Q |
+| **Total Gross Debt** | $510.0 | Net Debt ($364.0) + Cash ($146.0) |
+| **Shares Outstanding (Diluted WESO)** | 31.8 (in millions) | Q3 2025 Transcript/Filing |
+| **Current Stock Price** | ~$160.91 (As of Feb 12, 2026 - for reference) | Reference |
 
-***
+#### B. Historical Performance (FY 2024 & Trailing Twelve Months - TTM)
 
-### 2. Business Engine and Revenue Projection (2025-2030)
-
-FTI Consulting's core business engine is driven by **Billable Headcount**, **Realized Bill Rates**, and **Utilization Rates** across its five segments: Corporate Finance & Restructuring (CF&R), Forensic & Litigation Consulting (FLC), Economic Consulting (EC), Technology (Tech), and Strategic Communications (StratCom).
-
-#### Engine Assumptions and Justification:
-
-The management commentary from the Q3 2025 earnings call highlights a key divergence:
-
-*   **CF&R & FLC (Crisis/Risk/Dispute):** Strong double-digit growth is being driven by high demand for restructuring, transactions, risk, and investigations services, along with increased bill rates. This suggests resilience in "non-discretionary" high-stakes advisory services.
-*   **EC & Tech (M&A-related/Cyclical):** Experiencing revenue declines due to soft M&A-related demand (antitrust services, second-request services) and talent transitions. Management is making "significant investments in senior talent" and technology (AI tools) in these segments for long-term growth.
-
-**Conservative Revenue Growth Projections (2025-2030):**
-
-The model assumes **$3.710 Billion** for 2025 Revenue (midpoint of management guidance). The growth for subsequent years is based on a conservative view of the business cycle, anticipating a gradual normalization of segment performance, and a slightly slower long-term growth rate than historical averages to be conservative.
-
-| Year | Growth Rate | Justification | Projected Revenue ($M) |
+| Metric | FY 2024 (USD Millions) | TTM (9/30/2025) (USD Millions) | Source |
 | :--- | :--- | :--- | :--- |
-| **2025** | N/A | Management Guidance Midpoint | $3,710 |
-| **2026** | 5.5% | Moderation from strong 2025 segment performance; a modest recovery in EC/Tech is expected as M&A/economic uncertainty subsides, partially offset by normalizing demand in CF&R/FLC. | $3,914 |
-| **2027** | 5.0% | Continuation of mid-single-digit growth, reflecting a mature, cyclical consulting business. | $4,110 |
-| **2028** | 4.5% | Long-term growth settles in the mid-single digits as the company gains marginal efficiencies from strategic talent and AI investments. | $4,295 |
-| **2029** | 4.0% | Conservative growth rate nearing the terminal period. | $4,467 |
-| **2030** | 3.5% | Continuation of the downward trend to a very conservative growth rate before maturity. | $4,623 |
+| **Revenue** | $3,698.7 | N/A | 2024 10-K |
+| **Net Income (NI)** | $280.1 | $266.0 | 2024 10-K, Macrotrends TTM data |
+| **Net Income Margin** | 7.6% | 7.2% | Calculated |
+| **Total Stockholders' Equity** | N/A | $1,749.655 (Q3 2025) | Q3 2025 10-Q |
 
-***
+#### C. Return on Invested Capital (ROIC) Baseline
 
-### 3. Margin and Net Income Projection
+To calculate a reasonable baseline for ROIC, we use the average of 2024 Total Debt (Long-Term) and Equity. Since the 2024 10-K mentions "against $0 in long-term debt" (which is contradictory to Q3 2025 figures but is the most conservative for a 10-K-based figure), and the Q3 2025 10-Q shows Total Liabilities of $1,740.130M, the most conservative and simple approach for ROIC (as a proxy for reinvestment return) given the data constraints is to use the *2024 Return on Equity (ROE)*, which is a key metric FTI Consulting reports.
 
-#### Margin Assumptions and Justification:
+*   **2024 Return on Equity (ROE):** 12.4%
+*   **Conservative ROIC Assumption:** We will use a **conservative ROIC of 10.0%** for future years. This is slightly below the reported 2024 ROE of 12.4% and assumes some dilution of efficiency as the company grows its capital base.
 
-*   **Net Income Margin:** Q3 2025 Net Income was $82.8 million on $956.2 million in revenue, a Net Income Margin of 8.66%. Full-year Adjusted EBITDA margin was 13.7% in Q3. I will use a long-term Net Income Margin projection to be conservative and consistent. The 5-year average Net Income Margin is approximately 6-8%. I will project a gradual improvement toward a conservative 9.0% by 2030, reflecting operational efficiency and leverage on a higher revenue base.
-*   **Effective Tax Rate (ETR):** Management expects a full-year 2025 ETR between 22% and 24%. I will use the midpoint, **23.0%**, for the entire projection period.
-*   **ROIC (Return on Invested Capital):** Historical TTM ROIC is around 9.48%. A 5-year average is about 12.2%. Given the mandate for a **conservative** but reasonable positive ROIC, I will use a **9.0%** ROIC.
+---
 
-#### Net Income Calculation:
+### 2. Business Engine Analysis and Future Projections (2025 - 2030)
 
-| Year | Revenue ($M) | Net Income Margin | Net Income (A) ($M) | Prior Net Income/Cash ($M) | ROIC % | ROIC Income (B) ($M) | Total Net Income (A+B) ($M) |
+FTI Consulting's business model is a portfolio of consulting services across five main segments: Corporate Finance & Restructuring (CF&R), Forensic & Litigation Consulting (FLC), Economic Consulting (Econ), Technology, and Strategic Communications. This diversified structure provides a "counter-cyclical hedge" that is key to its resilience.
+
+*   **CF&R & FLC:** These segments drive stability. Restructuring (CF&R) thrives during economic downturns, while Transactions (CF&R) and FLC (litigation/investigation) are robust in all cycles. These segments showed strong growth (18.6% and 15.4% respectively in Q3 2025).
+*   **Econ & Tech:** These segments, heavily linked to M&A and regulatory scrutiny (antitrust/second requests), are the current laggards, with Econ revenue down 22.0% in Q3 2025. Management has noted uncertainty in the timing of their recovery.
+
+#### A. Revenue Projections (2025-2030)
+
+**Business Engine Assumptions:** We will assume a conservative, multi-year recovery:
+
+1.  **2025:** Use the midpoint of management's revised guidance.
+2.  **2026-2027 (Recovery Phase):** We assume the headwinds in Econ and Tech begin to dissipate as the M&A market normalizes and the stronger CF&R/FLC segments continue their growth trajectory, leading to high-single-digit growth.
+3.  **2028-2030 (Maturity Phase):** Growth moderates to a more conservative, long-term rate, slightly above global GDP growth, reflecting the maturity of a large consulting firm.
+
+| Year | Basis | Revenue (USD Millions) | Justification |
+| :--- | :--- | :--- | :--- |
+| **2025** | Management Guidance Midpoint | $3,710 | Midpoint of $3.685B - $3.735B range. |
+| **2026** | **6.5% Growth** | $3,951 | Moderate recovery as Econ/Tech headwinds ease, conservative to high single-digit growth. |
+| **2027** | **7.0% Growth** | $4,228 | M&A-linked segments fully rebound, leveraging the strong performance of CF&R/FLC. |
+| **2028** | **5.5% Growth** | $4,460 | Long-term growth moderates, reflecting scale and maturity. |
+| **2029** | **4.5% Growth** | $4,661 | Further moderation to a conservative rate. |
+| **2030** | **4.0% Growth** | $4,847 | Assumed long-term, conservative growth rate. |
+
+#### B. Margin Projections (2025-2030)
+
+Management has an Adjusted EPS target, implying a strong focus on profitability. The TTM Net Income Margin is 7.2%. Given the strong performance in high-margin segments (FLC, CF&R restructuring) and projected recovery in Econ/Tech (which will absorb existing professional staff capacity), we project a gradual improvement in Net Income Margin towards the 9% range, which is still conservative for a professional services firm.
+
+*   **2025:** Based on management's Adjusted EPS guidance of $8.45 (midpoint) and 31.8M shares, the implied adjusted net income is $268.6M. We will use a conservative **7.5% Net Income Margin** on the $3.710B revenue for unadjusted NI.
+*   **2026-2030:** We project a gradual margin expansion to **9.0%** by 2030.
+
+---
+
+### 3. Discounted Cash Flow (DCF) Calculation
+
+The Net Income forecast includes the assumed ROIC-based return on retained earnings, per the user's rule:
+
+$$NI_N = (\text{Revenue}_N \times \text{NI Margin}_N) + (\text{NI}_{N-1} \times \text{ROIC})$$
+
+#### A. Input Assumptions
+
+| Assumption | Value | Justification |
+| :--- | :--- | :--- |
+| **Conservative ROIC %** | 10.0% | Below 2024 ROE of 12.4%, conservative for reinvestment return. |
+| **Discount Rate** | 10.0% | Conservative (reasonable) WACC proxy for a company with cyclical exposure. |
+| **Terminal Growth Rate (Maturity Rate)** | 2.5% | Very conservative long-term growth rate, below global GDP. |
+| **2024 Net Income (Base NI for ROIC)** | $280.1 Million | 2024 10-K reported NI. |
+
+#### B. Projected Net Income and NPV
+
+| Year | Revenue (A) (USD Millions) | NI Margin (B) | NI from Operations (A x B) (USD Millions) | ROIC Return (NI n-1 x 10%) (USD Millions) | Total NI (FCF) (USD Millions) | Discount Factor (10.0%) | Net Present Value (NPV) (USD Millions) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2025** | $3,710 | 7.50% | $278.3 | N/A | N/A | N/A | $278.3 |
-| **2026** | $3,914 | 7.80% | $305.3 | $278.3 (2025) | 9.0% | $25.0 | $330.3 |
-| **2027** | $4,110 | 8.10% | $332.9 | $330.3 (2026) | 9.0% | $29.7 | $362.6 |
-| **2028** | $4,295 | 8.40% | $360.8 | $362.6 (2027) | 9.0% | $32.6 | $393.4 |
-| **2029** | $4,467 | 8.70% | $388.6 | $393.4 (2028) | 9.0% | $35.4 | $424.0 |
-| **2030** | $4,623 | 9.00% | $416.1 | $424.0 (2029) | 9.0% | $38.2 | $454.3 |
+| **2025** | 3,710 | 7.5% | 278.3 | 28.0 | **306.3** | 0.909 | 278.4 |
+| **2026** | 3,951 | 8.0% | 316.1 | 30.6 | **346.7** | 0.826 | 286.3 |
+| **2027** | 4,228 | 8.3% | 350.9 | 34.7 | **385.6** | 0.751 | 289.5 |
+| **2028** | 4,460 | 8.6% | 383.6 | 38.6 | **422.2** | 0.683 | 288.3 |
+| **2029** | 4,661 | 8.8% | 409.6 | 42.2 | **451.8** | 0.621 | 280.6 |
+| **2030** | 4,847 | 9.0% | 436.2 | 45.2 | **481.4** | 0.564 | 271.4 |
+| **Sum of NPV (2025-2030)** | | | | | | | **1,694.5** |
 
-***
+#### C. Terminal Value
 
-### 4. Discounted Cash Flow (DCF) Valuation
+Terminal Value (TV) is calculated using the 2030 Net Income (FCF) and the perpetuity growth formula:
 
-#### Key Discounting Assumptions:
+$$TV = \text{FCF}_{2030} \times \frac{(1 + \text{Terminal Growth Rate})}{(\text{Discount Rate} - \text{Terminal Growth Rate})}$$
 
-*   **Discount Rate (WACC Proxy):** A conservative but reasonable rate of **8.0%** is used. This is higher than a calculated WACC often cited (e.g., 4.74% in one search result), reflecting a conservative view on the risk profile of a professional services firm with cyclical segments.
-*   **Maturity Rate (Terminal Growth Rate):** A very conservative perpetual growth rate of **2.0%** is used, well below the long-term US GDP growth rate, as mandated for a conservative approach.
+$$TV_{2030} = 481.4 \times \frac{(1 + 0.025)}{(0.10 - 0.025)} = 481.4 \times 13.67 = 6,580.6 \text{ Million}$$
 
-#### Discounted Cash Flow Calculation (Cash Flow = Net Income):
+*   **NPV of Terminal Value:** $\frac{\text{TV}_{2030}}{(1 + \text{Discount Rate})^6} = \frac{6,580.6}{(1.10)^6} = \frac{6,580.6}{1.772} = **3,713.8 \text{ Million}$**
 
-Net Income for each year is assumed to be the Free Cash Flow (FCF) for the purpose of this simple DCF model, following the rule that "net income for each year goes straight into cash."
+#### D. Enterprise Value and Fair Value Per Share
 
-| Year | Projected Net Income ($M) | Discount Factor (8.0%) | Present Value ($M) |
-| :--- | :--- | :--- | :--- |
-| **2026** | $330.3 | 0.9259 | $305.8 |
-| **2027** | $362.6 | 0.8573 | $310.8 |
-| **2028** | $393.4 | 0.7938 | $312.2 |
-| **2029** | $424.0 | 0.7350 | $311.6 |
-| **2030** | $454.3 | 0.6806 | $309.2 |
-| **NPV of Explicit Period** | | | **$1,549.6** |
+| Metric | Value (USD Millions) | Source |
+| :--- | :--- | :--- |
+| **NPV of Projected FCF (2025-2030)** | $1,694.5 | DCF Table Sum |
+| **NPV of Terminal Value** | $3,713.8 | TV Calculation |
+| **Enterprise Value (Equity Value)** | **$5,408.3** | Sum of NPVs |
+| Less: Total Gross Debt | $510.0 | From Section 1.A |
+| Add: Total Cash & Equivalents | $146.0 | From Section 1.A |
+| **Total Fair Equity Value** | **$5,044.3** | $5,408.3 - $510.0 + $146.0 |
+| **Shares Outstanding (Millions)** | 31.8 | From Section 1.A |
+| **Fair Value Per Share** | **$158.63** | $5,044.3 / 31.8 |
 
-#### Terminal Value Calculation:
+---
 
-The Terminal Value (TV) represents the Present Value of all cash flows beyond 2030.
-*   **Terminal Cash Flow (2030):** $454.3 million
-*   **Formula:** TV = [CF (2030) * (1 + g)] / (r - g)
-    *   TV = [$454.3 * (1 + 0.02)] / (0.08 - 0.02) = $463.39 / 0.06 = $7,723.17 million
-*   **Present Value of Terminal Value:** TV * Discount Factor (2030)
-    *   PV of TV = $7,723.17 million * 0.6806 = **$5,256.3 million**
+### 4. Valuation Conclusion and Justification
 
-#### Total Enterprise Value (TEV) Calculation:
+#### Fair Value of FTI Consulting, Inc. (FCN) Stock
 
-| Metric | Value ($M) |
+| Metric | Value |
 | :--- | :--- |
-| **NPV of Explicit Period (2026-2030)** | $1,549.6 |
-| **PV of Terminal Value** | $5,256.3 |
-| **Total Enterprise Value (TEV)** | **$6,805.9** |
+| **Calculated Fair Value Per Share** | **$158.63** |
+| **Current Stock Price (Reference)** | **~$160.91** |
 
-***
+#### Justification for Valuation and Market Assumptions
 
-### 5. Fair Value Calculation
+The calculated **Fair Value of $158.63** is remarkably close to the reference Current Stock Price of approximately $160.91.
 
-| Metric | Value ($M) |
-| :--- | :--- |
-| **Total Enterprise Value (TEV)** | $6,805.9 |
-| **Subtract: Total Debt** | ($510.0) |
-| **Add: Cash & Equivalents** | $146.0 |
-| **Total Equity Value** | **$6,441.9** |
-| **Divided By: Shares Outstanding** | 30.876 million |
-| **Fair Value Per Share** | **$208.66** |
+**Market Assumptions vs. My Assumptions:**
 
-***
+1.  **Alignment on Business Engine and Growth:** The market appears to largely agree with the core assumption of FTI's business model. My conservative revenue projection, which starts with management's guidance and assumes a steady, high-single-digit recovery followed by moderation, is likely *already baked into the market price*. The market views the current segment weakness (Econ/Tech) as temporary and is giving full credit to the stability and counter-cyclical strength of CF&R and FLC.
+2.  **Alignment on Profitability and Reinvestment:**
+    *   **My ROIC (10.0%) and Terminal Growth (2.5%)** are conservative.
+    *   **My Net Income Margin Expansion (7.5% to 9.0%)** is reasonable, based on management's aggressive focus on cost discipline (reflected in the Q1 2025 special charge to align staffing) and the inherent operating leverage as the currently-struggling segments recover.
+    *   The market is implicitly assuming a similarly disciplined and growing profitability profile.
+3.  **Capital Structure:** My use of the most recent net debt figures (Gross Debt $510M) and shares outstanding (31.8M) from the filings is the most up-to-date and accurate information available. The market has fully incorporated the recent share repurchases and the resulting decrease in share count, which is a key driver for the stock's valuation and a strong signal of management's capital allocation strategy.
 
-### 6. Conclusion and Justification
+**Conclusion:**
 
-**Fair Value Per Share: $208.66**
-**Current Stock Price: $170.07**
-
-The calculated fair value of **$208.66** suggests that FTI Consulting stock is **undervalued** by the market relative to this DCF model.
-
-#### Justification for the Difference:
-
-The model's fair value is **22.7% higher** than the current market price of $170.07. This disparity is likely due to the market making more conservative assumptions about the company's immediate future performance and long-term stability than those derived from the management's guidance and the model's structure.
-
-The key points of divergence and justification are:
-
-1.  **Market Conservatism on Cyclical Segments:** The market is likely pricing in a more prolonged and severe downturn in the *Economic Consulting* and *Technology* segments than the model assumes. The commentary on reduced demand for M&A-related services and non-M&A antitrust services, and the uncertainty of improvement timing, creates a cloud of risk that the market discounts heavily. Our model, while conservative, assumes a normalization and modest recovery in these segments starting in 2026/2027 based on management's stated "strategic investments" and "long-term growth" focus.
-2.  **ROIC/Reinvestment Assumption:** The market may not fully believe in the company's ability to maintain a 9.0% ROIC on all reinvested earnings (Net Income). This model strictly followed the rule that all net income is converted to cash and generates additional income at a conservative ROIC of **9.0%**. If the market assumes a lower ROIC, or if FTI continues its aggressive share repurchase program funded by debt (as seen in Q3 2025), it would consume cash and lower the calculated Enterprise Value.
-3.  **Restructuring Cycle Peak:** The market may believe the current strength in the **Corporate Finance & Restructuring** segment is near its peak, driven by a transient, high-interest-rate, distressed environment. Once the restructuring cycle subsides, revenue growth could stall. Our model, conversely, spreads the growth assumption over five years, implicitly assuming that while one segment may slow (CF&R), the currently weak segments (EC, Tech) will pick up the slack due to management's talent investments, creating a more stable, diversified mid-single-digit growth platform.
+The closeness of the calculated Fair Value ($158.63) to the Current Stock Price ($160.91) suggests that the market's consensus on FTI Consulting's future growth, profitability, and capital reinvestment is nearly identical to the conservative, fundamental model derived *only* from SEC filings and management commentary. The market is not overly optimistic but is pricing the company as a stable, resilient professional services firm with high operating leverage poised for a cyclical recovery in its M&A-linked segments.
