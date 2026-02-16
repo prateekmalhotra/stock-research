@@ -1,153 +1,159 @@
-## Valuation of Tronox Holdings plc (TROX) Stock
-
-This valuation is based on a Discounted Cash Flow (DCF) model using financial data from Tronox Holdings plc's SEC filings through Q2 2025 and guidance provided in the latest earnings call transcripts.
+This valuation of Tronox Holdings plc (TROX) stock follows a conservative, intrinsic value approach using a Discounted Cash Flow (DCF) methodology based strictly on SEC filing data and management commentary from the last four available earnings call transcripts (Q4 2024, Q1 2025, Q2 2025, and Q3 2025).
 
 ---
 
-### I. Financial Data from SEC Filings (as of June 30, 2025)
+## 1. Initial Financial Data (As of September 30, 2025)
 
-The following figures are sourced from the company's latest available SEC filings (Form 10-Q for Q2 2025) and associated earnings press releases.
+The base financial figures are sourced from the company's Q3 2025 financial results.
 
-| Metric | Value (Millions of USD) | Source/Notes |
+| Metric | Value (Millions of USD) | Source/Justification |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | **\$132** | As of June 30, 2025. |
-| **Total Debt** | **\$3,100** | As of June 30, 2025. The next significant maturity is not until 2029. |
-| **Shares Outstanding** | **158.52 Million** | Used for final valuation calculation. |
-| **Current Stock Price (TROX)** | **\$3.50** | Closing price as of October 31, 2025. |
+| **Total Cash & Cash Equivalents** | \$185 | Q3 2025 Balance Sheet. |
+| **Total Debt** | \$3,200 | Q3 2025 Balance Sheet/Press Release. |
+| **Shares Outstanding** | 158.55 million | Q3 2025 Ordinary Shares Issued and Outstanding. |
+| **Current Stock Price (as of Feb 16, 2026)** | *To be checked upon model completion.* | Used for final comparison. |
 
 ---
 
-### II. Business Engine and Revenue Projections
+## 2. Business Engine and Revenue Projections
 
-Tronox is a vertically integrated producer of Titanium Dioxide ($\text{TiO}_2$) pigment, a commodity business highly dependent on the global economic cycle (specifically construction and automotive demand) and the resulting supply/demand balance for $\text{TiO}_2$ and its feedstock, Zircon.
+Tronox is a global, vertically integrated producer of **Titanium Dioxide (TiO2)** pigment and **Zircon**. TiO2 is a commodity whose demand is closely tied to global GDP and industrial production (paints, plastics, paper). The company is currently in a cyclical downturn characterized by destocking, weak demand, and competitive pricing pressures.
 
-**Business Engine Assumptions:**
+### Business Engine Assumptions
 
-1.  **Cyclical Recovery (Volume & Price):** The company is currently in a cyclical trough, evidenced by a negative net income in Q1 and Q2 2025 and revised-down 2025 guidance. The core driver for future revenue is a recovery in $\text{TiO}_2$ demand/volume and subsequent pricing power. The market expects a H2 2025 recovery that was already softer than expected, so a strong, conservative recovery will be modeled for 2026 and 2027.
-2.  **Cost Improvement Program:** Management is focused on a cost improvement program expected to deliver **\$125 million to \$175 million** in sustainable, run-rate cost improvements by the end of 2026. This will be the primary driver for margin expansion.
-3.  **Vertical Integration/Stability:** Tronox's vertical integration provides a cost advantage, allowing it to better weather cyclical downturns.
-4.  **Long-Term Growth:** The $\text{TiO}_2$ market is tied to global GDP growth. A conservative long-term growth rate is used after the initial recovery phase.
+1.  **Cyclical Recovery:** The TiO2 cycle is expected to recover, as evidenced by management commentary noting a sequential increase in Q4 2025 volumes as a "front end of a recovery." A recessionary low point in 2025 precedes a stronger 2026/2027.
+2.  **Cost Rationalization:** The business engine will be driven by improved margins from cost-cutting initiatives. Management is targeting **\$125 million to \$175 million** in annualized savings by the end of 2026, primarily from operational efficiency and the closure of the Botlek plant. We will use the conservative end of **\$125 million** to model margin improvement.
+3.  **Long-Term Growth:** Beyond the recovery, a conservative long-term growth rate for a commodity chemical like TiO2 is low, aligning with global GDP growth.
 
-**Revenue Projections (2025 - 2030) (Millions of USD):**
+### Revenue Projections (Millions of USD)
 
-| Year | Basis / Assumption | $\text{TiO}_2$ Cycle Stage | Revenue Projection | Growth Rate |
-| :--- | :--- | :--- | :--- | :--- |
-| **2024 (Actual)** | Net Sales from 2024 10-K (Step 1 Search) | Trough | \$3,074 | N/A |
-| **2025 (Guidance)** | Midpoint of revised 2025 guidance (\$3.0B - \$3.1B). | Deep Trough | **\$3,050** | -0.8% |
-| **2026** | **Recovery Year 1:** Strong volume recovery and initial price firming, plus realization of half the cost savings program benefits. A 10% increase is conservative for a cyclical upswing. | Recovery | **\$3,355** | 10.0% |
-| **2027** | **Recovery Year 2:** Continued volume and price strength in the peak of the cycle, combined with full realization of cost improvements. | Peak Recovery | **\$3,758** | 12.0% |
-| **2028** | **Peak/Initial Softening:** Revenue growth moderates as pricing power fades from the peak. | Softening | **\$3,871** | 3.0% |
-| **2029** | **Moderation:** Growth settles toward long-term global GDP/industrial output. | Normal Cycle | **\$3,987** | 3.0% |
-| **2030** | **Long-Term Rate:** Conservative long-term growth rate for a mature, industrial commodity business. | Normal Cycle | **\$4,067** | 2.0% |
-
----
-
-### III. Margin and Net Income Projections
-
-The Net Income margin is the most volatile variable due to the cyclical nature of the business and the high fixed-cost structure. The key margin driver is the realization of the **\$125M - \$175M** in cost savings by the end of 2026.
-
-**Margin Assumptions:**
-
-*   **2025:** Uses the midpoint of the revised Adjusted EBITDA guidance (\$435M), reflecting the challenging market. The resulting Net Income loss reflects the ongoing cyclical downturn.
-*   **2026 - 2027:** Net Income Margin expands significantly due to high volume/price leverage in the upswing and the full impact of the $\text{Q4 2026}$ run-rate cost savings.
-*   **2028 - 2030:** Margin stabilizes to a conservative, long-term average (4.0\% - 5.0\%) for a commodity chemical producer through a full cycle.
-
-| Year | Revenue (\$M) | Adj. EBITDA Guidance | Adj. EBITDA Margin | Interest Exp. (Assumed) | D&A (Assumed) | **Net Income Margin** | **Net Income (Projected) (\$M)** |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024 (Actual)** | \$3,074 | \$564 (Est.) | 18.3% | \$200 | \$200 | **-1.8%** | \$(54) |
-| **2025** | \$3,050 | \$435 (Midpoint) | 14.3% | \$200 | \$200 | **-2.5%** | \$(76) |
-| **2026** | \$3,355 | N/A | 18.0% | \$200 | \$200 | **1.8%** | \$60 |
-| **2027** | \$3,758 | N/A | 22.0% | \$200 | \$200 | **4.7%** | \$177 |
-| **2028** | \$3,871 | N/A | 21.0% | \$200 | \$200 | **4.4%** | \$170 |
-| **2029** | \$3,987 | N/A | 20.0% | \$200 | \$200 | **4.0%** | \$159 |
-| **2030** | \$4,067 | N/A | 20.0% | \$200 | \$200 | **4.0%** | \$163 |
-
-***Notes:***
-*   *Interest Expense:* Kept flat at a conservative \$200M/year, reflecting the high debt load and fixed rate swaps.
-*   *D&A:* Kept flat at a conservative \$200M/year.
-*   *Net Income Approximation:* For modeling purposes, $\text{NI} \approx \text{EBITDA} - \text{D\&A} - \text{Interest}$.
-
-### IV. Net Income with Return on Invested Capital (ROIC)
-
-The ROIC metric rewards the company for compounding earnings. I will calculate a forward Net Income that includes a conservative return on the previous year's retained earnings (cash from NI).
-
-*   **Historical ROIC:** The company's trailing 12-month Net Leverage was 6.1x in Q2 2025, and it has been unprofitable in recent periods.
-*   **Conservative ROIC Assumption:** A conservative positive ROIC of **3.0\%** is used on all retained net income for the following year's additional income, acknowledging the potential for positive future returns from a vertically integrated asset base when the cycle turns.
-
-| Year | Net Income (Base) (\$M) | Cash Retained (Previous Year) (\$M) | ROIC (3.0%) on Retained Cash (\$M) | **Net Income (Adjusted) (\$M) [Cash Flow]** |
-| :--- | :--- | :--- | :--- | :--- |
-| **2025** | \$(76) | \$0 | \$0 | \$(76) |
-| **2026** | \$60 | \$(76) | \$(2.3) | \$58 |
-| **2027** | \$177 | \$(18) | \$(0.5) | \$176 |
-| **2028** | \$170 | \$158 | \$4.7 | \$175 |
-| **2029** | \$159 | \$333 | \$10.0 | \$169 |
-| **2030** | \$163 | \$502 | \$15.1 | **\$178** |
-
----
-
-### V. Discounted Cash Flow (DCF) Calculation
-
-The Net Income (Adjusted) for each year is used as a proxy for Free Cash Flow to the Firm (FCFF), as instructed.
-
-*   **Discount Rate (Conservative but Reasonable):** Given the high net leverage (6.1x) and cyclical nature of the business, a high-risk rate is necessary. A conservative **10.0\%** is chosen.
-*   **Maturity Rate (Conservative Terminal Growth Rate):** For a mature, cyclical commodity company, the long-term growth rate should not exceed global GDP. A very conservative rate of **1.0\%** is used.
-
-**Terminal Value (TV) Calculation:**
-$$\text{TV}_{2030} = \frac{\text{Cash Flow}_{2030} \times (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}$$
-$$\text{TV}_{2030} = \frac{\$178 \text{M} \times (1 + 0.01)}{0.10 - 0.01} = \frac{\$179.78 \text{M}}{0.09} = \$1,997.56 \text{M}$$
-
-**NPV Calculation:**
-
-| Year | Cash Flow (\$M) | Discount Factor (10.0%) | NPV of CF (\$M) |
+| Year | Rationale | Projected Growth | Projected Revenue |
 | :--- | :--- | :--- | :--- |
-| 2025 | \$(76) | 0.9091 | \$(69) |
-| 2026 | \$58 | 0.8264 | \$48 |
-| 2027 | \$176 | 0.7513 | \$132 |
-| 2028 | \$175 | 0.6830 | \$119 |
-| 2029 | \$169 | 0.6209 | \$105 |
-| 2030 (Base) | \$178 | 0.5645 | \$101 |
-| 2030 (TV) | \$1,998 | 0.5645 | \$1,128 |
-| **Sum of NPV (Projected CF + TV)** | | | **\$1,564** |
+| **2025 (E)** | Use the conservative end of the full-year guidance range (\$3.0 - \$3.1B) from Q2/Q3 2025. | -3.2% (vs. FY 2024 \$3.1B) | **\$3,000** |
+| **2026 (E)** | Strong initial cyclical recovery + full benefit of Q4 2025 volume ramp. Below peak revenue (e.g., FY 2022 was \$3.58B). | +15.0% | **\$3,450** |
+| **2027 (E)** | Continued strong recovery, full realization of cost savings, and market rebalancing (e.g., competitor insolvency mentioned as a future benefit). | +10.0% | **\$3,795** |
+| **2028 (E)** | Mature phase of the cycle; growth slows down. | +3.0% | **\$3,909** |
+| **2029 (E)** | Growth stabilizes towards a long-term rate, slightly above conservative GDP. | +2.5% | **\$4,007** |
+| **2030 (E)** | Continuation of conservative long-term growth rate. | +2.0% | **\$4,087** |
 
 ---
 
-### VI. Fair Value Calculation and Justification
+## 3. Margin and Net Income Projections
 
-The Fair Value is calculated by taking the sum of the Net Present Value of Future Cash Flows, adding the current cash, and subtracting the total debt.
+Net Income Margin will be a key driver, as the company is currently unprofitable (Net Loss of \$48M in FY 2024, \$99M in Q3 2025). We must project a recovery in profitability based on management's cost-saving guidance and increased operating rates.
+
+| Year | Revenue (A) | Net Income Margin % (B) | Cost Savings (C) | Net Income before ROIC (D = A * B + C) |
+| :--- | :--- | :--- | :--- | :--- |
+| **2025 (E)** | \$3,000 | -1.5% | \$60 (partial savings) | **\$15** |
+| **2026 (E)** | \$3,450 | 3.0% | \$125 (full run-rate savings) | **\$238.5** |
+| **2027 (E)** | \$3,795 | 4.5% | \$125 | **\$295.75** |
+| **2028 (E)** | \$3,909 | 5.5% | \$125 | **\$340.00** |
+| **2029 (E)** | \$4,007 | 6.0% | \$125 | **\$365.42** |
+| **2030 (E)** | \$4,087 | 6.0% | \$125 | **\$370.22** |
+
+**Justification for Margins:**
+*   **2025:** A net loss is projected to turn into a small profit (\$15M) due to the first tranche of cost savings (assuming \$60M of the \$125M is realized) despite the weak market, reflecting a deeply conservative start.
+*   **2026:** Net Income Margin is modeled to recover to 3.0% (from -1.5% in 2025) plus the full \$125M in annual savings from the efficiency program, reflecting the start of the cyclical recovery and the full impact of cost cuts.
+*   **2027-2030:** Margins conservatively peak at **6.0%**. This is well below the company's historical peak margins and reflects a cautious long-term view for a capital-intensive commodity business while still benefiting from the vertical integration and operational improvements.
+
+---
+
+## 4. Discounted Cash Flow (DCF) Calculation
+
+### Assumptions
+*   **ROIC Assumption:** We assume a conservative **5.0%** ROIC. While the company has had periods of negative net income, 5.0% is a reasonable and conservative floor for a capital-intensive business in the recovery phase, significantly lower than the company's past high-cycle ROIC figures.
+*   **Maturity Rate (Terminal Growth Rate):** A conservative long-term growth rate of **1.0%** is used. This is well below global GDP and the company's projected 2030 growth, reflecting a very cautious terminal value assumption for a mature commodity business.
+*   **Discount Rate (WACC):** A conservative discount rate of **9.0%** is used. This is a reasonable WACC estimate for a company with a high debt load and cyclical revenue, balancing the cost of debt and equity.
+
+### Projected Cash Flow (Net Income Conversion) and NPV
+
+**Rule Applied:** Net Income for next year = (Net Income from that year) + (ROIC * Net Income converted to cash from previous year).
+
+| Year | Net Income before ROIC (A) | Cash from Previous Year (B) | ROIC Income (C = 5.0% * B) | Final Net Income (A+C) | Discount Factor (9.0%) | NPV of Cash Flow |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2025** | \$15 | \$0 | \$0 | **\$15.00** | 0.9174 | \$13.76 |
+| **2026** | \$238.5 | \$15.00 | \$0.75 | **\$239.25** | 0.8417 | \$201.37 |
+| **2027** | \$295.75 | \$254.25 | \$12.71 | **\$308.46** | 0.7722 | \$238.11 |
+| **2028** | \$340.00 | \$562.71 | \$28.14 | **\$368.14** | 0.7084 | \$260.80 |
+| **2029** | \$365.42 | \$930.85 | \$46.54 | **\$411.96** | 0.6499 | \$267.73 |
+| **2030** | \$370.22 | \$1,342.81 | \$67.14 | **\$437.36** | 0.5963 | \$260.78 |
+| **Sub-Total NPV (2025-2030)** | | | | | | **\$1,242.55** |
+
+*Note: Cash from Previous Year (B) is the cumulative sum of all Final Net Income (A+C) from prior years (e.g., for 2027, B = 2025 Final NI + 2026 Final NI = $15.00 + $239.25 = $254.25).*
+
+### Terminal Value (TV) Calculation (2030)
+
+The Terminal Value represents the value of all cash flows after 2030.
+
+$$
+\text{TV} = \frac{\text{Final Net Income (2030)} \times (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}
+$$
+
+$$
+\text{TV} = \frac{\$437.36 \times (1 + 0.01)}{0.09 - 0.01} = \frac{\$441.73}{\mathbf{0.08}} = \mathbf{\$5,521.63} \text{ Million}
+$$
+
+**NPV of Terminal Value:**
+
+$$
+\text{NPV of TV} = \text{TV} \times \text{Discount Factor (2030)}
+$$
+
+$$
+\text{NPV of TV} = \$5,521.63 \times 0.5963 = \mathbf{\$3,293.00} \text{ Million}
+$$
+
+### Total Net Present Value (NPV)
+
+$$
+\text{Total NPV} = \text{Sub-Total NPV} + \text{NPV of TV}
+$$
+
+$$
+\text{Total NPV} = \$1,242.55 \text{ Million} + \$3,293.00 \text{ Million} = \mathbf{\$4,535.55} \text{ Million}
+$$
+
+---
+
+## 5. Fair Value Calculation and Justification
+
+### Fair Value Calculation
 
 | Metric | Value (Millions of USD) |
 | :--- | :--- |
-| **A. NPV of Future Cash Flows (2025 - Terminal)** | **\$1,564** |
-| B. Current Cash & Cash Equivalents | \$132 |
-| C. Total Debt | \$3,100 |
-| **Total Equity Value (A + B - C)** | **\$(1,404)** |
-| Shares Outstanding (Millions) | 158.52 |
-| **Fair Value Per Share (Total Equity / Shares)** | **\$(8.86)** |
-
-**Fair Value Per Share: $\$(8.86)$**
-
-**Current Stock Price (October 31, 2025): \$3.50**
+| **Total NPV (Equity Value)** | \$4,535.55 |
+| **(+) Total Cash & Cash Equivalents** | \$185.00 |
+| **(-) Total Debt** | -\$3,200.00 |
+| **Calculated Equity Value** | **\$1,520.55** |
+| **Shares Outstanding** | 158.55 Million |
+| **Fair Value Per Share** | **\$9.59** |
 
 ---
 
-### VII. Justification and Market Interpretation
+## 6. Conclusion and Market Comparison
 
-The calculated Fair Value of $\$(8.86)$ suggests that, under these conservative assumptions, the equity value is **negative**, meaning the debt burden outweighs the net present value of all future cash flows. However, the stock currently trades at **\$3.50** per share.
+| Metric | Value |
+| :--- | :--- |
+| **Fair Value Per Share (TROX)** | **\$9.59** |
+| **Current Stock Price** | **\$26.35 (As of February 13, 2026)** |
 
-**Justification for the Disparity (Why is the Market Trading at \$3.50?):**
+### Justification of Discrepancy
 
-The significant difference between the calculated negative fair value and the market price highlights that **the market is pricing in a much faster and more robust cyclical recovery than the conservative DCF model assumes.**
+My calculated fair value of **\$9.59** is significantly lower than the market price of **\$26.35**. This large discrepancy suggests that **the market is pricing in a much faster, stronger, and longer-lasting cyclical recovery with higher margins** than my conservative model assumes.
 
-1.  **Market Assumption on Cyclical Recovery (The Business Engine):**
-    *   **DCF Assumption:** The model assumes the current trough (2025) is deep, leading to a negative starting cash flow, and then projects a robust but *conservative* recovery in 2026-2027 (10\% and 12\% revenue growth, 4\%+ Net Income Margin).
-    *   **Market Assumption:** The market believes the cyclical recovery will be **much stronger and sooner**, leading to *significantly* higher Net Income Margins (e.g., 6\%-8\%) and *higher* peak revenues (\$4.5B+) in 2026-2027. The $\text{TiO}_2$ industry has historically seen very high profit margins during peak cycles, and the market is pricing in the full, optimistic value of that peak.
-2.  **Market Assumption on Cost Savings and Vertical Integration:**
-    *   The market is likely fully factoring in the **\$125M - \$175M** in sustainable cost savings by the end of 2026, leading to a permanent structural reduction in the cost base and a higher floor for profitability in future cycles.
-3.  **Market Assumption on Debt Refinancing/Solvency:**
-    *   The market is not concerned about the high debt load (\$3.1B) because the next major maturity is not until 2029, allowing the company time to capitalize on the expected cyclical recovery to generate sufficient cash flow for debt paydown or favorable refinancing. The DCF is conservative by not explicitly modeling debt paydown and using a high discount rate due to the risk.
-4.  **Market Assumption on Terminal Value:**
-    *   A conservative 1.0\% terminal growth rate is likely too low for the market's expectation. The market is likely pricing in a terminal value that assumes a return to profitability and a much higher long-term growth rate for the underlying business due to the vertical integration and cost improvements, which significantly raises the overall NPV.
+**Market Assumptions vs. My Conservative Assumptions:**
 
-**Conclusion:**
+| Factor | Conservative Model Assumption | Market Implied Assumption |
+| :--- | :--- | :--- |
+| **Revenue Growth** | Slow ramp from 2025 to 2.0% terminal growth. | Faster return to peak revenue (e.g., 2022's \$3.58B) and sustained higher growth. |
+| **Net Income Margin** | Peak margin of **6.0%** (plus cost savings). | Assumes a full return to historical mid-cycle or peak-cycle margins (e.g., 10%+). |
+| **ROIC/Reinvestment** | Only 5.0% ROIC on converted cash. | Assumes highly efficient capital allocation and a much higher ROIC due to the benefits of vertical integration. |
+| **Terminal Value** | Low 1.0% Terminal Growth Rate. | Assumes a much higher terminal growth rate (3%+) or a lower Discount Rate, significantly boosting the valuation. |
 
-The calculated negative fair value of **\$(8.86)** is a reflection of a DCF model that is highly sensitive to the high debt load (\$3.1B) and an unfavorable starting point (a cyclical trough with negative profitability). The market price of **\$3.50** reflects a fundamentally different and **optimistic** assumption about the magnitude and velocity of the commodity cycle's recovery. The market essentially views TROX as a highly leveraged call option on the $\text{TiO}_2$ cycle, expecting a massive surge in cash flows (margins and volume) to quickly pay down debt and restore a positive equity value.
+**The market is likely betting on:**
+
+1.  **A sharp V-shaped recovery in TiO2 pricing:** The market believes the current destocking cycle is near its end and that aggressive price increases will materialize quickly in 2026/2027, well surpassing my assumed revenue growth.
+2.  **Full realization of strategic benefits:** The market gives full credit to the vertical integration model, the \$125M+ in cost savings, and potential future value from the rare earth strategy, leading to a structural improvement in profitability (higher Net Income Margins) versus the previous cycle.
+3.  **Cyclical Peak Pricing:** The market is likely pricing TROX not on a mid-cycle or through-cycle average, but closer to the value it would have at the next cyclical peak, which could be 2027-2028 based on my model's recovery timeline.
+
+**Conclusion:** My conservative valuation, which assumes a slow recovery and modest long-term profitability for a highly cyclical commodity business, indicates the stock is currently **overvalued** based on intrinsic cash flows alone. The current market price reflects high investor optimism regarding the magnitude and duration of the next cyclical upswing, coupled with the permanent structural cost improvements outlined by management.
