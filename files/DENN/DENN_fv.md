@@ -1,152 +1,130 @@
+This valuation is performed under a significant market-specific condition: **Denny's Corporation (DENN) has entered into a definitive merger agreement to be acquired for \$6.25 per share in cash.** [cite: 11 in step 1] The current market price has converged to this acquisition price, indicating the transaction is highly likely to close.
+
+Therefore, the calculated Fair Value from the Discounted Cash Flow (DCF) model represents the company's *standalone intrinsic value* over a long-term horizon (to 2030), which is a purely academic exercise given the short-term certainty of the buyout price.
+
+***
+
 ## Denny's Corporation (DENN) Stock Valuation
 
-This valuation uses a Discounted Cash Flow (DCF) model based on financial data obtained from the Company's most recent SEC filings and commentary from the last four earnings call transcripts. All assumptions are justified by the stated business engine and management guidance.
+### 1. Initial Financial Data (SEC Filings)
 
----
-
-### I. Key Financial Data (Q2 2025)
-
-The following financial figures are sourced from the Company's most recent Consolidated Balance Sheets and earnings call summaries, with amounts in thousands of U.S. Dollars (except per share data).
-
-| Metric | Value (in thousands) | Source/Justification |
+| Metric | Value (in millions) | Source/Reference |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | \$1,166 | Consolidated Balance Sheet as of June 25, 2025. |
-| **Total Debt** | \$279,000 | Approximate Total Debt Outstanding as of Q2 2025, per earnings call. |
-| **Shares Outstanding** | 51,500 | Used a rounded estimate of 51.50 million shares. |
-| **Current Stock Price** | \$4.13 (Hypothetical) | *Note: The current price is not searched, but a placeholder is used for the final comparison.* |
+| **Total Cash & Cash Equivalents** | \$1.166 | Based on Q1 2025 Consolidated Balance Sheets [cite: 7 in step 1] |
+| **Total Debt** | \$269.2 | Based on Q3 2025 total debt outstanding [cite: 17 in step 1] |
+| **Shares Outstanding** | 51.5 | $51,498,994$ as of Oct 28, 2025 [cite: 15 in step 1] |
+| **Current Market Price** | \$6.25 | Last trade price as of January 16, 2026, which matches the buyout price. |
 
----
+***
 
-### II. Business Engine Analysis & Future Assumptions
+### 2. Business Engine and Revenue Projection (2025 - 2030)
 
-Denny's operates a highly franchised model, where **Franchise & License Revenue** (Royalties, Advertising fees, etc.) is the primary contributor to profit due to its high margin ($\sim$51\%). **Company Restaurant Sales** are a smaller, lower-margin (11\%-12\%) revenue stream.
+Denny's Corporation's business engine is driven by its franchising model (generating franchise and license revenue) and its small base of Company Restaurant Sales, split between the mature **Denny's** brand and the growth brand **Keke's Breakfast Cafe**. The strategy involves optimizing the Denny's franchise system, pushing value, and growing Keke's.
 
-The business engine's key drivers, based on management commentary, are:
-
-1.  **Strategic Culling and Stabilization of Denny's:** Management is intentionally closing 70 to 90 lower-volume Denny's franchise restaurants in 2025 to improve the health of the brand. This will cause a near-term decline in total unit count and franchise revenue. Same-restaurant sales (SSS) are weak, with 2025 guidance between (2.0)\% and 1.0\%, reflecting a focus on value offers (\$2, \$4, \$6, \$8) to attract value-conscious consumers in a challenging macro-environment.
-2.  **Keke's Breakfast Cafe Expansion:** The Keke's brand is a growth engine, with positive SSS (4.0\% in Q2 2025) and continued expansion (25-40 consolidated openings in 2025). Keke's has higher household income customers than Denny's.
-3.  **Off-Premise/Digital:** Off-premise sales remain a key component (21\% of sales [cite: 10 in previous search]), providing an avenue for sales growth outside of traditional dine-in.
-4.  **Margin Management:** Management is focused on cost-saving initiatives, targeting up to 200 basis points in margin savings [cite: 7 in previous search].
-
-#### A. Revenue Projection Model
-
-| Year | Total Revenue (in thousands) | Rationale |
+| Metric | Business Driver / Constraint | Source/Assumption |
 | :--- | :--- | :--- |
-| **TTM** | \$454,000 [cite: 13 in previous search] | Trailing Twelve Months Revenue (Q3 2024 - Q2 2025). |
-| **2025** | \$450,000 | **Conservative Assumption:** A slight **(0.9)\% decline** from TTM. This is driven by the strategic closure of 70-90 low-volume Denny's units, which is expected to offset the modest SSS and Keke's growth. |
-| **2026** | \$454,500 | **Conservative Assumption:** A minimal **1.0\% growth**. This accounts for the closure program winding down and the full-year impact of Keke's expansion and Denny's newly stabilized, higher-quality unit base starting to generate a minor net positive effect. |
-| **2027** | \$463,590 | **Conservative Assumption:** **2.0\% growth**. The "culling" strategy has completed, and the stabilized brand is now achieving moderate SSS growth and net unit growth from Keke's and remodeled Denny's. This is in-line with conservative long-term restaurant industry growth. |
-| **2028** | \$472,862 | **Conservative Assumption:** **2.0\% growth**. Sustained moderate growth. |
-| **2029** | \$482,319 | **Conservative Assumption:** **2.0\% growth**. Sustained moderate growth. |
-| **2030** | \$491,965 | **Conservative Assumption:** **2.0\% growth**. Sustained moderate growth. |
+| **Base Revenue (FY 2024)** | \$452.3 million | Fiscal Year 2024 Revenue [cite: 13 in step 1] |
+| **Denny's SRS** | Soft/Negative (-1.3% in Q2 2025). | Conservative: Assume Denny's System-wide Sales (majority of revenue base) remains flat (0% growth) as franchise closures offset modest check increases. |
+| **Keke's Growth** | Positive (4.0% SRS in Q2 2025). | Conservative: Assume Keke's unit expansion (new cafes) and SRS growth drives a modest overall revenue uplift. |
+| **Management Commentary** | The pending acquisition means no new financial guidance for FY 2025. [cite: 17 in step 1] | **Conservative Assumption:** Given the company's mature structure and focus on optimization/refranchising rather than aggressive organic growth (prior guidance included closures), and the lack of updated long-term guidance, a conservative low-single-digit growth rate is appropriate. |
 
-#### B. Margin and Net Income Projection
+#### Revenue Projections (in millions)
 
-*   **Gross Margin / Operating Margin:** The TTM Net Income Margin is low (Net Income is $\sim$ \$10M for TTM; \$10M / \$454M $\approx$ 2.2\%). Due to the high-margin franchise model, a higher blended margin is expected as Company-Owned units are refranchised.
-*   **Net Income Margin Assumption:** I will conservatively project an average long-term Net Income Margin of **2.5\%** of total revenue. This is a slight improvement from the TTM result, factoring in the promised margin savings and the shift to a higher-margin, asset-light franchise model.
-
-| Year | Revenue (A) | Net Income Margin | Net Income Before ROIC (B = A * Margin) |
+| Year | Growth Rate | Projected Revenue | Justification |
 | :--- | :--- | :--- | :--- |
-| **2025** | \$450,000 | 2.5\% | \$11,250 |
-| **2026** | \$454,500 | 2.5\% | \$11,363 |
-| **2027** | \$463,590 | 2.5\% | \$11,590 |
-| **2028** | \$472,862 | 2.5\% | \$11,822 |
-| **2029** | \$482,319 | 2.5\% | \$12,058 |
-| **2030** | \$491,965 | 2.5\% | \$12,299 |
+| **Base (FY 2024)** | N/A | \$452.3 | Actual FY 2024 Revenue. [cite: 13 in step 1] |
+| **2025** | 1.0% | \$456.8 | Conservative estimate reflecting minimal net system growth and a slight check increase. |
+| **2026** | 1.5% | \$463.6 | Slight acceleration as Keke's growth slightly outweighs Denny's optimization. |
+| **2027** | 1.5% | \$470.5 | Consistent low-single-digit growth. |
+| **2028** | 2.0% | \$479.9 | Slight increase on belief in Keke's compounding growth. |
+| **2029** | 2.0% | \$489.5 | Consistent growth. |
+| **2030** | 2.0% | \$499.3 | Consistent growth. |
 
-#### C. ROIC Assumption and Final Cash Flow (Net Income)
+***
 
-The Company has negative shareholder equity [cite: 10 in previous search], which leads to a meaningless or negative traditional ROIC calculation. Following the rule, I will assume a conservative but reasonable positive ROIC on the reinvested cash (Net Income from the previous year).
+### 3. Net Income Projection and DCF Inputs
 
-*   **Conservative ROIC Assumption:** **3.0\%**. This assumes management can generate a low, steady return on the portion of net income that is reinvested into the business (e.g., Keke's expansion, Denny's remodels).
-*   **Cash Flow to Equity (CF):** The Net Income is used as the proxy for Free Cash Flow to Equity (FCFE).
-    $$CF_t = \text{Net Income}_t + (\text{Net Income}_{t-1} \times \text{ROIC})$$
+#### A. Margin & ROIC Assumptions
 
-| Year | NI Before ROIC (B) | ROIC on Prior NI (C = $\text{NI}_{t-1} \times 3.0\%$) | Total FCFE (D = B + C) |
+*   **Net Income Margin:** FY 2024 Net Income Margin was 4.8%. [cite: 13 in step 1] Given the relatively high stability of the franchising model (Franchise Operating Margin of ~51-52%) [cite: 17 in step 1], I will assume a stable Net Income Margin of **4.8%** for all projected years.
+*   **Base Net Income (FY 2024):** \$21.6 million. [cite: 13 in step 1]
+*   **ROIC (Return on Invested Capital):** Past ROIC was cited at 7.70% (non-SEC proxy). [cite: 1 in step 1] To be conservative, I will use a conservative but reasonable positive ROIC of **5.0%**.
+    *   *Net Income for Year N = (Projected Revenue for Year N \* Net Income Margin) + (Net Income for Year N-1 \* ROIC).*
+
+#### B. Discounted Cash Flow Assumptions
+
+*   **Discount Rate (Conservative but Reasonable):** **9.0%**. This is a conservative estimate for the cost of equity/capital for a relatively mature, publicly traded restaurant company that is heavily franchised and carries significant debt, and is higher than the WACC estimate of 6.77% found in the search results. [cite: 1 in step 1]
+*   **Maturity Rate (Conservative):** **3.0%**. This is the perpetual growth rate for the terminal value, which is very conservative for a mature business model, aligning with or below long-term GDP and inflation forecasts.
+
+#### C. Projected Net Income and Discounted Cash Flow (in millions)
+
+| Year | Projected Revenue | Base Net Income (Rev \* 4.8%) | Net Income from ROIC (Prev Year NI \* 5.0%) | Total Net Income (Cash Flow) | Discount Factor (9.0%) | Present Value (PV) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2024 (Base)** | \$452.3 | N/A | N/A | \$21.60 | N/A | N/A |
+| **2025** | \$456.8 | \$21.93 | \$1.08 | **\$23.01** | 0.917 | \$21.09 |
+| **2026** | \$463.6 | \$22.25 | \$1.15 | **\$23.40** | 0.842 | \$19.70 |
+| **2027** | \$470.5 | \$22.58 | \$1.17 | **\$23.75** | 0.772 | \$18.33 |
+| **2028** | \$479.9 | \$23.04 | \$1.19 | **\$24.23** | 0.708 | \$17.19 |
+| **2029** | \$489.5 | \$23.50 | \$1.21 | **\$24.71** | 0.650 | \$16.06 |
+| **2030** | \$499.3 | \$23.97 | \$1.24 | **\$25.21** | 0.596 | \$15.02 |
+| **Sub-Total NPV** | | | | | | **\$107.39** |
+
+#### D. Terminal Value and Final NPV
+
+**Terminal Value (TV) Calculation (at end of 2030):**
+*   TV = [Cash Flow 2030 \* (1 + Maturity Rate)] / (Discount Rate - Maturity Rate)
+*   TV = [\$25.21 million \* (1 + 0.03)] / (0.09 - 0.03)
+*   TV = \$25.97 million / 0.06 = **\$432.83 million**
+
+**Terminal Value Present Value (PV) Calculation:**
+*   TV PV = TV / (1 + Discount Rate)^(Terminal Year)
+*   TV PV = \$432.83 million / (1 + 0.09)^6
+*   TV PV = \$432.83 million \* 0.596 (same as 2030 DF) = **\$257.87 million**
+
+**Total Net Present Value (NPV):**
+*   Total NPV = Sub-Total NPV (2025-2030) + Terminal Value PV
+*   Total NPV = \$107.39 million + \$257.87 million = **\$365.26 million**
+
+***
+
+### 4. Fair Value Calculation
+
+**Fair Value of Equity = Total NPV + Cash & Cash Equivalents - Total Debt**
+
+*   Total NPV: \$365.26 million
+*   Cash & Cash Equivalents: \$1.166 million [cite: 7 in step 1]
+*   Total Debt: \$269.2 million [cite: 17 in step 1]
+
+*   Fair Value of Equity = \$365.26 million + \$1.166 million - \$269.2 million = **\$97.23 million**
+
+**Fair Value Per Share = Fair Value of Equity / Shares Outstanding**
+
+*   Shares Outstanding: 51.5 million [cite: 15 in step 1]
+*   Fair Value Per Share = \$97.23 million / 51.5 million shares = **\$1.89 per share**
+
+***
+
+## Final Valuation and Justification
+
+### Fair Value of Denny's Corporation (DENN) Stock
+
+Based on the conservative long-term Discounted Cash Flow (DCF) model:
+
+**Fair Value Per Share: \$1.89**
+
+### Market Comparison and Justification
+
+| Metric | DCF Fair Value (Standalone) | Market Price / Buyout Value | Difference |
 | :--- | :--- | :--- | :--- |
-| **2025** | \$11,250 | \$0 (Base Year) | **\$11,250** |
-| **2026** | \$11,363 | \$338 | **\$11,701** |
-| **2027** | \$11,590 | \$351 | **\$11,941** |
-| **2028** | \$11,822 | \$358 | **\$12,180** |
-| **2029** | \$12,058 | \$365 | **\$12,423** |
-| **2030** | \$12,299 | \$373 | **\$12,672** |
+| **Value Per Share** | \$1.89 | \$6.25 | Market is **230% higher** |
 
----
+**Justification for the Difference:**
 
-### III. Discounted Cash Flow (DCF) Analysis
+The calculated standalone intrinsic value of **\$1.89 per share** is significantly lower than the market's current price of **\$6.25 per share**. The difference is not due to a flaw in the DCF assumptions but is entirely due to the market pricing the stock based on the definitive, all-cash acquisition offer.
 
-#### A. Rate Assumptions
+*   **Market Reality (The Deal):** Denny's Corporation has a definitive agreement to be acquired by Sparkle Topco Corp. (an affiliate of TriArtisan Capital Advisors) for **\$6.25 in cash per share**. [cite: 11 in step 1] The market price has converged to this offer price, which is the ceiling for the stock's value (minus arbitrage opportunity), making the DCF irrelevant for investment decision-making.
 
-| Metric | Value | Justification |
-| :--- | :--- | :--- |
-| **Conservative Discount Rate (WACC)** | **9.0\%** | A reasonable WACC for a franchised restaurant company. It balances the stability of the franchise model with the inherent operational risk and negative equity position. |
-| **Conservative Maturity Rate (Terminal Growth Rate)** | **1.0\%** | A conservative long-term growth rate, reflecting the expectation that the business will mature and grow in-line with or slightly below long-term U.S. GDP/inflation. |
+*   **The Market's Implicit Assumptions (The Buyer's View):** The acquirer, TriArtisan Capital, is essentially making a much more optimistic assumption about the company's future free cash flow, or has a lower cost of capital, and/or plans to implement aggressive operational changes (e.g., deeper cost cuts, significant refranchising, or more aggressive unit growth/synergies) that generate a standalone value of at least \$6.25 per share.
+    *   To get to a DCF Fair Value of \$6.25, the Total NPV would need to be approximately \$590 million (\[\$6.25 \* 51.5M shares\] + \$269.2M Debt - \$1.166M Cash). This would require a much more aggressive Perpetual Growth Rate (Maturity Rate) in the Terminal Value calculation, likely in the range of **5.5% to 6.0%**, or a significantly lower Discount Rate (WACC). The difference of $590M - $365.26M $\approx$ $225M$ is the premium the buyer is willing to pay over the conservative standalone intrinsic value.
 
-#### B. NPV Calculation
-
-| Year | FCFE (in thousands) (D) | Discount Factor $\left(1 / (1 + 9.0\%)^t\right)$ | Net Present Value (NPV) (in thousands) |
-| :--- | :--- | :--- | :--- |
-| **2025** (t=1) | \$11,250 | 0.9174 | \$10,321 |
-| **2026** (t=2) | \$11,701 | 0.8417 | \$9,848 |
-| **2027** (t=3) | \$11,941 | 0.7722 | \$9,221 |
-| **2028** (t=4) | \$12,180 | 0.7084 | \$8,629 |
-| **2029** (t=5) | \$12,423 | 0.6499 | \$8,074 |
-| **2030** (t=6) | \$12,672 | 0.5963 | \$7,560 |
-| **Sum of NPV (2025-2030)** | | | **\$53,653** |
-
-#### C. Terminal Value Calculation
-
-1.  **Terminal Value (TV) in 2030:**
-    $$\text{TV}_{2030} = \left(\text{FCFE}_{2030} \times (1 + \text{Maturity Rate})\right) / (\text{Discount Rate} - \text{Maturity Rate})$$
-    $$\text{TV}_{2030} = \left(\$12,672 \times (1 + 0.01)\right) / (0.09 - 0.01)$$
-    $$\text{TV}_{2030} = \$12,799 / 0.08 = \$159,988 \text{ thousand}$$
-
-2.  **Net Present Value of Terminal Value (NPV TV):**
-    $$\text{NPV TV} = \text{TV}_{2030} \times \text{Discount Factor}_{t=6}$$
-    $$\text{NPV TV} = \$159,988 \times 0.5963 = \$95,438 \text{ thousand}$$
-
-3.  **Total Enterprise Value (Equity Value):**
-    $$\text{Total Equity Value} = \text{Sum of NPV (2025-2030)} + \text{NPV TV}$$
-    $$\text{Total Equity Value} = \$53,653 + \$95,438 = \mathbf{\$149,091} \text{ thousand}$$
-
----
-
-### IV. Fair Value Calculation
-
-$$\text{Fair Value of Stock} = (\text{Total Equity Value} + \text{Total Cash} - \text{Total Debt}) / \text{Shares Outstanding}$$
-
-| Metric | Value (in thousands) |
-| :--- | :--- |
-| Total Equity Value | \$149,091 |
-| PLUS: Total Cash & Cash Equivalents | \$1,166 |
-| LESS: Total Debt | (\$279,000) |
-| **Total Fair Market Value of Equity** | **(\$128,743)** |
-
-**Fair Value Per Share:**
-$$\text{Fair Value Per Share} = \text{Total Fair Market Value of Equity} / \text{Shares Outstanding}$$
-$$\text{Fair Value Per Share} = (-\$128,743 \text{ thousand}) / 51,500 \text{ thousand shares} = \mathbf{(\$2.50) \text{ per share}}$$
-
----
-
-### V. Justification and Market Comparison
-
-The calculated **Fair Value Per Share is (\$2.50)**.
-
-If we assume a hypothetical current market price of **\$4.13** per share (based on common rounding of market data), the market is implying a significant positive value where this conservative DCF model indicates a negative one.
-
-**Reasoning for the Discrepancy (Model vs. Market):**
-
-The core issue driving the negative valuation is the **Company's high level of Total Debt (\$279 million)** relative to its cash-generating ability (Net Income/FCFE $\sim$ \$11-\$12 million per year) and negligible cash balance.
-
-1.  **Negative Shareholder Equity:** The company operates with a high debt-to-equity ratio and negative shareholder equity [cite: 10 in previous search]. This structure makes the debt a significant burden on the equity value, especially for a mature, slow-growth business.
-2.  **Conservative FCFE (Net Income) Assumption:** The model uses a highly conservative Net Income (FCFE) projection, assuming a slow, stable $2.0\%$ long-term revenue growth and a conservative $2.5\%$ Net Income Margin.
-    *   **The Market's Assumption:** The market is likely pricing in an expectation of significantly higher future profitability or Free Cash Flow to the Firm (FCFF) that will be used to aggressively pay down the debt. For the stock price to be \$4.13, the market is assuming an Equity Value of approximately \$212.6 million ($\$4.13 \times 51.5$ million shares). To achieve this, the market is assuming a discounted future cash flow (NPV of FCFE) of approximately **\$390 million** ($\$212.6M + \$279M \text{ Debt } - \$1.16M \text{ Cash}$). This would require a terminal growth rate or future FCFE significantly higher than the conservative assumptions used here.
-    *   *Example of a Market Assumption:* If the market assumes a terminal growth rate of **2.5\%** (instead of $1.0\%$) and a higher sustainable Net Income Margin of **3.5\%** (instead of $2.5\%$), the resulting Fair Value Per Share would likely be positive and closer to the current price.
-
-**Conclusion on Discrepancy:** The conservative nature of this DCF model, particularly the modest revenue growth (2.0\% terminal) and low Net Income Margin (2.5\%) assumptions for a company with a heavy debt load, results in a negative Fair Value. The market is giving management the benefit of the doubt, believing the **"culling the herd"** strategy and **Keke's expansion** will lead to a much stronger and faster increase in Net Income/FCFE than is conservatively projected here, enabling a much quicker deleveraging or a higher valuation of the future stable cash flow stream.
-
----
-
-## Fair Value Final Result
-
-The calculated **Fair Value Per Share** for Denny's Corporation (DENN) is **(\$2.50) per share**.
+*   **Conclusion:** The DCF valuation of \$1.89 reflects a very conservative standalone intrinsic value for a mature, heavily franchised, and debt-laden company based on historical metrics and low growth. The market, however, is not valuing the company's future cash flows; it is valuing the certainty of the **\$6.25 per share cash payout** from the pending acquisition.
