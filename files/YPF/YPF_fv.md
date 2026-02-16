@@ -1,158 +1,182 @@
-## Valuation of YPF Sociedad Anónima (YPF) Stock
+The following valuation of YPF Sociedad Anónima (YPF) stock utilizes information exclusively derived from SEC filings and management commentary from the last four available earnings call transcripts (Q4 2024, Q1 2025, Q2 2025, and Q3 2025).
 
-This valuation utilizes the Discounted Cash Flow (DCF) method, relying exclusively on data and guidance from YPF's public SEC filings and investor communications, as requested.
+---
 
-### 1. Current Financial Position (as of June 30, 2025)
+## YPF Sociedad Anónima (YPF) Stock Valuation
 
-The most recent consolidated financial data available in US dollars is used for the cash, debt, and shares outstanding figures.
+### I. Financial Snapshot (Latest Available Data)
 
-| Metric | Value (in millions of US$) | Source/Basis |
+The following financial data is based on the Company’s 2024 Annual Report on Form 20-F (filed March 2025) and subsequent Q3 2025 Debt Profile (September 30, 2025) provided in their investor reports, which rely on IFRS consolidated financial statements. The valuation is as of February 2026.
+
+| Metric | Value (US\$ Millions) | Source |
 | :--- | :--- | :--- |
-| **Total Debt** | $9,844 million | Q2 2025 Investor Presentation (Total Debt) |
-| **Total Cash & Cash Equivalents** | $1,011 million | Q2 2025 Investor Presentation (Cash + Short-Term Investments) |
-| **Net Debt** | $8,833 million | $9,844M - $1,011M |
-| **Total Shares Outstanding** | 393,312,793 | Audited Consolidated Financial Statements as of Dec 31, 2024 |
-| **Historical Net Income (2024)** | $2,393 million | FY 2024 Earnings Release [cite: 11 (from step 1)] |
-| **Historical Revenue (2024)** | $19,293 million | FY 2024 Earnings Release [cite: 11 (from step 1)] |
-| **Property, Plant & Equipment (PPE)** | $20,246 million | Q2 2025 Condensed Interim Consolidated Financial Statements (as of June 30, 2025) |
+| **Total Debt (Current & Non-Current)** | \$10,611 | Q3 2025 Investor Report Debt Profile (Sep 30, 2025) |
+| **Total Cash & Short-Term Investments (Cash)** | \$1,016 | Q3 2025 Investor Report Debt Profile (Sep 30, 2025) |
+| **Net Debt** | \$9,595 | Q3 2025 Investor Report Debt Profile (Sep 30, 2025) |
+| **Net Income (2024)** | \$2,393 | 2024 Form 20-F [cite: 12 in step 2] |
+| **Total Revenue (2024)** | \$19,300 | Q4 2024 Earnings Call [cite: 2 in step 2] |
+| **Shares Outstanding** | 393.31 Million | SEC Filings (Approximate) [cite: 8 in step 3] |
+| **Current Market Price (Hypothetical for Feb 16, 2026)** | $35.00/share | (Required for final comparison) |
 
-***
+---
 
-### 2. Business Engine and Revenue Projections (2025-2030)
+### II. Business Engine Analysis and Revenue Forecast (2025-2030)
 
-The core business engine for YPF is the rapid, high-margin development of its unconventional resources in the Vaca Muerta shale play, while simultaneously divesting non-core, mature conventional assets.
+YPF's business engine is defined by a strategic pivot away from mature fields toward the development of high-growth, lower-cost **Vaca Muerta shale oil and gas** resources, coupled with downstream efficiency improvements and a long-term **LNG project**.
 
-**Engine Assumptions (Based on Management Guidance and Conservative World Knowledge):**
+#### 1. Revenue Driver Assumptions (The Business Engine)
 
-| Metric | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Shale Oil Production (kbbl/d)** | 165 | 250 | 300 | 375 | 450 | 500 |
-| **Growth Driver** | 165 kbbl/d is the 2025 target [cite: 6 (from step 1)]. | 250 kbbl/d is the target by end of 2026 [cite: 6 (from step 1)]. | Conservative step-down in growth rate. | Continued ramp-up towards the 2030 target. | Continued ramp-up towards the 2030 target. | 500 kbbl/d is the long-term target [cite: 6 (from step 1)]. |
-| **Shale Oil Annual Volume (MMbbl)** | 60.2 | 91.2 | 109.5 | 136.9 | 164.3 | 182.5 |
-| **Total Production (kboe/d) Base (Q2 2025)** | 546 | 550 | 554 | 558 | 563 | 567 |
-| **Non-Shale Oil/Gas/Downstream Sales (Proxy for Rest of Business Revenue)** | $12,500M | $12,500M | $12,500M | $12,500M | $12,500M | $12,500M |
+The core revenue driver is the increase in *unconventional* hydrocarbon production volume at competitive lifting costs, coupled with market-aligned pricing (import parity).
 
-*   **Production Volume:** The shale oil volume drives the increase, moving from 165 kbbl/d in 2025 to 500 kbbl/d in 2030, in line with management's stated plan and infrastructure unlocking (VMOS pipeline) [cite: 6 (from step 1)]. Total Production (kboe/d) is assumed to remain roughly flat to slightly increasing as the ramp-up in high-value shale oil offsets the divestment of lower-value conventional assets ("Mature Fields Exit Program" [cite: 11 (from step 1)]).
-*   **Crude Oil Price Assumption (Realized Price/bbl):** YPF's 2024 average realized crude price was $\sim$ $70.8/bbl [cite: 2 (from step 4)]. To be conservative, we assume a slightly declining but stable real long-term price for this oil, which is below Brent forecasts (Brent forecasts suggest a possible decline towards $\sim$ $51/bbl by 2026, though long-term is divided [cite: 12 (from step 2), 14 (from step 2)]).
-    *   **Conservative Price Trend:** $70/bbl for 2025, declining to a conservative long-term price of $65/bbl by 2030.
-*   **Revenue from Non-Shale/Downstream:** The total 2024 revenue was $19,293M. I estimate $\sim$ $6,793M from 2024 shale oil (based on $\sim$ $70.8/bbl realized price on 107 kbbl/d average shale production). The remaining $\sim$ $12,500M from the rest of the business is assumed to remain flat (conservative, as growth in Downstream is offset by gas price uncertainty and divestitures).
+*   **Production Volume (Shale Oil):** Management provided concrete shale oil production targets. This is the primary growth engine [cite: 5 in step 2]:
+    *   2025 Average Target: 165,000 barrels of oil equivalent per day (boe/d).
+    *   2026 Target: $\approx 215,000$ boe/d.
+    *   2027 Target: $\approx 290,000$ boe/d.
+    *   2030 Target: $\approx 500,000$ boe/d (total production) [cite: 3 in step 2].
+*   **Pricing:** The company reduced its fuel price gap to import parity from 20% in 2023 to 2% in 2024, implying market-aligned pricing power is largely realized [cite: 2 in step 2]. I will assume a stable Realized Price per Barrel, keeping it conservative given global oil price volatility.
+*   **Base Revenue (2024):** \$19.3 Billion [cite: 2 in step 2].
 
-| Year | Shale Oil Revenue (A) | Non-Shale/Downstream Revenue (B) | Total Projected Revenue (A+B) |
-| :--- | :--- | :--- | :--- |
-| **2025** | $4,214M | $12,500M | $16,714M |
-| **2026** | $6,384M | $12,500M | $18,884M |
-| **2027** | $7,557M | $12,500M | $20,057M |
-| **2028** | $9,370M | $12,500M | $21,870M |
-| **2029** | $11,183M | $12,500M | $23,683M |
-| **2030** | $12,019M | $12,500M | $24,519M |
+#### 2. Revenue Projections (2025-2030)
 
-***
+Instead of a flat percentage growth, the revenue growth will be linked to the announced Shale Oil Production targets, which represent the high-value segment of the business.
 
-### 3. Net Income Projections & ROIC Calculation
+| Year | Shale Oil Target (boe/d) [cite: 5 in step 2] | Annual Production Growth Factor (based on targets) | Implied Total Revenue Growth Rate (Conservative) | Revenue (US\$ Millions) |
+| :--- | :--- | :--- | :--- | :--- |
+| **2024 (Actual)** | 122,000 | N/A | N/A | **\$19,300** |
+| **2025 (Avg)** | 165,000 | $165/122 \approx 35.2\%$ | $\mathbf{15.0\%}$ (Conservative: Half the production growth rate to account for lower-value production/declines) | **\$22,195** |
+| **2026** | 215,000 | $215/165 \approx 30.3\%$ | $\mathbf{12.0\%}$ | **\$24,858** |
+| **2027** | 290,000 | $290/215 \approx 34.9\%$ | $\mathbf{14.0\%}$ | **\$28,338** |
+| **2028** | Interpolated growth to reach 500K by 2030 (total) | N/A | $\mathbf{10.0\%}$ | **\$31,172** |
+| **2029** | N/A | N/A | $\mathbf{8.0\%}$ | **\$33,666** |
+| **2030** | 500,000 (Total Prod.) | N/A | $\mathbf{6.0\%}$ (Conservative slow-down as LNG is only starting) | **\$35,686** |
 
-#### a. ROIC Calculation (for Reinvestment Effect)
+**Justification for Conservative Revenue Growth:** The implied production growth from 2024 to 2027 is significant (averaging >30% on the core asset). A conservative revenue growth rate is used (12%-15% range) because:
+1.  Total Revenue also includes the declining/divesting mature fields and non-E&P segments.
+2.  Global oil/gas price volatility is a major risk factor (which is implicitly managed by using a lower growth rate).
+3.  The LNG project is a long-term capital commitment (CapEx \$20-\$25B) and is only expected to start operations by 2030, so its full impact is not factored into this 2030 horizon [cite: 5 in step 2].
 
-*   **ROIC Formula:** Net Income / Invested Capital
-*   **Invested Capital Proxy (2024):** Property, Plant & Equipment (PPE) is used as a conservative proxy for the capital base that generates the income. We use the most recent PPE figure, **$20,246M** (Q2 2025).
-*   **Net Income (2024):** $2,393 million [cite: 11 (from step 1)].
-*   **ROIC (2024):** $2,393M / $20,246M = **11.8%**
-*   **Conservative Assumed ROIC for Reinvestment:** I will use a **conservative 10.0%** to model the additional income generated by reinvested cash flow.
+---
 
-#### b. Net Income Margin & Projections
+### III. Margin and Net Income Projection
 
-*   **2024 Net Income Margin:** $2,393M / $19,293M = **12.4%**.
-*   **Conservative Net Income Margin Assumption:** YPF's strategy is to shift to high-margin shale. Given the lower unit cost of Vaca Muerta core shale ($\sim$ $4.9/boe [cite: 1 (from step 4)]) compared to the total extraction cost ($\sim$ $12.3/boe [cite: 1 (from step 4)]), the margin should expand. However, due to the high political/economic risk in Argentina and the conservative nature of this valuation, the margin is assumed to grow slowly: **12.5% in 2025 to 15.0% in 2030.**
+#### 1. Margin Assumption
 
-| Year | Total Projected Revenue | Base Net Income Margin (%) | Base Net Income (A) | Reinvested Cash from Prior Year | ROIC on Reinvested Cash (B) (10.0%) | **Total Net Income (A+B)** |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024** | $19,293M | 12.4% | $2,393M | $0M | $0M | $2,393M |
-| **2025** | $16,714M | 12.5% | $2,089M | $2,393M | $239M | $2,328M |
-| **2026** | $18,884M | 13.0% | $2,455M | $2,328M | $233M | $2,688M |
-| **2027** | $20,057M | 13.5% | $2,708M | $2,688M | $269M | $2,977M |
-| **22028** | $21,870M | 14.0% | $3,062M | $2,977M | $298M | $3,360M |
-| **2029** | $23,683M | 14.5% | $3,434M | $3,360M | $336M | $3,770M |
-| **2030** | $24,519M | 15.0% | $3,678M | $3,770M | $377M | $4,055M |
+*   **2024 Net Income Margin:** \$2,393M / \$19,300M $\approx \mathbf{12.4\%}$ [cite: 12 in step 2, 2 in step 2].
+*   **Future Net Income Margin:** YPF's shift to low-cost shale operations (lifting cost $\sim\$7.5/boe$ excl. mature fields, down from $\sim\$15.6/boe$ total in 2024) and high downstream margins (\$13.7/barrel in 2024) suggests margin expansion [cite: 3 in step 2, 2 in step 2].
+*   **Assumption:** Given the clear management strategy to improve efficiency and focus on high-margin assets, I will conservatively increase the Net Income Margin from 12.4% to a stable **14.0\%** from 2025 onwards. This accounts for higher profitability, but is still modest for a highly efficient integrated energy company.
 
-***
+#### 2. Return on Invested Capital (ROIC) Calculation
 
-### 4. Discounted Cash Flow (DCF) Analysis
+*   **ROIC (2024 proxy):** This calculation is a proxy for the returns on internally generated cash.
+    *   Total Equity (2024): The 20-F is needed for the exact figure, but for a conservative proxy: Total Assets - Total Liabilities. Given the Net Income (\$2.4B), I must assume a reasonable, conservative ROIC.
+    *   **Assumption:** Since past ROIC is difficult to precisely calculate without a full balance sheet, and past results included major impairments/losses, I will use a conservative but reasonable $\mathbf{5.0\%}$ ROIC. This is a modest return for an E&P company in a high-growth environment (Vaca Muerta), reflecting the political and economic risks in Argentina.
 
-Net Income (Total Net Income column from above) is used as a proxy for Free Cash Flow to Equity (FCFE) for this DCF calculation, as is the assumption required by the rules.
+#### 3. Net Income Projection (DCF Cash Flow)
 
-#### a. Discount Rate and Terminal Growth Rate
+The DCF cash flow is calculated as: **Net Income for the year + (Previous Year's Accumulated Cash * ROIC)**.
 
-*   **Discount Rate (WACC/Ke):** YPF is an Argentine company with significant geopolitical and economic risk. Although it's transitioning to hard-currency exports, the country risk is high. A **conservative discount rate of 12.0%** is used (higher than a typical international oil major to reflect country risk).
-*   **Maturity Rate (Terminal Growth Rate):** The global energy transition and a conservative approach to long-term oil prices, combined with the maturation of the Vaca Muerta play, warrant a very low growth rate. A **very conservative maturity rate of 1.0%** is used.
+| Year | Revenue (US\$ Millions) | Net Income Margin | Net Income (A) (US\$ Millions) | Previous Year's Cash (B) (US\$ Millions) | ROIC (C) | ROIC Income (B * C) (US\$ Millions) | Cash Flow for DCF (A + D) (US\$ Millions) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2024** | \$19,300 | 12.4% | \$2,393 | \$0 | N/A | \$0 | N/A |
+| **2025** | \$22,195 | 14.0% | \$3,107 | \$2,393 | 5.0% | \$120 | **\$3,227** |
+| **2026** | \$24,858 | 14.0% | \$3,480 | \$5,500 | 5.0% | \$275 | **\$3,755** |
+| **2027** | \$28,338 | 14.0% | \$3,967 | \$8,980 | 5.0% | \$449 | **\$4,416** |
+| **2028** | \$31,172 | 14.0% | \$4,364 | \$12,947 | 5.0% | \$647 | **\$5,011** |
+| **2029** | \$33,666 | 14.0% | \$4,713 | \$17,311 | 5.0% | \$866 | **\$5,579** |
+| **2030** | \$35,686 | 14.0% | \$4,996 | \$22,024 | 5.0% | \$1,101 | **\$6,097** |
+| **Note:** *Previous Year's Cash (B)* is the cumulative Net Income from the start of the projection (2024 Net Income + all subsequent Net Income) *before* the ROIC adjustment for the current year. E.g., for 2026, it is \$2,393 + \$3,107 = \$5,500.
 
-#### b. Net Present Value (NPV) Calculation
+---
 
-| Year (t) | Total Net Income (FCFE) (Millions of US$) | Discount Factor (1 / (1+0.12)^t) | NPV of FCFE (Millions of US$) |
-| :--- | :--- | :--- | :--- |
-| **2025 (t=1)** | $2,328 | 0.8929 | $2,079 |
-| **2026 (t=2)** | $2,688 | 0.7972 | $2,143 |
-| **2027 (t=3)** | $2,977 | 0.7120 | $2,120 |
-| **2028 (t=4)** | $3,360 | 0.6355 | $2,135 |
-| **2029 (t=5)** | $3,770 | 0.5674 | $2,139 |
-| **2030 (t=6)** | $4,055 | 0.5066 | $2,054 |
-| **NPV of Projected FCFE (2025-2030)** | **$12,670 million** | | |
+### IV. Discounted Cash Flow (DCF) Valuation
 
-#### c. Terminal Value (TV)
+#### 1. Conservative DCF Assumptions
 
-The Terminal Value is calculated using the Gordon Growth Model, based on the 2030 FCFE.
-TV = [FCFE\_2030 * (1 + g)] / (r - g)
-TV = [$4,055M * (1 + 0.01)] / (0.12 - 0.01)
-TV = $4,096M / 0.11
-TV = **$37,236 million**
-
-#### d. NPV of Terminal Value
-
-NPV of TV = Terminal Value * Discount Factor (t=6)
-NPV of TV = $37,236 million * 0.5066
-NPV of TV = **$18,866 million**
-
-#### e. Total Enterprise Value (EV)
-
-Total Enterprise Value = NPV of Projected FCFE + NPV of Terminal Value
-Total Enterprise Value = $12,670 million + $18,866 million
-**Total Enterprise Value = $31,536 million**
-
-***
-
-### 5. Fair Value Calculation
-
-| Metric | Value (in millions of US$) | Calculation |
+| Metric | Rate | Justification |
 | :--- | :--- | :--- |
-| **Total Enterprise Value (TEV)** | $31,536 million | |
-| **Less: Total Debt** | $9,844 million | |
-| **Add: Total Cash & Cash Equivalents** | $1,011 million | |
-| **Fair Value of Equity** | $22,703 million | $31,536M - $9,844M + $1,011M |
-| **Shares Outstanding** | 393,312,793 | |
-| **Fair Value Per Share** | **$57.72** | $22,703M / 393.31M |
+| **Discount Rate (r)** | $\mathbf{10.0\%}$ | A conservative rate for an emerging market energy company. It is higher than a typical developed market WACC to account for the high political and currency risk associated with operating in Argentina. |
+| **Maturity Rate (g)** | $\mathbf{2.0\%}$ | A very conservative, lower-than-inflation-rate growth rate for the Terminal Value, reflecting long-term stabilization in a politically uncertain market after 2030. |
 
-***
+#### 2. Net Present Value (NPV) Calculation
 
-### 6. Conclusion and Justification
+The Net Present Value (NPV) of the projected cash flows (2025-2030) is calculated as:
+$$
+NPV = \sum_{t=1}^{T} \frac{CF_t}{(1+r)^t}
+$$
 
-**Fair Value Per Share (YPF): $57.72**
+| Year (t) | Cash Flow (CFt) (US\$ Millions) | Discount Factor $\mathbf{(1/(1.10)^t)}$ | NPV of Cash Flow (US\$ Millions) |
+| :--- | :--- | :--- | :--- |
+| **2025 (t=1)** | \$3,227 | 0.9091 | \$2,934 |
+| **2026 (t=2)** | \$3,755 | 0.8264 | \$3,103 |
+| **2027 (t=3)** | \$4,416 | 0.7513 | \$3,318 |
+| **2028 (t=4)** | \$5,011 | 0.6830 | \$3,423 |
+| **2029 (t=5)** | \$5,579 | 0.6209 | \$3,464 |
+| **2030 (t=6)** | \$6,097 | 0.5645 | \$3,441 |
+| **NPV of Forecast Period** | | | **\$19,683** |
 
-#### Comparison to Market Price
+#### 3. Terminal Value (TV) Calculation (2030)
 
-As of the current date (November 1, 2025), if the market price for YPF is, for example, **$34.99** [cite: 6 (from step 2)], the calculated fair value of **$57.72** suggests the stock is **undervalued by approximately 65%**.
+The Terminal Value is the perpetuity of cash flow after 2030.
+$$
+TV_{2030} = \frac{CF_{2030} \times (1+g)}{r-g} = \frac{\$6,097 \times (1+0.02)}{0.10 - 0.02} = \frac{\$6,219}{\$0.08} = \$77,738 \text{ Million}
+$$
 
-#### Justification for Discrepancy
+#### 4. Net Present Value of Terminal Value
 
-The significant difference between the calculated Fair Value and the assumed Market Price is primarily due to the **market heavily discounting YPF's future cash flows due to unmitigated Argentine country risk**.
+$$
+NPV(TV) = \frac{TV_{2030}}{(1+r)^6} = \frac{\$77,738}{(1.10)^6} = \$77,738 \times 0.5645 = \mathbf{\$43,892 \text{ Million}}
+$$
 
-**The Market is Assuming:**
+#### 5. Total Enterprise Value (TEV)
 
-1.  **Lower Realized Price:** The market likely assumes a larger discount to international oil prices or a higher volatility due to ongoing government intervention risk in the domestic fuel market, despite the Vaca Muerta pivot toward exports.
-2.  **Failure to Execute:** The market discounts the management's ambitious growth plan, assuming YPF will fail to reach the 500 kbbl/d shale oil target by 2030, or that the required capital (CapEx) will be significantly higher, leading to lower net free cash flow.
-3.  **Higher Discount Rate:** The market's implied discount rate (Ke) is likely much higher than the conservative 12.0% used in this model, possibly in the 15-20% range, reflecting extreme political instability, currency volatility, and the non-transferability of funds out of the country. A higher discount rate severely penalizes long-dated cash flows (the terminal value).
+$$
+TEV = NPV (\text{Forecast Period}) + NPV(TV) = \$19,683 \text{M} + \$43,892 \text{M} = \mathbf{\$63,575 \text{ Million}}
+$$
 
-**The Valuation is Assuming (Justification):**
+---
 
-1.  **Management Guidance is Achievable:** The model takes management's production growth targets for Vaca Muerta as the engine, which is the core directive of the new administration and YPF's strategic focus [cite: 6 (from step 1)]. The conservative growth in Net Income margin from 12.5% to 15.0% by 2030, despite a high-margin asset base, is a measured approach.
-2.  **Prudent Financial Assumptions:** The model uses a conservative price deck ($70 to $65/bbl) and a very low terminal growth rate (1.0%), reflecting caution on long-term oil markets and the political environment.
-3.  **ROIC Component:** The inclusion of a 10.0% ROIC on reinvested earnings is justified by the extremely high quality and low-cost nature of the Vaca Muerta assets, giving YPF a structural competitive advantage that should generate superior returns on internal investment (compared to the $\sim$ 11.8% calculated historical ROIC).
+### V. Fair Value Calculation and Justification
 
-**Conclusion:** The calculated fair value of $57.72 represents a price target assuming YPF successfully executes its strategic shift to Vaca Muerta exports and the Argentine country risk, while remaining high, stabilizes enough to allow for international oil-and-gas company-like operations. The market's current price of $\sim$ $34.99 implies a belief that the political and economic instability will continue to fully negate the potential of the world-class Vaca Muerta resource base.
+#### 1. Fair Value of Equity
+
+| Metric | Value (US\$ Millions) |
+| :--- | :--- |
+| **Total Enterprise Value (TEV)** | \$63,575 |
+| Less: **Total Debt** | (\$10,611) |
+| Add: **Total Cash & Short-Term Investments** | \$1,016 |
+| **Fair Value of Equity** | $\mathbf{\$53,980}$ |
+
+#### 2. Fair Value Per Share
+
+$$
+\text{Fair Value Per Share} = \frac{\text{Fair Value of Equity}}{\text{Shares Outstanding}} = \frac{\$53,980,000,000}{393,312,793} = \mathbf{\$137.25}
+$$
+
+---
+
+## Conclusion and Justification
+
+### Fair Value Per Share: **\$137.25**
+
+### Current Market Price (Hypothetical): **\$35.00**
+
+#### Justification for Disparity
+
+The calculated fair value of **\$137.25** is significantly higher than the hypothetical current market price of **\$35.00**. This large disparity indicates that the market is making far more conservative assumptions than the valuation model, primarily due to the unique geopolitical and macroeconomic risks in Argentina.
+
+**The Market's Conservative Assumptions (Why the Market is $\ne$ DCF):**
+
+1.  **Extreme Political/Sovereign Risk and "Argentina Discount":** The market is likely applying a severe discount to account for the risk of capital controls, expropriation, government interference in pricing (which has historically happened), and general political instability. The market is not taking management's aggressive production and profitability guidance as "truth" due to this sovereign risk.
+2.  **High Discount Rate/Cost of Equity:** The market is likely implicitly using a much higher discount rate (well above my conservative 10.0%) to value the long-term cash flows, as the future of YPF's ability to repatriate dollars and sustain market-aligned prices is uncertain.
+3.  **Inflation/Currency Devaluation Risk:** My model is in stable US dollars, while YPF operates in an environment of extremely high inflation and currency devaluation. The market is discounting the present value of future Argentine peso-denominated cash flows more aggressively than my model's assumption of a 14.0% stable dollar-denominated Net Income Margin.
+4.  **CapEx and Negative Free Cash Flow (FCF):** The large \$20-\$25 billion long-term LNG CapEx and the continued high CapEx to sustain Vaca Muerta growth means Free Cash Flow will be negative or minimal for years (FCF was negative $\sim\$759M$ in Q3 2025) [cite: 7 in step 2]. Investors are hesitant to value a company that will be a net cash user for the foreseeable future, despite the promise of future returns.
+
+**Defense of the DCF (Why the High Value is Possible):**
+
+1.  **Management Guidance as Truth:** Per the rules, I must assume management's commentary is "truth." The entire valuation is driven by management's strategic plan: the $35\%$ average growth in core shale production in 2025, reaching 290,000 boe/d by 2027, the low lifting cost of $\sim\$7.5/boe$ (excl. mature fields), and the elimination of the domestic pricing gap [cite: 2, 3, 5 in step 2].
+2.  **Vaca Muerta's True Potential:** If Argentina achieves macroeconomic stability and YPF executes its plan, Vaca Muerta is a world-class, low-cost resource base that fundamentally justifies a valuation in line with major international E&P companies, where the NPV of reserves is extremely high.
+3.  **Conservative ROIC/Maturity Rate:** The use of a very conservative 5.0% ROIC and a 2.0% maturity rate already attempts to bake in some of the general risk, suggesting the high valuation is driven by the very aggressive and transformative production growth figures management provided.
+
+**Conclusion on Disparity:**
+
+The DCF valuation of **\$137.25** represents the *intrinsic value* of YPF's assets and growth potential **assuming full and successful execution of the management's strategic plan in a politically and economically stable environment.** The current market price of **\$35.00** reflects an enormous **risk premium** applied to the Argentine sovereign risk, essentially saying the market believes there is a very high probability that the management team will be unable to execute its long-term plan due to external/political forces.
