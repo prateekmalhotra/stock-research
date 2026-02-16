@@ -1,163 +1,165 @@
-This valuation of Conduent Incorporated (CNDT) stock will be performed using a Discounted Cash Flow (DCF) model, focusing exclusively on data derived from SEC filings and management guidance. All figures are in millions of USD unless otherwise noted.
+This valuation of Conduent Incorporated (CNDT) stock is conducted using a Discounted Cash Flow (DCF) methodology based exclusively on SEC filings and management commentary, as requested. The model employs conservative assumptions, reflecting the company's status as a complex turnaround story with significant debt and exposure to industry disruption from technologies like AI.
+
+All figures are in millions of U.S. Dollars, except per-share data and percentages.
 
 ---
 
-## 1. Current Financial Data (as of September 30, 2024)
+## 1. Initial Data and Business Engine Analysis
 
-The initial balance sheet data is sourced from Conduent's Q3 2024 financial results, as presented in their November 6, 2024, Form 10-Q filing documents.
+### A. Core Financial Data (as of December 31, 2025)
 
-| Metric | Value ($M) | Source |
+The following financial figures are derived from Conduent's Fourth Quarter and Full Year 2025 financial results and press release:
+
+| Metric | Value (USD Millions) | Source/Note |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | $393 | Condensed Consolidated Balance Sheet |
-| **Total Principal Debt Outstanding** | $753 | Note 6 - Debt, Q3 2024 10-Q (As of Sep. 30, 2024) |
-| **Shares Outstanding** (Approx. as of Q3 2024) | 157.97 million | Consistent figure from recent market data/filings |
-| **Current Stock Price** (Approx. Nov 2, 2025) | $2.40 | Most recent closing price in context |
+| **Total Cash & Cash Equivalents** | $233 | Unaudited Consolidated Balance Sheets, Dec 31, 2025 |
+| **Total Debt** | $687 | Total debt as reported in Q4 2025 summary |
+| **FY 2025 Adjusted Revenue** | $3,042 | Full Year 2025 Adjusted Revenue |
+| **FY 2025 GAAP Net Loss** | $(170) | Full Year 2025 GAAP Net Loss |
+| **Total Shares Outstanding** | 157.97 million | As of February 8, 2026 |
+| **Current Stock Price** | ~$1.54 | Approximate value for comparison |
 
----
+### B. Business Engine and Conservative Assumptions
 
-## 2. Business Engine Analysis & Revenue Projections (2025-2030)
+Conduent is a global business process solutions company currently undergoing a turnaround, aiming for "consistent year-over-year revenue and EBITDA growth". The new CEO is focused on executing six priorities, including portfolio rationalization ("fix, sell, or grow") and cost reduction through "maximum financial discipline".
 
-The core of Conduent's business engine is a multi-year turnaround strategy focused on portfolio rationalization, debt reduction, and a shift to a "nimble, technology-led" model. The key drivers are:
-1.  **Divestiture of Non-Core Assets:** The company completed its 2024 divestiture program (e.g., BenefitWallet, Casualty Claims) to clean up the balance sheet and focus on "RemainCo" assets, generating significant cash for debt paydown.
-2.  **Revenue Trough & Turnaround:** Management has explicitly stated that 2024 represents the **trough** for growth, with a transition to being closer to flat by the end of 2024, and expecting growth in the second half of 2025.
-3.  **Sales Momentum:** The new business Annual Contract Value (ACV) is a primary forward indicator. The full-year 2024 ACV estimate is **$500M - $550M**, which will begin to outpace the runoff from lost business and divestitures.
-4.  **Margin Expansion:** The strategy involves aggressive cost-cutting to remove stranded costs from divestitures and operational efficiencies, with an explicit 2025 Adjusted EBITDA Margin target of 5.0% - 5.5%.
+The revenue and margin model is based on a conservative interpretation of management's commentary:
 
-### Revenue Projection Justification
-
-We start with the midpoint of the full-year 2024 Adjusted Revenue guidance of **$3.35 Billion** (a midpoint of \$3.325B to \$3.375B) as the foundation for our 2025 projection.
-
-| Year | Revenue Rationale & Assumptions | Projected Revenue ($M) | YoY Growth |
+| Segment | FY 2025 Performance | Management Commentary / Engine Driver | Conservative Assumption (CAGR) |
 | :--- | :--- | :--- | :--- |
-| **2024 (E)** | Midpoint of Adjusted Revenue Guidance | $3,350 | - |
-| **2025** | The expected "trough" year, with growth only starting in H2 2025 (i.e., minimal net growth). We assume **0.0%** growth for the full year. | $3,350 | 0.0% |
-| **2026** | Modest growth begins as new ACV outpaces runoff and operational focus improves. A conservative **1.5%** growth. | $3,400 | 1.5% |
-| **2027** | Steady state modest growth, slightly accelerating as the "nimble" model matures. Conservative **2.0%** growth. | $3,468 | 2.0% |
-| **2028** | Continued modest growth rate. Conservative **2.0%** growth. | $3,537 | 2.0% |
-| **2029** | Continued modest growth rate. Conservative **2.0%** growth. | $3,608 | 2.0% |
-| **2030** | Continued modest growth rate, leading into the terminal value. Conservative **2.0%** growth. | $3,680 | 2.0% |
+| **Government** | Revenue down 6.3% (but Q4 up 1.8%). New ACV up 50%. | **Strong momentum, positioned for 2026 growth**. | **3.0%** |
+| **Transportation** | Revenue up 3.9%. New ACV up 14%. | **Positive momentum, positioned for 2026 growth**. | **3.5%** |
+| **Commercial** | Revenue down 5.9%. New ACV down 15%. **15-20%** of business exposed to AI risk. | Volume declines at largest clients. Strategy is to strengthen go-to-market. | **-3.0%** (Slow decay and then stabilization) |
+
+**Revenue Projection Methodology:**
+
+1.  **FY 2025 Revenue Breakdown (Approximate from snippets):**
+    *   Commercial: $1,500M
+    *   Government: $922M
+    *   Transportation: $609M
+    *   *Total Adjusted Revenue:* $3,031M (Matches $3,042M close enough for modeling).
+2.  **Consolidated Revenue Growth Rate:** A weighted average of the segment growth rates will yield the consolidated rate for 2026. After 2026, the overall growth will converge toward a mature market rate as the portfolio is rationalized, and segment growth rates become more normalized.
+
+**Margin Projection Methodology:**
+
+1.  **Baseline Net Income Margin (2025):** $(170)M / $3,042M = **-5.6%**.
+2.  **Target Margin:** Management targets 8-10% Adjusted EBITDA margin in the medium term. I will assume the low end, **8.0%**, is achieved by 2030, a significant but achievable improvement given the focus on cost efficiency (including AI use) and portfolio rationalization.
+3.  **Net Income Margin:** A conservative long-term Net Income Margin is estimated to be **3.0%** by 2030. This accounts for D&A, interest expense (which should decline as debt is paid down, a positive), and a minimal tax rate on the new profits, a substantial recovery from the 2025 loss.
 
 ---
 
-## 3. Net Income and Cash Flow Projections
+## 2. Financial Projections and Cash Flow Calculation
 
-The valuation will use a Net Income-based Discounted Cash Flow (DCF), with the net income acting as the annual free cash flow (as per the user's rule).
+### A. Revenue Projections (2025 - 2030)
 
-### Net Income Margin Justification
+| Year | Government (3.0% CAGR) | Transportation (3.5% CAGR) | Commercial (-3.0% CAGR) | **Total Revenue** | **Growth Rate** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **2025** | $922 | $609 | $1,500 | **$3,031** | -4.2% (Historical) |
+| **2026** | $949 | $630 | $1,455 | **$3,034** | 0.1% |
+| **2027** | $977 | $652 | $1,411 | **$3,040** | 0.2% |
+| **2028** | $1,006 | $675 | $1,368 | **$3,049** | 0.3% |
+| **2029** | $1,036 | $699 | $1,327 | **$3,062** | 0.4% |
+| **2030** | $1,067 | $723 | $1,287 | **$3,077** | 0.5% |
 
-| Metric | 2024E | 2025E | 2026-2030 | Rationale |
-| :--- | :--- | :--- | :--- | :--- |
-| **Adj. EBITDA Margin (%)** | 4.5% | 5.25% | 6.0% | Midpoint of 2024 Guidance; Midpoint of 2025 Target; Continued operational/cost efficiency gains (conservative expansion). |
-| **Estimated D&A & Impairment (% Rev)** | -4.0% | -3.5% | -3.0% | Historical D&A (approx 3%-4% of Rev). Reduced as assets are divested and CapEx is focused. |
-| **EBIT Margin (%)** | 0.5% | 1.75% | 3.0% | *Adj. EBITDA Margin + D&A* |
-| **Estimated Interest Expense (% Rev)** | -0.9% | -0.6% | -0.5% | Significant debt prepayments in 2024 will sharply reduce interest burden. |
-| **EBT Margin (%)** | -0.4% | 1.15% | 2.5% | *EBIT Margin + Interest* |
-| **Estimated Tax Rate** | 0.0% | 0.0% | 20.0% | Company will likely carry forward net operating losses (NOLs) for a few years, resulting in a **0%** cash tax rate until 2027, then a conservative **20%** statutory rate. |
-| **Net Income Margin (%)** | -0.4% | **1.15%** | **2.0%** | *EBT Margin * (1 - Tax Rate)* (Conservative target for a mature BPO business). |
+*Rationale:* The overall revenue remains largely flat in the projection period, reflecting the conservative assumption that the growth in the Government and Transportation segments will only marginally outpace the revenue runoff and decline in the Commercial segment, which is exposed to AI/tech disruption.
 
-### Net Income & Cash Flow Schedule (in millions)
+### B. Net Income Projections and Cash Flow
 
-| Year | Projected Revenue ($M) | Net Income Margin (%) | Base Net Income ($M) | ROIC (%) | Previous Cash ($M) | ROIC Income ($M) | Total Net Income ($M) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024** | $3,350 | -0.4% | $(13.4)$ | N/A | N/A | N/A | $(13.4)$ |
-| **2025** | $3,350 | 1.15% | $38.5 | 3.0% | $393.0 | $11.8 | $50.3 |
-| **2026** | $3,400 | 1.50% | $51.0 | 3.0% | $443.3 | $13.3 | $64.3 |
-| **2027** | $3,468 | 1.80% | $62.4 | 3.0% | $507.6 | $15.2 | $77.6 |
-| **2028** | $3,537 | 2.00% | $70.7 | 3.0% | $585.2 | $17.6 | $88.3 |
-| **2029** | $3,608 | 2.00% | $72.2 | 3.0% | $673.5 | $20.2 | $92.4 |
-| **2030** | $3,680 | 2.00% | $73.6 | 3.0% | $765.9 | $23.0 | $96.6 |
+| Year | Revenue | Net Income Margin | **Net Income** | Prior Year Net Income (Cash) | Conservative ROIC (4.0%) | **Cash Flow (NI + ROIC)** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2025** | $3,031 | -5.60% | $(170) | N/A | N/A | $(170) |
+| **2026** | $3,034 | -3.00% | $(91) | $(170) | N/A | $(91) |
+| **2027** | $3,040 | -0.50% | $(15) | $(91) | N/A | $(15) |
+| **2028** | $3,049 | 1.00% | $30 | $(15) | N/A | $30 |
+| **2029** | $3,062 | 2.00% | $61 | $30 | 4.0% of $30 = $1.2 | $62 |
+| **2030** | $3,077 | 3.00% | $92 | $61 | 4.0% of $61 = $2.4 | $94 |
 
-**ROIC Justification:**
-*   The historical ROIC is negative (-3.37%) due to past losses.
-*   As per the rule, we use a conservative but reasonable positive ROIC. A $1 billion market cap business in a highly competitive, low-growth sector like BPO/IT Services is unlikely to generate high returns. We use a conservative **3.0% ROIC** on the cumulative cash balance, significantly lower than the cost of capital, reflecting a mature and slow-growth business.
+*   **ROIC Rationale:** The ROIC principle (reinvested cash generating additional income) is only applied once Net Income becomes positive. A conservative **4.0% ROIC** is used, reflecting a low-return business in a turnaround phase.
+*   **Net Income Margin Rationale:** The margin is projected to linearly improve from the **-5.6%** loss in 2025 toward the long-term target of **3.0%** by 2030, reflecting management's execution on cost efficiency and portfolio optimization.
 
 ---
 
-## 4. Discounted Cash Flow (DCF) Calculation
+## 3. Discounted Cash Flow (DCF) Calculation
 
-### Discount Rate Selection
+### A. DCF Assumptions
 
-*   **Discount Rate (Conservative but Reasonable):** 10.0%
-    *   *Justification:* Conduent is a small-cap, highly volatile (Beta > 1.3), and turnaround stock in a low-margin industry. A high discount rate is necessary to reflect the significant business execution risk involved in their divestiture and growth strategy.
+| Metric | Value | Rationale |
+| :--- | :--- | :--- |
+| **Discount Rate (r)** | **10.0%** | A high discount rate is conservative and appropriate for a turnaround company with a net debt position, negative historical GAAP net income, and high technology disruption risk. |
+| **Terminal Growth Rate (g)** | **0.5%** | A very conservative rate, well below long-term inflation/GDP, reflecting a mature BPO company with ongoing structural headwinds. |
 
-### Terminal Value Calculation
+### B. Net Present Value (NPV) Calculation
 
-The terminal value represents the value of all cash flows after 2030. We assume the company reaches maturity and grows at a very conservative rate.
-
-*   **Conservative Maturity Rate (g):** 1.0%
-    *   *Justification:* Reflects a mature, slow-growing BPO company, slightly above zero (which is conservative for a long-term inflation/GDP proxy).
-*   **Terminal Year Free Cash Flow (2030 Net Income):** $96.6M
-*   **Terminal Value (TV) Formula:** FCF(2030) * (1 + g) / (Discount Rate - g)
-    *   $96.6M * (1 + 0.01) / (0.10 - 0.01)$
-    *   $97.57M / 0.09 = **$1,084.1M**
-
-### Net Present Value (NPV) Calculation
-
-| Year | Future Cash Flow (Net Income) ($M) | Discount Rate (10.0%) | Present Value (PV) ($M) |
+| Year (t) | Projected Cash Flow (NI + ROIC) | Discount Factor (1 / (1+r)^t) | **Net Present Value (NPV)** |
 | :--- | :--- | :--- | :--- |
-| **2025** | $50.3 | 0.909 | $45.7 |
-| **2026** | $64.3 | 0.826 | $53.1 |
-| **2027** | $77.6 | 0.751 | $58.3 |
-| **2028** | $88.3 | 0.683 | $60.3 |
-| **2029** | $92.4 | 0.621 | $57.4 |
-| **2030** | $96.6 | 0.564 | $54.5 |
-| **Terminal Value (2030)** | $1,084.1 | 0.564 | $611.8 |
-| **Total Net Present Value (NPV) of Future Cash Flows** | **$941.1M** | | |
+| 2026 (1) | $(91) | 0.9091 | $(83) |
+| 2027 (2) | $(15) | 0.8264 | $(12) |
+| 2028 (3) | $30 | 0.7513 | $23 |
+| 2029 (4) | $62 | 0.6830 | $42 |
+| 2030 (5) | $94 | 0.6209 | $58 |
+| **Sum of NPV (2026-2030)** | | | **$28** |
 
----
+### C. Terminal Value Calculation
 
-## 5. Fair Value Calculation
-
-The Fair Value is calculated using the Equity Value approach:
+The terminal value (TV) captures the value of all cash flows beyond 2030. The formula is:
 
 $$
-\text{Equity Value} = \text{NPV of Future Cash Flows} + \text{Current Cash} - \text{Total Debt}
+TV_{2030} = \frac{Cash Flow_{2030} \times (1 + g)}{(r - g)}
 $$
 
-| Metric | Value ($M) |
+$$
+TV_{2030} = \frac{\$94 \times (1 + 0.005)}{(0.10 - 0.005)} = \frac{\$94.47}{0.095} = \$994.42 \text{ million}
+$$
+
+**NPV of Terminal Value:**
+
+$$
+NPV(TV) = TV_{2030} \times \text{Discount Factor}_{2030} = \$994.42 \times 0.6209 = \mathbf{\$617.65} \text{ million}
+$$
+
+### D. Total Equity Value
+
+| Metric | Value (USD Millions) |
 | :--- | :--- |
-| **Total NPV of Future Cash Flows** | $941.1$ |
-| **ADD: Current Cash & Cash Equivalents** | $393.0$ |
-| **LESS: Total Principal Debt Outstanding** | $(753.0)$ |
-| **Total Equity Value** | **$581.1** |
-| **Shares Outstanding** (Millions) | 157.97 |
-
-$$
-\text{Fair Value per Share} = \text{Total Equity Value} / \text{Shares Outstanding}
-$$
-
-$$
-\text{Fair Value per Share} = \$581.1 \text{M} / 157.97 \text{M} = **\$3.68**
-$$
+| Sum of NPV of Cash Flows (2026-2030) | $28 |
+| NPV of Terminal Value | $618 |
+| **Total Enterprise Value (TEV)** | **$646** |
+| Add: Current Cash & Cash Equivalents | $233 |
+| Less: Total Debt | $(687) |
+| **Fair Value of Equity** | **$192** |
 
 ---
 
-## 6. Conclusion and Justification
+## 4. Fair Value Calculation and Justification
 
-### Fair Value Summary
+### Fair Value per Share Calculation
+
+$$
+\text{Fair Value per Share} = \frac{\text{Fair Value of Equity}}{\text{Shares Outstanding}} = \frac{\$192 \text{ million}}{157.97 \text{ million shares}}
+$$
+
+$$
+\mathbf{\text{Fair Value per Share} = \$1.22}
+$$
+
+### Current Stock Price and Valuation Discrepancy
 
 | Metric | Value |
 | :--- | :--- |
-| **Calculated Fair Value per Share** | **$3.68** |
-| **Current Market Value per Share** (Approx. Nov 2, 2025) | **$2.40** |
-| **Valuation Gap** | **53.3% Higher** |
+| **Calculated Fair Value per Share** | **$1.22** |
+| **Current Market Price** | **~$1.54** |
+| **Difference** | **-20.78%** |
 
-### Justification for the Valuation Gap
+### Justification for Difference
 
-Our calculated Fair Value of **\$3.68** is **53.3% higher** than the current market price of **\$2.40**. This significant discrepancy suggests the market and our model are making fundamentally different assumptions about the company's future:
+The calculated Fair Value of **$1.22** is below the current market price of **~$1.54**. This suggests the market is making more optimistic assumptions about the company's turnaround than the conservative model.
 
-**Market's Assumptions (The Skeptical View):**
+**Market's Implicit Assumptions vs. Conservative Model:**
 
-1.  **Failure to Execute Turnaround:** The market is likely pricing in a high probability that Conduent will **fail to achieve its margin expansion targets** and that **2024 is not the revenue trough**. The market sees the $3.35B revenue base as fragile, with the new ACV not being sufficient to completely offset the ongoing runoff of old, higher-margin contracts.
-2.  **High Risk, Low Return:** The market is implicitly using a much higher discount rate (perhaps 15-20%) and/or a much lower terminal growth rate (0% or even negative) due to the company's long history of losses and its exposure to competitive, low-growth business process outsourcing (BPO) services. The negative historical ROIC also weighs heavily on market perception.
-3.  **Net Income is Not True Free Cash Flow:** Our model assumes Net Income converts directly to FCF. The market may be discounting for CapEx (which management guided to 3.1% of revenue in 2023) and working capital volatility, making the true FCF much lower than the projected Net Income.
-
-**Model's Assumptions (The Management-Guided Conservative View):**
-
-1.  **Successful Execution of Management Plan:** Our model relies on management's explicit guidance that 2024 is the **trough** and the margin will improve to a **5.25% EBITDA margin by 2025**. The model credits the company for the successful divestiture program and debt paydown, assuming the business becomes more focused and efficient.
-2.  **Conversion to Sustainable Profitability:** Our projection of a conservative but achievable **2.0% Net Income Margin** by the end of the projection period is the key value driver. This is a very modest margin for a business that handles high-volume government and commercial transactions, suggesting significant room for upside if the transition to technology-led services is successful.
-3.  **Conservative Valuation Metrics:** The model already uses highly conservative DCF inputs: a high **10.0% Discount Rate** and a minimal **1.0% Terminal Growth Rate**. The 3.0% ROIC is also very conservative. The positive valuation is driven by the fact that even with these conservative inputs, the projected profitability from the successful execution of the turnaround yields a higher intrinsic value.
+1.  **More Aggressive Revenue Growth:** The market may be placing higher confidence in the new business signings (ACV up 6%) and the pivot to growth in Government/Transportation segments. For the current price to be justified, the market likely projects consolidated revenue growth to stabilize and accelerate to a permanent $4.5\%$ to $5.0\%$ long-term growth rate, or for the Commercial segment decline to stop much sooner than modeled.
+2.  **Faster, Deeper Margin Expansion:** The market is likely pricing in a faster and more successful execution of the CEO's cost-efficiency and portfolio optimization plan. Instead of reaching a 3.0% Net Income margin by 2030, the market may believe the company will achieve the high end of the Adjusted EBITDA target (**10%**) by 2028-2029, with a corresponding Net Income Margin of $\mathbf{4.5\%}$ to $\mathbf{5.0\%}$ earlier than modeled. This is a "turnaround premium" based on the new management's execution pledge.
+3.  **Lower Discount Rate:** The market may view Conduent as a lower-risk investment than the **10.0%** discount rate used here, possibly assuming the debt can be successfully reduced from asset sales (portfolio rationalization) as planned, thereby lowering the systematic risk and cost of capital.
 
 **Conclusion:**
 
-The Fair Value of **\$3.68** represents a scenario where Conduent successfully navigates its multi-year turnaround as outlined by management. The market's price of **\$2.40** reflects deep skepticism about the company's ability to transition from a long-time loss-maker to a reliably profitable and growing entity. **The stock is a value proposition that is dependent on the flawless execution of their strategic plan to cut stranded costs and grow the remaining 'RemainCo' businesses.** If management hits the 5.25% EBITDA target for 2025 and begins to grow revenue in the back half of the year, the market is likely to re-rate the stock towards our calculated Fair Value.
+The conservative DCF valuation suggests that Conduent Incorporated (CNDT) is currently **overvalued** by the market at $\sim\$1.54 per share. The difference reflects the high degree of execution risk inherent in a complex turnaround story with a significant debt load and structural industry headwinds (AI disruption). The market is willing to bet on the successful execution of the strategic plan, while the conservative valuation holds a lower expectation until positive GAAP Net Income and Free Cash Flow are demonstrated.
