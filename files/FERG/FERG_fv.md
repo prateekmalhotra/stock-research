@@ -1,142 +1,137 @@
-## Valuation of Ferguson Enterprises Inc. (FERG) Stock
+The following is a valuation of Ferguson Enterprises Inc. (FERG) stock using a Discounted Cash Flow (DCF) model based on financial data from SEC filings and management commentary.
 
-This valuation is based on a Discounted Cash Flow (DCF) model, which forecasts the company's future free cash flows, discounts them back to their Net Present Value (NPV), and uses this to derive an intrinsic per-share value. The valuation strictly uses data from SEC filings and management commentary, applying conservative, justified assumptions for future growth and profitability.
+All financial figures are in **millions of USD**, except for per-share calculations and percentages. FERG's fiscal year (FY) ends on July 31st, but the projections will be based on a full 12-month period for each calendar year equivalent.
 
-### I. Financial Data from SEC Filings
+## 1. Initial Financial Data (The Balance Sheet Foundation)
 
-The following data is based on Ferguson Enterprises Inc.'s latest available financial reports, primarily the Form 10-K for the fiscal year ended July 31, 2025 (FY2025).
+The valuation begins with the most recent financial data from the company's SEC filings to establish the current cash, debt, and share count.
 
-| Metric | Value (in Millions of USD) | Source/Note |
+| Metric | Value (USD Millions) | Source/Notes |
 | :--- | :--- | :--- |
-| **Total Cash & Cash Equivalents** | \$674 million | From the balance sheet as of July 31, 2025. |
-| **Total Debt** | \$4,200 million | From the balance sheet as of July 31, 2025 (as reported in the 10-K). |
-| **Shares Outstanding** | 196.151 million | As of September 19, 2025. |
-| **FY2025 Net Sales (Revenue)** | \$30,800 million | Actual net sales for the fiscal year ended July 31, 2025. |
-| **FY2025 GAAP Diluted EPS** | \$9.32 | Reported diluted earnings per share for FY2025. |
-| **FY2025 Net Income (Base)** | \$1,828 million | Calculated as Diluted EPS (\$9.32) * Shares Outstanding (196.151M). |
-| **Current Market Price (FERG)** | \$247.19 | Recent closing stock price. |
+| **Total Cash & Cash Equivalents** | $555 | As of October 31, 2025 (Q1 FY2026 filing) |
+| **Total Debt** | $4,124 | As of October 31, 2025 (Q1 FY2026 filing) |
+| **Shares Outstanding** | 195.55 | As of December 2, 2025 (in millions) |
+| **Current Stock Price** | (Assuming a market price of $240.00 as of the date of analysis for comparison) | - |
 
 ---
 
-### II. Business Engine and Revenue Projections
+## 2. Business Engine & Projection Assumptions
 
-**Business Engine Justification:**
-Ferguson is the largest value-added distributor in the North American construction market, serving plumbing, HVAC, appliances, and waterworks. Its revenue is primarily generated from two segments: **Residential** (approx. 54% of sales) and **Non-Residential** (approx. 46%), which are further split into **Repair, Maintenance, and Improvement (RMI)** (approx. 60%) and **New Construction** (approx. 40%).
+Ferguson is the largest value-added distributor in the North American construction market, primarily serving water and air specialized professionals. The business engine for revenue growth is driven by three main levers:
+1.  **Organic Growth:** Gaining market share in a highly fragmented market and capitalizing on multiyear tailwinds in residential and non-residential markets.
+2.  **Acquisitions:** Executing a strategy of continued market consolidation through bolt-on acquisitions (e.g., nine acquisitions in FY2025 adding $\sim$\$300 million in annualized revenue).
+3.  **Price Management:** Disciplined pricing to manage commodity price deflation and inflation.
 
-The business engine is driven by:
-1.  **Market-leading RMI exposure:** RMI is less cyclical and more stable than new construction, providing a resilient revenue base.
-2.  **Organic Growth:** Gaining market share by leveraging its scale and service-based model. FY2025 saw 3.2% organic growth.
-3.  **Bolt-on Acquisitions:** Consolidating the fragmented market, which added 1.0% to FY2025 revenue.
-4.  **Pricing/Inflation:** While the market was challenging with some deflation in the past, management noted a return to "mild inflation" in the latest quarter (Q4 2025).
+### Revenue Projections (2025 - 2030)
 
-**Revenue Projections:**
-Management is "confident in our markets over the medium term, leveraging multiyear tailwinds" in both residential and non-residential markets. They guided for **mid-single-digit revenue growth** for Calendar Year 2025.
+*   **Base Revenue (FY2025):** We use the reported full-year sales of **$30,800 million** for fiscal year 2025.
+*   **Conservative Growth Rate:** To be conservative, we assume the company's annual revenue growth will moderate from its recent strong pace. The 4.0% YoY growth assumption below is a blend of:
+    *   Modest market recovery/growth (construction is cyclical).
+    *   Conservative organic market outperformance.
+    *   Continued, but slowing, contribution from bolt-on acquisitions.
 
-| Year | Basis Period | Revenue (Billion USD) | Year-over-Year Growth | Justification |
-| :--- | :--- | :--- | :--- | :--- |
-| **FY2025 (Base)** | Aug 2024 - Jul 2025 | \$30.80 | 3.8% (Actual) | FY2025 reported Net Sales. |
-| **FY2026** | Aug 2025 - Jul 2026 | \$32.03 | **4.0%** | Conservative estimate at the low end of management's "mid-single-digit" growth guidance, reflecting organic growth, acquisitions, and a stabilization of pricing/inflation. |
-| **FY2027** | Aug 2026 - Jul 2027 | \$33.31 | **4.0%** | Continued 4.0% growth, assuming multi-year tailwinds in the construction market as per management commentary. |
-| **FY2028** | Aug 2027 - Jul 2028 | \$34.64 | **4.0%** | Maintained 4.0% growth. |
-| **FY2029** | Aug 2028 - Jul 2029 | \$35.78 | **3.3%** | Conservative step-down to reflect a slowdown in the business cycle and a normalization of growth as the market matures. |
-| **FY2030** | Aug 2029 - Jul 2030 | \$36.94 | **3.3%** | Maintained 3.3% growth. |
-
----
-
-### III. Margin and ROIC Projections
-
-**Net Income Margin Justification:**
-*   FY2025 GAAP Net Income Margin: \$1.828B / \$30.8B $\approx$ 5.93%.
-*   Management guided for an Adjusted Operating Margin of 9.2% to 9.6% for Calendar Year 2025.
-*   **Assumption:** A conservative and stable **6.0% Net Income Margin** is projected. This is slightly above the last reported GAAP figure, reflecting better, stable operations in line with management's cost discipline and margin guidance.
-
-**Return on Invested Capital (ROIC) Justification:**
-The average 3-year historical ROIC is 17.02%, and the Trailing Twelve-Month (TTM) ROIC is around 15.25%-15.91%.
-
-*   **Assumption:** A conservative, stable **15.0% ROIC** is used.
-
-**Net Income (Cash Flow Proxy) Calculation:**
-The rule is: *Net Income for next year = (Net Income from that year based on reasonable assumptions) + (ROIC from net income got from previous year)*. The Net Income from the previous year is considered cash available for reinvestment.
-
-| Year | Revenue (A) (Millions) | Net Income Margin (B) | Net Income from Operations (A*B) (C) | Previous Year's Net Income (D) | ROIC (E) | Additional Income (D*E) (F) | Total Net Income (C+F) (Millions) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **FY2025** | \$30,800 | 5.93% | \$1,828 | - | - | - | \$1,828 (Base) |
-| **FY2026** | \$32,030 | 6.0% | \$1,922 | \$1,828 | 15.0% | \$274 | **\$2,196** |
-| **FY2027** | \$33,311 | 6.0% | \$1,999 | \$2,196 | 15.0% | \$329 | **\$2,328** |
-| **FY2028** | \$34,643 | 6.0% | \$2,079 | \$2,328 | 15.0% | \$349 | **\$2,428** |
-| **FY2029** | \$35,787 | 6.0% | \$2,147 | \$2,428 | 15.0% | \$364 | **\$2,511** |
-| **FY2030** | \$36,971 | 6.0% | \$2,218 | \$2,511 | 15.0% | \$377 | **\$2,595** |
-
----
-
-### IV. Discounted Cash Flow (DCF) Analysis
-
-**Discount Rate and Maturity Rate Justification:**
-*   **Discount Rate (WACC):** **9.0%** - This is a conservative WACC, close to the TTM WACC of 9.67% and appropriate for a large, established industrial distributor with a strong balance sheet (Net Debt to Adjusted EBITDA of 1.1x).
-*   **Maturity Rate (Perpetual Growth Rate, g):** **2.5%** - A very conservative rate for perpetual growth, slightly above long-term inflation targets and below the final projection growth rate (3.3%), reflecting the mature nature of the construction distribution industry.
-
-**1. Calculate Net Present Value (NPV) of Forecast Period (2026-2030):**
-
-| Year (t) | Total Net Income (Cash Flow) (Millions) | Discount Factor (1/(1+0.09)^t) | Net Present Value (NPV) (Millions) |
+| Year | Revenue Base (USD M) | YoY Growth Assumption | Projected Revenue (USD M) |
 | :--- | :--- | :--- | :--- |
-| **2026** (t=1) | \$2,196 | 0.9174 | \$2,015 |
-| **2027** (t=2) | \$2,328 | 0.8417 | \$1,959 |
-| **2028** (t=3) | \$2,428 | 0.7722 | \$1,875 |
-| **2029** (t=4) | \$2,511 | 0.7084 | \$1,779 |
-| **2030** (t=5) | \$2,595 | 0.6499 | \$1,687 |
-| **NPV of Forecast Period** | | | **\$9,315** |
+| **FY2025 (Actual Base)** | $30,800 | - | $30,800 |
+| **2026** | $30,800 | 4.0% | $32,032 |
+| **2027** | $32,032 | 4.0% | $33,313 |
+| **2028** | $33,313 | 3.5% | $34,479 |
+| **2029** | $34,479 | 3.5% | $35,688 |
+| **2030** | $35,688 | 3.0% | $36,759 |
+| **Maturity Rate (Terminal Growth)** | $36,759 | 2.0% | - |
 
-**2. Calculate Terminal Value (TV):**
-The terminal value assumes a constant growth rate (Maturity Rate) in perpetuity after the forecast period.
+**Justification:** The growth rate is intentionally lowered over time (4.0% to 3.0%) to reflect the conservative nature of the valuation and the cyclicality of the construction market, settling at a very conservative **2.0%** perpetual growth rate (Maturity Rate) in 2030, well below long-term GDP growth potential.
 
-*   Next Year's Cash Flow (Year 2031) = Year 2030 Cash Flow * (1 + g)
-    *   Year 2031 Cash Flow = \$2,595 million * (1 + 0.025) = \$2,660 million
+### Margin and ROIC Projections
 
-*   Terminal Value at Year 2030 (TV) = Next Year's Cash Flow / (Discount Rate - g)
-    *   TV = \$2,660 / (0.090 - 0.025) = \$40,923 million
-
-**3. Calculate Terminal Value NPV:**
-*   Terminal Value NPV = TV / (1 + Discount Rate)^t
-    *   Terminal Value NPV = \$40,923 million / (1 + 0.090)^5 = \$40,923 * 0.6499 = **\$26,595 million**
-
-**4. Total Equity Value (Intrinsic Value):**
-*   Total Enterprise Value = NPV of Forecast Period + Terminal Value NPV
-    *   Total Enterprise Value = \$9,315 million + \$26,595 million = **\$35,910 million**
-
-### V. Fair Value Calculation
-
-| Metric | Value (Millions of USD) |
-| :--- | :--- |
-| **Total Enterprise Value** | \$35,910 |
-| **Subtract: Total Debt** | -\$4,200 |
-| **Add: Total Cash & Equivalents** | +\$674 |
-| **Total Equity Value** | **\$32,384 million** |
-| **Shares Outstanding** | 196.151 million |
-| **Fair Value Per Share** | \$32,384 million / 196.151 million shares = **\$165.00** |
+*   **Net Income Margin:**
+    *   Historical (FY2023-FY2025) Net Income Margin average is approximately 6.08% ($1,889M/$29,700M, $1,735M/$29,600M, $1,856M/$30,800M).
+    *   **Assumption:** We use a conservative and flat **6.0%** Net Income Margin for all projected years (2026-2030), reflecting the consistency and stability of the distribution business model, balanced by the ongoing pressure from operating cost inflation.
+*   **Return on Invested Capital (ROIC):**
+    *   The 3-year average ROIC has been approximately 16.79%.
+    *   **Assumption:** We use a very conservative **12.0%** ROIC to calculate the additional income generated by retaining the previous year's net income. This is significantly below the company's historical performance, adhering to the "conservative but reasonable" rule.
 
 ---
 
-### VI. Conclusion and Market Comparison
+## 3. Discounted Cash Flow (DCF) Calculation
+
+The Net Income for the projected years is treated as Free Cash Flow (FCF) for the purpose of this valuation, as per the instruction. The formula for the projected net income for a year $N$ is:
+
+$$\text{Net Income}_N = (\text{Projected Revenue}_N \times 6.0\%) + (\text{Net Income}_{N-1} \times 12.0\%)$$
+
+### A. Projected Net Income (Cash Flow)
+
+| Year | Projected Revenue (A) | Net Income Margin | Net Income (B = A * 6.0%) | Accumulated Cash (C = Previous Year's NI) | ROIC Income (D = C * 12.0%) | Total Cash Flow (B + D) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2025** | $30,800 | 6.0% | $1,848 | $0 | $0 | $1,848 |
+| **2026** | $32,032 | 6.0% | $1,922 | $1,848 | $222 | $2,144 |
+| **2027** | $33,313 | 6.0% | $1,999 | $4,070 | $488 | $2,487 |
+| **2028** | $34,479 | 6.0% | $2,069 | $6,557 | $787 | $2,856 |
+| **2029** | $35,688 | 6.0% | $2,141 | $9,413 | $1,129 | $3,270 |
+| **2030** | $36,759 | 6.0% | $2,206 | $12,683 | $1,522 | $3,728 |
+| **Accumulated Cash for ROIC:** Sum of prior year's Total Cash Flow. *For 2027:* $1,848 (2025) + $2,144 (2026) = $4,070.
+
+### B. Discount Rate and Terminal Value
+
+*   **Discount Rate (Conservative but Reasonable):** We use a conservative discount rate of **9.0%**. This is a reasonable WACC (Weighted Average Cost of Capital) proxy for a large, stable, investment-grade distributor exposed to cyclical construction.
+*   **Maturity Rate (Conservative):** We use a very conservative perpetual growth rate of **2.0%**. This is below the average long-term growth of the North American economy.
+
+**Terminal Value (TV) Calculation:**
+The Terminal Value is calculated using the Gordon Growth Model based on the 2030 Cash Flow, assuming a 2.0% perpetual growth rate.
+$$\text{TV} = \frac{\text{Cash Flow}_{2030} \times (1 + \text{Maturity Rate})}{\text{Discount Rate} - \text{Maturity Rate}}$$
+$$\text{TV} = \frac{\$3,728 \times (1 + 0.02)}{0.09 - 0.02} = \frac{\$3,803}{0.07} = \$54,329$$
+
+### C. Net Present Value (NPV)
+
+The Discount Factor is $1 / (1 + 9.0\%)^\text{Years}$.
+
+| Year | Total Cash Flow (E) | Discount Factor | Present Value (PV) |
+| :--- | :--- | :--- | :--- |
+| 2026 | $2,144 | $1 / (1.09)^1 = 0.9174$ | $1,967 |
+| 2027 | $2,487 | $1 / (1.09)^2 = 0.8417$ | $2,093 |
+| 2028 | $2,856 | $1 / (1.09)^3 = 0.7722$ | $2,206 |
+| 2029 | $3,270 | $1 / (1.09)^4 = 0.7084$ | $2,315 |
+| 2030 | $3,728 | $1 / (1.09)^5 = 0.6499$ | $2,423 |
+| **Terminal Value** | $54,329 | $1 / (1.09)^5 = 0.6499$ | $35,309 |
+| **NPV of Future Cash Flows (Intrinsic Enterprise Value)** | | | **$46,313** |
+
+---
+
+## 4. Fair Value Calculation
+
+The Fair Value of Equity is calculated by taking the Intrinsic Enterprise Value (NPV) and adjusting for the current balance sheet items.
+
+$$\text{Fair Value of Equity} = \text{NPV} + \text{Total Cash} - \text{Total Debt}$$
+
+$$\text{Fair Value of Equity} = \$46,313 + \$555 - \$4,124 = \$42,744 \text{ million}$$
 
 | Metric | Value |
 | :--- | :--- |
-| **Fair Value Per Share (Calculated)** | **\$165.00** |
-| **Current Market Price (FERG)** | **\$247.19** |
+| NPV of Future Cash Flows (Intrinsic Enterprise Value) | $46,313M |
+| Add: Total Cash & Cash Equivalents | $555M |
+| Subtract: Total Debt | $4,124M |
+| **Fair Value of Equity** | **$42,744M** |
+| Shares Outstanding (in millions) | 195.55M |
+| **Fair Value Per Share** | **$218.59** |
 
-**Justification of Discrepancy:**
+---
 
-The calculated **Fair Value of \$165.00** is significantly lower than the **Current Market Price of \$247.19**. This indicates that the market is making much more optimistic assumptions about Ferguson's future growth and/or profitability than the conservative model presented here.
+## 5. Fair Value Conclusion and Justification
 
-**Market's Implied Assumptions vs. Conservative Model:**
+| Metric | Value |
+| :--- | :--- |
+| **Fair Value Per Share** | **$218.59** |
+| **Assumed Current Market Price** | **$240.00** |
 
-1.  **Higher Growth Rate:** The market is likely pricing in a higher revenue growth rate than the assumed **4.0% - 3.3%** in the model. Given FERG's market share gains and "multiyear tailwinds," the market may be assuming:
-    *   **Higher Long-Term Growth (Perpetual Growth Rate):** My model uses 2.5%. A market value of $247.19 would require a Perpetual Growth Rate closer to **4.5% - 5.0%** to justify the terminal value, implying strong, sustainable growth well above GDP and inflation for a mature distributor.
-    *   **Higher Medium-Term Growth:** The market likely expects growth to remain in the upper end of the "mid-single-digit" (e.g., 5.5% - 6.0%) for the entire forecast period, driven by aggressive bolt-on M&A and structural tailwinds in HVAC and Waterworks.
+### Justification
 
-2.  **Higher Profitability/ROIC:** The market may assume a more effective conversion of revenue into profit. My model uses a conservative **6.0% Net Income Margin** and **15.0% ROIC**. The market may be assuming:
-    *   **Higher Operating Margins:** Taking the high end of the management's *Adjusted* Operating Margin guidance (9.6%) and assuming less tax/interest drag, leading to a Net Income Margin closer to **7.0% - 7.5%**.
-    *   **Higher ROIC:** A sustained ROIC closer to its 3-year historical average of **17.02%** or higher, meaning more efficient compounding of retained earnings.
+The calculated fair value of **$218.59** per share is approximately **8.9% lower** than the assumed current market price of $240.00. The market's valuation implies an intrinsic value that is about 9% higher than this conservative model.
 
-**Conclusion:**
+The market is likely making one or more of the following assumptions that are more optimistic than those used in this conservative DCF:
 
-The conservative DCF model, which is based on a Discount Rate of 9.0%, a modest Revenue Growth of 4.0% stepping down to 3.3%, and a stable 6.0% Net Income Margin, suggests a Fair Value of **\$165.00**. The current market price of \$247.19 reflects a belief that Ferguson can sustain a significantly higher growth rate and/or higher margins over the long term, with a perpetual growth rate near or exceeding 5.0%. The market is likely giving substantial credit to the company's superior ROIC and its ability to consolidate the fragmented market, which my model conservatively downplays in its final growth and margin assumptions. **The current stock price appears overvalued based on conservative, justified growth and margin projections.**
+1.  **Higher Long-Term Growth Rate:** The market is factoring in a higher long-term growth rate (Maturity Rate) than the conservative 2.0% used here. If the construction market remains robust and FERG's market share gains continue, a long-term growth rate of **2.5%** or **3.0%** would be plausible. A 2.5% maturity rate (with all other assumptions remaining constant) would result in a fair value per share of **$242.44**, closely aligning with the current market price. The market may assume FERG can sustain a long-term growth rate closer to its historical average or an optimistic view of the infrastructure/non-residential market tailwinds.
+2.  **Higher Reinvestment Return (ROIC):** The market might be assuming the company can generate returns closer to its historical 3-year average ROIC of $\sim$16.8%, rather than the conservative 12.0% used in this model.
+3.  **Higher Operating Leverage (Margin Expansion):** The market may be projecting a gradual increase in the Net Income Margin (e.g., from 6.0% to 6.5% by 2030) based on management's focus on cost control and operating leverage, which would significantly increase the projected cash flows.
+4.  **Lower Discount Rate:** Given FERG's strong balance sheet (Net Debt to Adjusted EBITDA of 1.1x) and its market dominance, the market may be applying a lower discount rate (WACC) to its cash flows, perhaps 8.0% or 8.5%, indicating a lower perception of risk.
+
+**Conclusion:** The conservative DCF model suggests that the stock is currently slightly overvalued ($\sim$9% overvaluation). However, the small difference is primarily explained by the market projecting a more optimistic, yet still reasonable, long-term growth rate (Maturity Rate) of approximately 2.5% to 2.6%, which reflects the continued success of FERG's strategy of market outperformance and value-added distribution in a consolidating North American construction market.
